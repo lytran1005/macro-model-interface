@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+07_INA,Indonesia,1990,Population,181869.93
+07_INA,Indonesia,1991,Population,185132.265
+07_INA,Indonesia,1992,Population,188424.211
+07_INA,Indonesia,1993,Population,191663.277
+07_INA,Indonesia,1994,Population,194947.058
+07_INA,Indonesia,1995,Population,198236.597
+07_INA,Indonesia,1996,Population,201539.517
+07_INA,Indonesia,1997,Population,204869.178
+07_INA,Indonesia,1998,Population,208203.012
+07_INA,Indonesia,1999,Population,211450.565
+07_INA,Indonesia,2000,Population,214558.771
+07_INA,Indonesia,2001,Population,217596.809
+07_INA,Indonesia,2002,Population,220598.994
+07_INA,Indonesia,2003,Population,223577.996
+07_INA,Indonesia,2004,Population,226518.019
+07_INA,Indonesia,2005,Population,229335.279
+07_INA,Indonesia,2006,Population,232408.021
+07_INA,Indonesia,2007,Population,235495.283
+07_INA,Indonesia,2008,Population,238629.392
+07_INA,Indonesia,2009,Population,241686.415
+07_INA,Indonesia,2010,Population,244753.641
+07_INA,Indonesia,2011,Population,247857.003
+07_INA,Indonesia,2012,Population,251083.061
+07_INA,Indonesia,2013,Population,254313.989
+07_INA,Indonesia,2014,Population,257390.944
+07_INA,Indonesia,2015,Population,260363.854
+07_INA,Indonesia,2016,Population,263234.644
+07_INA,Indonesia,2017,Population,266020.192
+07_INA,Indonesia,2018,Population,268673.124
+07_INA,Indonesia,2019,Population,271230.569
+07_INA,Indonesia,2020,Population,273748.193
+07_INA,Indonesia,2021,Population,275881.538
+07_INA,Indonesia,2022,Population,277634.568
+07_INA,Indonesia,2023,Population,280026.489
+07_INA,Indonesia,2024,Population,282353.644
+07_INA,Indonesia,2025,Population,284622.217
+07_INA,Indonesia,2026,Population,286820.254
+07_INA,Indonesia,2027,Population,288953.311
+07_INA,Indonesia,2028,Population,291019.733
+07_INA,Indonesia,2029,Population,293013.824
+07_INA,Indonesia,2030,Population,294942.394
+07_INA,Indonesia,2031,Population,296810.902
+07_INA,Indonesia,2032,Population,298628.594
+07_INA,Indonesia,2033,Population,300392.729
+07_INA,Indonesia,2034,Population,302109.24
+07_INA,Indonesia,2035,Population,303767.906
+07_INA,Indonesia,2036,Population,305365.338
+07_INA,Indonesia,2037,Population,306904.858
+07_INA,Indonesia,2038,Population,308387.977
+07_INA,Indonesia,2039,Population,309804.919
+07_INA,Indonesia,2040,Population,311157.321
+07_INA,Indonesia,2041,Population,312437.47
+07_INA,Indonesia,2042,Population,313645.852
+07_INA,Indonesia,2043,Population,314776.713
+07_INA,Indonesia,2044,Population,315831.911
+07_INA,Indonesia,2045,Population,316804.92
+07_INA,Indonesia,2046,Population,317694.306
+07_INA,Indonesia,2047,Population,318498.841
+07_INA,Indonesia,2048,Population,319225.198
+07_INA,Indonesia,2049,Population,319884.107
+07_INA,Indonesia,2050,Population,320462.393
+07_INA,Indonesia,2051,Population,320963.506
+07_INA,Indonesia,2052,Population,321386.717
+07_INA,Indonesia,2053,Population,321740.016
+07_INA,Indonesia,2054,Population,322030.724
+07_INA,Indonesia,2055,Population,322257.813
+07_INA,Indonesia,2056,Population,322426.18
+07_INA,Indonesia,2057,Population,322541.506
+07_INA,Indonesia,2058,Population,322598.358
+07_INA,Indonesia,2059,Population,322608.985
+07_INA,Indonesia,2060,Population,322569.202
+07_INA,Indonesia,2061,Population,322489.463
+07_INA,Indonesia,2062,Population,322367.877
+07_INA,Indonesia,2063,Population,322211.84
+07_INA,Indonesia,2064,Population,322025.315
+07_INA,Indonesia,2065,Population,321805.953
+07_INA,Indonesia,2066,Population,321557.255
+07_INA,Indonesia,2067,Population,321275.994
+07_INA,Indonesia,2068,Population,320962.638
+07_INA,Indonesia,2069,Population,320620.046
+07_INA,Indonesia,2070,Population,320248.459
+07_INA,Indonesia,2071,Population,319851.135
+07_INA,Indonesia,2072,Population,319426.154
+07_INA,Indonesia,2073,Population,318969.798
+07_INA,Indonesia,2074,Population,318479.673
+07_INA,Indonesia,2075,Population,317962.645
+07_INA,Indonesia,2076,Population,317409.417
+07_INA,Indonesia,2077,Population,316833.139
+07_INA,Indonesia,2078,Population,316217.123
+07_INA,Indonesia,2079,Population,315571.55
+07_INA,Indonesia,2080,Population,314893.496
+07_INA,Indonesia,2081,Population,314191.692
+07_INA,Indonesia,2082,Population,313460.508
+07_INA,Indonesia,2083,Population,312696.807
+07_INA,Indonesia,2084,Population,311902.971
+07_INA,Indonesia,2085,Population,311083.295
+07_INA,Indonesia,2086,Population,310236.879
+07_INA,Indonesia,2087,Population,309362.571
+07_INA,Indonesia,2088,Population,308461.398
+07_INA,Indonesia,2089,Population,307540.153
+07_INA,Indonesia,2090,Population,306596.177
+07_INA,Indonesia,2091,Population,305625.545
+07_INA,Indonesia,2092,Population,304633.507
+07_INA,Indonesia,2093,Population,303617.802
+07_INA,Indonesia,2094,Population,302583.117
+07_INA,Indonesia,2095,Population,301534.476
+07_INA,Indonesia,2096,Population,300473.885
+07_INA,Indonesia,2097,Population,299393.801
+07_INA,Indonesia,2098,Population,298298.057
+07_INA,Indonesia,2099,Population,297192.662
+07_INA,Indonesia,2100,Population,296074.174
+07_INA,Indonesia,1990,Labour efficiency,1.913697554377949
+07_INA,Indonesia,1991,Labour efficiency,1.9967415783734224
+07_INA,Indonesia,1992,Labour efficiency,2.066693445229902
+07_INA,Indonesia,1993,Labour efficiency,2.146443332833811
+07_INA,Indonesia,1994,Labour efficiency,2.246478522392072
+07_INA,Indonesia,1995,Labour efficiency,2.3665006421768187
+07_INA,Indonesia,1996,Labour efficiency,2.4661518809169034
+07_INA,Indonesia,1997,Labour efficiency,2.4542361415337135
+07_INA,Indonesia,1998,Labour efficiency,1.8564590996868933
+07_INA,Indonesia,1999,Labour efficiency,1.8189470313019203
+07_INA,Indonesia,2000,Labour efficiency,1.896250548270814
+07_INA,Indonesia,2001,Labour efficiency,1.9358867814339753
+07_INA,Indonesia,2002,Labour efficiency,2.001655950672821
+07_INA,Indonesia,2003,Labour efficiency,2.0809621893447576
+07_INA,Indonesia,2004,Labour efficiency,2.1579840424010825
+07_INA,Indonesia,2005,Labour efficiency,2.255086300660569
+07_INA,Indonesia,2006,Labour efficiency,2.3508735129978806
+07_INA,Indonesia,2007,Labour efficiency,2.4776027331914015
+07_INA,Indonesia,2008,Labour efficiency,2.588093147791715
+07_INA,Indonesia,2009,Labour efficiency,2.6513752343487393
+07_INA,Indonesia,2010,Labour efficiency,2.7817004857856666
+07_INA,Indonesia,2011,Labour efficiency,2.9114115086861663
+07_INA,Indonesia,2012,Labour efficiency,3.0344623964231023
+07_INA,Indonesia,2013,Labour efficiency,3.1429968917000113
+07_INA,Indonesia,2014,Labour efficiency,3.2330449467539584
+07_INA,Indonesia,2015,Labour efficiency,3.32240308121578
+07_INA,Indonesia,2016,Labour efficiency,3.4275227075051284
+07_INA,Indonesia,2017,Labour efficiency,3.538741096893193
+07_INA,Indonesia,2018,Labour efficiency,3.6598336639956957
+07_INA,Indonesia,2019,Labour efficiency,3.781514870877807
+07_INA,Indonesia,2020,Labour efficiency,3.5024595278216606
+07_INA,Indonesia,2021,Labour efficiency,3.576383417899451
+07_INA,Indonesia,2022,Labour efficiency,3.754028398715013
+07_INA,Indonesia,2023,Labour efficiency,3.916370430916699
+07_INA,Indonesia,2024,Labour efficiency,4.07956157948699
+07_INA,Indonesia,2025,Labour efficiency,4.253772244605853
+07_INA,Indonesia,2026,Labour efficiency,4.418303878428847
+07_INA,Indonesia,2027,Labour efficiency,4.604727749432395
+07_INA,Indonesia,2028,Labour efficiency,4.792130539035212
+07_INA,Indonesia,2029,Labour efficiency,4.984719267863507
+07_INA,Indonesia,2030,Labour efficiency,5.183571943915285
+07_INA,Indonesia,2031,Labour efficiency,5.3874433142490705
+07_INA,Indonesia,2032,Labour efficiency,5.600034763758782
+07_INA,Indonesia,2033,Labour efficiency,5.81795421701158
+07_INA,Indonesia,2034,Labour efficiency,6.042277974125717
+07_INA,Indonesia,2035,Labour efficiency,6.273279559707669
+07_INA,Indonesia,2036,Labour efficiency,6.511027833003565
+07_INA,Indonesia,2037,Labour efficiency,6.755922023933679
+07_INA,Indonesia,2038,Labour efficiency,7.007529796102731
+07_INA,Indonesia,2039,Labour efficiency,7.266165613192328
+07_INA,Indonesia,2040,Labour efficiency,7.531951021653564
+07_INA,Indonesia,2041,Labour efficiency,7.8049693298434075
+07_INA,Indonesia,2042,Labour efficiency,8.08530752469992
+07_INA,Indonesia,2043,Labour efficiency,8.372975085351833
+07_INA,Indonesia,2044,Labour efficiency,8.668091893626954
+07_INA,Indonesia,2045,Labour efficiency,8.970729352851192
+07_INA,Indonesia,2046,Labour efficiency,9.280946675189513
+07_INA,Indonesia,2047,Labour efficiency,9.59879744690128
+07_INA,Indonesia,2048,Labour efficiency,9.924327399085865
+07_INA,Indonesia,2049,Labour efficiency,10.257591591795396
+07_INA,Indonesia,2050,Labour efficiency,10.598629517508272
+07_INA,Indonesia,2051,Labour efficiency,10.94747332804521
+07_INA,Indonesia,2052,Labour efficiency,11.304149090856123
+07_INA,Indonesia,2053,Labour efficiency,11.668676731840216
+07_INA,Indonesia,2054,Labour efficiency,12.041070505048154
+07_INA,Indonesia,2055,Labour efficiency,12.421335397935076
+07_INA,Indonesia,2056,Labour efficiency,12.809468744050589
+07_INA,Indonesia,2057,Labour efficiency,13.205460211832664
+07_INA,Indonesia,2058,Labour efficiency,13.60929148556816
+07_INA,Indonesia,2059,Labour efficiency,14.020935885551996
+07_INA,Indonesia,2060,Labour efficiency,14.440357787133923
+07_INA,Indonesia,2061,Labour efficiency,14.86751276837045
+07_INA,Indonesia,2062,Labour efficiency,15.302347402703278
+07_INA,Indonesia,2063,Labour efficiency,15.749899776859921
+07_INA,Indonesia,2064,Labour efficiency,16.2105418504164
+07_INA,Indonesia,2065,Labour efficiency,16.68465646176275
+07_INA,Indonesia,2066,Labour efficiency,17.17263764627897
+07_INA,Indonesia,2067,Labour efficiency,17.674890963816786
+07_INA,Indonesia,2068,Labour efficiency,18.191833835759333
+07_INA,Indonesia,2069,Labour efficiency,18.723895891938955
+07_INA,Indonesia,2070,Labour efficiency,19.271519327701412
+07_INA,Indonesia,2071,Labour efficiency,19.835159271413232
+07_INA,Indonesia,2072,Labour efficiency,20.41528416271768
+07_INA,Indonesia,2073,Labour efficiency,21.012376141853682
+07_INA,Indonesia,2074,Labour efficiency,21.626931450361297
+07_INA,Indonesia,2075,Labour efficiency,22.25946084350671
+07_INA,Indonesia,2076,Labour efficiency,22.910490014769564
+07_INA,Indonesia,2077,Labour efficiency,23.58056003274542
+07_INA,Indonesia,2078,Labour efficiency,24.270227790826386
+07_INA,Indonesia,2079,Labour efficiency,24.980066470033734
+07_INA,Indonesia,2080,Labour efficiency,25.710666015387105
+07_INA,Indonesia,2081,Labour efficiency,26.462633626206227
+07_INA,Indonesia,2082,Labour efficiency,27.236594260752646
+07_INA,Indonesia,2083,Labour efficiency,28.033191155630853
+07_INA,Indonesia,2084,Labour efficiency,28.853086360380498
+07_INA,Indonesia,2085,Labour efficiency,29.69696128770398
+07_INA,Indonesia,2086,Labour efficiency,30.565517279786732
+07_INA,Indonesia,2087,Labour efficiency,31.459476191180798
+07_INA,Indonesia,2088,Labour efficiency,32.37958098873624
+07_INA,Indonesia,2089,Labour efficiency,33.32659636907887
+07_INA,Indonesia,2090,Labour efficiency,34.301309394147594
+07_INA,Indonesia,2091,Labour efficiency,35.304530145319426
+07_INA,Indonesia,2092,Labour efficiency,36.33709239666599
+07_INA,Indonesia,2093,Labour efficiency,37.399854307900874
+07_INA,Indonesia,2094,Labour efficiency,38.49369913759391
+07_INA,Indonesia,2095,Labour efficiency,39.619535977244944
+07_INA,Indonesia,2096,Labour efficiency,40.77830050682738
+07_INA,Indonesia,2097,Labour efficiency,41.97095577242928
+07_INA,Indonesia,2098,Labour efficiency,43.19849298663837
+07_INA,Indonesia,2099,Labour efficiency,44.46193235233619
+07_INA,Indonesia,2100,Labour efficiency,45.76232391058593
+07_INA,Indonesia,1990,Capital stock,3682547.7048673527
+07_INA,Indonesia,1991,Capital stock,3976121.807950754
+07_INA,Indonesia,1992,Capital stock,4304226.252227176
+07_INA,Indonesia,1993,Capital stock,4639424.79086408
+07_INA,Indonesia,1994,Capital stock,5065799.512216222
+07_INA,Indonesia,1995,Capital stock,5566851.545315205
+07_INA,Indonesia,1996,Capital stock,6161768.017442665
+07_INA,Indonesia,1997,Capital stock,6792839.961708777
+07_INA,Indonesia,1998,Capital stock,7089208.179697748
+07_INA,Indonesia,1999,Capital stock,7283979.422469386
+07_INA,Indonesia,2000,Capital stock,7549105.264116989
+07_INA,Indonesia,2001,Capital stock,7836363.612223991
+07_INA,Indonesia,2002,Capital stock,8150966.917034778
+07_INA,Indonesia,2003,Capital stock,8469514.33507985
+07_INA,Indonesia,2004,Capital stock,8891281.335622149
+07_INA,Indonesia,2005,Capital stock,9383199.1693402
+07_INA,Indonesia,2006,Capital stock,9879213.42877124
+07_INA,Indonesia,2007,Capital stock,10440349.10815582
+07_INA,Indonesia,2008,Capital stock,11093921.993587028
+07_INA,Indonesia,2009,Capital stock,11753969.548240762
+07_INA,Indonesia,2010,Capital stock,12481464.918710291
+07_INA,Indonesia,2011,Capital stock,13285258.390321163
+07_INA,Indonesia,2012,Capital stock,14175906.77924182
+07_INA,Indonesia,2013,Capital stock,15102492.108224776
+07_INA,Indonesia,2014,Capital stock,16064033.88175803
+07_INA,Indonesia,2015,Capital stock,17072857.84752123
+07_INA,Indonesia,2016,Capital stock,18121152.02709269
+07_INA,Indonesia,2017,Capital stock,19240679.846609063
+07_INA,Indonesia,2018,Capital stock,20446130.615479004
+07_INA,Indonesia,2019,Capital stock,21692294.356784485
+07_INA,Indonesia,2020,Capital stock,22780577.28407784
+07_INA,Indonesia,2021,Capital stock,23898923.649487328
+07_INA,Indonesia,2022,Capital stock,25050529.203822397
+07_INA,Indonesia,2023,Capital stock,26249877.913754538
+07_INA,Indonesia,2024,Capital stock,27570922.64703032
+07_INA,Indonesia,2025,Capital stock,28979269.926197868
+07_INA,Indonesia,2026,Capital stock,30400345.361949738
+07_INA,Indonesia,2027,Capital stock,31831476.538703706
+07_INA,Indonesia,2028,Capital stock,33270039.726618115
+07_INA,Indonesia,2029,Capital stock,34713472.99553513
+07_INA,Indonesia,2030,Capital stock,36159287.87656956
+07_INA,Indonesia,2031,Capital stock,37605079.57381707
+07_INA,Indonesia,2032,Capital stock,39048535.74827041
+07_INA,Indonesia,2033,Capital stock,40487443.91283948
+07_INA,Indonesia,2034,Capital stock,41919697.49143481
+07_INA,Indonesia,2035,Capital stock,43343300.60651399
+07_INA,Indonesia,2036,Capital stock,44756371.66846286
+07_INA,Indonesia,2037,Capital stock,46157145.84687665
+07_INA,Indonesia,2038,Capital stock,47543976.50842595
+07_INA,Indonesia,2039,Capital stock,48915335.70875643
+07_INA,Indonesia,2040,Capital stock,50269813.82700105
+07_INA,Indonesia,2041,Capital stock,51606118.431197524
+07_INA,Indonesia,2042,Capital stock,52923072.461414866
+07_INA,Indonesia,2043,Capital stock,54219611.81490196
+07_INA,Indonesia,2044,Capital stock,55494782.414266996
+07_INA,Indonesia,2045,Capital stock,56747736.8357527
+07_INA,Indonesia,2046,Capital stock,57977730.57024491
+07_INA,Indonesia,2047,Capital stock,59184117.984882526
+07_INA,Indonesia,2048,Capital stock,60366348.048148096
+07_INA,Indonesia,2049,Capital stock,61523959.876218095
+07_INA,Indonesia,2050,Capital stock,62656578.15323204
+07_INA,Indonesia,2051,Capital stock,63763908.4730767
+07_INA,Indonesia,2052,Capital stock,64845732.64534009
+07_INA,Indonesia,2053,Capital stock,65901904.00331981
+07_INA,Indonesia,2054,Capital stock,66932342.747412734
+07_INA,Indonesia,2055,Capital stock,67953820.82694763
+07_INA,Indonesia,2056,Capital stock,69010162.01527867
+07_INA,Indonesia,2057,Capital stock,70100679.72150905
+07_INA,Indonesia,2058,Capital stock,71224696.21461277
+07_INA,Indonesia,2059,Capital stock,72381459.69944324
+07_INA,Indonesia,2060,Capital stock,73570274.84142588
+07_INA,Indonesia,2061,Capital stock,74790378.4191221
+07_INA,Indonesia,2062,Capital stock,76041051.81711297
+07_INA,Indonesia,2063,Capital stock,77321524.47649197
+07_INA,Indonesia,2064,Capital stock,78631908.33278333
+07_INA,Indonesia,2065,Capital stock,79972344.10896736
+07_INA,Indonesia,2066,Capital stock,81342948.5928795
+07_INA,Indonesia,2067,Capital stock,82743863.89887229
+07_INA,Indonesia,2068,Capital stock,84175198.78706525
+07_INA,Indonesia,2069,Capital stock,85637059.8562637
+07_INA,Indonesia,2070,Capital stock,87129573.27093196
+07_INA,Indonesia,2071,Capital stock,88652861.02963926
+07_INA,Indonesia,2072,Capital stock,90207069.51131044
+07_INA,Indonesia,2073,Capital stock,91792320.00459667
+07_INA,Indonesia,2074,Capital stock,93408689.00579436
+07_INA,Indonesia,2075,Capital stock,95056218.82163054
+07_INA,Indonesia,2076,Capital stock,96735011.65901788
+07_INA,Indonesia,2077,Capital stock,98445061.93633358
+07_INA,Indonesia,2078,Capital stock,100186492.25209019
+07_INA,Indonesia,2079,Capital stock,101959232.41939807
+07_INA,Indonesia,2080,Capital stock,103763309.58405524
+07_INA,Indonesia,2081,Capital stock,105598704.17803338
+07_INA,Indonesia,2082,Capital stock,107465483.40209071
+07_INA,Indonesia,2083,Capital stock,109363635.54317403
+07_INA,Indonesia,2084,Capital stock,111293095.4971637
+07_INA,Indonesia,2085,Capital stock,113253810.09502205
+07_INA,Indonesia,2086,Capital stock,115245763.30820405
+07_INA,Indonesia,2087,Capital stock,117268911.83562738
+07_INA,Indonesia,2088,Capital stock,119323180.35603781
+07_INA,Indonesia,2089,Capital stock,121408489.06766734
+07_INA,Indonesia,2090,Capital stock,123524832.61074819
+07_INA,Indonesia,2091,Capital stock,125672153.21462426
+07_INA,Indonesia,2092,Capital stock,127850319.75854518
+07_INA,Indonesia,2093,Capital stock,130059256.6562017
+07_INA,Indonesia,2094,Capital stock,132344008.33056013
+07_INA,Indonesia,2095,Capital stock,134705744.83695236
+07_INA,Indonesia,2096,Capital stock,137145748.57654366
+07_INA,Indonesia,2097,Capital stock,139665372.04802632
+07_INA,Indonesia,2098,Capital stock,142265882.87260017
+07_INA,Indonesia,2099,Capital stock,144948645.0630451
+07_INA,Indonesia,2100,Capital stock,147715161.94179899
+07_INA,Indonesia,1990,Savings,0.224536417723066
+07_INA,Indonesia,1991,Savings,0.220730005134311
+07_INA,Indonesia,1992,Savings,0.23300421656543602
+07_INA,Indonesia,1993,Savings,0.289981474546343
+07_INA,Indonesia,1994,Savings,0.298716953233965
+07_INA,Indonesia,1995,Savings,0.281384618646814
+07_INA,Indonesia,1996,Savings,0.278080799259437
+07_INA,Indonesia,1997,Savings,0.290309412324569
+07_INA,Indonesia,1998,Savings,0.224224923294215
+07_INA,Indonesia,1999,Savings,0.132018044083338
+07_INA,Indonesia,2000,Savings,0.262868992080315
+07_INA,Indonesia,2001,Savings,0.271997939280408
+07_INA,Indonesia,2002,Savings,0.230174077823404
+07_INA,Indonesia,2003,Savings,0.206840503559517
+07_INA,Indonesia,2004,Savings,0.207642899473513
+07_INA,Indonesia,2005,Savings,0.243384866318462
+07_INA,Indonesia,2006,Savings,0.257771435873662
+07_INA,Indonesia,2007,Savings,0.251791234447947
+07_INA,Indonesia,2008,Savings,0.2845241261442
+07_INA,Indonesia,2009,Savings,0.290563767984661
+07_INA,Indonesia,2010,Savings,0.32727422988835103
+07_INA,Indonesia,2011,Savings,0.332200730493007
+07_INA,Indonesia,2012,Savings,0.319853697689232
+07_INA,Indonesia,2013,Savings,0.311217666400168
+07_INA,Indonesia,2014,Savings,0.306689094593309
+07_INA,Indonesia,2015,Savings,0.301233564897489
+07_INA,Indonesia,2016,Savings,0.299227683259243
+07_INA,Indonesia,2017,Savings,0.30878363434337897
+07_INA,Indonesia,2018,Savings,0.316805227940956
+07_INA,Indonesia,2019,Savings,0.309027135119119
+07_INA,Indonesia,2020,Savings,0.292246087288697
+07_INA,Indonesia,2021,Savings,0.329372955843682
+07_INA,Indonesia,2022,Savings,0.370041185901717
+07_INA,Indonesia,2023,Savings,0.358619339722029
+07_INA,Indonesia,2024,Savings,0.346828714970206
+07_INA,Indonesia,2025,Savings,0.35043148493834003
+07_INA,Indonesia,2026,Savings,0.35043148493834003
+07_INA,Indonesia,2027,Savings,0.34893148493834003
+07_INA,Indonesia,2028,Savings,0.34743148493834003
+07_INA,Indonesia,2029,Savings,0.34593148493834003
+07_INA,Indonesia,2030,Savings,0.34443148493834
+07_INA,Indonesia,2031,Savings,0.34293148493834
+07_INA,Indonesia,2032,Savings,0.34143148493834
+07_INA,Indonesia,2033,Savings,0.33993148493834
+07_INA,Indonesia,2034,Savings,0.33843148493834
+07_INA,Indonesia,2035,Savings,0.33693148493834
+07_INA,Indonesia,2036,Savings,0.33543148493834
+07_INA,Indonesia,2037,Savings,0.33393148493834
+07_INA,Indonesia,2038,Savings,0.33243148493834
+07_INA,Indonesia,2039,Savings,0.33093148493834
+07_INA,Indonesia,2040,Savings,0.32943148493834
+07_INA,Indonesia,2041,Savings,0.32793148493834
+07_INA,Indonesia,2042,Savings,0.32643148493834
+07_INA,Indonesia,2043,Savings,0.32493148493834
+07_INA,Indonesia,2044,Savings,0.32343148493834
+07_INA,Indonesia,2045,Savings,0.32193148493834
+07_INA,Indonesia,2046,Savings,0.32043148493834
+07_INA,Indonesia,2047,Savings,0.31893148493834
+07_INA,Indonesia,2048,Savings,0.31743148493834
+07_INA,Indonesia,2049,Savings,0.31593148493834
+07_INA,Indonesia,2050,Savings,0.31443148493834
+07_INA,Indonesia,2051,Savings,0.31293148493834
+07_INA,Indonesia,2052,Savings,0.31143148493834
+07_INA,Indonesia,2053,Savings,0.30993148493834
+07_INA,Indonesia,2054,Savings,0.30843148493834
+07_INA,Indonesia,2055,Savings,0.30693148493834
+07_INA,Indonesia,2056,Savings,0.30543148493834
+07_INA,Indonesia,2057,Savings,0.30393148493834
+07_INA,Indonesia,2058,Savings,0.30243148493834
+07_INA,Indonesia,2059,Savings,0.30093148493834
+07_INA,Indonesia,2060,Savings,0.29943148493834
+07_INA,Indonesia,2061,Savings,0.29793148493834
+07_INA,Indonesia,2062,Savings,0.29643148493834
+07_INA,Indonesia,2063,Savings,0.29493148493834
+07_INA,Indonesia,2064,Savings,0.29343148493834
+07_INA,Indonesia,2065,Savings,0.29193148493834
+07_INA,Indonesia,2066,Savings,0.29043148493834
+07_INA,Indonesia,2067,Savings,0.28893148493834
+07_INA,Indonesia,2068,Savings,0.28743148493834
+07_INA,Indonesia,2069,Savings,0.28593148493834
+07_INA,Indonesia,2070,Savings,0.28443148493834
+07_INA,Indonesia,2071,Savings,0.28293148493833997
+07_INA,Indonesia,2072,Savings,0.28143148493833997
+07_INA,Indonesia,2073,Savings,0.27993148493833997
+07_INA,Indonesia,2074,Savings,0.27843148493833997
+07_INA,Indonesia,2075,Savings,0.27693148493833997
+07_INA,Indonesia,2076,Savings,0.27543148493833997
+07_INA,Indonesia,2077,Savings,0.27393148493833996
+07_INA,Indonesia,2078,Savings,0.27243148493833996
+07_INA,Indonesia,2079,Savings,0.27093148493833996
+07_INA,Indonesia,2080,Savings,0.26943148493833996
+07_INA,Indonesia,2081,Savings,0.26793148493833996
+07_INA,Indonesia,2082,Savings,0.26643148493833996
+07_INA,Indonesia,2083,Savings,0.26493148493833996
+07_INA,Indonesia,2084,Savings,0.26343148493833995
+07_INA,Indonesia,2085,Savings,0.26193148493833995
+07_INA,Indonesia,2086,Savings,0.26043148493833995
+07_INA,Indonesia,2087,Savings,0.25893148493833995
+07_INA,Indonesia,2088,Savings,0.25743148493833995
+07_INA,Indonesia,2089,Savings,0.25593148493833995
+07_INA,Indonesia,2090,Savings,0.25443148493833995
+07_INA,Indonesia,2091,Savings,0.25293148493833995
+07_INA,Indonesia,2092,Savings,0.25143148493833994
+07_INA,Indonesia,2093,Savings,0.24993148493833994
+07_INA,Indonesia,2094,Savings,0.24993148493833994
+07_INA,Indonesia,2095,Savings,0.24993148493833994
+07_INA,Indonesia,2096,Savings,0.24993148493833994
+07_INA,Indonesia,2097,Savings,0.24993148493833994
+07_INA,Indonesia,2098,Savings,0.24993148493833994
+07_INA,Indonesia,2099,Savings,0.24993148493833994
+07_INA,Indonesia,2100,Savings,0.24993148493833994
+07_INA,Indonesia,1990,Depreciation,0.0419182628393173
+07_INA,Indonesia,1991,Depreciation,0.0428557246923447
+07_INA,Indonesia,1992,Depreciation,0.0434764549136162
+07_INA,Indonesia,1993,Depreciation,0.0437464639544487
+07_INA,Indonesia,1994,Depreciation,0.043826911598444
+07_INA,Indonesia,1995,Depreciation,0.0438294894993305
+07_INA,Indonesia,1996,Depreciation,0.0437569655478001
+07_INA,Indonesia,1997,Depreciation,0.0434852689504623
+07_INA,Indonesia,1998,Depreciation,0.0427733734250069
+07_INA,Indonesia,1999,Depreciation,0.0417204685509205
+07_INA,Indonesia,2000,Depreciation,0.0407205075025559
+07_INA,Indonesia,2001,Depreciation,0.0400678403675556
+07_INA,Indonesia,2002,Depreciation,0.0396237522363663
+07_INA,Indonesia,2003,Depreciation,0.0390102304518223
+07_INA,Indonesia,2004,Depreciation,0.0385964401066303
+07_INA,Indonesia,2005,Depreciation,0.0386478453874588
+07_INA,Indonesia,2006,Depreciation,0.0386837907135487
+07_INA,Indonesia,2007,Depreciation,0.0386137776076794
+07_INA,Indonesia,2008,Depreciation,0.0387747250497341
+07_INA,Indonesia,2009,Depreciation,0.0389319956302643
+07_INA,Indonesia,2010,Depreciation,0.0389550477266312
+07_INA,Indonesia,2011,Depreciation,0.0390801653265953
+07_INA,Indonesia,2012,Depreciation,0.0392579361796379
+07_INA,Indonesia,2013,Depreciation,0.0393154546618462
+07_INA,Indonesia,2014,Depreciation,0.0391433276236057
+07_INA,Indonesia,2015,Depreciation,0.0388168431818485
+07_INA,Indonesia,2016,Depreciation,0.0384636409580708
+07_INA,Indonesia,2017,Depreciation,0.0381406210362911
+07_INA,Indonesia,2018,Depreciation,0.0378776751458645
+07_INA,Indonesia,2019,Depreciation,0.0379284732043743
+07_INA,Indonesia,2020,Depreciation,0.0381263643503189
+07_INA,Indonesia,2021,Depreciation,0.0382063798606396
+07_INA,Indonesia,2022,Depreciation,0.0382599905133247
+07_INA,Indonesia,2023,Depreciation,0.0383031293749809
+07_INA,Indonesia,2024,Depreciation,0.0383031293749809
+07_INA,Indonesia,2025,Depreciation,0.0383031293749809
+07_INA,Indonesia,2026,Depreciation,0.0383031293749809
+07_INA,Indonesia,2027,Depreciation,0.0388031293749809
+07_INA,Indonesia,2028,Depreciation,0.0393031293749809
+07_INA,Indonesia,2029,Depreciation,0.0398031293749809
+07_INA,Indonesia,2030,Depreciation,0.0403031293749809
+07_INA,Indonesia,2031,Depreciation,0.0403031293749809
+07_INA,Indonesia,2032,Depreciation,0.0403031293749809
+07_INA,Indonesia,2033,Depreciation,0.0403031293749809
+07_INA,Indonesia,2034,Depreciation,0.0403031293749809
+07_INA,Indonesia,2035,Depreciation,0.0403031293749809
+07_INA,Indonesia,2036,Depreciation,0.0403031293749809
+07_INA,Indonesia,2037,Depreciation,0.0403031293749809
+07_INA,Indonesia,2038,Depreciation,0.0403031293749809
+07_INA,Indonesia,2039,Depreciation,0.0403031293749809
+07_INA,Indonesia,2040,Depreciation,0.0403031293749809
+07_INA,Indonesia,2041,Depreciation,0.0403031293749809
+07_INA,Indonesia,2042,Depreciation,0.0403031293749809
+07_INA,Indonesia,2043,Depreciation,0.0403031293749809
+07_INA,Indonesia,2044,Depreciation,0.0403031293749809
+07_INA,Indonesia,2045,Depreciation,0.0403031293749809
+07_INA,Indonesia,2046,Depreciation,0.0403031293749809
+07_INA,Indonesia,2047,Depreciation,0.0403031293749809
+07_INA,Indonesia,2048,Depreciation,0.0403031293749809
+07_INA,Indonesia,2049,Depreciation,0.0403031293749809
+07_INA,Indonesia,2050,Depreciation,0.0403031293749809
+07_INA,Indonesia,2051,Depreciation,0.0403031293749809
+07_INA,Indonesia,2052,Depreciation,0.0403031293749809
+07_INA,Indonesia,2053,Depreciation,0.0403031293749809
+07_INA,Indonesia,2054,Depreciation,0.0403031293749809
+07_INA,Indonesia,2055,Depreciation,0.0403031293749809
+07_INA,Indonesia,2056,Depreciation,0.0403031293749809
+07_INA,Indonesia,2057,Depreciation,0.0403031293749809
+07_INA,Indonesia,2058,Depreciation,0.0403031293749809
+07_INA,Indonesia,2059,Depreciation,0.0403031293749809
+07_INA,Indonesia,2060,Depreciation,0.0403031293749809
+07_INA,Indonesia,2061,Depreciation,0.0403031293749809
+07_INA,Indonesia,2062,Depreciation,0.0403031293749809
+07_INA,Indonesia,2063,Depreciation,0.0403031293749809
+07_INA,Indonesia,2064,Depreciation,0.0403031293749809
+07_INA,Indonesia,2065,Depreciation,0.0403031293749809
+07_INA,Indonesia,2066,Depreciation,0.0403031293749809
+07_INA,Indonesia,2067,Depreciation,0.0403031293749809
+07_INA,Indonesia,2068,Depreciation,0.0403031293749809
+07_INA,Indonesia,2069,Depreciation,0.0403031293749809
+07_INA,Indonesia,2070,Depreciation,0.0403031293749809
+07_INA,Indonesia,2071,Depreciation,0.0403031293749809
+07_INA,Indonesia,2072,Depreciation,0.0403031293749809
+07_INA,Indonesia,2073,Depreciation,0.0403031293749809
+07_INA,Indonesia,2074,Depreciation,0.0403031293749809
+07_INA,Indonesia,2075,Depreciation,0.0403031293749809
+07_INA,Indonesia,2076,Depreciation,0.0403031293749809
+07_INA,Indonesia,2077,Depreciation,0.0403031293749809
+07_INA,Indonesia,2078,Depreciation,0.0403031293749809
+07_INA,Indonesia,2079,Depreciation,0.0403031293749809
+07_INA,Indonesia,2080,Depreciation,0.0403031293749809
+07_INA,Indonesia,2081,Depreciation,0.0403031293749809
+07_INA,Indonesia,2082,Depreciation,0.0403031293749809
+07_INA,Indonesia,2083,Depreciation,0.0403031293749809
+07_INA,Indonesia,2084,Depreciation,0.0403031293749809
+07_INA,Indonesia,2085,Depreciation,0.0403031293749809
+07_INA,Indonesia,2086,Depreciation,0.0403031293749809
+07_INA,Indonesia,2087,Depreciation,0.0403031293749809
+07_INA,Indonesia,2088,Depreciation,0.0403031293749809
+07_INA,Indonesia,2089,Depreciation,0.0403031293749809
+07_INA,Indonesia,2090,Depreciation,0.0403031293749809
+07_INA,Indonesia,2091,Depreciation,0.0403031293749809
+07_INA,Indonesia,2092,Depreciation,0.0403031293749809
+07_INA,Indonesia,2093,Depreciation,0.0403031293749809
+07_INA,Indonesia,2094,Depreciation,0.0403031293749809
+07_INA,Indonesia,2095,Depreciation,0.0403031293749809
+07_INA,Indonesia,2096,Depreciation,0.0403031293749809
+07_INA,Indonesia,2097,Depreciation,0.0403031293749809
+07_INA,Indonesia,2098,Depreciation,0.0403031293749809
+07_INA,Indonesia,2099,Depreciation,0.0403031293749809
+07_INA,Indonesia,2100,Depreciation,0.0403031293749809
+07_INA,Indonesia,1990,WDI GDP through 2025,894210.723157611
+07_INA,Indonesia,1991,WDI GDP through 2025,956018.41485916
+07_INA,Indonesia,1992,WDI GDP through 2025,1018135.7736667
+07_INA,Indonesia,1993,WDI GDP through 2025,1084278.02874442
+07_INA,Indonesia,1994,WDI GDP through 2025,1166032.27870676
+07_INA,Indonesia,1995,WDI GDP through 2025,1261880.2182916
+07_INA,Indonesia,1996,WDI GDP through 2025,1360536.3744416102
+07_INA,Indonesia,1997,WDI GDP through 2025,1424479.93580367
+07_INA,Indonesia,1998,WDI GDP through 2025,1237492.3649366598
+07_INA,Indonesia,1999,WDI GDP through 2025,1247282.48979842
+07_INA,Indonesia,2000,WDI GDP through 2025,1308649.63329318
+07_INA,Indonesia,2001,WDI GDP through 2025,1356329.84359382
+07_INA,Indonesia,2002,WDI GDP through 2025,1417357.57112518
+07_INA,Indonesia,2003,WDI GDP through 2025,1485112.49479899
+07_INA,Indonesia,2004,WDI GDP through 2025,1559826.63235402
+07_INA,Indonesia,2005,WDI GDP through 2025,1648620.87561696
+07_INA,Indonesia,2006,WDI GDP through 2025,1739310.71510545
+07_INA,Indonesia,2007,WDI GDP through 2025,1849670.36656978
+07_INA,Indonesia,2008,WDI GDP through 2025,1960904.05999401
+07_INA,Indonesia,2009,WDI GDP through 2025,2051671.78294475
+07_INA,Indonesia,2010,WDI GDP through 2025,2179364.84298024
+07_INA,Indonesia,2011,WDI GDP through 2025,2313826.95089082
+07_INA,Indonesia,2012,WDI GDP through 2025,2453351.8880536
+07_INA,Indonesia,2013,WDI GDP through 2025,2589691.1216895897
+07_INA,Indonesia,2014,WDI GDP through 2025,2719348.3694038
+07_INA,Indonesia,2015,WDI GDP through 2025,2851952.56036174
+07_INA,Indonesia,2016,WDI GDP through 2025,2995493.30578544
+07_INA,Indonesia,2017,WDI GDP through 2025,3147358.40307801
+07_INA,Indonesia,2018,WDI GDP through 2025,3310211.9026478
+07_INA,Indonesia,2019,WDI GDP through 2025,3476360.9608746096
+07_INA,Indonesia,2020,WDI GDP through 2025,3404556.31399713
+07_INA,Indonesia,2021,WDI GDP through 2025,3530623.14045475
+07_INA,Indonesia,2022,WDI GDP through 2025,3718000.27384835
+07_INA,Indonesia,2023,WDI GDP through 2025,3905715.83089317
+07_INA,Indonesia,2024,WDI GDP through 2025,4102273.90042117
+07_INA,Indonesia,2025,WDI GDP through 2025,4311821.70409906
+07_INA,Indonesia,2026,WDI GDP through 2025,
+07_INA,Indonesia,2027,WDI GDP through 2025,
+07_INA,Indonesia,2028,WDI GDP through 2025,
+07_INA,Indonesia,2029,WDI GDP through 2025,
+07_INA,Indonesia,2030,WDI GDP through 2025,
+07_INA,Indonesia,2031,WDI GDP through 2025,
+07_INA,Indonesia,2032,WDI GDP through 2025,
+07_INA,Indonesia,2033,WDI GDP through 2025,
+07_INA,Indonesia,2034,WDI GDP through 2025,
+07_INA,Indonesia,2035,WDI GDP through 2025,
+07_INA,Indonesia,2036,WDI GDP through 2025,
+07_INA,Indonesia,2037,WDI GDP through 2025,
+07_INA,Indonesia,2038,WDI GDP through 2025,
+07_INA,Indonesia,2039,WDI GDP through 2025,
+07_INA,Indonesia,2040,WDI GDP through 2025,
+07_INA,Indonesia,2041,WDI GDP through 2025,
+07_INA,Indonesia,2042,WDI GDP through 2025,
+07_INA,Indonesia,2043,WDI GDP through 2025,
+07_INA,Indonesia,2044,WDI GDP through 2025,
+07_INA,Indonesia,2045,WDI GDP through 2025,
+07_INA,Indonesia,2046,WDI GDP through 2025,
+07_INA,Indonesia,2047,WDI GDP through 2025,
+07_INA,Indonesia,2048,WDI GDP through 2025,
+07_INA,Indonesia,2049,WDI GDP through 2025,
+07_INA,Indonesia,2050,WDI GDP through 2025,
+07_INA,Indonesia,2051,WDI GDP through 2025,
+07_INA,Indonesia,2052,WDI GDP through 2025,
+07_INA,Indonesia,2053,WDI GDP through 2025,
+07_INA,Indonesia,2054,WDI GDP through 2025,
+07_INA,Indonesia,2055,WDI GDP through 2025,
+07_INA,Indonesia,2056,WDI GDP through 2025,
+07_INA,Indonesia,2057,WDI GDP through 2025,
+07_INA,Indonesia,2058,WDI GDP through 2025,
+07_INA,Indonesia,2059,WDI GDP through 2025,
+07_INA,Indonesia,2060,WDI GDP through 2025,
+07_INA,Indonesia,2061,WDI GDP through 2025,
+07_INA,Indonesia,2062,WDI GDP through 2025,
+07_INA,Indonesia,2063,WDI GDP through 2025,
+07_INA,Indonesia,2064,WDI GDP through 2025,
+07_INA,Indonesia,2065,WDI GDP through 2025,
+07_INA,Indonesia,2066,WDI GDP through 2025,
+07_INA,Indonesia,2067,WDI GDP through 2025,
+07_INA,Indonesia,2068,WDI GDP through 2025,
+07_INA,Indonesia,2069,WDI GDP through 2025,
+07_INA,Indonesia,2070,WDI GDP through 2025,
+07_INA,Indonesia,2071,WDI GDP through 2025,
+07_INA,Indonesia,2072,WDI GDP through 2025,
+07_INA,Indonesia,2073,WDI GDP through 2025,
+07_INA,Indonesia,2074,WDI GDP through 2025,
+07_INA,Indonesia,2075,WDI GDP through 2025,
+07_INA,Indonesia,2076,WDI GDP through 2025,
+07_INA,Indonesia,2077,WDI GDP through 2025,
+07_INA,Indonesia,2078,WDI GDP through 2025,
+07_INA,Indonesia,2079,WDI GDP through 2025,
+07_INA,Indonesia,2080,WDI GDP through 2025,
+07_INA,Indonesia,2081,WDI GDP through 2025,
+07_INA,Indonesia,2082,WDI GDP through 2025,
+07_INA,Indonesia,2083,WDI GDP through 2025,
+07_INA,Indonesia,2084,WDI GDP through 2025,
+07_INA,Indonesia,2085,WDI GDP through 2025,
+07_INA,Indonesia,2086,WDI GDP through 2025,
+07_INA,Indonesia,2087,WDI GDP through 2025,
+07_INA,Indonesia,2088,WDI GDP through 2025,
+07_INA,Indonesia,2089,WDI GDP through 2025,
+07_INA,Indonesia,2090,WDI GDP through 2025,
+07_INA,Indonesia,2091,WDI GDP through 2025,
+07_INA,Indonesia,2092,WDI GDP through 2025,
+07_INA,Indonesia,2093,WDI GDP through 2025,
+07_INA,Indonesia,2094,WDI GDP through 2025,
+07_INA,Indonesia,2095,WDI GDP through 2025,
+07_INA,Indonesia,2096,WDI GDP through 2025,
+07_INA,Indonesia,2097,WDI GDP through 2025,
+07_INA,Indonesia,2098,WDI GDP through 2025,
+07_INA,Indonesia,2099,WDI GDP through 2025,
+07_INA,Indonesia,2100,WDI GDP through 2025,
+07_INA,Indonesia,1990,APERC GDP projections,
+07_INA,Indonesia,1991,APERC GDP projections,
+07_INA,Indonesia,1992,APERC GDP projections,
+07_INA,Indonesia,1993,APERC GDP projections,
+07_INA,Indonesia,1994,APERC GDP projections,
+07_INA,Indonesia,1995,APERC GDP projections,
+07_INA,Indonesia,1996,APERC GDP projections,
+07_INA,Indonesia,1997,APERC GDP projections,
+07_INA,Indonesia,1998,APERC GDP projections,
+07_INA,Indonesia,1999,APERC GDP projections,
+07_INA,Indonesia,2000,APERC GDP projections,
+07_INA,Indonesia,2001,APERC GDP projections,
+07_INA,Indonesia,2002,APERC GDP projections,
+07_INA,Indonesia,2003,APERC GDP projections,
+07_INA,Indonesia,2004,APERC GDP projections,
+07_INA,Indonesia,2005,APERC GDP projections,
+07_INA,Indonesia,2006,APERC GDP projections,
+07_INA,Indonesia,2007,APERC GDP projections,
+07_INA,Indonesia,2008,APERC GDP projections,
+07_INA,Indonesia,2009,APERC GDP projections,
+07_INA,Indonesia,2010,APERC GDP projections,
+07_INA,Indonesia,2011,APERC GDP projections,
+07_INA,Indonesia,2012,APERC GDP projections,
+07_INA,Indonesia,2013,APERC GDP projections,
+07_INA,Indonesia,2014,APERC GDP projections,
+07_INA,Indonesia,2015,APERC GDP projections,
+07_INA,Indonesia,2016,APERC GDP projections,
+07_INA,Indonesia,2017,APERC GDP projections,
+07_INA,Indonesia,2018,APERC GDP projections,
+07_INA,Indonesia,2019,APERC GDP projections,
+07_INA,Indonesia,2020,APERC GDP projections,
+07_INA,Indonesia,2021,APERC GDP projections,
+07_INA,Indonesia,2022,APERC GDP projections,
+07_INA,Indonesia,2023,APERC GDP projections,
+07_INA,Indonesia,2024,APERC GDP projections,
+07_INA,Indonesia,2025,APERC GDP projections,
+07_INA,Indonesia,2026,APERC GDP projections,4517213.796279357
+07_INA,Indonesia,2027,APERC GDP projections,4737636.038527487
+07_INA,Indonesia,2028,APERC GDP projections,4960117.612516425
+07_INA,Indonesia,2029,APERC GDP projections,5187003.1917336
+07_INA,Indonesia,2030,APERC GDP projections,5418857.699796838
+07_INA,Indonesia,2031,APERC GDP projections,5654785.584672259
+07_INA,Indonesia,2032,APERC GDP projections,5897054.870958553
+07_INA,Indonesia,2033,APERC GDP projections,6143331.815353618
+07_INA,Indonesia,2034,APERC GDP projections,6394198.019215517
+07_INA,Indonesia,2035,APERC GDP projections,6649526.320798659
+07_INA,Indonesia,2036,APERC GDP projections,6909132.525429334
+07_INA,Indonesia,2037,APERC GDP projections,7173128.538580033
+07_INA,Indonesia,2038,APERC GDP projections,7441074.20897504
+07_INA,Indonesia,2039,APERC GDP projections,7712837.40721934
+07_INA,Indonesia,2040,APERC GDP projections,7988319.329438187
+07_INA,Indonesia,2041,APERC GDP projections,8267249.904933978
+07_INA,Indonesia,2042,APERC GDP projections,8549479.48411812
+07_INA,Indonesia,2043,APERC GDP projections,8834703.90140906
+07_INA,Indonesia,2044,APERC GDP projections,9122808.743115023
+07_INA,Indonesia,2045,APERC GDP projections,9413502.049439352
+07_INA,Indonesia,2046,APERC GDP projections,9706563.717678398
+07_INA,Indonesia,2047,APERC GDP projections,10001770.43184485
+07_INA,Indonesia,2048,APERC GDP projections,10299043.919352716
+07_INA,Indonesia,2049,APERC GDP projections,10598405.99786784
+07_INA,Indonesia,2050,APERC GDP projections,10899403.708160141
+07_INA,Indonesia,2051,APERC GDP projections,11201900.287973288
+07_INA,Indonesia,2052,APERC GDP projections,11505673.363787757
+07_INA,Indonesia,2053,APERC GDP projections,11810688.008594176
+07_INA,Indonesia,2054,APERC GDP projections,12116909.248986194
+07_INA,Indonesia,2055,APERC GDP projections,12425349.08085826
+07_INA,Indonesia,2056,APERC GDP projections,12739197.43756082
+07_INA,Indonesia,2057,APERC GDP projections,13058472.59255753
+07_INA,Indonesia,2058,APERC GDP projections,13382918.81252277
+07_INA,Indonesia,2059,APERC GDP projections,13712701.17918562
+07_INA,Indonesia,2060,APERC GDP projections,14047578.367386337
+07_INA,Indonesia,2061,APERC GDP projections,14387674.427727075
+07_INA,Indonesia,2062,APERC GDP projections,14732794.66748747
+07_INA,Indonesia,2063,APERC GDP projections,15085917.796682127
+07_INA,Indonesia,2064,APERC GDP projections,15447281.240234595
+07_INA,Indonesia,2065,APERC GDP projections,15816949.790865904
+07_INA,Indonesia,2066,APERC GDP projections,16195156.744072475
+07_INA,Indonesia,2067,APERC GDP projections,16581939.660915941
+07_INA,Indonesia,2068,APERC GDP projections,16977441.281519208
+07_INA,Indonesia,2069,APERC GDP projections,17381883.438185498
+07_INA,Indonesia,2070,APERC GDP projections,17795411.57722271
+07_INA,Indonesia,2071,APERC GDP projections,18218275.081532795
+07_INA,Indonesia,2072,APERC GDP projections,18650555.465343453
+07_INA,Indonesia,2073,APERC GDP projections,19092261.606656414
+07_INA,Indonesia,2074,APERC GDP projections,19543434.343657643
+07_INA,Indonesia,2075,APERC GDP projections,20004452.009854585
+07_INA,Indonesia,2076,APERC GDP projections,20475097.882822335
+07_INA,Indonesia,2077,APERC GDP projections,20956000.67883792
+07_INA,Indonesia,2078,APERC GDP projections,21446637.43120075
+07_INA,Indonesia,2079,APERC GDP projections,21947521.467965074
+07_INA,Indonesia,2080,APERC GDP projections,22458654.629206114
+07_INA,Indonesia,2081,APERC GDP projections,22980532.73167748
+07_INA,Indonesia,2082,APERC GDP projections,23513050.641876202
+07_INA,Indonesia,2083,APERC GDP projections,24056185.644201882
+07_INA,Indonesia,2084,APERC GDP projections,24610155.689149454
+07_INA,Indonesia,2085,APERC GDP projections,25175282.37879338
+07_INA,Indonesia,2086,APERC GDP projections,25751651.783637427
+07_INA,Indonesia,2087,APERC GDP projections,26339329.268170286
+07_INA,Indonesia,2088,APERC GDP projections,26938484.29244301
+07_INA,Indonesia,2089,APERC GDP projections,27549599.794595808
+07_INA,Indonesia,2090,APERC GDP projections,28172680.500203606
+07_INA,Indonesia,2091,APERC GDP projections,28807639.566455342
+07_INA,Indonesia,2092,APERC GDP projections,29454891.91701499
+07_INA,Indonesia,2093,APERC GDP projections,30114440.058018394
+07_INA,Indonesia,2094,APERC GDP projections,30790895.344941944
+07_INA,Indonesia,2095,APERC GDP projections,31484895.963585794
+07_INA,Indonesia,2096,APERC GDP projections,32196929.17671803
+07_INA,Indonesia,2097,APERC GDP projections,32926873.480788328
+07_INA,Indonesia,2098,APERC GDP projections,33675318.960240856
+07_INA,Indonesia,2099,APERC GDP projections,34443042.96268125
+07_INA,Indonesia,2100,APERC GDP projections,35230206.45565053
+07_INA,Indonesia,1990,9th Outlook projections (rebased to 2021 PPP USD),851870.3236004764
+07_INA,Indonesia,1991,9th Outlook projections (rebased to 2021 PPP USD),927927.3139697374
+07_INA,Indonesia,1992,9th Outlook projections (rebased to 2021 PPP USD),988453.8319314695
+07_INA,Indonesia,1993,9th Outlook projections (rebased to 2021 PPP USD),1067089.8709378622
+07_INA,Indonesia,1994,9th Outlook projections (rebased to 2021 PPP USD),1147553.541218508
+07_INA,Indonesia,1995,9th Outlook projections (rebased to 2021 PPP USD),1241882.9994116707
+07_INA,Indonesia,1996,9th Outlook projections (rebased to 2021 PPP USD),1338970.7261807073
+07_INA,Indonesia,1997,9th Outlook projections (rebased to 2021 PPP USD),1401905.8968844481
+07_INA,Indonesia,1998,9th Outlook projections (rebased to 2021 PPP USD),1217876.8111259134
+07_INA,Indonesia,1999,9th Outlook projections (rebased to 2021 PPP USD),1227510.6680083438
+07_INA,Indonesia,2000,9th Outlook projections (rebased to 2021 PPP USD),1288629.221433749
+07_INA,Indonesia,2001,9th Outlook projections (rebased to 2021 PPP USD),1335576.8231724745
+07_INA,Indonesia,2002,9th Outlook projections (rebased to 2021 PPP USD),1395673.3990542276
+07_INA,Indonesia,2003,9th Outlook projections (rebased to 2021 PPP USD),1462391.1681234066
+07_INA,Indonesia,2004,9th Outlook projections (rebased to 2021 PPP USD),1535961.8039473654
+07_INA,Indonesia,2005,9th Outlook projections (rebased to 2021 PPP USD),1623396.465109074
+07_INA,Indonesia,2006,9th Outlook projections (rebased to 2021 PPP USD),1712696.9557973063
+07_INA,Indonesia,2007,9th Outlook projections (rebased to 2021 PPP USD),1821373.5075405615
+07_INA,Indonesia,2008,9th Outlook projections (rebased to 2021 PPP USD),1956915.6621541057
+07_INA,Indonesia,2009,9th Outlook projections (rebased to 2021 PPP USD),2048921.9614161882
+07_INA,Indonesia,2010,9th Outlook projections (rebased to 2021 PPP USD),2179589.8423551396
+07_INA,Indonesia,2011,9th Outlook projections (rebased to 2021 PPP USD),2314073.206813487
+07_INA,Indonesia,2012,9th Outlook projections (rebased to 2021 PPP USD),2453607.5475613563
+07_INA,Indonesia,2013,9th Outlook projections (rebased to 2021 PPP USD),2589962.8750962894
+07_INA,Indonesia,2014,9th Outlook projections (rebased to 2021 PPP USD),2719634.926122229
+07_INA,Indonesia,2015,9th Outlook projections (rebased to 2021 PPP USD),2852252.923333087
+07_INA,Indonesia,2016,9th Outlook projections (rebased to 2021 PPP USD),2995813.260634254
+07_INA,Indonesia,2017,9th Outlook projections (rebased to 2021 PPP USD),3147694.409997869
+07_INA,Indonesia,2018,9th Outlook projections (rebased to 2021 PPP USD),3310564.1506083063
+07_INA,Indonesia,2019,9th Outlook projections (rebased to 2021 PPP USD),3476727.0689940406
+07_INA,Indonesia,2020,9th Outlook projections (rebased to 2021 PPP USD),3404930.9809790305
+07_INA,Indonesia,2021,9th Outlook projections (rebased to 2021 PPP USD),3530623.14045475
+07_INA,Indonesia,2022,9th Outlook projections (rebased to 2021 PPP USD),3718885.1443718136
+07_INA,Indonesia,2023,9th Outlook projections (rebased to 2021 PPP USD),3903662.345967804
+07_INA,Indonesia,2024,9th Outlook projections (rebased to 2021 PPP USD),4113854.3707158943
+07_INA,Indonesia,2025,9th Outlook projections (rebased to 2021 PPP USD),4333433.719527348
+07_INA,Indonesia,2026,9th Outlook projections (rebased to 2021 PPP USD),4559056.432376674
+07_INA,Indonesia,2027,9th Outlook projections (rebased to 2021 PPP USD),4792323.948812239
+07_INA,Indonesia,2028,9th Outlook projections (rebased to 2021 PPP USD),5031788.480296231
+07_INA,Indonesia,2029,9th Outlook projections (rebased to 2021 PPP USD),5278710.908404836
+07_INA,Indonesia,2030,9th Outlook projections (rebased to 2021 PPP USD),5531533.5744528975
+07_INA,Indonesia,2031,9th Outlook projections (rebased to 2021 PPP USD),5790569.11460475
+07_INA,Indonesia,2032,9th Outlook projections (rebased to 2021 PPP USD),6055723.325044278
+07_INA,Indonesia,2033,9th Outlook projections (rebased to 2021 PPP USD),6327168.5591886705
+07_INA,Indonesia,2034,9th Outlook projections (rebased to 2021 PPP USD),6604546.809786956
+07_INA,Indonesia,2035,9th Outlook projections (rebased to 2021 PPP USD),6887168.381521157
+07_INA,Indonesia,2036,9th Outlook projections (rebased to 2021 PPP USD),7176213.765247358
+07_INA,Indonesia,2037,9th Outlook projections (rebased to 2021 PPP USD),7469844.2625245545
+07_INA,Indonesia,2038,9th Outlook projections (rebased to 2021 PPP USD),7770263.153920837
+07_INA,Indonesia,2039,9th Outlook projections (rebased to 2021 PPP USD),8075837.946082745
+07_INA,Indonesia,2040,9th Outlook projections (rebased to 2021 PPP USD),8390381.959337631
+07_INA,Indonesia,2041,9th Outlook projections (rebased to 2021 PPP USD),8708962.628250465
+07_INA,Indonesia,2042,9th Outlook projections (rebased to 2021 PPP USD),9030095.911886888
+07_INA,Indonesia,2043,9th Outlook projections (rebased to 2021 PPP USD),9356750.679327937
+07_INA,Indonesia,2044,9th Outlook projections (rebased to 2021 PPP USD),9682625.464147838
+07_INA,Indonesia,2045,9th Outlook projections (rebased to 2021 PPP USD),10018560.266971435
+07_INA,Indonesia,2046,9th Outlook projections (rebased to 2021 PPP USD),10357838.060927227
+07_INA,Indonesia,2047,9th Outlook projections (rebased to 2021 PPP USD),10700605.545637378
+07_INA,Indonesia,2048,9th Outlook projections (rebased to 2021 PPP USD),11045403.551784348
+07_INA,Indonesia,2049,9th Outlook projections (rebased to 2021 PPP USD),11393589.277934916
+07_INA,Indonesia,2050,9th Outlook projections (rebased to 2021 PPP USD),11749602.685279438
+07_INA,Indonesia,2051,9th Outlook projections (rebased to 2021 PPP USD),12104506.900071306
+07_INA,Indonesia,2052,9th Outlook projections (rebased to 2021 PPP USD),12464691.185045816
+07_INA,Indonesia,2053,9th Outlook projections (rebased to 2021 PPP USD),12820996.750501752
+07_INA,Indonesia,2054,9th Outlook projections (rebased to 2021 PPP USD),13189685.318594165
+07_INA,Indonesia,2055,9th Outlook projections (rebased to 2021 PPP USD),13559769.387550754
+07_INA,Indonesia,2056,9th Outlook projections (rebased to 2021 PPP USD),13934661.406983111
+07_INA,Indonesia,2057,9th Outlook projections (rebased to 2021 PPP USD),14316496.529676465
+07_INA,Indonesia,2058,9th Outlook projections (rebased to 2021 PPP USD),14710669.594598964
+07_INA,Indonesia,2059,9th Outlook projections (rebased to 2021 PPP USD),15108614.057727352
+07_INA,Indonesia,2060,9th Outlook projections (rebased to 2021 PPP USD),15504079.952414727
+07_INA,Indonesia,2061,9th Outlook projections (rebased to 2021 PPP USD),15910980.047147814
+07_INA,Indonesia,2062,9th Outlook projections (rebased to 2021 PPP USD),16316130.25891117
+07_INA,Indonesia,2063,9th Outlook projections (rebased to 2021 PPP USD),16733716.881841369
+07_INA,Indonesia,2064,9th Outlook projections (rebased to 2021 PPP USD),17141796.13720116
+07_INA,Indonesia,2065,9th Outlook projections (rebased to 2021 PPP USD),17563242.190611053
+07_INA,Indonesia,2066,9th Outlook projections (rebased to 2021 PPP USD),17984058.036289982
+07_INA,Indonesia,2067,9th Outlook projections (rebased to 2021 PPP USD),18409344.52465988
+07_INA,Indonesia,2068,9th Outlook projections (rebased to 2021 PPP USD),18841118.25567167
+07_INA,Indonesia,2069,9th Outlook projections (rebased to 2021 PPP USD),19279146.904540576
+07_INA,Indonesia,2070,9th Outlook projections (rebased to 2021 PPP USD),19728309.212054774
+07_INA,Indonesia,2071,9th Outlook projections (rebased to 2021 PPP USD),20184729.35865896
+07_INA,Indonesia,2072,9th Outlook projections (rebased to 2021 PPP USD),20652822.454287928
+07_INA,Indonesia,2073,9th Outlook projections (rebased to 2021 PPP USD),21120394.561432984
+07_INA,Indonesia,2074,9th Outlook projections (rebased to 2021 PPP USD),21600633.991270818
+07_INA,Indonesia,2075,9th Outlook projections (rebased to 2021 PPP USD),22081683.06037104
+07_INA,Indonesia,2076,9th Outlook projections (rebased to 2021 PPP USD),22559345.828133836
+07_INA,Indonesia,2077,9th Outlook projections (rebased to 2021 PPP USD),23041765.32694243
+07_INA,Indonesia,2078,9th Outlook projections (rebased to 2021 PPP USD),23544734.000228286
+07_INA,Indonesia,2079,9th Outlook projections (rebased to 2021 PPP USD),24054507.73211071
+07_INA,Indonesia,2080,9th Outlook projections (rebased to 2021 PPP USD),24565120.12389611
+07_INA,Indonesia,2081,9th Outlook projections (rebased to 2021 PPP USD),25092504.242298268
+07_INA,Indonesia,2082,9th Outlook projections (rebased to 2021 PPP USD),25622717.76488649
+07_INA,Indonesia,2083,9th Outlook projections (rebased to 2021 PPP USD),26149572.91160007
+07_INA,Indonesia,2084,9th Outlook projections (rebased to 2021 PPP USD),26670394.202033024
+07_INA,Indonesia,2085,9th Outlook projections (rebased to 2021 PPP USD),27215922.170763522
+07_INA,Indonesia,2086,9th Outlook projections (rebased to 2021 PPP USD),27797728.029625066
+07_INA,Indonesia,2087,9th Outlook projections (rebased to 2021 PPP USD),28366354.64103686
+07_INA,Indonesia,2088,9th Outlook projections (rebased to 2021 PPP USD),28950024.950934406
+07_INA,Indonesia,2089,9th Outlook projections (rebased to 2021 PPP USD),29569249.115069024
+07_INA,Indonesia,2090,9th Outlook projections (rebased to 2021 PPP USD),30177567.63589828
+07_INA,Indonesia,2091,9th Outlook projections (rebased to 2021 PPP USD),30816897.9955472
+07_INA,Indonesia,2092,9th Outlook projections (rebased to 2021 PPP USD),31447717.847291037
+07_INA,Indonesia,2093,9th Outlook projections (rebased to 2021 PPP USD),32080231.358356565
+07_INA,Indonesia,2094,9th Outlook projections (rebased to 2021 PPP USD),32710280.970992
+07_INA,Indonesia,2095,9th Outlook projections (rebased to 2021 PPP USD),33353202.576018646
+07_INA,Indonesia,2096,9th Outlook projections (rebased to 2021 PPP USD),34016127.426348336
+07_INA,Indonesia,2097,9th Outlook projections (rebased to 2021 PPP USD),34652725.95886547
+07_INA,Indonesia,2098,9th Outlook projections (rebased to 2021 PPP USD),35362968.6694079
+07_INA,Indonesia,2099,9th Outlook projections (rebased to 2021 PPP USD),36073577.52806667
+07_INA,Indonesia,2100,9th Outlook projections (rebased to 2021 PPP USD),36764593.96190205

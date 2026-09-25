@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+13_PNG,Papua New Guinea,1990,Population,3840.265
+13_PNG,Papua New Guinea,1991,Population,3952.696
+13_PNG,Papua New Guinea,1992,Population,4090.978
+13_PNG,Papua New Guinea,1993,Population,4242.421
+13_PNG,Papua New Guinea,1994,Population,4399.322
+13_PNG,Papua New Guinea,1995,Population,4561.095
+13_PNG,Papua New Guinea,1996,Population,4727.461
+13_PNG,Papua New Guinea,1997,Population,4899.262
+13_PNG,Papua New Guinea,1998,Population,5076.505
+13_PNG,Papua New Guinea,1999,Population,5256.274
+13_PNG,Papua New Guinea,2000,Population,5442.391
+13_PNG,Papua New Guinea,2001,Population,5631.736
+13_PNG,Papua New Guinea,2002,Population,5825.135
+13_PNG,Papua New Guinea,2003,Population,6022.872
+13_PNG,Papua New Guinea,2004,Population,6225.122
+13_PNG,Papua New Guinea,2005,Population,6430.96
+13_PNG,Papua New Guinea,2006,Population,6640.85
+13_PNG,Papua New Guinea,2007,Population,6854.59
+13_PNG,Papua New Guinea,2008,Population,7072.099
+13_PNG,Papua New Guinea,2009,Population,7293.904
+13_PNG,Papua New Guinea,2010,Population,7518.972
+13_PNG,Papua New Guinea,2011,Population,7748.074
+13_PNG,Papua New Guinea,2012,Population,7970.618
+13_PNG,Papua New Guinea,2013,Population,8192.162
+13_PNG,Papua New Guinea,2014,Population,8413.233
+13_PNG,Papua New Guinea,2015,Population,8633.649
+13_PNG,Papua New Guinea,2016,Population,8852.843
+13_PNG,Papua New Guinea,2017,Population,9070.592
+13_PNG,Papua New Guinea,2018,Population,9286.836
+13_PNG,Papua New Guinea,2019,Population,9502.191
+13_PNG,Papua New Guinea,2020,Population,9715.829
+13_PNG,Papua New Guinea,2021,Population,9915.662
+13_PNG,Papua New Guinea,2022,Population,10110.13
+13_PNG,Papua New Guinea,2023,Population,10296.209
+13_PNG,Papua New Guinea,2024,Population,10483.061
+13_PNG,Papua New Guinea,2025,Population,10690.289
+13_PNG,Papua New Guinea,2026,Population,10896.579
+13_PNG,Papua New Guinea,2027,Population,11101.699
+13_PNG,Papua New Guinea,2028,Population,11305.326
+13_PNG,Papua New Guinea,2029,Population,11507.414
+13_PNG,Papua New Guinea,2030,Population,11721.194
+13_PNG,Papua New Guinea,2031,Population,11934.467
+13_PNG,Papua New Guinea,2032,Population,12145.595
+13_PNG,Papua New Guinea,2033,Population,12356.117
+13_PNG,Papua New Guinea,2034,Population,12565.51
+13_PNG,Papua New Guinea,2035,Population,12784.549
+13_PNG,Papua New Guinea,2036,Population,13001.869
+13_PNG,Papua New Guinea,2037,Population,13219.69
+13_PNG,Papua New Guinea,2038,Population,13436.286
+13_PNG,Papua New Guinea,2039,Population,13652.081
+13_PNG,Papua New Guinea,2040,Population,13866.365
+13_PNG,Papua New Guinea,2041,Population,14079.52
+13_PNG,Papua New Guinea,2042,Population,14290.937
+13_PNG,Papua New Guinea,2043,Population,14501.247
+13_PNG,Papua New Guinea,2044,Population,14712.114
+13_PNG,Papua New Guinea,2045,Population,14923.853
+13_PNG,Papua New Guinea,2046,Population,15136.396
+13_PNG,Papua New Guinea,2047,Population,15347.244
+13_PNG,Papua New Guinea,2048,Population,15558.059
+13_PNG,Papua New Guinea,2049,Population,15769.168
+13_PNG,Papua New Guinea,2050,Population,15981.121
+13_PNG,Papua New Guinea,2051,Population,16190.975
+13_PNG,Papua New Guinea,2052,Population,16402.099
+13_PNG,Papua New Guinea,2053,Population,16614.344
+13_PNG,Papua New Guinea,2054,Population,16824.981
+13_PNG,Papua New Guinea,2055,Population,17038.182
+13_PNG,Papua New Guinea,2056,Population,17249.063
+13_PNG,Papua New Guinea,2057,Population,17460.17
+13_PNG,Papua New Guinea,2058,Population,17672.238
+13_PNG,Papua New Guinea,2059,Population,17884.247
+13_PNG,Papua New Guinea,2060,Population,18097.245
+13_PNG,Papua New Guinea,2061,Population,18311.595
+13_PNG,Papua New Guinea,2062,Population,18522.809
+13_PNG,Papua New Guinea,2063,Population,18733.368
+13_PNG,Papua New Guinea,2064,Population,18943.921
+13_PNG,Papua New Guinea,2065,Population,19156.921
+13_PNG,Papua New Guinea,2066,Population,19370.524
+13_PNG,Papua New Guinea,2067,Population,19583.637
+13_PNG,Papua New Guinea,2068,Population,19796.373
+13_PNG,Papua New Guinea,2069,Population,20007.614
+13_PNG,Papua New Guinea,2070,Population,20217.331
+13_PNG,Papua New Guinea,2071,Population,20426.07
+13_PNG,Papua New Guinea,2072,Population,20635.462
+13_PNG,Papua New Guinea,2073,Population,20843.426
+13_PNG,Papua New Guinea,2074,Population,21048.874
+13_PNG,Papua New Guinea,2075,Population,21253.949
+13_PNG,Papua New Guinea,2076,Population,21459.104
+13_PNG,Papua New Guinea,2077,Population,21663.172
+13_PNG,Papua New Guinea,2078,Population,21868.438
+13_PNG,Papua New Guinea,2079,Population,22075.26
+13_PNG,Papua New Guinea,2080,Population,22280.578
+13_PNG,Papua New Guinea,2081,Population,22490.241
+13_PNG,Papua New Guinea,2082,Population,22696.025
+13_PNG,Papua New Guinea,2083,Population,22901.002
+13_PNG,Papua New Guinea,2084,Population,23108.565
+13_PNG,Papua New Guinea,2085,Population,23314.242
+13_PNG,Papua New Guinea,2086,Population,23521.505
+13_PNG,Papua New Guinea,2087,Population,23729.168
+13_PNG,Papua New Guinea,2088,Population,23935.336
+13_PNG,Papua New Guinea,2089,Population,24140.945
+13_PNG,Papua New Guinea,2090,Population,24346.023
+13_PNG,Papua New Guinea,2091,Population,24554.552
+13_PNG,Papua New Guinea,2092,Population,24760.285
+13_PNG,Papua New Guinea,2093,Population,24964.675
+13_PNG,Papua New Guinea,2094,Population,25167.419
+13_PNG,Papua New Guinea,2095,Population,25369.77
+13_PNG,Papua New Guinea,2096,Population,25570.246
+13_PNG,Papua New Guinea,2097,Population,25769.995
+13_PNG,Papua New Guinea,2098,Population,25967.11
+13_PNG,Papua New Guinea,2099,Population,26161.91
+13_PNG,Papua New Guinea,2100,Population,26356.127
+13_PNG,Papua New Guinea,1990,Labour efficiency,2.0227269267925605
+13_PNG,Papua New Guinea,1991,Labour efficiency,2.152807109474712
+13_PNG,Papua New Guinea,1992,Labour efficiency,2.3681048911336453
+13_PNG,Papua New Guinea,1993,Labour efficiency,2.6992318544989073
+13_PNG,Papua New Guinea,1994,Labour efficiency,2.757635227687717
+13_PNG,Papua New Guinea,1995,Labour efficiency,2.5717219522554617
+13_PNG,Papua New Guinea,1996,Labour efficiency,2.6731094042032613
+13_PNG,Papua New Guinea,1997,Labour efficiency,2.4786635084020054
+13_PNG,Papua New Guinea,1998,Labour efficiency,2.301960714690604
+13_PNG,Papua New Guinea,1999,Labour efficiency,2.264484983451156
+13_PNG,Papua New Guinea,2000,Labour efficiency,2.1324815964647876
+13_PNG,Papua New Guinea,2001,Labour efficiency,2.0582857820253753
+13_PNG,Papua New Guinea,2002,Labour efficiency,1.986787057922506
+13_PNG,Papua New Guinea,2003,Labour efficiency,1.9631433251040153
+13_PNG,Papua New Guinea,2004,Labour efficiency,1.9510471087635826
+13_PNG,Papua New Guinea,2005,Labour efficiency,2.008427025993122
+13_PNG,Papua New Guinea,2006,Labour efficiency,2.050169542457542
+13_PNG,Papua New Guinea,2007,Labour efficiency,2.141469604336432
+13_PNG,Papua New Guinea,2008,Labour efficiency,2.0694534106362297
+13_PNG,Papua New Guinea,2009,Labour efficiency,2.1429740342753614
+13_PNG,Papua New Guinea,2010,Labour efficiency,2.2893807519097704
+13_PNG,Papua New Guinea,2011,Labour efficiency,2.24629243375624
+13_PNG,Papua New Guinea,2012,Labour efficiency,2.285266410767473
+13_PNG,Papua New Guinea,2013,Labour efficiency,2.3085113564491593
+13_PNG,Papua New Guinea,2014,Labour efficiency,2.552295430967075
+13_PNG,Papua New Guinea,2015,Labour efficiency,2.650748286415565
+13_PNG,Papua New Guinea,2016,Labour efficiency,2.727028335262751
+13_PNG,Papua New Guinea,2017,Labour efficiency,2.7556390824297607
+13_PNG,Papua New Guinea,2018,Labour efficiency,2.683958016652987
+13_PNG,Papua New Guinea,2019,Labour efficiency,2.740659243932614
+13_PNG,Papua New Guinea,2020,Labour efficiency,2.595496120060385
+13_PNG,Papua New Guinea,2021,Labour efficiency,2.5302025489689806
+13_PNG,Papua New Guinea,2022,Labour efficiency,2.623155834551764
+13_PNG,Papua New Guinea,2023,Labour efficiency,2.6738966080528432
+13_PNG,Papua New Guinea,2024,Labour efficiency,2.7283434355636857
+13_PNG,Papua New Guinea,2025,Labour efficiency,2.8262953731303613
+13_PNG,Papua New Guinea,2026,Labour efficiency,2.9489611588167355
+13_PNG,Papua New Guinea,2027,Labour efficiency,3.0990680464861766
+13_PNG,Papua New Guinea,2028,Labour efficiency,3.280058627616838
+13_PNG,Papua New Guinea,2029,Labour efficiency,3.496219790822153
+13_PNG,Papua New Guinea,2030,Labour efficiency,3.7266263239378907
+13_PNG,Papua New Guinea,2031,Labour efficiency,3.9722170198576294
+13_PNG,Papua New Guinea,2032,Labour efficiency,4.233992539443458
+13_PNG,Papua New Guinea,2033,Labour efficiency,4.513019488725059
+13_PNG,Papua New Guinea,2034,Labour efficiency,4.810434764792809
+13_PNG,Papua New Guinea,2035,Labour efficiency,5.12745018809224
+13_PNG,Papua New Guinea,2036,Labour efficiency,5.465357439994204
+13_PNG,Papua New Guinea,2037,Labour efficiency,5.825533325758882
+13_PNG,Papua New Guinea,2038,Labour efficiency,6.209445384337632
+13_PNG,Papua New Guinea,2039,Labour efficiency,6.618657867869829
+13_PNG,Papua New Guinea,2040,Labour efficiency,7.054838115238225
+13_PNG,Papua New Guinea,2041,Labour efficiency,7.51976334565189
+13_PNG,Papua New Guinea,2042,Labour efficiency,8.015327899937256
+13_PNG,Papua New Guinea,2043,Labour efficiency,8.543550959041934
+13_PNG,Papua New Guinea,2044,Labour efficiency,9.106584771200405
+13_PNG,Papua New Guinea,2045,Labour efficiency,9.706723421283229
+13_PNG,Papua New Guinea,2046,Labour efficiency,10.346412178060525
+13_PNG,Papua New Guinea,2047,Labour efficiency,11.028257457465227
+13_PNG,Papua New Guinea,2048,Labour efficiency,11.755037442451474
+13_PNG,Papua New Guinea,2049,Labour efficiency,12.529713402718844
+13_PNG,Papua New Guinea,2050,Labour efficiency,13.355441760424688
+13_PNG,Papua New Guinea,2051,Labour efficiency,14.23558695104641
+13_PNG,Papua New Guinea,2052,Labour efficiency,15.173735131795349
+13_PNG,Papua New Guinea,2053,Labour efficiency,16.173708793437285
+13_PNG,Papua New Guinea,2054,Labour efficiency,17.23958233505553
+13_PNG,Papua New Guinea,2055,Labour efficiency,18.375698665216056
+13_PNG,Papua New Guinea,2056,Labour efficiency,19.58668689717624
+13_PNG,Papua New Guinea,2057,Labour efficiency,20.877481210236457
+13_PNG,Papua New Guinea,2058,Labour efficiency,22.253340954085218
+13_PNG,Papua New Guinea,2059,Labour efficiency,23.719872078053122
+13_PNG,Papua New Guinea,2060,Labour efficiency,25.28304997258928
+13_PNG,Papua New Guinea,2061,Labour efficiency,26.94924381602793
+13_PNG,Papua New Guinea,2062,Labour efficiency,28.72524252584634
+13_PNG,Papua New Guinea,2063,Labour efficiency,30.618282420152482
+13_PNG,Papua New Guinea,2064,Labour efficiency,32.63607670210949
+13_PNG,Papua New Guinea,2065,Labour efficiency,34.7868468874313
+13_PNG,Papua New Guinea,2066,Labour efficiency,37.07935630300104
+13_PNG,Papua New Guinea,2067,Labour efficiency,39.52294579310248
+13_PNG,Papua New Guinea,2068,Labour efficiency,42.12757177874985
+13_PNG,Papua New Guinea,2069,Labour efficiency,44.90384682518897
+13_PNG,Papua New Guinea,2070,Labour efficiency,47.86308288286227
+13_PNG,Papua New Guinea,2071,Labour efficiency,51.01733737802324
+13_PNG,Papua New Guinea,2072,Labour efficiency,54.37946234079685
+13_PNG,Papua New Guinea,2073,Labour efficiency,57.96315677085855
+13_PNG,Papua New Guinea,2074,Labour efficiency,61.7830224540961
+13_PNG,Papua New Guinea,2075,Labour efficiency,65.85462345767962
+13_PNG,Papua New Guinea,2076,Labour efficiency,70.19454954595287
+13_PNG,Papua New Guinea,2077,Labour efficiency,74.8204837755342
+13_PNG,Papua New Guinea,2078,Labour efficiency,79.75127454504394
+13_PNG,Papua New Guinea,2079,Labour efficiency,85.00701239302516
+13_PNG,Papua New Guinea,2080,Labour efficiency,90.60911185697154
+13_PNG,Papua New Guinea,2081,Labour efficiency,96.5803987269974
+13_PNG,Papua New Guinea,2082,Labour efficiency,102.94520304966564
+13_PNG,Papua New Guinea,2083,Labour efficiency,109.72945826091808
+13_PNG,Papua New Guinea,2084,Labour efficiency,116.96080685202622
+13_PNG,Papua New Guinea,2085,Labour efficiency,124.66871299909877
+13_PNG,Papua New Guinea,2086,Labour efficiency,132.88458261505576
+13_PNG,Papua New Guinea,2087,Labour efficiency,141.64189131322172
+13_PNG,Papua New Guinea,2088,Labour efficiency,150.97632080392637
+13_PNG,Papua New Guinea,2089,Labour efficiency,160.9259042798617
+13_PNG,Papua New Guinea,2090,Labour efficiency,171.53118138256892
+13_PNG,Papua New Guinea,2091,Labour efficiency,182.83536338146743
+13_PNG,Papua New Guinea,2092,Labour efficiency,194.88450923844852
+13_PNG,Papua New Guinea,2093,Labour efficiency,207.72771327541034
+13_PNG,Papua New Guinea,2094,Labour efficiency,221.41730520938665
+13_PNG,Papua New Guinea,2095,Labour efficiency,236.00906337031375
+13_PNG,Papua New Guinea,2096,Labour efficiency,251.56244197019268
+13_PNG,Papua New Guinea,2097,Labour efficiency,268.1408133496565
+13_PNG,Papua New Guinea,2098,Labour efficiency,285.81172618897784
+13_PNG,Papua New Guinea,2099,Labour efficiency,304.6471807355987
+13_PNG,Papua New Guinea,2100,Labour efficiency,324.7239221695995
+13_PNG,Papua New Guinea,1990,Capital stock,24661.2513448114
+13_PNG,Papua New Guinea,1991,Capital stock,27015.635784805
+13_PNG,Papua New Guinea,1992,Capital stock,30757.054220591
+13_PNG,Papua New Guinea,1993,Capital stock,36355.5411804592
+13_PNG,Papua New Guinea,1994,Capital stock,38515.827086638
+13_PNG,Papua New Guinea,1995,Capital stock,37240.0100428558
+13_PNG,Papua New Guinea,1996,Capital stock,40120.0391347016
+13_PNG,Papua New Guinea,1997,Capital stock,38553.5964765852
+13_PNG,Papua New Guinea,1998,Capital stock,37100.4677758356
+13_PNG,Papua New Guinea,1999,Capital stock,37788.8869874756
+13_PNG,Papua New Guinea,2000,Capital stock,36846.1139663758
+13_PNG,Papua New Guinea,2001,Capital stock,36801.4238285412
+13_PNG,Papua New Guinea,2002,Capital stock,36742.9461698956
+13_PNG,Papua New Guinea,2003,Capital stock,37538.101187348
+13_PNG,Papua New Guinea,2004,Capital stock,38559.5788904836
+13_PNG,Papua New Guinea,2005,Capital stock,41006.10547989
+13_PNG,Papua New Guinea,2006,Capital stock,43224.5128602786
+13_PNG,Papua New Guinea,2007,Capital stock,46602.5903334602
+13_PNG,Papua New Guinea,2008,Capital stock,46464.4332980332
+13_PNG,Papua New Guinea,2009,Capital stock,49624.2106020894
+13_PNG,Papua New Guinea,2010,Capital stock,54650.3759815262
+13_PNG,Papua New Guinea,2011,Capital stock,55255.65273740181
+13_PNG,Papua New Guinea,2012,Capital stock,57828.9745694096
+13_PNG,Papua New Guinea,2013,Capital stock,60040.901808726
+13_PNG,Papua New Guinea,2014,Capital stock,68172.7038288728
+13_PNG,Papua New Guinea,2015,Capital stock,72657.34720178861
+13_PNG,Papua New Guinea,2016,Capital stock,76645.92542730161
+13_PNG,Papua New Guinea,2017,Capital stock,79355.06059863139
+13_PNG,Papua New Guinea,2018,Capital stock,79133.4597786784
+13_PNG,Papua New Guinea,2019,Capital stock,82679.0459733528
+13_PNG,Papua New Guinea,2020,Capital stock,80060.2433772316
+13_PNG,Papua New Guinea,2021,Capital stock,79651.445681325
+13_PNG,Papua New Guinea,2022,Capital stock,84197.1693378396
+13_PNG,Papua New Guinea,2023,Capital stock,87405.4713926728
+13_PNG,Papua New Guinea,2024,Capital stock,90803.7552554588
+13_PNG,Papua New Guinea,2025,Capital stock,95923.1988088378
+13_PNG,Papua New Guinea,2026,Capital stock,101060.8688353787
+13_PNG,Papua New Guinea,2027,Capital stock,106203.07148253098
+13_PNG,Papua New Guinea,2028,Capital stock,111336.72841153112
+13_PNG,Papua New Guinea,2029,Capital stock,116449.44625781557
+13_PNG,Papua New Guinea,2030,Capital stock,121529.57131661945
+13_PNG,Papua New Guinea,2031,Capital stock,126566.23029996199
+13_PNG,Papua New Guinea,2032,Capital stock,131549.35816938351
+13_PNG,Papua New Guinea,2033,Capital stock,136469.71415831934
+13_PNG,Papua New Guinea,2034,Capital stock,141318.88716437473
+13_PNG,Papua New Guinea,2035,Capital stock,146089.29172083084
+13_PNG,Papua New Guinea,2036,Capital stock,150774.1557543319
+13_PNG,Papua New Guinea,2037,Capital stock,155367.50130756744
+13_PNG,Papua New Guinea,2038,Capital stock,159864.1193572197
+13_PNG,Papua New Guinea,2039,Capital stock,164259.53979338848
+13_PNG,Papua New Guinea,2040,Capital stock,168549.99755150947
+13_PNG,Papua New Guinea,2041,Capital stock,172732.39580526677
+13_PNG,Papua New Guinea,2042,Capital stock,176804.26704243102
+13_PNG,Papua New Guinea,2043,Capital stock,180763.73275765285
+13_PNG,Papua New Guinea,2044,Capital stock,184609.4624092217
+13_PNG,Papua New Guinea,2045,Capital stock,188340.6322024136
+13_PNG,Papua New Guinea,2046,Capital stock,191956.8841816282
+13_PNG,Papua New Guinea,2047,Capital stock,195458.28603802458
+13_PNG,Papua New Guinea,2048,Capital stock,198845.2919694573
+13_PNG,Papua New Guinea,2049,Capital stock,202118.70486558106
+13_PNG,Papua New Guinea,2050,Capital stock,205279.64003320187
+13_PNG,Papua New Guinea,2051,Capital stock,208329.49062530106
+13_PNG,Papua New Guinea,2052,Capital stock,211269.89489150548
+13_PNG,Papua New Guinea,2053,Capital stock,214102.70532787338
+13_PNG,Papua New Guinea,2054,Capital stock,216829.95976939204
+13_PNG,Papua New Guinea,2055,Capital stock,219453.85443916422
+13_PNG,Papua New Guinea,2056,Capital stock,221976.71894349507
+13_PNG,Papua New Guinea,2057,Capital stock,224400.99318155518
+13_PNG,Papua New Guinea,2058,Capital stock,226729.20612157273
+13_PNG,Papua New Guinea,2059,Capital stock,228963.95638218237
+13_PNG,Papua New Guinea,2060,Capital stock,231107.8945472324
+13_PNG,Papua New Guinea,2061,Capital stock,233163.70713465233
+13_PNG,Papua New Guinea,2062,Capital stock,235134.10213455572
+13_PNG,Papua New Guinea,2063,Capital stock,237021.79602827513
+13_PNG,Papua New Guinea,2064,Capital stock,238829.5021982024
+13_PNG,Papua New Guinea,2065,Capital stock,240559.92063786858
+13_PNG,Papua New Guinea,2066,Capital stock,242215.72887240734
+13_PNG,Papua New Guinea,2067,Capital stock,243799.57400118595
+13_PNG,Papua New Guinea,2068,Capital stock,245314.06577677708
+13_PNG,Papua New Guinea,2069,Capital stock,246761.77063741497
+13_PNG,Papua New Guinea,2070,Capital stock,248145.20661349
+13_PNG,Papua New Guinea,2071,Capital stock,249466.83903236617
+13_PNG,Papua New Guinea,2072,Capital stock,250729.0769497506
+13_PNG,Papua New Guinea,2073,Capital stock,251934.27023991747
+13_PNG,Papua New Guinea,2074,Capital stock,253084.70728121538
+13_PNG,Papua New Guinea,2075,Capital stock,254182.61317741132
+13_PNG,Papua New Guinea,2076,Capital stock,255230.14845949176
+13_PNG,Papua New Guinea,2077,Capital stock,256229.40821651756
+13_PNG,Papua New Guinea,2078,Capital stock,257182.4216079823
+13_PNG,Papua New Guinea,2079,Capital stock,258091.15171382914
+13_PNG,Papua New Guinea,2080,Capital stock,258957.49568182358
+13_PNG,Papua New Guinea,2081,Capital stock,259783.28513534836
+13_PNG,Papua New Guinea,2082,Capital stock,260570.28680786944
+13_PNG,Papua New Guinea,2083,Capital stock,261320.20337332215
+13_PNG,Papua New Guinea,2084,Capital stock,262034.67444447905
+13_PNG,Papua New Guinea,2085,Capital stock,262715.2777139858
+13_PNG,Papua New Guinea,2086,Capital stock,263363.5302151999
+13_PNG,Papua New Guinea,2087,Capital stock,263980.8896822334
+13_PNG,Papua New Guinea,2088,Capital stock,264568.7559907031
+13_PNG,Papua New Guinea,2089,Capital stock,265128.4726626278
+13_PNG,Papua New Guinea,2090,Capital stock,265661.3284206924
+13_PNG,Papua New Guinea,2091,Capital stock,266168.55877873837
+13_PNG,Papua New Guinea,2092,Capital stock,266651.3476568333
+13_PNG,Papua New Guinea,2093,Capital stock,267110.82901064155
+13_PNG,Papua New Guinea,2094,Capital stock,267548.08846606413
+13_PNG,Papua New Guinea,2095,Capital stock,267964.16495124664
+13_PNG,Papua New Guinea,2096,Capital stock,268360.05231908266
+13_PNG,Papua New Guinea,2097,Capital stock,268736.70095426886
+13_PNG,Papua New Guinea,2098,Capital stock,269095.0193598063
+13_PNG,Papua New Guinea,2099,Capital stock,269435.8757185993
+13_PNG,Papua New Guinea,2100,Capital stock,269760.0994264811
+13_PNG,Papua New Guinea,1990,Savings,0.171227925491283
+13_PNG,Papua New Guinea,1991,Savings,0.211222107992533
+13_PNG,Papua New Guinea,1992,Savings,0.207395892005851
+13_PNG,Papua New Guinea,1993,Savings,0.25475983904987504
+13_PNG,Papua New Guinea,1994,Savings,0.280654077363039
+13_PNG,Papua New Guinea,1995,Savings,0.35148685757411896
+13_PNG,Papua New Guinea,1996,Savings,0.262088923734518
+13_PNG,Papua New Guinea,1997,Savings,0.148325203336228
+13_PNG,Papua New Guinea,1998,Savings,0.18408179383762702
+13_PNG,Papua New Guinea,1999,Savings,0.18878932985343902
+13_PNG,Papua New Guinea,2000,Savings,0.32479973088131997
+13_PNG,Papua New Guinea,2001,Savings,0.283485704115071
+13_PNG,Papua New Guinea,2002,Savings,0.22940723795215898
+13_PNG,Papua New Guinea,2003,Savings,0.30458818752029404
+13_PNG,Papua New Guinea,2004,Savings,0.304211496284667
+13_PNG,Papua New Guinea,2005,Savings,0.3022114962846669
+13_PNG,Papua New Guinea,2006,Savings,0.300211496284667
+13_PNG,Papua New Guinea,2007,Savings,0.298211496284667
+13_PNG,Papua New Guinea,2008,Savings,0.296211496284667
+13_PNG,Papua New Guinea,2009,Savings,0.294211496284667
+13_PNG,Papua New Guinea,2010,Savings,0.2922114962846669
+13_PNG,Papua New Guinea,2011,Savings,0.29021149628466697
+13_PNG,Papua New Guinea,2012,Savings,0.28821149628466697
+13_PNG,Papua New Guinea,2013,Savings,0.28621149628466697
+13_PNG,Papua New Guinea,2014,Savings,0.28421149628466696
+13_PNG,Papua New Guinea,2015,Savings,0.28221149628466696
+13_PNG,Papua New Guinea,2016,Savings,0.2802114962846669
+13_PNG,Papua New Guinea,2017,Savings,0.27821149628466696
+13_PNG,Papua New Guinea,2018,Savings,0.27621149628466696
+13_PNG,Papua New Guinea,2019,Savings,0.27421149628466696
+13_PNG,Papua New Guinea,2020,Savings,0.2722114962846669
+13_PNG,Papua New Guinea,2021,Savings,0.2702114962846669
+13_PNG,Papua New Guinea,2022,Savings,0.26821149628466695
+13_PNG,Papua New Guinea,2023,Savings,0.26621149628466695
+13_PNG,Papua New Guinea,2024,Savings,0.26421149628466695
+13_PNG,Papua New Guinea,2025,Savings,0.2622114962846669
+13_PNG,Papua New Guinea,2026,Savings,0.2622114962846669
+13_PNG,Papua New Guinea,2027,Savings,0.2602114962846669
+13_PNG,Papua New Guinea,2028,Savings,0.2582114962846669
+13_PNG,Papua New Guinea,2029,Savings,0.2562114962846669
+13_PNG,Papua New Guinea,2030,Savings,0.2542114962846669
+13_PNG,Papua New Guinea,2031,Savings,0.2522114962846669
+13_PNG,Papua New Guinea,2032,Savings,0.2502114962846669
+13_PNG,Papua New Guinea,2033,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2034,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2035,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2036,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2037,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2038,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2039,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2040,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2041,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2042,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2043,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2044,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2045,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2046,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2047,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2048,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2049,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2050,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2051,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2052,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2053,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2054,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2055,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2056,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2057,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2058,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2059,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2060,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2061,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2062,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2063,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2064,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2065,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2066,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2067,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2068,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2069,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2070,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2071,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2072,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2073,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2074,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2075,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2076,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2077,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2078,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2079,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2080,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2081,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2082,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2083,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2084,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2085,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2086,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2087,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2088,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2089,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2090,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2091,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2092,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2093,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2094,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2095,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2096,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2097,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2098,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2099,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,2100,Savings,0.24821149628466688
+13_PNG,Papua New Guinea,1990,Depreciation,0.06
+13_PNG,Papua New Guinea,1991,Depreciation,0.06
+13_PNG,Papua New Guinea,1992,Depreciation,0.06
+13_PNG,Papua New Guinea,1993,Depreciation,0.06
+13_PNG,Papua New Guinea,1994,Depreciation,0.06
+13_PNG,Papua New Guinea,1995,Depreciation,0.06
+13_PNG,Papua New Guinea,1996,Depreciation,0.06
+13_PNG,Papua New Guinea,1997,Depreciation,0.06
+13_PNG,Papua New Guinea,1998,Depreciation,0.06
+13_PNG,Papua New Guinea,1999,Depreciation,0.06
+13_PNG,Papua New Guinea,2000,Depreciation,0.06
+13_PNG,Papua New Guinea,2001,Depreciation,0.06
+13_PNG,Papua New Guinea,2002,Depreciation,0.06
+13_PNG,Papua New Guinea,2003,Depreciation,0.06
+13_PNG,Papua New Guinea,2004,Depreciation,0.06
+13_PNG,Papua New Guinea,2005,Depreciation,0.06
+13_PNG,Papua New Guinea,2006,Depreciation,0.06
+13_PNG,Papua New Guinea,2007,Depreciation,0.06
+13_PNG,Papua New Guinea,2008,Depreciation,0.06
+13_PNG,Papua New Guinea,2009,Depreciation,0.06
+13_PNG,Papua New Guinea,2010,Depreciation,0.06
+13_PNG,Papua New Guinea,2011,Depreciation,0.06
+13_PNG,Papua New Guinea,2012,Depreciation,0.06
+13_PNG,Papua New Guinea,2013,Depreciation,0.06
+13_PNG,Papua New Guinea,2014,Depreciation,0.06
+13_PNG,Papua New Guinea,2015,Depreciation,0.06
+13_PNG,Papua New Guinea,2016,Depreciation,0.06
+13_PNG,Papua New Guinea,2017,Depreciation,0.06
+13_PNG,Papua New Guinea,2018,Depreciation,0.06
+13_PNG,Papua New Guinea,2019,Depreciation,0.06
+13_PNG,Papua New Guinea,2020,Depreciation,0.06
+13_PNG,Papua New Guinea,2021,Depreciation,0.06
+13_PNG,Papua New Guinea,2022,Depreciation,0.06
+13_PNG,Papua New Guinea,2023,Depreciation,0.06
+13_PNG,Papua New Guinea,2024,Depreciation,0.06
+13_PNG,Papua New Guinea,2025,Depreciation,0.06
+13_PNG,Papua New Guinea,2026,Depreciation,0.06
+13_PNG,Papua New Guinea,2027,Depreciation,0.0598
+13_PNG,Papua New Guinea,2028,Depreciation,0.0596
+13_PNG,Papua New Guinea,2029,Depreciation,0.0594
+13_PNG,Papua New Guinea,2030,Depreciation,0.0592
+13_PNG,Papua New Guinea,2031,Depreciation,0.059000000000000004
+13_PNG,Papua New Guinea,2032,Depreciation,0.058800000000000005
+13_PNG,Papua New Guinea,2033,Depreciation,0.058600000000000006
+13_PNG,Papua New Guinea,2034,Depreciation,0.05840000000000001
+13_PNG,Papua New Guinea,2035,Depreciation,0.05820000000000001
+13_PNG,Papua New Guinea,2036,Depreciation,0.05800000000000001
+13_PNG,Papua New Guinea,2037,Depreciation,0.05780000000000001
+13_PNG,Papua New Guinea,2038,Depreciation,0.05760000000000001
+13_PNG,Papua New Guinea,2039,Depreciation,0.057400000000000014
+13_PNG,Papua New Guinea,2040,Depreciation,0.057200000000000015
+13_PNG,Papua New Guinea,2041,Depreciation,0.057000000000000016
+13_PNG,Papua New Guinea,2042,Depreciation,0.05680000000000002
+13_PNG,Papua New Guinea,2043,Depreciation,0.05660000000000002
+13_PNG,Papua New Guinea,2044,Depreciation,0.05640000000000002
+13_PNG,Papua New Guinea,2045,Depreciation,0.05620000000000002
+13_PNG,Papua New Guinea,2046,Depreciation,0.05600000000000002
+13_PNG,Papua New Guinea,2047,Depreciation,0.05580000000000002
+13_PNG,Papua New Guinea,2048,Depreciation,0.055600000000000024
+13_PNG,Papua New Guinea,2049,Depreciation,0.055400000000000026
+13_PNG,Papua New Guinea,2050,Depreciation,0.05520000000000003
+13_PNG,Papua New Guinea,2051,Depreciation,0.05500000000000003
+13_PNG,Papua New Guinea,2052,Depreciation,0.05480000000000003
+13_PNG,Papua New Guinea,2053,Depreciation,0.05460000000000003
+13_PNG,Papua New Guinea,2054,Depreciation,0.05440000000000003
+13_PNG,Papua New Guinea,2055,Depreciation,0.05420000000000003
+13_PNG,Papua New Guinea,2056,Depreciation,0.054000000000000034
+13_PNG,Papua New Guinea,2057,Depreciation,0.053800000000000035
+13_PNG,Papua New Guinea,2058,Depreciation,0.053600000000000037
+13_PNG,Papua New Guinea,2059,Depreciation,0.05340000000000004
+13_PNG,Papua New Guinea,2060,Depreciation,0.05320000000000004
+13_PNG,Papua New Guinea,2061,Depreciation,0.05300000000000004
+13_PNG,Papua New Guinea,2062,Depreciation,0.05280000000000004
+13_PNG,Papua New Guinea,2063,Depreciation,0.05260000000000004
+13_PNG,Papua New Guinea,2064,Depreciation,0.052400000000000044
+13_PNG,Papua New Guinea,2065,Depreciation,0.052200000000000045
+13_PNG,Papua New Guinea,2066,Depreciation,0.052000000000000046
+13_PNG,Papua New Guinea,2067,Depreciation,0.05180000000000005
+13_PNG,Papua New Guinea,2068,Depreciation,0.05160000000000005
+13_PNG,Papua New Guinea,2069,Depreciation,0.05140000000000005
+13_PNG,Papua New Guinea,2070,Depreciation,0.05120000000000005
+13_PNG,Papua New Guinea,2071,Depreciation,0.05100000000000005
+13_PNG,Papua New Guinea,2072,Depreciation,0.05080000000000005
+13_PNG,Papua New Guinea,2073,Depreciation,0.050600000000000055
+13_PNG,Papua New Guinea,2074,Depreciation,0.050400000000000056
+13_PNG,Papua New Guinea,2075,Depreciation,0.05020000000000006
+13_PNG,Papua New Guinea,2076,Depreciation,0.05000000000000006
+13_PNG,Papua New Guinea,2077,Depreciation,0.04980000000000006
+13_PNG,Papua New Guinea,2078,Depreciation,0.04960000000000006
+13_PNG,Papua New Guinea,2079,Depreciation,0.04940000000000006
+13_PNG,Papua New Guinea,2080,Depreciation,0.04920000000000006
+13_PNG,Papua New Guinea,2081,Depreciation,0.049000000000000064
+13_PNG,Papua New Guinea,2082,Depreciation,0.048800000000000066
+13_PNG,Papua New Guinea,2083,Depreciation,0.04860000000000007
+13_PNG,Papua New Guinea,2084,Depreciation,0.04840000000000007
+13_PNG,Papua New Guinea,2085,Depreciation,0.04820000000000007
+13_PNG,Papua New Guinea,2086,Depreciation,0.04800000000000007
+13_PNG,Papua New Guinea,2087,Depreciation,0.04780000000000007
+13_PNG,Papua New Guinea,2088,Depreciation,0.04760000000000007
+13_PNG,Papua New Guinea,2089,Depreciation,0.047400000000000074
+13_PNG,Papua New Guinea,2090,Depreciation,0.047200000000000075
+13_PNG,Papua New Guinea,2091,Depreciation,0.047000000000000076
+13_PNG,Papua New Guinea,2092,Depreciation,0.04680000000000008
+13_PNG,Papua New Guinea,2093,Depreciation,0.04660000000000008
+13_PNG,Papua New Guinea,2094,Depreciation,0.04640000000000008
+13_PNG,Papua New Guinea,2095,Depreciation,0.04620000000000008
+13_PNG,Papua New Guinea,2096,Depreciation,0.04600000000000008
+13_PNG,Papua New Guinea,2097,Depreciation,0.045800000000000084
+13_PNG,Papua New Guinea,2098,Depreciation,0.045800000000000084
+13_PNG,Papua New Guinea,2099,Depreciation,0.045800000000000084
+13_PNG,Papua New Guinea,2100,Depreciation,0.045800000000000084
+13_PNG,Papua New Guinea,1990,WDI GDP through 2025,12330.6256724057
+13_PNG,Papua New Guinea,1991,WDI GDP through 2025,13507.8178924025
+13_PNG,Papua New Guinea,1992,WDI GDP through 2025,15378.5271102955
+13_PNG,Papua New Guinea,1993,WDI GDP through 2025,18177.7705902296
+13_PNG,Papua New Guinea,1994,WDI GDP through 2025,19257.913543319
+13_PNG,Papua New Guinea,1995,WDI GDP through 2025,18620.0050214279
+13_PNG,Papua New Guinea,1996,WDI GDP through 2025,20060.0195673508
+13_PNG,Papua New Guinea,1997,WDI GDP through 2025,19276.7982382926
+13_PNG,Papua New Guinea,1998,WDI GDP through 2025,18550.2338879178
+13_PNG,Papua New Guinea,1999,WDI GDP through 2025,18894.4434937378
+13_PNG,Papua New Guinea,2000,WDI GDP through 2025,18423.0569831879
+13_PNG,Papua New Guinea,2001,WDI GDP through 2025,18400.7119142706
+13_PNG,Papua New Guinea,2002,WDI GDP through 2025,18371.4730849478
+13_PNG,Papua New Guinea,2003,WDI GDP through 2025,18769.050593674
+13_PNG,Papua New Guinea,2004,WDI GDP through 2025,19279.7894452418
+13_PNG,Papua New Guinea,2005,WDI GDP through 2025,20503.052739945
+13_PNG,Papua New Guinea,2006,WDI GDP through 2025,21612.2564301393
+13_PNG,Papua New Guinea,2007,WDI GDP through 2025,23301.2951667301
+13_PNG,Papua New Guinea,2008,WDI GDP through 2025,23232.2166490166
+13_PNG,Papua New Guinea,2009,WDI GDP through 2025,24812.1053010447
+13_PNG,Papua New Guinea,2010,WDI GDP through 2025,27325.1879907631
+13_PNG,Papua New Guinea,2011,WDI GDP through 2025,27627.826368700906
+13_PNG,Papua New Guinea,2012,WDI GDP through 2025,28914.4872847048
+13_PNG,Papua New Guinea,2013,WDI GDP through 2025,30020.450904363
+13_PNG,Papua New Guinea,2014,WDI GDP through 2025,34086.3519144364
+13_PNG,Papua New Guinea,2015,WDI GDP through 2025,36328.673600894304
+13_PNG,Papua New Guinea,2016,WDI GDP through 2025,38322.962713650806
+13_PNG,Papua New Guinea,2017,WDI GDP through 2025,39677.530299315695
+13_PNG,Papua New Guinea,2018,WDI GDP through 2025,39566.7298893392
+13_PNG,Papua New Guinea,2019,WDI GDP through 2025,41339.5229866764
+13_PNG,Papua New Guinea,2020,WDI GDP through 2025,40030.1216886158
+13_PNG,Papua New Guinea,2021,WDI GDP through 2025,39825.7228406625
+13_PNG,Papua New Guinea,2022,WDI GDP through 2025,42098.5846689198
+13_PNG,Papua New Guinea,2023,WDI GDP through 2025,43702.7356963364
+13_PNG,Papua New Guinea,2024,WDI GDP through 2025,45401.8776277294
+13_PNG,Papua New Guinea,2025,WDI GDP through 2025,47961.5994044189
+13_PNG,Papua New Guinea,2026,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2027,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2028,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2029,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2030,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2031,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2032,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2033,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2034,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2035,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2036,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2037,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2038,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2039,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2040,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2041,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2042,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2043,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2044,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2045,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2046,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2047,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2048,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2049,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2050,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2051,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2052,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2053,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2054,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2055,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2056,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2057,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2058,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2059,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2060,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2061,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2062,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2063,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2064,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2065,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2066,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2067,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2068,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2069,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2070,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2071,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2072,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2073,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2074,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2075,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2076,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2077,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2078,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2079,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2080,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2081,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2082,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2083,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2084,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2085,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2086,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2087,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2088,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2089,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2090,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2091,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2092,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2093,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2094,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2095,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2096,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2097,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2098,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2099,WDI GDP through 2025,
+13_PNG,Papua New Guinea,2100,WDI GDP through 2025,
+13_PNG,Papua New Guinea,1990,APERC GDP projections,
+13_PNG,Papua New Guinea,1991,APERC GDP projections,
+13_PNG,Papua New Guinea,1992,APERC GDP projections,
+13_PNG,Papua New Guinea,1993,APERC GDP projections,
+13_PNG,Papua New Guinea,1994,APERC GDP projections,
+13_PNG,Papua New Guinea,1995,APERC GDP projections,
+13_PNG,Papua New Guinea,1996,APERC GDP projections,
+13_PNG,Papua New Guinea,1997,APERC GDP projections,
+13_PNG,Papua New Guinea,1998,APERC GDP projections,
+13_PNG,Papua New Guinea,1999,APERC GDP projections,
+13_PNG,Papua New Guinea,2000,APERC GDP projections,
+13_PNG,Papua New Guinea,2001,APERC GDP projections,
+13_PNG,Papua New Guinea,2002,APERC GDP projections,
+13_PNG,Papua New Guinea,2003,APERC GDP projections,
+13_PNG,Papua New Guinea,2004,APERC GDP projections,
+13_PNG,Papua New Guinea,2005,APERC GDP projections,
+13_PNG,Papua New Guinea,2006,APERC GDP projections,
+13_PNG,Papua New Guinea,2007,APERC GDP projections,
+13_PNG,Papua New Guinea,2008,APERC GDP projections,
+13_PNG,Papua New Guinea,2009,APERC GDP projections,
+13_PNG,Papua New Guinea,2010,APERC GDP projections,
+13_PNG,Papua New Guinea,2011,APERC GDP projections,
+13_PNG,Papua New Guinea,2012,APERC GDP projections,
+13_PNG,Papua New Guinea,2013,APERC GDP projections,
+13_PNG,Papua New Guinea,2014,APERC GDP projections,
+13_PNG,Papua New Guinea,2015,APERC GDP projections,
+13_PNG,Papua New Guinea,2016,APERC GDP projections,
+13_PNG,Papua New Guinea,2017,APERC GDP projections,
+13_PNG,Papua New Guinea,2018,APERC GDP projections,
+13_PNG,Papua New Guinea,2019,APERC GDP projections,
+13_PNG,Papua New Guinea,2020,APERC GDP projections,
+13_PNG,Papua New Guinea,2021,APERC GDP projections,
+13_PNG,Papua New Guinea,2022,APERC GDP projections,
+13_PNG,Papua New Guinea,2023,APERC GDP projections,
+13_PNG,Papua New Guinea,2024,APERC GDP projections,
+13_PNG,Papua New Guinea,2025,APERC GDP projections,
+13_PNG,Papua New Guinea,2026,APERC GDP projections,50816.96757226448
+13_PNG,Papua New Guinea,2027,APERC GDP projections,54004.15399859535
+13_PNG,Papua New Guinea,2028,APERC GDP projections,57564.42886999514
+13_PNG,Papua New Guinea,2029,APERC GDP projections,61546.144187095444
+13_PNG,Papua New Guinea,2030,APERC GDP projections,65772.66017976885
+13_PNG,Papua New Guinea,2031,APERC GDP projections,70214.81170625353
+13_PNG,Papua New Guinea,2032,APERC GDP projections,74874.99797210892
+13_PNG,Papua New Guinea,2033,APERC GDP projections,79767.14447103278
+13_PNG,Papua New Guinea,2034,APERC GDP projections,84898.25294022415
+13_PNG,Papua New Guinea,2035,APERC GDP projections,90323.23225985299
+13_PNG,Papua New Guinea,2036,APERC GDP projections,96007.54754818059
+13_PNG,Papua New Guinea,2037,APERC GDP projections,101971.36897960458
+13_PNG,Papua New Guinea,2038,APERC GDP projections,108218.03167314752
+13_PNG,Papua New Guinea,2039,APERC GDP projections,114760.7859143985
+13_PNG,Papua New Guinea,2040,APERC GDP projections,121607.76548103825
+13_PNG,Papua New Guinea,2041,APERC GDP projections,128772.97584197234
+13_PNG,Papua New Guinea,2042,APERC GDP projections,136265.6197834602
+13_PNG,Papua New Guinea,2043,APERC GDP projections,144102.25561948548
+13_PNG,Papua New Guinea,2044,APERC GDP projections,152307.03116392242
+13_PNG,Papua New Guinea,2045,APERC GDP projections,160897.67934439413
+13_PNG,Papua New Guinea,2046,APERC GDP projections,169890.39690673538
+13_PNG,Papua New Guinea,2047,APERC GDP projections,179285.0228661646
+13_PNG,Papua New Guinea,2048,APERC GDP projections,189109.69039894655
+13_PNG,Papua New Guinea,2049,APERC GDP projections,199385.03234107944
+13_PNG,Papua New Guinea,2050,APERC GDP projections,210134.63962506512
+13_PNG,Papua New Guinea,2051,APERC GDP projections,221354.9963290194
+13_PNG,Papua New Guinea,2052,APERC GDP projections,233093.52153394607
+13_PNG,Papua New Guinea,2053,APERC GDP projections,245371.74562654799
+13_PNG,Papua New Guinea,2054,APERC GDP projections,258188.2709476749
+13_PNG,Papua New Guinea,2055,APERC GDP projections,271604.87033890194
+13_PNG,Papua New Guinea,2056,APERC GDP projections,285600.4350937207
+13_PNG,Papua New Guinea,2057,APERC GDP projections,300224.3073382527
+13_PNG,Papua New Guinea,2058,APERC GDP projections,315511.39672357397
+13_PNG,Papua New Guinea,2059,APERC GDP projections,331479.48042975157
+13_PNG,Papua New Guinea,2060,APERC GDP projections,348169.77736955014
+13_PNG,Papua New Guinea,2061,APERC GDP projections,365618.3930021705
+13_PNG,Papua New Guinea,2062,APERC GDP projections,383803.1897431193
+13_PNG,Papua New Guinea,2063,APERC GDP projections,402785.035805589
+13_PNG,Papua New Guinea,2064,APERC GDP projections,422606.21614141733
+13_PNG,Papua New Guinea,2065,APERC GDP projections,443336.79068763205
+13_PNG,Papua New Guinea,2066,APERC GDP projections,464991.55973192013
+13_PNG,Papua New Guinea,2067,APERC GDP projections,487594.46981426014
+13_PNG,Papua New Guinea,2068,APERC GDP projections,511187.4856992754
+13_PNG,Papua New Guinea,2069,APERC GDP projections,535794.7574266187
+13_PNG,Papua New Guinea,2070,APERC GDP projections,561457.7100216519
+13_PNG,Papua New Guinea,2071,APERC GDP projections,588229.353304375
+13_PNG,Papua New Guinea,2072,APERC GDP projections,616185.3154747005
+13_PNG,Papua New Guinea,2073,APERC GDP projections,645338.506929355
+13_PNG,Papua New Guinea,2074,APERC GDP projections,675717.5094858918
+13_PNG,Papua New Guinea,2075,APERC GDP projections,707414.3725093503
+13_PNG,Papua New Guinea,2076,APERC GDP projections,740494.3936969275
+13_PNG,Papua New Guinea,2077,APERC GDP projections,774991.8320587529
+13_PNG,Papua New Guinea,2078,APERC GDP projections,811016.6125649222
+13_PNG,Papua New Guinea,2079,APERC GDP projections,848644.0965197323
+13_PNG,Papua New Guinea,2080,APERC GDP projections,887872.0618686122
+13_PNG,Papua New Guinea,2081,APERC GDP projections,928911.50906186
+13_PNG,Papua New Guinea,2082,APERC GDP projections,971635.7950514762
+13_PNG,Papua New Guinea,2083,APERC GDP projections,1016192.1293081522
+13_PNG,Papua New Guinea,2084,APERC GDP projections,1062750.9589904265
+13_PNG,Papua New Guinea,2085,APERC GDP projections,1111274.6241102014
+13_PNG,Papua New Guinea,2086,APERC GDP projections,1161946.3490855221
+13_PNG,Papua New Guinea,2087,APERC GDP projections,1214824.472778717
+13_PNG,Papua New Guinea,2088,APERC GDP projections,1269943.6234339664
+13_PNG,Papua New Guinea,2089,APERC GDP projections,1327427.109675968
+13_PNG,Papua New Guinea,2090,APERC GDP projections,1387375.4331933795
+13_PNG,Papua New Guinea,2091,APERC GDP projections,1450033.4793854463
+13_PNG,Papua New Guinea,2092,APERC GDP projections,1515295.3433526673
+13_PNG,Papua New Guinea,2093,APERC GDP projections,1583320.4176650096
+13_PNG,Papua New Guinea,2094,APERC GDP projections,1654210.9267332098
+13_PNG,Papua New Guinea,2095,APERC GDP projections,1728135.5907713573
+13_PNG,Papua New Guinea,2096,APERC GDP projections,1805159.4614637904
+13_PNG,Papua New Guinea,2097,APERC GDP projections,1885459.2327758693
+13_PNG,Papua New Guinea,2098,APERC GDP projections,1969084.983333321
+13_PNG,Papua New Guinea,2099,APERC GDP projections,2056184.7569106168
+13_PNG,Papua New Guinea,2100,APERC GDP projections,2146983.0240155184
+13_PNG,Papua New Guinea,1990,9th Outlook projections (rebased to 2021 PPP USD),11648.994179897958
+13_PNG,Papua New Guinea,1991,9th Outlook projections (rebased to 2021 PPP USD),12765.274351803806
+13_PNG,Papua New Guinea,1992,9th Outlook projections (rebased to 2021 PPP USD),14530.280892038172
+13_PNG,Papua New Guinea,1993,9th Outlook projections (rebased to 2021 PPP USD),16464.894683735536
+13_PNG,Papua New Guinea,1994,9th Outlook projections (rebased to 2021 PPP USD),18192.499920512157
+13_PNG,Papua New Guinea,1995,9th Outlook projections (rebased to 2021 PPP USD),17567.49096345127
+13_PNG,Papua New Guinea,1996,9th Outlook projections (rebased to 2021 PPP USD),18727.59321338594
+13_PNG,Papua New Guinea,1997,9th Outlook projections (rebased to 2021 PPP USD),17539.79004827851
+13_PNG,Papua New Guinea,1998,9th Outlook projections (rebased to 2021 PPP USD),18360.61580704422
+13_PNG,Papua New Guinea,1999,9th Outlook projections (rebased to 2021 PPP USD),18700.85340227043
+13_PNG,Papua New Guinea,2000,9th Outlook projections (rebased to 2021 PPP USD),18234.216962452003
+13_PNG,Papua New Guinea,2001,9th Outlook projections (rebased to 2021 PPP USD),18211.416566414984
+13_PNG,Papua New Guinea,2002,9th Outlook projections (rebased to 2021 PPP USD),18181.91534089148
+13_PNG,Papua New Guinea,2003,9th Outlook projections (rebased to 2021 PPP USD),19829.414938802962
+13_PNG,Papua New Guinea,2004,9th Outlook projections (rebased to 2021 PPP USD),19943.01354730091
+13_PNG,Papua New Guinea,2005,9th Outlook projections (rebased to 2021 PPP USD),20789.78687507352
+13_PNG,Papua New Guinea,2006,9th Outlook projections (rebased to 2021 PPP USD),21315.994066184237
+13_PNG,Papua New Guinea,2007,9th Outlook projections (rebased to 2021 PPP USD),22984.253165693583
+13_PNG,Papua New Guinea,2008,9th Outlook projections (rebased to 2021 PPP USD),22914.56334407999
+13_PNG,Papua New Guinea,2009,9th Outlook projections (rebased to 2021 PPP USD),24475.0917317933
+13_PNG,Papua New Guinea,2010,9th Outlook projections (rebased to 2021 PPP USD),26954.29168095728
+13_PNG,Papua New Guinea,2011,9th Outlook projections (rebased to 2021 PPP USD),27250.01824488948
+13_PNG,Papua New Guinea,2012,9th Outlook projections (rebased to 2021 PPP USD),28521.146055998637
+13_PNG,Papua New Guinea,2013,9th Outlook projections (rebased to 2021 PPP USD),29611.898647914924
+13_PNG,Papua New Guinea,2014,9th Outlook projections (rebased to 2021 PPP USD),33622.79790849211
+13_PNG,Papua New Guinea,2015,9th Outlook projections (rebased to 2021 PPP USD),35833.503288999156
+13_PNG,Papua New Guinea,2016,9th Outlook projections (rebased to 2021 PPP USD),37800.76795623014
+13_PNG,Papua New Guinea,2017,9th Outlook projections (rebased to 2021 PPP USD),39138.72972338269
+13_PNG,Papua New Guinea,2018,9th Outlook projections (rebased to 2021 PPP USD),39028.83771307634
+13_PNG,Papua New Guinea,2019,9th Outlook projections (rebased to 2021 PPP USD),40774.066966625556
+13_PNG,Papua New Guinea,2020,9th Outlook projections (rebased to 2021 PPP USD),39351.186036618754
+13_PNG,Papua New Guinea,2021,9th Outlook projections (rebased to 2021 PPP USD),39825.7228406625
+13_PNG,Papua New Guinea,2022,9th Outlook projections (rebased to 2021 PPP USD),41343.84798405465
+13_PNG,Papua New Guinea,2023,9th Outlook projections (rebased to 2021 PPP USD),43433.341566688585
+13_PNG,Papua New Guinea,2024,9th Outlook projections (rebased to 2021 PPP USD),44719.46608886309
+13_PNG,Papua New Guinea,2025,9th Outlook projections (rebased to 2021 PPP USD),46046.445157526796
+13_PNG,Papua New Guinea,2026,9th Outlook projections (rebased to 2021 PPP USD),47424.99530759432
+13_PNG,Papua New Guinea,2027,9th Outlook projections (rebased to 2021 PPP USD),48862.76756865341
+13_PNG,Papua New Guinea,2028,9th Outlook projections (rebased to 2021 PPP USD),50524.06965137209
+13_PNG,Papua New Guinea,2029,9th Outlook projections (rebased to 2021 PPP USD),52432.558738632266
+13_PNG,Papua New Guinea,2030,9th Outlook projections (rebased to 2021 PPP USD),54610.951372067546
+13_PNG,Papua New Guinea,2031,9th Outlook projections (rebased to 2021 PPP USD),57086.52497898393
+13_PNG,Papua New Guinea,2032,9th Outlook projections (rebased to 2021 PPP USD),59893.244972709064
+13_PNG,Papua New Guinea,2033,9th Outlook projections (rebased to 2021 PPP USD),63066.970060048065
+13_PNG,Papua New Guinea,2034,9th Outlook projections (rebased to 2021 PPP USD),66647.24472611303
+13_PNG,Papua New Guinea,2035,9th Outlook projections (rebased to 2021 PPP USD),70387.35216102588
+13_PNG,Papua New Guinea,2036,9th Outlook projections (rebased to 2021 PPP USD),74294.32741880148
+13_PNG,Papua New Guinea,2037,9th Outlook projections (rebased to 2021 PPP USD),78374.60142933388
+13_PNG,Papua New Guinea,2038,9th Outlook projections (rebased to 2021 PPP USD),82634.63408433128
+13_PNG,Papua New Guinea,2039,9th Outlook projections (rebased to 2021 PPP USD),87080.94615755619
+13_PNG,Papua New Guinea,2040,9th Outlook projections (rebased to 2021 PPP USD),91717.39468440467
+13_PNG,Papua New Guinea,2041,9th Outlook projections (rebased to 2021 PPP USD),96556.33133637662
+13_PNG,Papua New Guinea,2042,9th Outlook projections (rebased to 2021 PPP USD),101601.06944448104
+13_PNG,Papua New Guinea,2043,9th Outlook projections (rebased to 2021 PPP USD),106858.0625373774
+13_PNG,Papua New Guinea,2044,9th Outlook projections (rebased to 2021 PPP USD),112341.81566615975
+13_PNG,Papua New Guinea,2045,9th Outlook projections (rebased to 2021 PPP USD),118044.43918605341
+13_PNG,Papua New Guinea,2046,9th Outlook projections (rebased to 2021 PPP USD),123995.64148070668
+13_PNG,Papua New Guinea,2047,9th Outlook projections (rebased to 2021 PPP USD),130196.03645895982
+13_PNG,Papua New Guinea,2048,9th Outlook projections (rebased to 2021 PPP USD),136653.31841254813
+13_PNG,Papua New Guinea,2049,9th Outlook projections (rebased to 2021 PPP USD),143377.0559128654
+13_PNG,Papua New Guinea,2050,9th Outlook projections (rebased to 2021 PPP USD),150373.69841038444
+13_PNG,Papua New Guinea,2051,9th Outlook projections (rebased to 2021 PPP USD),157658.59264686596
+13_PNG,Papua New Guinea,2052,9th Outlook projections (rebased to 2021 PPP USD),165238.5227954102
+13_PNG,Papua New Guinea,2053,9th Outlook projections (rebased to 2021 PPP USD),173128.02490577166
+13_PNG,Papua New Guinea,2054,9th Outlook projections (rebased to 2021 PPP USD),181337.96250927777
+13_PNG,Papua New Guinea,2055,9th Outlook projections (rebased to 2021 PPP USD),189876.15983907197
+13_PNG,Papua New Guinea,2056,9th Outlook projections (rebased to 2021 PPP USD),198751.21547332118
+13_PNG,Papua New Guinea,2057,9th Outlook projections (rebased to 2021 PPP USD),207981.3297672809
+13_PNG,Papua New Guinea,2058,9th Outlook projections (rebased to 2021 PPP USD),217590.64227351075
+13_PNG,Papua New Guinea,2059,9th Outlook projections (rebased to 2021 PPP USD),227578.70256231088
+13_PNG,Papua New Guinea,2060,9th Outlook projections (rebased to 2021 PPP USD),237957.52899735514
+13_PNG,Papua New Guinea,2061,9th Outlook projections (rebased to 2021 PPP USD),248747.3112923363
+13_PNG,Papua New Guinea,2062,9th Outlook projections (rebased to 2021 PPP USD),259955.07227037067
+13_PNG,Papua New Guinea,2063,9th Outlook projections (rebased to 2021 PPP USD),271605.96570830524
+13_PNG,Papua New Guinea,2064,9th Outlook projections (rebased to 2021 PPP USD),283716.36881478445
+13_PNG,Papua New Guinea,2065,9th Outlook projections (rebased to 2021 PPP USD),296318.420907758
+13_PNG,Papua New Guinea,2066,9th Outlook projections (rebased to 2021 PPP USD),309411.59571787086
+13_PNG,Papua New Guinea,2067,9th Outlook projections (rebased to 2021 PPP USD),323010.2660711783
+13_PNG,Papua New Guinea,2068,9th Outlook projections (rebased to 2021 PPP USD),337152.7251464945
+13_PNG,Papua New Guinea,2069,9th Outlook projections (rebased to 2021 PPP USD),351845.3474373576
+13_PNG,Papua New Guinea,2070,9th Outlook projections (rebased to 2021 PPP USD),367115.2673581786
+13_PNG,Papua New Guinea,2071,9th Outlook projections (rebased to 2021 PPP USD),382993.21977740375
+13_PNG,Papua New Guinea,2072,9th Outlook projections (rebased to 2021 PPP USD),399487.85339340544
+13_PNG,Papua New Guinea,2073,9th Outlook projections (rebased to 2021 PPP USD),416612.15639255516
+13_PNG,Papua New Guinea,2074,9th Outlook projections (rebased to 2021 PPP USD),434390.71822460054
+13_PNG,Papua New Guinea,2075,9th Outlook projections (rebased to 2021 PPP USD),452851.1183913073
+13_PNG,Papua New Guinea,2076,9th Outlook projections (rebased to 2021 PPP USD),472024.6029461425
+13_PNG,Papua New Guinea,2077,9th Outlook projections (rebased to 2021 PPP USD),491921.4912203016
+13_PNG,Papua New Guinea,2078,9th Outlook projections (rebased to 2021 PPP USD),512562.1736741257
+13_PNG,Papua New Guinea,2079,9th Outlook projections (rebased to 2021 PPP USD),534007.7296950383
+13_PNG,Papua New Guinea,2080,9th Outlook projections (rebased to 2021 PPP USD),556269.6879410043
+13_PNG,Papua New Guinea,2081,9th Outlook projections (rebased to 2021 PPP USD),579392.2347720007
+13_PNG,Papua New Guinea,2082,9th Outlook projections (rebased to 2021 PPP USD),603416.444168255
+13_PNG,Papua New Guinea,2083,9th Outlook projections (rebased to 2021 PPP USD),628340.5356533759
+13_PNG,Papua New Guinea,2084,9th Outlook projections (rebased to 2021 PPP USD),654225.6086012899
+13_PNG,Papua New Guinea,2085,9th Outlook projections (rebased to 2021 PPP USD),681088.6610732862
+13_PNG,Papua New Guinea,2086,9th Outlook projections (rebased to 2021 PPP USD),708968.9379092627
+13_PNG,Papua New Guinea,2087,9th Outlook projections (rebased to 2021 PPP USD),737894.7386956636
+13_PNG,Papua New Guinea,2088,9th Outlook projections (rebased to 2021 PPP USD),767918.2193834395
+13_PNG,Papua New Guinea,2089,9th Outlook projections (rebased to 2021 PPP USD),799048.0788142487
+13_PNG,Papua New Guinea,2090,9th Outlook projections (rebased to 2021 PPP USD),831368.4565048816
+13_PNG,Papua New Guinea,2091,9th Outlook projections (rebased to 2021 PPP USD),864927.6040727616
+13_PNG,Papua New Guinea,2092,9th Outlook projections (rebased to 2021 PPP USD),899768.9084455009
+13_PNG,Papua New Guinea,2093,9th Outlook projections (rebased to 2021 PPP USD),935952.4685662688
+13_PNG,Papua New Guinea,2094,9th Outlook projections (rebased to 2021 PPP USD),973491.192137873
+13_PNG,Papua New Guinea,2095,9th Outlook projections (rebased to 2021 PPP USD),1012432.9372344199
+13_PNG,Papua New Guinea,2096,9th Outlook projections (rebased to 2021 PPP USD),1052814.8378344951
+13_PNG,Papua New Guinea,2097,9th Outlook projections (rebased to 2021 PPP USD),1094729.8667570702
+13_PNG,Papua New Guinea,2098,9th Outlook projections (rebased to 2021 PPP USD),1138188.349513603
+13_PNG,Papua New Guinea,2099,9th Outlook projections (rebased to 2021 PPP USD),1183301.5700866429
+13_PNG,Papua New Guinea,2100,9th Outlook projections (rebased to 2021 PPP USD),1230105.154912171

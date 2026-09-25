@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+20_USA,United States of America,1990,Population,251834.166
+20_USA,United States of America,1991,Population,254912.608
+20_USA,United States of America,1992,Population,258030.237
+20_USA,United States of America,1993,Population,261181.802
+20_USA,United States of America,1994,Population,264084.66
+20_USA,United States of America,1995,Population,266864.96
+20_USA,United States of America,1996,Population,269546.629
+20_USA,United States of America,1997,Population,272174.763
+20_USA,United States of America,1998,Population,274761.262
+20_USA,United States of America,1999,Population,277477.403
+20_USA,United States of America,2000,Population,280093.565
+20_USA,United States of America,2001,Population,282874.696
+20_USA,United States of America,2002,Population,285684.581
+20_USA,United States of America,2003,Population,288484.095
+20_USA,United States of America,2004,Population,291332.104
+20_USA,United States of America,2005,Population,294240.403
+20_USA,United States of America,2006,Population,297192.924
+20_USA,United States of America,2007,Population,300267.495
+20_USA,United States of America,2008,Population,303420.956
+20_USA,United States of America,2009,Population,306519.709
+20_USA,United States of America,2010,Population,309527.2
+20_USA,United States of America,2011,Population,312598.38
+20_USA,United States of America,2012,Population,315611.776
+20_USA,United States of America,2013,Population,318618.933
+20_USA,United States of America,2014,Population,321602.585
+20_USA,United States of America,2015,Population,324628.169
+20_USA,United States of America,2016,Population,327624.824
+20_USA,United States of America,2017,Population,330734.029
+20_USA,United States of America,2018,Population,333675.29
+20_USA,United States of America,2019,Population,336437.705
+20_USA,United States of America,2020,Population,339142.428
+20_USA,United States of America,2021,Population,339729.889
+20_USA,United States of America,2022,Population,340592.993
+20_USA,United States of America,2023,Population,342475.098
+20_USA,United States of America,2024,Population,344479.572
+20_USA,United States of America,2025,Population,346934.402
+20_USA,United States of America,2026,Population,349300.318
+20_USA,United States of America,2027,Population,351577.725
+20_USA,United States of America,2028,Population,353812.396
+20_USA,United States of America,2029,Population,356058.523
+20_USA,United States of America,2030,Population,358578.265
+20_USA,United States of America,2031,Population,361076.349
+20_USA,United States of America,2032,Population,363548.035
+20_USA,United States of America,2033,Population,366000.86
+20_USA,United States of America,2034,Population,368432.106
+20_USA,United States of America,2035,Population,371090.862
+20_USA,United States of America,2036,Population,373712.276
+20_USA,United States of America,2037,Population,376308.439
+20_USA,United States of America,2038,Population,378886.612
+20_USA,United States of America,2039,Population,381448.067
+20_USA,United States of America,2040,Population,383946.363
+20_USA,United States of America,2041,Population,386408.488
+20_USA,United States of America,2042,Population,388827.71
+20_USA,United States of America,2043,Population,391246.223
+20_USA,United States of America,2044,Population,393594.504
+20_USA,United States of America,2045,Population,395889.801
+20_USA,United States of America,2046,Population,398150.686
+20_USA,United States of America,2047,Population,400359.969
+20_USA,United States of America,2048,Population,402563.431
+20_USA,United States of America,2049,Population,404718.214
+20_USA,United States of America,2050,Population,406868.424
+20_USA,United States of America,2051,Population,409017.95
+20_USA,United States of America,2052,Population,411182.678
+20_USA,United States of America,2053,Population,413343.718
+20_USA,United States of America,2054,Population,415544.967
+20_USA,United States of America,2055,Population,417735.927
+20_USA,United States of America,2056,Population,419959.979
+20_USA,United States of America,2057,Population,422259.081
+20_USA,United States of America,2058,Population,424670.867
+20_USA,United States of America,2059,Population,427187.68
+20_USA,United States of America,2060,Population,429754.615
+20_USA,United States of America,2061,Population,432381.011
+20_USA,United States of America,2062,Population,435127.894
+20_USA,United States of America,2063,Population,437957.892
+20_USA,United States of America,2064,Population,440864.44
+20_USA,United States of America,2065,Population,443816.209
+20_USA,United States of America,2066,Population,446853.482
+20_USA,United States of America,2067,Population,449972.802
+20_USA,United States of America,2068,Population,453163.622
+20_USA,United States of America,2069,Population,456381.171
+20_USA,United States of America,2070,Population,459660.336
+20_USA,United States of America,2071,Population,462925.158
+20_USA,United States of America,2072,Population,466247.205
+20_USA,United States of America,2073,Population,469526.986
+20_USA,United States of America,2074,Population,472829.721
+20_USA,United States of America,2075,Population,476114.288
+20_USA,United States of America,2076,Population,479460.07
+20_USA,United States of America,2077,Population,482765.672
+20_USA,United States of America,2078,Population,486048.366
+20_USA,United States of America,2079,Population,489334.234
+20_USA,United States of America,2080,Population,492584.967
+20_USA,United States of America,2081,Population,495826.71
+20_USA,United States of America,2082,Population,499173.831
+20_USA,United States of America,2083,Population,502471.486
+20_USA,United States of America,2084,Population,505787.781
+20_USA,United States of America,2085,Population,509123.274
+20_USA,United States of America,2086,Population,512435.384
+20_USA,United States of America,2087,Population,515839.067
+20_USA,United States of America,2088,Population,519289.072
+20_USA,United States of America,2089,Population,522834.366
+20_USA,United States of America,2090,Population,526402.871
+20_USA,United States of America,2091,Population,530002.32
+20_USA,United States of America,2092,Population,533679.175
+20_USA,United States of America,2093,Population,537413.613
+20_USA,United States of America,2094,Population,541180.882
+20_USA,United States of America,2095,Population,545015.43
+20_USA,United States of America,2096,Population,548878.835
+20_USA,United States of America,2097,Population,552738.651
+20_USA,United States of America,2098,Population,556655.115
+20_USA,United States of America,2099,Population,560556.448
+20_USA,United States of America,2100,Population,564504.207
+20_USA,United States of America,1990,Labour efficiency,18.869074108739756
+20_USA,United States of America,1991,Labour efficiency,18.356506643730366
+20_USA,United States of America,1992,Labour efficiency,18.941335634338916
+20_USA,United States of America,1993,Labour efficiency,19.285572384930223
+20_USA,United States of America,1994,Labour efficiency,20.041064077585848
+20_USA,United States of America,1995,Labour efficiency,20.378678710620616
+20_USA,United States of America,1996,Labour efficiency,21.065995173323117
+20_USA,United States of America,1997,Labour efficiency,21.994593467557692
+20_USA,United States of America,1998,Labour efficiency,22.939344821363157
+20_USA,United States of America,1999,Labour efficiency,24.003037834425186
+20_USA,United States of America,2000,Labour efficiency,24.838106737837684
+20_USA,United States of America,2001,Labour efficiency,24.493657799975857
+20_USA,United States of America,2002,Labour efficiency,24.522909370201123
+20_USA,United States of America,2003,Labour efficiency,24.98498260751269
+20_USA,United States of America,2004,Labour efficiency,25.857458071097685
+20_USA,United States of America,2005,Labour efficiency,26.574489286375687
+20_USA,United States of America,2006,Labour efficiency,27.027397664224857
+20_USA,United States of America,2007,Labour efficiency,27.195834963828585
+20_USA,United States of America,2008,Labour efficiency,26.61668267146161
+20_USA,United States of America,2009,Labour efficiency,25.06072440574562
+20_USA,United States of America,2010,Labour efficiency,25.766430781005738
+20_USA,United States of America,2011,Labour efficiency,25.981555167011642
+20_USA,United States of America,2012,Labour efficiency,26.475180270427938
+20_USA,United States of America,2013,Labour efficiency,26.894059323701523
+20_USA,United States of America,2014,Labour efficiency,27.47490821778462
+20_USA,United States of America,2015,Labour efficiency,28.246254178579697
+20_USA,United States of America,2016,Labour efficiency,28.518488014451403
+20_USA,United States of America,2017,Labour efficiency,29.072441215080637
+20_USA,United States of America,2018,Labour efficiency,29.877942180875248
+20_USA,United States of America,2019,Labour efficiency,30.541035351687107
+20_USA,United States of America,2020,Labour efficiency,28.927093985769027
+20_USA,United States of America,2021,Labour efficiency,31.504190517877102
+20_USA,United States of America,2022,Labour efficiency,32.38815319107535
+20_USA,United States of America,2023,Labour efficiency,33.41807628058771
+20_USA,United States of America,2024,Labour efficiency,34.151619530826196
+20_USA,United States of America,2025,Labour efficiency,34.642894312462346
+20_USA,United States of America,2026,Labour efficiency,35.30596008770097
+20_USA,United States of America,2027,Labour efficiency,36.01526520455915
+20_USA,United States of America,2028,Labour efficiency,36.74121862674126
+20_USA,United States of America,2029,Labour efficiency,37.454065862922405
+20_USA,United States of America,2030,Labour efficiency,38.17028811270059
+20_USA,United States of America,2031,Labour efficiency,39.17490921966642
+20_USA,United States of America,2032,Labour efficiency,39.96007083137199
+20_USA,United States of America,2033,Labour efficiency,40.72893657080184
+20_USA,United States of America,2034,Labour efficiency,41.461446397436
+20_USA,United States of America,2035,Labour efficiency,42.19068889397112
+20_USA,United States of America,2036,Labour efficiency,42.94627274095757
+20_USA,United States of America,2037,Labour efficiency,43.710100455139006
+20_USA,United States of America,2038,Labour efficiency,44.477440007854106
+20_USA,United States of America,2039,Labour efficiency,45.24667899458615
+20_USA,United States of America,2040,Labour efficiency,46.01968941718175
+20_USA,United States of America,2041,Labour efficiency,46.79652591091304
+20_USA,United States of America,2042,Labour efficiency,47.54230490541731
+20_USA,United States of America,2043,Labour efficiency,48.28044904318737
+20_USA,United States of America,2044,Labour efficiency,49.0121184136135
+20_USA,United States of America,2045,Labour efficiency,49.74100338478194
+20_USA,United States of America,2046,Labour efficiency,50.467213742226534
+20_USA,United States of America,2047,Labour efficiency,51.18732730802326
+20_USA,United States of America,2048,Labour efficiency,51.89971498302069
+20_USA,United States of America,2049,Labour efficiency,52.603136376230665
+20_USA,United States of America,2050,Labour efficiency,53.296409771117624
+20_USA,United States of America,2051,Labour efficiency,53.998820035650915
+20_USA,United States of America,2052,Labour efficiency,54.710487587529464
+20_USA,United States of America,2053,Labour efficiency,55.43153443147518
+20_USA,United States of America,2054,Labour efficiency,56.162084180148845
+20_USA,United States of America,2055,Labour efficiency,56.90226207534165
+20_USA,United States of America,2056,Labour efficiency,57.65219500944603
+20_USA,United States of America,2057,Labour efficiency,58.41201154720943
+20_USA,United States of America,2058,Labour efficiency,59.18184194777483
+20_USA,United States of America,2059,Labour efficiency,59.96181818701171
+20_USA,United States of America,2060,Labour efficiency,60.75207398014133
+20_USA,United States of America,2061,Labour efficiency,61.55274480466022
+20_USA,United States of America,2062,Labour efficiency,62.363967923565724
+20_USA,United States of America,2063,Labour efficiency,63.18588240888771
+20_USA,United States of America,2064,Labour efficiency,64.01862916553037
+20_USA,United States of America,2065,Labour efficiency,64.86235095542827
+20_USA,United States of America,2066,Labour efficiency,65.7171924220207
+20_USA,United States of America,2067,Labour efficiency,66.58330011504869
+20_USA,United States of America,2068,Labour efficiency,67.46082251567867
+20_USA,United States of America,2069,Labour efficiency,68.34991006195744
+20_USA,United States of America,2070,Labour efficiency,69.25071517460246
+20_USA,United States of America,2071,Labour efficiency,70.16339228313205
+20_USA,United States of America,2072,Labour efficiency,71.08809785234013
+20_USA,United States of America,2073,Labour efficiency,72.02499040911964
+20_USA,United States of America,2074,Labour efficiency,72.97423056963967
+20_USA,United States of America,2075,Labour efficiency,73.9359810668807
+20_USA,United States of America,2076,Labour efficiency,74.91040677853266
+20_USA,United States of America,2077,Labour efficiency,75.89767475526081
+20_USA,United States of America,2078,Labour efficiency,76.89795424934401
+20_USA,United States of America,2079,Labour efficiency,77.91141674369052
+20_USA,United States of America,2080,Labour efficiency,78.93823598123616
+20_USA,United States of America,2081,Labour efficiency,79.97858799472993
+20_USA,United States of America,2082,Labour efficiency,81.0326511369122
+20_USA,United States of America,2083,Labour efficiency,82.10060611109054
+20_USA,United States of America,2084,Labour efficiency,83.1826360021187
+20_USA,United States of America,2085,Labour efficiency,84.27892630778368
+20_USA,United States of America,2086,Labour efficiency,85.38966497060657
+20_USA,United States of America,2087,Labour efficiency,86.51504241006248
+20_USA,United States of America,2088,Labour efficiency,87.65525155522506
+20_USA,United States of America,2089,Labour efficiency,88.81048787784137
+20_USA,United States of America,2090,Labour efficiency,89.98094942584251
+20_USA,United States of America,2091,Labour efficiency,91.16683685729599
+20_USA,United States of America,2092,Labour efficiency,92.36835347480555
+20_USA,United States of America,2093,Labour efficiency,93.58570526036434
+20_USA,United States of America,2094,Labour efficiency,94.81910091066742
+20_USA,United States of America,2095,Labour efficiency,96.0687518728897
+20_USA,United States of America,2096,Labour efficiency,97.33487238093541
+20_USA,United States of America,2097,Labour efficiency,98.61767949216521
+20_USA,United States of America,2098,Labour efficiency,99.91739312460749
+20_USA,United States of America,2099,Labour efficiency,101.23423609465996
+20_USA,United States of America,2100,Labour efficiency,102.56843415528826
+20_USA,United States of America,1990,Capital stock,39444356.5450529
+20_USA,United States of America,1991,Capital stock,40256320.62847043
+20_USA,United States of America,1992,Capital stock,41121708.84857276
+20_USA,United States of America,1993,Capital stock,42063299.6261419
+20_USA,United States of America,1994,Capital stock,43107901.05588296
+20_USA,United States of America,1995,Capital stock,44219409.65085751
+20_USA,United States of America,1996,Capital stock,45467285.67166785
+20_USA,United States of America,1997,Capital stock,46829381.61520155
+20_USA,United States of America,1998,Capital stock,48369858.19604746
+20_USA,United States of America,1999,Capital stock,50052078.702736855
+20_USA,United States of America,2000,Capital stock,51811177.010184
+20_USA,United States of America,2001,Capital stock,53383819.31240037
+20_USA,United States of America,2002,Capital stock,54764638.814595655
+20_USA,United States of America,2003,Capital stock,56224215.99337812
+20_USA,United States of America,2004,Capital stock,57830439.15907544
+20_USA,United States of America,2005,Capital stock,59572413.83432549
+20_USA,United States of America,2006,Capital stock,61284619.08566734
+20_USA,United States of America,2007,Capital stock,62826223.83842112
+20_USA,United States of America,2008,Capital stock,64060502.82246956
+20_USA,United States of America,2009,Capital stock,64695022.95297308
+20_USA,United States of America,2010,Capital stock,65357370.2755205
+20_USA,United States of America,2011,Capital stock,66115035.53149386
+20_USA,United States of America,2012,Capital stock,67044534.96624915
+20_USA,United States of America,2013,Capital stock,68032058.01492202
+20_USA,United States of America,2014,Capital stock,69148663.40998219
+20_USA,United States of America,2015,Capital stock,70334080.54879743
+20_USA,United States of America,2016,Capital stock,71533314.58427203
+20_USA,United States of America,2017,Capital stock,72808721.29974473
+20_USA,United States of America,2018,Capital stock,74191100.63672379
+20_USA,United States of America,2019,Capital stock,75575060.8992765
+20_USA,United States of America,2020,Capital stock,76858869.02697825
+20_USA,United States of America,2021,Capital stock,78305442.15619664
+20_USA,United States of America,2022,Capital stock,79648637.07234906
+20_USA,United States of America,2023,Capital stock,81020790.82294713
+20_USA,United States of America,2024,Capital stock,83283853.1439897
+20_USA,United States of America,2025,Capital stock,85083935.31830408
+20_USA,United States of America,2026,Capital stock,86830974.70265017
+20_USA,United States of America,2027,Capital stock,88524740.6928835
+20_USA,United States of America,2028,Capital stock,90165205.81277454
+20_USA,United States of America,2029,Capital stock,91752527.39435321
+20_USA,United States of America,2030,Capital stock,93287029.8369015
+20_USA,United States of America,2031,Capital stock,94769187.55230881
+20_USA,United States of America,2032,Capital stock,96199608.67967412
+20_USA,United States of America,2033,Capital stock,97579019.6300164
+20_USA,United States of America,2034,Capital stock,98918384.11377199
+20_USA,United States of America,2035,Capital stock,100208245.21737893
+20_USA,United States of America,2036,Capital stock,101449591.63623108
+20_USA,United States of America,2037,Capital stock,102643479.25145216
+20_USA,United States of America,2038,Capital stock,103791019.99410863
+20_USA,United States of America,2039,Capital stock,104893371.58801423
+20_USA,United States of America,2040,Capital stock,105951728.14524247
+20_USA,United States of America,2041,Capital stock,106967311.58304994
+20_USA,United States of America,2042,Capital stock,107941363.82679942
+20_USA,United States of America,2043,Capital stock,108875139.76048623
+20_USA,United States of America,2044,Capital stock,109769900.88445948
+20_USA,United States of America,2045,Capital stock,110626909.63874799
+20_USA,United States of America,2046,Capital stock,111447424.34991713
+20_USA,United States of America,2047,Capital stock,112232694.75948246
+20_USA,United States of America,2048,Capital stock,112983958.09248242
+20_USA,United States of America,2049,Capital stock,113702435.62577417
+20_USA,United States of America,2050,Capital stock,114389329.71688278
+20_USA,United States of America,2051,Capital stock,115045821.25573298
+20_USA,United States of America,2052,Capital stock,115673067.50326607
+20_USA,United States of America,2053,Capital stock,116272200.28273697
+20_USA,United States of America,2054,Capital stock,116844324.49135792
+20_USA,United States of America,2055,Capital stock,117390516.90186504
+20_USA,United States of America,2056,Capital stock,117911825.22550507
+20_USA,United States of America,2057,Capital stock,118409267.40984417
+20_USA,United States of America,2058,Capital stock,118883831.14667052
+20_USA,United States of America,2059,Capital stock,119336473.56708026
+20_USA,United States of America,2060,Capital stock,119768121.10259186
+20_USA,United States of America,2061,Capital stock,120179669.49281508
+20_USA,United States of America,2062,Capital stock,120571983.92180419
+20_USA,United States of America,2063,Capital stock,120945899.26674391
+20_USA,United States of America,2064,Capital stock,121302220.44405043
+20_USA,United States of America,2065,Capital stock,121641722.83931588
+20_USA,United States of America,2066,Capital stock,121965152.808785
+20_USA,United States of America,2067,Capital stock,122273228.24122758
+20_USA,United States of America,2068,Capital stock,122566639.17016186
+20_USA,United States of America,2069,Capital stock,122846048.42739604
+20_USA,United States of America,2070,Capital stock,123112092.32978876
+20_USA,United States of America,2071,Capital stock,123365381.3919907
+20_USA,United States of America,2072,Capital stock,123606501.0587201
+20_USA,United States of America,2073,Capital stock,123836012.45084926
+20_USA,United States of America,2074,Capital stock,124054453.12024273
+20_USA,United States of America,2075,Capital stock,124262337.80889098
+20_USA,United States of America,2076,Capital stock,124460159.20843408
+20_USA,United States of America,2077,Capital stock,124648388.71666886
+20_USA,United States of America,2078,Capital stock,124827477.18808523
+20_USA,United States of America,2079,Capital stock,124997855.67588606
+20_USA,United States of America,2080,Capital stock,125159936.16331352
+20_USA,United States of America,2081,Capital stock,125314112.28243609
+20_USA,United States of America,2082,Capital stock,125460760.01884831
+20_USA,United States of America,2083,Capital stock,125600238.401001
+20_USA,United States of America,2084,Capital stock,125732890.17311807
+20_USA,United States of America,2085,Capital stock,125859042.45086722
+20_USA,United States of America,2086,Capital stock,125979007.3591399
+20_USA,United States of America,2087,Capital stock,126093082.65146244
+20_USA,United States of America,2088,Capital stock,126201552.31070648
+20_USA,United States of America,2089,Capital stock,126304687.13089642
+20_USA,United States of America,2090,Capital stock,126402745.28002363
+20_USA,United States of America,2091,Capital stock,126495972.84387659
+20_USA,United States of America,2092,Capital stock,126584604.35097994
+20_USA,United States of America,2093,Capital stock,126668863.27881062
+20_USA,United States of America,2094,Capital stock,126748962.54152048
+20_USA,United States of America,2095,Capital stock,126825104.95944953
+20_USA,United States of America,2096,Capital stock,126897483.71075828
+20_USA,United States of America,2097,Capital stock,126966282.76554509
+20_USA,United States of America,2098,Capital stock,127031677.30284555
+20_USA,United States of America,2099,Capital stock,127093834.11093539
+20_USA,United States of America,2100,Capital stock,127152911.97137748
+20_USA,United States of America,1990,Savings,0.18759265246655102
+20_USA,United States of America,1991,Savings,0.18814188530315
+20_USA,United States of America,1992,Savings,0.17688024695693902
+20_USA,United States of America,1993,Savings,0.17051004445686002
+20_USA,United States of America,1994,Savings,0.178617050415274
+20_USA,United States of America,1995,Savings,0.187589369755472
+20_USA,United States of America,1996,Savings,0.196511225768668
+20_USA,United States of America,1997,Savings,0.208476579331725
+20_USA,United States of America,1998,Savings,0.21390500326774797
+20_USA,United States of America,1999,Savings,0.209261032821343
+20_USA,United States of America,2000,Savings,0.20813335190721802
+20_USA,United States of America,2001,Savings,0.19657276097770102
+20_USA,United States of America,2002,Savings,0.183808596273365
+20_USA,United States of America,2003,Savings,0.17428714828764602
+20_USA,United States of America,2004,Savings,0.177331607023412
+20_USA,United States of America,2005,Savings,0.18122458001056402
+20_USA,United States of America,2006,Savings,0.19199754364329
+20_USA,United States of America,2007,Savings,0.17427948488859
+20_USA,United States of America,2008,Savings,0.150588069137003
+20_USA,United States of America,2009,Savings,0.138930493967185
+20_USA,United States of America,2010,Savings,0.153832511206248
+20_USA,United States of America,2011,Savings,0.163373255386695
+20_USA,United States of America,2012,Savings,0.18379294412380498
+20_USA,United States of America,2013,Savings,0.185633187946246
+20_USA,United States of America,2014,Savings,0.19656661027986
+20_USA,United States of America,2015,Savings,0.196984272057875
+20_USA,United States of America,2016,Savings,0.18558692613999297
+20_USA,United States of America,2017,Savings,0.189790569108808
+20_USA,United States of America,2018,Savings,0.192309245179584
+20_USA,United States of America,2019,Savings,0.19429672689605798
+20_USA,United States of America,2020,Savings,0.183841091960382
+20_USA,United States of America,2021,Savings,0.177191305020369
+20_USA,United States of America,2022,Savings,0.18290107848076398
+20_USA,United States of America,2023,Savings,0.17136253301105397
+20_USA,United States of America,2024,Savings,0.16604760875763097
+20_USA,United States of America,2025,Savings,0.16804760875763097
+20_USA,United States of America,2026,Savings,0.16804760875763097
+20_USA,United States of America,2027,Savings,0.17004760875763097
+20_USA,United States of America,2028,Savings,0.17204760875763098
+20_USA,United States of America,2029,Savings,0.17404760875763098
+20_USA,United States of America,2030,Savings,0.17604760875763098
+20_USA,United States of America,2031,Savings,0.17804760875763098
+20_USA,United States of America,2032,Savings,0.18004760875763098
+20_USA,United States of America,2033,Savings,0.18204760875763099
+20_USA,United States of America,2034,Savings,0.184047608757631
+20_USA,United States of America,2035,Savings,0.186047608757631
+20_USA,United States of America,2036,Savings,0.188047608757631
+20_USA,United States of America,2037,Savings,0.190047608757631
+20_USA,United States of America,2038,Savings,0.192047608757631
+20_USA,United States of America,2039,Savings,0.194047608757631
+20_USA,United States of America,2040,Savings,0.196047608757631
+20_USA,United States of America,2041,Savings,0.198047608757631
+20_USA,United States of America,2042,Savings,0.200047608757631
+20_USA,United States of America,2043,Savings,0.202047608757631
+20_USA,United States of America,2044,Savings,0.204047608757631
+20_USA,United States of America,2045,Savings,0.206047608757631
+20_USA,United States of America,2046,Savings,0.208047608757631
+20_USA,United States of America,2047,Savings,0.210047608757631
+20_USA,United States of America,2048,Savings,0.212047608757631
+20_USA,United States of America,2049,Savings,0.214047608757631
+20_USA,United States of America,2050,Savings,0.21604760875763102
+20_USA,United States of America,2051,Savings,0.21804760875763102
+20_USA,United States of America,2052,Savings,0.22004760875763102
+20_USA,United States of America,2053,Savings,0.22004760875763102
+20_USA,United States of America,2054,Savings,0.22004760875763102
+20_USA,United States of America,2055,Savings,0.22004760875763102
+20_USA,United States of America,2056,Savings,0.22004760875763102
+20_USA,United States of America,2057,Savings,0.22004760875763102
+20_USA,United States of America,2058,Savings,0.22004760875763102
+20_USA,United States of America,2059,Savings,0.22004760875763102
+20_USA,United States of America,2060,Savings,0.22004760875763102
+20_USA,United States of America,2061,Savings,0.22004760875763102
+20_USA,United States of America,2062,Savings,0.22004760875763102
+20_USA,United States of America,2063,Savings,0.22004760875763102
+20_USA,United States of America,2064,Savings,0.22004760875763102
+20_USA,United States of America,2065,Savings,0.22004760875763102
+20_USA,United States of America,2066,Savings,0.22004760875763102
+20_USA,United States of America,2067,Savings,0.22004760875763102
+20_USA,United States of America,2068,Savings,0.22004760875763102
+20_USA,United States of America,2069,Savings,0.22004760875763102
+20_USA,United States of America,2070,Savings,0.22004760875763102
+20_USA,United States of America,2071,Savings,0.22004760875763102
+20_USA,United States of America,2072,Savings,0.22004760875763102
+20_USA,United States of America,2073,Savings,0.22004760875763102
+20_USA,United States of America,2074,Savings,0.22004760875763102
+20_USA,United States of America,2075,Savings,0.22004760875763102
+20_USA,United States of America,2076,Savings,0.22004760875763102
+20_USA,United States of America,2077,Savings,0.22004760875763102
+20_USA,United States of America,2078,Savings,0.22004760875763102
+20_USA,United States of America,2079,Savings,0.22004760875763102
+20_USA,United States of America,2080,Savings,0.22004760875763102
+20_USA,United States of America,2081,Savings,0.22004760875763102
+20_USA,United States of America,2082,Savings,0.22004760875763102
+20_USA,United States of America,2083,Savings,0.22004760875763102
+20_USA,United States of America,2084,Savings,0.22004760875763102
+20_USA,United States of America,2085,Savings,0.22004760875763102
+20_USA,United States of America,2086,Savings,0.22004760875763102
+20_USA,United States of America,2087,Savings,0.22004760875763102
+20_USA,United States of America,2088,Savings,0.22004760875763102
+20_USA,United States of America,2089,Savings,0.22004760875763102
+20_USA,United States of America,2090,Savings,0.22004760875763102
+20_USA,United States of America,2091,Savings,0.22004760875763102
+20_USA,United States of America,2092,Savings,0.22004760875763102
+20_USA,United States of America,2093,Savings,0.22004760875763102
+20_USA,United States of America,2094,Savings,0.22004760875763102
+20_USA,United States of America,2095,Savings,0.22004760875763102
+20_USA,United States of America,2096,Savings,0.22004760875763102
+20_USA,United States of America,2097,Savings,0.22004760875763102
+20_USA,United States of America,2098,Savings,0.22004760875763102
+20_USA,United States of America,2099,Savings,0.22004760875763102
+20_USA,United States of America,2100,Savings,0.22004760875763102
+20_USA,United States of America,1990,Depreciation,0.0363032892346382
+20_USA,United States of America,1991,Depreciation,0.0363686792552471
+20_USA,United States of America,1992,Depreciation,0.0363963432610035
+20_USA,United States of America,1993,Depreciation,0.0364278927445412
+20_USA,United States of America,1994,Depreciation,0.0364985056221485
+20_USA,United States of America,1995,Depreciation,0.0366143770515919
+20_USA,United States of America,1996,Depreciation,0.0367640368640423
+20_USA,United States of America,1997,Depreciation,0.0369657576084137
+20_USA,United States of America,1998,Depreciation,0.0372578948736191
+20_USA,United States of America,1999,Depreciation,0.0376536659896374
+20_USA,United States of America,2000,Depreciation,0.0380950979888439
+20_USA,United States of America,2001,Depreciation,0.0384064018726349
+20_USA,United States of America,2002,Depreciation,0.0385213606059551
+20_USA,United States of America,2003,Depreciation,0.0385398156940937
+20_USA,United States of America,2004,Depreciation,0.0385821126401424
+20_USA,United States of America,2005,Depreciation,0.0387304648756981
+20_USA,United States of America,2006,Depreciation,0.0390181392431259
+20_USA,United States of America,2007,Depreciation,0.0394179932773113
+20_USA,United States of America,2008,Depreciation,0.0398210361599922
+20_USA,United States of America,2009,Depreciation,0.0400029048323631
+20_USA,United States of America,2010,Depreciation,0.0401498600840569
+20_USA,United States of America,2011,Depreciation,0.0405341051518917
+20_USA,United States of America,2012,Depreciation,0.0410572327673435
+20_USA,United States of America,2013,Depreciation,0.0416117757558823
+20_USA,United States of America,2014,Depreciation,0.0421688631176949
+20_USA,United States of America,2015,Depreciation,0.0427246354520321
+20_USA,United States of America,2016,Depreciation,0.0432429574429989
+20_USA,United States of America,2017,Depreciation,0.0437685251235962
+20_USA,United States of America,2018,Depreciation,0.0444000996649265
+20_USA,United States of America,2019,Depreciation,0.0450976341962814
+20_USA,United States of America,2020,Depreciation,0.045669186860323
+20_USA,United States of America,2021,Depreciation,0.0462337732315064
+20_USA,United States of America,2022,Depreciation,0.0470067113637924
+20_USA,United States of America,2023,Depreciation,0.0478879362344742
+20_USA,United States of America,2024,Depreciation,0.0478879362344742
+20_USA,United States of America,2025,Depreciation,0.0478879362344742
+20_USA,United States of America,2026,Depreciation,0.0478879362344742
+20_USA,United States of America,2027,Depreciation,0.0473879362344742
+20_USA,United States of America,2028,Depreciation,0.0468879362344742
+20_USA,United States of America,2029,Depreciation,0.0463879362344742
+20_USA,United States of America,2030,Depreciation,0.0458879362344742
+20_USA,United States of America,2031,Depreciation,0.0458879362344742
+20_USA,United States of America,2032,Depreciation,0.0458879362344742
+20_USA,United States of America,2033,Depreciation,0.0458879362344742
+20_USA,United States of America,2034,Depreciation,0.0458879362344742
+20_USA,United States of America,2035,Depreciation,0.0458879362344742
+20_USA,United States of America,2036,Depreciation,0.0458879362344742
+20_USA,United States of America,2037,Depreciation,0.0458879362344742
+20_USA,United States of America,2038,Depreciation,0.0458879362344742
+20_USA,United States of America,2039,Depreciation,0.0458879362344742
+20_USA,United States of America,2040,Depreciation,0.0458879362344742
+20_USA,United States of America,2041,Depreciation,0.0458879362344742
+20_USA,United States of America,2042,Depreciation,0.0458879362344742
+20_USA,United States of America,2043,Depreciation,0.0458879362344742
+20_USA,United States of America,2044,Depreciation,0.0458879362344742
+20_USA,United States of America,2045,Depreciation,0.0458879362344742
+20_USA,United States of America,2046,Depreciation,0.0458879362344742
+20_USA,United States of America,2047,Depreciation,0.0458879362344742
+20_USA,United States of America,2048,Depreciation,0.0458879362344742
+20_USA,United States of America,2049,Depreciation,0.0458879362344742
+20_USA,United States of America,2050,Depreciation,0.0458879362344742
+20_USA,United States of America,2051,Depreciation,0.0458879362344742
+20_USA,United States of America,2052,Depreciation,0.0458879362344742
+20_USA,United States of America,2053,Depreciation,0.0458879362344742
+20_USA,United States of America,2054,Depreciation,0.0458879362344742
+20_USA,United States of America,2055,Depreciation,0.0458879362344742
+20_USA,United States of America,2056,Depreciation,0.0458879362344742
+20_USA,United States of America,2057,Depreciation,0.0458879362344742
+20_USA,United States of America,2058,Depreciation,0.0458879362344742
+20_USA,United States of America,2059,Depreciation,0.0458879362344742
+20_USA,United States of America,2060,Depreciation,0.0458879362344742
+20_USA,United States of America,2061,Depreciation,0.0458879362344742
+20_USA,United States of America,2062,Depreciation,0.0458879362344742
+20_USA,United States of America,2063,Depreciation,0.0458879362344742
+20_USA,United States of America,2064,Depreciation,0.0458879362344742
+20_USA,United States of America,2065,Depreciation,0.0458879362344742
+20_USA,United States of America,2066,Depreciation,0.0458879362344742
+20_USA,United States of America,2067,Depreciation,0.0458879362344742
+20_USA,United States of America,2068,Depreciation,0.0458879362344742
+20_USA,United States of America,2069,Depreciation,0.0458879362344742
+20_USA,United States of America,2070,Depreciation,0.0458879362344742
+20_USA,United States of America,2071,Depreciation,0.0458879362344742
+20_USA,United States of America,2072,Depreciation,0.0458879362344742
+20_USA,United States of America,2073,Depreciation,0.0458879362344742
+20_USA,United States of America,2074,Depreciation,0.0458879362344742
+20_USA,United States of America,2075,Depreciation,0.0458879362344742
+20_USA,United States of America,2076,Depreciation,0.0458879362344742
+20_USA,United States of America,2077,Depreciation,0.0458879362344742
+20_USA,United States of America,2078,Depreciation,0.0458879362344742
+20_USA,United States of America,2079,Depreciation,0.0458879362344742
+20_USA,United States of America,2080,Depreciation,0.0458879362344742
+20_USA,United States of America,2081,Depreciation,0.0458879362344742
+20_USA,United States of America,2082,Depreciation,0.0458879362344742
+20_USA,United States of America,2083,Depreciation,0.0458879362344742
+20_USA,United States of America,2084,Depreciation,0.0458879362344742
+20_USA,United States of America,2085,Depreciation,0.0458879362344742
+20_USA,United States of America,2086,Depreciation,0.0458879362344742
+20_USA,United States of America,2087,Depreciation,0.0458879362344742
+20_USA,United States of America,2088,Depreciation,0.0458879362344742
+20_USA,United States of America,2089,Depreciation,0.0458879362344742
+20_USA,United States of America,2090,Depreciation,0.0458879362344742
+20_USA,United States of America,2091,Depreciation,0.0458879362344742
+20_USA,United States of America,2092,Depreciation,0.0458879362344742
+20_USA,United States of America,2093,Depreciation,0.0458879362344742
+20_USA,United States of America,2094,Depreciation,0.0458879362344742
+20_USA,United States of America,2095,Depreciation,0.0458879362344742
+20_USA,United States of America,2096,Depreciation,0.0458879362344742
+20_USA,United States of America,2097,Depreciation,0.0458879362344742
+20_USA,United States of America,2098,Depreciation,0.0458879362344742
+20_USA,United States of America,2099,Depreciation,0.0458879362344742
+20_USA,United States of America,2100,Depreciation,0.0458879362344742
+20_USA,United States of America,1990,WDI GDP through 2025,11079319.700573
+20_USA,United States of America,1991,WDI GDP through 2025,11067319.3710153
+20_USA,United States of America,1992,WDI GDP through 2025,11457165.3829356
+20_USA,United States of America,1993,WDI GDP through 2025,11772443.1859769
+20_USA,United States of America,1994,WDI GDP through 2025,12246757.5973897
+20_USA,United States of America,1995,WDI GDP through 2025,12575513.322951
+20_USA,United States of America,1996,WDI GDP through 2025,13049958.8552861
+20_USA,United States of America,1997,WDI GDP through 2025,13630307.2209708
+20_USA,United States of America,1998,WDI GDP through 2025,14241372.0703819
+20_USA,United States of America,1999,WDI GDP through 2025,14923309.4978312
+20_USA,United States of America,2000,WDI GDP through 2025,15531820.2408323
+20_USA,United States of America,2001,WDI GDP through 2025,15680232.7377605
+20_USA,United States of America,2002,WDI GDP through 2025,15946866.8368103
+20_USA,United States of America,2003,WDI GDP through 2025,16392678.3971372
+20_USA,United States of America,2004,WDI GDP through 2025,17023431.2361729
+20_USA,United States of America,2005,WDI GDP through 2025,17616450.964293398
+20_USA,United States of America,2006,WDI GDP through 2025,18106988.0239814
+20_USA,United States of America,2007,WDI GDP through 2025,18469826.4070951
+20_USA,United States of America,2008,WDI GDP through 2025,18490805.7745292
+20_USA,United States of America,2009,WDI GDP through 2025,18014390.1199871
+20_USA,United States of America,2010,WDI GDP through 2025,18499912.6270466
+20_USA,United States of America,2011,WDI GDP through 2025,18789326.5278082
+20_USA,United States of America,2012,WDI GDP through 2025,19219435.5172654
+20_USA,United States of America,2013,WDI GDP through 2025,19626470.5066305
+20_USA,United States of America,2014,WDI GDP through 2025,20121807.258768
+20_USA,United States of America,2015,WDI GDP through 2025,20714505.2434842
+20_USA,United States of America,2016,WDI GDP through 2025,21091395.6155232
+20_USA,United States of America,2017,WDI GDP through 2025,21609742.4578182
+20_USA,United States of America,2018,WDI GDP through 2025,22250796.5627992
+20_USA,United States of America,2019,WDI GDP through 2025,22825718.2806318
+20_USA,United States of America,2020,WDI GDP through 2025,22350629.2635793
+20_USA,United States of America,2021,WDI GDP through 2025,23725645.0000001
+20_USA,United States of America,2022,WDI GDP through 2025,24324531.0172657
+20_USA,United States of America,2023,WDI GDP through 2025,25038301.1099445
+20_USA,United States of America,2024,WDI GDP through 2025,25737667.7200367
+20_USA,United States of America,2025,WDI GDP through 2025,26293957.0260942
+20_USA,United States of America,2026,WDI GDP through 2025,
+20_USA,United States of America,2027,WDI GDP through 2025,
+20_USA,United States of America,2028,WDI GDP through 2025,
+20_USA,United States of America,2029,WDI GDP through 2025,
+20_USA,United States of America,2030,WDI GDP through 2025,
+20_USA,United States of America,2031,WDI GDP through 2025,
+20_USA,United States of America,2032,WDI GDP through 2025,
+20_USA,United States of America,2033,WDI GDP through 2025,
+20_USA,United States of America,2034,WDI GDP through 2025,
+20_USA,United States of America,2035,WDI GDP through 2025,
+20_USA,United States of America,2036,WDI GDP through 2025,
+20_USA,United States of America,2037,WDI GDP through 2025,
+20_USA,United States of America,2038,WDI GDP through 2025,
+20_USA,United States of America,2039,WDI GDP through 2025,
+20_USA,United States of America,2040,WDI GDP through 2025,
+20_USA,United States of America,2041,WDI GDP through 2025,
+20_USA,United States of America,2042,WDI GDP through 2025,
+20_USA,United States of America,2043,WDI GDP through 2025,
+20_USA,United States of America,2044,WDI GDP through 2025,
+20_USA,United States of America,2045,WDI GDP through 2025,
+20_USA,United States of America,2046,WDI GDP through 2025,
+20_USA,United States of America,2047,WDI GDP through 2025,
+20_USA,United States of America,2048,WDI GDP through 2025,
+20_USA,United States of America,2049,WDI GDP through 2025,
+20_USA,United States of America,2050,WDI GDP through 2025,
+20_USA,United States of America,2051,WDI GDP through 2025,
+20_USA,United States of America,2052,WDI GDP through 2025,
+20_USA,United States of America,2053,WDI GDP through 2025,
+20_USA,United States of America,2054,WDI GDP through 2025,
+20_USA,United States of America,2055,WDI GDP through 2025,
+20_USA,United States of America,2056,WDI GDP through 2025,
+20_USA,United States of America,2057,WDI GDP through 2025,
+20_USA,United States of America,2058,WDI GDP through 2025,
+20_USA,United States of America,2059,WDI GDP through 2025,
+20_USA,United States of America,2060,WDI GDP through 2025,
+20_USA,United States of America,2061,WDI GDP through 2025,
+20_USA,United States of America,2062,WDI GDP through 2025,
+20_USA,United States of America,2063,WDI GDP through 2025,
+20_USA,United States of America,2064,WDI GDP through 2025,
+20_USA,United States of America,2065,WDI GDP through 2025,
+20_USA,United States of America,2066,WDI GDP through 2025,
+20_USA,United States of America,2067,WDI GDP through 2025,
+20_USA,United States of America,2068,WDI GDP through 2025,
+20_USA,United States of America,2069,WDI GDP through 2025,
+20_USA,United States of America,2070,WDI GDP through 2025,
+20_USA,United States of America,2071,WDI GDP through 2025,
+20_USA,United States of America,2072,WDI GDP through 2025,
+20_USA,United States of America,2073,WDI GDP through 2025,
+20_USA,United States of America,2074,WDI GDP through 2025,
+20_USA,United States of America,2075,WDI GDP through 2025,
+20_USA,United States of America,2076,WDI GDP through 2025,
+20_USA,United States of America,2077,WDI GDP through 2025,
+20_USA,United States of America,2078,WDI GDP through 2025,
+20_USA,United States of America,2079,WDI GDP through 2025,
+20_USA,United States of America,2080,WDI GDP through 2025,
+20_USA,United States of America,2081,WDI GDP through 2025,
+20_USA,United States of America,2082,WDI GDP through 2025,
+20_USA,United States of America,2083,WDI GDP through 2025,
+20_USA,United States of America,2084,WDI GDP through 2025,
+20_USA,United States of America,2085,WDI GDP through 2025,
+20_USA,United States of America,2086,WDI GDP through 2025,
+20_USA,United States of America,2087,WDI GDP through 2025,
+20_USA,United States of America,2088,WDI GDP through 2025,
+20_USA,United States of America,2089,WDI GDP through 2025,
+20_USA,United States of America,2090,WDI GDP through 2025,
+20_USA,United States of America,2091,WDI GDP through 2025,
+20_USA,United States of America,2092,WDI GDP through 2025,
+20_USA,United States of America,2093,WDI GDP through 2025,
+20_USA,United States of America,2094,WDI GDP through 2025,
+20_USA,United States of America,2095,WDI GDP through 2025,
+20_USA,United States of America,2096,WDI GDP through 2025,
+20_USA,United States of America,2097,WDI GDP through 2025,
+20_USA,United States of America,2098,WDI GDP through 2025,
+20_USA,United States of America,2099,WDI GDP through 2025,
+20_USA,United States of America,2100,WDI GDP through 2025,
+20_USA,United States of America,1990,APERC GDP projections,
+20_USA,United States of America,1991,APERC GDP projections,
+20_USA,United States of America,1992,APERC GDP projections,
+20_USA,United States of America,1993,APERC GDP projections,
+20_USA,United States of America,1994,APERC GDP projections,
+20_USA,United States of America,1995,APERC GDP projections,
+20_USA,United States of America,1996,APERC GDP projections,
+20_USA,United States of America,1997,APERC GDP projections,
+20_USA,United States of America,1998,APERC GDP projections,
+20_USA,United States of America,1999,APERC GDP projections,
+20_USA,United States of America,2000,APERC GDP projections,
+20_USA,United States of America,2001,APERC GDP projections,
+20_USA,United States of America,2002,APERC GDP projections,
+20_USA,United States of America,2003,APERC GDP projections,
+20_USA,United States of America,2004,APERC GDP projections,
+20_USA,United States of America,2005,APERC GDP projections,
+20_USA,United States of America,2006,APERC GDP projections,
+20_USA,United States of America,2007,APERC GDP projections,
+20_USA,United States of America,2008,APERC GDP projections,
+20_USA,United States of America,2009,APERC GDP projections,
+20_USA,United States of America,2010,APERC GDP projections,
+20_USA,United States of America,2011,APERC GDP projections,
+20_USA,United States of America,2012,APERC GDP projections,
+20_USA,United States of America,2013,APERC GDP projections,
+20_USA,United States of America,2014,APERC GDP projections,
+20_USA,United States of America,2015,APERC GDP projections,
+20_USA,United States of America,2016,APERC GDP projections,
+20_USA,United States of America,2017,APERC GDP projections,
+20_USA,United States of America,2018,APERC GDP projections,
+20_USA,United States of America,2019,APERC GDP projections,
+20_USA,United States of America,2020,APERC GDP projections,
+20_USA,United States of America,2021,APERC GDP projections,
+20_USA,United States of America,2022,APERC GDP projections,
+20_USA,United States of America,2023,APERC GDP projections,
+20_USA,United States of America,2024,APERC GDP projections,
+20_USA,United States of America,2025,APERC GDP projections,
+20_USA,United States of America,2026,APERC GDP projections,26921426.88786966
+20_USA,United States of America,2027,APERC GDP projections,27563264.111534778
+20_USA,United States of America,2028,APERC GDP projections,28207951.75547995
+20_USA,United States of America,2029,APERC GDP projections,28844261.748052478
+20_USA,United States of America,2030,APERC GDP projections,29492673.71074259
+20_USA,United States of America,2031,APERC GDP projections,30271301.08736362
+20_USA,United States of America,2032,APERC GDP projections,30944406.158870514
+20_USA,United States of America,2033,APERC GDP projections,31606302.052099336
+20_USA,United States of America,2034,APERC GDP projections,32248680.94718602
+20_USA,United States of America,2035,APERC GDP projections,32898758.46997388
+20_USA,United States of America,2036,APERC GDP projections,33556590.37302938
+20_USA,United States of America,2037,APERC GDP projections,34214327.1194843
+20_USA,United States of America,2038,APERC GDP projections,34870111.6020847
+20_USA,United States of America,2039,APERC GDP projections,35523233.8004592
+20_USA,United States of America,2040,APERC GDP projections,36171936.7447336
+20_USA,United States of America,2041,APERC GDP projections,36817694.92332313
+20_USA,United States of America,2042,APERC GDP projections,37443602.38012625
+20_USA,United States of America,2043,APERC GDP projections,38063118.35924518
+20_USA,United States of America,2044,APERC GDP projections,38672727.99996438
+20_USA,United States of America,2045,APERC GDP projections,39275129.46799937
+20_USA,United States of America,2046,APERC GDP projections,39871455.73876013
+20_USA,United States of America,2047,APERC GDP projections,40459044.00919567
+20_USA,United States of America,2048,APERC GDP projections,41039899.65658547
+20_USA,United States of America,2049,APERC GDP projections,41610845.50686489
+20_USA,United States of America,2050,APERC GDP projections,42174056.037660144
+20_USA,United States of America,2051,APERC GDP projections,42738996.61544015
+20_USA,United States of America,2052,APERC GDP projections,43306804.42695891
+20_USA,United States of America,2053,APERC GDP projections,43876431.79184784
+20_USA,United States of America,2054,APERC GDP projections,44450821.793665834
+20_USA,United States of America,2055,APERC GDP projections,45026897.292869955
+20_USA,United States of America,2056,APERC GDP projections,45607597.60363013
+20_USA,United States of America,2057,APERC GDP projections,46195851.22380029
+20_USA,United States of America,2058,APERC GDP projections,46794378.63961098
+20_USA,United States of America,2059,APERC GDP projections,47402951.94677378
+20_USA,United States of America,2060,APERC GDP projections,48018157.22344396
+20_USA,United States of America,2061,APERC GDP projections,48640812.8760417
+20_USA,United States of America,2062,APERC GDP projections,49275264.17900616
+20_USA,United States of America,2063,APERC GDP projections,49919233.26526143
+20_USA,United States of America,2064,APERC GDP projections,50572493.19072309
+20_USA,United States of America,2065,APERC GDP projections,51233087.88091806
+20_USA,United States of America,2066,APERC GDP projections,51903995.94383868
+20_USA,United States of America,2067,APERC GDP projections,52585196.35261401
+20_USA,United States of America,2068,APERC GDP projections,53276159.921697564
+20_USA,United States of America,2069,APERC GDP projections,53973909.42704641
+20_USA,United States of America,2070,APERC GDP projections,54681077.11430154
+20_USA,United States of America,2071,APERC GDP projections,55392394.51607455
+20_USA,United States of America,2072,APERC GDP projections,56113118.608825944
+20_USA,United States of America,2073,APERC GDP projections,56836201.35145375
+20_USA,United States of America,2074,APERC GDP projections,57566459.327535935
+20_USA,United States of America,2075,APERC GDP projections,58301004.93513041
+20_USA,United States of America,2076,APERC GDP projections,59045784.99451503
+20_USA,United States of America,2077,APERC GDP projections,59793445.37485039
+20_USA,United States of America,2078,APERC GDP projections,60545328.7316036
+20_USA,United States of America,2079,APERC GDP projections,61303468.35893672
+20_USA,United States of America,2080,APERC GDP projections,62065073.72577926
+20_USA,United States of America,2081,APERC GDP projections,62832187.98467619
+20_USA,United States of America,2082,APERC GDP projections,63613644.87790539
+20_USA,United States of America,2083,APERC GDP projections,64397774.12942086
+20_USA,United States of America,2084,APERC GDP projections,65189877.75974629
+20_USA,United States of America,2085,APERC GDP projections,65990122.76032354
+20_USA,United States of America,2086,APERC GDP projections,66795303.087419935
+20_USA,United States of America,2087,APERC GDP projections,67614527.5934641
+20_USA,United States of America,2088,APERC GDP projections,68444436.6087429
+20_USA,United States of America,2089,APERC GDP projections,69289083.381603
+20_USA,United States of America,2090,APERC GDP projections,70142928.64640567
+20_USA,United States of America,2091,APERC GDP projections,71006723.6548342
+20_USA,United States of America,2092,APERC GDP projections,71884363.3038753
+20_USA,United States of America,2093,APERC GDP projections,72774437.56834333
+20_USA,United States of America,2094,APERC GDP projections,73675099.78783701
+20_USA,United States of America,2095,APERC GDP projections,74589322.05956833
+20_USA,United States of America,2096,APERC GDP projections,75514121.29194163
+20_USA,United States of America,2097,APERC GDP projections,76446944.1808677
+20_USA,United States of America,2098,APERC GDP projections,77392912.78477085
+20_USA,United States of America,2099,APERC GDP projections,78346184.35932094
+20_USA,United States of America,2100,APERC GDP projections,79312030.62079795
+20_USA,United States of America,1990,9th Outlook projections (rebased to 2021 PPP USD),11444924.331885666
+20_USA,United States of America,1991,9th Outlook projections (rebased to 2021 PPP USD),11432554.634952169
+20_USA,United States of America,1992,9th Outlook projections (rebased to 2021 PPP USD),11835247.510493204
+20_USA,United States of America,1993,9th Outlook projections (rebased to 2021 PPP USD),12160945.265248144
+20_USA,United States of America,1994,9th Outlook projections (rebased to 2021 PPP USD),12650889.259240603
+20_USA,United States of America,1995,9th Outlook projections (rebased to 2021 PPP USD),12990430.380819764
+20_USA,United States of America,1996,9th Outlook projections (rebased to 2021 PPP USD),13480515.394960435
+20_USA,United States of America,1997,9th Outlook projections (rebased to 2021 PPP USD),14080006.464388795
+20_USA,United States of America,1998,9th Outlook projections (rebased to 2021 PPP USD),14710985.131031506
+20_USA,United States of America,1999,9th Outlook projections (rebased to 2021 PPP USD),15416339.766485479
+20_USA,United States of America,2000,9th Outlook projections (rebased to 2021 PPP USD),16044888.12606428
+20_USA,United States of America,2001,9th Outlook projections (rebased to 2021 PPP USD),16198005.44103777
+20_USA,United States of America,2002,9th Outlook projections (rebased to 2021 PPP USD),16472689.876778718
+20_USA,United States of America,2003,9th Outlook projections (rebased to 2021 PPP USD),16933297.670123443
+20_USA,United States of America,2004,9th Outlook projections (rebased to 2021 PPP USD),17585673.097257037
+20_USA,United States of America,2005,9th Outlook projections (rebased to 2021 PPP USD),18198203.26864997
+20_USA,United States of America,2006,9th Outlook projections (rebased to 2021 PPP USD),18704627.381235883
+20_USA,United States of America,2007,9th Outlook projections (rebased to 2021 PPP USD),19080696.412840463
+20_USA,United States of America,2008,9th Outlook projections (rebased to 2021 PPP USD),19104032.781249676
+20_USA,United States of America,2009,9th Outlook projections (rebased to 2021 PPP USD),18607362.94782096
+20_USA,United States of America,2010,9th Outlook projections (rebased to 2021 PPP USD),19111385.068282694
+20_USA,United States of America,2011,9th Outlook projections (rebased to 2021 PPP USD),19407580.973079648
+20_USA,United States of America,2012,9th Outlook projections (rebased to 2021 PPP USD),19850250.64207876
+20_USA,United States of America,2013,9th Outlook projections (rebased to 2021 PPP USD),20215810.553315196
+20_USA,United States of America,2014,9th Outlook projections (rebased to 2021 PPP USD),20678260.42936769
+20_USA,United States of America,2015,9th Outlook projections (rebased to 2021 PPP USD),21237962.287293993
+20_USA,United States of America,2016,9th Outlook projections (rebased to 2021 PPP USD),21592121.135674212
+20_USA,United States of America,2017,9th Outlook projections (rebased to 2021 PPP USD),22079125.401459355
+20_USA,United States of America,2018,9th Outlook projections (rebased to 2021 PPP USD),22723584.676662073
+20_USA,United States of America,2019,9th Outlook projections (rebased to 2021 PPP USD),23243714.142574094
+20_USA,United States of America,2020,9th Outlook projections (rebased to 2021 PPP USD),22452357.1284407
+20_USA,United States of America,2021,9th Outlook projections (rebased to 2021 PPP USD),23725645.0000001
+20_USA,United States of America,2022,9th Outlook projections (rebased to 2021 PPP USD),24114942.793247383
+20_USA,United States of America,2023,9th Outlook projections (rebased to 2021 PPP USD),24354975.81921492
+20_USA,United States of America,2024,9th Outlook projections (rebased to 2021 PPP USD),24648776.522335984
+20_USA,United States of America,2025,9th Outlook projections (rebased to 2021 PPP USD),25082777.55340593
+20_USA,United States of America,2026,9th Outlook projections (rebased to 2021 PPP USD),25597341.939610228
+20_USA,United States of America,2027,9th Outlook projections (rebased to 2021 PPP USD),26072316.402409375
+20_USA,United States of America,2028,9th Outlook projections (rebased to 2021 PPP USD),26562366.69341883
+20_USA,United States of America,2029,9th Outlook projections (rebased to 2021 PPP USD),27063899.240598906
+20_USA,United States of America,2030,9th Outlook projections (rebased to 2021 PPP USD),27562012.611061696
+20_USA,United States of America,2031,9th Outlook projections (rebased to 2021 PPP USD),28087898.048602574
+20_USA,United States of America,2032,9th Outlook projections (rebased to 2021 PPP USD),28622595.644183427
+20_USA,United States of America,2033,9th Outlook projections (rebased to 2021 PPP USD),29165950.296868194
+20_USA,United States of America,2034,9th Outlook projections (rebased to 2021 PPP USD),29717379.85582023
+20_USA,United States of America,2035,9th Outlook projections (rebased to 2021 PPP USD),30275600.41707768
+20_USA,United States of America,2036,9th Outlook projections (rebased to 2021 PPP USD),30841034.780148957
+20_USA,United States of America,2037,9th Outlook projections (rebased to 2021 PPP USD),31413492.576915067
+20_USA,United States of America,2038,9th Outlook projections (rebased to 2021 PPP USD),31992369.70172355
+20_USA,United States of America,2039,9th Outlook projections (rebased to 2021 PPP USD),32577021.69472627
+20_USA,United States of America,2040,9th Outlook projections (rebased to 2021 PPP USD),33168621.786077827
+20_USA,United States of America,2041,9th Outlook projections (rebased to 2021 PPP USD),33765341.93278662
+20_USA,United States of America,2042,9th Outlook projections (rebased to 2021 PPP USD),34369103.78545021
+20_USA,United States of America,2043,9th Outlook projections (rebased to 2021 PPP USD),34979146.47736565
+20_USA,United States of America,2044,9th Outlook projections (rebased to 2021 PPP USD),35594832.39282161
+20_USA,United States of America,2045,9th Outlook projections (rebased to 2021 PPP USD),36217034.0667484
+20_USA,United States of America,2046,9th Outlook projections (rebased to 2021 PPP USD),36844249.30427901
+20_USA,United States of America,2047,9th Outlook projections (rebased to 2021 PPP USD),37477738.46597387
+20_USA,United States of America,2048,9th Outlook projections (rebased to 2021 PPP USD),38117233.62472979
+20_USA,United States of America,2049,9th Outlook projections (rebased to 2021 PPP USD),38762622.235217206
+20_USA,United States of America,2050,9th Outlook projections (rebased to 2021 PPP USD),39415393.945354715
+20_USA,United States of America,2051,9th Outlook projections (rebased to 2021 PPP USD),40073965.410024114
+20_USA,United States of America,2052,9th Outlook projections (rebased to 2021 PPP USD),40739454.44772263
+20_USA,United States of America,2053,9th Outlook projections (rebased to 2021 PPP USD),41412951.09912219
+20_USA,United States of America,2054,9th Outlook projections (rebased to 2021 PPP USD),42094555.02119296
+20_USA,United States of America,2055,9th Outlook projections (rebased to 2021 PPP USD),42785589.51635355
+20_USA,United States of America,2056,9th Outlook projections (rebased to 2021 PPP USD),43485623.43306612
+20_USA,United States of America,2057,9th Outlook projections (rebased to 2021 PPP USD),44195972.03379154
+20_USA,United States of America,2058,9th Outlook projections (rebased to 2021 PPP USD),44916497.98304969
+20_USA,United States of America,2059,9th Outlook projections (rebased to 2021 PPP USD),45647587.48085624
+20_USA,United States of America,2060,9th Outlook projections (rebased to 2021 PPP USD),46389652.577229485
+20_USA,United States of America,2061,9th Outlook projections (rebased to 2021 PPP USD),47142941.134300664
+20_USA,United States of America,2062,9th Outlook projections (rebased to 2021 PPP USD),47907700.80332059
+20_USA,United States of America,2063,9th Outlook projections (rebased to 2021 PPP USD),48684821.208577074
+20_USA,United States of America,2064,9th Outlook projections (rebased to 2021 PPP USD),49474705.500249825
+20_USA,United States of America,2065,9th Outlook projections (rebased to 2021 PPP USD),50276677.252304204
+20_USA,United States of America,2066,9th Outlook projections (rebased to 2021 PPP USD),51090685.937448695
+20_USA,United States of America,2067,9th Outlook projections (rebased to 2021 PPP USD),51916773.25821988
+20_USA,United States of America,2068,9th Outlook projections (rebased to 2021 PPP USD),52754928.65231281
+20_USA,United States of America,2069,9th Outlook projections (rebased to 2021 PPP USD),53605500.21804612
+20_USA,United States of America,2070,9th Outlook projections (rebased to 2021 PPP USD),54466298.73305234
+20_USA,United States of America,2071,9th Outlook projections (rebased to 2021 PPP USD),55338091.97929797
+20_USA,United States of America,2072,9th Outlook projections (rebased to 2021 PPP USD),56223124.94983994
+20_USA,United States of America,2073,9th Outlook projections (rebased to 2021 PPP USD),57118394.16273515
+20_USA,United States of America,2074,9th Outlook projections (rebased to 2021 PPP USD),58024117.16411742
+20_USA,United States of America,2075,9th Outlook projections (rebased to 2021 PPP USD),58939300.3048535
+20_USA,United States of America,2076,9th Outlook projections (rebased to 2021 PPP USD),59864977.77440286
+20_USA,United States of America,2077,9th Outlook projections (rebased to 2021 PPP USD),60800357.81523989
+20_USA,United States of America,2078,9th Outlook projections (rebased to 2021 PPP USD),61746516.87044336
+20_USA,United States of America,2079,9th Outlook projections (rebased to 2021 PPP USD),62702948.35407479
+20_USA,United States of America,2080,9th Outlook projections (rebased to 2021 PPP USD),63668768.01093382
+20_USA,United States of America,2081,9th Outlook projections (rebased to 2021 PPP USD),64644553.276988566
+20_USA,United States of America,2082,9th Outlook projections (rebased to 2021 PPP USD),65631205.16809225
+20_USA,United States of America,2083,9th Outlook projections (rebased to 2021 PPP USD),66628317.3555056
+20_USA,United States of America,2084,9th Outlook projections (rebased to 2021 PPP USD),67637016.2653901
+20_USA,United States of America,2085,9th Outlook projections (rebased to 2021 PPP USD),68657450.661312
+20_USA,United States of America,2086,9th Outlook projections (rebased to 2021 PPP USD),69689614.78396216
+20_USA,United States of America,2087,9th Outlook projections (rebased to 2021 PPP USD),70734997.62037192
+20_USA,United States of America,2088,9th Outlook projections (rebased to 2021 PPP USD),71792304.35196526
+20_USA,United States of America,2089,9th Outlook projections (rebased to 2021 PPP USD),72863527.30446015
+20_USA,United States of America,2090,9th Outlook projections (rebased to 2021 PPP USD),73948812.13880067
+20_USA,United States of America,2091,9th Outlook projections (rebased to 2021 PPP USD),75046989.27361153
+20_USA,United States of America,2092,9th Outlook projections (rebased to 2021 PPP USD),76161038.77820571
+20_USA,United States of America,2093,9th Outlook projections (rebased to 2021 PPP USD),77289765.12954159
+20_USA,United States of America,2094,9th Outlook projections (rebased to 2021 PPP USD),78433481.01192945
+20_USA,United States of America,2095,9th Outlook projections (rebased to 2021 PPP USD),79592831.23089391
+20_USA,United States of America,2096,9th Outlook projections (rebased to 2021 PPP USD),80768413.72283801
+20_USA,United States of America,2097,9th Outlook projections (rebased to 2021 PPP USD),81961766.82028292
+20_USA,United States of America,2098,9th Outlook projections (rebased to 2021 PPP USD),83168845.11194259
+20_USA,United States of America,2099,9th Outlook projections (rebased to 2021 PPP USD),84391975.1050133
+20_USA,United States of America,2100,9th Outlook projections (rebased to 2021 PPP USD),85629314.84132414

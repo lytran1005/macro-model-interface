@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+02_BD,Brunei Darussalam,1990,Population,251.663
+02_BD,Brunei Darussalam,1991,Population,258.922
+02_BD,Brunei Darussalam,1992,Population,266.271
+02_BD,Brunei Darussalam,1993,Population,273.408
+02_BD,Brunei Darussalam,1994,Population,280.535
+02_BD,Brunei Darussalam,1995,Population,287.648
+02_BD,Brunei Darussalam,1996,Population,294.743
+02_BD,Brunei Darussalam,1997,Population,301.808
+02_BD,Brunei Darussalam,1998,Population,308.875
+02_BD,Brunei Darussalam,1999,Population,315.896
+02_BD,Brunei Darussalam,2000,Population,322.927
+02_BD,Brunei Darussalam,2001,Population,329.921
+02_BD,Brunei Darussalam,2002,Population,336.769
+02_BD,Brunei Darussalam,2003,Population,343.429
+02_BD,Brunei Darussalam,2004,Population,349.845
+02_BD,Brunei Darussalam,2005,Population,355.976
+02_BD,Brunei Darussalam,2006,Population,361.855
+02_BD,Brunei Darussalam,2007,Population,367.47
+02_BD,Brunei Darussalam,2008,Population,374.275
+02_BD,Brunei Darussalam,2009,Population,381.311
+02_BD,Brunei Darussalam,2010,Population,388.594
+02_BD,Brunei Darussalam,2011,Population,396.07
+02_BD,Brunei Darussalam,2012,Population,402.707
+02_BD,Brunei Darussalam,2013,Population,408.406
+02_BD,Brunei Darussalam,2014,Population,413.998
+02_BD,Brunei Darussalam,2015,Population,419.503
+02_BD,Brunei Darussalam,2016,Population,424.92
+02_BD,Brunei Darussalam,2017,Population,430.208
+02_BD,Brunei Darussalam,2018,Population,435.336
+02_BD,Brunei Darussalam,2019,Population,440.283
+02_BD,Brunei Darussalam,2020,Population,445.077
+02_BD,Brunei Darussalam,2021,Population,449.73
+02_BD,Brunei Darussalam,2022,Population,453.711
+02_BD,Brunei Darussalam,2023,Population,457.028
+02_BD,Brunei Darussalam,2024,Population,460.869
+02_BD,Brunei Darussalam,2025,Population,465.459
+02_BD,Brunei Darussalam,2026,Population,469.851
+02_BD,Brunei Darussalam,2027,Population,474.102
+02_BD,Brunei Darussalam,2028,Population,478.356
+02_BD,Brunei Darussalam,2029,Population,482.383
+02_BD,Brunei Darussalam,2030,Population,486.713
+02_BD,Brunei Darussalam,2031,Population,491.022
+02_BD,Brunei Darussalam,2032,Population,495.165
+02_BD,Brunei Darussalam,2033,Population,498.989
+02_BD,Brunei Darussalam,2034,Population,502.809
+02_BD,Brunei Darussalam,2035,Population,506.892
+02_BD,Brunei Darussalam,2036,Population,510.908
+02_BD,Brunei Darussalam,2037,Population,514.712
+02_BD,Brunei Darussalam,2038,Population,518.482
+02_BD,Brunei Darussalam,2039,Population,522.405
+02_BD,Brunei Darussalam,2040,Population,526.026
+02_BD,Brunei Darussalam,2041,Population,529.485
+02_BD,Brunei Darussalam,2042,Population,532.952
+02_BD,Brunei Darussalam,2043,Population,536.238
+02_BD,Brunei Darussalam,2044,Population,539.406
+02_BD,Brunei Darussalam,2045,Population,542.465
+02_BD,Brunei Darussalam,2046,Population,545.632
+02_BD,Brunei Darussalam,2047,Population,548.544
+02_BD,Brunei Darussalam,2048,Population,551.384
+02_BD,Brunei Darussalam,2049,Population,554.148
+02_BD,Brunei Darussalam,2050,Population,556.827
+02_BD,Brunei Darussalam,2051,Population,559.398
+02_BD,Brunei Darussalam,2052,Population,561.877
+02_BD,Brunei Darussalam,2053,Population,564.121
+02_BD,Brunei Darussalam,2054,Population,566.282
+02_BD,Brunei Darussalam,2055,Population,568.484
+02_BD,Brunei Darussalam,2056,Population,570.58
+02_BD,Brunei Darussalam,2057,Population,572.723
+02_BD,Brunei Darussalam,2058,Population,574.758
+02_BD,Brunei Darussalam,2059,Population,576.781
+02_BD,Brunei Darussalam,2060,Population,578.854
+02_BD,Brunei Darussalam,2061,Population,580.95
+02_BD,Brunei Darussalam,2062,Population,583.047
+02_BD,Brunei Darussalam,2063,Population,585.218
+02_BD,Brunei Darussalam,2064,Population,587.254
+02_BD,Brunei Darussalam,2065,Population,589.218
+02_BD,Brunei Darussalam,2066,Population,591.087
+02_BD,Brunei Darussalam,2067,Population,592.886
+02_BD,Brunei Darussalam,2068,Population,594.505
+02_BD,Brunei Darussalam,2069,Population,596.151
+02_BD,Brunei Darussalam,2070,Population,597.871
+02_BD,Brunei Darussalam,2071,Population,599.705
+02_BD,Brunei Darussalam,2072,Population,601.534
+02_BD,Brunei Darussalam,2073,Population,603.144
+02_BD,Brunei Darussalam,2074,Population,604.675
+02_BD,Brunei Darussalam,2075,Population,606.077
+02_BD,Brunei Darussalam,2076,Population,607.371
+02_BD,Brunei Darussalam,2077,Population,608.963
+02_BD,Brunei Darussalam,2078,Population,610.505
+02_BD,Brunei Darussalam,2079,Population,612.157
+02_BD,Brunei Darussalam,2080,Population,613.757
+02_BD,Brunei Darussalam,2081,Population,615.351
+02_BD,Brunei Darussalam,2082,Population,616.933
+02_BD,Brunei Darussalam,2083,Population,618.518
+02_BD,Brunei Darussalam,2084,Population,620.145
+02_BD,Brunei Darussalam,2085,Population,621.888
+02_BD,Brunei Darussalam,2086,Population,623.639
+02_BD,Brunei Darussalam,2087,Population,625.58
+02_BD,Brunei Darussalam,2088,Population,627.521
+02_BD,Brunei Darussalam,2089,Population,629.428
+02_BD,Brunei Darussalam,2090,Population,631.414
+02_BD,Brunei Darussalam,2091,Population,633.538
+02_BD,Brunei Darussalam,2092,Population,635.776
+02_BD,Brunei Darussalam,2093,Population,638.032
+02_BD,Brunei Darussalam,2094,Population,640.362
+02_BD,Brunei Darussalam,2095,Population,642.729
+02_BD,Brunei Darussalam,2096,Population,645.196
+02_BD,Brunei Darussalam,2097,Population,647.659
+02_BD,Brunei Darussalam,2098,Population,650.229
+02_BD,Brunei Darussalam,2099,Population,652.733
+02_BD,Brunei Darussalam,2100,Population,655.229
+02_BD,Brunei Darussalam,1990,Labour efficiency,51.49955444794638
+02_BD,Brunei Darussalam,1991,Labour efficiency,51.11563831662681
+02_BD,Brunei Darussalam,1992,Labour efficiency,47.95440524386286
+02_BD,Brunei Darussalam,1993,Labour efficiency,44.46776506369906
+02_BD,Brunei Darussalam,1994,Labour efficiency,43.287868520063526
+02_BD,Brunei Darussalam,1995,Labour efficiency,42.552499824290805
+02_BD,Brunei Darussalam,1996,Labour efficiency,38.88472404779899
+02_BD,Brunei Darussalam,1997,Labour efficiency,38.70527630504805
+02_BD,Brunei Darussalam,1998,Labour efficiency,34.420753087743826
+02_BD,Brunei Darussalam,1999,Labour efficiency,35.46827078733657
+02_BD,Brunei Darussalam,2000,Labour efficiency,36.70231555208264
+02_BD,Brunei Darussalam,2001,Labour efficiency,37.08609698493559
+02_BD,Brunei Darussalam,2002,Labour efficiency,38.12618882421259
+02_BD,Brunei Darussalam,2003,Labour efficiency,39.2743062369245
+02_BD,Brunei Darussalam,2004,Labour efficiency,38.477783969277695
+02_BD,Brunei Darussalam,2005,Labour efficiency,37.651289046501574
+02_BD,Brunei Darussalam,2006,Labour efficiency,39.37686151497424
+02_BD,Brunei Darussalam,2007,Labour efficiency,36.70996745230156
+02_BD,Brunei Darussalam,2008,Labour efficiency,33.45127936710738
+02_BD,Brunei Darussalam,2009,Labour efficiency,31.191709525598778
+02_BD,Brunei Darussalam,2010,Labour efficiency,31.453206568716954
+02_BD,Brunei Darussalam,2011,Labour efficiency,31.74655755830188
+02_BD,Brunei Darussalam,2012,Labour efficiency,30.235975382705
+02_BD,Brunei Darussalam,2013,Labour efficiency,27.3449114729343
+02_BD,Brunei Darussalam,2014,Labour efficiency,25.30219122967436
+02_BD,Brunei Darussalam,2015,Labour efficiency,24.209054925550156
+02_BD,Brunei Darussalam,2016,Labour efficiency,22.53176621906665
+02_BD,Brunei Darussalam,2017,Labour efficiency,22.301840449061984
+02_BD,Brunei Darussalam,2018,Labour efficiency,21.367756514770438
+02_BD,Brunei Darussalam,2019,Labour efficiency,21.918611360534946
+02_BD,Brunei Darussalam,2020,Labour efficiency,21.66126041923138
+02_BD,Brunei Darussalam,2021,Labour efficiency,20.62486346996215
+02_BD,Brunei Darussalam,2022,Labour efficiency,19.678986758685237
+02_BD,Brunei Darussalam,2023,Labour efficiency,19.722441250563005
+02_BD,Brunei Darussalam,2024,Labour efficiency,20.35066349095485
+02_BD,Brunei Darussalam,2025,Labour efficiency,20.284897485880514
+02_BD,Brunei Darussalam,2026,Labour efficiency,20.07037682325416
+02_BD,Brunei Darussalam,2027,Labour efficiency,20.007730415103552
+02_BD,Brunei Darussalam,2028,Labour efficiency,20.116304249339862
+02_BD,Brunei Darussalam,2029,Labour efficiency,20.23841584139514
+02_BD,Brunei Darussalam,2030,Labour efficiency,20.25690772050012
+02_BD,Brunei Darussalam,2031,Labour efficiency,20.292210854751616
+02_BD,Brunei Darussalam,2032,Labour efficiency,20.377568047020038
+02_BD,Brunei Darussalam,2033,Labour efficiency,20.493148584810488
+02_BD,Brunei Darussalam,2034,Labour efficiency,20.610390310199246
+02_BD,Brunei Darussalam,2035,Labour efficiency,20.726863104936434
+02_BD,Brunei Darussalam,2036,Labour efficiency,20.863632672669855
+02_BD,Brunei Darussalam,2037,Labour efficiency,21.021567046080804
+02_BD,Brunei Darussalam,2038,Labour efficiency,21.194837908317062
+02_BD,Brunei Darussalam,2039,Labour efficiency,21.38043356075111
+02_BD,Brunei Darussalam,2040,Labour efficiency,21.58063499755865
+02_BD,Brunei Darussalam,2041,Labour efficiency,21.798735127440942
+02_BD,Brunei Darussalam,2042,Labour efficiency,22.03433180495834
+02_BD,Brunei Darussalam,2043,Labour efficiency,22.286744084255716
+02_BD,Brunei Darussalam,2044,Labour efficiency,22.556368778471654
+02_BD,Brunei Darussalam,2045,Labour efficiency,22.84432909137726
+02_BD,Brunei Darussalam,2046,Labour efficiency,23.151511072727605
+02_BD,Brunei Darussalam,2047,Labour efficiency,23.46282365337412
+02_BD,Brunei Darussalam,2048,Labour efficiency,23.778322376452735
+02_BD,Brunei Darussalam,2049,Labour efficiency,24.09806353197404
+02_BD,Brunei Darussalam,2050,Labour efficiency,24.42210416686633
+02_BD,Brunei Darussalam,2051,Labour efficiency,24.750502095153667
+02_BD,Brunei Darussalam,2052,Labour efficiency,25.083315908270855
+02_BD,Brunei Darussalam,2053,Labour efficiency,25.42060498551706
+02_BD,Brunei Darussalam,2054,Labour efficiency,25.762429504650036
+02_BD,Brunei Darussalam,2055,Labour efficiency,26.10885045262281
+02_BD,Brunei Darussalam,2056,Labour efficiency,26.45992963646471
+02_BD,Brunei Darussalam,2057,Labour efficiency,26.815729694308732
+02_BD,Brunei Darussalam,2058,Labour efficiency,27.176314106567187
+02_BD,Brunei Darussalam,2059,Labour efficiency,27.541747207257618
+02_BD,Brunei Darussalam,2060,Labour efficiency,27.912094195481014
+02_BD,Brunei Darussalam,2061,Labour efficiency,28.287421147054374
+02_BD,Brunei Darussalam,2062,Labour efficiency,28.66779502629969
+02_BD,Brunei Darussalam,2063,Labour efficiency,29.05328369799144
+02_BD,Brunei Darussalam,2064,Labour efficiency,29.443955939464765
+02_BD,Brunei Darussalam,2065,Labour efficiency,29.839881452886427
+02_BD,Brunei Darussalam,2066,Labour efficiency,30.241130877690804
+02_BD,Brunei Darussalam,2067,Labour efficiency,30.647775803183077
+02_BD,Brunei Darussalam,2068,Labour efficiency,31.059888781311923
+02_BD,Brunei Darussalam,2069,Labour efficiency,31.477543339613923
+02_BD,Brunei Darussalam,2070,Labour efficiency,31.900813994332065
+02_BD,Brunei Darussalam,2071,Labour efficiency,32.32977626371062
+02_BD,Brunei Darussalam,2072,Labour efficiency,32.76450668146881
+02_BD,Brunei Darussalam,2073,Labour efficiency,33.205082810455636
+02_BD,Brunei Darussalam,2074,Labour efficiency,33.651583256488344
+02_BD,Brunei Darussalam,2075,Labour efficiency,34.10408768237696
+02_BD,Brunei Darussalam,2076,Labour efficiency,34.56267682213737
+02_BD,Brunei Darussalam,2077,Labour efficiency,35.02743249539561
+02_BD,Brunei Darussalam,2078,Labour efficiency,35.49843762198575
+02_BD,Brunei Darussalam,2079,Labour efficiency,35.97577623674415
+02_BD,Brunei Darussalam,2080,Labour efficiency,36.45953350450261
+02_BD,Brunei Darussalam,2081,Labour efficiency,36.949795735283104
+02_BD,Brunei Darussalam,2082,Labour efficiency,37.44665039969691
+02_BD,Brunei Darussalam,2083,Labour efficiency,37.95018614455073
+02_BD,Brunei Darussalam,2084,Labour efficiency,38.46049280866273
+02_BD,Brunei Darussalam,2085,Labour efficiency,38.97766143889118
+02_BD,Brunei Darussalam,2086,Labour efficiency,39.50178430637871
+02_BD,Brunei Darussalam,2087,Labour efficiency,40.03295492301492
+02_BD,Brunei Darussalam,2088,Labour efficiency,40.5712680581204
+02_BD,Brunei Darussalam,2089,Labour efficiency,41.116819755355124
+02_BD,Brunei Darussalam,2090,Labour efficiency,41.669707349854114
+02_BD,Brunei Darussalam,2091,Labour efficiency,42.23002948559364
+02_BD,Brunei Darussalam,2092,Labour efficiency,42.797886132990854
+02_BD,Brunei Darussalam,2093,Labour efficiency,43.3733786067401
+02_BD,Brunei Darussalam,2094,Labour efficiency,43.95660958388908
+02_BD,Brunei Darussalam,2095,Labour efficiency,44.54768312215811
+02_BD,Brunei Darussalam,2096,Labour efficiency,45.146704678505635
+02_BD,Brunei Darussalam,2097,Labour efficiency,45.75378112794345
+02_BD,Brunei Darussalam,2098,Labour efficiency,46.369020782604906
+02_BD,Brunei Darussalam,2099,Labour efficiency,46.992533411069545
+02_BD,Brunei Darussalam,2100,Labour efficiency,47.62443025794754
+02_BD,Brunei Darussalam,1990,Capital stock,107119.5656696976
+02_BD,Brunei Darussalam,1991,Capital stock,111524.38048755303
+02_BD,Brunei Darussalam,1992,Capital stock,108718.57574078294
+02_BD,Brunei Darussalam,1993,Capital stock,115171.72934738349
+02_BD,Brunei Darussalam,1994,Capital stock,118256.79949107463
+02_BD,Brunei Darussalam,1995,Capital stock,120838.89274336863
+02_BD,Brunei Darussalam,1996,Capital stock,133277.24213637013
+02_BD,Brunei Darussalam,1997,Capital stock,151049.85657853412
+02_BD,Brunei Darussalam,1998,Capital stock,146443.31145645893
+02_BD,Brunei Darussalam,1999,Capital stock,150244.9345812203
+02_BD,Brunei Darussalam,2000,Capital stock,150405.77403574032
+02_BD,Brunei Darussalam,2001,Capital stock,148707.0674528832
+02_BD,Brunei Darussalam,2002,Capital stock,152444.1263445947
+02_BD,Brunei Darussalam,2003,Capital stock,154614.92975496422
+02_BD,Brunei Darussalam,2004,Capital stock,155480.34361075232
+02_BD,Brunei Darussalam,2005,Capital stock,156480.63687586298
+02_BD,Brunei Darussalam,2006,Capital stock,157836.77920963484
+02_BD,Brunei Darussalam,2007,Capital stock,155672.1954575782
+02_BD,Brunei Darussalam,2008,Capital stock,157621.33177627667
+02_BD,Brunei Darussalam,2009,Capital stock,162260.29565040962
+02_BD,Brunei Darussalam,2010,Capital stock,166652.49722159485
+02_BD,Brunei Darussalam,2011,Capital stock,175090.3434678678
+02_BD,Brunei Darussalam,2012,Capital stock,187959.62999474903
+02_BD,Brunei Darussalam,2013,Capital stock,202797.78935553785
+02_BD,Brunei Darussalam,2014,Capital stock,209510.26661852916
+02_BD,Brunei Darussalam,2015,Capital stock,217321.0937134173
+02_BD,Brunei Darussalam,2016,Capital stock,222984.68834454071
+02_BD,Brunei Darussalam,2017,Capital stock,229737.2080586919
+02_BD,Brunei Darussalam,2018,Capital stock,240964.6404358332
+02_BD,Brunei Darussalam,2019,Capital stock,250740.449865638
+02_BD,Brunei Darussalam,2020,Capital stock,258286.61350361485
+02_BD,Brunei Darussalam,2021,Capital stock,262939.2777657754
+02_BD,Brunei Darussalam,2022,Capital stock,267221.81398537697
+02_BD,Brunei Darussalam,2023,Capital stock,270934.60455060645
+02_BD,Brunei Darussalam,2024,Capital stock,281914.2757110537
+02_BD,Brunei Darussalam,2025,Capital stock,283801.8669914867
+02_BD,Brunei Darussalam,2026,Capital stock,285322.0508932138
+02_BD,Brunei Darussalam,2027,Capital stock,286544.71230322804
+02_BD,Brunei Darussalam,2028,Capital stock,287527.03290797625
+02_BD,Brunei Darussalam,2029,Capital stock,288315.5834321227
+02_BD,Brunei Darussalam,2030,Capital stock,288948.1539480443
+02_BD,Brunei Darussalam,2031,Capital stock,289455.3206593033
+02_BD,Brunei Darussalam,2032,Capital stock,289861.7661784163
+02_BD,Brunei Darussalam,2033,Capital stock,290187.37916976033
+02_BD,Brunei Darussalam,2034,Capital stock,290448.1621818216
+02_BD,Brunei Darussalam,2035,Capital stock,290656.9760779962
+02_BD,Brunei Darussalam,2036,Capital stock,290824.1472941451
+02_BD,Brunei Darussalam,2037,Capital stock,290957.96118581813
+02_BD,Brunei Darussalam,2038,Capital stock,291065.06155547244
+02_BD,Brunei Darussalam,2039,Capital stock,291150.77338974294
+02_BD,Brunei Darussalam,2040,Capital stock,291219.36304925935
+02_BD,Brunei Darussalam,2041,Capital stock,291274.247703622
+02_BD,Brunei Darussalam,2042,Capital stock,291318.1637021808
+02_BD,Brunei Darussalam,2043,Capital stock,291353.30179806985
+02_BD,Brunei Darussalam,2044,Capital stock,291381.41566539917
+02_BD,Brunei Darussalam,2045,Capital stock,291403.90892951994
+02_BD,Brunei Darussalam,2046,Capital stock,291421.90492991527
+02_BD,Brunei Darussalam,2047,Capital stock,291436.30261932325
+02_BD,Brunei Darussalam,2048,Capital stock,291447.8213399036
+02_BD,Brunei Darussalam,2049,Capital stock,291457.0366805803
+02_BD,Brunei Darussalam,2050,Capital stock,291464.4091862269
+02_BD,Brunei Darussalam,2051,Capital stock,291470.3073399362
+02_BD,Brunei Darussalam,2052,Capital stock,291475.025958389
+02_BD,Brunei Darussalam,2053,Capital stock,291478.80091426306
+02_BD,Brunei Darussalam,2054,Capital stock,291481.8209180745
+02_BD,Brunei Darussalam,2055,Capital stock,291484.23694615584
+02_BD,Brunei Darussalam,2056,Capital stock,291486.16978464165
+02_BD,Brunei Darussalam,2057,Capital stock,291487.71606568363
+02_BD,Brunei Darussalam,2058,Capital stock,291488.9530970794
+02_BD,Brunei Darussalam,2059,Capital stock,291489.94272639585
+02_BD,Brunei Darussalam,2060,Capital stock,291490.73443253693
+02_BD,Brunei Darussalam,2061,Capital stock,291491.36779917
+02_BD,Brunei Darussalam,2062,Capital stock,291491.8744935775
+02_BD,Brunei Darussalam,2063,Capital stock,291492.2798498081
+02_BD,Brunei Darussalam,2064,Capital stock,291492.6041352435
+02_BD,Brunei Darussalam,2065,Capital stock,291492.86356388044
+02_BD,Brunei Darussalam,2066,Capital stock,291493.07110697473
+02_BD,Brunei Darussalam,2067,Capital stock,291493.2371415684
+02_BD,Brunei Darussalam,2068,Capital stock,291493.36996931897
+02_BD,Brunei Darussalam,2069,Capital stock,291493.47623156785
+02_BD,Brunei Darussalam,2070,Capital stock,291493.5612413979
+02_BD,Brunei Darussalam,2071,Capital stock,291493.6292492819
+02_BD,Brunei Darussalam,2072,Capital stock,291493.6836556017
+02_BD,Brunei Darussalam,2073,Capital stock,291493.7271806657
+02_BD,Brunei Darussalam,2074,Capital stock,291493.76200072205
+02_BD,Brunei Darussalam,2075,Capital stock,291493.78985677054
+02_BD,Brunei Darussalam,2076,Capital stock,291493.8121416114
+02_BD,Brunei Darussalam,2077,Capital stock,291493.8299694855
+02_BD,Brunei Darussalam,2078,Capital stock,291493.8442317856
+02_BD,Brunei Darussalam,2079,Capital stock,291493.8556416263
+02_BD,Brunei Darussalam,2080,Capital stock,291493.86476949917
+02_BD,Brunei Darussalam,2081,Capital stock,291493.8720717977
+02_BD,Brunei Darussalam,2082,Capital stock,291493.8779136367
+02_BD,Brunei Darussalam,2083,Capital stock,291493.88258710795
+02_BD,Brunei Darussalam,2084,Capital stock,291493.886325885
+02_BD,Brunei Darussalam,2085,Capital stock,291493.8893169067
+02_BD,Brunei Darussalam,2086,Capital stock,291493.8917097241
+02_BD,Brunei Darussalam,2087,Capital stock,291493.893623978
+02_BD,Brunei Darussalam,2088,Capital stock,291493.8951553811
+02_BD,Brunei Darussalam,2089,Capital stock,291493.89638050366
+02_BD,Brunei Darussalam,2090,Capital stock,291493.8973606017
+02_BD,Brunei Darussalam,2091,Capital stock,291493.89814468013
+02_BD,Brunei Darussalam,2092,Capital stock,291493.8987719429
+02_BD,Brunei Darussalam,2093,Capital stock,291493.89927375305
+02_BD,Brunei Darussalam,2094,Capital stock,291493.8996752012
+02_BD,Brunei Darussalam,2095,Capital stock,291493.8999963597
+02_BD,Brunei Darussalam,2096,Capital stock,291493.9002532865
+02_BD,Brunei Darussalam,2097,Capital stock,291493.900458828
+02_BD,Brunei Darussalam,2098,Capital stock,291493.9006232612
+02_BD,Brunei Darussalam,2099,Capital stock,291493.9007548077
+02_BD,Brunei Darussalam,2100,Capital stock,291493.90086004493
+02_BD,Brunei Darussalam,1990,Savings,
+02_BD,Brunei Darussalam,1991,Savings,
+02_BD,Brunei Darussalam,1992,Savings,
+02_BD,Brunei Darussalam,1993,Savings,
+02_BD,Brunei Darussalam,1994,Savings,
+02_BD,Brunei Darussalam,1995,Savings,
+02_BD,Brunei Darussalam,1996,Savings,
+02_BD,Brunei Darussalam,1997,Savings,
+02_BD,Brunei Darussalam,1998,Savings,
+02_BD,Brunei Darussalam,1999,Savings,
+02_BD,Brunei Darussalam,2000,Savings,0.18516
+02_BD,Brunei Darussalam,2001,Savings,0.5178769662966191
+02_BD,Brunei Darussalam,2002,Savings,0.5451622385582889
+02_BD,Brunei Darussalam,2003,Savings,0.5694785695653249
+02_BD,Brunei Darussalam,2004,Savings,0.567706482500164
+02_BD,Brunei Darussalam,2005,Savings,0.6394145621444021
+02_BD,Brunei Darussalam,2006,Savings,0.662085968576008
+02_BD,Brunei Darussalam,2007,Savings,0.617392099345848
+02_BD,Brunei Darussalam,2008,Savings,0.6949259154060501
+02_BD,Brunei Darussalam,2009,Savings,0.5828798884708281
+02_BD,Brunei Darussalam,2010,Savings,0.60151545349916
+02_BD,Brunei Darussalam,2011,Savings,0.637858068696577
+02_BD,Brunei Darussalam,2012,Savings,0.629040809586224
+02_BD,Brunei Darussalam,2013,Savings,0.60279412864525
+02_BD,Brunei Darussalam,2014,Savings,0.598076367677065
+02_BD,Brunei Darussalam,2015,Savings,0.571182687749519
+02_BD,Brunei Darussalam,2016,Savings,0.564115794432201
+02_BD,Brunei Darussalam,2017,Savings,0.5533642050172071
+02_BD,Brunei Darussalam,2018,Savings,0.532133009127659
+02_BD,Brunei Darussalam,2019,Savings,0.535317208322741
+02_BD,Brunei Darussalam,2020,Savings,0.508859947205967
+02_BD,Brunei Darussalam,2021,Savings,0.49734340945549904
+02_BD,Brunei Darussalam,2022,Savings,0.503806352832592
+02_BD,Brunei Darussalam,2023,Savings,0.45871344690754
+02_BD,Brunei Darussalam,2024,Savings,0.476532634913652
+02_BD,Brunei Darussalam,2025,Savings,0.453344398925132
+02_BD,Brunei Darussalam,2026,Savings,0.453344398925132
+02_BD,Brunei Darussalam,2027,Savings,0.451344398925132
+02_BD,Brunei Darussalam,2028,Savings,0.449344398925132
+02_BD,Brunei Darussalam,2029,Savings,0.447344398925132
+02_BD,Brunei Darussalam,2030,Savings,0.445344398925132
+02_BD,Brunei Darussalam,2031,Savings,0.443344398925132
+02_BD,Brunei Darussalam,2032,Savings,0.441344398925132
+02_BD,Brunei Darussalam,2033,Savings,0.439344398925132
+02_BD,Brunei Darussalam,2034,Savings,0.437344398925132
+02_BD,Brunei Darussalam,2035,Savings,0.435344398925132
+02_BD,Brunei Darussalam,2036,Savings,0.433344398925132
+02_BD,Brunei Darussalam,2037,Savings,0.431344398925132
+02_BD,Brunei Darussalam,2038,Savings,0.429344398925132
+02_BD,Brunei Darussalam,2039,Savings,0.427344398925132
+02_BD,Brunei Darussalam,2040,Savings,0.425344398925132
+02_BD,Brunei Darussalam,2041,Savings,0.423344398925132
+02_BD,Brunei Darussalam,2042,Savings,0.421344398925132
+02_BD,Brunei Darussalam,2043,Savings,0.419344398925132
+02_BD,Brunei Darussalam,2044,Savings,0.417344398925132
+02_BD,Brunei Darussalam,2045,Savings,0.415344398925132
+02_BD,Brunei Darussalam,2046,Savings,0.413344398925132
+02_BD,Brunei Darussalam,2047,Savings,0.41134439892513197
+02_BD,Brunei Darussalam,2048,Savings,0.40934439892513197
+02_BD,Brunei Darussalam,2049,Savings,0.40734439892513197
+02_BD,Brunei Darussalam,2050,Savings,0.40534439892513197
+02_BD,Brunei Darussalam,2051,Savings,0.40334439892513196
+02_BD,Brunei Darussalam,2052,Savings,0.40134439892513196
+02_BD,Brunei Darussalam,2053,Savings,0.39934439892513196
+02_BD,Brunei Darussalam,2054,Savings,0.39734439892513196
+02_BD,Brunei Darussalam,2055,Savings,0.39534439892513196
+02_BD,Brunei Darussalam,2056,Savings,0.39334439892513196
+02_BD,Brunei Darussalam,2057,Savings,0.39134439892513195
+02_BD,Brunei Darussalam,2058,Savings,0.38934439892513195
+02_BD,Brunei Darussalam,2059,Savings,0.38734439892513195
+02_BD,Brunei Darussalam,2060,Savings,0.38534439892513195
+02_BD,Brunei Darussalam,2061,Savings,0.38334439892513195
+02_BD,Brunei Darussalam,2062,Savings,0.38134439892513194
+02_BD,Brunei Darussalam,2063,Savings,0.37934439892513194
+02_BD,Brunei Darussalam,2064,Savings,0.37734439892513194
+02_BD,Brunei Darussalam,2065,Savings,0.37534439892513194
+02_BD,Brunei Darussalam,2066,Savings,0.37334439892513194
+02_BD,Brunei Darussalam,2067,Savings,0.37134439892513194
+02_BD,Brunei Darussalam,2068,Savings,0.36934439892513193
+02_BD,Brunei Darussalam,2069,Savings,0.36734439892513193
+02_BD,Brunei Darussalam,2070,Savings,0.36534439892513193
+02_BD,Brunei Darussalam,2071,Savings,0.36334439892513193
+02_BD,Brunei Darussalam,2072,Savings,0.3613443989251319
+02_BD,Brunei Darussalam,2073,Savings,0.3593443989251319
+02_BD,Brunei Darussalam,2074,Savings,0.3573443989251319
+02_BD,Brunei Darussalam,2075,Savings,0.3553443989251319
+02_BD,Brunei Darussalam,2076,Savings,0.3533443989251319
+02_BD,Brunei Darussalam,2077,Savings,0.3513443989251319
+02_BD,Brunei Darussalam,2078,Savings,0.3493443989251319
+02_BD,Brunei Darussalam,2079,Savings,0.3473443989251319
+02_BD,Brunei Darussalam,2080,Savings,0.3453443989251319
+02_BD,Brunei Darussalam,2081,Savings,0.3433443989251319
+02_BD,Brunei Darussalam,2082,Savings,0.3413443989251319
+02_BD,Brunei Darussalam,2083,Savings,0.3393443989251319
+02_BD,Brunei Darussalam,2084,Savings,0.3373443989251319
+02_BD,Brunei Darussalam,2085,Savings,0.3353443989251319
+02_BD,Brunei Darussalam,2086,Savings,0.3333443989251319
+02_BD,Brunei Darussalam,2087,Savings,0.3313443989251319
+02_BD,Brunei Darussalam,2088,Savings,0.3293443989251319
+02_BD,Brunei Darussalam,2089,Savings,0.3273443989251319
+02_BD,Brunei Darussalam,2090,Savings,0.3253443989251319
+02_BD,Brunei Darussalam,2091,Savings,0.3233443989251319
+02_BD,Brunei Darussalam,2092,Savings,0.3213443989251319
+02_BD,Brunei Darussalam,2093,Savings,0.3193443989251319
+02_BD,Brunei Darussalam,2094,Savings,0.3173443989251319
+02_BD,Brunei Darussalam,2095,Savings,0.3153443989251319
+02_BD,Brunei Darussalam,2096,Savings,0.3133443989251319
+02_BD,Brunei Darussalam,2097,Savings,0.3113443989251319
+02_BD,Brunei Darussalam,2098,Savings,0.3093443989251319
+02_BD,Brunei Darussalam,2099,Savings,0.3073443989251319
+02_BD,Brunei Darussalam,2100,Savings,0.3053443989251319
+02_BD,Brunei Darussalam,1990,Depreciation,0.047948744148016
+02_BD,Brunei Darussalam,1991,Depreciation,0.0497572645545006
+02_BD,Brunei Darussalam,1992,Depreciation,0.0516151376068592
+02_BD,Brunei Darussalam,1993,Depreciation,0.0533773526549339
+02_BD,Brunei Darussalam,1994,Depreciation,0.0548239015042782
+02_BD,Brunei Darussalam,1995,Depreciation,0.0544982515275478
+02_BD,Brunei Darussalam,1996,Depreciation,0.0540277510881424
+02_BD,Brunei Darussalam,1997,Depreciation,0.0542309395968914
+02_BD,Brunei Darussalam,1998,Depreciation,0.0535907410085201
+02_BD,Brunei Darussalam,1999,Depreciation,0.0522266291081905
+02_BD,Brunei Darussalam,2000,Depreciation,0.0507432632148266
+02_BD,Brunei Darussalam,2001,Depreciation,0.049600999802351
+02_BD,Brunei Darussalam,2002,Depreciation,0.0491997003555298
+02_BD,Brunei Darussalam,2003,Depreciation,0.0488759689033031
+02_BD,Brunei Darussalam,2004,Depreciation,0.0479025617241859
+02_BD,Brunei Darussalam,2005,Depreciation,0.0468044951558113
+02_BD,Brunei Darussalam,2006,Depreciation,0.0461096949875355
+02_BD,Brunei Darussalam,2007,Depreciation,0.0461565665900707
+02_BD,Brunei Darussalam,2008,Depreciation,0.0468208640813828
+02_BD,Brunei Darussalam,2009,Depreciation,0.0475124828517437
+02_BD,Brunei Darussalam,2010,Depreciation,0.0473851971328259
+02_BD,Brunei Darussalam,2011,Depreciation,0.0468343086540699
+02_BD,Brunei Darussalam,2012,Depreciation,0.0466860942542553
+02_BD,Brunei Darussalam,2013,Depreciation,0.0469153374433517
+02_BD,Brunei Darussalam,2014,Depreciation,0.0467393957078457
+02_BD,Brunei Darussalam,2015,Depreciation,0.0461969897150993
+02_BD,Brunei Darussalam,2016,Depreciation,0.0457130782306194
+02_BD,Brunei Darussalam,2017,Depreciation,0.0452341698110104
+02_BD,Brunei Darussalam,2018,Depreciation,0.0451486669480801
+02_BD,Brunei Darussalam,2019,Depreciation,0.045395839959383
+02_BD,Brunei Darussalam,2020,Depreciation,0.0454540103673935
+02_BD,Brunei Darussalam,2021,Depreciation,0.0449635721743107
+02_BD,Brunei Darussalam,2022,Depreciation,0.0441370196640492
+02_BD,Brunei Darussalam,2023,Depreciation,0.0434116758406162
+02_BD,Brunei Darussalam,2024,Depreciation,0.0434116758406162
+02_BD,Brunei Darussalam,2025,Depreciation,0.0434116758406162
+02_BD,Brunei Darussalam,2026,Depreciation,0.0434116758406162
+02_BD,Brunei Darussalam,2027,Depreciation,0.0439116758406162
+02_BD,Brunei Darussalam,2028,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2029,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2030,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2031,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2032,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2033,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2034,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2035,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2036,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2037,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2038,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2039,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2040,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2041,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2042,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2043,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2044,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2045,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2046,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2047,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2048,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2049,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2050,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2051,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2052,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2053,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2054,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2055,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2056,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2057,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2058,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2059,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2060,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2061,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2062,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2063,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2064,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2065,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2066,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2067,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2068,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2069,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2070,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2071,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2072,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2073,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2074,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2075,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2076,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2077,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2078,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2079,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2080,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2081,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2082,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2083,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2084,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2085,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2086,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2087,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2088,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2089,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2090,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2091,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2092,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2093,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2094,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2095,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2096,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2097,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2098,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2099,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,2100,Depreciation,0.0444116758406162
+02_BD,Brunei Darussalam,1990,WDI GDP through 2025,30166.2430548788
+02_BD,Brunei Darussalam,1991,WDI GDP through 2025,31044.2786293994
+02_BD,Brunei Darussalam,1992,WDI GDP through 2025,30075.505025988
+02_BD,Brunei Darussalam,1993,WDI GDP through 2025,29884.9316910154
+02_BD,Brunei Darussalam,1994,WDI GDP through 2025,30181.6098553671
+02_BD,Brunei Darussalam,1995,WDI GDP through 2025,30588.2448027798
+02_BD,Brunei Darussalam,1996,WDI GDP through 2025,30579.8894812155
+02_BD,Brunei Darussalam,1997,WDI GDP through 2025,32519.8608489052
+02_BD,Brunei Darussalam,1998,WDI GDP through 2025,30354.9619039354
+02_BD,Brunei Darussalam,1999,WDI GDP through 2025,31648.3024932464
+02_BD,Brunei Darussalam,2000,WDI GDP through 2025,32747.9785519656
+02_BD,Brunei Darussalam,2001,WDI GDP through 2025,33228.0838348158
+02_BD,Brunei Darussalam,2002,WDI GDP through 2025,34544.3940735811
+02_BD,Brunei Darussalam,2003,WDI GDP through 2025,35782.267943159895
+02_BD,Brunei Darussalam,2004,WDI GDP through 2025,35819.6741437482
+02_BD,Brunei Darussalam,2005,WDI GDP through 2025,35818.2681081303
+02_BD,Brunei Darussalam,2006,WDI GDP through 2025,37286.248511735495
+02_BD,Brunei Darussalam,2007,WDI GDP through 2025,35882.934589017
+02_BD,Brunei Darussalam,2008,WDI GDP through 2025,34483.245006226
+02_BD,Brunei Darussalam,2009,WDI GDP through 2025,33827.9758767617
+02_BD,Brunei Darussalam,2010,WDI GDP through 2025,34755.3239628481
+02_BD,Brunei Darussalam,2011,WDI GDP through 2025,36056.704487345
+02_BD,Brunei Darussalam,2012,WDI GDP through 2025,36385.9509442523
+02_BD,Brunei Darussalam,2013,WDI GDP through 2025,35612.8284708911
+02_BD,Brunei Darussalam,2014,WDI GDP through 2025,34719.698877079005
+02_BD,Brunei Darussalam,2015,WDI GDP through 2025,34583.4644208093
+02_BD,Brunei Darussalam,2016,WDI GDP through 2025,33726.514628313
+02_BD,Brunei Darussalam,2017,WDI GDP through 2025,34174.6478029999
+02_BD,Brunei Darussalam,2018,WDI GDP through 2025,34192.5454221039
+02_BD,Brunei Darussalam,2019,WDI GDP through 2025,35515.401787812894
+02_BD,Brunei Darussalam,2020,WDI GDP through 2025,35917.9949174561
+02_BD,Brunei Darussalam,2021,WDI GDP through 2025,35346.6248872816
+02_BD,Brunei Darussalam,2022,WDI GDP through 2025,34771.064644095706
+02_BD,Brunei Darussalam,2023,WDI GDP through 2025,35163.1585314447
+02_BD,Brunei Darussalam,2024,WDI GDP through 2025,36588.1515413938
+02_BD,Brunei Darussalam,2025,WDI GDP through 2025,36833.131954828
+02_BD,Brunei Darussalam,2026,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2027,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2028,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2029,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2030,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2031,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2032,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2033,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2034,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2035,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2036,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2037,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2038,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2039,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2040,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2041,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2042,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2043,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2044,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2045,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2046,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2047,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2048,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2049,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2050,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2051,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2052,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2053,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2054,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2055,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2056,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2057,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2058,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2059,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2060,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2061,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2062,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2063,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2064,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2065,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2066,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2067,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2068,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2069,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2070,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2071,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2072,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2073,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2074,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2075,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2076,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2077,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2078,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2079,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2080,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2081,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2082,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2083,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2084,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2085,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2086,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2087,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2088,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2089,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2090,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2091,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2092,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2093,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2094,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2095,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2096,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2097,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2098,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2099,WDI GDP through 2025,
+02_BD,Brunei Darussalam,2100,WDI GDP through 2025,
+02_BD,Brunei Darussalam,1990,APERC GDP projections,
+02_BD,Brunei Darussalam,1991,APERC GDP projections,
+02_BD,Brunei Darussalam,1992,APERC GDP projections,
+02_BD,Brunei Darussalam,1993,APERC GDP projections,
+02_BD,Brunei Darussalam,1994,APERC GDP projections,
+02_BD,Brunei Darussalam,1995,APERC GDP projections,
+02_BD,Brunei Darussalam,1996,APERC GDP projections,
+02_BD,Brunei Darussalam,1997,APERC GDP projections,
+02_BD,Brunei Darussalam,1998,APERC GDP projections,
+02_BD,Brunei Darussalam,1999,APERC GDP projections,
+02_BD,Brunei Darussalam,2000,APERC GDP projections,
+02_BD,Brunei Darussalam,2001,APERC GDP projections,
+02_BD,Brunei Darussalam,2002,APERC GDP projections,
+02_BD,Brunei Darussalam,2003,APERC GDP projections,
+02_BD,Brunei Darussalam,2004,APERC GDP projections,
+02_BD,Brunei Darussalam,2005,APERC GDP projections,
+02_BD,Brunei Darussalam,2006,APERC GDP projections,
+02_BD,Brunei Darussalam,2007,APERC GDP projections,
+02_BD,Brunei Darussalam,2008,APERC GDP projections,
+02_BD,Brunei Darussalam,2009,APERC GDP projections,
+02_BD,Brunei Darussalam,2010,APERC GDP projections,
+02_BD,Brunei Darussalam,2011,APERC GDP projections,
+02_BD,Brunei Darussalam,2012,APERC GDP projections,
+02_BD,Brunei Darussalam,2013,APERC GDP projections,
+02_BD,Brunei Darussalam,2014,APERC GDP projections,
+02_BD,Brunei Darussalam,2015,APERC GDP projections,
+02_BD,Brunei Darussalam,2016,APERC GDP projections,
+02_BD,Brunei Darussalam,2017,APERC GDP projections,
+02_BD,Brunei Darussalam,2018,APERC GDP projections,
+02_BD,Brunei Darussalam,2019,APERC GDP projections,
+02_BD,Brunei Darussalam,2020,APERC GDP projections,
+02_BD,Brunei Darussalam,2021,APERC GDP projections,
+02_BD,Brunei Darussalam,2022,APERC GDP projections,
+02_BD,Brunei Darussalam,2023,APERC GDP projections,
+02_BD,Brunei Darussalam,2024,APERC GDP projections,
+02_BD,Brunei Darussalam,2025,APERC GDP projections,
+02_BD,Brunei Darussalam,2026,APERC GDP projections,36884.46971532686
+02_BD,Brunei Darussalam,2027,APERC GDP projections,37078.20729531426
+02_BD,Brunei Darussalam,2028,APERC GDP projections,37449.93996161282
+02_BD,Brunei Darussalam,2029,APERC GDP projections,37817.11134211187
+02_BD,Brunei Darussalam,2030,APERC GDP projections,38074.62435446977
+02_BD,Brunei Darussalam,2031,APERC GDP projections,38343.416334889225
+02_BD,Brunei Darussalam,2032,APERC GDP projections,38656.07441635396
+02_BD,Brunei Darussalam,2033,APERC GDP projections,38984.431423624344
+02_BD,Brunei Darussalam,2034,APERC GDP projections,39311.626104229064
+02_BD,Brunei Darussalam,2035,APERC GDP projections,39648.03882898087
+02_BD,Brunei Darussalam,2036,APERC GDP projections,40002.92647328691
+02_BD,Brunei Darussalam,2037,APERC GDP projections,40371.02038237069
+02_BD,Brunei Darussalam,2038,APERC GDP projections,40754.38097030696
+02_BD,Brunei Darussalam,2039,APERC GDP projections,41158.68386741374
+02_BD,Brunei Darussalam,2040,APERC GDP projections,41565.30360760533
+02_BD,Brunei Darussalam,2041,APERC GDP projections,41984.77297033685
+02_BD,Brunei Darussalam,2042,APERC GDP projections,42424.80104056882
+02_BD,Brunei Darussalam,2043,APERC GDP projections,42875.62909574563
+02_BD,Brunei Darussalam,2044,APERC GDP projections,43340.67942114728
+02_BD,Brunei Darussalam,2045,APERC GDP projections,43821.5997219409
+02_BD,Brunei Darussalam,2046,APERC GDP projections,44329.862274916384
+02_BD,Brunei Darussalam,2047,APERC GDP projections,44830.38893817442
+02_BD,Brunei Darussalam,2048,APERC GDP projections,45332.069664630755
+02_BD,Brunei Darussalam,2049,APERC GDP projections,45834.71836060832
+02_BD,Brunei Darussalam,2050,APERC GDP projections,46337.88753372631
+02_BD,Brunei Darussalam,2051,APERC GDP projections,46840.40929287145
+02_BD,Brunei Darussalam,2052,APERC GDP projections,47343.05308716372
+02_BD,Brunei Darussalam,2053,APERC GDP projections,47838.513830841024
+02_BD,Brunei Darussalam,2054,APERC GDP projections,48334.40021399024
+02_BD,Brunei Darussalam,2055,APERC GDP projections,48837.07304594579
+02_BD,Brunei Darussalam,2056,APERC GDP projections,49338.997295484856
+02_BD,Brunei Darussalam,2057,APERC GDP projections,49848.10454337662
+02_BD,Brunei Darussalam,2058,APERC GDP projections,50356.34348123904
+02_BD,Brunei Darussalam,2059,APERC GDP projections,50868.72940874931
+02_BD,Brunei Darussalam,2060,APERC GDP projections,51388.59906015157
+02_BD,Brunei Darussalam,2061,APERC GDP projections,51914.604128801686
+02_BD,Brunei Darussalam,2062,APERC GDP projections,52445.62854182851
+02_BD,Brunei Darussalam,2063,APERC GDP projections,52985.68619705307
+02_BD,Brunei Darussalam,2064,APERC GDP projections,53523.474946974486
+02_BD,Brunei Darussalam,2065,APERC GDP projections,54062.36372808494
+02_BD,Brunei Darussalam,2066,APERC GDP projections,54601.045129411556
+02_BD,Brunei Darussalam,2067,APERC GDP projections,55140.853962301124
+02_BD,Brunei Darussalam,2068,APERC GDP projections,55675.57579101289
+02_BD,Brunei Darussalam,2069,APERC GDP projections,56216.75849329956
+02_BD,Brunei Darussalam,2070,APERC GDP projections,56767.15618873285
+02_BD,Brunei Darussalam,2071,APERC GDP projections,57329.195623532716
+02_BD,Brunei Darussalam,2072,APERC GDP projections,57896.184982141924
+02_BD,Brunei Darussalam,2073,APERC GDP projections,58455.72255437205
+02_BD,Brunei Darussalam,2074,APERC GDP projections,59015.7886626402
+02_BD,Brunei Darussalam,2075,APERC GDP projections,59573.38345010801
+02_BD,Brunei Darussalam,2076,APERC GDP projections,60129.63802379362
+02_BD,Brunei Darussalam,2077,APERC GDP projections,60708.747532893125
+02_BD,Brunei Darussalam,2078,APERC GDP projections,61290.17108213075
+02_BD,Brunei Darussalam,2079,APERC GDP projections,61883.59823458447
+02_BD,Brunei Darussalam,2080,APERC GDP projections,62479.321829405846
+02_BD,Brunei Darussalam,2081,APERC GDP projections,63080.15375719429
+02_BD,Brunei Darussalam,2082,APERC GDP projections,63685.76379447968
+02_BD,Brunei Darussalam,2083,APERC GDP projections,64297.12141415886
+02_BD,Brunei Darussalam,2084,APERC GDP projections,64916.729938556055
+02_BD,Brunei Darussalam,2085,APERC GDP projections,65549.3750392881
+02_BD,Brunei Darussalam,2086,APERC GDP projections,66188.38299445725
+02_BD,Brunei Darussalam,2087,APERC GDP projections,66845.48620549818
+02_BD,Brunei Darussalam,2088,APERC GDP projections,67508.72301043593
+02_BD,Brunei Darussalam,2089,APERC GDP projections,68175.9394212455
+02_BD,Brunei Darussalam,2090,APERC GDP projections,68854.53999904738
+02_BD,Brunei Darussalam,2091,APERC GDP projections,69548.57236379603
+02_BD,Brunei Darussalam,2092,APERC GDP projections,70256.68542336965
+02_BD,Brunei Darussalam,2093,APERC GDP projections,70972.6818757385
+02_BD,Brunei Darussalam,2094,APERC GDP projections,71700.4088403792
+02_BD,Brunei Darussalam,2095,APERC GDP projections,72437.52427625813
+02_BD,Brunei Darussalam,2096,APERC GDP projections,73188.42846000475
+02_BD,Brunei Darussalam,2097,APERC GDP projections,73946.1939895331
+02_BD,Brunei Darussalam,2098,APERC GDP projections,74718.53436816497
+02_BD,Brunei Darussalam,2099,APERC GDP projections,75493.65393055251
+02_BD,Brunei Darussalam,2100,APERC GDP projections,76275.58219435527
+02_BD,Brunei Darussalam,1990,9th Outlook projections (rebased to 2021 PPP USD),24286.40268615882
+02_BD,Brunei Darussalam,1991,9th Outlook projections (rebased to 2021 PPP USD),25043.615845531862
+02_BD,Brunei Darussalam,1992,9th Outlook projections (rebased to 2021 PPP USD),26264.30076420012
+02_BD,Brunei Darussalam,1993,9th Outlook projections (rebased to 2021 PPP USD),26412.226743729785
+02_BD,Brunei Darussalam,1994,9th Outlook projections (rebased to 2021 PPP USD),27183.60827992025
+02_BD,Brunei Darussalam,1995,9th Outlook projections (rebased to 2021 PPP USD),28381.522714612194
+02_BD,Brunei Darussalam,1996,9th Outlook projections (rebased to 2021 PPP USD),29278.57681997508
+02_BD,Brunei Darussalam,1997,9th Outlook projections (rebased to 2021 PPP USD),28827.583055278817
+02_BD,Brunei Darussalam,1998,9th Outlook projections (rebased to 2021 PPP USD),28684.366519020074
+02_BD,Brunei Darussalam,1999,9th Outlook projections (rebased to 2021 PPP USD),29521.493132992626
+02_BD,Brunei Darussalam,2000,9th Outlook projections (rebased to 2021 PPP USD),30371.799791690526
+02_BD,Brunei Darussalam,2001,9th Outlook projections (rebased to 2021 PPP USD),31200.9216773231
+02_BD,Brunei Darussalam,2002,9th Outlook projections (rebased to 2021 PPP USD),32384.04146287403
+02_BD,Brunei Darussalam,2003,9th Outlook projections (rebased to 2021 PPP USD),33295.651519278996
+02_BD,Brunei Darussalam,2004,9th Outlook projections (rebased to 2021 PPP USD),33473.72045946944
+02_BD,Brunei Darussalam,2005,9th Outlook projections (rebased to 2021 PPP USD),33679.12254948731
+02_BD,Brunei Darussalam,2006,9th Outlook projections (rebased to 2021 PPP USD),35159.310896756055
+02_BD,Brunei Darussalam,2007,9th Outlook projections (rebased to 2021 PPP USD),35165.12827195728
+02_BD,Brunei Darussalam,2008,9th Outlook projections (rebased to 2021 PPP USD),34483.312178458
+02_BD,Brunei Darussalam,2009,9th Outlook projections (rebased to 2021 PPP USD),33865.93190023636
+02_BD,Brunei Darussalam,2010,9th Outlook projections (rebased to 2021 PPP USD),34773.24574724472
+02_BD,Brunei Darussalam,2011,9th Outlook projections (rebased to 2021 PPP USD),36022.51643958402
+02_BD,Brunei Darussalam,2012,9th Outlook projections (rebased to 2021 PPP USD),36413.322961734855
+02_BD,Brunei Darussalam,2013,9th Outlook projections (rebased to 2021 PPP USD),35586.25733271824
+02_BD,Brunei Darussalam,2014,9th Outlook projections (rebased to 2021 PPP USD),34753.6898867536
+02_BD,Brunei Darussalam,2015,9th Outlook projections (rebased to 2021 PPP USD),34545.392400939236
+02_BD,Brunei Darussalam,2016,9th Outlook projections (rebased to 2021 PPP USD),33705.74468679014
+02_BD,Brunei Darussalam,2017,9th Outlook projections (rebased to 2021 PPP USD),34214.353380151246
+02_BD,Brunei Darussalam,2018,9th Outlook projections (rebased to 2021 PPP USD),34161.55265846066
+02_BD,Brunei Darussalam,2019,9th Outlook projections (rebased to 2021 PPP USD),35553.967527902634
+02_BD,Brunei Darussalam,2020,9th Outlook projections (rebased to 2021 PPP USD),35949.58507597034
+02_BD,Brunei Darussalam,2021,9th Outlook projections (rebased to 2021 PPP USD),35346.6248872816
+02_BD,Brunei Darussalam,2022,9th Outlook projections (rebased to 2021 PPP USD),35788.00491577132
+02_BD,Brunei Darussalam,2023,9th Outlook projections (rebased to 2021 PPP USD),36984.508835298075
+02_BD,Brunei Darussalam,2024,9th Outlook projections (rebased to 2021 PPP USD),38179.06029835542
+02_BD,Brunei Darussalam,2025,9th Outlook projections (rebased to 2021 PPP USD),39412.10466773708
+02_BD,Brunei Darussalam,2026,9th Outlook projections (rebased to 2021 PPP USD),40398.27680864886
+02_BD,Brunei Darussalam,2027,9th Outlook projections (rebased to 2021 PPP USD),41789.93556318823
+02_BD,Brunei Darussalam,2028,9th Outlook projections (rebased to 2021 PPP USD),42687.27531452347
+02_BD,Brunei Darussalam,2029,9th Outlook projections (rebased to 2021 PPP USD),43503.60980755277
+02_BD,Brunei Darussalam,2030,9th Outlook projections (rebased to 2021 PPP USD),44253.616178097385
+02_BD,Brunei Darussalam,2031,9th Outlook projections (rebased to 2021 PPP USD),44946.92607193792
+02_BD,Brunei Darussalam,2032,9th Outlook projections (rebased to 2021 PPP USD),45696.32883715983
+02_BD,Brunei Darussalam,2033,9th Outlook projections (rebased to 2021 PPP USD),46439.078393109834
+02_BD,Brunei Darussalam,2034,9th Outlook projections (rebased to 2021 PPP USD),47126.00809198518
+02_BD,Brunei Darussalam,2035,9th Outlook projections (rebased to 2021 PPP USD),47760.237485851474
+02_BD,Brunei Darussalam,2036,9th Outlook projections (rebased to 2021 PPP USD),48341.343949124435
+02_BD,Brunei Darussalam,2037,9th Outlook projections (rebased to 2021 PPP USD),48902.2822457625
+02_BD,Brunei Darussalam,2038,9th Outlook projections (rebased to 2021 PPP USD),49446.65420298927
+02_BD,Brunei Darussalam,2039,9th Outlook projections (rebased to 2021 PPP USD),49990.236392548366
+02_BD,Brunei Darussalam,2040,9th Outlook projections (rebased to 2021 PPP USD),50530.913349669056
+02_BD,Brunei Darussalam,2041,9th Outlook projections (rebased to 2021 PPP USD),51069.136856878984
+02_BD,Brunei Darussalam,2042,9th Outlook projections (rebased to 2021 PPP USD),51606.832992417534
+02_BD,Brunei Darussalam,2043,9th Outlook projections (rebased to 2021 PPP USD),52141.5607545705
+02_BD,Brunei Darussalam,2044,9th Outlook projections (rebased to 2021 PPP USD),52674.06682521145
+02_BD,Brunei Darussalam,2045,9th Outlook projections (rebased to 2021 PPP USD),53201.684619353
+02_BD,Brunei Darussalam,2046,9th Outlook projections (rebased to 2021 PPP USD),53724.46266723681
+02_BD,Brunei Darussalam,2047,9th Outlook projections (rebased to 2021 PPP USD),54241.9451542793
+02_BD,Brunei Darussalam,2048,9th Outlook projections (rebased to 2021 PPP USD),54753.73262487921
+02_BD,Brunei Darussalam,2049,9th Outlook projections (rebased to 2021 PPP USD),55260.350924366605
+02_BD,Brunei Darussalam,2050,9th Outlook projections (rebased to 2021 PPP USD),55758.413248351906
+02_BD,Brunei Darussalam,2051,9th Outlook projections (rebased to 2021 PPP USD),56249.91141927249
+02_BD,Brunei Darussalam,2052,9th Outlook projections (rebased to 2021 PPP USD),56732.59731294614
+02_BD,Brunei Darussalam,2053,9th Outlook projections (rebased to 2021 PPP USD),57208.18435420332
+02_BD,Brunei Darussalam,2054,9th Outlook projections (rebased to 2021 PPP USD),57674.81448269313
+02_BD,Brunei Darussalam,2055,9th Outlook projections (rebased to 2021 PPP USD),58133.28459872344
+02_BD,Brunei Darussalam,2056,9th Outlook projections (rebased to 2021 PPP USD),58582.54257552841
+02_BD,Brunei Darussalam,2057,9th Outlook projections (rebased to 2021 PPP USD),59023.36016529473
+02_BD,Brunei Darussalam,2058,9th Outlook projections (rebased to 2021 PPP USD),59455.128061099575
+02_BD,Brunei Darussalam,2059,9th Outlook projections (rebased to 2021 PPP USD),59879.48898824264
+02_BD,Brunei Darussalam,2060,9th Outlook projections (rebased to 2021 PPP USD),60296.209072289574
+02_BD,Brunei Darussalam,2061,9th Outlook projections (rebased to 2021 PPP USD),60705.35618098652
+02_BD,Brunei Darussalam,2062,9th Outlook projections (rebased to 2021 PPP USD),61107.697446183294
+02_BD,Brunei Darussalam,2063,9th Outlook projections (rebased to 2021 PPP USD),61503.37681064079
+02_BD,Brunei Darussalam,2064,9th Outlook projections (rebased to 2021 PPP USD),61891.40803628423
+02_BD,Brunei Darussalam,2065,9th Outlook projections (rebased to 2021 PPP USD),62271.76925678285
+02_BD,Brunei Darussalam,2066,9th Outlook projections (rebased to 2021 PPP USD),62646.177253879134
+02_BD,Brunei Darussalam,2067,9th Outlook projections (rebased to 2021 PPP USD),63011.71366098002
+02_BD,Brunei Darussalam,2068,9th Outlook projections (rebased to 2021 PPP USD),63375.37498086155
+02_BD,Brunei Darussalam,2069,9th Outlook projections (rebased to 2021 PPP USD),63730.61208215948
+02_BD,Brunei Darussalam,2070,9th Outlook projections (rebased to 2021 PPP USD),64082.48237775108
+02_BD,Brunei Darussalam,2071,9th Outlook projections (rebased to 2021 PPP USD),64429.51616991595
+02_BD,Brunei Darussalam,2072,9th Outlook projections (rebased to 2021 PPP USD),64772.56497903965
+02_BD,Brunei Darussalam,2073,9th Outlook projections (rebased to 2021 PPP USD),65111.11643167831
+02_BD,Brunei Darussalam,2074,9th Outlook projections (rebased to 2021 PPP USD),65449.154465482825
+02_BD,Brunei Darussalam,2075,9th Outlook projections (rebased to 2021 PPP USD),65784.70573499142
+02_BD,Brunei Darussalam,2076,9th Outlook projections (rebased to 2021 PPP USD),66119.340910571
+02_BD,Brunei Darussalam,2077,9th Outlook projections (rebased to 2021 PPP USD),66452.25747193933
+02_BD,Brunei Darussalam,2078,9th Outlook projections (rebased to 2021 PPP USD),66784.9397149005
+02_BD,Brunei Darussalam,2079,9th Outlook projections (rebased to 2021 PPP USD),67116.29833377218
+02_BD,Brunei Darussalam,2080,9th Outlook projections (rebased to 2021 PPP USD),67447.94800865072
+02_BD,Brunei Darussalam,2081,9th Outlook projections (rebased to 2021 PPP USD),67779.80986038427
+02_BD,Brunei Darussalam,2082,9th Outlook projections (rebased to 2021 PPP USD),68111.77567620625
+02_BD,Brunei Darussalam,2083,9th Outlook projections (rebased to 2021 PPP USD),68444.45259225833
+02_BD,Brunei Darussalam,2084,9th Outlook projections (rebased to 2021 PPP USD),68778.45480045961
+02_BD,Brunei Darussalam,2085,9th Outlook projections (rebased to 2021 PPP USD),69110.34796784754
+02_BD,Brunei Darussalam,2086,9th Outlook projections (rebased to 2021 PPP USD),69443.8913367581
+02_BD,Brunei Darussalam,2087,9th Outlook projections (rebased to 2021 PPP USD),69778.26798475436
+02_BD,Brunei Darussalam,2088,9th Outlook projections (rebased to 2021 PPP USD),70111.2605008008
+02_BD,Brunei Darussalam,2089,9th Outlook projections (rebased to 2021 PPP USD),70442.52164477968
+02_BD,Brunei Darussalam,2090,9th Outlook projections (rebased to 2021 PPP USD),70774.26447329024
+02_BD,Brunei Darussalam,2091,9th Outlook projections (rebased to 2021 PPP USD),71104.98296637749
+02_BD,Brunei Darussalam,2092,9th Outlook projections (rebased to 2021 PPP USD),71434.11973374679
+02_BD,Brunei Darussalam,2093,9th Outlook projections (rebased to 2021 PPP USD),71763.23825545209
+02_BD,Brunei Darussalam,2094,9th Outlook projections (rebased to 2021 PPP USD),72091.07598518886
+02_BD,Brunei Darussalam,2095,9th Outlook projections (rebased to 2021 PPP USD),72417.77722818081
+02_BD,Brunei Darussalam,2096,9th Outlook projections (rebased to 2021 PPP USD),72745.59613253539
+02_BD,Brunei Darussalam,2097,9th Outlook projections (rebased to 2021 PPP USD),73069.6515495956
+02_BD,Brunei Darussalam,2098,9th Outlook projections (rebased to 2021 PPP USD),73394.20303893577
+02_BD,Brunei Darussalam,2099,9th Outlook projections (rebased to 2021 PPP USD),73718.588179169
+02_BD,Brunei Darussalam,2100,9th Outlook projections (rebased to 2021 PPP USD),74041.78906372312

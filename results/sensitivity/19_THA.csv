@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+19_THA,Thailand,1990,APERC GDP projections,,GDP_low
+19_THA,Thailand,1991,APERC GDP projections,,GDP_low
+19_THA,Thailand,1992,APERC GDP projections,,GDP_low
+19_THA,Thailand,1993,APERC GDP projections,,GDP_low
+19_THA,Thailand,1994,APERC GDP projections,,GDP_low
+19_THA,Thailand,1995,APERC GDP projections,,GDP_low
+19_THA,Thailand,1996,APERC GDP projections,,GDP_low
+19_THA,Thailand,1997,APERC GDP projections,,GDP_low
+19_THA,Thailand,1998,APERC GDP projections,,GDP_low
+19_THA,Thailand,1999,APERC GDP projections,,GDP_low
+19_THA,Thailand,2000,APERC GDP projections,,GDP_low
+19_THA,Thailand,2001,APERC GDP projections,,GDP_low
+19_THA,Thailand,2002,APERC GDP projections,,GDP_low
+19_THA,Thailand,2003,APERC GDP projections,,GDP_low
+19_THA,Thailand,2004,APERC GDP projections,,GDP_low
+19_THA,Thailand,2005,APERC GDP projections,,GDP_low
+19_THA,Thailand,2006,APERC GDP projections,,GDP_low
+19_THA,Thailand,2007,APERC GDP projections,,GDP_low
+19_THA,Thailand,2008,APERC GDP projections,,GDP_low
+19_THA,Thailand,2009,APERC GDP projections,,GDP_low
+19_THA,Thailand,2010,APERC GDP projections,,GDP_low
+19_THA,Thailand,2011,APERC GDP projections,,GDP_low
+19_THA,Thailand,2012,APERC GDP projections,,GDP_low
+19_THA,Thailand,2013,APERC GDP projections,,GDP_low
+19_THA,Thailand,2014,APERC GDP projections,,GDP_low
+19_THA,Thailand,2015,APERC GDP projections,,GDP_low
+19_THA,Thailand,2016,APERC GDP projections,,GDP_low
+19_THA,Thailand,2017,APERC GDP projections,,GDP_low
+19_THA,Thailand,2018,APERC GDP projections,,GDP_low
+19_THA,Thailand,2019,APERC GDP projections,,GDP_low
+19_THA,Thailand,2020,APERC GDP projections,,GDP_low
+19_THA,Thailand,2021,APERC GDP projections,,GDP_low
+19_THA,Thailand,2022,APERC GDP projections,,GDP_low
+19_THA,Thailand,2023,APERC GDP projections,,GDP_low
+19_THA,Thailand,2024,APERC GDP projections,,GDP_low
+19_THA,Thailand,2025,APERC GDP projections,,GDP_low
+19_THA,Thailand,2026,APERC GDP projections,1633782.3235587336,GDP_low
+19_THA,Thailand,2027,APERC GDP projections,1659486.1100920348,GDP_low
+19_THA,Thailand,2028,APERC GDP projections,1682193.268544873,GDP_low
+19_THA,Thailand,2029,APERC GDP projections,1701288.743287691,GDP_low
+19_THA,Thailand,2030,APERC GDP projections,1718658.669021767,GDP_low
+19_THA,Thailand,2031,APERC GDP projections,1748332.876619846,GDP_low
+19_THA,Thailand,2032,APERC GDP projections,1778377.4097783554,GDP_low
+19_THA,Thailand,2033,APERC GDP projections,1808648.6281201004,GDP_low
+19_THA,Thailand,2034,APERC GDP projections,1838870.5247198488,GDP_low
+19_THA,Thailand,2035,APERC GDP projections,1867188.7820387287,GDP_low
+19_THA,Thailand,2036,APERC GDP projections,1894331.3417906596,GDP_low
+19_THA,Thailand,2037,APERC GDP projections,1921619.055161053,GDP_low
+19_THA,Thailand,2038,APERC GDP projections,1949176.5261438563,GDP_low
+19_THA,Thailand,2039,APERC GDP projections,1977381.36131516,GDP_low
+19_THA,Thailand,2040,APERC GDP projections,2006769.4115292416,GDP_low
+19_THA,Thailand,2041,APERC GDP projections,2037550.9742899437,GDP_low
+19_THA,Thailand,2042,APERC GDP projections,2068320.93747611,GDP_low
+19_THA,Thailand,2043,APERC GDP projections,2099212.114480194,GDP_low
+19_THA,Thailand,2044,APERC GDP projections,2130139.42436295,GDP_low
+19_THA,Thailand,2045,APERC GDP projections,2161181.915343432,GDP_low
+19_THA,Thailand,2046,APERC GDP projections,2192401.5681812004,GDP_low
+19_THA,Thailand,2047,APERC GDP projections,2223969.915712047,GDP_low
+19_THA,Thailand,2048,APERC GDP projections,2255947.048103719,GDP_low
+19_THA,Thailand,2049,APERC GDP projections,2287949.120657642,GDP_low
+19_THA,Thailand,2050,APERC GDP projections,2319869.384734844,GDP_low
+19_THA,Thailand,2051,APERC GDP projections,2351830.7337328666,GDP_low
+19_THA,Thailand,2052,APERC GDP projections,2383746.175971773,GDP_low
+19_THA,Thailand,2053,APERC GDP projections,2415554.983428087,GDP_low
+19_THA,Thailand,2054,APERC GDP projections,2447451.356984764,GDP_low
+19_THA,Thailand,2055,APERC GDP projections,2479227.9867414106,GDP_low
+19_THA,Thailand,2056,APERC GDP projections,2511014.4878683216,GDP_low
+19_THA,Thailand,2057,APERC GDP projections,2542719.588134907,GDP_low
+19_THA,Thailand,2058,APERC GDP projections,2574424.6600150447,GDP_low
+19_THA,Thailand,2059,APERC GDP projections,2606151.6335109225,GDP_low
+19_THA,Thailand,2060,APERC GDP projections,2637900.126953287,GDP_low
+19_THA,Thailand,2061,APERC GDP projections,2669589.9797325004,GDP_low
+19_THA,Thailand,2062,APERC GDP projections,2701436.049351653,GDP_low
+19_THA,Thailand,2063,APERC GDP projections,2733238.190375064,GDP_low
+19_THA,Thailand,2064,APERC GDP projections,2765167.4890611824,GDP_low
+19_THA,Thailand,2065,APERC GDP projections,2797152.069272337,GDP_low
+19_THA,Thailand,2066,APERC GDP projections,2829105.414129683,GDP_low
+19_THA,Thailand,2067,APERC GDP projections,2861333.103798089,GDP_low
+19_THA,Thailand,2068,APERC GDP projections,2893561.124947717,GDP_low
+19_THA,Thailand,2069,APERC GDP projections,2925797.28117362,GDP_low
+19_THA,Thailand,2070,APERC GDP projections,2958205.875540759,GDP_low
+19_THA,Thailand,2071,APERC GDP projections,2990641.7253550733,GDP_low
+19_THA,Thailand,2072,APERC GDP projections,3023339.667484358,GDP_low
+19_THA,Thailand,2073,APERC GDP projections,3056123.392709719,GDP_low
+19_THA,Thailand,2074,APERC GDP projections,3089006.1566828764,GDP_low
+19_THA,Thailand,2075,APERC GDP projections,3122002.6395533155,GDP_low
+19_THA,Thailand,2076,APERC GDP projections,3155293.4157666164,GDP_low
+19_THA,Thailand,2077,APERC GDP projections,3188701.576013744,GDP_low
+19_THA,Thailand,2078,APERC GDP projections,3222216.469505911,GDP_low
+19_THA,Thailand,2079,APERC GDP projections,3255834.852780802,GDP_low
+19_THA,Thailand,2080,APERC GDP projections,3289438.5495614843,GDP_low
+19_THA,Thailand,2081,APERC GDP projections,3323240.728655007,GDP_low
+19_THA,Thailand,2082,APERC GDP projections,3357197.2570549576,GDP_low
+19_THA,Thailand,2083,APERC GDP projections,3391051.1309963944,GDP_low
+19_THA,Thailand,2084,APERC GDP projections,3424952.3370719,GDP_low
+19_THA,Thailand,2085,APERC GDP projections,3458762.141243591,GDP_low
+19_THA,Thailand,2086,APERC GDP projections,3492741.391432686,GDP_low
+19_THA,Thailand,2087,APERC GDP projections,3526759.549669891,GDP_low
+19_THA,Thailand,2088,APERC GDP projections,3560781.9199595987,GDP_low
+19_THA,Thailand,2089,APERC GDP projections,3594844.470031961,GDP_low
+19_THA,Thailand,2090,APERC GDP projections,3628517.8020283286,GDP_low
+19_THA,Thailand,2091,APERC GDP projections,3662240.5551703097,GDP_low
+19_THA,Thailand,2092,APERC GDP projections,3695952.141320296,GDP_low
+19_THA,Thailand,2093,APERC GDP projections,3729415.448257026,GDP_low
+19_THA,Thailand,2094,APERC GDP projections,3762908.7287628334,GDP_low
+19_THA,Thailand,2095,APERC GDP projections,3796301.0179299815,GDP_low
+19_THA,Thailand,2096,APERC GDP projections,3829597.3462211513,GDP_low
+19_THA,Thailand,2097,APERC GDP projections,3862868.0835965206,GDP_low
+19_THA,Thailand,2098,APERC GDP projections,3896199.982461292,GDP_low
+19_THA,Thailand,2099,APERC GDP projections,3929510.631389069,GDP_low
+19_THA,Thailand,2100,APERC GDP projections,3962849.224863493,GDP_low
+19_THA,Thailand,1990,APERC GDP projections,,GDP_high
+19_THA,Thailand,1991,APERC GDP projections,,GDP_high
+19_THA,Thailand,1992,APERC GDP projections,,GDP_high
+19_THA,Thailand,1993,APERC GDP projections,,GDP_high
+19_THA,Thailand,1994,APERC GDP projections,,GDP_high
+19_THA,Thailand,1995,APERC GDP projections,,GDP_high
+19_THA,Thailand,1996,APERC GDP projections,,GDP_high
+19_THA,Thailand,1997,APERC GDP projections,,GDP_high
+19_THA,Thailand,1998,APERC GDP projections,,GDP_high
+19_THA,Thailand,1999,APERC GDP projections,,GDP_high
+19_THA,Thailand,2000,APERC GDP projections,,GDP_high
+19_THA,Thailand,2001,APERC GDP projections,,GDP_high
+19_THA,Thailand,2002,APERC GDP projections,,GDP_high
+19_THA,Thailand,2003,APERC GDP projections,,GDP_high
+19_THA,Thailand,2004,APERC GDP projections,,GDP_high
+19_THA,Thailand,2005,APERC GDP projections,,GDP_high
+19_THA,Thailand,2006,APERC GDP projections,,GDP_high
+19_THA,Thailand,2007,APERC GDP projections,,GDP_high
+19_THA,Thailand,2008,APERC GDP projections,,GDP_high
+19_THA,Thailand,2009,APERC GDP projections,,GDP_high
+19_THA,Thailand,2010,APERC GDP projections,,GDP_high
+19_THA,Thailand,2011,APERC GDP projections,,GDP_high
+19_THA,Thailand,2012,APERC GDP projections,,GDP_high
+19_THA,Thailand,2013,APERC GDP projections,,GDP_high
+19_THA,Thailand,2014,APERC GDP projections,,GDP_high
+19_THA,Thailand,2015,APERC GDP projections,,GDP_high
+19_THA,Thailand,2016,APERC GDP projections,,GDP_high
+19_THA,Thailand,2017,APERC GDP projections,,GDP_high
+19_THA,Thailand,2018,APERC GDP projections,,GDP_high
+19_THA,Thailand,2019,APERC GDP projections,,GDP_high
+19_THA,Thailand,2020,APERC GDP projections,,GDP_high
+19_THA,Thailand,2021,APERC GDP projections,,GDP_high
+19_THA,Thailand,2022,APERC GDP projections,,GDP_high
+19_THA,Thailand,2023,APERC GDP projections,,GDP_high
+19_THA,Thailand,2024,APERC GDP projections,,GDP_high
+19_THA,Thailand,2025,APERC GDP projections,,GDP_high
+19_THA,Thailand,2026,APERC GDP projections,1636709.4218986654,GDP_high
+19_THA,Thailand,2027,APERC GDP projections,1665381.1950467154,GDP_high
+19_THA,Thailand,2028,APERC GDP projections,1691077.2182640478,GDP_high
+19_THA,Thailand,2029,APERC GDP projections,1713158.2962940997,GDP_high
+19_THA,Thailand,2030,APERC GDP projections,1735534.7867474782,GDP_high
+19_THA,Thailand,2031,APERC GDP projections,1770407.5374345402,GDP_high
+19_THA,Thailand,2032,APERC GDP projections,1805808.9546366583,GDP_high
+19_THA,Thailand,2033,APERC GDP projections,1841479.855458401,GDP_high
+19_THA,Thailand,2034,APERC GDP projections,1877182.330364505,GDP_high
+19_THA,Thailand,2035,APERC GDP projections,1912446.6207761995,GDP_high
+19_THA,Thailand,2036,APERC GDP projections,1946987.2824799763,GDP_high
+19_THA,Thailand,2037,APERC GDP projections,1981837.772937756,GDP_high
+19_THA,Thailand,2038,APERC GDP projections,2017135.918730588,GDP_high
+19_THA,Thailand,2039,APERC GDP projections,2053283.837032945,GDP_high
+19_THA,Thailand,2040,APERC GDP projections,2090854.262272208,GDP_high
+19_THA,Thailand,2041,APERC GDP projections,2130094.2372298944,GDP_high
+19_THA,Thailand,2042,APERC GDP projections,2169571.97490336,GDP_high
+19_THA,Thailand,2043,APERC GDP projections,2209427.1503789527,GDP_high
+19_THA,Thailand,2044,APERC GDP projections,2249610.484451113,GDP_high
+19_THA,Thailand,2045,APERC GDP projections,2290231.269614688,GDP_high
+19_THA,Thailand,2046,APERC GDP projections,2331406.124324343,GDP_high
+19_THA,Thailand,2047,APERC GDP projections,2373316.398466495,GDP_high
+19_THA,Thailand,2048,APERC GDP projections,2416063.806609429,GDP_high
+19_THA,Thailand,2049,APERC GDP projections,2459685.6400934155,GDP_high
+19_THA,Thailand,2050,APERC GDP projections,2504110.035750295,GDP_high
+19_THA,Thailand,2051,APERC GDP projections,2549416.722833134,GDP_high
+19_THA,Thailand,2052,APERC GDP projections,2595452.8604870792,GDP_high
+19_THA,Thailand,2053,APERC GDP projections,2642031.3087347075,GDP_high
+19_THA,Thailand,2054,APERC GDP projections,2689377.3383533824,GDP_high
+19_THA,Thailand,2055,APERC GDP projections,2737348.9175817776,GDP_high
+19_THA,Thailand,2056,APERC GDP projections,2786117.25885234,GDP_high
+19_THA,Thailand,2057,APERC GDP projections,2835637.8747213027,GDP_high
+19_THA,Thailand,2058,APERC GDP projections,2886046.6077166465,GDP_high
+19_THA,Thailand,2059,APERC GDP projections,2937421.7079121093,GDP_high
+19_THA,Thailand,2060,APERC GDP projections,2989831.505123338,GDP_high
+19_THA,Thailand,2061,APERC GDP projections,3043250.6046985057,GDP_high
+19_THA,Thailand,2062,APERC GDP projections,3097909.6449075597,GDP_high
+19_THA,Thailand,2063,APERC GDP projections,3153669.864354481,GDP_high
+19_THA,Thailand,2064,APERC GDP projections,3210718.62788292,GDP_high
+19_THA,Thailand,2065,APERC GDP projections,3268995.093017867,GDP_high
+19_THA,Thailand,2066,APERC GDP projections,3328424.360632865,GDP_high
+19_THA,Thailand,2067,APERC GDP projections,3389282.384988204,GDP_high
+19_THA,Thailand,2068,APERC GDP projections,3451334.240191292,GDP_high
+19_THA,Thailand,2069,APERC GDP projections,3514591.6529947645,GDP_high
+19_THA,Thailand,2070,APERC GDP projections,3579201.573189622,GDP_high
+19_THA,Thailand,2071,APERC GDP projections,3645049.704280308,GDP_high
+19_THA,Thailand,2072,APERC GDP projections,3712330.880880447,GDP_high
+19_THA,Thailand,2073,APERC GDP projections,3780918.012926837,GDP_high
+19_THA,Thailand,2074,APERC GDP projections,3850825.081808785,GDP_high
+19_THA,Thailand,2075,APERC GDP projections,3922068.231252915,GDP_high
+19_THA,Thailand,2076,APERC GDP projections,3994825.352426557,GDP_high
+19_THA,Thailand,2077,APERC GDP projections,4068974.807181059,GDP_high
+19_THA,Thailand,2078,APERC GDP projections,4144550.5379632055,GDP_high
+19_THA,Thailand,2079,APERC GDP projections,4221583.007025785,GDP_high
+19_THA,Thailand,2080,APERC GDP projections,4300029.7452460965,GDP_high
+19_THA,Thailand,2081,APERC GDP projections,4380139.543834497,GDP_high
+19_THA,Thailand,2082,APERC GDP projections,4461926.929043045,GDP_high
+19_THA,Thailand,2083,APERC GDP projections,4545223.295986519,GDP_high
+19_THA,Thailand,2084,APERC GDP projections,4630217.200060125,GDP_high
+19_THA,Thailand,2085,APERC GDP projections,4716895.724017404,GDP_high
+19_THA,Thailand,2086,APERC GDP projections,4805531.739303798,GDP_high
+19_THA,Thailand,2087,APERC GDP projections,4896086.367536303,GDP_high
+19_THA,Thailand,2088,APERC GDP projections,4988605.304647497,GDP_high
+19_THA,Thailand,2089,APERC GDP projections,5083201.44579628,GDP_high
+19_THA,Thailand,2090,APERC GDP projections,5179580.978875658,GDP_high
+19_THA,Thailand,2091,APERC GDP projections,5278173.533576933,GDP_high
+19_THA,Thailand,2092,APERC GDP projections,5379005.576725384,GDP_high
+19_THA,Thailand,2093,APERC GDP projections,5481946.974763806,GDP_high
+19_THA,Thailand,2094,APERC GDP projections,5587288.547162342,GDP_high
+19_THA,Thailand,2095,APERC GDP projections,5694993.983083,GDP_high
+19_THA,Thailand,2096,APERC GDP projections,5805154.811834796,GDP_high
+19_THA,Thailand,2097,APERC GDP projections,5917805.772423281,GDP_high
+19_THA,Thailand,2098,APERC GDP projections,6033077.973071302,GDP_high
+19_THA,Thailand,2099,APERC GDP projections,6150930.697078836,GDP_high
+19_THA,Thailand,2100,APERC GDP projections,6271447.766726989,GDP_high
+19_THA,Thailand,1990,WDI GDP through 2025,476382.17939490697,GDP_med
+19_THA,Thailand,1991,WDI GDP through 2025,517152.206431531,GDP_med
+19_THA,Thailand,1992,WDI GDP through 2025,558955.6259492419,GDP_med
+19_THA,Thailand,1993,WDI GDP through 2025,605080.174206112,GDP_med
+19_THA,Thailand,1994,WDI GDP through 2025,653468.584993737,GDP_med
+19_THA,Thailand,1995,WDI GDP through 2025,706532.294783931,GDP_med
+19_THA,Thailand,1996,WDI GDP through 2025,746465.107712372,GDP_med
+19_THA,Thailand,1997,WDI GDP through 2025,725910.6299795379,GDP_med
+19_THA,Thailand,1998,WDI GDP through 2025,670494.356342068,GDP_med
+19_THA,Thailand,1999,WDI GDP through 2025,701151.421768156,GDP_med
+19_THA,Thailand,2000,WDI GDP through 2025,732389.449755889,GDP_med
+19_THA,Thailand,2001,WDI GDP through 2025,757614.7661261341,GDP_med
+19_THA,Thailand,2002,WDI GDP through 2025,804200.771231266,GDP_med
+19_THA,Thailand,2003,WDI GDP through 2025,862016.721322979,GDP_med
+19_THA,Thailand,2004,WDI GDP through 2025,916231.902255627,GDP_med
+19_THA,Thailand,2005,WDI GDP through 2025,954600.381491807,GDP_med
+19_THA,Thailand,2006,WDI GDP through 2025,1002023.12322303,GDP_med
+19_THA,Thailand,2007,WDI GDP through 2025,1056484.59994417,GDP_med
+19_THA,Thailand,2008,WDI GDP through 2025,1074716.34252171,GDP_med
+19_THA,Thailand,2009,WDI GDP through 2025,1067294.15551474,GDP_med
+19_THA,Thailand,2010,WDI GDP through 2025,1147484.13355035,GDP_med
+19_THA,Thailand,2011,WDI GDP through 2025,1157124.51590426,GDP_med
+19_THA,Thailand,2012,WDI GDP through 2025,1240932.6864003302,GDP_med
+19_THA,Thailand,2013,WDI GDP through 2025,1274282.6972897,GDP_med
+19_THA,Thailand,2014,WDI GDP through 2025,1286827.61367901,GDP_med
+19_THA,Thailand,2015,WDI GDP through 2025,1327157.3991063898,GDP_med
+19_THA,Thailand,2016,WDI GDP through 2025,1372747.34891749,GDP_med
+19_THA,Thailand,2017,WDI GDP through 2025,1430096.3545318702,GDP_med
+19_THA,Thailand,2018,WDI GDP through 2025,1490487.46856946,GDP_med
+19_THA,Thailand,2019,WDI GDP through 2025,1522004.68753871,GDP_med
+19_THA,Thailand,2020,WDI GDP through 2025,1429267.98109045,GDP_med
+19_THA,Thailand,2021,WDI GDP through 2025,1451544.29916013,GDP_med
+19_THA,Thailand,2022,WDI GDP through 2025,1489833.74630119,GDP_med
+19_THA,Thailand,2023,WDI GDP through 2025,1523337.63978847,GDP_med
+19_THA,Thailand,2024,WDI GDP through 2025,1568254.77139299,GDP_med
+19_THA,Thailand,2025,WDI GDP through 2025,1606558.99349363,GDP_med
+19_THA,Thailand,2026,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2027,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2028,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2029,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2030,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2031,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2032,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2033,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2034,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2035,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2036,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2037,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2038,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2039,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2040,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2041,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2042,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2043,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2044,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2045,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2046,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2047,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2048,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2049,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2050,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2051,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2052,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2053,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2054,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2055,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2056,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2057,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2058,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2059,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2060,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2061,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2062,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2063,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2064,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2065,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2066,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2067,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2068,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2069,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2070,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2071,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2072,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2073,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2074,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2075,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2076,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2077,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2078,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2079,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2080,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2081,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2082,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2083,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2084,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2085,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2086,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2087,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2088,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2089,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2090,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2091,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2092,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2093,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2094,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2095,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2096,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2097,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2098,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2099,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,2100,WDI GDP through 2025,,GDP_med
+19_THA,Thailand,1990,APERC GDP projections,,GDP_med
+19_THA,Thailand,1991,APERC GDP projections,,GDP_med
+19_THA,Thailand,1992,APERC GDP projections,,GDP_med
+19_THA,Thailand,1993,APERC GDP projections,,GDP_med
+19_THA,Thailand,1994,APERC GDP projections,,GDP_med
+19_THA,Thailand,1995,APERC GDP projections,,GDP_med
+19_THA,Thailand,1996,APERC GDP projections,,GDP_med
+19_THA,Thailand,1997,APERC GDP projections,,GDP_med
+19_THA,Thailand,1998,APERC GDP projections,,GDP_med
+19_THA,Thailand,1999,APERC GDP projections,,GDP_med
+19_THA,Thailand,2000,APERC GDP projections,,GDP_med
+19_THA,Thailand,2001,APERC GDP projections,,GDP_med
+19_THA,Thailand,2002,APERC GDP projections,,GDP_med
+19_THA,Thailand,2003,APERC GDP projections,,GDP_med
+19_THA,Thailand,2004,APERC GDP projections,,GDP_med
+19_THA,Thailand,2005,APERC GDP projections,,GDP_med
+19_THA,Thailand,2006,APERC GDP projections,,GDP_med
+19_THA,Thailand,2007,APERC GDP projections,,GDP_med
+19_THA,Thailand,2008,APERC GDP projections,,GDP_med
+19_THA,Thailand,2009,APERC GDP projections,,GDP_med
+19_THA,Thailand,2010,APERC GDP projections,,GDP_med
+19_THA,Thailand,2011,APERC GDP projections,,GDP_med
+19_THA,Thailand,2012,APERC GDP projections,,GDP_med
+19_THA,Thailand,2013,APERC GDP projections,,GDP_med
+19_THA,Thailand,2014,APERC GDP projections,,GDP_med
+19_THA,Thailand,2015,APERC GDP projections,,GDP_med
+19_THA,Thailand,2016,APERC GDP projections,,GDP_med
+19_THA,Thailand,2017,APERC GDP projections,,GDP_med
+19_THA,Thailand,2018,APERC GDP projections,,GDP_med
+19_THA,Thailand,2019,APERC GDP projections,,GDP_med
+19_THA,Thailand,2020,APERC GDP projections,,GDP_med
+19_THA,Thailand,2021,APERC GDP projections,,GDP_med
+19_THA,Thailand,2022,APERC GDP projections,,GDP_med
+19_THA,Thailand,2023,APERC GDP projections,,GDP_med
+19_THA,Thailand,2024,APERC GDP projections,,GDP_med
+19_THA,Thailand,2025,APERC GDP projections,,GDP_med
+19_THA,Thailand,2026,APERC GDP projections,1635249.0431755497,GDP_med
+19_THA,Thailand,2027,APERC GDP projections,1662441.495464102,GDP_med
+19_THA,Thailand,2028,APERC GDP projections,1686649.3042395352,GDP_med
+19_THA,Thailand,2029,APERC GDP projections,1707245.4030304374,GDP_med
+19_THA,Thailand,2030,APERC GDP projections,1727129.4987051543,GDP_med
+19_THA,Thailand,2031,APERC GDP projections,1759420.2959754632,GDP_med
+19_THA,Thailand,2032,APERC GDP projections,1792166.4777468627,GDP_med
+19_THA,Thailand,2033,APERC GDP projections,1825166.3663646048,GDP_med
+19_THA,Thailand,2034,APERC GDP projections,1858162.6365345807,GDP_med
+19_THA,Thailand,2035,APERC GDP projections,1889999.3406078971,GDP_med
+19_THA,Thailand,2036,APERC GDP projections,1920894.2566450413,GDP_med
+19_THA,Thailand,2037,APERC GDP projections,1952024.410068832,GDP_med
+19_THA,Thailand,2038,APERC GDP projections,1983520.8766235977,GDP_med
+19_THA,Thailand,2039,APERC GDP projections,2015773.7631414,GDP_med
+19_THA,Thailand,2040,APERC GDP projections,2049336.9180152584,GDP_med
+19_THA,Thailand,2041,APERC GDP projections,2084438.40659234,GDP_med
+19_THA,Thailand,2042,APERC GDP projections,2119658.1095267576,GDP_med
+19_THA,Thailand,2043,APERC GDP projections,2155130.027432597,GDP_med
+19_THA,Thailand,2044,APERC GDP projections,2190784.0647518816,GDP_med
+19_THA,Thailand,2045,APERC GDP projections,2226711.536394814,GDP_med
+19_THA,Thailand,2046,APERC GDP projections,2262997.737580425,GDP_med
+19_THA,Thailand,2047,APERC GDP projections,2299815.7803776483,GDP_med
+19_THA,Thailand,2048,APERC GDP projections,2337241.735006272,GDP_med
+19_THA,Thailand,2049,APERC GDP projections,2375287.2739144904,GDP_med
+19_THA,Thailand,2050,APERC GDP projections,2413855.178375409,GDP_med
+19_THA,Thailand,2051,APERC GDP projections,2452717.930244705,GDP_med
+19_THA,Thailand,2052,APERC GDP projections,2491807.235885666,GDP_med
+19_THA,Thailand,2053,APERC GDP projections,2531080.860197114,GDP_med
+19_THA,Thailand,2054,APERC GDP projections,2570743.954625007,GDP_med
+19_THA,Thailand,2055,APERC GDP projections,2610617.444471579,GDP_med
+19_THA,Thailand,2056,APERC GDP projections,2650848.0521297264,GDP_med
+19_THA,Thailand,2057,APERC GDP projections,2691363.1401088904,GDP_med
+19_THA,Thailand,2058,APERC GDP projections,2732267.76775769,GDP_med
+19_THA,Thailand,2059,APERC GDP projections,2773607.000609355,GDP_med
+19_THA,Thailand,2060,APERC GDP projections,2815410.180495015,GDP_med
+19_THA,Thailand,2061,APERC GDP projections,2857622.481529337,GDP_med
+19_THA,Thailand,2062,APERC GDP projections,2900465.868890688,GDP_med
+19_THA,Thailand,2063,APERC GDP projections,2943771.3140250584,GDP_med
+19_THA,Thailand,2064,APERC GDP projections,2987719.087798635,GDP_med
+19_THA,Thailand,2065,APERC GDP projections,3032245.796921767,GDP_med
+19_THA,Thailand,2066,APERC GDP projections,3077275.3814503527,GDP_med
+19_THA,Thailand,2067,APERC GDP projections,3123102.0932481643,GDP_med
+19_THA,Thailand,2068,APERC GDP projections,3169476.225053138,GDP_med
+19_THA,Thailand,2069,APERC GDP projections,3216410.1981432326,GDP_med
+19_THA,Thailand,2070,APERC GDP projections,3264063.363715882,GDP_med
+19_THA,Thailand,2071,APERC GDP projections,3312308.935201611,GDP_med
+19_THA,Thailand,2072,APERC GDP projections,3361363.1491242945,GDP_med
+19_THA,Thailand,2073,APERC GDP projections,3411075.769222149,GDP_med
+19_THA,Thailand,2074,APERC GDP projections,3461460.033894636,GDP_med
+19_THA,Thailand,2075,APERC GDP projections,3512530.5925921067,GDP_med
+19_THA,Thailand,2076,APERC GDP projections,3564465.4431166323,GDP_med
+19_THA,Thailand,2077,APERC GDP projections,3617112.03713928,GDP_med
+19_THA,Thailand,2078,APERC GDP projections,3670478.019806572,GDP_med
+19_THA,Thailand,2079,APERC GDP projections,3724570.689627673,GDP_med
+19_THA,Thailand,2080,APERC GDP projections,3779303.0116186175,GDP_med
+19_THA,Thailand,2081,APERC GDP projections,3834899.335894032,GDP_med
+19_THA,Thailand,2082,APERC GDP projections,3891334.7751825466,GDP_med
+19_THA,Thailand,2083,APERC GDP projections,3948388.0232820935,GDP_med
+19_THA,Thailand,2084,APERC GDP projections,4006218.645326945,GDP_med
+19_THA,Thailand,2085,APERC GDP projections,4064742.086173892,GDP_med
+19_THA,Thailand,2086,APERC GDP projections,4124214.396492352,GDP_med
+19_THA,Thailand,2087,APERC GDP projections,4184542.608336779,GDP_med
+19_THA,Thailand,2088,APERC GDP projections,4245725.690845143,GDP_med
+19_THA,Thailand,2089,APERC GDP projections,4307828.773128589,GDP_med
+19_THA,Thailand,2090,APERC GDP projections,4370487.765459072,GDP_med
+19_THA,Thailand,2091,APERC GDP projections,4434127.122225946,GDP_med
+19_THA,Thailand,2092,APERC GDP projections,4498724.867755917,GDP_med
+19_THA,Thailand,2093,APERC GDP projections,4564096.876470255,GDP_med
+19_THA,Thailand,2094,APERC GDP projections,4630521.642294202,GDP_med
+19_THA,Thailand,2095,APERC GDP projections,4697913.810849583,GDP_med
+19_THA,Thailand,2096,APERC GDP projections,4766321.677558187,GDP_med
+19_THA,Thailand,2097,APERC GDP projections,4835797.089174852,GDP_med
+19_THA,Thailand,2098,APERC GDP projections,4906447.32752999,GDP_med
+19_THA,Thailand,2099,APERC GDP projections,4978215.011205483,GDP_med
+19_THA,Thailand,2100,APERC GDP projections,5051165.77364268,GDP_med

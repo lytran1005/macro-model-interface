@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+06_HKC,"Hong Kong, China",1990,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",1991,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",1992,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",1993,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",1994,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",1995,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",1996,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",1997,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",1998,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",1999,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2000,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2001,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2002,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2003,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2004,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2005,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2006,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2007,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2008,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2009,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2010,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2011,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2012,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2013,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2014,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2015,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2016,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2017,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2018,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2019,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2020,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2021,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2022,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2023,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2024,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2025,APERC GDP projections,,GDP_low
+06_HKC,"Hong Kong, China",2026,APERC GDP projections,525570.1140822719,GDP_low
+06_HKC,"Hong Kong, China",2027,APERC GDP projections,534057.2532001373,GDP_low
+06_HKC,"Hong Kong, China",2028,APERC GDP projections,542188.6392261107,GDP_low
+06_HKC,"Hong Kong, China",2029,APERC GDP projections,547925.0450632472,GDP_low
+06_HKC,"Hong Kong, China",2030,APERC GDP projections,555348.7567201687,GDP_low
+06_HKC,"Hong Kong, China",2031,APERC GDP projections,564951.7238120936,GDP_low
+06_HKC,"Hong Kong, China",2032,APERC GDP projections,574190.6148604217,GDP_low
+06_HKC,"Hong Kong, China",2033,APERC GDP projections,583679.9753196586,GDP_low
+06_HKC,"Hong Kong, China",2034,APERC GDP projections,591810.3138956748,GDP_low
+06_HKC,"Hong Kong, China",2035,APERC GDP projections,599583.6288092673,GDP_low
+06_HKC,"Hong Kong, China",2036,APERC GDP projections,605426.6191167453,GDP_low
+06_HKC,"Hong Kong, China",2037,APERC GDP projections,611822.0768173408,GDP_low
+06_HKC,"Hong Kong, China",2038,APERC GDP projections,619363.2284480279,GDP_low
+06_HKC,"Hong Kong, China",2039,APERC GDP projections,624164.5107844129,GDP_low
+06_HKC,"Hong Kong, China",2040,APERC GDP projections,631009.3092185359,GDP_low
+06_HKC,"Hong Kong, China",2041,APERC GDP projections,635921.2541310127,GDP_low
+06_HKC,"Hong Kong, China",2042,APERC GDP projections,640345.2914204047,GDP_low
+06_HKC,"Hong Kong, China",2043,APERC GDP projections,643711.6868870568,GDP_low
+06_HKC,"Hong Kong, China",2044,APERC GDP projections,647930.749138226,GDP_low
+06_HKC,"Hong Kong, China",2045,APERC GDP projections,651574.031789571,GDP_low
+06_HKC,"Hong Kong, China",2046,APERC GDP projections,654571.3679951514,GDP_low
+06_HKC,"Hong Kong, China",2047,APERC GDP projections,657139.4653081793,GDP_low
+06_HKC,"Hong Kong, China",2048,APERC GDP projections,657831.6129356687,GDP_low
+06_HKC,"Hong Kong, China",2049,APERC GDP projections,659764.0208575177,GDP_low
+06_HKC,"Hong Kong, China",2050,APERC GDP projections,660731.243334422,GDP_low
+06_HKC,"Hong Kong, China",2051,APERC GDP projections,661937.6847789907,GDP_low
+06_HKC,"Hong Kong, China",2052,APERC GDP projections,662258.380409904,GDP_low
+06_HKC,"Hong Kong, China",2053,APERC GDP projections,662617.1366716102,GDP_low
+06_HKC,"Hong Kong, China",2054,APERC GDP projections,662954.8625788265,GDP_low
+06_HKC,"Hong Kong, China",2055,APERC GDP projections,663027.030933053,GDP_low
+06_HKC,"Hong Kong, China",2056,APERC GDP projections,662549.0164500044,GDP_low
+06_HKC,"Hong Kong, China",2057,APERC GDP projections,661605.623712132,GDP_low
+06_HKC,"Hong Kong, China",2058,APERC GDP projections,660301.788457998,GDP_low
+06_HKC,"Hong Kong, China",2059,APERC GDP projections,658631.3298595754,GDP_low
+06_HKC,"Hong Kong, China",2060,APERC GDP projections,657129.5256550121,GDP_low
+06_HKC,"Hong Kong, China",2061,APERC GDP projections,655374.965133624,GDP_low
+06_HKC,"Hong Kong, China",2062,APERC GDP projections,653151.7998888537,GDP_low
+06_HKC,"Hong Kong, China",2063,APERC GDP projections,651787.3682584182,GDP_low
+06_HKC,"Hong Kong, China",2064,APERC GDP projections,650276.3476344276,GDP_low
+06_HKC,"Hong Kong, China",2065,APERC GDP projections,647655.0681493767,GDP_low
+06_HKC,"Hong Kong, China",2066,APERC GDP projections,644685.9631474019,GDP_low
+06_HKC,"Hong Kong, China",2067,APERC GDP projections,641700.8938675128,GDP_low
+06_HKC,"Hong Kong, China",2068,APERC GDP projections,638074.8862536097,GDP_low
+06_HKC,"Hong Kong, China",2069,APERC GDP projections,634520.9745434604,GDP_low
+06_HKC,"Hong Kong, China",2070,APERC GDP projections,631189.2848749772,GDP_low
+06_HKC,"Hong Kong, China",2071,APERC GDP projections,627050.313393649,GDP_low
+06_HKC,"Hong Kong, China",2072,APERC GDP projections,623037.2585071028,GDP_low
+06_HKC,"Hong Kong, China",2073,APERC GDP projections,618367.7953259017,GDP_low
+06_HKC,"Hong Kong, China",2074,APERC GDP projections,613352.7589544638,GDP_low
+06_HKC,"Hong Kong, China",2075,APERC GDP projections,608278.6450055126,GDP_low
+06_HKC,"Hong Kong, China",2076,APERC GDP projections,602896.7944607459,GDP_low
+06_HKC,"Hong Kong, China",2077,APERC GDP projections,597391.6494076047,GDP_low
+06_HKC,"Hong Kong, China",2078,APERC GDP projections,590618.352953993,GDP_low
+06_HKC,"Hong Kong, China",2079,APERC GDP projections,585407.9146112783,GDP_low
+06_HKC,"Hong Kong, China",2080,APERC GDP projections,579302.6527221043,GDP_low
+06_HKC,"Hong Kong, China",2081,APERC GDP projections,573109.8574657395,GDP_low
+06_HKC,"Hong Kong, China",2082,APERC GDP projections,567475.3990868531,GDP_low
+06_HKC,"Hong Kong, China",2083,APERC GDP projections,561633.7697915552,GDP_low
+06_HKC,"Hong Kong, China",2084,APERC GDP projections,554958.4899351054,GDP_low
+06_HKC,"Hong Kong, China",2085,APERC GDP projections,547532.095274022,GDP_low
+06_HKC,"Hong Kong, China",2086,APERC GDP projections,539932.4999242827,GDP_low
+06_HKC,"Hong Kong, China",2087,APERC GDP projections,532556.2938072904,GDP_low
+06_HKC,"Hong Kong, China",2088,APERC GDP projections,525176.8512282921,GDP_low
+06_HKC,"Hong Kong, China",2089,APERC GDP projections,518311.86990777205,GDP_low
+06_HKC,"Hong Kong, China",2090,APERC GDP projections,510870.5042894754,GDP_low
+06_HKC,"Hong Kong, China",2091,APERC GDP projections,503431.6614142316,GDP_low
+06_HKC,"Hong Kong, China",2092,APERC GDP projections,496313.0264629168,GDP_low
+06_HKC,"Hong Kong, China",2093,APERC GDP projections,489801.7508897618,GDP_low
+06_HKC,"Hong Kong, China",2094,APERC GDP projections,482814.4480411669,GDP_low
+06_HKC,"Hong Kong, China",2095,APERC GDP projections,475069.3884587038,GDP_low
+06_HKC,"Hong Kong, China",2096,APERC GDP projections,467859.3148431746,GDP_low
+06_HKC,"Hong Kong, China",2097,APERC GDP projections,460731.9529975496,GDP_low
+06_HKC,"Hong Kong, China",2098,APERC GDP projections,453396.7525468253,GDP_low
+06_HKC,"Hong Kong, China",2099,APERC GDP projections,446836.0931339741,GDP_low
+06_HKC,"Hong Kong, China",2100,APERC GDP projections,439646.1700185615,GDP_low
+06_HKC,"Hong Kong, China",1990,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",1991,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",1992,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",1993,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",1994,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",1995,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",1996,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",1997,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",1998,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",1999,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2000,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2001,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2002,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2003,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2004,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2005,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2006,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2007,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2008,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2009,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2010,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2011,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2012,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2013,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2014,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2015,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2016,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2017,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2018,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2019,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2020,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2021,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2022,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2023,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2024,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2025,APERC GDP projections,,GDP_high
+06_HKC,"Hong Kong, China",2026,APERC GDP projections,526578.7562995004,GDP_high
+06_HKC,"Hong Kong, China",2027,APERC GDP projections,536069.7246238346,GDP_high
+06_HKC,"Hong Kong, China",2028,APERC GDP projections,545165.1704215216,GDP_high
+06_HKC,"Hong Kong, China",2029,APERC GDP projections,551842.2224290883,GDP_high
+06_HKC,"Hong Kong, China",2030,APERC GDP projections,560767.5313828357,GDP_high
+06_HKC,"Hong Kong, China",2031,APERC GDP projections,571856.6564478839,GDP_high
+06_HKC,"Hong Kong, China",2032,APERC GDP projections,582558.2580456682,GDP_high
+06_HKC,"Hong Kong, China",2033,APERC GDP projections,593428.2310796342,GDP_high
+06_HKC,"Hong Kong, China",2034,APERC GDP projections,602867.1428489422,GDP_high
+06_HKC,"Hong Kong, China",2035,APERC GDP projections,612204.370400893,GDP_high
+06_HKC,"Hong Kong, China",2036,APERC GDP projections,619630.301873852,GDP_high
+06_HKC,"Hong Kong, China",2037,APERC GDP projections,627557.57177868,GDP_high
+06_HKC,"Hong Kong, China",2038,APERC GDP projections,636576.3685352217,GDP_high
+06_HKC,"Hong Kong, China",2039,APERC GDP projections,643548.2471342026,GDP_high
+06_HKC,"Hong Kong, China",2040,APERC GDP projections,651984.0122066138,GDP_high
+06_HKC,"Hong Kong, China",2041,APERC GDP projections,658589.2181224904,GDP_high
+06_HKC,"Hong Kong, China",2042,APERC GDP projections,664943.3396070345,GDP_high
+06_HKC,"Hong Kong, China",2043,APERC GDP projections,670528.6378309426,GDP_high
+06_HKC,"Hong Kong, China",2044,APERC GDP projections,676962.9423025777,GDP_high
+06_HKC,"Hong Kong, China",2045,APERC GDP projections,682889.0693060678,GDP_high
+06_HKC,"Hong Kong, China",2046,APERC GDP projections,688238.0757723609,GDP_high
+06_HKC,"Hong Kong, China",2047,APERC GDP projections,693212.2207362072,GDP_high
+06_HKC,"Hong Kong, China",2048,APERC GDP projections,696425.4185911691,GDP_high
+06_HKC,"Hong Kong, China",2049,APERC GDP projections,700825.8518412147,GDP_high
+06_HKC,"Hong Kong, China",2050,APERC GDP projections,704328.2622238494,GDP_high
+06_HKC,"Hong Kong, China",2051,APERC GDP projections,708070.1187965787,GDP_high
+06_HKC,"Hong Kong, China",2052,APERC GDP projections,710997.7547548173,GDP_high
+06_HKC,"Hong Kong, China",2053,APERC GDP projections,713986.5978856034,GDP_high
+06_HKC,"Hong Kong, China",2054,APERC GDP projections,716997.2392461612,GDP_high
+06_HKC,"Hong Kong, China",2055,APERC GDP projections,719815.7035423415,GDP_high
+06_HKC,"Hong Kong, China",2056,APERC GDP projections,722190.796131638,GDP_high
+06_HKC,"Hong Kong, China",2057,APERC GDP projections,724212.5314236096,GDP_high
+06_HKC,"Hong Kong, China",2058,APERC GDP projections,725990.1782624411,GDP_high
+06_HKC,"Hong Kong, China",2059,APERC GDP projections,727525.2216494167,GDP_high
+06_HKC,"Hong Kong, China",2060,APERC GDP projections,729321.4418473793,GDP_high
+06_HKC,"Hong Kong, China",2061,APERC GDP projections,730990.6909858378,GDP_high
+06_HKC,"Hong Kong, China",2062,APERC GDP projections,732332.6976320028,GDP_high
+06_HKC,"Hong Kong, China",2063,APERC GDP projections,734563.4309033413,GDP_high
+06_HKC,"Hong Kong, China",2064,APERC GDP projections,736759.8753373942,GDP_high
+06_HKC,"Hong Kong, China",2065,APERC GDP projections,738033.6977626287,GDP_high
+06_HKC,"Hong Kong, China",2066,APERC GDP projections,739072.7366035924,GDP_high
+06_HKC,"Hong Kong, China",2067,APERC GDP projections,740170.8959432294,GDP_high
+06_HKC,"Hong Kong, China",2068,APERC GDP projections,740753.8926622944,GDP_high
+06_HKC,"Hong Kong, China",2069,APERC GDP projections,741462.2966462427,GDP_high
+06_HKC,"Hong Kong, China",2070,APERC GDP projections,742427.4396298671,GDP_high
+06_HKC,"Hong Kong, China",2071,APERC GDP projections,742733.2004283473,GDP_high
+06_HKC,"Hong Kong, China",2072,APERC GDP projections,743206.1008930925,GDP_high
+06_HKC,"Hong Kong, China",2073,APERC GDP projections,743163.9354628884,GDP_high
+06_HKC,"Hong Kong, China",2074,APERC GDP projections,742883.3473860522,GDP_high
+06_HKC,"Hong Kong, China",2075,APERC GDP projections,742619.4552030192,GDP_high
+06_HKC,"Hong Kong, China",2076,APERC GDP projections,742165.4635706121,GDP_high
+06_HKC,"Hong Kong, China",2077,APERC GDP projections,741683.0839026874,GDP_high
+06_HKC,"Hong Kong, China",2078,APERC GDP projections,740184.7249797784,GDP_high
+06_HKC,"Hong Kong, China",2079,APERC GDP projections,740114.4640066583,GDP_high
+06_HKC,"Hong Kong, China",2080,APERC GDP projections,739366.9327465364,GDP_high
+06_HKC,"Hong Kong, China",2081,APERC GDP projections,738638.1963377374,GDP_high
+06_HKC,"Hong Kong, China",2082,APERC GDP projections,738473.3926894219,GDP_high
+06_HKC,"Hong Kong, China",2083,APERC GDP projections,738238.3222074955,GDP_high
+06_HKC,"Hong Kong, China",2084,APERC GDP projections,737409.1229069557,GDP_high
+06_HKC,"Hong Kong, China",2085,APERC GDP projections,736067.0259330157,GDP_high
+06_HKC,"Hong Kong, China",2086,APERC GDP projections,734691.0266967606,GDP_high
+06_HKC,"Hong Kong, China",2087,APERC GDP projections,733525.0428585169,GDP_high
+06_HKC,"Hong Kong, China",2088,APERC GDP projections,732445.6672208076,GDP_high
+06_HKC,"Hong Kong, China",2089,APERC GDP projections,731938.6841819715,GDP_high
+06_HKC,"Hong Kong, China",2090,APERC GDP projections,731049.006873393,GDP_high
+06_HKC,"Hong Kong, China",2091,APERC GDP projections,730295.0458228744,GDP_high
+06_HKC,"Hong Kong, China",2092,APERC GDP projections,729957.1869988643,GDP_high
+06_HKC,"Hong Kong, China",2093,APERC GDP projections,730291.7569856291,GDP_high
+06_HKC,"Hong Kong, China",2094,APERC GDP projections,730375.015401994,GDP_high
+06_HKC,"Hong Kong, China",2095,APERC GDP projections,729912.407701823,GDP_high
+06_HKC,"Hong Kong, China",2096,APERC GDP projections,730097.3627230463,GDP_high
+06_HKC,"Hong Kong, China",2097,APERC GDP projections,730458.2092230368,GDP_high
+06_HKC,"Hong Kong, China",2098,APERC GDP projections,730812.3260716753,GDP_high
+06_HKC,"Hong Kong, China",2099,APERC GDP projections,731924.815683718,GDP_high
+06_HKC,"Hong Kong, China",2100,APERC GDP projections,732691.8150065404,GDP_high
+06_HKC,"Hong Kong, China",1990,WDI GDP through 2025,180254.935094551,GDP_med
+06_HKC,"Hong Kong, China",1991,WDI GDP through 2025,190532.95571677803,GDP_med
+06_HKC,"Hong Kong, China",1992,WDI GDP through 2025,202412.730989952,GDP_med
+06_HKC,"Hong Kong, China",1993,WDI GDP through 2025,214964.719118366,GDP_med
+06_HKC,"Hong Kong, China",1994,WDI GDP through 2025,227940.054858517,GDP_med
+06_HKC,"Hong Kong, China",1995,WDI GDP through 2025,233350.961434686,GDP_med
+06_HKC,"Hong Kong, China",1996,WDI GDP through 2025,243288.1554906,GDP_med
+06_HKC,"Hong Kong, China",1997,WDI GDP through 2025,255695.121426758,GDP_med
+06_HKC,"Hong Kong, China",1998,WDI GDP through 2025,240653.50428291,GDP_med
+06_HKC,"Hong Kong, China",1999,WDI GDP through 2025,246686.00429592092,GDP_med
+06_HKC,"Hong Kong, China",2000,WDI GDP through 2025,265590.648051452,GDP_med
+06_HKC,"Hong Kong, China",2001,WDI GDP through 2025,267080.25871759,GDP_med
+06_HKC,"Hong Kong, China",2002,WDI GDP through 2025,271504.98183373496,GDP_med
+06_HKC,"Hong Kong, China",2003,WDI GDP through 2025,279803.148419369,GDP_med
+06_HKC,"Hong Kong, China",2004,WDI GDP through 2025,304146.20576621004,GDP_med
+06_HKC,"Hong Kong, China",2005,WDI GDP through 2025,326616.995685976,GDP_med
+06_HKC,"Hong Kong, China",2006,WDI GDP through 2025,349586.81819996994,GDP_med
+06_HKC,"Hong Kong, China",2007,WDI GDP through 2025,372187.005025284,GDP_med
+06_HKC,"Hong Kong, China",2008,WDI GDP through 2025,380106.909461868,GDP_med
+06_HKC,"Hong Kong, China",2009,WDI GDP through 2025,370759.732742574,GDP_med
+06_HKC,"Hong Kong, China",2010,WDI GDP through 2025,395851.664507564,GDP_med
+06_HKC,"Hong Kong, China",2011,WDI GDP through 2025,414910.607969333,GDP_med
+06_HKC,"Hong Kong, China",2012,WDI GDP through 2025,421965.4249178791,GDP_med
+06_HKC,"Hong Kong, China",2013,WDI GDP through 2025,435052.904642839,GDP_med
+06_HKC,"Hong Kong, China",2014,WDI GDP through 2025,447070.866045334,GDP_med
+06_HKC,"Hong Kong, China",2015,WDI GDP through 2025,457746.029371383,GDP_med
+06_HKC,"Hong Kong, China",2016,WDI GDP through 2025,467704.057142908,GDP_med
+06_HKC,"Hong Kong, China",2017,WDI GDP through 2025,485458.6146913871,GDP_med
+06_HKC,"Hong Kong, China",2018,WDI GDP through 2025,499279.180784386,GDP_med
+06_HKC,"Hong Kong, China",2019,WDI GDP through 2025,490929.09267312905,GDP_med
+06_HKC,"Hong Kong, China",2020,WDI GDP through 2025,458798.783063318,GDP_med
+06_HKC,"Hong Kong, China",2021,WDI GDP through 2025,488411.63111574703,GDP_med
+06_HKC,"Hong Kong, China",2022,WDI GDP through 2025,470412.277408847,GDP_med
+06_HKC,"Hong Kong, China",2023,WDI GDP through 2025,485231.885270722,GDP_med
+06_HKC,"Hong Kong, China",2024,WDI GDP through 2025,497990.420157803,GDP_med
+06_HKC,"Hong Kong, China",2025,WDI GDP through 2025,515358.577387072,GDP_med
+06_HKC,"Hong Kong, China",2026,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2027,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2028,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2029,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2030,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2031,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2032,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2033,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2034,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2035,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2036,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2037,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2038,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2039,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2040,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2041,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2042,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2043,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2044,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2045,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2046,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2047,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2048,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2049,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2050,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2051,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2052,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2053,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2054,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2055,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2056,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2057,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2058,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2059,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2060,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2061,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2062,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2063,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2064,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2065,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2066,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2067,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2068,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2069,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2070,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2071,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2072,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2073,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2074,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2075,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2076,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2077,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2078,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2079,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2080,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2081,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2082,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2083,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2084,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2085,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2086,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2087,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2088,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2089,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2090,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2091,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2092,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2093,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2094,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2095,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2096,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2097,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2098,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2099,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",2100,WDI GDP through 2025,,GDP_med
+06_HKC,"Hong Kong, China",1990,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",1991,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",1992,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",1993,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",1994,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",1995,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",1996,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",1997,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",1998,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",1999,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2000,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2001,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2002,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2003,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2004,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2005,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2006,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2007,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2008,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2009,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2010,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2011,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2012,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2013,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2014,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2015,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2016,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2017,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2018,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2019,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2020,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2021,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2022,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2023,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2024,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2025,APERC GDP projections,,GDP_med
+06_HKC,"Hong Kong, China",2026,APERC GDP projections,526075.625871762,GDP_med
+06_HKC,"Hong Kong, China",2027,APERC GDP projections,535066.4884895874,GDP_med
+06_HKC,"Hong Kong, China",2028,APERC GDP projections,543682.0790338923,GDP_med
+06_HKC,"Hong Kong, China",2029,APERC GDP projections,549891.5560794306,GDP_med
+06_HKC,"Hong Kong, China",2030,APERC GDP projections,558071.1675350674,GDP_med
+06_HKC,"Hong Kong, China",2031,APERC GDP projections,568423.2093737777,GDP_med
+06_HKC,"Hong Kong, China",2032,APERC GDP projections,578400.4154680979,GDP_med
+06_HKC,"Hong Kong, China",2033,APERC GDP projections,588588.110578948,GDP_med
+06_HKC,"Hong Kong, China",2034,APERC GDP projections,597381.5809848789,GDP_med
+06_HKC,"Hong Kong, China",2035,APERC GDP projections,605948.5060967171,GDP_med
+06_HKC,"Hong Kong, China",2036,APERC GDP projections,612596.2180941789,GDP_med
+06_HKC,"Hong Kong, China",2037,APERC GDP projections,619771.6372099161,GDP_med
+06_HKC,"Hong Kong, China",2038,APERC GDP projections,628066.5318974471,GDP_med
+06_HKC,"Hong Kong, China",2039,APERC GDP projections,634279.8650516571,GDP_med
+06_HKC,"Hong Kong, China",2040,APERC GDP projections,641971.7276331981,GDP_med
+06_HKC,"Hong Kong, China",2041,APERC GDP projections,647787.1538874065,GDP_med
+06_HKC,"Hong Kong, China",2042,APERC GDP projections,653132.3189856396,GDP_med
+06_HKC,"Hong Kong, China",2043,APERC GDP projections,657676.6799476692,GDP_med
+06_HKC,"Hong Kong, China",2044,APERC GDP projections,663072.8738316817,GDP_med
+06_HKC,"Hong Kong, China",2045,APERC GDP projections,667927.3979322206,GDP_med
+06_HKC,"Hong Kong, China",2046,APERC GDP projections,672170.2305074256,GDP_med
+06_HKC,"Hong Kong, China",2047,APERC GDP projections,676010.104534092,GDP_med
+06_HKC,"Hong Kong, China",2048,APERC GDP projections,678030.5388066062,GDP_med
+06_HKC,"Hong Kong, China",2049,APERC GDP projections,681263.1932013696,GDP_med
+06_HKC,"Hong Kong, China",2050,APERC GDP projections,683562.2957469323,GDP_med
+06_HKC,"Hong Kong, China",2051,APERC GDP projections,686096.3384342745,GDP_med
+06_HKC,"Hong Kong, China",2052,APERC GDP projections,687774.1164275558,GDP_med
+06_HKC,"Hong Kong, China",2053,APERC GDP projections,689492.3825205199,GDP_med
+06_HKC,"Hong Kong, China",2054,APERC GDP projections,691197.9366110129,GDP_med
+06_HKC,"Hong Kong, China",2055,APERC GDP projections,692658.434592384,GDP_med
+06_HKC,"Hong Kong, China",2056,APERC GDP projections,693603.3951513758,GDP_med
+06_HKC,"Hong Kong, China",2057,APERC GDP projections,694117.7391527373,GDP_med
+06_HKC,"Hong Kong, China",2058,APERC GDP projections,694306.4846127967,GDP_med
+06_HKC,"Hong Kong, China",2059,APERC GDP projections,694167.0037459997,GDP_med
+06_HKC,"Hong Kong, China",2060,APERC GDP projections,694217.6892717725,GDP_med
+06_HKC,"Hong Kong, China",2061,APERC GDP projections,694055.6555038808,GDP_med
+06_HKC,"Hong Kong, China",2062,APERC GDP projections,693474.179953633,GDP_med
+06_HKC,"Hong Kong, China",2063,APERC GDP projections,693746.7130933132,GDP_med
+06_HKC,"Hong Kong, China",2064,APERC GDP projections,693911.4001825795,GDP_med
+06_HKC,"Hong Kong, China",2065,APERC GDP projections,693044.2511494484,GDP_med
+06_HKC,"Hong Kong, China",2066,APERC GDP projections,691873.4137349202,GDP_med
+06_HKC,"Hong Kong, China",2067,APERC GDP projections,690714.3483469054,GDP_med
+06_HKC,"Hong Kong, China",2068,APERC GDP projections,688969.4454552573,GDP_med
+06_HKC,"Hong Kong, China",2069,APERC GDP projections,687317.1068460521,GDP_med
+06_HKC,"Hong Kong, China",2070,APERC GDP projections,685900.7129890372,GDP_med
+06_HKC,"Hong Kong, China",2071,APERC GDP projections,683747.1206832302,GDP_med
+06_HKC,"Hong Kong, China",2072,APERC GDP projections,681737.6606638454,GDP_med
+06_HKC,"Hong Kong, China",2073,APERC GDP projections,679141.1506116327,GDP_med
+06_HKC,"Hong Kong, China",2074,APERC GDP projections,676249.368372065,GDP_med
+06_HKC,"Hong Kong, China",2075,APERC GDP projections,673337.1876695943,GDP_med
+06_HKC,"Hong Kong, China",2076,APERC GDP projections,670173.1199349767,GDP_med
+06_HKC,"Hong Kong, China",2077,APERC GDP projections,666931.1520512413,GDP_med
+06_HKC,"Hong Kong, China",2078,APERC GDP projections,662544.2017441606,GDP_med
+06_HKC,"Hong Kong, China",2079,APERC GDP projections,659653.854223667,GDP_med
+06_HKC,"Hong Kong, China",2080,APERC GDP projections,655973.7102678361,GDP_med
+06_HKC,"Hong Kong, China",2081,APERC GDP projections,652257.2217604945,GDP_med
+06_HKC,"Hong Kong, China",2082,APERC GDP projections,649098.9577690344,GDP_med
+06_HKC,"Hong Kong, China",2083,APERC GDP projections,645797.9831172756,GDP_med
+06_HKC,"Hong Kong, China",2084,APERC GDP projections,641777.74297475,GDP_med
+06_HKC,"Hong Kong, China",2085,APERC GDP projections,637119.6991456691,GDP_med
+06_HKC,"Hong Kong, China",2086,APERC GDP projections,632345.1399256688,GDP_med
+06_HKC,"Hong Kong, China",2087,APERC GDP projections,627722.2605585267,GDP_med
+06_HKC,"Hong Kong, China",2088,APERC GDP projections,623105.395697841,GDP_med
+06_HKC,"Hong Kong, China",2089,APERC GDP projections,619030.5662877796,GDP_med
+06_HKC,"Hong Kong, China",2090,APERC GDP projections,614426.1126150336,GDP_med
+06_HKC,"Hong Kong, China",2091,APERC GDP projections,609866.8779126592,GDP_med
+06_HKC,"Hong Kong, China",2092,APERC GDP projections,605665.9584494988,GDP_med
+06_HKC,"Hong Kong, China",2093,APERC GDP projections,602112.0441830504,GDP_med
+06_HKC,"Hong Kong, China",2094,APERC GDP projections,598152.0279011227,GDP_med
+06_HKC,"Hong Kong, China",2095,APERC GDP projections,593447.2800890908,GDP_med
+06_HKC,"Hong Kong, China",2096,APERC GDP projections,589370.8032780801,GDP_med
+06_HKC,"Hong Kong, China",2097,APERC GDP projections,585379.5435435318,GDP_med
+06_HKC,"Hong Kong, China",2098,APERC GDP projections,581271.4143478465,GDP_med
+06_HKC,"Hong Kong, China",2099,APERC GDP projections,577943.3949537643,GDP_med
+06_HKC,"Hong Kong, China",2100,APERC GDP projections,574108.2423269979,GDP_med

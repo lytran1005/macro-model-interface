@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+21_VN,Viet Nam,1990,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,1991,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,1992,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,1993,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,1994,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,1995,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,1996,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,1997,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,1998,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,1999,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2000,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2001,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2002,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2003,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2004,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2005,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2006,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2007,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2008,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2009,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2010,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2011,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2012,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2013,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2014,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2015,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2016,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2017,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2018,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2019,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2020,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2021,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2022,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2023,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2024,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2025,APERC GDP projections,,GDP_low
+21_VN,Viet Nam,2026,APERC GDP projections,1662118.518194887,GDP_low
+21_VN,Viet Nam,2027,APERC GDP projections,1768926.0774327728,GDP_low
+21_VN,Viet Nam,2028,APERC GDP projections,1875096.7029609992,GDP_low
+21_VN,Viet Nam,2029,APERC GDP projections,1990606.0812661208,GDP_low
+21_VN,Viet Nam,2030,APERC GDP projections,2107138.793928956,GDP_low
+21_VN,Viet Nam,2031,APERC GDP projections,2222438.1452086032,GDP_low
+21_VN,Viet Nam,2032,APERC GDP projections,2343063.148410807,GDP_low
+21_VN,Viet Nam,2033,APERC GDP projections,2466381.892058377,GDP_low
+21_VN,Viet Nam,2034,APERC GDP projections,2593226.7732199025,GDP_low
+21_VN,Viet Nam,2035,APERC GDP projections,2721148.9632344428,GDP_low
+21_VN,Viet Nam,2036,APERC GDP projections,2850992.7481034463,GDP_low
+21_VN,Viet Nam,2037,APERC GDP projections,2983590.9740602365,GDP_low
+21_VN,Viet Nam,2038,APERC GDP projections,3120840.2747718305,GDP_low
+21_VN,Viet Nam,2039,APERC GDP projections,3262598.735585065,GDP_low
+21_VN,Viet Nam,2040,APERC GDP projections,3408694.1835113373,GDP_low
+21_VN,Viet Nam,2041,APERC GDP projections,3559004.3882218776,GDP_low
+21_VN,Viet Nam,2042,APERC GDP projections,3713877.3727648263,GDP_low
+21_VN,Viet Nam,2043,APERC GDP projections,3872852.141407692,GDP_low
+21_VN,Viet Nam,2044,APERC GDP projections,4035733.3744842648,GDP_low
+21_VN,Viet Nam,2045,APERC GDP projections,4202351.287429649,GDP_low
+21_VN,Viet Nam,2046,APERC GDP projections,4372809.863076795,GDP_low
+21_VN,Viet Nam,2047,APERC GDP projections,4546609.926649055,GDP_low
+21_VN,Viet Nam,2048,APERC GDP projections,4723178.295011624,GDP_low
+21_VN,Viet Nam,2049,APERC GDP projections,4902084.639143882,GDP_low
+21_VN,Viet Nam,2050,APERC GDP projections,5083156.556725457,GDP_low
+21_VN,Viet Nam,2051,APERC GDP projections,5266372.465153714,GDP_low
+21_VN,Viet Nam,2052,APERC GDP projections,5450921.142917703,GDP_low
+21_VN,Viet Nam,2053,APERC GDP projections,5636972.275233487,GDP_low
+21_VN,Viet Nam,2054,APERC GDP projections,5824316.591345062,GDP_low
+21_VN,Viet Nam,2055,APERC GDP projections,6012489.349637041,GDP_low
+21_VN,Viet Nam,2056,APERC GDP projections,6201325.977461318,GDP_low
+21_VN,Viet Nam,2057,APERC GDP projections,6390784.038146195,GDP_low
+21_VN,Viet Nam,2058,APERC GDP projections,6580136.235801338,GDP_low
+21_VN,Viet Nam,2059,APERC GDP projections,6769005.982548555,GDP_low
+21_VN,Viet Nam,2060,APERC GDP projections,6957462.553521672,GDP_low
+21_VN,Viet Nam,2061,APERC GDP projections,7145452.143728404,GDP_low
+21_VN,Viet Nam,2062,APERC GDP projections,7332199.1265604915,GDP_low
+21_VN,Viet Nam,2063,APERC GDP projections,7517354.720269634,GDP_low
+21_VN,Viet Nam,2064,APERC GDP projections,7700867.000600343,GDP_low
+21_VN,Viet Nam,2065,APERC GDP projections,7882537.3343208255,GDP_low
+21_VN,Viet Nam,2066,APERC GDP projections,8061723.48471602,GDP_low
+21_VN,Viet Nam,2067,APERC GDP projections,8240616.513094515,GDP_low
+21_VN,Viet Nam,2068,APERC GDP projections,8419419.51076324,GDP_low
+21_VN,Viet Nam,2069,APERC GDP projections,8598079.368067233,GDP_low
+21_VN,Viet Nam,2070,APERC GDP projections,8776067.734178238,GDP_low
+21_VN,Viet Nam,2071,APERC GDP projections,8952474.179613227,GDP_low
+21_VN,Viet Nam,2072,APERC GDP projections,9127723.07108394,GDP_low
+21_VN,Viet Nam,2073,APERC GDP projections,9300712.265073884,GDP_low
+21_VN,Viet Nam,2074,APERC GDP projections,9471677.20327882,GDP_low
+21_VN,Viet Nam,2075,APERC GDP projections,9640606.818728738,GDP_low
+21_VN,Viet Nam,2076,APERC GDP projections,9806881.814427368,GDP_low
+21_VN,Viet Nam,2077,APERC GDP projections,9970547.672899893,GDP_low
+21_VN,Viet Nam,2078,APERC GDP projections,10130311.45585235,GDP_low
+21_VN,Viet Nam,2079,APERC GDP projections,10286983.410287658,GDP_low
+21_VN,Viet Nam,2080,APERC GDP projections,10439395.00106844,GDP_low
+21_VN,Viet Nam,2081,APERC GDP projections,10588016.050820991,GDP_low
+21_VN,Viet Nam,2082,APERC GDP projections,10732211.32479914,GDP_low
+21_VN,Viet Nam,2083,APERC GDP projections,10871944.321584765,GDP_low
+21_VN,Viet Nam,2084,APERC GDP projections,11007421.448176052,GDP_low
+21_VN,Viet Nam,2085,APERC GDP projections,11138448.271294115,GDP_low
+21_VN,Viet Nam,2086,APERC GDP projections,11264332.862639831,GDP_low
+21_VN,Viet Nam,2087,APERC GDP projections,11384430.659061668,GDP_low
+21_VN,Viet Nam,2088,APERC GDP projections,11498571.396685816,GDP_low
+21_VN,Viet Nam,2089,APERC GDP projections,11607320.759877536,GDP_low
+21_VN,Viet Nam,2090,APERC GDP projections,11709405.468387373,GDP_low
+21_VN,Viet Nam,2091,APERC GDP projections,11804678.17184281,GDP_low
+21_VN,Viet Nam,2092,APERC GDP projections,11893583.076331696,GDP_low
+21_VN,Viet Nam,2093,APERC GDP projections,11975657.44889797,GDP_low
+21_VN,Viet Nam,2094,APERC GDP projections,12050199.322262667,GDP_low
+21_VN,Viet Nam,2095,APERC GDP projections,12117432.398125386,GDP_low
+21_VN,Viet Nam,2096,APERC GDP projections,12176555.117616128,GDP_low
+21_VN,Viet Nam,2097,APERC GDP projections,12230538.33159674,GDP_low
+21_VN,Viet Nam,2098,APERC GDP projections,12280837.892744534,GDP_low
+21_VN,Viet Nam,2099,APERC GDP projections,12325766.59139193,GDP_low
+21_VN,Viet Nam,2100,APERC GDP projections,12366489.584820902,GDP_low
+21_VN,Viet Nam,1990,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,1991,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,1992,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,1993,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,1994,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,1995,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,1996,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,1997,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,1998,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,1999,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2000,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2001,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2002,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2003,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2004,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2005,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2006,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2007,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2008,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2009,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2010,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2011,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2012,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2013,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2014,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2015,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2016,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2017,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2018,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2019,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2020,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2021,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2022,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2023,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2024,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2025,APERC GDP projections,,GDP_high
+21_VN,Viet Nam,2026,APERC GDP projections,1664792.9374729488,GDP_high
+21_VN,Viet Nam,2027,APERC GDP projections,1774409.054569085,GDP_high
+21_VN,Viet Nam,2028,APERC GDP projections,1883450.1440960024,GDP_high
+21_VN,Viet Nam,2029,APERC GDP projections,2001890.237421115,GDP_high
+21_VN,Viet Nam,2030,APERC GDP projections,2123811.6546708737,GDP_high
+21_VN,Viet Nam,2031,APERC GDP projections,2245534.048994606,GDP_high
+21_VN,Viet Nam,2032,APERC GDP projections,2373133.597605684,GDP_high
+21_VN,Viet Nam,2033,APERC GDP projections,2504002.098475445,GDP_high
+21_VN,Viet Nam,2034,APERC GDP projections,2639052.079992704,GDP_high
+21_VN,Viet Nam,2035,APERC GDP projections,2778096.5293432483,GDP_high
+21_VN,Viet Nam,2036,APERC GDP projections,2920108.156406958,GDP_high
+21_VN,Viet Nam,2037,APERC GDP projections,3068440.1263658204,GDP_high
+21_VN,Viet Nam,2038,APERC GDP projections,3222919.0698113097,GDP_high
+21_VN,Viet Nam,2039,APERC GDP projections,3383485.277500215,GDP_high
+21_VN,Viet Nam,2040,APERC GDP projections,3550026.4002941474,GDP_high
+21_VN,Viet Nam,2041,APERC GDP projections,3722501.519579936,GDP_high
+21_VN,Viet Nam,2042,APERC GDP projections,3901308.4751379215,GDP_high
+21_VN,Viet Nam,2043,APERC GDP projections,4086094.420996235,GDP_high
+21_VN,Viet Nam,2044,APERC GDP projections,4276775.9553500125,GDP_high
+21_VN,Viet Nam,2045,APERC GDP projections,4473304.344612872,GDP_high
+21_VN,Viet Nam,2046,APERC GDP projections,4675907.024929177,GDP_high
+21_VN,Viet Nam,2047,APERC GDP projections,4884258.344973549,GDP_high
+21_VN,Viet Nam,2048,APERC GDP projections,5097907.450981549,GDP_high
+21_VN,Viet Nam,2049,APERC GDP projections,5316614.8001712,GDP_high
+21_VN,Viet Nam,2050,APERC GDP projections,5540386.361612232,GDP_high
+21_VN,Viet Nam,2051,APERC GDP projections,5769385.84465088,GDP_high
+21_VN,Viet Nam,2052,APERC GDP projections,6003033.639230916,GDP_high
+21_VN,Viet Nam,2053,APERC GDP projections,6241679.069247103,GDP_high
+21_VN,Viet Nam,2054,APERC GDP projections,6485335.863640276,GDP_high
+21_VN,Viet Nam,2055,APERC GDP projections,6733772.269361,GDP_high
+21_VN,Viet Nam,2056,APERC GDP projections,6987055.729925808,GDP_high
+21_VN,Viet Nam,2057,APERC GDP projections,7245356.82150688,GDP_high
+21_VN,Viet Nam,2058,APERC GDP projections,7508171.093762839,GDP_high
+21_VN,Viet Nam,2059,APERC GDP projections,7775342.142677873,GDP_high
+21_VN,Viet Nam,2060,APERC GDP projections,8047113.703391776,GDP_high
+21_VN,Viet Nam,2061,APERC GDP projections,8323540.749834048,GDP_high
+21_VN,Viet Nam,2062,APERC GDP projections,8603988.069062045,GDP_high
+21_VN,Viet Nam,2063,APERC GDP projections,8888176.562691761,GDP_high
+21_VN,Viet Nam,2064,APERC GDP projections,9176093.740872515,GDP_high
+21_VN,Viet Nam,2065,APERC GDP projections,9467561.123153027,GDP_high
+21_VN,Viet Nam,2066,APERC GDP projections,9761934.658464495,GDP_high
+21_VN,Viet Nam,2067,APERC GDP projections,10062276.064429805,GDP_high
+21_VN,Viet Nam,2068,APERC GDP projections,10368795.608083434,GDP_high
+21_VN,Viet Nam,2069,APERC GDP projections,10681548.085665228,GDP_high
+21_VN,Viet Nam,2070,APERC GDP projections,11000108.395234644,GDP_high
+21_VN,Viet Nam,2071,APERC GDP projections,11323703.241450151,GDP_high
+21_VN,Viet Nam,2072,APERC GDP projections,11652760.48285084,GDP_high
+21_VN,Viet Nam,2073,APERC GDP projections,11986326.196846165,GDP_high
+21_VN,Viet Nam,2074,APERC GDP projections,12324629.144367404,GDP_high
+21_VN,Viet Nam,2075,APERC GDP projections,12667728.849652603,GDP_high
+21_VN,Viet Nam,2076,APERC GDP projections,13015099.119873237,GDP_high
+21_VN,Viet Nam,2077,APERC GDP projections,13366760.007924335,GDP_high
+21_VN,Viet Nam,2078,APERC GDP projections,13721695.957674269,GDP_high
+21_VN,Viet Nam,2079,APERC GDP projections,14080701.84023366,GDP_high
+21_VN,Viet Nam,2080,APERC GDP projections,14442783.599301836,GDP_high
+21_VN,Viet Nam,2081,APERC GDP projections,14808389.885869306,GDP_high
+21_VN,Viet Nam,2082,APERC GDP projections,15177001.135309836,GDP_high
+21_VN,Viet Nam,2083,APERC GDP projections,15548583.210550848,GDP_high
+21_VN,Viet Nam,2084,APERC GDP projections,15923438.987880353,GDP_high
+21_VN,Viet Nam,2085,APERC GDP projections,16301434.519687518,GDP_high
+21_VN,Viet Nam,2086,APERC GDP projections,16681869.144254752,GDP_high
+21_VN,Viet Nam,2087,APERC GDP projections,17064112.352691814,GDP_high
+21_VN,Viet Nam,2088,APERC GDP projections,17447971.01503837,GDP_high
+21_VN,Viet Nam,2089,APERC GDP projections,17833771.278876238,GDP_high
+21_VN,Viet Nam,2090,APERC GDP projections,18220373.867094204,GDP_high
+21_VN,Viet Nam,2091,APERC GDP projections,18607367.0873955,GDP_high
+21_VN,Viet Nam,2092,APERC GDP projections,18994875.11719873,GDP_high
+21_VN,Viet Nam,2093,APERC GDP projections,19382332.92294448,GDP_high
+21_VN,Viet Nam,2094,APERC GDP projections,19768784.94950085,GDP_high
+21_VN,Viet Nam,2095,APERC GDP projections,20161111.63660713,GDP_high
+21_VN,Viet Nam,2096,APERC GDP projections,20558852.09392952,GDP_high
+21_VN,Viet Nam,2097,APERC GDP projections,20961289.1709332,GDP_high
+21_VN,Viet Nam,2098,APERC GDP projections,21369503.05707996,GDP_high
+21_VN,Viet Nam,2099,APERC GDP projections,21782114.529313285,GDP_high
+21_VN,Viet Nam,2100,APERC GDP projections,22200141.35562689,GDP_high
+21_VN,Viet Nam,1990,WDI GDP through 2025,161662.91552756602,GDP_med
+21_VN,Viet Nam,1991,WDI GDP through 2025,171299.389618391,GDP_med
+21_VN,Viet Nam,1992,WDI GDP through 2025,186110.016142367,GDP_med
+21_VN,Viet Nam,1993,WDI GDP through 2025,201134.176471976,GDP_med
+21_VN,Viet Nam,1994,WDI GDP through 2025,218912.38801920903,GDP_med
+21_VN,Viet Nam,1995,WDI GDP through 2025,239797.68099861,GDP_med
+21_VN,Viet Nam,1996,WDI GDP through 2025,262194.826367016,GDP_med
+21_VN,Viet Nam,1997,WDI GDP through 2025,283569.16923197603,GDP_med
+21_VN,Viet Nam,1998,WDI GDP through 2025,299915.387686359,GDP_med
+21_VN,Viet Nam,1999,WDI GDP through 2025,314232.109294403,GDP_med
+21_VN,Viet Nam,2000,WDI GDP through 2025,335560.03679716104,GDP_med
+21_VN,Viet Nam,2001,WDI GDP through 2025,356340.911874838,GDP_med
+21_VN,Viet Nam,2002,WDI GDP through 2025,378864.58303431096,GDP_med
+21_VN,Viet Nam,2003,WDI GDP through 2025,405002.691161065,GDP_med
+21_VN,Viet Nam,2004,WDI GDP through 2025,435525.356944074,GDP_med
+21_VN,Viet Nam,2005,WDI GDP through 2025,468395.534555077,GDP_med
+21_VN,Viet Nam,2006,WDI GDP through 2025,501079.963291044,GDP_med
+21_VN,Viet Nam,2007,WDI GDP through 2025,536804.481752599,GDP_med
+21_VN,Viet Nam,2008,WDI GDP through 2025,567197.123348626,GDP_med
+21_VN,Viet Nam,2009,WDI GDP through 2025,597813.842917616,GDP_med
+21_VN,Viet Nam,2010,WDI GDP through 2025,636212.889630382,GDP_med
+21_VN,Viet Nam,2011,WDI GDP through 2025,677014.296785697,GDP_med
+21_VN,Viet Nam,2012,WDI GDP through 2025,714280.851405542,GDP_med
+21_VN,Viet Nam,2013,WDI GDP through 2025,753948.5157039709,GDP_med
+21_VN,Viet Nam,2014,WDI GDP through 2025,802368.9223910511,GDP_med
+21_VN,Viet Nam,2015,WDI GDP through 2025,858431.677101791,GDP_med
+21_VN,Viet Nam,2016,WDI GDP through 2025,915860.832928699,GDP_med
+21_VN,Viet Nam,2017,WDI GDP through 2025,979423.318291117,GDP_med
+21_VN,Viet Nam,2018,WDI GDP through 2025,1052537.33614814,GDP_med
+21_VN,Viet Nam,2019,WDI GDP through 2025,1129996.3237419198,GDP_med
+21_VN,Viet Nam,2020,WDI GDP through 2025,1162375.38766502,GDP_med
+21_VN,Viet Nam,2021,WDI GDP through 2025,1192059.2995246202,GDP_med
+21_VN,Viet Nam,2022,WDI GDP through 2025,1293831.36713498,GDP_med
+21_VN,Viet Nam,2023,WDI GDP through 2025,1358246.8266358,GDP_med
+21_VN,Viet Nam,2024,WDI GDP through 2025,1453861.31789441,GDP_med
+21_VN,Viet Nam,2025,WDI GDP through 2025,1570443.98526357,GDP_med
+21_VN,Viet Nam,2026,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2027,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2028,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2029,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2030,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2031,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2032,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2033,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2034,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2035,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2036,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2037,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2038,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2039,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2040,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2041,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2042,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2043,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2044,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2045,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2046,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2047,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2048,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2049,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2050,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2051,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2052,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2053,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2054,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2055,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2056,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2057,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2058,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2059,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2060,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2061,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2062,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2063,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2064,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2065,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2066,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2067,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2068,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2069,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2070,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2071,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2072,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2073,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2074,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2075,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2076,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2077,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2078,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2079,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2080,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2081,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2082,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2083,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2084,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2085,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2086,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2087,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2088,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2089,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2090,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2091,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2092,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2093,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2094,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2095,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2096,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2097,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2098,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2099,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,2100,WDI GDP through 2025,,GDP_med
+21_VN,Viet Nam,1990,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,1991,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,1992,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,1993,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,1994,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,1995,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,1996,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,1997,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,1998,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,1999,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2000,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2001,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2002,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2003,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2004,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2005,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2006,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2007,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2008,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2009,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2010,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2011,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2012,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2013,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2014,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2015,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2016,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2017,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2018,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2019,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2020,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2021,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2022,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2023,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2024,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2025,APERC GDP projections,,GDP_med
+21_VN,Viet Nam,2026,APERC GDP projections,1663459.0952295526,GDP_med
+21_VN,Viet Nam,2027,APERC GDP projections,1771676.5487031995,GDP_med
+21_VN,Viet Nam,2028,APERC GDP projections,1879290.749373413,GDP_med
+21_VN,Viet Nam,2029,APERC GDP projections,1996277.136669169,GDP_med
+21_VN,Viet Nam,2030,APERC GDP projections,2115536.011186504,GDP_med
+21_VN,Viet Nam,2031,APERC GDP projections,2234089.738604274,GDP_med
+21_VN,Viet Nam,2032,APERC GDP projections,2358256.557857136,GDP_med
+21_VN,Viet Nam,2033,APERC GDP projections,2485412.859019075,GDP_med
+21_VN,Viet Nam,2034,APERC GDP projections,2616431.158391624,GDP_med
+21_VN,Viet Nam,2035,APERC GDP projections,2750015.289760604,GDP_med
+21_VN,Viet Nam,2036,APERC GDP projections,2886048.3521829224,GDP_med
+21_VN,Viet Nam,2037,APERC GDP projections,3026644.307837538,GDP_med
+21_VN,Viet Nam,2038,APERC GDP projections,3172656.2188364486,GDP_med
+21_VN,Viet Nam,2039,APERC GDP projections,3323986.6562789176,GDP_med
+21_VN,Viet Nam,2040,APERC GDP projections,3480495.628697572,GDP_med
+21_VN,Viet Nam,2041,APERC GDP projections,3642101.978599344,GDP_med
+21_VN,Viet Nam,2042,APERC GDP projections,3809176.4845953896,GDP_med
+21_VN,Viet Nam,2043,APERC GDP projections,3981307.515545176,GDP_med
+21_VN,Viet Nam,2044,APERC GDP projections,4158346.895059382,GDP_med
+21_VN,Viet Nam,2045,APERC GDP projections,4340173.748573539,GDP_med
+21_VN,Viet Nam,2046,APERC GDP projections,4526941.83618597,GDP_med
+21_VN,Viet Nam,2047,APERC GDP projections,4718225.980319426,GDP_med
+21_VN,Viet Nam,2048,APERC GDP projections,4913496.619375897,GDP_med
+21_VN,Viet Nam,2049,APERC GDP projections,5112399.424243213,GDP_med
+21_VN,Viet Nam,2050,APERC GDP projections,5314830.086989451,GDP_med
+21_VN,Viet Nam,2051,APERC GDP projections,5520840.323409341,GDP_med
+21_VN,Viet Nam,2052,APERC GDP projections,5729714.923368331,GDP_med
+21_VN,Viet Nam,2053,APERC GDP projections,5941690.175984056,GDP_med
+21_VN,Viet Nam,2054,APERC GDP projections,6156644.220754384,GDP_med
+21_VN,Viet Nam,2055,APERC GDP projections,6374206.220396299,GDP_med
+21_VN,Viet Nam,2056,APERC GDP projections,6594308.641851076,GDP_med
+21_VN,Viet Nam,2057,APERC GDP projections,6816998.195775806,GDP_med
+21_VN,Viet Nam,2058,APERC GDP projections,7041642.163715723,GDP_med
+21_VN,Viet Nam,2059,APERC GDP projections,7267959.643100699,GDP_med
+21_VN,Viet Nam,2060,APERC GDP projections,7496092.868650597,GDP_med
+21_VN,Viet Nam,2061,APERC GDP projections,7726031.393733646,GDP_med
+21_VN,Viet Nam,2062,APERC GDP projections,7957066.190078972,GDP_med
+21_VN,Viet Nam,2063,APERC GDP projections,8188881.431463114,GDP_med
+21_VN,Viet Nam,2064,APERC GDP projections,8421443.525071567,GDP_med
+21_VN,Viet Nam,2065,APERC GDP projections,8654566.877016602,GDP_med
+21_VN,Viet Nam,2066,APERC GDP projections,8887610.66198247,GDP_med
+21_VN,Viet Nam,2067,APERC GDP projections,9123180.02150219,GDP_med
+21_VN,Viet Nam,2068,APERC GDP projections,9361470.238028092,GDP_med
+21_VN,Viet Nam,2069,APERC GDP projections,9602469.2767626,GDP_med
+21_VN,Viet Nam,2070,APERC GDP projections,9845685.78205265,GDP_med
+21_VN,Viet Nam,2071,APERC GDP projections,10090259.8503986,GDP_med
+21_VN,Viet Nam,2072,APERC GDP projections,10336594.214487351,GDP_med
+21_VN,Viet Nam,2073,APERC GDP projections,10583634.220714789,GDP_med
+21_VN,Viet Nam,2074,APERC GDP projections,10831583.10502627,GDP_med
+21_VN,Viet Nam,2075,APERC GDP projections,11080433.103421727,GDP_med
+21_VN,Viet Nam,2076,APERC GDP projections,11329576.077093452,GDP_med
+21_VN,Viet Nam,2077,APERC GDP projections,11579000.70839046,GDP_med
+21_VN,Viet Nam,2078,APERC GDP projections,11827512.115599668,GDP_med
+21_VN,Viet Nam,2079,APERC GDP projections,12075861.074093623,GDP_med
+21_VN,Viet Nam,2080,APERC GDP projections,12322921.051675668,GDP_med
+21_VN,Viet Nam,2081,APERC GDP projections,12569101.885558022,GDP_med
+21_VN,Viet Nam,2082,APERC GDP projections,12813780.331523128,GDP_med
+21_VN,Viet Nam,2083,APERC GDP projections,13056877.415421458,GDP_med
+21_VN,Viet Nam,2084,APERC GDP projections,13298603.959414264,GDP_med
+21_VN,Viet Nam,2085,APERC GDP projections,13538760.294768335,GDP_med
+21_VN,Viet Nam,2086,APERC GDP projections,13776623.03476888,GDP_med
+21_VN,Viet Nam,2087,APERC GDP projections,14011532.80471189,GDP_med
+21_VN,Viet Nam,2088,APERC GDP projections,14243290.390487757,GDP_med
+21_VN,Viet Nam,2089,APERC GDP projections,14472324.391405337,GDP_med
+21_VN,Viet Nam,2090,APERC GDP projections,14697429.871117173,GDP_med
+21_VN,Viet Nam,2091,APERC GDP projections,14918328.05002728,GDP_med
+21_VN,Viet Nam,2092,APERC GDP projections,15135303.06685017,GDP_med
+21_VN,Viet Nam,2093,APERC GDP projections,15347853.279368231,GDP_med
+21_VN,Viet Nam,2094,APERC GDP projections,15555167.65496869,GDP_med
+21_VN,Viet Nam,2095,APERC GDP projections,15757328.500957085,GDP_med
+21_VN,Viet Nam,2096,APERC GDP projections,15958939.159241188,GDP_med
+21_VN,Viet Nam,2097,APERC GDP projections,16159081.822714236,GDP_med
+21_VN,Viet Nam,2098,APERC GDP projections,16358991.89800292,GDP_med
+21_VN,Viet Nam,2099,APERC GDP projections,16557125.021352326,GDP_med
+21_VN,Viet Nam,2100,APERC GDP projections,16754526.739255674,GDP_med

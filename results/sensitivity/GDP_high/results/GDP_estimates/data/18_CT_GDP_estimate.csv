@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+18_CT,Chinese Taipei,1990,Population,20508.591
+18_CT,Chinese Taipei,1991,Population,20681.221
+18_CT,Chinese Taipei,1992,Population,20882.279
+18_CT,Chinese Taipei,1993,Population,21081.897
+18_CT,Chinese Taipei,1994,Population,21267.467
+18_CT,Chinese Taipei,1995,Population,21446.813
+18_CT,Chinese Taipei,1996,Population,21622.177
+18_CT,Chinese Taipei,1997,Population,21796.376
+18_CT,Chinese Taipei,1998,Population,21974.281
+18_CT,Chinese Taipei,1999,Population,22124.171
+18_CT,Chinese Taipei,2000,Population,22283.391
+18_CT,Chinese Taipei,2001,Population,22382.348
+18_CT,Chinese Taipei,2002,Population,22510.167
+18_CT,Chinese Taipei,2003,Population,22623.636
+18_CT,Chinese Taipei,2004,Population,22704.613
+18_CT,Chinese Taipei,2005,Population,22786.249
+18_CT,Chinese Taipei,2006,Population,22863.614
+18_CT,Chinese Taipei,2007,Population,22965.654
+18_CT,Chinese Taipei,2008,Population,23048.194
+18_CT,Chinese Taipei,2009,Population,23124.284
+18_CT,Chinese Taipei,2010,Population,23204.438
+18_CT,Chinese Taipei,2011,Population,23243.66
+18_CT,Chinese Taipei,2012,Population,23302.493
+18_CT,Chinese Taipei,2013,Population,23389.429
+18_CT,Chinese Taipei,2014,Population,23444.32
+18_CT,Chinese Taipei,2015,Population,23501.311
+18_CT,Chinese Taipei,2016,Population,23557.197
+18_CT,Chinese Taipei,2017,Population,23615.088
+18_CT,Chinese Taipei,2018,Population,23650.808
+18_CT,Chinese Taipei,2019,Population,23667.802
+18_CT,Chinese Taipei,2020,Population,23680.473
+18_CT,Chinese Taipei,2021,Population,23646.445
+18_CT,Chinese Taipei,2022,Population,23470.22
+18_CT,Chinese Taipei,2023,Population,23370.002
+18_CT,Chinese Taipei,2024,Population,23264.288
+18_CT,Chinese Taipei,2025,Population,23200.806
+18_CT,Chinese Taipei,2026,Population,23135.416
+18_CT,Chinese Taipei,2027,Population,23069.569
+18_CT,Chinese Taipei,2028,Population,22999.659
+18_CT,Chinese Taipei,2029,Population,22929.064
+18_CT,Chinese Taipei,2030,Population,22875.795
+18_CT,Chinese Taipei,2031,Population,22817.409
+18_CT,Chinese Taipei,2032,Population,22753.047
+18_CT,Chinese Taipei,2033,Population,22684.621
+18_CT,Chinese Taipei,2034,Population,22611.464
+18_CT,Chinese Taipei,2035,Population,22542.16
+18_CT,Chinese Taipei,2036,Population,22467.882
+18_CT,Chinese Taipei,2037,Population,22387.738
+18_CT,Chinese Taipei,2038,Population,22299.453
+18_CT,Chinese Taipei,2039,Population,22206.572
+18_CT,Chinese Taipei,2040,Population,22106.883
+18_CT,Chinese Taipei,2041,Population,22001.335
+18_CT,Chinese Taipei,2042,Population,21889.255
+18_CT,Chinese Taipei,2043,Population,21771.046
+18_CT,Chinese Taipei,2044,Population,21648.001
+18_CT,Chinese Taipei,2045,Population,21521.588
+18_CT,Chinese Taipei,2046,Population,21387.649
+18_CT,Chinese Taipei,2047,Population,21253.159
+18_CT,Chinese Taipei,2048,Population,21111.781
+18_CT,Chinese Taipei,2049,Population,20968.801
+18_CT,Chinese Taipei,2050,Population,20819.745
+18_CT,Chinese Taipei,2051,Population,20668.971
+18_CT,Chinese Taipei,2052,Population,20516.784
+18_CT,Chinese Taipei,2053,Population,20362.078
+18_CT,Chinese Taipei,2054,Population,20203.973
+18_CT,Chinese Taipei,2055,Population,20042.29
+18_CT,Chinese Taipei,2056,Population,19878.704
+18_CT,Chinese Taipei,2057,Population,19716.379
+18_CT,Chinese Taipei,2058,Population,19550.097
+18_CT,Chinese Taipei,2059,Population,19383.447
+18_CT,Chinese Taipei,2060,Population,19214.336
+18_CT,Chinese Taipei,2061,Population,19044.222
+18_CT,Chinese Taipei,2062,Population,18873.567
+18_CT,Chinese Taipei,2063,Population,18704.518
+18_CT,Chinese Taipei,2064,Population,18539.119
+18_CT,Chinese Taipei,2065,Population,18374.964
+18_CT,Chinese Taipei,2066,Population,18213.72
+18_CT,Chinese Taipei,2067,Population,18056.11
+18_CT,Chinese Taipei,2068,Population,17899.959
+18_CT,Chinese Taipei,2069,Population,17746.297
+18_CT,Chinese Taipei,2070,Population,17597.386
+18_CT,Chinese Taipei,2071,Population,17450.371
+18_CT,Chinese Taipei,2072,Population,17304.309
+18_CT,Chinese Taipei,2073,Population,17159.976
+18_CT,Chinese Taipei,2074,Population,17020.025
+18_CT,Chinese Taipei,2075,Population,16882.324
+18_CT,Chinese Taipei,2076,Population,16747.687
+18_CT,Chinese Taipei,2077,Population,16617.823
+18_CT,Chinese Taipei,2078,Population,16490.703
+18_CT,Chinese Taipei,2079,Population,16366.426
+18_CT,Chinese Taipei,2080,Population,16246.889
+18_CT,Chinese Taipei,2081,Population,16132.585
+18_CT,Chinese Taipei,2082,Population,16021.728
+18_CT,Chinese Taipei,2083,Population,15916.326
+18_CT,Chinese Taipei,2084,Population,15814.635
+18_CT,Chinese Taipei,2085,Population,15715.936
+18_CT,Chinese Taipei,2086,Population,15622.569
+18_CT,Chinese Taipei,2087,Population,15534.106
+18_CT,Chinese Taipei,2088,Population,15448.658
+18_CT,Chinese Taipei,2089,Population,15365.565
+18_CT,Chinese Taipei,2090,Population,15286.531
+18_CT,Chinese Taipei,2091,Population,15209.642
+18_CT,Chinese Taipei,2092,Population,15137.545
+18_CT,Chinese Taipei,2093,Population,15068.883
+18_CT,Chinese Taipei,2094,Population,15003.177
+18_CT,Chinese Taipei,2095,Population,14940.107
+18_CT,Chinese Taipei,2096,Population,14880.124
+18_CT,Chinese Taipei,2097,Population,14823.368
+18_CT,Chinese Taipei,2098,Population,14768.736
+18_CT,Chinese Taipei,2099,Population,14716.963
+18_CT,Chinese Taipei,2100,Population,14668.094
+18_CT,Chinese Taipei,1990,Labour efficiency,6.477921609589137
+18_CT,Chinese Taipei,1991,Labour efficiency,6.912180610035507
+18_CT,Chinese Taipei,1992,Labour efficiency,7.347213325768267
+18_CT,Chinese Taipei,1993,Labour efficiency,7.640580338829587
+18_CT,Chinese Taipei,1994,Labour efficiency,8.04370190226443
+18_CT,Chinese Taipei,1995,Labour efficiency,8.365490633500121
+18_CT,Chinese Taipei,1996,Labour efficiency,8.707090220149349
+18_CT,Chinese Taipei,1997,Labour efficiency,9.038798202434085
+18_CT,Chinese Taipei,1998,Labour efficiency,9.128152879849798
+18_CT,Chinese Taipei,1999,Labour efficiency,9.649963312384077
+18_CT,Chinese Taipei,2000,Labour efficiency,10.144401524314024
+18_CT,Chinese Taipei,2001,Labour efficiency,9.622551961035324
+18_CT,Chinese Taipei,2002,Labour efficiency,10.22335754932733
+18_CT,Chinese Taipei,2003,Labour efficiency,10.674886124858713
+18_CT,Chinese Taipei,2004,Labour efficiency,11.593272242801172
+18_CT,Chinese Taipei,2005,Labour efficiency,12.310679513720949
+18_CT,Chinese Taipei,2006,Labour efficiency,13.180041411169784
+18_CT,Chinese Taipei,2007,Labour efficiency,14.354432115882988
+18_CT,Chinese Taipei,2008,Labour efficiency,14.31804135796309
+18_CT,Chinese Taipei,2009,Labour efficiency,13.798024512712528
+18_CT,Chinese Taipei,2010,Labour efficiency,15.949041021388595
+18_CT,Chinese Taipei,2011,Labour efficiency,16.70656541650815
+18_CT,Chinese Taipei,2012,Labour efficiency,17.107046379290317
+18_CT,Chinese Taipei,2013,Labour efficiency,17.53180307420036
+18_CT,Chinese Taipei,2014,Labour efficiency,18.63884918307103
+18_CT,Chinese Taipei,2015,Labour efficiency,18.803725442863865
+18_CT,Chinese Taipei,2016,Labour efficiency,19.17768883910245
+18_CT,Chinese Taipei,2017,Labour efficiency,20.020460874193187
+18_CT,Chinese Taipei,2018,Labour efficiency,20.68674836101162
+18_CT,Chinese Taipei,2019,Labour efficiency,21.373195265827928
+18_CT,Chinese Taipei,2020,Labour efficiency,22.183097515240586
+18_CT,Chinese Taipei,2021,Labour efficiency,24.16864706252221
+18_CT,Chinese Taipei,2022,Labour efficiency,24.817275613176495
+18_CT,Chinese Taipei,2023,Labour efficiency,24.987410569654003
+18_CT,Chinese Taipei,2024,Labour efficiency,26.42329399138531
+18_CT,Chinese Taipei,2025,Labour efficiency,28.794506414699967
+18_CT,Chinese Taipei,2026,Labour efficiency,30.371449171182086
+18_CT,Chinese Taipei,2027,Labour efficiency,31.362861076890365
+18_CT,Chinese Taipei,2028,Labour efficiency,32.22860092469732
+18_CT,Chinese Taipei,2029,Labour efficiency,33.09458232081638
+18_CT,Chinese Taipei,2030,Labour efficiency,33.9748439250207
+18_CT,Chinese Taipei,2031,Labour efficiency,34.78628760649955
+18_CT,Chinese Taipei,2032,Labour efficiency,36.0499381739367
+18_CT,Chinese Taipei,2033,Labour efficiency,37.39369826862127
+18_CT,Chinese Taipei,2034,Labour efficiency,38.90129657221431
+18_CT,Chinese Taipei,2035,Labour efficiency,40.40297110022978
+18_CT,Chinese Taipei,2036,Labour efficiency,41.756003643643545
+18_CT,Chinese Taipei,2037,Labour efficiency,43.06550305008341
+18_CT,Chinese Taipei,2038,Labour efficiency,44.41054771033265
+18_CT,Chinese Taipei,2039,Labour efficiency,45.8137161053237
+18_CT,Chinese Taipei,2040,Labour efficiency,47.28286705421741
+18_CT,Chinese Taipei,2041,Labour efficiency,48.82499231702907
+18_CT,Chinese Taipei,2042,Labour efficiency,50.46004400741263
+18_CT,Chinese Taipei,2043,Labour efficiency,52.13552923250884
+18_CT,Chinese Taipei,2044,Labour efficiency,53.845424445267405
+18_CT,Chinese Taipei,2045,Labour efficiency,55.570908677882365
+18_CT,Chinese Taipei,2046,Labour efficiency,57.315248282734885
+18_CT,Chinese Taipei,2047,Labour efficiency,59.10231123712635
+18_CT,Chinese Taipei,2048,Labour efficiency,60.94402300917472
+18_CT,Chinese Taipei,2049,Labour efficiency,62.8426917330452
+18_CT,Chinese Taipei,2050,Labour efficiency,64.79774029582894
+18_CT,Chinese Taipei,2051,Labour efficiency,66.8074049299329
+18_CT,Chinese Taipei,2052,Labour efficiency,68.868705897383
+18_CT,Chinese Taipei,2053,Labour efficiency,70.97546956681673
+18_CT,Chinese Taipei,2054,Labour efficiency,73.12813410292556
+18_CT,Chinese Taipei,2055,Labour efficiency,75.32804450418699
+18_CT,Chinese Taipei,2056,Labour efficiency,77.57935395015278
+18_CT,Chinese Taipei,2057,Labour efficiency,79.88628982926535
+18_CT,Chinese Taipei,2058,Labour efficiency,82.25029767064855
+18_CT,Chinese Taipei,2059,Labour efficiency,84.67135442010283
+18_CT,Chinese Taipei,2060,Labour efficiency,87.14911992732482
+18_CT,Chinese Taipei,2061,Labour efficiency,89.68329777807863
+18_CT,Chinese Taipei,2062,Labour efficiency,92.2738053146233
+18_CT,Chinese Taipei,2063,Labour efficiency,94.92096817741758
+18_CT,Chinese Taipei,2064,Labour efficiency,97.62601080856471
+18_CT,Chinese Taipei,2065,Labour efficiency,100.39025762469157
+18_CT,Chinese Taipei,2066,Labour efficiency,103.21502112199332
+18_CT,Chinese Taipei,2067,Labour efficiency,106.10121592210845
+18_CT,Chinese Taipei,2068,Labour efficiency,109.04929979577018
+18_CT,Chinese Taipei,2069,Labour efficiency,112.05959727191475
+18_CT,Chinese Taipei,2070,Labour efficiency,115.13248338172694
+18_CT,Chinese Taipei,2071,Labour efficiency,118.26843293912763
+18_CT,Chinese Taipei,2072,Labour efficiency,121.46802676221003
+18_CT,Chinese Taipei,2073,Labour efficiency,124.73193562134564
+18_CT,Chinese Taipei,2074,Labour efficiency,128.0608759917209
+18_CT,Chinese Taipei,2075,Labour efficiency,131.45549436477017
+18_CT,Chinese Taipei,2076,Labour efficiency,134.91634531254846
+18_CT,Chinese Taipei,2077,Labour efficiency,138.4438819507488
+18_CT,Chinese Taipei,2078,Labour efficiency,142.0384970117818
+18_CT,Chinese Taipei,2079,Labour efficiency,145.70057667363207
+18_CT,Chinese Taipei,2080,Labour efficiency,149.43051752292655
+18_CT,Chinese Taipei,2081,Labour efficiency,153.22872102011277
+18_CT,Chinese Taipei,2082,Labour efficiency,157.09558075148823
+18_CT,Chinese Taipei,2083,Labour efficiency,161.03146734971304
+18_CT,Chinese Taipei,2084,Labour efficiency,165.0367137623511
+18_CT,Chinese Taipei,2085,Labour efficiency,169.1116046355054
+18_CT,Chinese Taipei,2086,Labour efficiency,173.25637971853965
+18_CT,Chinese Taipei,2087,Labour efficiency,177.47124054763333
+18_CT,Chinese Taipei,2088,Labour efficiency,181.7563591555265
+18_CT,Chinese Taipei,2089,Labour efficiency,186.11188239737822
+18_CT,Chinese Taipei,2090,Labour efficiency,190.53792972067012
+18_CT,Chinese Taipei,2091,Labour efficiency,195.03458845092308
+18_CT,Chinese Taipei,2092,Labour efficiency,199.60190924542187
+18_CT,Chinese Taipei,2093,Labour efficiency,204.23990267281422
+18_CT,Chinese Taipei,2094,Labour efficiency,208.94853734904459
+18_CT,Chinese Taipei,2095,Labour efficiency,213.7277397607778
+18_CT,Chinese Taipei,2096,Labour efficiency,218.57739543462472
+18_CT,Chinese Taipei,2097,Labour efficiency,223.49734979248058
+18_CT,Chinese Taipei,2098,Labour efficiency,228.4874082349289
+18_CT,Chinese Taipei,2099,Labour efficiency,233.54733510507185
+18_CT,Chinese Taipei,2100,Labour efficiency,238.67685197016365
+18_CT,Chinese Taipei,1990,Capital stock,1678627.5770988532
+18_CT,Chinese Taipei,1991,Capital stock,1838834.1112872327
+18_CT,Chinese Taipei,1992,Capital stock,2019147.5965212856
+18_CT,Chinese Taipei,1993,Capital stock,2213099.3585870736
+18_CT,Chinese Taipei,1994,Capital stock,2423191.647780547
+18_CT,Chinese Taipei,1995,Capital stock,2640579.534113792
+18_CT,Chinese Taipei,1996,Capital stock,2853605.0307914712
+18_CT,Chinese Taipei,1997,Capital stock,3087680.9656402776
+18_CT,Chinese Taipei,1998,Capital stock,3331646.5300250426
+18_CT,Chinese Taipei,1999,Capital stock,3570371.9814112275
+18_CT,Chinese Taipei,2000,Capital stock,3819484.936635472
+18_CT,Chinese Taipei,2001,Capital stock,3964598.5811782153
+18_CT,Chinese Taipei,2002,Capital stock,4101924.9654638735
+18_CT,Chinese Taipei,2003,Capital stock,4231490.967866915
+18_CT,Chinese Taipei,2004,Capital stock,4398916.788499697
+18_CT,Chinese Taipei,2005,Capital stock,4558373.400167247
+18_CT,Chinese Taipei,2006,Capital stock,4710869.759166338
+18_CT,Chinese Taipei,2007,Capital stock,4858409.0119270645
+18_CT,Chinese Taipei,2008,Capital stock,4948388.424840772
+18_CT,Chinese Taipei,2009,Capital stock,4997652.910094274
+18_CT,Chinese Taipei,2010,Capital stock,5105274.825323542
+18_CT,Chinese Taipei,2011,Capital stock,5198343.064137048
+18_CT,Chinese Taipei,2012,Capital stock,5280071.978545168
+18_CT,Chinese Taipei,2013,Capital stock,5381229.554306855
+18_CT,Chinese Taipei,2014,Capital stock,5489284.608735935
+18_CT,Chinese Taipei,2015,Capital stock,5597249.966549662
+18_CT,Chinese Taipei,2016,Capital stock,5713026.165079326
+18_CT,Chinese Taipei,2017,Capital stock,5838180.414574899
+18_CT,Chinese Taipei,2018,Capital stock,5957657.814900969
+18_CT,Chinese Taipei,2019,Capital stock,6109546.702486252
+18_CT,Chinese Taipei,2020,Capital stock,6279716.806824096
+18_CT,Chinese Taipei,2021,Capital stock,6510970.786251538
+18_CT,Chinese Taipei,2022,Capital stock,6761600.563742382
+18_CT,Chinese Taipei,2023,Capital stock,6919353.614647737
+18_CT,Chinese Taipei,2024,Capital stock,7283871.004077123
+18_CT,Chinese Taipei,2025,Capital stock,7915862.367260947
+18_CT,Chinese Taipei,2026,Capital stock,8325845.570640238
+18_CT,Chinese Taipei,2027,Capital stock,8573155.058806539
+18_CT,Chinese Taipei,2028,Capital stock,8783111.04077773
+18_CT,Chinese Taipei,2029,Capital stock,8991429.726638122
+18_CT,Chinese Taipei,2030,Capital stock,9209142.428937552
+18_CT,Chinese Taipei,2031,Capital stock,9405024.559731914
+18_CT,Chinese Taipei,2032,Capital stock,9595070.75044859
+18_CT,Chinese Taipei,2033,Capital stock,9779262.859941619
+18_CT,Chinese Taipei,2034,Capital stock,9957604.421686381
+18_CT,Chinese Taipei,2035,Capital stock,10130118.650189303
+18_CT,Chinese Taipei,2036,Capital stock,10296846.514954217
+18_CT,Chinese Taipei,2037,Capital stock,10457844.89295025
+18_CT,Chinese Taipei,2038,Capital stock,10613184.807896167
+18_CT,Chinese Taipei,2039,Capital stock,10762949.762351695
+18_CT,Chinese Taipei,2040,Capital stock,10907234.166574843
+18_CT,Chinese Taipei,2041,Capital stock,11046141.866349112
+18_CT,Chinese Taipei,2042,Capital stock,11179784.770487
+18_CT,Chinese Taipei,2043,Capital stock,11308281.577455433
+18_CT,Chinese Taipei,2044,Capital stock,11431756.599523565
+18_CT,Chinese Taipei,2045,Capital stock,11550338.68198222
+18_CT,Chinese Taipei,2046,Capital stock,11664160.214306114
+18_CT,Chinese Taipei,2047,Capital stock,11773356.229604611
+18_CT,Chinese Taipei,2048,Capital stock,11878063.58831497
+18_CT,Chinese Taipei,2049,Capital stock,11978420.241816102
+18_CT,Chinese Taipei,2050,Capital stock,12074564.571464024
+18_CT,Chinese Taipei,2051,Capital stock,12166634.798457585
+18_CT,Chinese Taipei,2052,Capital stock,12254768.459921008
+18_CT,Chinese Taipei,2053,Capital stock,12339101.946626095
+18_CT,Chinese Taipei,2054,Capital stock,12419770.097860709
+18_CT,Chinese Taipei,2055,Capital stock,12496905.849071996
+18_CT,Chinese Taipei,2056,Capital stock,12570639.9280642
+18_CT,Chinese Taipei,2057,Capital stock,12641100.595704732
+18_CT,Chinese Taipei,2058,Capital stock,12708413.427282318
+18_CT,Chinese Taipei,2059,Capital stock,12772701.130861916
+18_CT,Chinese Taipei,2060,Capital stock,12834083.399188694
+18_CT,Chinese Taipei,2061,Capital stock,12892676.791903572
+18_CT,Chinese Taipei,2062,Capital stock,12948594.645042868
+18_CT,Chinese Taipei,2063,Capital stock,13001947.005001795
+18_CT,Chinese Taipei,2064,Capital stock,13052840.584344098
+18_CT,Chinese Taipei,2065,Capital stock,13101378.737036377
+18_CT,Chinese Taipei,2066,Capital stock,13147661.450874265
+18_CT,Chinese Taipei,2067,Capital stock,13191785.35504823
+18_CT,Chinese Taipei,2068,Capital stock,13233843.74096814
+18_CT,Chinese Taipei,2069,Capital stock,13273926.594627975
+18_CT,Chinese Taipei,2070,Capital stock,13312120.638944812
+18_CT,Chinese Taipei,2071,Capital stock,13348509.384649394
+18_CT,Chinese Taipei,2072,Capital stock,13383173.188439349
+18_CT,Chinese Taipei,2073,Capital stock,13416189.317230726
+18_CT,Chinese Taipei,2074,Capital stock,13447632.01745905
+18_CT,Chinese Taipei,2075,Capital stock,13477572.588488007
+18_CT,Chinese Taipei,2076,Capital stock,13506079.459282558
+18_CT,Chinese Taipei,2077,Capital stock,13533218.26759399
+18_CT,Chinese Taipei,2078,Capital stock,13559051.940987725
+18_CT,Chinese Taipei,2079,Capital stock,13583640.779120956
+18_CT,Chinese Taipei,2080,Capital stock,13607042.536746772
+18_CT,Chinese Taipei,2081,Capital stock,13629312.506984917
+18_CT,Chinese Taipei,2082,Capital stock,13650503.604456937
+18_CT,Chinese Taipei,2083,Capital stock,13670666.447935808
+18_CT,Chinese Taipei,2084,Capital stock,13689849.442207465
+18_CT,Chinese Taipei,2085,Capital stock,13708098.858884286
+18_CT,Chinese Taipei,2086,Capital stock,13725458.915949192
+18_CT,Chinese Taipei,2087,Capital stock,13741971.855843483
+18_CT,Chinese Taipei,2088,Capital stock,13757678.021942588
+18_CT,Chinese Taipei,2089,Capital stock,13772615.933291594
+18_CT,Chinese Taipei,2090,Capital stock,13786822.35749711
+18_CT,Chinese Taipei,2091,Capital stock,13800332.381694045
+18_CT,Chinese Taipei,2092,Capital stock,13813179.481525281
+18_CT,Chinese Taipei,2093,Capital stock,13825395.58808952
+18_CT,Chinese Taipei,2094,Capital stock,13837011.152827645
+18_CT,Chinese Taipei,2095,Capital stock,13848055.210331356
+18_CT,Chinese Taipei,2096,Capital stock,13858555.43906933
+18_CT,Chinese Taipei,2097,Capital stock,13868538.220036337
+18_CT,Chinese Taipei,2098,Capital stock,13878028.69333944
+18_CT,Chinese Taipei,2099,Capital stock,13887050.812742934
+18_CT,Chinese Taipei,2100,Capital stock,13895627.398200084
+18_CT,Chinese Taipei,1990,Savings,0.31907
+18_CT,Chinese Taipei,1991,Savings,0.32419
+18_CT,Chinese Taipei,1992,Savings,0.31867
+18_CT,Chinese Taipei,1993,Savings,0.31507999999999997
+18_CT,Chinese Taipei,1994,Savings,0.30335
+18_CT,Chinese Taipei,1995,Savings,0.29839
+18_CT,Chinese Taipei,1996,Savings,0.28986999999999996
+18_CT,Chinese Taipei,1997,Savings,0.28642
+18_CT,Chinese Taipei,1998,Savings,0.28425
+18_CT,Chinese Taipei,1999,Savings,0.28870999999999997
+18_CT,Chinese Taipei,2000,Savings,0.29561
+18_CT,Chinese Taipei,2001,Savings,0.27187
+18_CT,Chinese Taipei,2002,Savings,0.28907
+18_CT,Chinese Taipei,2003,Savings,0.30049
+18_CT,Chinese Taipei,2004,Savings,0.30458999999999997
+18_CT,Chinese Taipei,2005,Savings,0.29474
+18_CT,Chinese Taipei,2006,Savings,0.31275
+18_CT,Chinese Taipei,2007,Savings,0.33122999999999997
+18_CT,Chinese Taipei,2008,Savings,0.31049
+18_CT,Chinese Taipei,2009,Savings,0.31062
+18_CT,Chinese Taipei,2010,Savings,0.34056
+18_CT,Chinese Taipei,2011,Savings,0.31969000000000003
+18_CT,Chinese Taipei,2012,Savings,0.32247
+18_CT,Chinese Taipei,2013,Savings,0.33287999999999995
+18_CT,Chinese Taipei,2014,Savings,0.3475
+18_CT,Chinese Taipei,2015,Savings,0.36564
+18_CT,Chinese Taipei,2016,Savings,0.36112
+18_CT,Chinese Taipei,2017,Savings,0.36022
+18_CT,Chinese Taipei,2018,Savings,0.3502
+18_CT,Chinese Taipei,2019,Savings,0.35618
+18_CT,Chinese Taipei,2020,Savings,0.40213
+18_CT,Chinese Taipei,2021,Savings,0.43746
+18_CT,Chinese Taipei,2022,Savings,0.42851
+18_CT,Chinese Taipei,2023,Savings,0.40196
+18_CT,Chinese Taipei,2024,Savings,0.43002
+18_CT,Chinese Taipei,2025,Savings,0.46787999999999996
+18_CT,Chinese Taipei,2026,Savings,0.43185
+18_CT,Chinese Taipei,2027,Savings,0.42924999999999996
+18_CT,Chinese Taipei,2028,Savings,0.41837
+18_CT,Chinese Taipei,2029,Savings,0.41456000000000004
+18_CT,Chinese Taipei,2030,Savings,0.40379
+18_CT,Chinese Taipei,2031,Savings,0.39814
+18_CT,Chinese Taipei,2032,Savings,0.39814
+18_CT,Chinese Taipei,2033,Savings,0.39514
+18_CT,Chinese Taipei,2034,Savings,0.39214
+18_CT,Chinese Taipei,2035,Savings,0.38914
+18_CT,Chinese Taipei,2036,Savings,0.38614
+18_CT,Chinese Taipei,2037,Savings,0.38314
+18_CT,Chinese Taipei,2038,Savings,0.38014
+18_CT,Chinese Taipei,2039,Savings,0.37714
+18_CT,Chinese Taipei,2040,Savings,0.37414
+18_CT,Chinese Taipei,2041,Savings,0.37113999999999997
+18_CT,Chinese Taipei,2042,Savings,0.36813999999999997
+18_CT,Chinese Taipei,2043,Savings,0.36513999999999996
+18_CT,Chinese Taipei,2044,Savings,0.36213999999999996
+18_CT,Chinese Taipei,2045,Savings,0.35913999999999996
+18_CT,Chinese Taipei,2046,Savings,0.35613999999999996
+18_CT,Chinese Taipei,2047,Savings,0.35313999999999995
+18_CT,Chinese Taipei,2048,Savings,0.35013999999999995
+18_CT,Chinese Taipei,2049,Savings,0.34713999999999995
+18_CT,Chinese Taipei,2050,Savings,0.34413999999999995
+18_CT,Chinese Taipei,2051,Savings,0.34113999999999994
+18_CT,Chinese Taipei,2052,Savings,0.33813999999999994
+18_CT,Chinese Taipei,2053,Savings,0.33513999999999994
+18_CT,Chinese Taipei,2054,Savings,0.33213999999999994
+18_CT,Chinese Taipei,2055,Savings,0.32913999999999993
+18_CT,Chinese Taipei,2056,Savings,0.32613999999999993
+18_CT,Chinese Taipei,2057,Savings,0.3231399999999999
+18_CT,Chinese Taipei,2058,Savings,0.3201399999999999
+18_CT,Chinese Taipei,2059,Savings,0.3171399999999999
+18_CT,Chinese Taipei,2060,Savings,0.3141399999999999
+18_CT,Chinese Taipei,2061,Savings,0.3111399999999999
+18_CT,Chinese Taipei,2062,Savings,0.3081399999999999
+18_CT,Chinese Taipei,2063,Savings,0.3051399999999999
+18_CT,Chinese Taipei,2064,Savings,0.3021399999999999
+18_CT,Chinese Taipei,2065,Savings,0.2991399999999999
+18_CT,Chinese Taipei,2066,Savings,0.2961399999999999
+18_CT,Chinese Taipei,2067,Savings,0.2931399999999999
+18_CT,Chinese Taipei,2068,Savings,0.2901399999999999
+18_CT,Chinese Taipei,2069,Savings,0.2871399999999999
+18_CT,Chinese Taipei,2070,Savings,0.2841399999999999
+18_CT,Chinese Taipei,2071,Savings,0.2811399999999999
+18_CT,Chinese Taipei,2072,Savings,0.2781399999999999
+18_CT,Chinese Taipei,2073,Savings,0.2751399999999999
+18_CT,Chinese Taipei,2074,Savings,0.2721399999999999
+18_CT,Chinese Taipei,2075,Savings,0.2691399999999999
+18_CT,Chinese Taipei,2076,Savings,0.2661399999999999
+18_CT,Chinese Taipei,2077,Savings,0.2631399999999999
+18_CT,Chinese Taipei,2078,Savings,0.26013999999999987
+18_CT,Chinese Taipei,2079,Savings,0.25713999999999987
+18_CT,Chinese Taipei,2080,Savings,0.25413999999999987
+18_CT,Chinese Taipei,2081,Savings,0.25113999999999986
+18_CT,Chinese Taipei,2082,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2083,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2084,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2085,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2086,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2087,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2088,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2089,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2090,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2091,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2092,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2093,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2094,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2095,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2096,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2097,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2098,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2099,Savings,0.24813999999999986
+18_CT,Chinese Taipei,2100,Savings,0.24813999999999986
+18_CT,Chinese Taipei,1990,Depreciation,0.0472240597009659
+18_CT,Chinese Taipei,1991,Depreciation,0.0476748608052731
+18_CT,Chinese Taipei,1992,Depreciation,0.0482437647879124
+18_CT,Chinese Taipei,1993,Depreciation,0.0487179011106491
+18_CT,Chinese Taipei,1994,Depreciation,0.0488918162882328
+18_CT,Chinese Taipei,1995,Depreciation,0.0489970147609711
+18_CT,Chinese Taipei,1996,Depreciation,0.0491385459899902
+18_CT,Chinese Taipei,1997,Depreciation,0.0495736449956894
+18_CT,Chinese Taipei,1998,Depreciation,0.0503067076206207
+18_CT,Chinese Taipei,1999,Depreciation,0.0510550551116467
+18_CT,Chinese Taipei,2000,Depreciation,0.0518939085304737
+18_CT,Chinese Taipei,2001,Depreciation,0.0524253472685814
+18_CT,Chinese Taipei,2002,Depreciation,0.052430521696806
+18_CT,Chinese Taipei,2003,Depreciation,0.0523935183882713
+18_CT,Chinese Taipei,2004,Depreciation,0.0527130626142025
+18_CT,Chinese Taipei,2005,Depreciation,0.0532840080559254
+18_CT,Chinese Taipei,2006,Depreciation,0.0537483207881451
+18_CT,Chinese Taipei,2007,Depreciation,0.0542128048837185
+18_CT,Chinese Taipei,2008,Depreciation,0.0545832887291908
+18_CT,Chinese Taipei,2009,Depreciation,0.0546572804450989
+18_CT,Chinese Taipei,2010,Depreciation,0.0548872761428356
+18_CT,Chinese Taipei,2011,Depreciation,0.0552551709115505
+18_CT,Chinese Taipei,2012,Depreciation,0.0554392486810684
+18_CT,Chinese Taipei,2013,Depreciation,0.0556525103747845
+18_CT,Chinese Taipei,2014,Depreciation,0.0559752024710178
+18_CT,Chinese Taipei,2015,Depreciation,0.0562955252826214
+18_CT,Chinese Taipei,2016,Depreciation,0.0566626526415348
+18_CT,Chinese Taipei,2017,Depreciation,0.057071965187788
+18_CT,Chinese Taipei,2018,Depreciation,0.0574653446674347
+18_CT,Chinese Taipei,2019,Depreciation,0.0580572560429573
+18_CT,Chinese Taipei,2020,Depreciation,0.0588141493499279
+18_CT,Chinese Taipei,2021,Depreciation,0.0598368719220161
+18_CT,Chinese Taipei,2022,Depreciation,0.0612089335918427
+18_CT,Chinese Taipei,2023,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2024,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2025,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2026,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2027,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2028,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2029,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2030,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2031,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2032,Depreciation,0.0622629299759865
+18_CT,Chinese Taipei,2033,Depreciation,0.0620629299759865
+18_CT,Chinese Taipei,2034,Depreciation,0.061862929975986504
+18_CT,Chinese Taipei,2035,Depreciation,0.061662929975986505
+18_CT,Chinese Taipei,2036,Depreciation,0.061462929975986506
+18_CT,Chinese Taipei,2037,Depreciation,0.06126292997598651
+18_CT,Chinese Taipei,2038,Depreciation,0.06106292997598651
+18_CT,Chinese Taipei,2039,Depreciation,0.06086292997598651
+18_CT,Chinese Taipei,2040,Depreciation,0.06066292997598651
+18_CT,Chinese Taipei,2041,Depreciation,0.06046292997598651
+18_CT,Chinese Taipei,2042,Depreciation,0.060262929975986514
+18_CT,Chinese Taipei,2043,Depreciation,0.060062929975986515
+18_CT,Chinese Taipei,2044,Depreciation,0.059862929975986516
+18_CT,Chinese Taipei,2045,Depreciation,0.05966292997598652
+18_CT,Chinese Taipei,2046,Depreciation,0.05946292997598652
+18_CT,Chinese Taipei,2047,Depreciation,0.05926292997598652
+18_CT,Chinese Taipei,2048,Depreciation,0.05906292997598652
+18_CT,Chinese Taipei,2049,Depreciation,0.05886292997598652
+18_CT,Chinese Taipei,2050,Depreciation,0.05866292997598652
+18_CT,Chinese Taipei,2051,Depreciation,0.058462929975986525
+18_CT,Chinese Taipei,2052,Depreciation,0.058262929975986526
+18_CT,Chinese Taipei,2053,Depreciation,0.05806292997598653
+18_CT,Chinese Taipei,2054,Depreciation,0.05786292997598653
+18_CT,Chinese Taipei,2055,Depreciation,0.05766292997598653
+18_CT,Chinese Taipei,2056,Depreciation,0.05746292997598653
+18_CT,Chinese Taipei,2057,Depreciation,0.05726292997598653
+18_CT,Chinese Taipei,2058,Depreciation,0.05706292997598653
+18_CT,Chinese Taipei,2059,Depreciation,0.056862929975986534
+18_CT,Chinese Taipei,2060,Depreciation,0.056662929975986535
+18_CT,Chinese Taipei,2061,Depreciation,0.05646292997598654
+18_CT,Chinese Taipei,2062,Depreciation,0.05626292997598654
+18_CT,Chinese Taipei,2063,Depreciation,0.05606292997598654
+18_CT,Chinese Taipei,2064,Depreciation,0.05586292997598654
+18_CT,Chinese Taipei,2065,Depreciation,0.05566292997598654
+18_CT,Chinese Taipei,2066,Depreciation,0.05546292997598654
+18_CT,Chinese Taipei,2067,Depreciation,0.055262929975986544
+18_CT,Chinese Taipei,2068,Depreciation,0.055062929975986545
+18_CT,Chinese Taipei,2069,Depreciation,0.054862929975986546
+18_CT,Chinese Taipei,2070,Depreciation,0.05466292997598655
+18_CT,Chinese Taipei,2071,Depreciation,0.05446292997598655
+18_CT,Chinese Taipei,2072,Depreciation,0.05426292997598655
+18_CT,Chinese Taipei,2073,Depreciation,0.05406292997598655
+18_CT,Chinese Taipei,2074,Depreciation,0.05386292997598655
+18_CT,Chinese Taipei,2075,Depreciation,0.053662929975986554
+18_CT,Chinese Taipei,2076,Depreciation,0.053462929975986555
+18_CT,Chinese Taipei,2077,Depreciation,0.053262929975986556
+18_CT,Chinese Taipei,2078,Depreciation,0.05306292997598656
+18_CT,Chinese Taipei,2079,Depreciation,0.05286292997598656
+18_CT,Chinese Taipei,2080,Depreciation,0.05266292997598656
+18_CT,Chinese Taipei,2081,Depreciation,0.05246292997598656
+18_CT,Chinese Taipei,2082,Depreciation,0.05226292997598656
+18_CT,Chinese Taipei,2083,Depreciation,0.05206292997598656
+18_CT,Chinese Taipei,2084,Depreciation,0.051862929975986564
+18_CT,Chinese Taipei,2085,Depreciation,0.051662929975986566
+18_CT,Chinese Taipei,2086,Depreciation,0.05146292997598657
+18_CT,Chinese Taipei,2087,Depreciation,0.05126292997598657
+18_CT,Chinese Taipei,2088,Depreciation,0.05106292997598657
+18_CT,Chinese Taipei,2089,Depreciation,0.05086292997598657
+18_CT,Chinese Taipei,2090,Depreciation,0.05066292997598657
+18_CT,Chinese Taipei,2091,Depreciation,0.05046292997598657
+18_CT,Chinese Taipei,2092,Depreciation,0.050262929975986574
+18_CT,Chinese Taipei,2093,Depreciation,0.050062929975986575
+18_CT,Chinese Taipei,2094,Depreciation,0.04986292997598658
+18_CT,Chinese Taipei,2095,Depreciation,0.04966292997598658
+18_CT,Chinese Taipei,2096,Depreciation,0.04946292997598658
+18_CT,Chinese Taipei,2097,Depreciation,0.04926292997598658
+18_CT,Chinese Taipei,2098,Depreciation,0.04906292997598658
+18_CT,Chinese Taipei,2099,Depreciation,0.04886292997598658
+18_CT,Chinese Taipei,2100,Depreciation,0.048662929975986584
+18_CT,Chinese Taipei,1990,IMF GDP through 2031,366441.497138
+18_CT,Chinese Taipei,1991,IMF GDP through 2031,397129.155606
+18_CT,Chinese Taipei,1992,IMF GDP through 2031,430137.743751
+18_CT,Chinese Taipei,1993,IMF GDP through 2031,459432.78719
+18_CT,Chinese Taipei,1994,IMF GDP through 2031,493921.744844
+18_CT,Chinese Taipei,1995,IMF GDP through 2031,526007.831958
+18_CT,Chinese Taipei,1996,IMF GDP through 2031,558497.228625
+18_CT,Chinese Taipei,1997,IMF GDP through 2031,592311.2169809999
+18_CT,Chinese Taipei,1998,IMF GDP through 2031,617223.019612
+18_CT,Chinese Taipei,1999,IMF GDP through 2031,658750.5450119999
+18_CT,Chinese Taipei,2000,IMF GDP through 2031,700368.407437
+18_CT,Chinese Taipei,2001,IMF GDP through 2031,690553.3457139999
+18_CT,Chinese Taipei,2002,IMF GDP through 2031,728414.26938
+18_CT,Chinese Taipei,2003,IMF GDP through 2031,759193.98852
+18_CT,Chinese Taipei,2004,IMF GDP through 2031,811952.0481060001
+18_CT,Chinese Taipei,2005,IMF GDP through 2031,855651.4243200001
+18_CT,Chinese Taipei,2006,IMF GDP through 2031,905060.125647
+18_CT,Chinese Taipei,2007,IMF GDP through 2031,967022.389502
+18_CT,Chinese Taipei,2008,IMF GDP through 2031,974760.273081
+18_CT,Chinese Taipei,2009,IMF GDP through 2031,959041.85288
+18_CT,Chinese Taipei,2010,IMF GDP through 2031,1057282.461494
+18_CT,Chinese Taipei,2011,IMF GDP through 2031,1096127.2858000002
+18_CT,Chinese Taipei,2012,IMF GDP through 2031,1120475.56128
+18_CT,Chinese Taipei,2013,IMF GDP through 2031,1148313.127078
+18_CT,Chinese Taipei,2014,IMF GDP through 2031,1202486.862746
+18_CT,Chinese Taipei,2015,IMF GDP through 2031,1220088.898644
+18_CT,Chinese Taipei,2016,IMF GDP through 2031,1246517.59826
+18_CT,Chinese Taipei,2017,IMF GDP through 2031,1292138.861139
+18_CT,Chinese Taipei,2018,IMF GDP through 2031,1329698.413503
+18_CT,Chinese Taipei,2019,IMF GDP through 2031,1370313.777089
+18_CT,Chinese Taipei,2020,IMF GDP through 2031,1417175.254078
+18_CT,Chinese Taipei,2021,IMF GDP through 2031,1512408.876
+18_CT,Chinese Taipei,2022,IMF GDP through 2031,1553039.7201
+18_CT,Chinese Taipei,2023,IMF GDP through 2031,1569835.73794
+18_CT,Chinese Taipei,2024,IMF GDP through 2031,1652536.0098
+18_CT,Chinese Taipei,2025,IMF GDP through 2031,1795919.7249919998
+18_CT,Chinese Taipei,2026,IMF GDP through 2031,1888935.101928
+18_CT,Chinese Taipei,2027,IMF GDP through 2031,1945043.706066
+18_CT,Chinese Taipei,2028,IMF GDP through 2031,1992677.69361
+18_CT,Chinese Taipei,2029,IMF GDP through 2031,2039940.217851
+18_CT,Chinese Taipei,2030,IMF GDP through 2031,2089334.0196
+18_CT,Chinese Taipei,2031,IMF GDP through 2031,2133774.9871340003
+18_CT,Chinese Taipei,2032,IMF GDP through 2031,
+18_CT,Chinese Taipei,2033,IMF GDP through 2031,
+18_CT,Chinese Taipei,2034,IMF GDP through 2031,
+18_CT,Chinese Taipei,2035,IMF GDP through 2031,
+18_CT,Chinese Taipei,2036,IMF GDP through 2031,
+18_CT,Chinese Taipei,2037,IMF GDP through 2031,
+18_CT,Chinese Taipei,2038,IMF GDP through 2031,
+18_CT,Chinese Taipei,2039,IMF GDP through 2031,
+18_CT,Chinese Taipei,2040,IMF GDP through 2031,
+18_CT,Chinese Taipei,2041,IMF GDP through 2031,
+18_CT,Chinese Taipei,2042,IMF GDP through 2031,
+18_CT,Chinese Taipei,2043,IMF GDP through 2031,
+18_CT,Chinese Taipei,2044,IMF GDP through 2031,
+18_CT,Chinese Taipei,2045,IMF GDP through 2031,
+18_CT,Chinese Taipei,2046,IMF GDP through 2031,
+18_CT,Chinese Taipei,2047,IMF GDP through 2031,
+18_CT,Chinese Taipei,2048,IMF GDP through 2031,
+18_CT,Chinese Taipei,2049,IMF GDP through 2031,
+18_CT,Chinese Taipei,2050,IMF GDP through 2031,
+18_CT,Chinese Taipei,2051,IMF GDP through 2031,
+18_CT,Chinese Taipei,2052,IMF GDP through 2031,
+18_CT,Chinese Taipei,2053,IMF GDP through 2031,
+18_CT,Chinese Taipei,2054,IMF GDP through 2031,
+18_CT,Chinese Taipei,2055,IMF GDP through 2031,
+18_CT,Chinese Taipei,2056,IMF GDP through 2031,
+18_CT,Chinese Taipei,2057,IMF GDP through 2031,
+18_CT,Chinese Taipei,2058,IMF GDP through 2031,
+18_CT,Chinese Taipei,2059,IMF GDP through 2031,
+18_CT,Chinese Taipei,2060,IMF GDP through 2031,
+18_CT,Chinese Taipei,2061,IMF GDP through 2031,
+18_CT,Chinese Taipei,2062,IMF GDP through 2031,
+18_CT,Chinese Taipei,2063,IMF GDP through 2031,
+18_CT,Chinese Taipei,2064,IMF GDP through 2031,
+18_CT,Chinese Taipei,2065,IMF GDP through 2031,
+18_CT,Chinese Taipei,2066,IMF GDP through 2031,
+18_CT,Chinese Taipei,2067,IMF GDP through 2031,
+18_CT,Chinese Taipei,2068,IMF GDP through 2031,
+18_CT,Chinese Taipei,2069,IMF GDP through 2031,
+18_CT,Chinese Taipei,2070,IMF GDP through 2031,
+18_CT,Chinese Taipei,2071,IMF GDP through 2031,
+18_CT,Chinese Taipei,2072,IMF GDP through 2031,
+18_CT,Chinese Taipei,2073,IMF GDP through 2031,
+18_CT,Chinese Taipei,2074,IMF GDP through 2031,
+18_CT,Chinese Taipei,2075,IMF GDP through 2031,
+18_CT,Chinese Taipei,2076,IMF GDP through 2031,
+18_CT,Chinese Taipei,2077,IMF GDP through 2031,
+18_CT,Chinese Taipei,2078,IMF GDP through 2031,
+18_CT,Chinese Taipei,2079,IMF GDP through 2031,
+18_CT,Chinese Taipei,2080,IMF GDP through 2031,
+18_CT,Chinese Taipei,2081,IMF GDP through 2031,
+18_CT,Chinese Taipei,2082,IMF GDP through 2031,
+18_CT,Chinese Taipei,2083,IMF GDP through 2031,
+18_CT,Chinese Taipei,2084,IMF GDP through 2031,
+18_CT,Chinese Taipei,2085,IMF GDP through 2031,
+18_CT,Chinese Taipei,2086,IMF GDP through 2031,
+18_CT,Chinese Taipei,2087,IMF GDP through 2031,
+18_CT,Chinese Taipei,2088,IMF GDP through 2031,
+18_CT,Chinese Taipei,2089,IMF GDP through 2031,
+18_CT,Chinese Taipei,2090,IMF GDP through 2031,
+18_CT,Chinese Taipei,2091,IMF GDP through 2031,
+18_CT,Chinese Taipei,2092,IMF GDP through 2031,
+18_CT,Chinese Taipei,2093,IMF GDP through 2031,
+18_CT,Chinese Taipei,2094,IMF GDP through 2031,
+18_CT,Chinese Taipei,2095,IMF GDP through 2031,
+18_CT,Chinese Taipei,2096,IMF GDP through 2031,
+18_CT,Chinese Taipei,2097,IMF GDP through 2031,
+18_CT,Chinese Taipei,2098,IMF GDP through 2031,
+18_CT,Chinese Taipei,2099,IMF GDP through 2031,
+18_CT,Chinese Taipei,2100,IMF GDP through 2031,
+18_CT,Chinese Taipei,1990,APERC GDP projections,
+18_CT,Chinese Taipei,1991,APERC GDP projections,
+18_CT,Chinese Taipei,1992,APERC GDP projections,
+18_CT,Chinese Taipei,1993,APERC GDP projections,
+18_CT,Chinese Taipei,1994,APERC GDP projections,
+18_CT,Chinese Taipei,1995,APERC GDP projections,
+18_CT,Chinese Taipei,1996,APERC GDP projections,
+18_CT,Chinese Taipei,1997,APERC GDP projections,
+18_CT,Chinese Taipei,1998,APERC GDP projections,
+18_CT,Chinese Taipei,1999,APERC GDP projections,
+18_CT,Chinese Taipei,2000,APERC GDP projections,
+18_CT,Chinese Taipei,2001,APERC GDP projections,
+18_CT,Chinese Taipei,2002,APERC GDP projections,
+18_CT,Chinese Taipei,2003,APERC GDP projections,
+18_CT,Chinese Taipei,2004,APERC GDP projections,
+18_CT,Chinese Taipei,2005,APERC GDP projections,
+18_CT,Chinese Taipei,2006,APERC GDP projections,
+18_CT,Chinese Taipei,2007,APERC GDP projections,
+18_CT,Chinese Taipei,2008,APERC GDP projections,
+18_CT,Chinese Taipei,2009,APERC GDP projections,
+18_CT,Chinese Taipei,2010,APERC GDP projections,
+18_CT,Chinese Taipei,2011,APERC GDP projections,
+18_CT,Chinese Taipei,2012,APERC GDP projections,
+18_CT,Chinese Taipei,2013,APERC GDP projections,
+18_CT,Chinese Taipei,2014,APERC GDP projections,
+18_CT,Chinese Taipei,2015,APERC GDP projections,
+18_CT,Chinese Taipei,2016,APERC GDP projections,
+18_CT,Chinese Taipei,2017,APERC GDP projections,
+18_CT,Chinese Taipei,2018,APERC GDP projections,
+18_CT,Chinese Taipei,2019,APERC GDP projections,
+18_CT,Chinese Taipei,2020,APERC GDP projections,
+18_CT,Chinese Taipei,2021,APERC GDP projections,
+18_CT,Chinese Taipei,2022,APERC GDP projections,
+18_CT,Chinese Taipei,2023,APERC GDP projections,
+18_CT,Chinese Taipei,2024,APERC GDP projections,
+18_CT,Chinese Taipei,2025,APERC GDP projections,
+18_CT,Chinese Taipei,2026,APERC GDP projections,
+18_CT,Chinese Taipei,2027,APERC GDP projections,
+18_CT,Chinese Taipei,2028,APERC GDP projections,
+18_CT,Chinese Taipei,2029,APERC GDP projections,
+18_CT,Chinese Taipei,2030,APERC GDP projections,
+18_CT,Chinese Taipei,2031,APERC GDP projections,
+18_CT,Chinese Taipei,2032,APERC GDP projections,2193742.8860146245
+18_CT,Chinese Taipei,2033,APERC GDP projections,2255487.4565885714
+18_CT,Chinese Taipei,2034,APERC GDP projections,2321868.410426345
+18_CT,Chinese Taipei,2035,APERC GDP projections,2387212.6731152893
+18_CT,Chinese Taipei,2036,APERC GDP projections,2445965.5296934554
+18_CT,Chinese Taipei,2037,APERC GDP projections,2501846.8603403545
+18_CT,Chinese Taipei,2038,APERC GDP projections,2557446.1286975145
+18_CT,Chinese Taipei,2039,APERC GDP projections,2613718.132600567
+18_CT,Chinese Taipei,2040,APERC GDP projections,2670697.156790868
+18_CT,Chinese Taipei,2041,APERC GDP projections,2728594.359881311
+18_CT,Chinese Taipei,2042,APERC GDP projections,2787921.495771352
+18_CT,Chinese Taipei,2043,APERC GDP projections,2846862.5193109354
+18_CT,Chinese Taipei,2044,APERC GDP projections,2905260.972121327
+18_CT,Chinese Taipei,2045,APERC GDP projections,2962586.0562801007
+18_CT,Chinese Taipei,2046,APERC GDP projections,3018570.5194566404
+18_CT,Chinese Taipei,2047,APERC GDP projections,3074516.9200664056
+18_CT,Chinese Taipei,2048,APERC GDP projections,3130198.3142584153
+18_CT,Chinese Taipei,2049,APERC GDP projections,3186081.232328179
+18_CT,Chinese Taipei,2050,APERC GDP projections,3241677.08806883
+18_CT,Chinese Taipei,2051,APERC GDP projections,3297268.121783744
+18_CT,Chinese Taipei,2052,APERC GDP projections,3352746.896559569
+18_CT,Chinese Taipei,2053,APERC GDP projections,3407780.7371211713
+18_CT,Chinese Taipei,2054,APERC GDP projections,3462248.101253881
+18_CT,Chinese Taipei,2055,APERC GDP projections,3516117.8286822275
+18_CT,Chinese Taipei,2056,APERC GDP projections,3569632.3604994207
+18_CT,Chinese Taipei,2057,APERC GDP projections,3623210.786752703
+18_CT,Chinese Taipei,2058,APERC GDP projections,3676278.2163743125
+18_CT,Chinese Taipei,2059,APERC GDP projections,3729182.2711526826
+18_CT,Chinese Taipei,2060,APERC GDP projections,3781629.4797135275
+18_CT,Chinese Taipei,2061,APERC GDP projections,3833735.276850142
+18_CT,Chinese Taipei,2062,APERC GDP projections,3885514.2416501227
+18_CT,Chinese Taipei,2063,APERC GDP projections,3937209.868308098
+18_CT,Chinese Taipei,2064,APERC GDP projections,3989098.819833645
+18_CT,Chinese Taipei,2065,APERC GDP projections,4040895.690746632
+18_CT,Chinese Taipei,2066,APERC GDP projections,4092835.9925611303
+18_CT,Chinese Taipei,2067,APERC GDP projections,4145034.6198179605
+18_CT,Chinese Taipei,2068,APERC GDP projections,4197196.977904563
+18_CT,Chinese Taipei,2069,APERC GDP projections,4249460.9861912625
+18_CT,Chinese Taipei,2070,APERC GDP projections,4302159.599141789
+18_CT,Chinese Taipei,2071,APERC GDP projections,4354890.23103396
+18_CT,Chinese Taipei,2072,APERC GDP projections,4407510.7689553695
+18_CT,Chinese Taipei,2073,APERC GDP projections,4460137.770847191
+18_CT,Chinese Taipei,2074,APERC GDP projections,4513197.342652709
+18_CT,Chinese Taipei,2075,APERC GDP projections,4566371.658792281
+18_CT,Chinese Taipei,2076,APERC GDP projections,4619802.000254994
+18_CT,Chinese Taipei,2077,APERC GDP projections,4673789.761555644
+18_CT,Chinese Taipei,2078,APERC GDP projections,4728015.293560783
+18_CT,Chinese Taipei,2079,APERC GDP projections,4782506.27317608
+18_CT,Chinese Taipei,2080,APERC GDP projections,4837613.920529716
+18_CT,Chinese Taipei,2081,APERC GDP projections,4893460.229156717
+18_CT,Chinese Taipei,2082,APERC GDP projections,4949752.265962004
+18_CT,Chinese Taipei,2083,APERC GDP projections,5006889.658001432
+18_CT,Chinese Taipei,2084,APERC GDP projections,5064578.56855177
+18_CT,Chinese Taipei,2085,APERC GDP projections,5122701.948701069
+18_CT,Chinese Taipei,2086,APERC GDP projections,5181741.715940144
+18_CT,Chinese Taipei,2087,APERC GDP projections,5241651.847296818
+18_CT,Chinese Taipei,2088,APERC GDP projections,5302080.052810942
+18_CT,Chinese Taipei,2089,APERC GDP projections,5362905.64739615
+18_CT,Chinese Taipei,2090,APERC GDP projections,5424502.353837749
+18_CT,Chinese Taipei,2091,APERC GDP projections,5486485.006377519
+18_CT,Chinese Taipei,2092,APERC GDP projections,5549444.915989025
+18_CT,Chinese Taipei,2093,APERC GDP projections,5613116.035098274
+18_CT,Chinese Taipei,2094,APERC GDP projections,5677412.6013411535
+18_CT,Chinese Taipei,2095,APERC GDP projections,5742278.805910168
+18_CT,Chinese Taipei,2096,APERC GDP projections,5807834.919074937
+18_CT,Chinese Taipei,2097,APERC GDP projections,5874133.818237765
+18_CT,Chinese Taipei,2098,APERC GDP projections,5940930.497958215
+18_CT,Chinese Taipei,2099,APERC GDP projections,6008414.4003914315
+18_CT,Chinese Taipei,2100,APERC GDP projections,6076614.077831477
+18_CT,Chinese Taipei,1990,9th Outlook projections (rebased to 2021 PPP USD),368812.0573048219
+18_CT,Chinese Taipei,1991,9th Outlook projections (rebased to 2021 PPP USD),399697.25595351687
+18_CT,Chinese Taipei,1992,9th Outlook projections (rebased to 2021 PPP USD),432917.4431387128
+18_CT,Chinese Taipei,1993,9th Outlook projections (rebased to 2021 PPP USD),462398.53217652254
+18_CT,Chinese Taipei,1994,9th Outlook projections (rebased to 2021 PPP USD),497104.83219725743
+18_CT,Chinese Taipei,1995,9th Outlook projections (rebased to 2021 PPP USD),529395.3178915484
+18_CT,Chinese Taipei,1996,9th Outlook projections (rebased to 2021 PPP USD),562094.2720288082
+18_CT,Chinese Taipei,1997,9th Outlook projections (rebased to 2021 PPP USD),596125.4742339327
+18_CT,Chinese Taipei,1998,9th Outlook projections (rebased to 2021 PPP USD),621197.9855364126
+18_CT,Chinese Taipei,1999,9th Outlook projections (rebased to 2021 PPP USD),662993.0578774413
+18_CT,Chinese Taipei,2000,9th Outlook projections (rebased to 2021 PPP USD),704879.7817889776
+18_CT,Chinese Taipei,2001,9th Outlook projections (rebased to 2021 PPP USD),695003.8422181174
+18_CT,Chinese Taipei,2002,9th Outlook projections (rebased to 2021 PPP USD),733092.8342981817
+18_CT,Chinese Taipei,2003,9th Outlook projections (rebased to 2021 PPP USD),764070.72084677
+18_CT,Chinese Taipei,2004,9th Outlook projections (rebased to 2021 PPP USD),817165.6192343051
+18_CT,Chinese Taipei,2005,9th Outlook projections (rebased to 2021 PPP USD),861146.9987824006
+18_CT,Chinese Taipei,2006,9th Outlook projections (rebased to 2021 PPP USD),910874.4693939717
+18_CT,Chinese Taipei,2007,9th Outlook projections (rebased to 2021 PPP USD),973239.2524765367
+18_CT,Chinese Taipei,2008,9th Outlook projections (rebased to 2021 PPP USD),981030.3787283291
+18_CT,Chinese Taipei,2009,9th Outlook projections (rebased to 2021 PPP USD),965217.798685495
+18_CT,Chinese Taipei,2010,9th Outlook projections (rebased to 2021 PPP USD),1064092.438285152
+18_CT,Chinese Taipei,2011,9th Outlook projections (rebased to 2021 PPP USD),1103197.5595818823
+18_CT,Chinese Taipei,2012,9th Outlook projections (rebased to 2021 PPP USD),1127709.5524632465
+18_CT,Chinese Taipei,2013,9th Outlook projections (rebased to 2021 PPP USD),1155732.774944884
+18_CT,Chinese Taipei,2014,9th Outlook projections (rebased to 2021 PPP USD),1210262.2705479963
+18_CT,Chinese Taipei,2015,9th Outlook projections (rebased to 2021 PPP USD),1227984.8890246132
+18_CT,Chinese Taipei,2016,9th Outlook projections (rebased to 2021 PPP USD),1254585.7160012112
+18_CT,Chinese Taipei,2017,9th Outlook projections (rebased to 2021 PPP USD),1296107.322367856
+18_CT,Chinese Taipei,2018,9th Outlook projections (rebased to 2021 PPP USD),1332243.2638323286
+18_CT,Chinese Taipei,2019,9th Outlook projections (rebased to 2021 PPP USD),1373051.7001463783
+18_CT,Chinese Taipei,2020,9th Outlook projections (rebased to 2021 PPP USD),1419166.4219305802
+18_CT,Chinese Taipei,2021,9th Outlook projections (rebased to 2021 PPP USD),1512408.876
+18_CT,Chinese Taipei,2022,9th Outlook projections (rebased to 2021 PPP USD),1562507.290572872
+18_CT,Chinese Taipei,2023,9th Outlook projections (rebased to 2021 PPP USD),1606918.743414963
+18_CT,Chinese Taipei,2024,9th Outlook projections (rebased to 2021 PPP USD),1641154.378087411
+18_CT,Chinese Taipei,2025,9th Outlook projections (rebased to 2021 PPP USD),1674116.1901646634
+18_CT,Chinese Taipei,2026,9th Outlook projections (rebased to 2021 PPP USD),1707648.2877001632
+18_CT,Chinese Taipei,2027,9th Outlook projections (rebased to 2021 PPP USD),1741856.954770969
+18_CT,Chinese Taipei,2028,9th Outlook projections (rebased to 2021 PPP USD),1782313.3394323816
+18_CT,Chinese Taipei,2029,9th Outlook projections (rebased to 2021 PPP USD),1823092.1412658154
+18_CT,Chinese Taipei,2030,9th Outlook projections (rebased to 2021 PPP USD),1864278.7284897966
+18_CT,Chinese Taipei,2031,9th Outlook projections (rebased to 2021 PPP USD),1905180.316305835
+18_CT,Chinese Taipei,2032,9th Outlook projections (rebased to 2021 PPP USD),1942020.8794725037
+18_CT,Chinese Taipei,2033,9th Outlook projections (rebased to 2021 PPP USD),1977200.3660724536
+18_CT,Chinese Taipei,2034,9th Outlook projections (rebased to 2021 PPP USD),2011516.2272690125
+18_CT,Chinese Taipei,2035,9th Outlook projections (rebased to 2021 PPP USD),2045741.006993392
+18_CT,Chinese Taipei,2036,9th Outlook projections (rebased to 2021 PPP USD),2079971.183097712
+18_CT,Chinese Taipei,2037,9th Outlook projections (rebased to 2021 PPP USD),2114216.8255746323
+18_CT,Chinese Taipei,2038,9th Outlook projections (rebased to 2021 PPP USD),2148556.6617094637
+18_CT,Chinese Taipei,2039,9th Outlook projections (rebased to 2021 PPP USD),2182083.774432959
+18_CT,Chinese Taipei,2040,9th Outlook projections (rebased to 2021 PPP USD),2214713.0762527827
+18_CT,Chinese Taipei,2041,9th Outlook projections (rebased to 2021 PPP USD),2246319.3352743583
+18_CT,Chinese Taipei,2042,9th Outlook projections (rebased to 2021 PPP USD),2276815.472948345
+18_CT,Chinese Taipei,2043,9th Outlook projections (rebased to 2021 PPP USD),2306612.27500897
+18_CT,Chinese Taipei,2044,9th Outlook projections (rebased to 2021 PPP USD),2335804.207642937
+18_CT,Chinese Taipei,2045,9th Outlook projections (rebased to 2021 PPP USD),2364465.3711573
+18_CT,Chinese Taipei,2046,9th Outlook projections (rebased to 2021 PPP USD),2392540.5475435033
+18_CT,Chinese Taipei,2047,9th Outlook projections (rebased to 2021 PPP USD),2419937.2859498765
+18_CT,Chinese Taipei,2048,9th Outlook projections (rebased to 2021 PPP USD),2446670.5914621735
+18_CT,Chinese Taipei,2049,9th Outlook projections (rebased to 2021 PPP USD),2472539.4787180093
+18_CT,Chinese Taipei,2050,9th Outlook projections (rebased to 2021 PPP USD),2497622.3341307486
+18_CT,Chinese Taipei,2051,9th Outlook projections (rebased to 2021 PPP USD),2521948.565994903
+18_CT,Chinese Taipei,2052,9th Outlook projections (rebased to 2021 PPP USD),2545563.4133521006
+18_CT,Chinese Taipei,2053,9th Outlook projections (rebased to 2021 PPP USD),2568455.0618378767
+18_CT,Chinese Taipei,2054,9th Outlook projections (rebased to 2021 PPP USD),2590681.8896426708
+18_CT,Chinese Taipei,2055,9th Outlook projections (rebased to 2021 PPP USD),2612170.0141682974
+18_CT,Chinese Taipei,2056,9th Outlook projections (rebased to 2021 PPP USD),2632876.7215923443
+18_CT,Chinese Taipei,2057,9th Outlook projections (rebased to 2021 PPP USD),2652774.1557134246
+18_CT,Chinese Taipei,2058,9th Outlook projections (rebased to 2021 PPP USD),2671824.2444705553
+18_CT,Chinese Taipei,2059,9th Outlook projections (rebased to 2021 PPP USD),2690013.690407767
+18_CT,Chinese Taipei,2060,9th Outlook projections (rebased to 2021 PPP USD),2707332.8616015003
+18_CT,Chinese Taipei,2061,9th Outlook projections (rebased to 2021 PPP USD),2723783.898306472
+18_CT,Chinese Taipei,2062,9th Outlook projections (rebased to 2021 PPP USD),2739397.4455187507
+18_CT,Chinese Taipei,2063,9th Outlook projections (rebased to 2021 PPP USD),2754127.1282017594
+18_CT,Chinese Taipei,2064,9th Outlook projections (rebased to 2021 PPP USD),2768018.7937765513
+18_CT,Chinese Taipei,2065,9th Outlook projections (rebased to 2021 PPP USD),2781084.1186927073
+18_CT,Chinese Taipei,2066,9th Outlook projections (rebased to 2021 PPP USD),2793277.651807786
+18_CT,Chinese Taipei,2067,9th Outlook projections (rebased to 2021 PPP USD),2804614.705691185
+18_CT,Chinese Taipei,2068,9th Outlook projections (rebased to 2021 PPP USD),2815138.36209713
+18_CT,Chinese Taipei,2069,9th Outlook projections (rebased to 2021 PPP USD),2824832.068076425
+18_CT,Chinese Taipei,2070,9th Outlook projections (rebased to 2021 PPP USD),2833691.0439865133
+18_CT,Chinese Taipei,2071,9th Outlook projections (rebased to 2021 PPP USD),2841810.541113422
+18_CT,Chinese Taipei,2072,9th Outlook projections (rebased to 2021 PPP USD),2849164.514425517
+18_CT,Chinese Taipei,2073,9th Outlook projections (rebased to 2021 PPP USD),2855772.9172193836
+18_CT,Chinese Taipei,2074,9th Outlook projections (rebased to 2021 PPP USD),2861610.4789534737
+18_CT,Chinese Taipei,2075,9th Outlook projections (rebased to 2021 PPP USD),2866725.0249609943
+18_CT,Chinese Taipei,2076,9th Outlook projections (rebased to 2021 PPP USD),2871166.034157429
+18_CT,Chinese Taipei,2077,9th Outlook projections (rebased to 2021 PPP USD),2875030.4124265458
+18_CT,Chinese Taipei,2078,9th Outlook projections (rebased to 2021 PPP USD),2878350.652655531
+18_CT,Chinese Taipei,2079,9th Outlook projections (rebased to 2021 PPP USD),2881169.948588668
+18_CT,Chinese Taipei,2080,9th Outlook projections (rebased to 2021 PPP USD),2883544.229020525
+18_CT,Chinese Taipei,2081,9th Outlook projections (rebased to 2021 PPP USD),2885484.0086493515
+18_CT,Chinese Taipei,2082,9th Outlook projections (rebased to 2021 PPP USD),2887077.412233753
+18_CT,Chinese Taipei,2083,9th Outlook projections (rebased to 2021 PPP USD),2888326.210428775
+18_CT,Chinese Taipei,2084,9th Outlook projections (rebased to 2021 PPP USD),2889238.5648823343
+18_CT,Chinese Taipei,2085,9th Outlook projections (rebased to 2021 PPP USD),2889917.916053048
+18_CT,Chinese Taipei,2086,9th Outlook projections (rebased to 2021 PPP USD),2890352.56272002
+18_CT,Chinese Taipei,2087,9th Outlook projections (rebased to 2021 PPP USD),2890487.5426890887
+18_CT,Chinese Taipei,2088,9th Outlook projections (rebased to 2021 PPP USD),2890426.246801878
+18_CT,Chinese Taipei,2089,9th Outlook projections (rebased to 2021 PPP USD),2890124.4115378927
+18_CT,Chinese Taipei,2090,9th Outlook projections (rebased to 2021 PPP USD),2889587.846081469
+18_CT,Chinese Taipei,2091,9th Outlook projections (rebased to 2021 PPP USD),2888895.247539103
+18_CT,Chinese Taipei,2092,9th Outlook projections (rebased to 2021 PPP USD),2887918.812452649
+18_CT,Chinese Taipei,2093,9th Outlook projections (rebased to 2021 PPP USD),2886746.040887842
+18_CT,Chinese Taipei,2094,9th Outlook projections (rebased to 2021 PPP USD),2885424.038171673
+18_CT,Chinese Taipei,2095,9th Outlook projections (rebased to 2021 PPP USD),2884266.101244454
+18_CT,Chinese Taipei,2096,9th Outlook projections (rebased to 2021 PPP USD),2883241.1504056323
+18_CT,Chinese Taipei,2097,9th Outlook projections (rebased to 2021 PPP USD),2882381.3512886963
+18_CT,Chinese Taipei,2098,9th Outlook projections (rebased to 2021 PPP USD),2881705.3697785097
+18_CT,Chinese Taipei,2099,9th Outlook projections (rebased to 2021 PPP USD),2881309.295098371
+18_CT,Chinese Taipei,2100,9th Outlook projections (rebased to 2021 PPP USD),2881127.1899189935

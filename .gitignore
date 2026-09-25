@@ -52,6 +52,5 @@ Thumbs.db
 *.svg
 *.webp
 
-results/sensitivity/*
 results/labour_efficiency/*
 results/GDP_estimates/*

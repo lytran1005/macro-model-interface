@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+06_HKC,"Hong Kong, China",1990,Population,5552.387
+06_HKC,"Hong Kong, China",1991,Population,5568.807
+06_HKC,"Hong Kong, China",1992,Population,5687.381
+06_HKC,"Hong Kong, China",1993,Population,5831.732
+06_HKC,"Hong Kong, China",1994,Population,5973.294
+06_HKC,"Hong Kong, China",1995,Population,6111.229
+06_HKC,"Hong Kong, China",1996,Population,6242.978
+06_HKC,"Hong Kong, China",1997,Population,6361.95
+06_HKC,"Hong Kong, China",1998,Population,6471.397
+06_HKC,"Hong Kong, China",1999,Population,6571.272
+06_HKC,"Hong Kong, China",2000,Population,6661.777
+06_HKC,"Hong Kong, China",2001,Population,6747.551
+06_HKC,"Hong Kong, China",2002,Population,6800.926
+06_HKC,"Hong Kong, China",2003,Population,6841.891
+06_HKC,"Hong Kong, China",2004,Population,6875.922
+06_HKC,"Hong Kong, China",2005,Population,6900.405
+06_HKC,"Hong Kong, China",2006,Population,6916.567
+06_HKC,"Hong Kong, China",2007,Population,6945.613
+06_HKC,"Hong Kong, China",2008,Population,6997.077
+06_HKC,"Hong Kong, China",2009,Population,7044.3
+06_HKC,"Hong Kong, China",2010,Population,7084.633
+06_HKC,"Hong Kong, China",2011,Population,7118.601
+06_HKC,"Hong Kong, China",2012,Population,7167.338
+06_HKC,"Hong Kong, China",2013,Population,7234.784
+06_HKC,"Hong Kong, China",2014,Population,7293.886
+06_HKC,"Hong Kong, China",2015,Population,7345.115
+06_HKC,"Hong Kong, China",2016,Population,7387.704
+06_HKC,"Hong Kong, China",2017,Population,7428.315
+06_HKC,"Hong Kong, China",2018,Population,7461.468
+06_HKC,"Hong Kong, China",2019,Population,7480.919
+06_HKC,"Hong Kong, China",2020,Population,7490.707
+06_HKC,"Hong Kong, China",2021,Population,7489.764
+06_HKC,"Hong Kong, China",2022,Population,7479.439
+06_HKC,"Hong Kong, China",2023,Population,7452.391
+06_HKC,"Hong Kong, China",2024,Population,7433.078
+06_HKC,"Hong Kong, China",2025,Population,7396.741
+06_HKC,"Hong Kong, China",2026,Population,7395.411
+06_HKC,"Hong Kong, China",2027,Population,7361.793
+06_HKC,"Hong Kong, China",2028,Population,7348.288
+06_HKC,"Hong Kong, China",2029,Population,7301.514
+06_HKC,"Hong Kong, China",2030,Population,7271.722
+06_HKC,"Hong Kong, China",2031,Population,7233.572
+06_HKC,"Hong Kong, China",2032,Population,7189.876
+06_HKC,"Hong Kong, China",2033,Population,7154.466
+06_HKC,"Hong Kong, China",2034,Population,7115.641
+06_HKC,"Hong Kong, China",2035,Population,7084.327
+06_HKC,"Hong Kong, China",2036,Population,7018.925
+06_HKC,"Hong Kong, China",2037,Population,6967.158
+06_HKC,"Hong Kong, China",2038,Population,6939.096
+06_HKC,"Hong Kong, China",2039,Population,6875.544
+06_HKC,"Hong Kong, China",2040,Population,6847.05
+06_HKC,"Hong Kong, China",2041,Population,6786.086
+06_HKC,"Hong Kong, China",2042,Population,6723.591
+06_HKC,"Hong Kong, China",2043,Population,6650.619
+06_HKC,"Hong Kong, China",2044,Population,6595.028
+06_HKC,"Hong Kong, China",2045,Population,6533.18
+06_HKC,"Hong Kong, China",2046,Population,6464.2
+06_HKC,"Hong Kong, China",2047,Population,6391.676
+06_HKC,"Hong Kong, China",2048,Population,6293.804
+06_HKC,"Hong Kong, China",2049,Population,6217.96
+06_HKC,"Hong Kong, China",2050,Population,6130.903
+06_HKC,"Hong Kong, China",2051,Population,6050.335
+06_HKC,"Hong Kong, China",2052,Population,5960.131
+06_HKC,"Hong Kong, China",2053,Population,5873.483
+06_HKC,"Hong Kong, China",2054,Population,5789.445
+06_HKC,"Hong Kong, China",2055,Population,5704.675
+06_HKC,"Hong Kong, China",2056,Population,5615.539
+06_HKC,"Hong Kong, China",2057,Population,5523.368
+06_HKC,"Hong Kong, China",2058,Population,5429.676
+06_HKC,"Hong Kong, China",2059,Population,5334.503
+06_HKC,"Hong Kong, China",2060,Population,5244.451
+06_HKC,"Hong Kong, China",2061,Population,5154.276
+06_HKC,"Hong Kong, China",2062,Population,5061.472
+06_HKC,"Hong Kong, China",2063,Population,4981.411
+06_HKC,"Hong Kong, China",2064,Population,4902.153
+06_HKC,"Hong Kong, China",2065,Population,4812.962
+06_HKC,"Hong Kong, China",2066,Population,4722.629
+06_HKC,"Hong Kong, China",2067,Population,4634.756
+06_HKC,"Hong Kong, China",2068,Population,4542.668
+06_HKC,"Hong Kong, China",2069,Population,4453.93
+06_HKC,"Hong Kong, China",2070,Population,4369.918
+06_HKC,"Hong Kong, China",2071,Population,4280.26
+06_HKC,"Hong Kong, China",2072,Population,4194.309
+06_HKC,"Hong Kong, China",2073,Population,4104.537
+06_HKC,"Hong Kong, China",2074,Population,4014.064
+06_HKC,"Hong Kong, China",2075,Population,3925.636
+06_HKC,"Hong Kong, China",2076,Population,3836.975
+06_HKC,"Hong Kong, China",2077,Population,3749.765
+06_HKC,"Hong Kong, China",2078,Population,3654.157
+06_HKC,"Hong Kong, China",2079,Population,3574.505
+06_HKC,"Hong Kong, China",2080,Population,3489.726
+06_HKC,"Hong Kong, China",2081,Population,3406.698
+06_HKC,"Hong Kong, China",2082,Population,3330.456
+06_HKC,"Hong Kong, China",2083,Population,3254.796
+06_HKC,"Hong Kong, China",2084,Population,3174.972
+06_HKC,"Hong Kong, China",2085,Population,3091.917
+06_HKC,"Hong Kong, China",2086,Population,3010.003
+06_HKC,"Hong Kong, China",2087,Population,2931.31
+06_HKC,"Hong Kong, China",2088,Population,2854.6
+06_HKC,"Hong Kong, China",2089,Population,2783.832
+06_HKC,"Hong Kong, China",2090,Population,2710.845
+06_HKC,"Hong Kong, China",2091,Population,2639.96
+06_HKC,"Hong Kong, China",2092,Population,2573.327
+06_HKC,"Hong Kong, China",2093,Population,2512.767
+06_HKC,"Hong Kong, China",2094,Population,2450.803
+06_HKC,"Hong Kong, China",2095,Population,2385.282
+06_HKC,"Hong Kong, China",2096,Population,2325.474
+06_HKC,"Hong Kong, China",2097,Population,2267.604
+06_HKC,"Hong Kong, China",2098,Population,2210.326
+06_HKC,"Hong Kong, China",2099,Population,2159.23
+06_HKC,"Hong Kong, China",2100,Population,2106.152
+06_HKC,"Hong Kong, China",1990,Labour efficiency,10.720547554362522
+06_HKC,"Hong Kong, China",1991,Labour efficiency,11.238481909994587
+06_HKC,"Hong Kong, China",1992,Labour efficiency,11.656169663138176
+06_HKC,"Hong Kong, China",1993,Labour efficiency,12.07542215065811
+06_HKC,"Hong Kong, China",1994,Labour efficiency,12.43811160528966
+06_HKC,"Hong Kong, China",1995,Labour efficiency,12.10129878814454
+06_HKC,"Hong Kong, China",1996,Labour efficiency,12.140900285821683
+06_HKC,"Hong Kong, China",1997,Labour efficiency,12.341359339985255
+06_HKC,"Hong Kong, China",1998,Labour efficiency,10.571856024407259
+06_HKC,"Hong Kong, China",1999,Labour efficiency,10.59467779843178
+06_HKC,"Hong Kong, China",2000,Labour efficiency,11.51675624794391
+06_HKC,"Hong Kong, China",2001,Labour efficiency,11.195203671865666
+06_HKC,"Hong Kong, China",2002,Labour efficiency,11.188534983780858
+06_HKC,"Hong Kong, China",2003,Labour efficiency,11.472194051084118
+06_HKC,"Hong Kong, China",2004,Labour efficiency,12.865885105104372
+06_HKC,"Hong Kong, China",2005,Labour efficiency,14.158129602687678
+06_HKC,"Hong Kong, China",2006,Labour efficiency,15.498032428802556
+06_HKC,"Hong Kong, China",2007,Labour efficiency,16.8094163378514
+06_HKC,"Hong Kong, China",2008,Labour efficiency,16.986672501311347
+06_HKC,"Hong Kong, China",2009,Labour efficiency,15.960123440190014
+06_HKC,"Hong Kong, China",2010,Labour efficiency,17.410531362113755
+06_HKC,"Hong Kong, China",2011,Labour efficiency,18.39832147294492
+06_HKC,"Hong Kong, China",2012,Labour efficiency,18.44440321179902
+06_HKC,"Hong Kong, China",2013,Labour efficiency,18.938491486267594
+06_HKC,"Hong Kong, China",2014,Labour efficiency,19.3906223418976
+06_HKC,"Hong Kong, China",2015,Labour efficiency,19.79342041637266
+06_HKC,"Hong Kong, China",2016,Labour efficiency,20.17047899431057
+06_HKC,"Hong Kong, China",2017,Labour efficiency,21.094083379119358
+06_HKC,"Hong Kong, China",2018,Labour efficiency,21.74373950428037
+06_HKC,"Hong Kong, China",2019,Labour efficiency,20.944025365811896
+06_HKC,"Hong Kong, China",2020,Labour efficiency,18.620643227099343
+06_HKC,"Hong Kong, China",2021,Labour efficiency,20.55028953757696
+06_HKC,"Hong Kong, China",2022,Labour efficiency,19.257659417288085
+06_HKC,"Hong Kong, China",2023,Labour efficiency,20.235374138168662
+06_HKC,"Hong Kong, China",2024,Labour efficiency,20.821395720947507
+06_HKC,"Hong Kong, China",2025,Labour efficiency,21.65342682923559
+06_HKC,"Hong Kong, China",2026,Labour efficiency,21.931337846427716
+06_HKC,"Hong Kong, China",2027,Labour efficiency,22.199184975928688
+06_HKC,"Hong Kong, China",2028,Labour efficiency,22.395765288466
+06_HKC,"Hong Kong, China",2029,Labour efficiency,22.54494395056959
+06_HKC,"Hong Kong, China",2030,Labour efficiency,22.79305169719127
+06_HKC,"Hong Kong, China",2031,Labour efficiency,23.230651492815092
+06_HKC,"Hong Kong, China",2032,Labour efficiency,23.676652690044723
+06_HKC,"Hong Kong, China",2033,Labour efficiency,24.12569769870896
+06_HKC,"Hong Kong, China",2034,Labour efficiency,24.506528734222492
+06_HKC,"Hong Kong, China",2035,Labour efficiency,24.861084022093397
+06_HKC,"Hong Kong, China",2036,Labour efficiency,25.220768941072834
+06_HKC,"Hong Kong, China",2037,Labour efficiency,25.585657705581543
+06_HKC,"Hong Kong, China",2038,Labour efficiency,25.95582560375885
+06_HKC,"Hong Kong, China",2039,Labour efficiency,26.33134901299699
+06_HKC,"Hong Kong, China",2040,Labour efficiency,26.690752542843246
+06_HKC,"Hong Kong, China",2041,Labour efficiency,27.062119329878588
+06_HKC,"Hong Kong, China",2042,Labour efficiency,27.424350497618352
+06_HKC,"Hong Kong, China",2043,Labour efficiency,27.791430192455447
+06_HKC,"Hong Kong, China",2044,Labour efficiency,28.163423312767225
+06_HKC,"Hong Kong, China",2045,Labour efficiency,28.540395625607097
+06_HKC,"Hong Kong, China",2046,Labour efficiency,28.922413778331904
+06_HKC,"Hong Kong, China",2047,Labour efficiency,29.309545310384934
+06_HKC,"Hong Kong, China",2048,Labour efficiency,29.701858665236653
+06_HKC,"Hong Kong, China",2049,Labour efficiency,30.099423202485273
+06_HKC,"Hong Kong, China",2050,Labour efficiency,30.502309210119268
+06_HKC,"Hong Kong, China",2051,Labour efficiency,30.910587916944053
+06_HKC,"Hong Kong, China",2052,Labour efficiency,31.32433150517497
+06_HKC,"Hong Kong, China",2053,Labour efficiency,31.74361312319886
+06_HKC,"Hong Kong, China",2054,Labour efficiency,32.168506898506415
+06_HKC,"Hong Kong, China",2055,Labour efficiency,32.59908795079767
+06_HKC,"Hong Kong, China",2056,Labour efficiency,33.035432405262895
+06_HKC,"Hong Kong, China",2057,Labour efficiency,33.477617406041254
+06_HKC,"Hong Kong, China",2058,Labour efficiency,33.92572112985961
+06_HKC,"Hong Kong, China",2059,Labour efficiency,34.3798227998539
+06_HKC,"Hong Kong, China",2060,Labour efficiency,34.840002699575486
+06_HKC,"Hong Kong, China",2061,Labour efficiency,35.306342187185024
+06_HKC,"Hong Kong, China",2062,Labour efficiency,35.77892370983627
+06_HKC,"Hong Kong, China",2063,Labour efficiency,36.25783081825246
+06_HKC,"Hong Kong, China",2064,Labour efficiency,36.74314818149776
+06_HKC,"Hong Kong, China",2065,Labour efficiency,37.23496160194648
+06_HKC,"Hong Kong, China",2066,Labour efficiency,37.733358030452614
+06_HKC,"Hong Kong, China",2067,Labour efficiency,38.23842558172243
+06_HKC,"Hong Kong, China",2068,Labour efficiency,38.75025354989286
+06_HKC,"Hong Kong, China",2069,Labour efficiency,39.26893242431834
+06_HKC,"Hong Kong, China",2070,Labour efficiency,39.79455390556907
+06_HKC,"Hong Kong, China",2071,Labour efficiency,40.32721092164328
+06_HKC,"Hong Kong, China",2072,Labour efficiency,40.866997644396605
+06_HKC,"Hong Kong, China",2073,Labour efficiency,41.414009506191334
+06_HKC,"Hong Kong, China",2074,Labour efficiency,41.96834321676849
+06_HKC,"Hong Kong, China",2075,Labour efficiency,42.53009678034578
+06_HKC,"Hong Kong, China",2076,Labour efficiency,43.09936951294439
+06_HKC,"Hong Kong, China",2077,Labour efficiency,43.67626205994771
+06_HKC,"Hong Kong, China",2078,Labour efficiency,44.26087641389505
+06_HKC,"Hong Kong, China",2079,Labour efficiency,44.85331593251358
+06_HKC,"Hong Kong, China",2080,Labour efficiency,45.45368535699161
+06_HKC,"Hong Kong, China",2081,Labour efficiency,46.06209083049644
+06_HKC,"Hong Kong, China",2082,Labour efficiency,46.67863991694009
+06_HKC,"Hong Kong, China",2083,Labour efficiency,47.30344161999625
+06_HKC,"Hong Kong, China",2084,Labour efficiency,47.936606402371694
+06_HKC,"Hong Kong, China",2085,Labour efficiency,48.57824620533573
+06_HKC,"Hong Kong, China",2086,Labour efficiency,49.22847446851099
+06_HKC,"Hong Kong, China",2087,Labour efficiency,49.88740614992915
+06_HKC,"Hong Kong, China",2088,Labour efficiency,50.55515774635513
+06_HKC,"Hong Kong, China",2089,Labour efficiency,51.23184731388326
+06_HKC,"Hong Kong, China",2090,Labour efficiency,51.91759448880921
+06_HKC,"Hong Kong, China",2091,Labour efficiency,52.612520508781245
+06_HKC,"Hong Kong, China",2092,Labour efficiency,53.316748234234616
+06_HKC,"Hong Kong, China",2093,Labour efficiency,54.03040217011283
+06_HKC,"Hong Kong, China",2094,Labour efficiency,54.753608487879696
+06_HKC,"Hong Kong, China",2095,Labour efficiency,55.486495047825976
+06_HKC,"Hong Kong, China",2096,Labour efficiency,56.229191421674635
+06_HKC,"Hong Kong, China",2097,Labour efficiency,56.98182891548866
+06_HKC,"Hong Kong, China",2098,Labour efficiency,57.74454059288549
+06_HKC,"Hong Kong, China",2099,Labour efficiency,58.5174612985622
+06_HKC,"Hong Kong, China",2100,Labour efficiency,59.30072768213556
+06_HKC,"Hong Kong, China",1990,Capital stock,949889.0146198228
+06_HKC,"Hong Kong, China",1991,Capital stock,1012093.266311386
+06_HKC,"Hong Kong, China",1992,Capital stock,1079921.7464595088
+06_HKC,"Hong Kong, China",1993,Capital stock,1146484.39812899
+06_HKC,"Hong Kong, China",1994,Capital stock,1224895.702254269
+06_HKC,"Hong Kong, China",1995,Capital stock,1307926.0010961203
+06_HKC,"Hong Kong, China",1996,Capital stock,1399066.5373846886
+06_HKC,"Hong Kong, China",1997,Capital stock,1502713.6482029413
+06_HKC,"Hong Kong, China",1998,Capital stock,1587656.5166922132
+06_HKC,"Hong Kong, China",1999,Capital stock,1645339.3327383085
+06_HKC,"Hong Kong, China",2000,Capital stock,1710612.1318534678
+06_HKC,"Hong Kong, China",2001,Capital stock,1775567.5874094558
+06_HKC,"Hong Kong, China",2002,Capital stock,1829922.07767365
+06_HKC,"Hong Kong, China",2003,Capital stock,1883204.742683528
+06_HKC,"Hong Kong, China",2004,Capital stock,1938876.2561218303
+06_HKC,"Hong Kong, China",2005,Capital stock,1996531.893795395
+06_HKC,"Hong Kong, China",2006,Capital stock,2058907.761171065
+06_HKC,"Hong Kong, China",2007,Capital stock,2118401.088754506
+06_HKC,"Hong Kong, China",2008,Capital stock,2173836.917359045
+06_HKC,"Hong Kong, China",2009,Capital stock,2220344.0096652573
+06_HKC,"Hong Kong, China",2010,Capital stock,2275815.826558036
+06_HKC,"Hong Kong, China",2011,Capital stock,2339521.6306245592
+06_HKC,"Hong Kong, China",2012,Capital stock,2406347.965153045
+06_HKC,"Hong Kong, China",2013,Capital stock,2461493.8367671315
+06_HKC,"Hong Kong, China",2014,Capital stock,2512550.762241716
+06_HKC,"Hong Kong, China",2015,Capital stock,2557303.6052616085
+06_HKC,"Hong Kong, China",2016,Capital stock,2600694.241291863
+06_HKC,"Hong Kong, China",2017,Capital stock,2647305.5818956075
+06_HKC,"Hong Kong, China",2018,Capital stock,2695385.369051312
+06_HKC,"Hong Kong, China",2019,Capital stock,2722853.4164955886
+06_HKC,"Hong Kong, China",2020,Capital stock,2737029.0678967987
+06_HKC,"Hong Kong, China",2021,Capital stock,2760805.9136565565
+06_HKC,"Hong Kong, China",2022,Capital stock,2776437.0460672453
+06_HKC,"Hong Kong, China",2023,Capital stock,2800676.976127588
+06_HKC,"Hong Kong, China",2024,Capital stock,2874317.097463457
+06_HKC,"Hong Kong, China",2025,Capital stock,2974563.185048239
+06_HKC,"Hong Kong, China",2026,Capital stock,3073118.3882114748
+06_HKC,"Hong Kong, China",2027,Capital stock,3169847.9578458974
+06_HKC,"Hong Kong, China",2028,Capital stock,3264633.478783821
+06_HKC,"Hong Kong, China",2029,Capital stock,3357372.307150146
+06_HKC,"Hong Kong, China",2030,Capital stock,3447976.9147942206
+06_HKC,"Hong Kong, China",2031,Capital stock,3536374.1607958525
+06_HKC,"Hong Kong, China",2032,Capital stock,3622504.5082872096
+06_HKC,"Hong Kong, China",2033,Capital stock,3706321.203016335
+06_HKC,"Hong Kong, China",2034,Capital stock,3787789.428252245
+06_HKC,"Hong Kong, China",2035,Capital stock,3866885.448838404
+06_HKC,"Hong Kong, China",2036,Capital stock,3943595.755474016
+06_HKC,"Hong Kong, China",2037,Capital stock,4017916.218665698
+06_HKC,"Hong Kong, China",2038,Capital stock,4089851.2602634584
+06_HKC,"Hong Kong, China",2039,Capital stock,4159413.0490858583
+06_HKC,"Hong Kong, China",2040,Capital stock,4226620.725856152
+06_HKC,"Hong Kong, China",2041,Capital stock,4291499.661516215
+06_HKC,"Hong Kong, China",2042,Capital stock,4354080.751956942
+06_HKC,"Hong Kong, China",2043,Capital stock,4414399.751298716
+06_HKC,"Hong Kong, China",2044,Capital stock,4472496.645067758
+06_HKC,"Hong Kong, China",2045,Capital stock,4528415.063936536
+06_HKC,"Hong Kong, China",2046,Capital stock,4582201.7381209275
+06_HKC,"Hong Kong, China",2047,Capital stock,4633905.99204485
+06_HKC,"Hong Kong, China",2048,Capital stock,4683579.278485966
+06_HKC,"Hong Kong, China",2049,Capital stock,4731274.751095
+06_HKC,"Hong Kong, China",2050,Capital stock,4777046.873927761
+06_HKC,"Hong Kong, China",2051,Capital stock,4820951.066435
+06_HKC,"Hong Kong, China",2052,Capital stock,4863043.3822131315
+06_HKC,"Hong Kong, China",2053,Capital stock,4903380.219721488
+06_HKC,"Hong Kong, China",2054,Capital stock,4942018.063112646
+06_HKC,"Hong Kong, China",2055,Capital stock,4979013.251295541
+06_HKC,"Hong Kong, China",2056,Capital stock,5014421.773351155
+06_HKC,"Hong Kong, China",2057,Capital stock,5048299.08844287
+06_HKC,"Hong Kong, China",2058,Capital stock,5080699.968403752
+06_HKC,"Hong Kong, China",2059,Capital stock,5111678.361237459
+06_HKC,"Hong Kong, China",2060,Capital stock,5141287.273834897
+06_HKC,"Hong Kong, China",2061,Capital stock,5169578.6722823195
+06_HKC,"Hong Kong, China",2062,Capital stock,5196603.398215997
+06_HKC,"Hong Kong, China",2063,Capital stock,5222411.099761771
+06_HKC,"Hong Kong, China",2064,Capital stock,5247050.175683045
+06_HKC,"Hong Kong, China",2065,Capital stock,5270567.731446688
+06_HKC,"Hong Kong, China",2066,Capital stock,5293009.546001759
+06_HKC,"Hong Kong, China",2067,Capital stock,5314420.048149912
+06_HKC,"Hong Kong, China",2068,Capital stock,5334842.301468139
+06_HKC,"Hong Kong, China",2069,Capital stock,5354317.996823597
+06_HKC,"Hong Kong, China",2070,Capital stock,5372887.451596046
+06_HKC,"Hong Kong, China",2071,Capital stock,5390589.614795842
+06_HKC,"Hong Kong, China",2072,Capital stock,5407462.077334045
+06_HKC,"Hong Kong, China",2073,Capital stock,5423541.086766026
+06_HKC,"Hong Kong, China",2074,Capital stock,5438861.565890911
+06_HKC,"Hong Kong, China",2075,Capital stock,5453457.134646232
+06_HKC,"Hong Kong, China",2076,Capital stock,5467360.134790417
+06_HKC,"Hong Kong, China",2077,Capital stock,5480601.656915238
+06_HKC,"Hong Kong, China",2078,Capital stock,5493211.569376245
+06_HKC,"Hong Kong, China",2079,Capital stock,5505218.548771584
+06_HKC,"Hong Kong, China",2080,Capital stock,5516650.111638728
+06_HKC,"Hong Kong, China",2081,Capital stock,5527532.6470745355
+06_HKC,"Hong Kong, China",2082,Capital stock,5537891.450017029
+06_HKC,"Hong Kong, China",2083,Capital stock,5547750.754957383
+06_HKC,"Hong Kong, China",2084,Capital stock,5557133.769878113
+06_HKC,"Hong Kong, China",2085,Capital stock,5566062.710238497
+06_HKC,"Hong Kong, China",2086,Capital stock,5574558.8328509675
+06_HKC,"Hong Kong, China",2087,Capital stock,5582642.469512814
+06_HKC,"Hong Kong, China",2088,Capital stock,5590333.060276168
+06_HKC,"Hong Kong, China",2089,Capital stock,5597649.186256046
+06_HKC,"Hong Kong, China",2090,Capital stock,5604608.601891292
+06_HKC,"Hong Kong, China",2091,Capital stock,5611228.266586919
+06_HKC,"Hong Kong, China",2092,Capital stock,5617524.375678417
+06_HKC,"Hong Kong, China",2093,Capital stock,5623512.390669507
+06_HKC,"Hong Kong, China",2094,Capital stock,5629207.0687044645
+06_HKC,"Hong Kong, China",2095,Capital stock,5634622.491244742
+06_HKC,"Hong Kong, China",2096,Capital stock,5639772.091927215
+06_HKC,"Hong Kong, China",2097,Capital stock,5644668.683588107
+06_HKC,"Hong Kong, China",2098,Capital stock,5649324.484442528
+06_HKC,"Hong Kong, China",2099,Capital stock,5653751.143414761
+06_HKC,"Hong Kong, China",2100,Capital stock,5657959.764618934
+06_HKC,"Hong Kong, China",1990,Savings,0.35644
+06_HKC,"Hong Kong, China",1991,Savings,0.33646
+06_HKC,"Hong Kong, China",1992,Savings,0.33265999999999996
+06_HKC,"Hong Kong, China",1993,Savings,0.35217
+06_HKC,"Hong Kong, China",1994,Savings,0.33531999999999995
+06_HKC,"Hong Kong, China",1995,Savings,0.3136
+06_HKC,"Hong Kong, China",1996,Savings,0.31509
+06_HKC,"Hong Kong, China",1997,Savings,0.2945
+06_HKC,"Hong Kong, China",1998,Savings,0.307030030751778
+06_HKC,"Hong Kong, China",1999,Savings,0.314161171620656
+06_HKC,"Hong Kong, China",2000,Savings,0.319780511659929
+06_HKC,"Hong Kong, China",2001,Savings,0.316255941521679
+06_HKC,"Hong Kong, China",2002,Savings,0.310734031351075
+06_HKC,"Hong Kong, China",2003,Savings,0.33165804594575
+06_HKC,"Hong Kong, China",2004,Savings,0.323057899681093
+06_HKC,"Hong Kong, China",2005,Savings,0.329408898770809
+06_HKC,"Hong Kong, China",2006,Savings,0.34977612000714603
+06_HKC,"Hong Kong, China",2007,Savings,0.34416744492935897
+06_HKC,"Hong Kong, China",2008,Savings,0.360229572153312
+06_HKC,"Hong Kong, China",2009,Savings,0.317309332729078
+06_HKC,"Hong Kong, China",2010,Savings,0.30891865807468
+06_HKC,"Hong Kong, China",2011,Savings,0.297011051351653
+06_HKC,"Hong Kong, China",2012,Savings,0.26798411497554897
+06_HKC,"Hong Kong, China",2013,Savings,0.25549171708838697
+06_HKC,"Hong Kong, China",2014,Savings,0.25214231229906203
+06_HKC,"Hong Kong, China",2015,Savings,0.248585789100752
+06_HKC,"Hong Kong, China",2016,Savings,0.25461641779627103
+06_HKC,"Hong Kong, China",2017,Savings,0.266501787796092
+06_HKC,"Hong Kong, China",2018,Savings,0.257310777729923
+06_HKC,"Hong Kong, China",2019,Savings,0.24041652424870702
+06_HKC,"Hong Kong, China",2020,Savings,0.25971076793207
+06_HKC,"Hong Kong, China",2021,Savings,0.286115730628268
+06_HKC,"Hong Kong, China",2022,Savings,0.254135629636503
+06_HKC,"Hong Kong, China",2023,Savings,0.245682777286107
+06_HKC,"Hong Kong, China",2024,Savings,0.29199739511088496
+06_HKC,"Hong Kong, China",2025,Savings,0.28999739511088496
+06_HKC,"Hong Kong, China",2026,Savings,0.28999739511088496
+06_HKC,"Hong Kong, China",2027,Savings,0.27999739511088495
+06_HKC,"Hong Kong, China",2028,Savings,0.26999739511088494
+06_HKC,"Hong Kong, China",2029,Savings,0.25999739511088493
+06_HKC,"Hong Kong, China",2030,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2031,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2032,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2033,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2034,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2035,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2036,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2037,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2038,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2039,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2040,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2041,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2042,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2043,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2044,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2045,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2046,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2047,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2048,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2049,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2050,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2051,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2052,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2053,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2054,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2055,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2056,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2057,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2058,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2059,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2060,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2061,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2062,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2063,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2064,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2065,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2066,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2067,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2068,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2069,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2070,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2071,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2072,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2073,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2074,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2075,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2076,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2077,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2078,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2079,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2080,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2081,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2082,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2083,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2084,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2085,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2086,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2087,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2088,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2089,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2090,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2091,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2092,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2093,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2094,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2095,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2096,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2097,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2098,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2099,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",2100,Savings,0.24999739511088492
+06_HKC,"Hong Kong, China",1990,Depreciation,0.0253886487334967
+06_HKC,"Hong Kong, China",1991,Depreciation,0.025508239865303
+06_HKC,"Hong Kong, China",1992,Depreciation,0.0257232934236527
+06_HKC,"Hong Kong, China",1993,Depreciation,0.0259586405009031
+06_HKC,"Hong Kong, China",1994,Depreciation,0.0261958222836256
+06_HKC,"Hong Kong, China",1995,Depreciation,0.0265933200716972
+06_HKC,"Hong Kong, China",1996,Depreciation,0.02707196213305
+06_HKC,"Hong Kong, China",1997,Depreciation,0.0274506974965334
+06_HKC,"Hong Kong, China",1998,Depreciation,0.0277356747537851
+06_HKC,"Hong Kong, China",1999,Depreciation,0.0278465487062931
+06_HKC,"Hong Kong, China",2000,Depreciation,0.0279552098363638
+06_HKC,"Hong Kong, China",2001,Depreciation,0.0281892344355583
+06_HKC,"Hong Kong, China",2002,Depreciation,0.0284104701131582
+06_HKC,"Hong Kong, China",2003,Depreciation,0.0286637675017118
+06_HKC,"Hong Kong, China",2004,Depreciation,0.028942221775651
+06_HKC,"Hong Kong, China",2005,Depreciation,0.0292728953063488
+06_HKC,"Hong Kong, China",2006,Depreciation,0.0298024192452431
+06_HKC,"Hong Kong, China",2007,Depreciation,0.030411459505558
+06_HKC,"Hong Kong, China",2008,Depreciation,0.0309179406613112
+06_HKC,"Hong Kong, China",2009,Depreciation,0.0311170909553766
+06_HKC,"Hong Kong, China",2010,Depreciation,0.0311357825994492
+06_HKC,"Hong Kong, China",2011,Depreciation,0.0317099466919899
+06_HKC,"Hong Kong, China",2012,Depreciation,0.0327865220606327
+06_HKC,"Hong Kong, China",2013,Depreciation,0.0337987840175629
+06_HKC,"Hong Kong, China",2014,Depreciation,0.03445965051651
+06_HKC,"Hong Kong, China",2015,Depreciation,0.0346894003450871
+06_HKC,"Hong Kong, China",2016,Depreciation,0.0346318855881691
+06_HKC,"Hong Kong, China",2017,Depreciation,0.0344963371753693
+06_HKC,"Hong Kong, China",2018,Depreciation,0.0345262736082077
+06_HKC,"Hong Kong, China",2019,Depreciation,0.0344504788517952
+06_HKC,"Hong Kong, China",2020,Depreciation,0.0341700203716755
+06_HKC,"Hong Kong, China",2021,Depreciation,0.0339967384934425
+06_HKC,"Hong Kong, China",2022,Depreciation,0.0338339097797871
+06_HKC,"Hong Kong, China",2023,Depreciation,0.0337068513035774
+06_HKC,"Hong Kong, China",2024,Depreciation,0.0337068513035774
+06_HKC,"Hong Kong, China",2025,Depreciation,0.0337068513035774
+06_HKC,"Hong Kong, China",2026,Depreciation,0.0337068513035774
+06_HKC,"Hong Kong, China",2027,Depreciation,0.0339068513035774
+06_HKC,"Hong Kong, China",2028,Depreciation,0.0341068513035774
+06_HKC,"Hong Kong, China",2029,Depreciation,0.0343068513035774
+06_HKC,"Hong Kong, China",2030,Depreciation,0.0345068513035774
+06_HKC,"Hong Kong, China",2031,Depreciation,0.034706851303577396
+06_HKC,"Hong Kong, China",2032,Depreciation,0.034906851303577395
+06_HKC,"Hong Kong, China",2033,Depreciation,0.035106851303577394
+06_HKC,"Hong Kong, China",2034,Depreciation,0.03530685130357739
+06_HKC,"Hong Kong, China",2035,Depreciation,0.03550685130357739
+06_HKC,"Hong Kong, China",2036,Depreciation,0.03570685130357739
+06_HKC,"Hong Kong, China",2037,Depreciation,0.03590685130357739
+06_HKC,"Hong Kong, China",2038,Depreciation,0.03610685130357739
+06_HKC,"Hong Kong, China",2039,Depreciation,0.03630685130357739
+06_HKC,"Hong Kong, China",2040,Depreciation,0.036506851303577385
+06_HKC,"Hong Kong, China",2041,Depreciation,0.036706851303577384
+06_HKC,"Hong Kong, China",2042,Depreciation,0.03690685130357738
+06_HKC,"Hong Kong, China",2043,Depreciation,0.03710685130357738
+06_HKC,"Hong Kong, China",2044,Depreciation,0.03730685130357738
+06_HKC,"Hong Kong, China",2045,Depreciation,0.03750685130357738
+06_HKC,"Hong Kong, China",2046,Depreciation,0.03770685130357738
+06_HKC,"Hong Kong, China",2047,Depreciation,0.03790685130357738
+06_HKC,"Hong Kong, China",2048,Depreciation,0.038106851303577376
+06_HKC,"Hong Kong, China",2049,Depreciation,0.038306851303577374
+06_HKC,"Hong Kong, China",2050,Depreciation,0.03850685130357737
+06_HKC,"Hong Kong, China",2051,Depreciation,0.03870685130357737
+06_HKC,"Hong Kong, China",2052,Depreciation,0.03890685130357737
+06_HKC,"Hong Kong, China",2053,Depreciation,0.03910685130357737
+06_HKC,"Hong Kong, China",2054,Depreciation,0.03930685130357737
+06_HKC,"Hong Kong, China",2055,Depreciation,0.03950685130357737
+06_HKC,"Hong Kong, China",2056,Depreciation,0.039706851303577366
+06_HKC,"Hong Kong, China",2057,Depreciation,0.039906851303577365
+06_HKC,"Hong Kong, China",2058,Depreciation,0.040106851303577364
+06_HKC,"Hong Kong, China",2059,Depreciation,0.04030685130357736
+06_HKC,"Hong Kong, China",2060,Depreciation,0.04050685130357736
+06_HKC,"Hong Kong, China",2061,Depreciation,0.04070685130357736
+06_HKC,"Hong Kong, China",2062,Depreciation,0.04090685130357736
+06_HKC,"Hong Kong, China",2063,Depreciation,0.04110685130357736
+06_HKC,"Hong Kong, China",2064,Depreciation,0.041306851303577356
+06_HKC,"Hong Kong, China",2065,Depreciation,0.041506851303577355
+06_HKC,"Hong Kong, China",2066,Depreciation,0.041706851303577354
+06_HKC,"Hong Kong, China",2067,Depreciation,0.04190685130357735
+06_HKC,"Hong Kong, China",2068,Depreciation,0.04210685130357735
+06_HKC,"Hong Kong, China",2069,Depreciation,0.04230685130357735
+06_HKC,"Hong Kong, China",2070,Depreciation,0.04250685130357735
+06_HKC,"Hong Kong, China",2071,Depreciation,0.04270685130357735
+06_HKC,"Hong Kong, China",2072,Depreciation,0.04290685130357735
+06_HKC,"Hong Kong, China",2073,Depreciation,0.043106851303577345
+06_HKC,"Hong Kong, China",2074,Depreciation,0.043306851303577344
+06_HKC,"Hong Kong, China",2075,Depreciation,0.04350685130357734
+06_HKC,"Hong Kong, China",2076,Depreciation,0.04370685130357734
+06_HKC,"Hong Kong, China",2077,Depreciation,0.04390685130357734
+06_HKC,"Hong Kong, China",2078,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2079,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2080,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2081,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2082,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2083,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2084,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2085,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2086,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2087,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2088,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2089,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2090,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2091,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2092,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2093,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2094,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2095,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2096,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2097,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2098,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2099,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",2100,Depreciation,0.04410685130357734
+06_HKC,"Hong Kong, China",1990,WDI GDP through 2025,180254.935094551
+06_HKC,"Hong Kong, China",1991,WDI GDP through 2025,190532.95571677803
+06_HKC,"Hong Kong, China",1992,WDI GDP through 2025,202412.730989952
+06_HKC,"Hong Kong, China",1993,WDI GDP through 2025,214964.719118366
+06_HKC,"Hong Kong, China",1994,WDI GDP through 2025,227940.054858517
+06_HKC,"Hong Kong, China",1995,WDI GDP through 2025,233350.961434686
+06_HKC,"Hong Kong, China",1996,WDI GDP through 2025,243288.1554906
+06_HKC,"Hong Kong, China",1997,WDI GDP through 2025,255695.121426758
+06_HKC,"Hong Kong, China",1998,WDI GDP through 2025,240653.50428291
+06_HKC,"Hong Kong, China",1999,WDI GDP through 2025,246686.00429592095
+06_HKC,"Hong Kong, China",2000,WDI GDP through 2025,265590.648051452
+06_HKC,"Hong Kong, China",2001,WDI GDP through 2025,267080.25871759
+06_HKC,"Hong Kong, China",2002,WDI GDP through 2025,271504.98183373496
+06_HKC,"Hong Kong, China",2003,WDI GDP through 2025,279803.148419369
+06_HKC,"Hong Kong, China",2004,WDI GDP through 2025,304146.20576621004
+06_HKC,"Hong Kong, China",2005,WDI GDP through 2025,326616.995685976
+06_HKC,"Hong Kong, China",2006,WDI GDP through 2025,349586.81819996994
+06_HKC,"Hong Kong, China",2007,WDI GDP through 2025,372187.005025284
+06_HKC,"Hong Kong, China",2008,WDI GDP through 2025,380106.909461868
+06_HKC,"Hong Kong, China",2009,WDI GDP through 2025,370759.732742574
+06_HKC,"Hong Kong, China",2010,WDI GDP through 2025,395851.664507564
+06_HKC,"Hong Kong, China",2011,WDI GDP through 2025,414910.607969333
+06_HKC,"Hong Kong, China",2012,WDI GDP through 2025,421965.4249178791
+06_HKC,"Hong Kong, China",2013,WDI GDP through 2025,435052.904642839
+06_HKC,"Hong Kong, China",2014,WDI GDP through 2025,447070.866045334
+06_HKC,"Hong Kong, China",2015,WDI GDP through 2025,457746.029371383
+06_HKC,"Hong Kong, China",2016,WDI GDP through 2025,467704.057142908
+06_HKC,"Hong Kong, China",2017,WDI GDP through 2025,485458.6146913871
+06_HKC,"Hong Kong, China",2018,WDI GDP through 2025,499279.180784386
+06_HKC,"Hong Kong, China",2019,WDI GDP through 2025,490929.09267312905
+06_HKC,"Hong Kong, China",2020,WDI GDP through 2025,458798.783063318
+06_HKC,"Hong Kong, China",2021,WDI GDP through 2025,488411.63111574703
+06_HKC,"Hong Kong, China",2022,WDI GDP through 2025,470412.277408847
+06_HKC,"Hong Kong, China",2023,WDI GDP through 2025,485231.885270722
+06_HKC,"Hong Kong, China",2024,WDI GDP through 2025,497990.420157803
+06_HKC,"Hong Kong, China",2025,WDI GDP through 2025,515358.577387072
+06_HKC,"Hong Kong, China",2026,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2027,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2028,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2029,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2030,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2031,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2032,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2033,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2034,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2035,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2036,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2037,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2038,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2039,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2040,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2041,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2042,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2043,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2044,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2045,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2046,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2047,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2048,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2049,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2050,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2051,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2052,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2053,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2054,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2055,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2056,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2057,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2058,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2059,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2060,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2061,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2062,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2063,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2064,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2065,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2066,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2067,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2068,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2069,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2070,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2071,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2072,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2073,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2074,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2075,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2076,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2077,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2078,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2079,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2080,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2081,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2082,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2083,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2084,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2085,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2086,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2087,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2088,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2089,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2090,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2091,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2092,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2093,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2094,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2095,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2096,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2097,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2098,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2099,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",2100,WDI GDP through 2025,
+06_HKC,"Hong Kong, China",1990,APERC GDP projections,
+06_HKC,"Hong Kong, China",1991,APERC GDP projections,
+06_HKC,"Hong Kong, China",1992,APERC GDP projections,
+06_HKC,"Hong Kong, China",1993,APERC GDP projections,
+06_HKC,"Hong Kong, China",1994,APERC GDP projections,
+06_HKC,"Hong Kong, China",1995,APERC GDP projections,
+06_HKC,"Hong Kong, China",1996,APERC GDP projections,
+06_HKC,"Hong Kong, China",1997,APERC GDP projections,
+06_HKC,"Hong Kong, China",1998,APERC GDP projections,
+06_HKC,"Hong Kong, China",1999,APERC GDP projections,
+06_HKC,"Hong Kong, China",2000,APERC GDP projections,
+06_HKC,"Hong Kong, China",2001,APERC GDP projections,
+06_HKC,"Hong Kong, China",2002,APERC GDP projections,
+06_HKC,"Hong Kong, China",2003,APERC GDP projections,
+06_HKC,"Hong Kong, China",2004,APERC GDP projections,
+06_HKC,"Hong Kong, China",2005,APERC GDP projections,
+06_HKC,"Hong Kong, China",2006,APERC GDP projections,
+06_HKC,"Hong Kong, China",2007,APERC GDP projections,
+06_HKC,"Hong Kong, China",2008,APERC GDP projections,
+06_HKC,"Hong Kong, China",2009,APERC GDP projections,
+06_HKC,"Hong Kong, China",2010,APERC GDP projections,
+06_HKC,"Hong Kong, China",2011,APERC GDP projections,
+06_HKC,"Hong Kong, China",2012,APERC GDP projections,
+06_HKC,"Hong Kong, China",2013,APERC GDP projections,
+06_HKC,"Hong Kong, China",2014,APERC GDP projections,
+06_HKC,"Hong Kong, China",2015,APERC GDP projections,
+06_HKC,"Hong Kong, China",2016,APERC GDP projections,
+06_HKC,"Hong Kong, China",2017,APERC GDP projections,
+06_HKC,"Hong Kong, China",2018,APERC GDP projections,
+06_HKC,"Hong Kong, China",2019,APERC GDP projections,
+06_HKC,"Hong Kong, China",2020,APERC GDP projections,
+06_HKC,"Hong Kong, China",2021,APERC GDP projections,
+06_HKC,"Hong Kong, China",2022,APERC GDP projections,
+06_HKC,"Hong Kong, China",2023,APERC GDP projections,
+06_HKC,"Hong Kong, China",2024,APERC GDP projections,
+06_HKC,"Hong Kong, China",2025,APERC GDP projections,
+06_HKC,"Hong Kong, China",2026,APERC GDP projections,526075.625871762
+06_HKC,"Hong Kong, China",2027,APERC GDP projections,535066.4884895874
+06_HKC,"Hong Kong, China",2028,APERC GDP projections,543682.0790338923
+06_HKC,"Hong Kong, China",2029,APERC GDP projections,549891.5560794306
+06_HKC,"Hong Kong, China",2030,APERC GDP projections,558071.1675350674
+06_HKC,"Hong Kong, China",2031,APERC GDP projections,568423.2093737777
+06_HKC,"Hong Kong, China",2032,APERC GDP projections,578400.4154680979
+06_HKC,"Hong Kong, China",2033,APERC GDP projections,588588.110578948
+06_HKC,"Hong Kong, China",2034,APERC GDP projections,597381.5809848789
+06_HKC,"Hong Kong, China",2035,APERC GDP projections,605948.5060967171
+06_HKC,"Hong Kong, China",2036,APERC GDP projections,612596.2180941789
+06_HKC,"Hong Kong, China",2037,APERC GDP projections,619771.6372099161
+06_HKC,"Hong Kong, China",2038,APERC GDP projections,628066.5318974471
+06_HKC,"Hong Kong, China",2039,APERC GDP projections,634279.8650516571
+06_HKC,"Hong Kong, China",2040,APERC GDP projections,641971.7276331981
+06_HKC,"Hong Kong, China",2041,APERC GDP projections,647787.1538874065
+06_HKC,"Hong Kong, China",2042,APERC GDP projections,653132.3189856396
+06_HKC,"Hong Kong, China",2043,APERC GDP projections,657676.6799476692
+06_HKC,"Hong Kong, China",2044,APERC GDP projections,663072.8738316817
+06_HKC,"Hong Kong, China",2045,APERC GDP projections,667927.3979322206
+06_HKC,"Hong Kong, China",2046,APERC GDP projections,672170.2305074256
+06_HKC,"Hong Kong, China",2047,APERC GDP projections,676010.104534092
+06_HKC,"Hong Kong, China",2048,APERC GDP projections,678030.5388066062
+06_HKC,"Hong Kong, China",2049,APERC GDP projections,681263.1932013696
+06_HKC,"Hong Kong, China",2050,APERC GDP projections,683562.2957469323
+06_HKC,"Hong Kong, China",2051,APERC GDP projections,686096.3384342745
+06_HKC,"Hong Kong, China",2052,APERC GDP projections,687774.1164275558
+06_HKC,"Hong Kong, China",2053,APERC GDP projections,689492.3825205199
+06_HKC,"Hong Kong, China",2054,APERC GDP projections,691197.9366110129
+06_HKC,"Hong Kong, China",2055,APERC GDP projections,692658.434592384
+06_HKC,"Hong Kong, China",2056,APERC GDP projections,693603.3951513758
+06_HKC,"Hong Kong, China",2057,APERC GDP projections,694117.7391527373
+06_HKC,"Hong Kong, China",2058,APERC GDP projections,694306.4846127967
+06_HKC,"Hong Kong, China",2059,APERC GDP projections,694167.0037459997
+06_HKC,"Hong Kong, China",2060,APERC GDP projections,694217.6892717725
+06_HKC,"Hong Kong, China",2061,APERC GDP projections,694055.6555038808
+06_HKC,"Hong Kong, China",2062,APERC GDP projections,693474.179953633
+06_HKC,"Hong Kong, China",2063,APERC GDP projections,693746.7130933132
+06_HKC,"Hong Kong, China",2064,APERC GDP projections,693911.4001825795
+06_HKC,"Hong Kong, China",2065,APERC GDP projections,693044.2511494484
+06_HKC,"Hong Kong, China",2066,APERC GDP projections,691873.4137349202
+06_HKC,"Hong Kong, China",2067,APERC GDP projections,690714.3483469054
+06_HKC,"Hong Kong, China",2068,APERC GDP projections,688969.4454552573
+06_HKC,"Hong Kong, China",2069,APERC GDP projections,687317.1068460521
+06_HKC,"Hong Kong, China",2070,APERC GDP projections,685900.7129890372
+06_HKC,"Hong Kong, China",2071,APERC GDP projections,683747.1206832302
+06_HKC,"Hong Kong, China",2072,APERC GDP projections,681737.6606638454
+06_HKC,"Hong Kong, China",2073,APERC GDP projections,679141.1506116327
+06_HKC,"Hong Kong, China",2074,APERC GDP projections,676249.368372065
+06_HKC,"Hong Kong, China",2075,APERC GDP projections,673337.1876695943
+06_HKC,"Hong Kong, China",2076,APERC GDP projections,670173.1199349767
+06_HKC,"Hong Kong, China",2077,APERC GDP projections,666931.1520512413
+06_HKC,"Hong Kong, China",2078,APERC GDP projections,662544.2017441606
+06_HKC,"Hong Kong, China",2079,APERC GDP projections,659653.854223667
+06_HKC,"Hong Kong, China",2080,APERC GDP projections,655973.7102678361
+06_HKC,"Hong Kong, China",2081,APERC GDP projections,652257.2217604945
+06_HKC,"Hong Kong, China",2082,APERC GDP projections,649098.9577690344
+06_HKC,"Hong Kong, China",2083,APERC GDP projections,645797.9831172756
+06_HKC,"Hong Kong, China",2084,APERC GDP projections,641777.74297475
+06_HKC,"Hong Kong, China",2085,APERC GDP projections,637119.6991456691
+06_HKC,"Hong Kong, China",2086,APERC GDP projections,632345.1399256688
+06_HKC,"Hong Kong, China",2087,APERC GDP projections,627722.2605585267
+06_HKC,"Hong Kong, China",2088,APERC GDP projections,623105.395697841
+06_HKC,"Hong Kong, China",2089,APERC GDP projections,619030.5662877796
+06_HKC,"Hong Kong, China",2090,APERC GDP projections,614426.1126150336
+06_HKC,"Hong Kong, China",2091,APERC GDP projections,609866.8779126592
+06_HKC,"Hong Kong, China",2092,APERC GDP projections,605665.9584494988
+06_HKC,"Hong Kong, China",2093,APERC GDP projections,602112.0441830504
+06_HKC,"Hong Kong, China",2094,APERC GDP projections,598152.0279011227
+06_HKC,"Hong Kong, China",2095,APERC GDP projections,593447.2800890908
+06_HKC,"Hong Kong, China",2096,APERC GDP projections,589370.8032780801
+06_HKC,"Hong Kong, China",2097,APERC GDP projections,585379.5435435318
+06_HKC,"Hong Kong, China",2098,APERC GDP projections,581271.4143478465
+06_HKC,"Hong Kong, China",2099,APERC GDP projections,577943.3949537643
+06_HKC,"Hong Kong, China",2100,APERC GDP projections,574108.2423269979
+06_HKC,"Hong Kong, China",1990,9th Outlook projections (rebased to 2021 PPP USD),180457.18483039015
+06_HKC,"Hong Kong, China",1991,9th Outlook projections (rebased to 2021 PPP USD),190737.06674053113
+06_HKC,"Hong Kong, China",1992,9th Outlook projections (rebased to 2021 PPP USD),202653.64786428952
+06_HKC,"Hong Kong, China",1993,9th Outlook projections (rebased to 2021 PPP USD),215205.8182677478
+06_HKC,"Hong Kong, China",1994,9th Outlook projections (rebased to 2021 PPP USD),228184.5716715287
+06_HKC,"Hong Kong, China",1995,9th Outlook projections (rebased to 2021 PPP USD),233612.69679326453
+06_HKC,"Hong Kong, China",1996,9th Outlook projections (rebased to 2021 PPP USD),243576.25222143272
+06_HKC,"Hong Kong, China",1997,9th Outlook projections (rebased to 2021 PPP USD),255993.94963868533
+06_HKC,"Hong Kong, China",1998,9th Outlook projections (rebased to 2021 PPP USD),240908.8128497349
+06_HKC,"Hong Kong, China",1999,9th Outlook projections (rebased to 2021 PPP USD),246977.6476977619
+06_HKC,"Hong Kong, China",2000,9th Outlook projections (rebased to 2021 PPP USD),265908.58015822235
+06_HKC,"Hong Kong, China",2001,9th Outlook projections (rebased to 2021 PPP USD),267367.9220906911
+06_HKC,"Hong Kong, China",2002,9th Outlook projections (rebased to 2021 PPP USD),271817.5826428303
+06_HKC,"Hong Kong, China",2003,9th Outlook projections (rebased to 2021 PPP USD),280108.54721062427
+06_HKC,"Hong Kong, China",2004,9th Outlook projections (rebased to 2021 PPP USD),304500.6456637937
+06_HKC,"Hong Kong, China",2005,9th Outlook projections (rebased to 2021 PPP USD),326992.8341624234
+06_HKC,"Hong Kong, China",2006,9th Outlook projections (rebased to 2021 PPP USD),349963.5032899558
+06_HKC,"Hong Kong, China",2007,9th Outlook projections (rebased to 2021 PPP USD),372582.7852688743
+06_HKC,"Hong Kong, China",2008,9th Outlook projections (rebased to 2021 PPP USD),380538.5432869798
+06_HKC,"Hong Kong, China",2009,9th Outlook projections (rebased to 2021 PPP USD),371154.3717864337
+06_HKC,"Hong Kong, China",2010,9th Outlook projections (rebased to 2021 PPP USD),396289.95864086534
+06_HKC,"Hong Kong, China",2011,9th Outlook projections (rebased to 2021 PPP USD),415405.1675302186
+06_HKC,"Hong Kong, China",2012,9th Outlook projections (rebased to 2021 PPP USD),422438.6886962065
+06_HKC,"Hong Kong, China",2013,9th Outlook projections (rebased to 2021 PPP USD),435546.74956826505
+06_HKC,"Hong Kong, China",2014,9th Outlook projections (rebased to 2021 PPP USD),447578.3930364048
+06_HKC,"Hong Kong, China",2015,9th Outlook projections (rebased to 2021 PPP USD),458278.2757081908
+06_HKC,"Hong Kong, China",2016,9th Outlook projections (rebased to 2021 PPP USD),468222.24608614715
+06_HKC,"Hong Kong, China",2017,9th Outlook projections (rebased to 2021 PPP USD),486016.21406862757
+06_HKC,"Hong Kong, China",2018,9th Outlook projections (rebased to 2021 PPP USD),499859.3002015785
+06_HKC,"Hong Kong, China",2019,9th Outlook projections (rebased to 2021 PPP USD),491483.3880167052
+06_HKC,"Hong Kong, China",2020,9th Outlook projections (rebased to 2021 PPP USD),459303.8303556955
+06_HKC,"Hong Kong, China",2021,9th Outlook projections (rebased to 2021 PPP USD),488411.63111574703
+06_HKC,"Hong Kong, China",2022,9th Outlook projections (rebased to 2021 PPP USD),484268.51649958565
+06_HKC,"Hong Kong, China",2023,9th Outlook projections (rebased to 2021 PPP USD),503356.245033488
+06_HKC,"Hong Kong, China",2024,9th Outlook projections (rebased to 2021 PPP USD),518309.3537502858
+06_HKC,"Hong Kong, China",2025,9th Outlook projections (rebased to 2021 PPP USD),533261.0439777537
+06_HKC,"Hong Kong, China",2026,9th Outlook projections (rebased to 2021 PPP USD),548536.2462644298
+06_HKC,"Hong Kong, China",2027,9th Outlook projections (rebased to 2021 PPP USD),563915.3309190874
+06_HKC,"Hong Kong, China",2028,9th Outlook projections (rebased to 2021 PPP USD),576295.820254797
+06_HKC,"Hong Kong, China",2029,9th Outlook projections (rebased to 2021 PPP USD),587682.4172317103
+06_HKC,"Hong Kong, China",2030,9th Outlook projections (rebased to 2021 PPP USD),600344.6584206127
+06_HKC,"Hong Kong, China",2031,9th Outlook projections (rebased to 2021 PPP USD),614247.2179520712
+06_HKC,"Hong Kong, China",2032,9th Outlook projections (rebased to 2021 PPP USD),626282.9921214929
+06_HKC,"Hong Kong, China",2033,9th Outlook projections (rebased to 2021 PPP USD),638846.4957618763
+06_HKC,"Hong Kong, China",2034,9th Outlook projections (rebased to 2021 PPP USD),650664.7544685832
+06_HKC,"Hong Kong, China",2035,9th Outlook projections (rebased to 2021 PPP USD),662056.5813598048
+06_HKC,"Hong Kong, China",2036,9th Outlook projections (rebased to 2021 PPP USD),673240.4672848948
+06_HKC,"Hong Kong, China",2037,9th Outlook projections (rebased to 2021 PPP USD),684236.9464015954
+06_HKC,"Hong Kong, China",2038,9th Outlook projections (rebased to 2021 PPP USD),695064.3355080553
+06_HKC,"Hong Kong, China",2039,9th Outlook projections (rebased to 2021 PPP USD),705729.5726574662
+06_HKC,"Hong Kong, China",2040,9th Outlook projections (rebased to 2021 PPP USD),716244.6763952994
+06_HKC,"Hong Kong, China",2041,9th Outlook projections (rebased to 2021 PPP USD),726621.0596688169
+06_HKC,"Hong Kong, China",2042,9th Outlook projections (rebased to 2021 PPP USD),736875.766239712
+06_HKC,"Hong Kong, China",2043,9th Outlook projections (rebased to 2021 PPP USD),747029.8137117705
+06_HKC,"Hong Kong, China",2044,9th Outlook projections (rebased to 2021 PPP USD),757100.7598161267
+06_HKC,"Hong Kong, China",2045,9th Outlook projections (rebased to 2021 PPP USD),767099.0330133393
+06_HKC,"Hong Kong, China",2046,9th Outlook projections (rebased to 2021 PPP USD),777032.2583227821
+06_HKC,"Hong Kong, China",2047,9th Outlook projections (rebased to 2021 PPP USD),786895.7112823908
+06_HKC,"Hong Kong, China",2048,9th Outlook projections (rebased to 2021 PPP USD),796692.1525936379
+06_HKC,"Hong Kong, China",2049,9th Outlook projections (rebased to 2021 PPP USD),806434.5857369422
+06_HKC,"Hong Kong, China",2050,9th Outlook projections (rebased to 2021 PPP USD),816146.2951466531
+06_HKC,"Hong Kong, China",2051,9th Outlook projections (rebased to 2021 PPP USD),825862.916167561
+06_HKC,"Hong Kong, China",2052,9th Outlook projections (rebased to 2021 PPP USD),835625.9130727432
+06_HKC,"Hong Kong, China",2053,9th Outlook projections (rebased to 2021 PPP USD),845478.0070280529
+06_HKC,"Hong Kong, China",2054,9th Outlook projections (rebased to 2021 PPP USD),855450.1662710377
+06_HKC,"Hong Kong, China",2055,9th Outlook projections (rebased to 2021 PPP USD),865561.947034202
+06_HKC,"Hong Kong, China",2056,9th Outlook projections (rebased to 2021 PPP USD),875815.2521183791
+06_HKC,"Hong Kong, China",2057,9th Outlook projections (rebased to 2021 PPP USD),886209.5655299239
+06_HKC,"Hong Kong, China",2058,9th Outlook projections (rebased to 2021 PPP USD),896735.3880798182
+06_HKC,"Hong Kong, China",2059,9th Outlook projections (rebased to 2021 PPP USD),907365.4631069701
+06_HKC,"Hong Kong, China",2060,9th Outlook projections (rebased to 2021 PPP USD),918074.8525901474
+06_HKC,"Hong Kong, China",2061,9th Outlook projections (rebased to 2021 PPP USD),928831.2738838904
+06_HKC,"Hong Kong, China",2062,9th Outlook projections (rebased to 2021 PPP USD),939610.1122365944
+06_HKC,"Hong Kong, China",2063,9th Outlook projections (rebased to 2021 PPP USD),950383.8681794442
+06_HKC,"Hong Kong, China",2064,9th Outlook projections (rebased to 2021 PPP USD),961124.4199708432
+06_HKC,"Hong Kong, China",2065,9th Outlook projections (rebased to 2021 PPP USD),971820.4611325953
+06_HKC,"Hong Kong, China",2066,9th Outlook projections (rebased to 2021 PPP USD),982457.2757367785
+06_HKC,"Hong Kong, China",2067,9th Outlook projections (rebased to 2021 PPP USD),993039.0043357518
+06_HKC,"Hong Kong, China",2068,9th Outlook projections (rebased to 2021 PPP USD),1003569.0252718684
+06_HKC,"Hong Kong, China",2069,9th Outlook projections (rebased to 2021 PPP USD),1014057.1198575568
+06_HKC,"Hong Kong, China",2070,9th Outlook projections (rebased to 2021 PPP USD),1024523.130935792
+06_HKC,"Hong Kong, China",2071,9th Outlook projections (rebased to 2021 PPP USD),1034991.2008846683
+06_HKC,"Hong Kong, China",2072,9th Outlook projections (rebased to 2021 PPP USD),1045485.2046408417
+06_HKC,"Hong Kong, China",2073,9th Outlook projections (rebased to 2021 PPP USD),1056024.5929968012
+06_HKC,"Hong Kong, China",2074,9th Outlook projections (rebased to 2021 PPP USD),1066644.1610700414
+06_HKC,"Hong Kong, China",2075,9th Outlook projections (rebased to 2021 PPP USD),1077356.117578366
+06_HKC,"Hong Kong, China",2076,9th Outlook projections (rebased to 2021 PPP USD),1088186.6858102754
+06_HKC,"Hong Kong, China",2077,9th Outlook projections (rebased to 2021 PPP USD),1099159.0634865807
+06_HKC,"Hong Kong, China",2078,9th Outlook projections (rebased to 2021 PPP USD),1110292.28997034
+06_HKC,"Hong Kong, China",2079,9th Outlook projections (rebased to 2021 PPP USD),1121602.9526376692
+06_HKC,"Hong Kong, China",2080,9th Outlook projections (rebased to 2021 PPP USD),1133126.423646157
+06_HKC,"Hong Kong, China",2081,9th Outlook projections (rebased to 2021 PPP USD),1144878.0016956509
+06_HKC,"Hong Kong, China",2082,9th Outlook projections (rebased to 2021 PPP USD),1156888.0021021522
+06_HKC,"Hong Kong, China",2083,9th Outlook projections (rebased to 2021 PPP USD),1169175.3714062376
+06_HKC,"Hong Kong, China",2084,9th Outlook projections (rebased to 2021 PPP USD),1181771.2006610835
+06_HKC,"Hong Kong, China",2085,9th Outlook projections (rebased to 2021 PPP USD),1194694.6002038685
+06_HKC,"Hong Kong, China",2086,9th Outlook projections (rebased to 2021 PPP USD),1207957.1965699398
+06_HKC,"Hong Kong, China",2087,9th Outlook projections (rebased to 2021 PPP USD),1221575.5771215893
+06_HKC,"Hong Kong, China",2088,9th Outlook projections (rebased to 2021 PPP USD),1235555.0021974456
+06_HKC,"Hong Kong, China",2089,9th Outlook projections (rebased to 2021 PPP USD),1249897.18064192
+06_HKC,"Hong Kong, China",2090,9th Outlook projections (rebased to 2021 PPP USD),1264601.9719569457
+06_HKC,"Hong Kong, China",2091,9th Outlook projections (rebased to 2021 PPP USD),1279667.5917429668
+06_HKC,"Hong Kong, China",2092,9th Outlook projections (rebased to 2021 PPP USD),1295074.1319806203
+06_HKC,"Hong Kong, China",2093,9th Outlook projections (rebased to 2021 PPP USD),1310808.1092988234
+06_HKC,"Hong Kong, China",2094,9th Outlook projections (rebased to 2021 PPP USD),1326851.6003626394
+06_HKC,"Hong Kong, China",2095,9th Outlook projections (rebased to 2021 PPP USD),1343179.352863469
+06_HKC,"Hong Kong, China",2096,9th Outlook projections (rebased to 2021 PPP USD),1359761.5815426076
+06_HKC,"Hong Kong, China",2097,9th Outlook projections (rebased to 2021 PPP USD),1376585.1612875592
+06_HKC,"Hong Kong, China",2098,9th Outlook projections (rebased to 2021 PPP USD),1393623.6011186216
+06_HKC,"Hong Kong, China",2099,9th Outlook projections (rebased to 2021 PPP USD),1410850.2572271428
+06_HKC,"Hong Kong, China",2100,9th Outlook projections (rebased to 2021 PPP USD),1428243.8238665573

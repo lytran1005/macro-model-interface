@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+10_MAS,Malaysia,1990,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,1991,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,1992,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,1993,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,1994,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,1995,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,1996,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,1997,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,1998,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,1999,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2000,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2001,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2002,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2003,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2004,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2005,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2006,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2007,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2008,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2009,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2010,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2011,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2012,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2013,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2014,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2015,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2016,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2017,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2018,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2019,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2020,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2021,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2022,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2023,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2024,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2025,APERC GDP projections,,GDP_low
+10_MAS,Malaysia,2026,APERC GDP projections,1338768.3119384802,GDP_low
+10_MAS,Malaysia,2027,APERC GDP projections,1387837.9111350449,GDP_low
+10_MAS,Malaysia,2028,APERC GDP projections,1436253.607699213,GDP_low
+10_MAS,Malaysia,2029,APERC GDP projections,1484056.1854903456,GDP_low
+10_MAS,Malaysia,2030,APERC GDP projections,1530016.999629283,GDP_low
+10_MAS,Malaysia,2031,APERC GDP projections,1587388.7863613062,GDP_low
+10_MAS,Malaysia,2032,APERC GDP projections,1645997.3061183388,GDP_low
+10_MAS,Malaysia,2033,APERC GDP projections,1696977.676946544,GDP_low
+10_MAS,Malaysia,2034,APERC GDP projections,1747735.1142677525,GDP_low
+10_MAS,Malaysia,2035,APERC GDP projections,1796759.4725681627,GDP_low
+10_MAS,Malaysia,2036,APERC GDP projections,1844433.070255229,GDP_low
+10_MAS,Malaysia,2037,APERC GDP projections,1890451.1015921729,GDP_low
+10_MAS,Malaysia,2038,APERC GDP projections,1936593.452053294,GDP_low
+10_MAS,Malaysia,2039,APERC GDP projections,1983251.3649013864,GDP_low
+10_MAS,Malaysia,2040,APERC GDP projections,2029986.1337113336,GDP_low
+10_MAS,Malaysia,2041,APERC GDP projections,2077260.6110297428,GDP_low
+10_MAS,Malaysia,2042,APERC GDP projections,2123497.691352545,GDP_low
+10_MAS,Malaysia,2043,APERC GDP projections,2168650.2115922454,GDP_low
+10_MAS,Malaysia,2044,APERC GDP projections,2213275.572795047,GDP_low
+10_MAS,Malaysia,2045,APERC GDP projections,2257029.0780226565,GDP_low
+10_MAS,Malaysia,2046,APERC GDP projections,2300180.15496176,GDP_low
+10_MAS,Malaysia,2047,APERC GDP projections,2342986.9573500734,GDP_low
+10_MAS,Malaysia,2048,APERC GDP projections,2385407.637993114,GDP_low
+10_MAS,Malaysia,2049,APERC GDP projections,2427058.679704579,GDP_low
+10_MAS,Malaysia,2050,APERC GDP projections,2468019.7329269075,GDP_low
+10_MAS,Malaysia,2051,APERC GDP projections,2508513.025171984,GDP_low
+10_MAS,Malaysia,2052,APERC GDP projections,2548608.847531025,GDP_low
+10_MAS,Malaysia,2053,APERC GDP projections,2588586.521161279,GDP_low
+10_MAS,Malaysia,2054,APERC GDP projections,2628392.25328678,GDP_low
+10_MAS,Malaysia,2055,APERC GDP projections,2667755.8102764874,GDP_low
+10_MAS,Malaysia,2056,APERC GDP projections,2706632.232519349,GDP_low
+10_MAS,Malaysia,2057,APERC GDP projections,2745475.6647526165,GDP_low
+10_MAS,Malaysia,2058,APERC GDP projections,2784108.0580028384,GDP_low
+10_MAS,Malaysia,2059,APERC GDP projections,2822584.6988830143,GDP_low
+10_MAS,Malaysia,2060,APERC GDP projections,2861088.623726503,GDP_low
+10_MAS,Malaysia,2061,APERC GDP projections,2899156.2019892856,GDP_low
+10_MAS,Malaysia,2062,APERC GDP projections,2937056.7718364107,GDP_low
+10_MAS,Malaysia,2063,APERC GDP projections,2974463.780811581,GDP_low
+10_MAS,Malaysia,2064,APERC GDP projections,3011522.738101119,GDP_low
+10_MAS,Malaysia,2065,APERC GDP projections,3048663.066447664,GDP_low
+10_MAS,Malaysia,2066,APERC GDP projections,3085270.706886998,GDP_low
+10_MAS,Malaysia,2067,APERC GDP projections,3121633.608841272,GDP_low
+10_MAS,Malaysia,2068,APERC GDP projections,3157820.4393654037,GDP_low
+10_MAS,Malaysia,2069,APERC GDP projections,3193862.58939632,GDP_low
+10_MAS,Malaysia,2070,APERC GDP projections,3230103.0038289763,GDP_low
+10_MAS,Malaysia,2071,APERC GDP projections,3266216.212791564,GDP_low
+10_MAS,Malaysia,2072,APERC GDP projections,3302344.8841005783,GDP_low
+10_MAS,Malaysia,2073,APERC GDP projections,3338262.3823382016,GDP_low
+10_MAS,Malaysia,2074,APERC GDP projections,3373790.079344769,GDP_low
+10_MAS,Malaysia,2075,APERC GDP projections,3409438.83211511,GDP_low
+10_MAS,Malaysia,2076,APERC GDP projections,3444887.6144457567,GDP_low
+10_MAS,Malaysia,2077,APERC GDP projections,3480579.138208909,GDP_low
+10_MAS,Malaysia,2078,APERC GDP projections,3515434.132700484,GDP_low
+10_MAS,Malaysia,2079,APERC GDP projections,3550090.97321259,GDP_low
+10_MAS,Malaysia,2080,APERC GDP projections,3584564.648699024,GDP_low
+10_MAS,Malaysia,2081,APERC GDP projections,3618375.372513022,GDP_low
+10_MAS,Malaysia,2082,APERC GDP projections,3652458.783418667,GDP_low
+10_MAS,Malaysia,2083,APERC GDP projections,3686274.60063643,GDP_low
+10_MAS,Malaysia,2084,APERC GDP projections,3719777.451957236,GDP_low
+10_MAS,Malaysia,2085,APERC GDP projections,3753444.4282284384,GDP_low
+10_MAS,Malaysia,2086,APERC GDP projections,3787045.9785478297,GDP_low
+10_MAS,Malaysia,2087,APERC GDP projections,3820154.354405552,GDP_low
+10_MAS,Malaysia,2088,APERC GDP projections,3853256.319738512,GDP_low
+10_MAS,Malaysia,2089,APERC GDP projections,3886248.714137605,GDP_low
+10_MAS,Malaysia,2090,APERC GDP projections,3919242.746682266,GDP_low
+10_MAS,Malaysia,2091,APERC GDP projections,3952079.801584233,GDP_low
+10_MAS,Malaysia,2092,APERC GDP projections,3984948.421331923,GDP_low
+10_MAS,Malaysia,2093,APERC GDP projections,4017666.172939273,GDP_low
+10_MAS,Malaysia,2094,APERC GDP projections,4050066.207385085,GDP_low
+10_MAS,Malaysia,2095,APERC GDP projections,4082630.369409167,GDP_low
+10_MAS,Malaysia,2096,APERC GDP projections,4114972.7345846696,GDP_low
+10_MAS,Malaysia,2097,APERC GDP projections,4147184.875296609,GDP_low
+10_MAS,Malaysia,2098,APERC GDP projections,4179598.7114465423,GDP_low
+10_MAS,Malaysia,2099,APERC GDP projections,4212269.955558629,GDP_low
+10_MAS,Malaysia,2100,APERC GDP projections,4244819.488995435,GDP_low
+10_MAS,Malaysia,1990,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,1991,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,1992,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,1993,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,1994,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,1995,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,1996,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,1997,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,1998,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,1999,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2000,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2001,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2002,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2003,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2004,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2005,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2006,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2007,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2008,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2009,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2010,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2011,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2012,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2013,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2014,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2015,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2016,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2017,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2018,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2019,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2020,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2021,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2022,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2023,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2024,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2025,APERC GDP projections,,GDP_high
+10_MAS,Malaysia,2026,APERC GDP projections,1338721.2440820567,GDP_high
+10_MAS,Malaysia,2027,APERC GDP projections,1390330.1630576665,GDP_high
+10_MAS,Malaysia,2028,APERC GDP projections,1441422.0916657906,GDP_high
+10_MAS,Malaysia,2029,APERC GDP projections,1492031.2766286058,GDP_high
+10_MAS,Malaysia,2030,APERC GDP projections,1543088.6556225934,GDP_high
+10_MAS,Malaysia,2031,APERC GDP projections,1605615.1667600493,GDP_high
+10_MAS,Malaysia,2032,APERC GDP projections,1669555.255142276,GDP_high
+10_MAS,Malaysia,2033,APERC GDP projections,1725862.652610223,GDP_high
+10_MAS,Malaysia,2034,APERC GDP projections,1782016.6952234202,GDP_high
+10_MAS,Malaysia,2035,APERC GDP projections,1838105.8094939943,GDP_high
+10_MAS,Malaysia,2036,APERC GDP projections,1893315.6028358224,GDP_high
+10_MAS,Malaysia,2037,APERC GDP projections,1947375.8184655008,GDP_high
+10_MAS,Malaysia,2038,APERC GDP projections,2001780.8091978736,GDP_high
+10_MAS,Malaysia,2039,APERC GDP projections,2058610.9831567325,GDP_high
+10_MAS,Malaysia,2040,APERC GDP projections,2118016.253058685,GDP_high
+10_MAS,Malaysia,2041,APERC GDP projections,2180477.641239097,GDP_high
+10_MAS,Malaysia,2042,APERC GDP projections,2244422.333351654,GDP_high
+10_MAS,Malaysia,2043,APERC GDP projections,2309753.104331768,GDP_high
+10_MAS,Malaysia,2044,APERC GDP projections,2377074.044355993,GDP_high
+10_MAS,Malaysia,2045,APERC GDP projections,2446053.647635115,GDP_high
+10_MAS,Malaysia,2046,APERC GDP projections,2516965.4249827373,GDP_high
+10_MAS,Malaysia,2047,APERC GDP projections,2590058.889440099,GDP_high
+10_MAS,Malaysia,2048,APERC GDP projections,2664799.427370068,GDP_high
+10_MAS,Malaysia,2049,APERC GDP projections,2741276.177650033,GDP_high
+10_MAS,Malaysia,2050,APERC GDP projections,2819717.000701098,GDP_high
+10_MAS,Malaysia,2051,APERC GDP projections,2900525.6283896253,GDP_high
+10_MAS,Malaysia,2052,APERC GDP projections,2983321.882399591,GDP_high
+10_MAS,Malaysia,2053,APERC GDP projections,3068456.0095811854,GDP_high
+10_MAS,Malaysia,2054,APERC GDP projections,3155960.3668857724,GDP_high
+10_MAS,Malaysia,2055,APERC GDP projections,3245644.9708654005,GDP_high
+10_MAS,Malaysia,2056,APERC GDP projections,3337532.6683659726,GDP_high
+10_MAS,Malaysia,2057,APERC GDP projections,3432160.5752427937,GDP_high
+10_MAS,Malaysia,2058,APERC GDP projections,3529454.397136078,GDP_high
+10_MAS,Malaysia,2059,APERC GDP projections,3629570.287494875,GDP_high
+10_MAS,Malaysia,2060,APERC GDP projections,3732803.50157488,GDP_high
+10_MAS,Malaysia,2061,APERC GDP projections,3838773.5763099375,GDP_high
+10_MAS,Malaysia,2062,APERC GDP projections,3947837.518100497,GDP_high
+10_MAS,Malaysia,2063,APERC GDP projections,4059731.00625904,GDP_high
+10_MAS,Malaysia,2064,APERC GDP projections,4174653.6164141367,GDP_high
+10_MAS,Malaysia,2065,APERC GDP projections,4293114.244813184,GDP_high
+10_MAS,Malaysia,2066,APERC GDP projections,4414494.951864615,GDP_high
+10_MAS,Malaysia,2067,APERC GDP projections,4539127.351485265,GDP_high
+10_MAS,Malaysia,2068,APERC GDP projections,4667128.038297709,GDP_high
+10_MAS,Malaysia,2069,APERC GDP projections,4798559.403237275,GDP_high
+10_MAS,Malaysia,2070,APERC GDP projections,4933828.252275766,GDP_high
+10_MAS,Malaysia,2071,APERC GDP projections,5072645.415246485,GDP_high
+10_MAS,Malaysia,2072,APERC GDP projections,5215210.687618303,GDP_high
+10_MAS,Malaysia,2073,APERC GDP projections,5361300.671227305,GDP_high
+10_MAS,Malaysia,2074,APERC GDP projections,5510755.315076076,GDP_high
+10_MAS,Malaysia,2075,APERC GDP projections,5664230.05605211,GDP_high
+10_MAS,Malaysia,2076,APERC GDP projections,5821436.623760937,GDP_high
+10_MAS,Malaysia,2077,APERC GDP projections,5982932.313331577,GDP_high
+10_MAS,Malaysia,2078,APERC GDP projections,6147582.594400693,GDP_high
+10_MAS,Malaysia,2079,APERC GDP projections,6316196.271368022,GDP_high
+10_MAS,Malaysia,2080,APERC GDP projections,6488889.299437434,GDP_high
+10_MAS,Malaysia,2081,APERC GDP projections,6665243.876246125,GDP_high
+10_MAS,Malaysia,2082,APERC GDP projections,6846447.200252645,GDP_high
+10_MAS,Malaysia,2083,APERC GDP projections,7032021.243400922,GDP_high
+10_MAS,Malaysia,2084,APERC GDP projections,7222062.381939391,GDP_high
+10_MAS,Malaysia,2085,APERC GDP projections,7417325.533682461,GDP_high
+10_MAS,Malaysia,2086,APERC GDP projections,7617745.200546805,GDP_high
+10_MAS,Malaysia,2087,APERC GDP projections,7822981.232080929,GDP_high
+10_MAS,Malaysia,2088,APERC GDP projections,8033813.315367829,GDP_high
+10_MAS,Malaysia,2089,APERC GDP projections,8250361.395449303,GDP_high
+10_MAS,Malaysia,2090,APERC GDP projections,8472972.751804262,GDP_high
+10_MAS,Malaysia,2091,APERC GDP projections,8701632.614507824,GDP_high
+10_MAS,Malaysia,2092,APERC GDP projections,8936808.189679982,GDP_high
+10_MAS,Malaysia,2093,APERC GDP projections,9178490.936965056,GDP_high
+10_MAS,Malaysia,2094,APERC GDP projections,9426698.703777889,GDP_high
+10_MAS,Malaysia,2095,APERC GDP projections,9682222.19730201,GDP_high
+10_MAS,Malaysia,2096,APERC GDP projections,9944802.088661077,GDP_high
+10_MAS,Malaysia,2097,APERC GDP projections,10214675.482235707,GDP_high
+10_MAS,Malaysia,2098,APERC GDP projections,10492460.616835224,GDP_high
+10_MAS,Malaysia,2099,APERC GDP projections,10778438.934993502,GDP_high
+10_MAS,Malaysia,2100,APERC GDP projections,11072316.506012382,GDP_high
+10_MAS,Malaysia,1990,WDI GDP through 2025,214242.312021412,GDP_med
+10_MAS,Malaysia,1991,WDI GDP through 2025,234692.742103338,GDP_med
+10_MAS,Malaysia,1992,WDI GDP through 2025,255545.469125778,GDP_med
+10_MAS,Malaysia,1993,WDI GDP through 2025,280831.548487792,GDP_med
+10_MAS,Malaysia,1994,WDI GDP through 2025,306701.868103396,GDP_med
+10_MAS,Malaysia,1995,WDI GDP through 2025,336847.856021014,GDP_med
+10_MAS,Malaysia,1996,WDI GDP through 2025,370541.738826626,GDP_med
+10_MAS,Malaysia,1997,WDI GDP through 2025,397675.553808732,GDP_med
+10_MAS,Malaysia,1998,WDI GDP through 2025,368408.958702071,GDP_med
+10_MAS,Malaysia,1999,WDI GDP through 2025,391020.47119941,GDP_med
+10_MAS,Malaysia,2000,WDI GDP through 2025,425660.459259482,GDP_med
+10_MAS,Malaysia,2001,WDI GDP through 2025,427863.99840063095,GDP_med
+10_MAS,Malaysia,2002,WDI GDP through 2025,450930.096523964,GDP_med
+10_MAS,Malaysia,2003,WDI GDP through 2025,477032.181941105,GDP_med
+10_MAS,Malaysia,2004,WDI GDP through 2025,509391.362925102,GDP_med
+10_MAS,Malaysia,2005,WDI GDP through 2025,536552.8192724959,GDP_med
+10_MAS,Malaysia,2006,WDI GDP through 2025,566518.473663355,GDP_med
+10_MAS,Malaysia,2007,WDI GDP through 2025,602202.2595586369,GDP_med
+10_MAS,Malaysia,2008,WDI GDP through 2025,631299.287007657,GDP_med
+10_MAS,Malaysia,2009,WDI GDP through 2025,621744.391014975,GDP_med
+10_MAS,Malaysia,2010,WDI GDP through 2025,667907.9631618221,GDP_med
+10_MAS,Malaysia,2011,WDI GDP through 2025,703266.4285438891,GDP_med
+10_MAS,Malaysia,2012,WDI GDP through 2025,741759.39436174,GDP_med
+10_MAS,Malaysia,2013,WDI GDP through 2025,776575.522140495,GDP_med
+10_MAS,Malaysia,2014,WDI GDP through 2025,823222.254452927,GDP_med
+10_MAS,Malaysia,2015,WDI GDP through 2025,865136.882439813,GDP_med
+10_MAS,Malaysia,2016,WDI GDP through 2025,903633.58249853,GDP_med
+10_MAS,Malaysia,2017,WDI GDP through 2025,956159.2942512012,GDP_med
+10_MAS,Malaysia,2018,WDI GDP through 2025,1002466.92050423,GDP_med
+10_MAS,Malaysia,2019,WDI GDP through 2025,1046707.66454257,GDP_med
+10_MAS,Malaysia,2020,WDI GDP through 2025,989590.433102722,GDP_med
+10_MAS,Malaysia,2021,WDI GDP through 2025,1022398.81501398,GDP_med
+10_MAS,Malaysia,2022,WDI GDP through 2025,1114739.18943322,GDP_med
+10_MAS,Malaysia,2023,WDI GDP through 2025,1154168.22581284,GDP_med
+10_MAS,Malaysia,2024,WDI GDP through 2025,1213093.81379927,GDP_med
+10_MAS,Malaysia,2025,WDI GDP through 2025,1275826.18032202,GDP_med
+10_MAS,Malaysia,2026,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2027,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2028,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2029,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2030,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2031,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2032,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2033,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2034,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2035,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2036,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2037,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2038,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2039,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2040,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2041,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2042,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2043,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2044,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2045,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2046,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2047,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2048,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2049,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2050,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2051,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2052,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2053,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2054,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2055,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2056,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2057,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2058,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2059,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2060,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2061,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2062,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2063,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2064,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2065,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2066,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2067,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2068,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2069,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2070,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2071,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2072,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2073,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2074,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2075,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2076,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2077,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2078,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2079,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2080,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2081,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2082,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2083,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2084,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2085,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2086,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2087,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2088,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2089,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2090,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2091,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2092,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2093,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2094,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2095,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2096,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2097,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2098,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2099,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,2100,WDI GDP through 2025,,GDP_med
+10_MAS,Malaysia,1990,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,1991,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,1992,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,1993,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,1994,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,1995,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,1996,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,1997,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,1998,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,1999,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2000,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2001,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2002,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2003,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2004,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2005,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2006,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2007,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2008,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2009,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2010,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2011,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2012,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2013,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2014,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2015,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2016,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2017,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2018,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2019,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2020,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2021,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2022,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2023,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2024,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2025,APERC GDP projections,,GDP_med
+10_MAS,Malaysia,2026,APERC GDP projections,1338747.8522186882,GDP_med
+10_MAS,Malaysia,2027,APERC GDP projections,1389093.938123662,GDP_med
+10_MAS,Malaysia,2028,APERC GDP projections,1438856.92407715,GDP_med
+10_MAS,Malaysia,2029,APERC GDP projections,1488074.454673407,GDP_med
+10_MAS,Malaysia,2030,APERC GDP projections,1536606.1494414357,GDP_med
+10_MAS,Malaysia,2031,APERC GDP projections,1596585.049952226,GDP_med
+10_MAS,Malaysia,2032,APERC GDP projections,1657896.6657167643,GDP_med
+10_MAS,Malaysia,2033,APERC GDP projections,1711585.2229650896,GDP_med
+10_MAS,Malaysia,2034,APERC GDP projections,1765094.0801510648,GDP_med
+10_MAS,Malaysia,2035,APERC GDP projections,1817726.115801263,GDP_med
+10_MAS,Malaysia,2036,APERC GDP projections,1869253.7475814205,GDP_med
+10_MAS,Malaysia,2037,APERC GDP projections,1919388.532864776,GDP_med
+10_MAS,Malaysia,2038,APERC GDP projections,1969770.214283326,GDP_med
+10_MAS,Malaysia,2039,APERC GDP projections,2021635.241023872,GDP_med
+10_MAS,Malaysia,2040,APERC GDP projections,2073663.249024456,GDP_med
+10_MAS,Malaysia,2041,APERC GDP projections,2126307.5989685804,GDP_med
+10_MAS,Malaysia,2042,APERC GDP projections,2177970.800474887,GDP_med
+10_MAS,Malaysia,2043,APERC GDP projections,2228583.521497569,GDP_med
+10_MAS,Malaysia,2044,APERC GDP projections,2278730.0568185523,GDP_med
+10_MAS,Malaysia,2045,APERC GDP projections,2328071.1710964306,GDP_med
+10_MAS,Malaysia,2046,APERC GDP projections,2376877.935835441,GDP_med
+10_MAS,Malaysia,2047,APERC GDP projections,2425396.297181288,GDP_med
+10_MAS,Malaysia,2048,APERC GDP projections,2473588.6512888363,GDP_med
+10_MAS,Malaysia,2049,APERC GDP projections,2521098.3394224797,GDP_med
+10_MAS,Malaysia,2050,APERC GDP projections,2568014.243594724,GDP_med
+10_MAS,Malaysia,2051,APERC GDP projections,2615157.8763763774,GDP_med
+10_MAS,Malaysia,2052,APERC GDP projections,2662096.101178876,GDP_med
+10_MAS,Malaysia,2053,APERC GDP projections,2709122.284205169,GDP_med
+10_MAS,Malaysia,2054,APERC GDP projections,2756207.2068930166,GDP_med
+10_MAS,Malaysia,2055,APERC GDP projections,2803116.275128827,GDP_med
+10_MAS,Malaysia,2056,APERC GDP projections,2849828.3991432083,GDP_med
+10_MAS,Malaysia,2057,APERC GDP projections,2896799.039257746,GDP_med
+10_MAS,Malaysia,2058,APERC GDP projections,2943884.991513611,GDP_med
+10_MAS,Malaysia,2059,APERC GDP projections,2991163.4081227663,GDP_med
+10_MAS,Malaysia,2060,APERC GDP projections,3038830.755572699,GDP_med
+10_MAS,Malaysia,2061,APERC GDP projections,3086469.672967306,GDP_med
+10_MAS,Malaysia,2062,APERC GDP projections,3134351.182089122,GDP_med
+10_MAS,Malaysia,2063,APERC GDP projections,3182183.8108888627,GDP_med
+10_MAS,Malaysia,2064,APERC GDP projections,3230110.0743857883,GDP_med
+10_MAS,Malaysia,2065,APERC GDP projections,3278538.8451926718,GDP_med
+10_MAS,Malaysia,2066,APERC GDP projections,3326889.427183903,GDP_med
+10_MAS,Malaysia,2067,APERC GDP projections,3375430.5703506046,GDP_med
+10_MAS,Malaysia,2068,APERC GDP projections,3424227.896468229,GDP_med
+10_MAS,Malaysia,2069,APERC GDP projections,3473303.5496947845,GDP_med
+10_MAS,Malaysia,2070,APERC GDP projections,3522967.809986233,GDP_med
+10_MAS,Malaysia,2071,APERC GDP projections,3572922.438340853,GDP_med
+10_MAS,Malaysia,2072,APERC GDP projections,3623295.338679668,GDP_med
+10_MAS,Malaysia,2073,APERC GDP projections,3673866.9578496017,GDP_med
+10_MAS,Malaysia,2074,APERC GDP projections,3724471.339811096,GDP_med
+10_MAS,Malaysia,2075,APERC GDP projections,3775590.112708481,GDP_med
+10_MAS,Malaysia,2076,APERC GDP projections,3826929.9724708144,GDP_med
+10_MAS,Malaysia,2077,APERC GDP projections,3878886.759174162,GDP_med
+10_MAS,Malaysia,2078,APERC GDP projections,3930489.202340529,GDP_med
+10_MAS,Malaysia,2079,APERC GDP projections,3982328.294187955,GDP_med
+10_MAS,Malaysia,2080,APERC GDP projections,4034422.836522731,GDP_med
+10_MAS,Malaysia,2081,APERC GDP projections,4086364.35501078,GDP_med
+10_MAS,Malaysia,2082,APERC GDP projections,4138996.18517676,GDP_med
+10_MAS,Malaysia,2083,APERC GDP projections,4191847.1933449744,GDP_med
+10_MAS,Malaysia,2084,APERC GDP projections,4244893.023075011,GDP_med
+10_MAS,Malaysia,2085,APERC GDP projections,4298583.163786687,GDP_med
+10_MAS,Malaysia,2086,APERC GDP projections,4352737.6388899,GDP_med
+10_MAS,Malaysia,2087,APERC GDP projections,4406993.201784783,GDP_med
+10_MAS,Malaysia,2088,APERC GDP projections,4461804.218713281,GDP_med
+10_MAS,Malaysia,2089,APERC GDP projections,4517112.518600575,GDP_med
+10_MAS,Malaysia,2090,APERC GDP projections,4573035.652455092,GDP_med
+10_MAS,Malaysia,2091,APERC GDP projections,4629443.989411729,GDP_med
+10_MAS,Malaysia,2092,APERC GDP projections,4686531.147517673,GDP_med
+10_MAS,Malaysia,2093,APERC GDP projections,4744155.843953456,GDP_med
+10_MAS,Malaysia,2094,APERC GDP projections,4802200.144290096,GDP_med
+10_MAS,Malaysia,2095,APERC GDP projections,4861093.948452697,GDP_med
+10_MAS,Malaysia,2096,APERC GDP projections,4920522.543323724,GDP_med
+10_MAS,Malaysia,2097,APERC GDP projections,4980558.000205913,GDP_med
+10_MAS,Malaysia,2098,APERC GDP projections,5041495.2814920815,GDP_med
+10_MAS,Malaysia,2099,APERC GDP projections,5103393.902854061,GDP_med
+10_MAS,Malaysia,2100,APERC GDP projections,5165932.537870522,GDP_med

@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+01_AUS,Australia,1990,APERC GDP projections,,GDP_low
+01_AUS,Australia,1991,APERC GDP projections,,GDP_low
+01_AUS,Australia,1992,APERC GDP projections,,GDP_low
+01_AUS,Australia,1993,APERC GDP projections,,GDP_low
+01_AUS,Australia,1994,APERC GDP projections,,GDP_low
+01_AUS,Australia,1995,APERC GDP projections,,GDP_low
+01_AUS,Australia,1996,APERC GDP projections,,GDP_low
+01_AUS,Australia,1997,APERC GDP projections,,GDP_low
+01_AUS,Australia,1998,APERC GDP projections,,GDP_low
+01_AUS,Australia,1999,APERC GDP projections,,GDP_low
+01_AUS,Australia,2000,APERC GDP projections,,GDP_low
+01_AUS,Australia,2001,APERC GDP projections,,GDP_low
+01_AUS,Australia,2002,APERC GDP projections,,GDP_low
+01_AUS,Australia,2003,APERC GDP projections,,GDP_low
+01_AUS,Australia,2004,APERC GDP projections,,GDP_low
+01_AUS,Australia,2005,APERC GDP projections,,GDP_low
+01_AUS,Australia,2006,APERC GDP projections,,GDP_low
+01_AUS,Australia,2007,APERC GDP projections,,GDP_low
+01_AUS,Australia,2008,APERC GDP projections,,GDP_low
+01_AUS,Australia,2009,APERC GDP projections,,GDP_low
+01_AUS,Australia,2010,APERC GDP projections,,GDP_low
+01_AUS,Australia,2011,APERC GDP projections,,GDP_low
+01_AUS,Australia,2012,APERC GDP projections,,GDP_low
+01_AUS,Australia,2013,APERC GDP projections,,GDP_low
+01_AUS,Australia,2014,APERC GDP projections,,GDP_low
+01_AUS,Australia,2015,APERC GDP projections,,GDP_low
+01_AUS,Australia,2016,APERC GDP projections,,GDP_low
+01_AUS,Australia,2017,APERC GDP projections,,GDP_low
+01_AUS,Australia,2018,APERC GDP projections,,GDP_low
+01_AUS,Australia,2019,APERC GDP projections,,GDP_low
+01_AUS,Australia,2020,APERC GDP projections,,GDP_low
+01_AUS,Australia,2021,APERC GDP projections,,GDP_low
+01_AUS,Australia,2022,APERC GDP projections,,GDP_low
+01_AUS,Australia,2023,APERC GDP projections,,GDP_low
+01_AUS,Australia,2024,APERC GDP projections,,GDP_low
+01_AUS,Australia,2025,APERC GDP projections,,GDP_low
+01_AUS,Australia,2026,APERC GDP projections,1692390.474299741,GDP_low
+01_AUS,Australia,2027,APERC GDP projections,1722670.6938337905,GDP_low
+01_AUS,Australia,2028,APERC GDP projections,1753715.3464019494,GDP_low
+01_AUS,Australia,2029,APERC GDP projections,1785209.2667933928,GDP_low
+01_AUS,Australia,2030,APERC GDP projections,1815759.523143784,GDP_low
+01_AUS,Australia,2031,APERC GDP projections,1847563.731450876,GDP_low
+01_AUS,Australia,2032,APERC GDP projections,1878385.9444902977,GDP_low
+01_AUS,Australia,2033,APERC GDP projections,1909402.259713425,GDP_low
+01_AUS,Australia,2034,APERC GDP projections,1941352.663493742,GDP_low
+01_AUS,Australia,2035,APERC GDP projections,1972931.5140259503,GDP_low
+01_AUS,Australia,2036,APERC GDP projections,2004995.1328530577,GDP_low
+01_AUS,Australia,2037,APERC GDP projections,2037441.377135531,GDP_low
+01_AUS,Australia,2038,APERC GDP projections,2069968.130933906,GDP_low
+01_AUS,Australia,2039,APERC GDP projections,2103106.7644468024,GDP_low
+01_AUS,Australia,2040,APERC GDP projections,2136369.289204914,GDP_low
+01_AUS,Australia,2041,APERC GDP projections,2170221.439723232,GDP_low
+01_AUS,Australia,2042,APERC GDP projections,2204659.9983075443,GDP_low
+01_AUS,Australia,2043,APERC GDP projections,2239663.012852213,GDP_low
+01_AUS,Australia,2044,APERC GDP projections,2274961.608714161,GDP_low
+01_AUS,Australia,2045,APERC GDP projections,2310666.4576754607,GDP_low
+01_AUS,Australia,2046,APERC GDP projections,2346961.5877970685,GDP_low
+01_AUS,Australia,2047,APERC GDP projections,2383979.98901608,GDP_low
+01_AUS,Australia,2048,APERC GDP projections,2420843.6145198555,GDP_low
+01_AUS,Australia,2049,APERC GDP projections,2458748.7716334797,GDP_low
+01_AUS,Australia,2050,APERC GDP projections,2496528.8498936617,GDP_low
+01_AUS,Australia,2051,APERC GDP projections,2534760.6734217107,GDP_low
+01_AUS,Australia,2052,APERC GDP projections,2573331.4838657565,GDP_low
+01_AUS,Australia,2053,APERC GDP projections,2612059.069915056,GDP_low
+01_AUS,Australia,2054,APERC GDP projections,2651201.1215678877,GDP_low
+01_AUS,Australia,2055,APERC GDP projections,2690892.9008831866,GDP_low
+01_AUS,Australia,2056,APERC GDP projections,2731018.218921683,GDP_low
+01_AUS,Australia,2057,APERC GDP projections,2771208.5966130407,GDP_low
+01_AUS,Australia,2058,APERC GDP projections,2811775.1932448847,GDP_low
+01_AUS,Australia,2059,APERC GDP projections,2853077.1431838465,GDP_low
+01_AUS,Australia,2060,APERC GDP projections,2894097.049031996,GDP_low
+01_AUS,Australia,2061,APERC GDP projections,2935420.4131112085,GDP_low
+01_AUS,Australia,2062,APERC GDP projections,2977303.0263413074,GDP_low
+01_AUS,Australia,2063,APERC GDP projections,3019564.8728260486,GDP_low
+01_AUS,Australia,2064,APERC GDP projections,3062325.853149973,GDP_low
+01_AUS,Australia,2065,APERC GDP projections,3104785.4870515247,GDP_low
+01_AUS,Australia,2066,APERC GDP projections,3147972.060506536,GDP_low
+01_AUS,Australia,2067,APERC GDP projections,3192041.4990065168,GDP_low
+01_AUS,Australia,2068,APERC GDP projections,3236580.340300397,GDP_low
+01_AUS,Australia,2069,APERC GDP projections,3281609.5073443423,GDP_low
+01_AUS,Australia,2070,APERC GDP projections,3326947.081218865,GDP_low
+01_AUS,Australia,2071,APERC GDP projections,3372391.3884956706,GDP_low
+01_AUS,Australia,2072,APERC GDP projections,3417811.817198513,GDP_low
+01_AUS,Australia,2073,APERC GDP projections,3463705.5321889417,GDP_low
+01_AUS,Australia,2074,APERC GDP projections,3510194.6662300075,GDP_low
+01_AUS,Australia,2075,APERC GDP projections,3557352.982127122,GDP_low
+01_AUS,Australia,2076,APERC GDP projections,3604837.94430434,GDP_low
+01_AUS,Australia,2077,APERC GDP projections,3652664.47023526,GDP_low
+01_AUS,Australia,2078,APERC GDP projections,3701630.183166116,GDP_low
+01_AUS,Australia,2079,APERC GDP projections,3751242.552515783,GDP_low
+01_AUS,Australia,2080,APERC GDP projections,3801524.986339153,GDP_low
+01_AUS,Australia,2081,APERC GDP projections,3852524.7473943583,GDP_low
+01_AUS,Australia,2082,APERC GDP projections,3904995.0011993977,GDP_low
+01_AUS,Australia,2083,APERC GDP projections,3957737.657530689,GDP_low
+01_AUS,Australia,2084,APERC GDP projections,4011790.551711089,GDP_low
+01_AUS,Australia,2085,APERC GDP projections,4065734.4917415055,GDP_low
+01_AUS,Australia,2086,APERC GDP projections,4120583.35074388,GDP_low
+01_AUS,Australia,2087,APERC GDP projections,4176744.0139369126,GDP_low
+01_AUS,Australia,2088,APERC GDP projections,4234248.947014641,GDP_low
+01_AUS,Australia,2089,APERC GDP projections,4293544.111772691,GDP_low
+01_AUS,Australia,2090,APERC GDP projections,4353069.22589242,GDP_low
+01_AUS,Australia,2091,APERC GDP projections,4414041.863149011,GDP_low
+01_AUS,Australia,2092,APERC GDP projections,4475992.059454749,GDP_low
+01_AUS,Australia,2093,APERC GDP projections,4538462.643223586,GDP_low
+01_AUS,Australia,2094,APERC GDP projections,4601582.939362385,GDP_low
+01_AUS,Australia,2095,APERC GDP projections,4664459.99094163,GDP_low
+01_AUS,Australia,2096,APERC GDP projections,4728729.003303685,GDP_low
+01_AUS,Australia,2097,APERC GDP projections,4794600.083141546,GDP_low
+01_AUS,Australia,2098,APERC GDP projections,4861822.782281295,GDP_low
+01_AUS,Australia,2099,APERC GDP projections,4928745.879445198,GDP_low
+01_AUS,Australia,2100,APERC GDP projections,4996024.637276481,GDP_low
+01_AUS,Australia,1990,APERC GDP projections,,GDP_high
+01_AUS,Australia,1991,APERC GDP projections,,GDP_high
+01_AUS,Australia,1992,APERC GDP projections,,GDP_high
+01_AUS,Australia,1993,APERC GDP projections,,GDP_high
+01_AUS,Australia,1994,APERC GDP projections,,GDP_high
+01_AUS,Australia,1995,APERC GDP projections,,GDP_high
+01_AUS,Australia,1996,APERC GDP projections,,GDP_high
+01_AUS,Australia,1997,APERC GDP projections,,GDP_high
+01_AUS,Australia,1998,APERC GDP projections,,GDP_high
+01_AUS,Australia,1999,APERC GDP projections,,GDP_high
+01_AUS,Australia,2000,APERC GDP projections,,GDP_high
+01_AUS,Australia,2001,APERC GDP projections,,GDP_high
+01_AUS,Australia,2002,APERC GDP projections,,GDP_high
+01_AUS,Australia,2003,APERC GDP projections,,GDP_high
+01_AUS,Australia,2004,APERC GDP projections,,GDP_high
+01_AUS,Australia,2005,APERC GDP projections,,GDP_high
+01_AUS,Australia,2006,APERC GDP projections,,GDP_high
+01_AUS,Australia,2007,APERC GDP projections,,GDP_high
+01_AUS,Australia,2008,APERC GDP projections,,GDP_high
+01_AUS,Australia,2009,APERC GDP projections,,GDP_high
+01_AUS,Australia,2010,APERC GDP projections,,GDP_high
+01_AUS,Australia,2011,APERC GDP projections,,GDP_high
+01_AUS,Australia,2012,APERC GDP projections,,GDP_high
+01_AUS,Australia,2013,APERC GDP projections,,GDP_high
+01_AUS,Australia,2014,APERC GDP projections,,GDP_high
+01_AUS,Australia,2015,APERC GDP projections,,GDP_high
+01_AUS,Australia,2016,APERC GDP projections,,GDP_high
+01_AUS,Australia,2017,APERC GDP projections,,GDP_high
+01_AUS,Australia,2018,APERC GDP projections,,GDP_high
+01_AUS,Australia,2019,APERC GDP projections,,GDP_high
+01_AUS,Australia,2020,APERC GDP projections,,GDP_high
+01_AUS,Australia,2021,APERC GDP projections,,GDP_high
+01_AUS,Australia,2022,APERC GDP projections,,GDP_high
+01_AUS,Australia,2023,APERC GDP projections,,GDP_high
+01_AUS,Australia,2024,APERC GDP projections,,GDP_high
+01_AUS,Australia,2025,APERC GDP projections,,GDP_high
+01_AUS,Australia,2026,APERC GDP projections,1695481.2304040217,GDP_high
+01_AUS,Australia,2027,APERC GDP projections,1728916.918518987,GDP_high
+01_AUS,Australia,2028,APERC GDP projections,1763175.0950062273,GDP_high
+01_AUS,Australia,2029,APERC GDP projections,1797935.8438102305,GDP_high
+01_AUS,Australia,2030,APERC GDP projections,1833986.8894833964,GDP_high
+01_AUS,Australia,2031,APERC GDP projections,1871376.7924447372,GDP_high
+01_AUS,Australia,2032,APERC GDP projections,1909316.94099958,GDP_high
+01_AUS,Australia,2033,APERC GDP projections,1947790.0834008076,GDP_high
+01_AUS,Australia,2034,APERC GDP projections,1986122.946456472,GDP_high
+01_AUS,Australia,2035,APERC GDP projections,2025820.390605213,GDP_high
+01_AUS,Australia,2036,APERC GDP projections,2066327.978465924,GDP_high
+01_AUS,Australia,2037,APERC GDP projections,2107568.0893589864,GDP_high
+01_AUS,Australia,2038,APERC GDP projections,2149265.379122804,GDP_high
+01_AUS,Australia,2039,APERC GDP projections,2191949.183732016,GDP_high
+01_AUS,Australia,2040,APERC GDP projections,2235160.726774597,GDP_high
+01_AUS,Australia,2041,APERC GDP projections,2279358.09162877,GDP_high
+01_AUS,Australia,2042,APERC GDP projections,2324550.314830238,GDP_high
+01_AUS,Australia,2043,APERC GDP projections,2370727.764537624,GDP_high
+01_AUS,Australia,2044,APERC GDP projections,2417646.0423004352,GDP_high
+01_AUS,Australia,2045,APERC GDP projections,2465424.9123280435,GDP_high
+01_AUS,Australia,2046,APERC GDP projections,2514257.5943380767,GDP_high
+01_AUS,Australia,2047,APERC GDP projections,2564289.699818525,GDP_high
+01_AUS,Australia,2048,APERC GDP projections,2614704.6275368244,GDP_high
+01_AUS,Australia,2049,APERC GDP projections,2666666.909144255,GDP_high
+01_AUS,Australia,2050,APERC GDP projections,2719105.353342105,GDP_high
+01_AUS,Australia,2051,APERC GDP projections,2772609.906955559,GDP_high
+01_AUS,Australia,2052,APERC GDP projections,2827127.196464427,GDP_high
+01_AUS,Australia,2053,APERC GDP projections,2882546.4872759166,GDP_high
+01_AUS,Australia,2054,APERC GDP projections,2939175.922057946,GDP_high
+01_AUS,Australia,2055,APERC GDP projections,2997209.791294764,GDP_high
+01_AUS,Australia,2056,APERC GDP projections,3056606.5317280814,GDP_high
+01_AUS,Australia,2057,APERC GDP projections,3117072.553114347,GDP_high
+01_AUS,Australia,2058,APERC GDP projections,3178948.1160729546,GDP_high
+01_AUS,Australia,2059,APERC GDP projections,3242617.030130808,GDP_high
+01_AUS,Australia,2060,APERC GDP projections,3307162.842144743,GDP_high
+01_AUS,Australia,2061,APERC GDP projections,3373156.711463752,GDP_high
+01_AUS,Australia,2062,APERC GDP projections,3440866.2737612417,GDP_high
+01_AUS,Australia,2063,APERC GDP projections,3510142.0284348964,GDP_high
+01_AUS,Australia,2064,APERC GDP projections,3581104.986432705,GDP_high
+01_AUS,Australia,2065,APERC GDP projections,3653039.782135012,GDP_high
+01_AUS,Australia,2066,APERC GDP projections,3726882.137393224,GDP_high
+01_AUS,Australia,2067,APERC GDP projections,3802799.331064911,GDP_high
+01_AUS,Australia,2068,APERC GDP projections,3880416.081588626,GDP_high
+01_AUS,Australia,2069,APERC GDP projections,3959750.435971524,GDP_high
+01_AUS,Australia,2070,APERC GDP projections,4040671.1977273994,GDP_high
+01_AUS,Australia,2071,APERC GDP projections,4122971.317910765,GDP_high
+01_AUS,Australia,2072,APERC GDP projections,4206559.960385015,GDP_high
+01_AUS,Australia,2073,APERC GDP projections,4291904.242721424,GDP_high
+01_AUS,Australia,2074,APERC GDP projections,4379127.285457202,GDP_high
+01_AUS,Australia,2075,APERC GDP projections,4468316.56779631,GDP_high
+01_AUS,Australia,2076,APERC GDP projections,4559198.028354841,GDP_high
+01_AUS,Australia,2077,APERC GDP projections,4651793.026876618,GDP_high
+01_AUS,Australia,2078,APERC GDP projections,4746975.438785007,GDP_high
+01_AUS,Australia,2079,APERC GDP projections,4844353.699677667,GDP_high
+01_AUS,Australia,2080,APERC GDP projections,4944018.378027089,GDP_high
+01_AUS,Australia,2081,APERC GDP projections,5046045.403016388,GDP_high
+01_AUS,Australia,2082,APERC GDP projections,5151172.783481144,GDP_high
+01_AUS,Australia,2083,APERC GDP projections,5258386.162530081,GDP_high
+01_AUS,Australia,2084,APERC GDP projections,5368698.711421875,GDP_high
+01_AUS,Australia,2085,APERC GDP projections,5480908.941642857,GDP_high
+01_AUS,Australia,2086,APERC GDP projections,5595980.460363224,GDP_high
+01_AUS,Australia,2087,APERC GDP projections,5714347.317478042,GDP_high
+01_AUS,Australia,2088,APERC GDP projections,5836143.197897969,GDP_high
+01_AUS,Australia,2089,APERC GDP projections,5961838.620679397,GDP_high
+01_AUS,Australia,2090,APERC GDP projections,6090127.303142024,GDP_high
+01_AUS,Australia,2091,APERC GDP projections,6222180.894505046,GDP_high
+01_AUS,Australia,2092,APERC GDP projections,6357603.716738712,GDP_high
+01_AUS,Australia,2093,APERC GDP projections,6496091.116990803,GDP_high
+01_AUS,Australia,2094,APERC GDP projections,6637820.009084634,GDP_high
+01_AUS,Australia,2095,APERC GDP projections,6782063.00436742,GDP_high
+01_AUS,Australia,2096,APERC GDP projections,6930294.497361759,GDP_high
+01_AUS,Australia,2097,APERC GDP projections,7082770.967591655,GDP_high
+01_AUS,Australia,2098,APERC GDP projections,7239350.0363993775,GDP_high
+01_AUS,Australia,2099,APERC GDP projections,7398600.083363046,GDP_high
+01_AUS,Australia,2100,APERC GDP projections,7561129.60158825,GDP_high
+01_AUS,Australia,1990,WDI GDP through 2025,618913.6434465031,GDP_med
+01_AUS,Australia,1991,WDI GDP through 2025,616533.1075007679,GDP_med
+01_AUS,Australia,1992,WDI GDP through 2025,619203.1019303941,GDP_med
+01_AUS,Australia,1993,WDI GDP through 2025,644255.029953675,GDP_med
+01_AUS,Australia,1994,WDI GDP through 2025,669888.9347595761,GDP_med
+01_AUS,Australia,1995,WDI GDP through 2025,695948.765791245,GDP_med
+01_AUS,Australia,1996,WDI GDP through 2025,722851.8817928929,GDP_med
+01_AUS,Australia,1997,WDI GDP through 2025,751172.915991526,GDP_med
+01_AUS,Australia,1998,WDI GDP through 2025,786303.874098678,GDP_med
+01_AUS,Australia,1999,WDI GDP through 2025,825840.965575829,GDP_med
+01_AUS,Australia,2000,WDI GDP through 2025,858181.3725486491,GDP_med
+01_AUS,Australia,2001,WDI GDP through 2025,875614.973582609,GDP_med
+01_AUS,Australia,2002,WDI GDP through 2025,910200.060722256,GDP_med
+01_AUS,Australia,2003,WDI GDP through 2025,938336.894067504,GDP_med
+01_AUS,Australia,2004,WDI GDP through 2025,977924.778471004,GDP_med
+01_AUS,Australia,2005,WDI GDP through 2025,1008783.01113519,GDP_med
+01_AUS,Australia,2006,WDI GDP through 2025,1036735.64362706,GDP_med
+01_AUS,Australia,2007,WDI GDP through 2025,1076022.44225027,GDP_med
+01_AUS,Australia,2008,WDI GDP through 2025,1115017.33453773,GDP_med
+01_AUS,Australia,2009,WDI GDP through 2025,1136814.23153392,GDP_med
+01_AUS,Australia,2010,WDI GDP through 2025,1161938.37118743,GDP_med
+01_AUS,Australia,2011,WDI GDP through 2025,1189763.71538194,GDP_med
+01_AUS,Australia,2012,WDI GDP through 2025,1236788.78573622,GDP_med
+01_AUS,Australia,2013,WDI GDP through 2025,1269618.76308348,GDP_med
+01_AUS,Australia,2014,WDI GDP through 2025,1302643.95661756,GDP_med
+01_AUS,Australia,2015,WDI GDP through 2025,1330837.70251883,GDP_med
+01_AUS,Australia,2016,WDI GDP through 2025,1367510.80730548,GDP_med
+01_AUS,Australia,2017,WDI GDP through 2025,1398872.07352942,GDP_med
+01_AUS,Australia,2018,WDI GDP through 2025,1439078.04053065,GDP_med
+01_AUS,Australia,2019,WDI GDP through 2025,1470651.6579045,GDP_med
+01_AUS,Australia,2020,WDI GDP through 2025,1468687.86874001,GDP_med
+01_AUS,Australia,2021,WDI GDP through 2025,1498163.67705936,GDP_med
+01_AUS,Australia,2022,WDI GDP through 2025,1561881.26129328,GDP_med
+01_AUS,Australia,2023,WDI GDP through 2025,1617856.2900553702,GDP_med
+01_AUS,Australia,2024,WDI GDP through 2025,1640076.05346249,GDP_med
+01_AUS,Australia,2025,WDI GDP through 2025,1662223.60523938,GDP_med
+01_AUS,Australia,2026,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2027,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2028,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2029,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2030,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2031,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2032,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2033,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2034,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2035,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2036,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2037,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2038,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2039,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2040,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2041,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2042,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2043,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2044,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2045,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2046,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2047,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2048,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2049,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2050,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2051,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2052,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2053,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2054,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2055,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2056,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2057,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2058,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2059,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2060,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2061,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2062,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2063,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2064,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2065,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2066,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2067,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2068,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2069,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2070,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2071,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2072,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2073,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2074,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2075,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2076,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2077,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2078,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2079,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2080,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2081,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2082,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2083,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2084,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2085,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2086,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2087,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2088,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2089,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2090,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2091,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2092,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2093,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2094,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2095,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2096,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2097,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2098,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2099,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,2100,WDI GDP through 2025,,GDP_med
+01_AUS,Australia,1990,APERC GDP projections,,GDP_med
+01_AUS,Australia,1991,APERC GDP projections,,GDP_med
+01_AUS,Australia,1992,APERC GDP projections,,GDP_med
+01_AUS,Australia,1993,APERC GDP projections,,GDP_med
+01_AUS,Australia,1994,APERC GDP projections,,GDP_med
+01_AUS,Australia,1995,APERC GDP projections,,GDP_med
+01_AUS,Australia,1996,APERC GDP projections,,GDP_med
+01_AUS,Australia,1997,APERC GDP projections,,GDP_med
+01_AUS,Australia,1998,APERC GDP projections,,GDP_med
+01_AUS,Australia,1999,APERC GDP projections,,GDP_med
+01_AUS,Australia,2000,APERC GDP projections,,GDP_med
+01_AUS,Australia,2001,APERC GDP projections,,GDP_med
+01_AUS,Australia,2002,APERC GDP projections,,GDP_med
+01_AUS,Australia,2003,APERC GDP projections,,GDP_med
+01_AUS,Australia,2004,APERC GDP projections,,GDP_med
+01_AUS,Australia,2005,APERC GDP projections,,GDP_med
+01_AUS,Australia,2006,APERC GDP projections,,GDP_med
+01_AUS,Australia,2007,APERC GDP projections,,GDP_med
+01_AUS,Australia,2008,APERC GDP projections,,GDP_med
+01_AUS,Australia,2009,APERC GDP projections,,GDP_med
+01_AUS,Australia,2010,APERC GDP projections,,GDP_med
+01_AUS,Australia,2011,APERC GDP projections,,GDP_med
+01_AUS,Australia,2012,APERC GDP projections,,GDP_med
+01_AUS,Australia,2013,APERC GDP projections,,GDP_med
+01_AUS,Australia,2014,APERC GDP projections,,GDP_med
+01_AUS,Australia,2015,APERC GDP projections,,GDP_med
+01_AUS,Australia,2016,APERC GDP projections,,GDP_med
+01_AUS,Australia,2017,APERC GDP projections,,GDP_med
+01_AUS,Australia,2018,APERC GDP projections,,GDP_med
+01_AUS,Australia,2019,APERC GDP projections,,GDP_med
+01_AUS,Australia,2020,APERC GDP projections,,GDP_med
+01_AUS,Australia,2021,APERC GDP projections,,GDP_med
+01_AUS,Australia,2022,APERC GDP projections,,GDP_med
+01_AUS,Australia,2023,APERC GDP projections,,GDP_med
+01_AUS,Australia,2024,APERC GDP projections,,GDP_med
+01_AUS,Australia,2025,APERC GDP projections,,GDP_med
+01_AUS,Australia,2026,APERC GDP projections,1693939.346938443,GDP_med
+01_AUS,Australia,2027,APERC GDP projections,1725802.2160586591,GDP_med
+01_AUS,Australia,2028,APERC GDP projections,1758460.1496701918,GDP_med
+01_AUS,Australia,2029,APERC GDP projections,1791595.6288271511,GDP_med
+01_AUS,Australia,2030,APERC GDP projections,1824911.5907246296,GDP_med
+01_AUS,Australia,2031,APERC GDP projections,1859527.5933548424,GDP_med
+01_AUS,Australia,2032,APERC GDP projections,1894603.046309028,GDP_med
+01_AUS,Australia,2033,APERC GDP projections,1930051.0924986245,GDP_med
+01_AUS,Australia,2034,APERC GDP projections,1965407.8938675732,GDP_med
+01_AUS,Australia,2035,APERC GDP projections,2001279.849726216,GDP_med
+01_AUS,Australia,2036,APERC GDP projections,2037812.8667580197,GDP_med
+01_AUS,Australia,2037,APERC GDP projections,2074917.0675074935,GDP_med
+01_AUS,Australia,2038,APERC GDP projections,2112304.2604395268,GDP_med
+01_AUS,Australia,2039,APERC GDP projections,2150505.1115600043,GDP_med
+01_AUS,Australia,2040,APERC GDP projections,2189046.328119735,GDP_med
+01_AUS,Australia,2041,APERC GDP projections,2228390.275127449,GDP_med
+01_AUS,Australia,2042,APERC GDP projections,2268539.858442585,GDP_med
+01_AUS,Australia,2043,APERC GDP projections,2309479.0450723027,GDP_med
+01_AUS,Australia,2044,APERC GDP projections,2350948.798120805,GDP_med
+01_AUS,Australia,2045,APERC GDP projections,2393063.387755291,GDP_med
+01_AUS,Australia,2046,APERC GDP projections,2436009.604444455,GDP_med
+01_AUS,Australia,2047,APERC GDP projections,2479923.446190392,GDP_med
+01_AUS,Australia,2048,APERC GDP projections,2523955.09336224,GDP_med
+01_AUS,Australia,2049,APERC GDP projections,2569282.9120652904,GDP_med
+01_AUS,Australia,2050,APERC GDP projections,2614782.5411124392,GDP_med
+01_AUS,Australia,2051,APERC GDP projections,2661032.9628199413,GDP_med
+01_AUS,Australia,2052,APERC GDP projections,2707944.6627289583,GDP_med
+01_AUS,Australia,2053,APERC GDP projections,2755363.6866342686,GDP_med
+01_AUS,Australia,2054,APERC GDP projections,2803565.2272491343,GDP_med
+01_AUS,Australia,2055,APERC GDP projections,2852707.8558606794,GDP_med
+01_AUS,Australia,2056,APERC GDP projections,2902703.850950533,GDP_med
+01_AUS,Australia,2057,APERC GDP projections,2953216.6002296074,GDP_med
+01_AUS,Australia,2058,APERC GDP projections,3004566.936793143,GDP_med
+01_AUS,Australia,2059,APERC GDP projections,3057122.6886332138,GDP_med
+01_AUS,Australia,2060,APERC GDP projections,3109910.9374523605,GDP_med
+01_AUS,Australia,2061,APERC GDP projections,3163509.224414374,GDP_med
+01_AUS,Australia,2062,APERC GDP projections,3218178.9392441334,GDP_med
+01_AUS,Australia,2063,APERC GDP projections,3273754.0881547467,GDP_med
+01_AUS,Australia,2064,APERC GDP projections,3330355.5496257963,GDP_med
+01_AUS,Australia,2065,APERC GDP projections,3387224.959507664,GDP_med
+01_AUS,Australia,2066,APERC GDP projections,3445346.977884947,GDP_med
+01_AUS,Australia,2067,APERC GDP projections,3504886.873097643,GDP_med
+01_AUS,Australia,2068,APERC GDP projections,3565451.487128815,GDP_med
+01_AUS,Australia,2069,APERC GDP projections,3627060.764758552,GDP_med
+01_AUS,Australia,2070,APERC GDP projections,3689559.884098494,GDP_med
+01_AUS,Australia,2071,APERC GDP projections,3752743.805997045,GDP_med
+01_AUS,Australia,2072,APERC GDP projections,3816502.612609661,GDP_med
+01_AUS,Australia,2073,APERC GDP projections,3881318.469075046,GDP_med
+01_AUS,Australia,2074,APERC GDP projections,3947312.872058508,GDP_med
+01_AUS,Australia,2075,APERC GDP projections,4014563.777093374,GDP_med
+01_AUS,Australia,2076,APERC GDP projections,4082759.5639771847,GDP_med
+01_AUS,Australia,2077,APERC GDP projections,4151913.0327412393,GDP_med
+01_AUS,Australia,2078,APERC GDP projections,4222856.090900329,GDP_med
+01_AUS,Australia,2079,APERC GDP projections,4295138.596148694,GDP_med
+01_AUS,Australia,2080,APERC GDP projections,4368809.794998405,GDP_med
+01_AUS,Australia,2081,APERC GDP projections,4443920.916178243,GDP_med
+01_AUS,Australia,2082,APERC GDP projections,4521210.855470374,GDP_med
+01_AUS,Australia,2083,APERC GDP projections,4599557.766979019,GDP_med
+01_AUS,Australia,2084,APERC GDP projections,4679979.0923509,GDP_med
+01_AUS,Australia,2085,APERC GDP projections,4761148.052480962,GDP_med
+01_AUS,Australia,2086,APERC GDP projections,4844043.146409427,GDP_med
+01_AUS,Australia,2087,APERC GDP projections,4929073.798156581,GDP_med
+01_AUS,Australia,2088,APERC GDP projections,5016309.99993442,GDP_med
+01_AUS,Australia,2089,APERC GDP projections,5106200.686634465,GDP_med
+01_AUS,Australia,2090,APERC GDP projections,5197294.332086404,GDP_med
+01_AUS,Australia,2091,APERC GDP projections,5290779.2489997065,GDP_med
+01_AUS,Australia,2092,APERC GDP projections,5386211.081696437,GDP_med
+01_AUS,Australia,2093,APERC GDP projections,5483198.308616833,GDP_med
+01_AUS,Australia,2094,APERC GDP projections,5581884.614965259,GDP_med
+01_AUS,Australia,2095,APERC GDP projections,5681448.78727215,GDP_med
+01_AUS,Australia,2096,APERC GDP projections,5783446.918800436,GDP_med
+01_AUS,Australia,2097,APERC GDP projections,5888106.190174817,GDP_med
+01_AUS,Australia,2098,APERC GDP projections,5995224.368824868,GDP_med
+01_AUS,Australia,2099,APERC GDP projections,6103249.44002577,GDP_med
+01_AUS,Australia,2100,APERC GDP projections,6212811.842372956,GDP_med

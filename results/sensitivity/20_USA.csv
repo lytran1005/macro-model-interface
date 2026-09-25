@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+20_USA,United States of America,1990,APERC GDP projections,,GDP_low
+20_USA,United States of America,1991,APERC GDP projections,,GDP_low
+20_USA,United States of America,1992,APERC GDP projections,,GDP_low
+20_USA,United States of America,1993,APERC GDP projections,,GDP_low
+20_USA,United States of America,1994,APERC GDP projections,,GDP_low
+20_USA,United States of America,1995,APERC GDP projections,,GDP_low
+20_USA,United States of America,1996,APERC GDP projections,,GDP_low
+20_USA,United States of America,1997,APERC GDP projections,,GDP_low
+20_USA,United States of America,1998,APERC GDP projections,,GDP_low
+20_USA,United States of America,1999,APERC GDP projections,,GDP_low
+20_USA,United States of America,2000,APERC GDP projections,,GDP_low
+20_USA,United States of America,2001,APERC GDP projections,,GDP_low
+20_USA,United States of America,2002,APERC GDP projections,,GDP_low
+20_USA,United States of America,2003,APERC GDP projections,,GDP_low
+20_USA,United States of America,2004,APERC GDP projections,,GDP_low
+20_USA,United States of America,2005,APERC GDP projections,,GDP_low
+20_USA,United States of America,2006,APERC GDP projections,,GDP_low
+20_USA,United States of America,2007,APERC GDP projections,,GDP_low
+20_USA,United States of America,2008,APERC GDP projections,,GDP_low
+20_USA,United States of America,2009,APERC GDP projections,,GDP_low
+20_USA,United States of America,2010,APERC GDP projections,,GDP_low
+20_USA,United States of America,2011,APERC GDP projections,,GDP_low
+20_USA,United States of America,2012,APERC GDP projections,,GDP_low
+20_USA,United States of America,2013,APERC GDP projections,,GDP_low
+20_USA,United States of America,2014,APERC GDP projections,,GDP_low
+20_USA,United States of America,2015,APERC GDP projections,,GDP_low
+20_USA,United States of America,2016,APERC GDP projections,,GDP_low
+20_USA,United States of America,2017,APERC GDP projections,,GDP_low
+20_USA,United States of America,2018,APERC GDP projections,,GDP_low
+20_USA,United States of America,2019,APERC GDP projections,,GDP_low
+20_USA,United States of America,2020,APERC GDP projections,,GDP_low
+20_USA,United States of America,2021,APERC GDP projections,,GDP_low
+20_USA,United States of America,2022,APERC GDP projections,,GDP_low
+20_USA,United States of America,2023,APERC GDP projections,,GDP_low
+20_USA,United States of America,2024,APERC GDP projections,,GDP_low
+20_USA,United States of America,2025,APERC GDP projections,,GDP_low
+20_USA,United States of America,2026,APERC GDP projections,26874860.9760918,GDP_low
+20_USA,United States of America,2027,APERC GDP projections,27468932.119950067,GDP_low
+20_USA,United States of America,2028,APERC GDP projections,28064725.06590275,GDP_low
+20_USA,United States of America,2029,APERC GDP projections,28651196.453556668,GDP_low
+20_USA,United States of America,2030,APERC GDP projections,29215064.364390217,GDP_low
+20_USA,United States of America,2031,APERC GDP projections,29905559.554994173,GDP_low
+20_USA,United States of America,2032,APERC GDP projections,30489587.702272147,GDP_low
+20_USA,United States of America,2033,APERC GDP projections,31060745.878186427,GDP_low
+20_USA,United States of America,2034,APERC GDP projections,31609816.443367843,GDP_low
+20_USA,United States of America,2035,APERC GDP projections,32148306.220764905,GDP_low
+20_USA,United States of America,2036,APERC GDP projections,32685785.93048684,GDP_low
+20_USA,United States of America,2037,APERC GDP projections,33219657.149239022,GDP_low
+20_USA,United States of America,2038,APERC GDP projections,33748189.941937424,GDP_low
+20_USA,United States of America,2039,APERC GDP projections,34270798.30718645,GDP_low
+20_USA,United States of America,2040,APERC GDP projections,34785695.853422806,GDP_low
+20_USA,United States of America,2041,APERC GDP projections,35294515.11797642,GDP_low
+20_USA,United States of America,2042,APERC GDP projections,35781113.49693482,GDP_low
+20_USA,United States of America,2043,APERC GDP projections,36258643.20357537,GDP_low
+20_USA,United States of America,2044,APERC GDP projections,36723287.95174734,GDP_low
+20_USA,United States of America,2045,APERC GDP projections,37177498.490752734,GDP_low
+20_USA,United States of America,2046,APERC GDP projections,37622213.21216354,GDP_low
+20_USA,United States of America,2047,APERC GDP projections,38055197.9095846,GDP_low
+20_USA,United States of America,2048,APERC GDP projections,38478476.99310789,GDP_low
+20_USA,United States of America,2049,APERC GDP projections,38888397.72362916,GDP_low
+20_USA,United States of America,2050,APERC GDP projections,39286899.51989392,GDP_low
+20_USA,United States of America,2051,APERC GDP projections,39673046.75664465,GDP_low
+20_USA,United States of America,2052,APERC GDP projections,40056272.75919713,GDP_low
+20_USA,United States of America,2053,APERC GDP projections,40434583.947931714,GDP_low
+20_USA,United States of America,2054,APERC GDP projections,40810320.63765661,GDP_low
+20_USA,United States of America,2055,APERC GDP projections,41179299.6361084,GDP_low
+20_USA,United States of America,2056,APERC GDP projections,41543926.44276092,GDP_low
+20_USA,United States of America,2057,APERC GDP projections,41906712.98068532,GDP_low
+20_USA,United States of America,2058,APERC GDP projections,42269988.61377544,GDP_low
+20_USA,United States of America,2059,APERC GDP projections,42632974.81610839,GDP_low
+20_USA,United States of America,2060,APERC GDP projections,42991397.78337078,GDP_low
+20_USA,United States of America,2061,APERC GDP projections,43345884.45737673,GDP_low
+20_USA,United States of America,2062,APERC GDP projections,43701277.118135646,GDP_low
+20_USA,United States of America,2063,APERC GDP projections,44055158.485954,GDP_low
+20_USA,United States of America,2064,APERC GDP projections,44407408.44062802,GDP_low
+20_USA,United States of America,2065,APERC GDP projections,44756160.19568497,GDP_low
+20_USA,United States of America,2066,APERC GDP projections,45105208.26994002,GDP_low
+20_USA,United States of America,2067,APERC GDP projections,45455016.96778547,GDP_low
+20_USA,United States of America,2068,APERC GDP projections,45805434.54748496,GDP_low
+20_USA,United States of America,2069,APERC GDP projections,46153602.93550913,GDP_low
+20_USA,United States of America,2070,APERC GDP projections,46503007.58056495,GDP_low
+20_USA,United States of America,2071,APERC GDP projections,46847944.40675733,GDP_low
+20_USA,United States of America,2072,APERC GDP projections,47195240.67756075,GDP_low
+20_USA,United States of America,2073,APERC GDP projections,47536857.66411743,GDP_low
+20_USA,United States of America,2074,APERC GDP projections,47878906.00362963,GDP_low
+20_USA,United States of America,2075,APERC GDP projections,48217906.780357055,GDP_low
+20_USA,United States of America,2076,APERC GDP projections,48560946.91707441,GDP_low
+20_USA,United States of America,2077,APERC GDP projections,48899418.96157522,GDP_low
+20_USA,United States of America,2078,APERC GDP projections,49234692.38967785,GDP_low
+20_USA,United States of America,2079,APERC GDP projections,49568986.23538637,GDP_low
+20_USA,United States of America,2080,APERC GDP projections,49898896.08874753,GDP_low
+20_USA,United States of America,2081,APERC GDP projections,50226467.905416735,GDP_low
+20_USA,United States of America,2082,APERC GDP projections,50561846.59358078,GDP_low
+20_USA,United States of America,2083,APERC GDP projections,50890372.07593105,GDP_low
+20_USA,United States of America,2084,APERC GDP projections,51217850.44134051,GDP_low
+20_USA,United States of America,2085,APERC GDP projections,51543850.349242605,GDP_low
+20_USA,United States of America,2086,APERC GDP projections,51863687.49714917,GDP_low
+20_USA,United States of America,2087,APERC GDP projections,52187875.90270491,GDP_low
+20_USA,United States of America,2088,APERC GDP projections,52511782.35206992,GDP_low
+20_USA,United States of America,2089,APERC GDP projections,52839755.599581584,GDP_low
+20_USA,United States of America,2090,APERC GDP projections,53164111.99429043,GDP_low
+20_USA,United States of America,2091,APERC GDP projections,53485378.26800772,GDP_low
+20_USA,United States of America,2092,APERC GDP projections,53808476.33754454,GDP_low
+20_USA,United States of America,2093,APERC GDP projections,54130784.7873966,GDP_low
+20_USA,United States of America,2094,APERC GDP projections,54450060.6381267,GDP_low
+20_USA,United States of America,2095,APERC GDP projections,54769883.00889836,GDP_low
+20_USA,United States of America,2096,APERC GDP projections,55086135.04900897,GDP_low
+20_USA,United States of America,2097,APERC GDP projections,55395914.156058766,GDP_low
+20_USA,United States of America,2098,APERC GDP projections,55705416.99245137,GDP_low
+20_USA,United States of America,2099,APERC GDP projections,56008070.709654965,GDP_low
+20_USA,United States of America,2100,APERC GDP projections,56310380.41840455,GDP_low
+20_USA,United States of America,1990,APERC GDP projections,,GDP_high
+20_USA,United States of America,1991,APERC GDP projections,,GDP_high
+20_USA,United States of America,1992,APERC GDP projections,,GDP_high
+20_USA,United States of America,1993,APERC GDP projections,,GDP_high
+20_USA,United States of America,1994,APERC GDP projections,,GDP_high
+20_USA,United States of America,1995,APERC GDP projections,,GDP_high
+20_USA,United States of America,1996,APERC GDP projections,,GDP_high
+20_USA,United States of America,1997,APERC GDP projections,,GDP_high
+20_USA,United States of America,1998,APERC GDP projections,,GDP_high
+20_USA,United States of America,1999,APERC GDP projections,,GDP_high
+20_USA,United States of America,2000,APERC GDP projections,,GDP_high
+20_USA,United States of America,2001,APERC GDP projections,,GDP_high
+20_USA,United States of America,2002,APERC GDP projections,,GDP_high
+20_USA,United States of America,2003,APERC GDP projections,,GDP_high
+20_USA,United States of America,2004,APERC GDP projections,,GDP_high
+20_USA,United States of America,2005,APERC GDP projections,,GDP_high
+20_USA,United States of America,2006,APERC GDP projections,,GDP_high
+20_USA,United States of America,2007,APERC GDP projections,,GDP_high
+20_USA,United States of America,2008,APERC GDP projections,,GDP_high
+20_USA,United States of America,2009,APERC GDP projections,,GDP_high
+20_USA,United States of America,2010,APERC GDP projections,,GDP_high
+20_USA,United States of America,2011,APERC GDP projections,,GDP_high
+20_USA,United States of America,2012,APERC GDP projections,,GDP_high
+20_USA,United States of America,2013,APERC GDP projections,,GDP_high
+20_USA,United States of America,2014,APERC GDP projections,,GDP_high
+20_USA,United States of America,2015,APERC GDP projections,,GDP_high
+20_USA,United States of America,2016,APERC GDP projections,,GDP_high
+20_USA,United States of America,2017,APERC GDP projections,,GDP_high
+20_USA,United States of America,2018,APERC GDP projections,,GDP_high
+20_USA,United States of America,2019,APERC GDP projections,,GDP_high
+20_USA,United States of America,2020,APERC GDP projections,,GDP_high
+20_USA,United States of America,2021,APERC GDP projections,,GDP_high
+20_USA,United States of America,2022,APERC GDP projections,,GDP_high
+20_USA,United States of America,2023,APERC GDP projections,,GDP_high
+20_USA,United States of America,2024,APERC GDP projections,,GDP_high
+20_USA,United States of America,2025,APERC GDP projections,,GDP_high
+20_USA,United States of America,2026,APERC GDP projections,26921426.88786966,GDP_high
+20_USA,United States of America,2027,APERC GDP projections,27563264.111534774,GDP_high
+20_USA,United States of America,2028,APERC GDP projections,28207951.75547995,GDP_high
+20_USA,United States of America,2029,APERC GDP projections,28844261.74805248,GDP_high
+20_USA,United States of America,2030,APERC GDP projections,29492673.71074259,GDP_high
+20_USA,United States of America,2031,APERC GDP projections,30271301.08736362,GDP_high
+20_USA,United States of America,2032,APERC GDP projections,30944406.158870514,GDP_high
+20_USA,United States of America,2033,APERC GDP projections,31606302.052099336,GDP_high
+20_USA,United States of America,2034,APERC GDP projections,32248680.94718602,GDP_high
+20_USA,United States of America,2035,APERC GDP projections,32898758.46997388,GDP_high
+20_USA,United States of America,2036,APERC GDP projections,33556590.37302938,GDP_high
+20_USA,United States of America,2037,APERC GDP projections,34214327.1194843,GDP_high
+20_USA,United States of America,2038,APERC GDP projections,34870111.6020847,GDP_high
+20_USA,United States of America,2039,APERC GDP projections,35523233.8004592,GDP_high
+20_USA,United States of America,2040,APERC GDP projections,36171936.7447336,GDP_high
+20_USA,United States of America,2041,APERC GDP projections,36817694.92332313,GDP_high
+20_USA,United States of America,2042,APERC GDP projections,37443602.38012625,GDP_high
+20_USA,United States of America,2043,APERC GDP projections,38063118.35924518,GDP_high
+20_USA,United States of America,2044,APERC GDP projections,38672727.99996438,GDP_high
+20_USA,United States of America,2045,APERC GDP projections,39275129.46799937,GDP_high
+20_USA,United States of America,2046,APERC GDP projections,39871455.73876013,GDP_high
+20_USA,United States of America,2047,APERC GDP projections,40459044.00919567,GDP_high
+20_USA,United States of America,2048,APERC GDP projections,41039899.65658547,GDP_high
+20_USA,United States of America,2049,APERC GDP projections,41610845.50686489,GDP_high
+20_USA,United States of America,2050,APERC GDP projections,42174056.037660144,GDP_high
+20_USA,United States of America,2051,APERC GDP projections,42738996.61544015,GDP_high
+20_USA,United States of America,2052,APERC GDP projections,43306804.42695891,GDP_high
+20_USA,United States of America,2053,APERC GDP projections,43876431.79184784,GDP_high
+20_USA,United States of America,2054,APERC GDP projections,44450821.79366584,GDP_high
+20_USA,United States of America,2055,APERC GDP projections,45026897.29286996,GDP_high
+20_USA,United States of America,2056,APERC GDP projections,45607597.60363013,GDP_high
+20_USA,United States of America,2057,APERC GDP projections,46195851.22380029,GDP_high
+20_USA,United States of America,2058,APERC GDP projections,46794378.63961098,GDP_high
+20_USA,United States of America,2059,APERC GDP projections,47402951.94677378,GDP_high
+20_USA,United States of America,2060,APERC GDP projections,48018157.22344396,GDP_high
+20_USA,United States of America,2061,APERC GDP projections,48640812.8760417,GDP_high
+20_USA,United States of America,2062,APERC GDP projections,49275264.17900616,GDP_high
+20_USA,United States of America,2063,APERC GDP projections,49919233.26526143,GDP_high
+20_USA,United States of America,2064,APERC GDP projections,50572493.19072309,GDP_high
+20_USA,United States of America,2065,APERC GDP projections,51233087.88091806,GDP_high
+20_USA,United States of America,2066,APERC GDP projections,51903995.94383868,GDP_high
+20_USA,United States of America,2067,APERC GDP projections,52585196.35261401,GDP_high
+20_USA,United States of America,2068,APERC GDP projections,53276159.921697564,GDP_high
+20_USA,United States of America,2069,APERC GDP projections,53973909.42704641,GDP_high
+20_USA,United States of America,2070,APERC GDP projections,54681077.11430154,GDP_high
+20_USA,United States of America,2071,APERC GDP projections,55392394.51607455,GDP_high
+20_USA,United States of America,2072,APERC GDP projections,56113118.60882594,GDP_high
+20_USA,United States of America,2073,APERC GDP projections,56836201.35145375,GDP_high
+20_USA,United States of America,2074,APERC GDP projections,57566459.327535935,GDP_high
+20_USA,United States of America,2075,APERC GDP projections,58301004.93513041,GDP_high
+20_USA,United States of America,2076,APERC GDP projections,59045784.99451503,GDP_high
+20_USA,United States of America,2077,APERC GDP projections,59793445.37485039,GDP_high
+20_USA,United States of America,2078,APERC GDP projections,60545328.7316036,GDP_high
+20_USA,United States of America,2079,APERC GDP projections,61303468.35893672,GDP_high
+20_USA,United States of America,2080,APERC GDP projections,62065073.72577926,GDP_high
+20_USA,United States of America,2081,APERC GDP projections,62832187.98467619,GDP_high
+20_USA,United States of America,2082,APERC GDP projections,63613644.87790539,GDP_high
+20_USA,United States of America,2083,APERC GDP projections,64397774.12942086,GDP_high
+20_USA,United States of America,2084,APERC GDP projections,65189877.75974629,GDP_high
+20_USA,United States of America,2085,APERC GDP projections,65990122.76032354,GDP_high
+20_USA,United States of America,2086,APERC GDP projections,66795303.087419935,GDP_high
+20_USA,United States of America,2087,APERC GDP projections,67614527.5934641,GDP_high
+20_USA,United States of America,2088,APERC GDP projections,68444436.6087429,GDP_high
+20_USA,United States of America,2089,APERC GDP projections,69289083.381603,GDP_high
+20_USA,United States of America,2090,APERC GDP projections,70142928.64640567,GDP_high
+20_USA,United States of America,2091,APERC GDP projections,71006723.6548342,GDP_high
+20_USA,United States of America,2092,APERC GDP projections,71884363.3038753,GDP_high
+20_USA,United States of America,2093,APERC GDP projections,72774437.56834333,GDP_high
+20_USA,United States of America,2094,APERC GDP projections,73675099.78783701,GDP_high
+20_USA,United States of America,2095,APERC GDP projections,74589322.05956833,GDP_high
+20_USA,United States of America,2096,APERC GDP projections,75514121.29194163,GDP_high
+20_USA,United States of America,2097,APERC GDP projections,76446944.1808677,GDP_high
+20_USA,United States of America,2098,APERC GDP projections,77392912.78477085,GDP_high
+20_USA,United States of America,2099,APERC GDP projections,78346184.35932094,GDP_high
+20_USA,United States of America,2100,APERC GDP projections,79312030.62079795,GDP_high
+20_USA,United States of America,1990,WDI GDP through 2025,11079319.700573,GDP_med
+20_USA,United States of America,1991,WDI GDP through 2025,11067319.3710153,GDP_med
+20_USA,United States of America,1992,WDI GDP through 2025,11457165.3829356,GDP_med
+20_USA,United States of America,1993,WDI GDP through 2025,11772443.1859769,GDP_med
+20_USA,United States of America,1994,WDI GDP through 2025,12246757.5973897,GDP_med
+20_USA,United States of America,1995,WDI GDP through 2025,12575513.322951,GDP_med
+20_USA,United States of America,1996,WDI GDP through 2025,13049958.8552861,GDP_med
+20_USA,United States of America,1997,WDI GDP through 2025,13630307.2209708,GDP_med
+20_USA,United States of America,1998,WDI GDP through 2025,14241372.0703819,GDP_med
+20_USA,United States of America,1999,WDI GDP through 2025,14923309.4978312,GDP_med
+20_USA,United States of America,2000,WDI GDP through 2025,15531820.2408323,GDP_med
+20_USA,United States of America,2001,WDI GDP through 2025,15680232.7377605,GDP_med
+20_USA,United States of America,2002,WDI GDP through 2025,15946866.8368103,GDP_med
+20_USA,United States of America,2003,WDI GDP through 2025,16392678.3971372,GDP_med
+20_USA,United States of America,2004,WDI GDP through 2025,17023431.2361729,GDP_med
+20_USA,United States of America,2005,WDI GDP through 2025,17616450.964293398,GDP_med
+20_USA,United States of America,2006,WDI GDP through 2025,18106988.0239814,GDP_med
+20_USA,United States of America,2007,WDI GDP through 2025,18469826.4070951,GDP_med
+20_USA,United States of America,2008,WDI GDP through 2025,18490805.7745292,GDP_med
+20_USA,United States of America,2009,WDI GDP through 2025,18014390.1199871,GDP_med
+20_USA,United States of America,2010,WDI GDP through 2025,18499912.6270466,GDP_med
+20_USA,United States of America,2011,WDI GDP through 2025,18789326.5278082,GDP_med
+20_USA,United States of America,2012,WDI GDP through 2025,19219435.5172654,GDP_med
+20_USA,United States of America,2013,WDI GDP through 2025,19626470.5066305,GDP_med
+20_USA,United States of America,2014,WDI GDP through 2025,20121807.258768,GDP_med
+20_USA,United States of America,2015,WDI GDP through 2025,20714505.2434842,GDP_med
+20_USA,United States of America,2016,WDI GDP through 2025,21091395.6155232,GDP_med
+20_USA,United States of America,2017,WDI GDP through 2025,21609742.4578182,GDP_med
+20_USA,United States of America,2018,WDI GDP through 2025,22250796.5627992,GDP_med
+20_USA,United States of America,2019,WDI GDP through 2025,22825718.2806318,GDP_med
+20_USA,United States of America,2020,WDI GDP through 2025,22350629.2635793,GDP_med
+20_USA,United States of America,2021,WDI GDP through 2025,23725645.0000001,GDP_med
+20_USA,United States of America,2022,WDI GDP through 2025,24324531.0172657,GDP_med
+20_USA,United States of America,2023,WDI GDP through 2025,25038301.1099445,GDP_med
+20_USA,United States of America,2024,WDI GDP through 2025,25737667.7200367,GDP_med
+20_USA,United States of America,2025,WDI GDP through 2025,26293957.0260942,GDP_med
+20_USA,United States of America,2026,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2027,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2028,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2029,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2030,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2031,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2032,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2033,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2034,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2035,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2036,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2037,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2038,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2039,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2040,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2041,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2042,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2043,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2044,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2045,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2046,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2047,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2048,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2049,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2050,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2051,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2052,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2053,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2054,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2055,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2056,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2057,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2058,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2059,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2060,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2061,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2062,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2063,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2064,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2065,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2066,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2067,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2068,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2069,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2070,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2071,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2072,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2073,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2074,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2075,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2076,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2077,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2078,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2079,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2080,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2081,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2082,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2083,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2084,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2085,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2086,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2087,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2088,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2089,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2090,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2091,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2092,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2093,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2094,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2095,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2096,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2097,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2098,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2099,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,2100,WDI GDP through 2025,,GDP_med
+20_USA,United States of America,1990,APERC GDP projections,,GDP_med
+20_USA,United States of America,1991,APERC GDP projections,,GDP_med
+20_USA,United States of America,1992,APERC GDP projections,,GDP_med
+20_USA,United States of America,1993,APERC GDP projections,,GDP_med
+20_USA,United States of America,1994,APERC GDP projections,,GDP_med
+20_USA,United States of America,1995,APERC GDP projections,,GDP_med
+20_USA,United States of America,1996,APERC GDP projections,,GDP_med
+20_USA,United States of America,1997,APERC GDP projections,,GDP_med
+20_USA,United States of America,1998,APERC GDP projections,,GDP_med
+20_USA,United States of America,1999,APERC GDP projections,,GDP_med
+20_USA,United States of America,2000,APERC GDP projections,,GDP_med
+20_USA,United States of America,2001,APERC GDP projections,,GDP_med
+20_USA,United States of America,2002,APERC GDP projections,,GDP_med
+20_USA,United States of America,2003,APERC GDP projections,,GDP_med
+20_USA,United States of America,2004,APERC GDP projections,,GDP_med
+20_USA,United States of America,2005,APERC GDP projections,,GDP_med
+20_USA,United States of America,2006,APERC GDP projections,,GDP_med
+20_USA,United States of America,2007,APERC GDP projections,,GDP_med
+20_USA,United States of America,2008,APERC GDP projections,,GDP_med
+20_USA,United States of America,2009,APERC GDP projections,,GDP_med
+20_USA,United States of America,2010,APERC GDP projections,,GDP_med
+20_USA,United States of America,2011,APERC GDP projections,,GDP_med
+20_USA,United States of America,2012,APERC GDP projections,,GDP_med
+20_USA,United States of America,2013,APERC GDP projections,,GDP_med
+20_USA,United States of America,2014,APERC GDP projections,,GDP_med
+20_USA,United States of America,2015,APERC GDP projections,,GDP_med
+20_USA,United States of America,2016,APERC GDP projections,,GDP_med
+20_USA,United States of America,2017,APERC GDP projections,,GDP_med
+20_USA,United States of America,2018,APERC GDP projections,,GDP_med
+20_USA,United States of America,2019,APERC GDP projections,,GDP_med
+20_USA,United States of America,2020,APERC GDP projections,,GDP_med
+20_USA,United States of America,2021,APERC GDP projections,,GDP_med
+20_USA,United States of America,2022,APERC GDP projections,,GDP_med
+20_USA,United States of America,2023,APERC GDP projections,,GDP_med
+20_USA,United States of America,2024,APERC GDP projections,,GDP_med
+20_USA,United States of America,2025,APERC GDP projections,,GDP_med
+20_USA,United States of America,2026,APERC GDP projections,26898191.36784608,GDP_med
+20_USA,United States of America,2027,APERC GDP projections,27516212.58200205,GDP_med
+20_USA,United States of America,2028,APERC GDP projections,28136537.97981382,GDP_med
+20_USA,United States of America,2029,APERC GDP projections,28748031.582541406,GDP_med
+20_USA,United States of America,2030,APERC GDP projections,29354384.43440303,GDP_med
+20_USA,United States of America,2031,APERC GDP projections,30089235.197850768,GDP_med
+20_USA,United States of America,2032,APERC GDP projections,30718180.555114675,GDP_med
+20_USA,United States of America,2033,APERC GDP projections,31335203.12095301,GDP_med
+20_USA,United States of America,2034,APERC GDP projections,31930903.19084575,GDP_med
+20_USA,United States of America,2035,APERC GDP projections,32537325.7723688,GDP_med
+20_USA,United States of America,2036,APERC GDP projections,33147166.90998471,GDP_med
+20_USA,United States of America,2037,APERC GDP projections,33755220.067655325,GDP_med
+20_USA,United States of America,2038,APERC GDP projections,34359677.32929655,GDP_med
+20_USA,United States of America,2039,APERC GDP projections,34959872.718551844,GDP_med
+20_USA,United States of America,2040,APERC GDP projections,35554007.38026829,GDP_med
+20_USA,United States of America,2041,APERC GDP projections,36143604.57765939,GDP_med
+20_USA,United States of America,2042,APERC GDP projections,36712057.47496479,GDP_med
+20_USA,United States of America,2043,APERC GDP projections,37272639.69077364,GDP_med
+20_USA,United States of America,2044,APERC GDP projections,37821624.50414621,GDP_med
+20_USA,United States of America,2045,APERC GDP projections,38361476.82164464,GDP_med
+20_USA,United States of America,2046,APERC GDP projections,38893193.64426796,GDP_med
+20_USA,United States of America,2047,APERC GDP projections,39414306.82237236,GDP_med
+20_USA,United States of America,2048,APERC GDP projections,39926824.7877142,GDP_med
+20_USA,United States of America,2049,APERC GDP projections,40427313.41410309,GDP_med
+20_USA,United States of America,2050,APERC GDP projections,40917808.89139119,GDP_med
+20_USA,United States of America,2051,APERC GDP projections,41397610.439888574,GDP_med
+20_USA,United States of America,2052,APERC GDP projections,41876832.9026982,GDP_med
+20_USA,United States of America,2053,APERC GDP projections,42353904.96925096,GDP_med
+20_USA,United States of America,2054,APERC GDP projections,42831451.59370063,GDP_med
+20_USA,United States of America,2055,APERC GDP projections,43305785.32617145,GDP_med
+20_USA,United States of America,2056,APERC GDP projections,43779537.58504544,GDP_med
+20_USA,United States of America,2057,APERC GDP projections,44255392.60275958,GDP_med
+20_USA,United States of America,2058,APERC GDP projections,44735785.61339349,GDP_med
+20_USA,United States of America,2059,APERC GDP projections,45220149.12362895,GDP_med
+20_USA,United States of America,2060,APERC GDP projections,45704570.53161252,GDP_med
+20_USA,United States of America,2061,APERC GDP projections,46189738.59030523,GDP_med
+20_USA,United States of America,2062,APERC GDP projections,46680256.94396805,GDP_med
+20_USA,United States of America,2063,APERC GDP projections,47173789.67985782,GDP_med
+20_USA,United States of America,2064,APERC GDP projections,47670210.16217091,GDP_med
+20_USA,United States of America,2065,APERC GDP projections,48167670.07360484,GDP_med
+20_USA,United States of America,2066,APERC GDP projections,48669629.59020926,GDP_med
+20_USA,United States of America,2067,APERC GDP projections,49176378.76997156,GDP_med
+20_USA,United States of America,2068,APERC GDP projections,49687621.99469029,GDP_med
+20_USA,United States of America,2069,APERC GDP projections,50200491.49555229,GDP_med
+20_USA,United States of America,2070,APERC GDP projections,50718092.58434629,GDP_med
+20_USA,United States of America,2071,APERC GDP projections,51234981.37195146,GDP_med
+20_USA,United States of America,2072,APERC GDP projections,51757212.5725793,GDP_med
+20_USA,United States of America,2073,APERC GDP projections,52277276.02247679,GDP_med
+20_USA,United States of America,2074,APERC GDP projections,52800630.0904541,GDP_med
+20_USA,United States of America,2075,APERC GDP projections,53324115.56503889,GDP_med
+20_USA,United States of America,2076,APERC GDP projections,53854230.486363165,GDP_med
+20_USA,United States of America,2077,APERC GDP projections,54382998.03611496,GDP_med
+20_USA,United States of America,2078,APERC GDP projections,54911749.28792382,GDP_med
+20_USA,United States of America,2079,APERC GDP projections,55442567.61380328,GDP_med
+20_USA,United States of America,2080,APERC GDP projections,55972311.74073282,GDP_med
+20_USA,United States of America,2081,APERC GDP projections,56502965.17882112,GDP_med
+20_USA,United States of America,2082,APERC GDP projections,57043923.58102396,GDP_med
+20_USA,United States of America,2083,APERC GDP projections,57582014.78340808,GDP_med
+20_USA,United States of America,2084,APERC GDP projections,58122699.43803792,GDP_med
+20_USA,United States of America,2085,APERC GDP projections,58665775.70143757,GDP_med
+20_USA,United States of America,2086,APERC GDP projections,59207246.57075786,GDP_med
+20_USA,United States of America,2087,APERC GDP projections,59756794.63563928,GDP_med
+20_USA,United States of America,2088,APERC GDP projections,60310368.62667676,GDP_med
+20_USA,United States of America,2089,APERC GDP projections,60872074.10162821,GDP_med
+20_USA,United States of America,2090,APERC GDP projections,61435283.81678183,GDP_med
+20_USA,United States of America,2091,APERC GDP projections,62000574.4810164,GDP_med
+20_USA,United States of America,2092,APERC GDP projections,62572267.46965911,GDP_med
+20_USA,United States of America,2093,APERC GDP projections,63148340.974012926,GDP_med
+20_USA,United States of America,2094,APERC GDP projections,63726742.93572414,GDP_med
+20_USA,United States of America,2095,APERC GDP projections,64310717.25875053,GDP_med
+20_USA,United States of America,2096,APERC GDP projections,64896753.746619,GDP_med
+20_USA,United States of America,2097,APERC GDP projections,65482167.6464429,GDP_med
+20_USA,United States of America,2098,APERC GDP projections,66072594.31085718,GDP_med
+20_USA,United States of America,2099,APERC GDP projections,66661916.61878008,GDP_med
+20_USA,United States of America,2100,APERC GDP projections,67256003.21632804,GDP_med

@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+07_INA,Indonesia,1990,APERC GDP projections,,GDP_low
+07_INA,Indonesia,1991,APERC GDP projections,,GDP_low
+07_INA,Indonesia,1992,APERC GDP projections,,GDP_low
+07_INA,Indonesia,1993,APERC GDP projections,,GDP_low
+07_INA,Indonesia,1994,APERC GDP projections,,GDP_low
+07_INA,Indonesia,1995,APERC GDP projections,,GDP_low
+07_INA,Indonesia,1996,APERC GDP projections,,GDP_low
+07_INA,Indonesia,1997,APERC GDP projections,,GDP_low
+07_INA,Indonesia,1998,APERC GDP projections,,GDP_low
+07_INA,Indonesia,1999,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2000,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2001,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2002,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2003,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2004,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2005,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2006,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2007,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2008,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2009,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2010,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2011,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2012,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2013,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2014,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2015,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2016,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2017,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2018,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2019,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2020,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2021,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2022,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2023,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2024,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2025,APERC GDP projections,,GDP_low
+07_INA,Indonesia,2026,APERC GDP projections,4513314.597609472,GDP_low
+07_INA,Indonesia,2027,APERC GDP projections,4729717.141600824,GDP_low
+07_INA,Indonesia,2028,APERC GDP projections,4948130.829763192,GDP_low
+07_INA,Indonesia,2029,APERC GDP projections,5170974.953889814,GDP_low
+07_INA,Indonesia,2030,APERC GDP projections,5395377.696436891,GDP_low
+07_INA,Indonesia,2031,APERC GDP projections,5622588.334678799,GDP_low
+07_INA,Indonesia,2032,APERC GDP projections,5855629.546381928,GDP_low
+07_INA,Indonesia,2033,APERC GDP projections,6092147.639784655,GDP_low
+07_INA,Indonesia,2034,APERC GDP projections,6332669.656925949,GDP_low
+07_INA,Indonesia,2035,APERC GDP projections,6574084.795258764,GDP_low
+07_INA,Indonesia,2036,APERC GDP projections,6818778.724540662,GDP_low
+07_INA,Indonesia,2037,APERC GDP projections,7066990.432054926,GDP_low
+07_INA,Indonesia,2038,APERC GDP projections,7318255.18034941,GDP_low
+07_INA,Indonesia,2039,APERC GDP projections,7572410.006435288,GDP_low
+07_INA,Indonesia,2040,APERC GDP projections,7829333.971887377,GDP_low
+07_INA,Indonesia,2041,APERC GDP projections,8088740.49076411,GDP_low
+07_INA,Indonesia,2042,APERC GDP projections,8350487.942055028,GDP_low
+07_INA,Indonesia,2043,APERC GDP projections,8614240.836719174,GDP_low
+07_INA,Indonesia,2044,APERC GDP projections,8879850.05920474,GDP_low
+07_INA,Indonesia,2045,APERC GDP projections,9146979.727802644,GDP_low
+07_INA,Indonesia,2046,APERC GDP projections,9415356.765031485,GDP_low
+07_INA,Indonesia,2047,APERC GDP projections,9684685.74453817,GDP_low
+07_INA,Indonesia,2048,APERC GDP projections,9954796.59143245,GDP_low
+07_INA,Indonesia,2049,APERC GDP projections,10225609.384995902,GDP_low
+07_INA,Indonesia,2050,APERC GDP projections,10496542.097127924,GDP_low
+07_INA,Indonesia,2051,APERC GDP projections,10767338.778602917,GDP_low
+07_INA,Indonesia,2052,APERC GDP projections,11037645.634162256,GDP_low
+07_INA,Indonesia,2053,APERC GDP projections,11307299.518025383,GDP_low
+07_INA,Indonesia,2054,APERC GDP projections,11576149.225514086,GDP_low
+07_INA,Indonesia,2055,APERC GDP projections,11843861.407496756,GDP_low
+07_INA,Indonesia,2056,APERC GDP projections,12110248.469021874,GDP_low
+07_INA,Indonesia,2057,APERC GDP projections,12375149.35581966,GDP_low
+07_INA,Indonesia,2058,APERC GDP projections,12638163.476503298,GDP_low
+07_INA,Indonesia,2059,APERC GDP projections,12902710.18400432,GDP_low
+07_INA,Indonesia,2060,APERC GDP projections,13168488.49301937,GDP_low
+07_INA,Indonesia,2061,APERC GDP projections,13435509.080769662,GDP_low
+07_INA,Indonesia,2062,APERC GDP projections,13703482.533057451,GDP_low
+07_INA,Indonesia,2063,APERC GDP projections,13972354.888390703,GDP_low
+07_INA,Indonesia,2064,APERC GDP projections,14242006.323276095,GDP_low
+07_INA,Indonesia,2065,APERC GDP projections,14514984.59992592,GDP_low
+07_INA,Indonesia,2066,APERC GDP projections,14791398.549093047,GDP_low
+07_INA,Indonesia,2067,APERC GDP projections,15071190.395701444,GDP_low
+07_INA,Indonesia,2068,APERC GDP projections,15354397.373479169,GDP_low
+07_INA,Indonesia,2069,APERC GDP projections,15641100.053753631,GDP_low
+07_INA,Indonesia,2070,APERC GDP projections,15931303.96047796,GDP_low
+07_INA,Indonesia,2071,APERC GDP projections,16225124.242465211,GDP_low
+07_INA,Indonesia,2072,APERC GDP projections,16522517.495218456,GDP_low
+07_INA,Indonesia,2073,APERC GDP projections,16823319.386374645,GDP_low
+07_INA,Indonesia,2074,APERC GDP projections,17127375.685388062,GDP_low
+07_INA,Indonesia,2075,APERC GDP projections,17434843.856680743,GDP_low
+07_INA,Indonesia,2076,APERC GDP projections,17745351.224392623,GDP_low
+07_INA,Indonesia,2077,APERC GDP projections,18059248.767583,GDP_low
+07_INA,Indonesia,2078,APERC GDP projections,18375787.706376024,GDP_low
+07_INA,Indonesia,2079,APERC GDP projections,18695251.70220595,GDP_low
+07_INA,Indonesia,2080,APERC GDP projections,19017267.423892256,GDP_low
+07_INA,Indonesia,2081,APERC GDP projections,19342059.401898917,GDP_low
+07_INA,Indonesia,2082,APERC GDP projections,19669165.98001671,GDP_low
+07_INA,Indonesia,2083,APERC GDP projections,19998219.76645088,GDP_low
+07_INA,Indonesia,2084,APERC GDP projections,20329171.195375644,GDP_low
+07_INA,Indonesia,2085,APERC GDP projections,20661986.06616944,GDP_low
+07_INA,Indonesia,2086,APERC GDP projections,20996356.872532025,GDP_low
+07_INA,Indonesia,2087,APERC GDP projections,21332048.653709043,GDP_low
+07_INA,Indonesia,2088,APERC GDP projections,21668839.00548733,GDP_low
+07_INA,Indonesia,2089,APERC GDP projections,22006846.63848286,GDP_low
+07_INA,Indonesia,2090,APERC GDP projections,22345727.24004268,GDP_low
+07_INA,Indonesia,2091,APERC GDP projections,22685026.58454203,GDP_low
+07_INA,Indonesia,2092,APERC GDP projections,23024849.740730613,GDP_low
+07_INA,Indonesia,2093,APERC GDP projections,23364820.470204286,GDP_low
+07_INA,Indonesia,2094,APERC GDP projections,23707996.753877256,GDP_low
+07_INA,Indonesia,2095,APERC GDP projections,24054597.59265408,GDP_low
+07_INA,Indonesia,2096,APERC GDP projections,24404695.71922424,GDP_low
+07_INA,Indonesia,2097,APERC GDP projections,24757788.40924536,GDP_low
+07_INA,Indonesia,2098,APERC GDP projections,25114014.362189952,GDP_low
+07_INA,Indonesia,2099,APERC GDP projections,25473768.51601482,GDP_low
+07_INA,Indonesia,2100,APERC GDP projections,25836778.49776414,GDP_low
+07_INA,Indonesia,1990,APERC GDP projections,,GDP_high
+07_INA,Indonesia,1991,APERC GDP projections,,GDP_high
+07_INA,Indonesia,1992,APERC GDP projections,,GDP_high
+07_INA,Indonesia,1993,APERC GDP projections,,GDP_high
+07_INA,Indonesia,1994,APERC GDP projections,,GDP_high
+07_INA,Indonesia,1995,APERC GDP projections,,GDP_high
+07_INA,Indonesia,1996,APERC GDP projections,,GDP_high
+07_INA,Indonesia,1997,APERC GDP projections,,GDP_high
+07_INA,Indonesia,1998,APERC GDP projections,,GDP_high
+07_INA,Indonesia,1999,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2000,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2001,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2002,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2003,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2004,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2005,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2006,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2007,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2008,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2009,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2010,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2011,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2012,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2013,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2014,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2015,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2016,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2017,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2018,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2019,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2020,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2021,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2022,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2023,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2024,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2025,APERC GDP projections,,GDP_high
+07_INA,Indonesia,2026,APERC GDP projections,4521092.978177285,GDP_high
+07_INA,Indonesia,2027,APERC GDP projections,4745501.814719521,GDP_high
+07_INA,Indonesia,2028,APERC GDP projections,4972002.602049681,GDP_high
+07_INA,Indonesia,2029,APERC GDP projections,5202862.334721122,GDP_high
+07_INA,Indonesia,2030,APERC GDP projections,5442020.065836629,GDP_high
+07_INA,Indonesia,2031,APERC GDP projections,5686484.184798352,GDP_high
+07_INA,Indonesia,2032,APERC GDP projections,5937752.489628677,GDP_high
+07_INA,Indonesia,2033,APERC GDP projections,6193506.532217125,GDP_high
+07_INA,Indonesia,2034,APERC GDP projections,6454378.295677709,GDP_high
+07_INA,Indonesia,2035,APERC GDP projections,6723134.956167867,GDP_high
+07_INA,Indonesia,2036,APERC GDP projections,6997083.199773029,GDP_high
+07_INA,Indonesia,2037,APERC GDP projections,7276197.609585481,GDP_high
+07_INA,Indonesia,2038,APERC GDP projections,7560056.800287288,GDP_high
+07_INA,Indonesia,2039,APERC GDP projections,7848552.764893641,GDP_high
+07_INA,Indonesia,2040,APERC GDP projections,8141604.80034267,GDP_high
+07_INA,Indonesia,2041,APERC GDP projections,8438957.884419214,GDP_high
+07_INA,Indonesia,2042,APERC GDP projections,8740455.45957672,GDP_high
+07_INA,Indonesia,2043,APERC GDP projections,9045831.822038667,GDP_high
+07_INA,Indonesia,2044,APERC GDP projections,9355018.95363561,GDP_high
+07_INA,Indonesia,2045,APERC GDP projections,9667786.047031203,GDP_high
+07_INA,Indonesia,2046,APERC GDP projections,9983991.261640226,GDP_high
+07_INA,Indonesia,2047,APERC GDP projections,10303519.369930008,GDP_high
+07_INA,Indonesia,2048,APERC GDP projections,10626432.761450486,GDP_high
+07_INA,Indonesia,2049,APERC GDP projections,10952912.294235265,GDP_high
+07_INA,Indonesia,2050,APERC GDP projections,11282694.900163552,GDP_high
+07_INA,Indonesia,2051,APERC GDP projections,11615824.777925136,GDP_high
+07_INA,Indonesia,2052,APERC GDP projections,11952269.535078932,GDP_high
+07_INA,Indonesia,2053,APERC GDP projections,12294767.416774904,GDP_high
+07_INA,Indonesia,2054,APERC GDP projections,12646162.08872374,GDP_high
+07_INA,Indonesia,2055,APERC GDP projections,13006569.92008267,GDP_high
+07_INA,Indonesia,2056,APERC GDP projections,13376216.335404262,GDP_high
+07_INA,Indonesia,2057,APERC GDP projections,13755346.01723416,GDP_high
+07_INA,Indonesia,2058,APERC GDP projections,14143905.059831897,GDP_high
+07_INA,Indonesia,2059,APERC GDP projections,14542276.879039664,GDP_high
+07_INA,Indonesia,2060,APERC GDP projections,14950411.443614855,GDP_high
+07_INA,Indonesia,2061,APERC GDP projections,15371566.940151922,GDP_high
+07_INA,Indonesia,2062,APERC GDP projections,15805986.2781234,GDP_high
+07_INA,Indonesia,2063,APERC GDP projections,16254171.221477784,GDP_high
+07_INA,Indonesia,2064,APERC GDP projections,16716529.122952582,GDP_high
+07_INA,Indonesia,2065,APERC GDP projections,17193263.30086326,GDP_high
+07_INA,Indonesia,2066,APERC GDP projections,17684745.28566335,GDP_high
+07_INA,Indonesia,2067,APERC GDP projections,18191126.75699148,GDP_high
+07_INA,Indonesia,2068,APERC GDP projections,18712684.29807724,GDP_high
+07_INA,Indonesia,2069,APERC GDP projections,19249820.555344973,GDP_high
+07_INA,Indonesia,2070,APERC GDP projections,19802871.84608368,GDP_high
+07_INA,Indonesia,2071,APERC GDP projections,20372288.239321068,GDP_high
+07_INA,Indonesia,2072,APERC GDP projections,20958359.564587995,GDP_high
+07_INA,Indonesia,2073,APERC GDP projections,21561367.867049463,GDP_high
+07_INA,Indonesia,2074,APERC GDP projections,22181668.63826716,GDP_high
+07_INA,Indonesia,2075,APERC GDP projections,22819997.983060542,GDP_high
+07_INA,Indonesia,2076,APERC GDP projections,23476463.53282184,GDP_high
+07_INA,Indonesia,2077,APERC GDP projections,24152155.37187397,GDP_high
+07_INA,Indonesia,2078,APERC GDP projections,24846985.67883137,GDP_high
+07_INA,Indonesia,2079,APERC GDP projections,25561934.53499344,GDP_high
+07_INA,Indonesia,2080,APERC GDP projections,26297618.2503407,GDP_high
+07_INA,Indonesia,2081,APERC GDP projections,27055075.981324267,GDP_high
+07_INA,Indonesia,2082,APERC GDP projections,27834833.139672197,GDP_high
+07_INA,Indonesia,2083,APERC GDP projections,28637500.432450555,GDP_high
+07_INA,Indonesia,2084,APERC GDP projections,29463864.212357204,GDP_high
+07_INA,Indonesia,2085,APERC GDP projections,30314901.45641843,GDP_high
+07_INA,Indonesia,2086,APERC GDP projections,31191392.79944493,GDP_high
+07_INA,Indonesia,2087,APERC GDP projections,32094001.282280624,GDP_high
+07_INA,Indonesia,2088,APERC GDP projections,33023582.140416022,GDP_high
+07_INA,Indonesia,2089,APERC GDP projections,33981274.63030454,GDP_high
+07_INA,Indonesia,2090,APERC GDP projections,34967706.81171366,GDP_high
+07_INA,Indonesia,2091,APERC GDP projections,35983423.0935836,GDP_high
+07_INA,Indonesia,2092,APERC GDP projections,37029408.28148736,GDP_high
+07_INA,Indonesia,2093,APERC GDP projections,38106294.48520131,GDP_high
+07_INA,Indonesia,2094,APERC GDP projections,39220838.78787107,GDP_high
+07_INA,Indonesia,2095,APERC GDP projections,40374409.3043643,GDP_high
+07_INA,Indonesia,2096,APERC GDP projections,41568221.68773176,GDP_high
+07_INA,Indonesia,2097,APERC GDP projections,42802844.936846055,GDP_high
+07_INA,Indonesia,2098,APERC GDP projections,44079678.95607734,GDP_high
+07_INA,Indonesia,2099,APERC GDP projections,45400260.19315606,GDP_high
+07_INA,Indonesia,2100,APERC GDP projections,46765587.957774855,GDP_high
+07_INA,Indonesia,1990,WDI GDP through 2025,894210.723157611,GDP_med
+07_INA,Indonesia,1991,WDI GDP through 2025,956018.41485916,GDP_med
+07_INA,Indonesia,1992,WDI GDP through 2025,1018135.7736667,GDP_med
+07_INA,Indonesia,1993,WDI GDP through 2025,1084278.02874442,GDP_med
+07_INA,Indonesia,1994,WDI GDP through 2025,1166032.27870676,GDP_med
+07_INA,Indonesia,1995,WDI GDP through 2025,1261880.2182916,GDP_med
+07_INA,Indonesia,1996,WDI GDP through 2025,1360536.3744416102,GDP_med
+07_INA,Indonesia,1997,WDI GDP through 2025,1424479.93580367,GDP_med
+07_INA,Indonesia,1998,WDI GDP through 2025,1237492.3649366598,GDP_med
+07_INA,Indonesia,1999,WDI GDP through 2025,1247282.48979842,GDP_med
+07_INA,Indonesia,2000,WDI GDP through 2025,1308649.63329318,GDP_med
+07_INA,Indonesia,2001,WDI GDP through 2025,1356329.84359382,GDP_med
+07_INA,Indonesia,2002,WDI GDP through 2025,1417357.57112518,GDP_med
+07_INA,Indonesia,2003,WDI GDP through 2025,1485112.49479899,GDP_med
+07_INA,Indonesia,2004,WDI GDP through 2025,1559826.63235402,GDP_med
+07_INA,Indonesia,2005,WDI GDP through 2025,1648620.87561696,GDP_med
+07_INA,Indonesia,2006,WDI GDP through 2025,1739310.71510545,GDP_med
+07_INA,Indonesia,2007,WDI GDP through 2025,1849670.36656978,GDP_med
+07_INA,Indonesia,2008,WDI GDP through 2025,1960904.05999401,GDP_med
+07_INA,Indonesia,2009,WDI GDP through 2025,2051671.78294475,GDP_med
+07_INA,Indonesia,2010,WDI GDP through 2025,2179364.84298024,GDP_med
+07_INA,Indonesia,2011,WDI GDP through 2025,2313826.95089082,GDP_med
+07_INA,Indonesia,2012,WDI GDP through 2025,2453351.8880536,GDP_med
+07_INA,Indonesia,2013,WDI GDP through 2025,2589691.1216895897,GDP_med
+07_INA,Indonesia,2014,WDI GDP through 2025,2719348.3694038,GDP_med
+07_INA,Indonesia,2015,WDI GDP through 2025,2851952.56036174,GDP_med
+07_INA,Indonesia,2016,WDI GDP through 2025,2995493.30578544,GDP_med
+07_INA,Indonesia,2017,WDI GDP through 2025,3147358.40307801,GDP_med
+07_INA,Indonesia,2018,WDI GDP through 2025,3310211.9026478,GDP_med
+07_INA,Indonesia,2019,WDI GDP through 2025,3476360.9608746096,GDP_med
+07_INA,Indonesia,2020,WDI GDP through 2025,3404556.31399713,GDP_med
+07_INA,Indonesia,2021,WDI GDP through 2025,3530623.14045475,GDP_med
+07_INA,Indonesia,2022,WDI GDP through 2025,3718000.27384835,GDP_med
+07_INA,Indonesia,2023,WDI GDP through 2025,3905715.83089317,GDP_med
+07_INA,Indonesia,2024,WDI GDP through 2025,4102273.90042117,GDP_med
+07_INA,Indonesia,2025,WDI GDP through 2025,4311821.70409906,GDP_med
+07_INA,Indonesia,2026,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2027,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2028,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2029,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2030,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2031,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2032,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2033,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2034,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2035,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2036,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2037,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2038,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2039,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2040,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2041,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2042,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2043,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2044,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2045,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2046,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2047,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2048,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2049,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2050,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2051,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2052,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2053,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2054,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2055,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2056,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2057,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2058,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2059,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2060,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2061,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2062,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2063,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2064,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2065,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2066,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2067,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2068,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2069,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2070,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2071,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2072,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2073,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2074,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2075,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2076,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2077,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2078,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2079,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2080,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2081,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2082,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2083,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2084,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2085,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2086,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2087,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2088,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2089,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2090,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2091,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2092,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2093,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2094,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2095,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2096,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2097,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2098,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2099,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,2100,WDI GDP through 2025,,GDP_med
+07_INA,Indonesia,1990,APERC GDP projections,,GDP_med
+07_INA,Indonesia,1991,APERC GDP projections,,GDP_med
+07_INA,Indonesia,1992,APERC GDP projections,,GDP_med
+07_INA,Indonesia,1993,APERC GDP projections,,GDP_med
+07_INA,Indonesia,1994,APERC GDP projections,,GDP_med
+07_INA,Indonesia,1995,APERC GDP projections,,GDP_med
+07_INA,Indonesia,1996,APERC GDP projections,,GDP_med
+07_INA,Indonesia,1997,APERC GDP projections,,GDP_med
+07_INA,Indonesia,1998,APERC GDP projections,,GDP_med
+07_INA,Indonesia,1999,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2000,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2001,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2002,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2003,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2004,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2005,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2006,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2007,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2008,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2009,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2010,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2011,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2012,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2013,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2014,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2015,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2016,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2017,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2018,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2019,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2020,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2021,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2022,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2023,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2024,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2025,APERC GDP projections,,GDP_med
+07_INA,Indonesia,2026,APERC GDP projections,4517213.796279357,GDP_med
+07_INA,Indonesia,2027,APERC GDP projections,4737636.038527487,GDP_med
+07_INA,Indonesia,2028,APERC GDP projections,4960117.612516425,GDP_med
+07_INA,Indonesia,2029,APERC GDP projections,5187003.1917336,GDP_med
+07_INA,Indonesia,2030,APERC GDP projections,5418857.699796838,GDP_med
+07_INA,Indonesia,2031,APERC GDP projections,5654785.584672259,GDP_med
+07_INA,Indonesia,2032,APERC GDP projections,5897054.870958553,GDP_med
+07_INA,Indonesia,2033,APERC GDP projections,6143331.815353618,GDP_med
+07_INA,Indonesia,2034,APERC GDP projections,6394198.019215517,GDP_med
+07_INA,Indonesia,2035,APERC GDP projections,6649526.320798659,GDP_med
+07_INA,Indonesia,2036,APERC GDP projections,6909132.525429334,GDP_med
+07_INA,Indonesia,2037,APERC GDP projections,7173128.538580033,GDP_med
+07_INA,Indonesia,2038,APERC GDP projections,7441074.20897504,GDP_med
+07_INA,Indonesia,2039,APERC GDP projections,7712837.40721934,GDP_med
+07_INA,Indonesia,2040,APERC GDP projections,7988319.329438187,GDP_med
+07_INA,Indonesia,2041,APERC GDP projections,8267249.904933978,GDP_med
+07_INA,Indonesia,2042,APERC GDP projections,8549479.48411812,GDP_med
+07_INA,Indonesia,2043,APERC GDP projections,8834703.90140906,GDP_med
+07_INA,Indonesia,2044,APERC GDP projections,9122808.743115025,GDP_med
+07_INA,Indonesia,2045,APERC GDP projections,9413502.049439352,GDP_med
+07_INA,Indonesia,2046,APERC GDP projections,9706563.717678398,GDP_med
+07_INA,Indonesia,2047,APERC GDP projections,10001770.43184485,GDP_med
+07_INA,Indonesia,2048,APERC GDP projections,10299043.919352716,GDP_med
+07_INA,Indonesia,2049,APERC GDP projections,10598405.99786784,GDP_med
+07_INA,Indonesia,2050,APERC GDP projections,10899403.70816014,GDP_med
+07_INA,Indonesia,2051,APERC GDP projections,11201900.287973288,GDP_med
+07_INA,Indonesia,2052,APERC GDP projections,11505673.363787755,GDP_med
+07_INA,Indonesia,2053,APERC GDP projections,11810688.008594176,GDP_med
+07_INA,Indonesia,2054,APERC GDP projections,12116909.248986194,GDP_med
+07_INA,Indonesia,2055,APERC GDP projections,12425349.08085826,GDP_med
+07_INA,Indonesia,2056,APERC GDP projections,12739197.43756082,GDP_med
+07_INA,Indonesia,2057,APERC GDP projections,13058472.59255753,GDP_med
+07_INA,Indonesia,2058,APERC GDP projections,13382918.81252277,GDP_med
+07_INA,Indonesia,2059,APERC GDP projections,13712701.17918562,GDP_med
+07_INA,Indonesia,2060,APERC GDP projections,14047578.367386336,GDP_med
+07_INA,Indonesia,2061,APERC GDP projections,14387674.427727075,GDP_med
+07_INA,Indonesia,2062,APERC GDP projections,14732794.66748747,GDP_med
+07_INA,Indonesia,2063,APERC GDP projections,15085917.796682129,GDP_med
+07_INA,Indonesia,2064,APERC GDP projections,15447281.240234597,GDP_med
+07_INA,Indonesia,2065,APERC GDP projections,15816949.790865904,GDP_med
+07_INA,Indonesia,2066,APERC GDP projections,16195156.744072476,GDP_med
+07_INA,Indonesia,2067,APERC GDP projections,16581939.66091594,GDP_med
+07_INA,Indonesia,2068,APERC GDP projections,16977441.281519208,GDP_med
+07_INA,Indonesia,2069,APERC GDP projections,17381883.438185498,GDP_med
+07_INA,Indonesia,2070,APERC GDP projections,17795411.57722271,GDP_med
+07_INA,Indonesia,2071,APERC GDP projections,18218275.081532795,GDP_med
+07_INA,Indonesia,2072,APERC GDP projections,18650555.465343453,GDP_med
+07_INA,Indonesia,2073,APERC GDP projections,19092261.606656414,GDP_med
+07_INA,Indonesia,2074,APERC GDP projections,19543434.343657643,GDP_med
+07_INA,Indonesia,2075,APERC GDP projections,20004452.009854585,GDP_med
+07_INA,Indonesia,2076,APERC GDP projections,20475097.88282233,GDP_med
+07_INA,Indonesia,2077,APERC GDP projections,20956000.67883792,GDP_med
+07_INA,Indonesia,2078,APERC GDP projections,21446637.43120075,GDP_med
+07_INA,Indonesia,2079,APERC GDP projections,21947521.467965078,GDP_med
+07_INA,Indonesia,2080,APERC GDP projections,22458654.629206117,GDP_med
+07_INA,Indonesia,2081,APERC GDP projections,22980532.73167748,GDP_med
+07_INA,Indonesia,2082,APERC GDP projections,23513050.6418762,GDP_med
+07_INA,Indonesia,2083,APERC GDP projections,24056185.64420188,GDP_med
+07_INA,Indonesia,2084,APERC GDP projections,24610155.68914945,GDP_med
+07_INA,Indonesia,2085,APERC GDP projections,25175282.37879338,GDP_med
+07_INA,Indonesia,2086,APERC GDP projections,25751651.783637427,GDP_med
+07_INA,Indonesia,2087,APERC GDP projections,26339329.26817029,GDP_med
+07_INA,Indonesia,2088,APERC GDP projections,26938484.29244301,GDP_med
+07_INA,Indonesia,2089,APERC GDP projections,27549599.794595808,GDP_med
+07_INA,Indonesia,2090,APERC GDP projections,28172680.50020361,GDP_med
+07_INA,Indonesia,2091,APERC GDP projections,28807639.566455346,GDP_med
+07_INA,Indonesia,2092,APERC GDP projections,29454891.91701499,GDP_med
+07_INA,Indonesia,2093,APERC GDP projections,30114440.058018398,GDP_med
+07_INA,Indonesia,2094,APERC GDP projections,30790895.344941944,GDP_med
+07_INA,Indonesia,2095,APERC GDP projections,31484895.963585798,GDP_med
+07_INA,Indonesia,2096,APERC GDP projections,32196929.17671803,GDP_med
+07_INA,Indonesia,2097,APERC GDP projections,32926873.480788328,GDP_med
+07_INA,Indonesia,2098,APERC GDP projections,33675318.960240856,GDP_med
+07_INA,Indonesia,2099,APERC GDP projections,34443042.96268125,GDP_med
+07_INA,Indonesia,2100,APERC GDP projections,35230206.45565053,GDP_med

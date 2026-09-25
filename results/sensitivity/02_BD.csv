@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+02_BD,Brunei Darussalam,1990,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,1991,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,1992,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,1993,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,1994,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,1995,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,1996,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,1997,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,1998,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,1999,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2000,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2001,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2002,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2003,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2004,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2005,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2006,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2007,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2008,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2009,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2010,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2011,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2012,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2013,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2014,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2015,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2016,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2017,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2018,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2019,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2020,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2021,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2022,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2023,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2024,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2025,APERC GDP projections,,GDP_low
+02_BD,Brunei Darussalam,2026,APERC GDP projections,36819.04789756223,GDP_low
+02_BD,Brunei Darussalam,2027,APERC GDP projections,36951.62680470652,GDP_low
+02_BD,Brunei Darussalam,2028,APERC GDP projections,37266.42726493171,GDP_low
+02_BD,Brunei Darussalam,2029,APERC GDP projections,37582.076797109024,GDP_low
+02_BD,Brunei Darussalam,2030,APERC GDP projections,37746.85796038235,GDP_low
+02_BD,Brunei Darussalam,2031,APERC GDP projections,37914.27260624957,GDP_low
+02_BD,Brunei Darussalam,2032,APERC GDP projections,38127.44918227072,GDP_low
+02_BD,Brunei Darussalam,2033,APERC GDP projections,38357.82483719437,GDP_low
+02_BD,Brunei Darussalam,2034,APERC GDP projections,38588.72533111726,GDP_low
+02_BD,Brunei Darussalam,2035,APERC GDP projections,38797.74033645146,GDP_low
+02_BD,Brunei Darussalam,2036,APERC GDP projections,39023.96454811835,GDP_low
+02_BD,Brunei Darussalam,2037,APERC GDP projections,39263.02992760497,GDP_low
+02_BD,Brunei Darussalam,2038,APERC GDP projections,39517.15666573836,GDP_low
+02_BD,Brunei Darussalam,2039,APERC GDP projections,39792.15991618973,GDP_low
+02_BD,Brunei Darussalam,2040,APERC GDP projections,40067.07257484781,GDP_low
+02_BD,Brunei Darussalam,2041,APERC GDP projections,40352.512962782974,GDP_low
+02_BD,Brunei Darussalam,2042,APERC GDP projections,40656.847129357215,GDP_low
+02_BD,Brunei Darussalam,2043,APERC GDP projections,40968.94318112994,GDP_low
+02_BD,Brunei Darussalam,2044,APERC GDP projections,41292.086784811065,GDP_low
+02_BD,Brunei Darussalam,2045,APERC GDP projections,41611.32000444816,GDP_low
+02_BD,Brunei Darussalam,2046,APERC GDP projections,41937.79929827096,GDP_low
+02_BD,Brunei Darussalam,2047,APERC GDP projections,42251.742402082855,GDP_low
+02_BD,Brunei Darussalam,2048,APERC GDP projections,42562.66681582996,GDP_low
+02_BD,Brunei Darussalam,2049,APERC GDP projections,42870.16854865411,GDP_low
+02_BD,Brunei Darussalam,2050,APERC GDP projections,43172.42513868157,GDP_low
+02_BD,Brunei Darussalam,2051,APERC GDP projections,43468.14221034479,GDP_low
+02_BD,Brunei Darussalam,2052,APERC GDP projections,43756.41319457144,GDP_low
+02_BD,Brunei Darussalam,2053,APERC GDP projections,44029.8880703961,GDP_low
+02_BD,Brunei Darussalam,2054,APERC GDP projections,44294.26508147273,GDP_low
+02_BD,Brunei Darussalam,2055,APERC GDP projections,44556.353853599496,GDP_low
+02_BD,Brunei Darussalam,2056,APERC GDP projections,44806.80291671367,GDP_low
+02_BD,Brunei Darussalam,2057,APERC GDP projections,45054.31371861395,GDP_low
+02_BD,Brunei Darussalam,2058,APERC GDP projections,45289.043237231104,GDP_low
+02_BD,Brunei Darussalam,2059,APERC GDP projections,45516.6716212333,GDP_low
+02_BD,Brunei Darussalam,2060,APERC GDP projections,45740.3897046313,GDP_low
+02_BD,Brunei Darussalam,2061,APERC GDP projections,45959.10150465495,GDP_low
+02_BD,Brunei Darussalam,2062,APERC GDP projections,46170.943671678455,GDP_low
+02_BD,Brunei Darussalam,2063,APERC GDP projections,46381.4113324873,GDP_low
+02_BD,Brunei Darussalam,2064,APERC GDP projections,46577.390290372,GDP_low
+02_BD,Brunei Darussalam,2065,APERC GDP projections,46762.82215807354,GDP_low
+02_BD,Brunei Darussalam,2066,APERC GDP projections,46938.171371527016,GDP_low
+02_BD,Brunei Darussalam,2067,APERC GDP projections,47103.479638564575,GDP_low
+02_BD,Brunei Darussalam,2068,APERC GDP projections,47252.812152974366,GDP_low
+02_BD,Brunei Darussalam,2069,APERC GDP projections,47400.19497321655,GDP_low
+02_BD,Brunei Darussalam,2070,APERC GDP projections,47548.785644055264,GDP_low
+02_BD,Brunei Darussalam,2071,APERC GDP projections,47701.41978722988,GDP_low
+02_BD,Brunei Darussalam,2072,APERC GDP projections,47850.097187671,GDP_low
+02_BD,Brunei Darussalam,2073,APERC GDP projections,47981.41936498721,GDP_low
+02_BD,Brunei Darussalam,2074,APERC GDP projections,48103.45974324944,GDP_low
+02_BD,Brunei Darussalam,2075,APERC GDP projections,48214.02160444988,GDP_low
+02_BD,Brunei Darussalam,2076,APERC GDP projections,48314.18946867317,GDP_low
+02_BD,Brunei Darussalam,2077,APERC GDP projections,48431.48835810131,GDP_low
+02_BD,Brunei Darussalam,2078,APERC GDP projections,48540.93703825615,GDP_low
+02_BD,Brunei Darussalam,2079,APERC GDP projections,48655.11777674328,GDP_low
+02_BD,Brunei Darussalam,2080,APERC GDP projections,48760.33116043696,GDP_low
+02_BD,Brunei Darussalam,2081,APERC GDP projections,48861.95287416586,GDP_low
+02_BD,Brunei Darussalam,2082,APERC GDP projections,48956.54518744168,GDP_low
+02_BD,Brunei Darussalam,2083,APERC GDP projections,49046.477834622354,GDP_low
+02_BD,Brunei Darussalam,2084,APERC GDP projections,49133.54274970696,GDP_low
+02_BD,Brunei Darussalam,2085,APERC GDP projections,49222.91672407321,GDP_low
+02_BD,Brunei Darussalam,2086,APERC GDP projections,49306.77285662388,GDP_low
+02_BD,Brunei Darussalam,2087,APERC GDP projections,49397.63260499734,GDP_low
+02_BD,Brunei Darussalam,2088,APERC GDP projections,49480.57163952685,GDP_low
+02_BD,Brunei Darussalam,2089,APERC GDP projections,49553.3493415761,GDP_low
+02_BD,Brunei Darussalam,2090,APERC GDP projections,49624.20537778398,GDP_low
+02_BD,Brunei Darussalam,2091,APERC GDP projections,49697.82918230068,GDP_low
+02_BD,Brunei Darussalam,2092,APERC GDP projections,49774.017331440096,GDP_low
+02_BD,Brunei Darussalam,2093,APERC GDP projections,49842.86608293451,GDP_low
+02_BD,Brunei Darussalam,2094,APERC GDP projections,49910.87857597616,GDP_low
+02_BD,Brunei Darussalam,2095,APERC GDP projections,49973.00635438715,GDP_low
+02_BD,Brunei Darussalam,2096,APERC GDP projections,50037.77467115651,GDP_low
+02_BD,Brunei Darussalam,2097,APERC GDP projections,50094.23237676935,GDP_low
+02_BD,Brunei Darussalam,2098,APERC GDP projections,50154.25607885839,GDP_low
+02_BD,Brunei Darussalam,2099,APERC GDP projections,50201.24461271502,GDP_low
+02_BD,Brunei Darussalam,2100,APERC GDP projections,50242.38964021364,GDP_low
+02_BD,Brunei Darussalam,1990,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,1991,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,1992,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,1993,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,1994,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,1995,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,1996,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,1997,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,1998,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,1999,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2000,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2001,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2002,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2003,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2004,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2005,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2006,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2007,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2008,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2009,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2010,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2011,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2012,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2013,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2014,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2015,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2016,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2017,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2018,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2019,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2020,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2021,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2022,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2023,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2024,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2025,APERC GDP projections,,GDP_high
+02_BD,Brunei Darussalam,2026,APERC GDP projections,36884.46971532686,GDP_high
+02_BD,Brunei Darussalam,2027,APERC GDP projections,37078.20729531426,GDP_high
+02_BD,Brunei Darussalam,2028,APERC GDP projections,37449.93996161282,GDP_high
+02_BD,Brunei Darussalam,2029,APERC GDP projections,37817.11134211187,GDP_high
+02_BD,Brunei Darussalam,2030,APERC GDP projections,38074.62435446977,GDP_high
+02_BD,Brunei Darussalam,2031,APERC GDP projections,38343.416334889225,GDP_high
+02_BD,Brunei Darussalam,2032,APERC GDP projections,38656.07441635396,GDP_high
+02_BD,Brunei Darussalam,2033,APERC GDP projections,38984.43142362434,GDP_high
+02_BD,Brunei Darussalam,2034,APERC GDP projections,39311.62610422906,GDP_high
+02_BD,Brunei Darussalam,2035,APERC GDP projections,39648.03882898087,GDP_high
+02_BD,Brunei Darussalam,2036,APERC GDP projections,40002.92647328691,GDP_high
+02_BD,Brunei Darussalam,2037,APERC GDP projections,40371.02038237069,GDP_high
+02_BD,Brunei Darussalam,2038,APERC GDP projections,40754.38097030696,GDP_high
+02_BD,Brunei Darussalam,2039,APERC GDP projections,41158.68386741374,GDP_high
+02_BD,Brunei Darussalam,2040,APERC GDP projections,41565.30360760533,GDP_high
+02_BD,Brunei Darussalam,2041,APERC GDP projections,41984.77297033685,GDP_high
+02_BD,Brunei Darussalam,2042,APERC GDP projections,42424.80104056882,GDP_high
+02_BD,Brunei Darussalam,2043,APERC GDP projections,42875.62909574563,GDP_high
+02_BD,Brunei Darussalam,2044,APERC GDP projections,43340.67942114728,GDP_high
+02_BD,Brunei Darussalam,2045,APERC GDP projections,43821.5997219409,GDP_high
+02_BD,Brunei Darussalam,2046,APERC GDP projections,44329.862274916384,GDP_high
+02_BD,Brunei Darussalam,2047,APERC GDP projections,44830.38893817442,GDP_high
+02_BD,Brunei Darussalam,2048,APERC GDP projections,45332.06966463076,GDP_high
+02_BD,Brunei Darussalam,2049,APERC GDP projections,45834.71836060832,GDP_high
+02_BD,Brunei Darussalam,2050,APERC GDP projections,46337.88753372631,GDP_high
+02_BD,Brunei Darussalam,2051,APERC GDP projections,46840.40929287145,GDP_high
+02_BD,Brunei Darussalam,2052,APERC GDP projections,47343.05308716372,GDP_high
+02_BD,Brunei Darussalam,2053,APERC GDP projections,47838.513830841024,GDP_high
+02_BD,Brunei Darussalam,2054,APERC GDP projections,48334.40021399024,GDP_high
+02_BD,Brunei Darussalam,2055,APERC GDP projections,48837.07304594579,GDP_high
+02_BD,Brunei Darussalam,2056,APERC GDP projections,49338.997295484856,GDP_high
+02_BD,Brunei Darussalam,2057,APERC GDP projections,49848.10454337662,GDP_high
+02_BD,Brunei Darussalam,2058,APERC GDP projections,50356.34348123904,GDP_high
+02_BD,Brunei Darussalam,2059,APERC GDP projections,50868.72940874931,GDP_high
+02_BD,Brunei Darussalam,2060,APERC GDP projections,51388.59906015157,GDP_high
+02_BD,Brunei Darussalam,2061,APERC GDP projections,51914.604128801686,GDP_high
+02_BD,Brunei Darussalam,2062,APERC GDP projections,52445.62854182851,GDP_high
+02_BD,Brunei Darussalam,2063,APERC GDP projections,52985.68619705307,GDP_high
+02_BD,Brunei Darussalam,2064,APERC GDP projections,53523.474946974486,GDP_high
+02_BD,Brunei Darussalam,2065,APERC GDP projections,54062.36372808494,GDP_high
+02_BD,Brunei Darussalam,2066,APERC GDP projections,54601.04512941156,GDP_high
+02_BD,Brunei Darussalam,2067,APERC GDP projections,55140.85396230112,GDP_high
+02_BD,Brunei Darussalam,2068,APERC GDP projections,55675.57579101289,GDP_high
+02_BD,Brunei Darussalam,2069,APERC GDP projections,56216.75849329956,GDP_high
+02_BD,Brunei Darussalam,2070,APERC GDP projections,56767.15618873285,GDP_high
+02_BD,Brunei Darussalam,2071,APERC GDP projections,57329.19562353272,GDP_high
+02_BD,Brunei Darussalam,2072,APERC GDP projections,57896.18498214192,GDP_high
+02_BD,Brunei Darussalam,2073,APERC GDP projections,58455.72255437205,GDP_high
+02_BD,Brunei Darussalam,2074,APERC GDP projections,59015.7886626402,GDP_high
+02_BD,Brunei Darussalam,2075,APERC GDP projections,59573.38345010801,GDP_high
+02_BD,Brunei Darussalam,2076,APERC GDP projections,60129.63802379362,GDP_high
+02_BD,Brunei Darussalam,2077,APERC GDP projections,60708.747532893125,GDP_high
+02_BD,Brunei Darussalam,2078,APERC GDP projections,61290.17108213075,GDP_high
+02_BD,Brunei Darussalam,2079,APERC GDP projections,61883.59823458447,GDP_high
+02_BD,Brunei Darussalam,2080,APERC GDP projections,62479.321829405846,GDP_high
+02_BD,Brunei Darussalam,2081,APERC GDP projections,63080.15375719429,GDP_high
+02_BD,Brunei Darussalam,2082,APERC GDP projections,63685.76379447968,GDP_high
+02_BD,Brunei Darussalam,2083,APERC GDP projections,64297.12141415886,GDP_high
+02_BD,Brunei Darussalam,2084,APERC GDP projections,64916.729938556055,GDP_high
+02_BD,Brunei Darussalam,2085,APERC GDP projections,65549.3750392881,GDP_high
+02_BD,Brunei Darussalam,2086,APERC GDP projections,66188.38299445725,GDP_high
+02_BD,Brunei Darussalam,2087,APERC GDP projections,66845.48620549818,GDP_high
+02_BD,Brunei Darussalam,2088,APERC GDP projections,67508.72301043593,GDP_high
+02_BD,Brunei Darussalam,2089,APERC GDP projections,68175.9394212455,GDP_high
+02_BD,Brunei Darussalam,2090,APERC GDP projections,68854.53999904738,GDP_high
+02_BD,Brunei Darussalam,2091,APERC GDP projections,69548.57236379603,GDP_high
+02_BD,Brunei Darussalam,2092,APERC GDP projections,70256.68542336965,GDP_high
+02_BD,Brunei Darussalam,2093,APERC GDP projections,70972.6818757385,GDP_high
+02_BD,Brunei Darussalam,2094,APERC GDP projections,71700.4088403792,GDP_high
+02_BD,Brunei Darussalam,2095,APERC GDP projections,72437.52427625813,GDP_high
+02_BD,Brunei Darussalam,2096,APERC GDP projections,73188.42846000475,GDP_high
+02_BD,Brunei Darussalam,2097,APERC GDP projections,73946.1939895331,GDP_high
+02_BD,Brunei Darussalam,2098,APERC GDP projections,74718.53436816497,GDP_high
+02_BD,Brunei Darussalam,2099,APERC GDP projections,75493.65393055251,GDP_high
+02_BD,Brunei Darussalam,2100,APERC GDP projections,76275.58219435527,GDP_high
+02_BD,Brunei Darussalam,1990,WDI GDP through 2025,30166.2430548788,GDP_med
+02_BD,Brunei Darussalam,1991,WDI GDP through 2025,31044.2786293994,GDP_med
+02_BD,Brunei Darussalam,1992,WDI GDP through 2025,30075.505025988,GDP_med
+02_BD,Brunei Darussalam,1993,WDI GDP through 2025,29884.9316910154,GDP_med
+02_BD,Brunei Darussalam,1994,WDI GDP through 2025,30181.6098553671,GDP_med
+02_BD,Brunei Darussalam,1995,WDI GDP through 2025,30588.2448027798,GDP_med
+02_BD,Brunei Darussalam,1996,WDI GDP through 2025,30579.8894812155,GDP_med
+02_BD,Brunei Darussalam,1997,WDI GDP through 2025,32519.8608489052,GDP_med
+02_BD,Brunei Darussalam,1998,WDI GDP through 2025,30354.9619039354,GDP_med
+02_BD,Brunei Darussalam,1999,WDI GDP through 2025,31648.3024932464,GDP_med
+02_BD,Brunei Darussalam,2000,WDI GDP through 2025,32747.9785519656,GDP_med
+02_BD,Brunei Darussalam,2001,WDI GDP through 2025,33228.0838348158,GDP_med
+02_BD,Brunei Darussalam,2002,WDI GDP through 2025,34544.3940735811,GDP_med
+02_BD,Brunei Darussalam,2003,WDI GDP through 2025,35782.267943159895,GDP_med
+02_BD,Brunei Darussalam,2004,WDI GDP through 2025,35819.6741437482,GDP_med
+02_BD,Brunei Darussalam,2005,WDI GDP through 2025,35818.2681081303,GDP_med
+02_BD,Brunei Darussalam,2006,WDI GDP through 2025,37286.248511735495,GDP_med
+02_BD,Brunei Darussalam,2007,WDI GDP through 2025,35882.934589017,GDP_med
+02_BD,Brunei Darussalam,2008,WDI GDP through 2025,34483.245006226,GDP_med
+02_BD,Brunei Darussalam,2009,WDI GDP through 2025,33827.9758767617,GDP_med
+02_BD,Brunei Darussalam,2010,WDI GDP through 2025,34755.3239628481,GDP_med
+02_BD,Brunei Darussalam,2011,WDI GDP through 2025,36056.704487345,GDP_med
+02_BD,Brunei Darussalam,2012,WDI GDP through 2025,36385.9509442523,GDP_med
+02_BD,Brunei Darussalam,2013,WDI GDP through 2025,35612.8284708911,GDP_med
+02_BD,Brunei Darussalam,2014,WDI GDP through 2025,34719.698877079005,GDP_med
+02_BD,Brunei Darussalam,2015,WDI GDP through 2025,34583.4644208093,GDP_med
+02_BD,Brunei Darussalam,2016,WDI GDP through 2025,33726.514628313,GDP_med
+02_BD,Brunei Darussalam,2017,WDI GDP through 2025,34174.6478029999,GDP_med
+02_BD,Brunei Darussalam,2018,WDI GDP through 2025,34192.5454221039,GDP_med
+02_BD,Brunei Darussalam,2019,WDI GDP through 2025,35515.401787812894,GDP_med
+02_BD,Brunei Darussalam,2020,WDI GDP through 2025,35917.9949174561,GDP_med
+02_BD,Brunei Darussalam,2021,WDI GDP through 2025,35346.6248872816,GDP_med
+02_BD,Brunei Darussalam,2022,WDI GDP through 2025,34771.064644095706,GDP_med
+02_BD,Brunei Darussalam,2023,WDI GDP through 2025,35163.1585314447,GDP_med
+02_BD,Brunei Darussalam,2024,WDI GDP through 2025,36588.1515413938,GDP_med
+02_BD,Brunei Darussalam,2025,WDI GDP through 2025,36833.131954828,GDP_med
+02_BD,Brunei Darussalam,2026,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2027,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2028,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2029,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2030,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2031,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2032,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2033,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2034,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2035,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2036,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2037,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2038,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2039,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2040,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2041,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2042,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2043,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2044,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2045,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2046,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2047,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2048,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2049,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2050,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2051,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2052,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2053,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2054,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2055,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2056,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2057,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2058,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2059,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2060,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2061,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2062,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2063,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2064,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2065,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2066,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2067,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2068,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2069,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2070,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2071,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2072,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2073,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2074,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2075,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2076,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2077,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2078,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2079,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2080,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2081,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2082,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2083,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2084,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2085,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2086,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2087,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2088,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2089,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2090,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2091,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2092,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2093,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2094,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2095,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2096,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2097,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2098,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2099,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,2100,WDI GDP through 2025,,GDP_med
+02_BD,Brunei Darussalam,1990,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,1991,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,1992,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,1993,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,1994,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,1995,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,1996,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,1997,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,1998,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,1999,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2000,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2001,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2002,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2003,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2004,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2005,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2006,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2007,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2008,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2009,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2010,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2011,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2012,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2013,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2014,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2015,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2016,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2017,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2018,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2019,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2020,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2021,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2022,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2023,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2024,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2025,APERC GDP projections,,GDP_med
+02_BD,Brunei Darussalam,2026,APERC GDP projections,36851.85157425789,GDP_med
+02_BD,Brunei Darussalam,2027,APERC GDP projections,37015.12608819743,GDP_med
+02_BD,Brunei Darussalam,2028,APERC GDP projections,37358.53673925669,GDP_med
+02_BD,Brunei Darussalam,2029,APERC GDP projections,37700.38378230365,GDP_med
+02_BD,Brunei Darussalam,2030,APERC GDP projections,37911.87611883093,GDP_med
+02_BD,Brunei Darussalam,2031,APERC GDP projections,38130.58242889133,GDP_med
+02_BD,Brunei Darussalam,2032,APERC GDP projections,38394.16663496928,GDP_med
+02_BD,Brunei Darussalam,2033,APERC GDP projections,38674.31204773476,GDP_med
+02_BD,Brunei Darussalam,2034,APERC GDP projections,38954.31682326584,GDP_med
+02_BD,Brunei Darussalam,2035,APERC GDP projections,39228.20879021095,GDP_med
+02_BD,Brunei Darussalam,2036,APERC GDP projections,39520.1129868021,GDP_med
+02_BD,Brunei Darussalam,2037,APERC GDP projections,39825.226741564846,GDP_med
+02_BD,Brunei Darussalam,2038,APERC GDP projections,40145.7104391073,GDP_med
+02_BD,Brunei Darussalam,2039,APERC GDP projections,40487.255612960034,GDP_med
+02_BD,Brunei Darussalam,2040,APERC GDP projections,40830.35644526657,GDP_med
+02_BD,Brunei Darussalam,2041,APERC GDP projections,41184.86272510998,GDP_med
+02_BD,Brunei Darussalam,2042,APERC GDP projections,41559.34331674628,GDP_med
+02_BD,Brunei Darussalam,2043,APERC GDP projections,41943.49795300576,GDP_med
+02_BD,Brunei Darussalam,2044,APERC GDP projections,42340.094489393945,GDP_med
+02_BD,Brunei Darussalam,2045,APERC GDP projections,42751.54486754157,GDP_med
+02_BD,Brunei Darussalam,2046,APERC GDP projections,43171.0090294226,GDP_med
+02_BD,Brunei Darussalam,2047,APERC GDP projections,43580.42025785744,GDP_med
+02_BD,Brunei Darussalam,2048,APERC GDP projections,43988.95028531453,GDP_med
+02_BD,Brunei Darussalam,2049,APERC GDP projections,44396.05342460143,GDP_med
+02_BD,Brunei Darussalam,2050,APERC GDP projections,44800.746990602034,GDP_med
+02_BD,Brunei Darussalam,2051,APERC GDP projections,45201.43987714446,GDP_med
+02_BD,Brunei Darussalam,2052,APERC GDP projections,45597.959987823946,GDP_med
+02_BD,Brunei Darussalam,2053,APERC GDP projections,45983.24131107876,GDP_med
+02_BD,Brunei Darussalam,2054,APERC GDP projections,46362.96297286543,GDP_med
+02_BD,Brunei Darussalam,2055,APERC GDP projections,46744.53997539125,GDP_med
+02_BD,Brunei Darussalam,2056,APERC GDP projections,47118.9199629171,GDP_med
+02_BD,Brunei Darussalam,2057,APERC GDP projections,47494.35988226131,GDP_med
+02_BD,Brunei Darussalam,2058,APERC GDP projections,47861.96903823711,GDP_med
+02_BD,Brunei Darussalam,2059,APERC GDP projections,48227.344154637685,GDP_med
+02_BD,Brunei Darussalam,2060,APERC GDP projections,48593.074096653385,GDP_med
+02_BD,Brunei Darussalam,2061,APERC GDP projections,48959.00916479976,GDP_med
+02_BD,Brunei Darussalam,2062,APERC GDP projections,49322.31650546076,GDP_med
+02_BD,Brunei Darussalam,2063,APERC GDP projections,49689.31790815717,GDP_med
+02_BD,Brunei Darussalam,2064,APERC GDP projections,50046.84921565554,GDP_med
+02_BD,Brunei Darussalam,2065,APERC GDP projections,50399.35286073164,GDP_med
+02_BD,Brunei Darussalam,2066,APERC GDP projections,50746.00211151214,GDP_med
+02_BD,Brunei Darussalam,2067,APERC GDP projections,51087.42855330675,GDP_med
+02_BD,Brunei Darussalam,2068,APERC GDP projections,51418.10476961293,GDP_med
+02_BD,Brunei Darussalam,2069,APERC GDP projections,51750.71591942661,GDP_med
+02_BD,Brunei Darussalam,2070,APERC GDP projections,52088.388060938094,GDP_med
+02_BD,Brunei Darussalam,2071,APERC GDP projections,52433.31113609278,GDP_med
+02_BD,Brunei Darussalam,2072,APERC GDP projections,52778.543684935015,GDP_med
+02_BD,Brunei Darussalam,2073,APERC GDP projections,53112.12029350803,GDP_med
+02_BD,Brunei Darussalam,2074,APERC GDP projections,53441.27802903425,GDP_med
+02_BD,Brunei Darussalam,2075,APERC GDP projections,53762.46064511951,GDP_med
+02_BD,Brunei Darussalam,2076,APERC GDP projections,54078.04761138325,GDP_med
+02_BD,Brunei Darussalam,2077,APERC GDP projections,54413.64446385124,GDP_med
+02_BD,Brunei Darussalam,2078,APERC GDP projections,54745.89804447694,GDP_med
+02_BD,Brunei Darussalam,2079,APERC GDP projections,55086.418967311765,GDP_med
+02_BD,Brunei Darussalam,2080,APERC GDP projections,55423.26987208978,GDP_med
+02_BD,Brunei Darussalam,2081,APERC GDP projections,55760.36016895528,GDP_med
+02_BD,Brunei Darussalam,2082,APERC GDP projections,56096.08316748743,GDP_med
+02_BD,Brunei Darussalam,2083,APERC GDP projections,56430.83877092721,GDP_med
+02_BD,Brunei Darussalam,2084,APERC GDP projections,56767.40693665781,GDP_med
+02_BD,Brunei Darussalam,2085,APERC GDP projections,57111.5503920499,GDP_med
+02_BD,Brunei Darussalam,2086,APERC GDP projections,57454.30117232911,GDP_med
+02_BD,Brunei Darussalam,2087,APERC GDP projections,57808.44439088351,GDP_med
+02_BD,Brunei Darussalam,2088,APERC GDP projections,58160.76111609054,GDP_med
+02_BD,Brunei Darussalam,2089,APERC GDP projections,58508.53205951033,GDP_med
+02_BD,Brunei Darussalam,2090,APERC GDP projections,58858.7877652512,GDP_med
+02_BD,Brunei Darussalam,2091,APERC GDP projections,59218.008830516745,GDP_med
+02_BD,Brunei Darussalam,2092,APERC GDP projections,59582.956134092834,GDP_med
+02_BD,Brunei Darussalam,2093,APERC GDP projections,59946.63809078412,GDP_med
+02_BD,Brunei Darussalam,2094,APERC GDP projections,60314.921694592784,GDP_med
+02_BD,Brunei Darussalam,2095,APERC GDP projections,60683.42260927791,GDP_med
+02_BD,Brunei Darussalam,2096,APERC GDP projections,61058.936755822375,GDP_med
+02_BD,Brunei Darussalam,2097,APERC GDP projections,61431.41656786038,GDP_med
+02_BD,Brunei Darussalam,2098,APERC GDP projections,61812.67997036347,GDP_med
+02_BD,Brunei Darussalam,2099,APERC GDP projections,62187.58563216779,GDP_med
+02_BD,Brunei Darussalam,2100,APERC GDP projections,62562.678549281525,GDP_med

@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+17_SGP,Singapore,1990,APERC GDP projections,,GDP_low
+17_SGP,Singapore,1991,APERC GDP projections,,GDP_low
+17_SGP,Singapore,1992,APERC GDP projections,,GDP_low
+17_SGP,Singapore,1993,APERC GDP projections,,GDP_low
+17_SGP,Singapore,1994,APERC GDP projections,,GDP_low
+17_SGP,Singapore,1995,APERC GDP projections,,GDP_low
+17_SGP,Singapore,1996,APERC GDP projections,,GDP_low
+17_SGP,Singapore,1997,APERC GDP projections,,GDP_low
+17_SGP,Singapore,1998,APERC GDP projections,,GDP_low
+17_SGP,Singapore,1999,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2000,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2001,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2002,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2003,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2004,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2005,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2006,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2007,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2008,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2009,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2010,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2011,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2012,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2013,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2014,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2015,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2016,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2017,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2018,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2019,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2020,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2021,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2022,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2023,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2024,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2025,APERC GDP projections,,GDP_low
+17_SGP,Singapore,2026,APERC GDP projections,884450.469009844,GDP_low
+17_SGP,Singapore,2027,APERC GDP projections,916176.0377537766,GDP_low
+17_SGP,Singapore,2028,APERC GDP projections,947880.1724033912,GDP_low
+17_SGP,Singapore,2029,APERC GDP projections,979566.4844215056,GDP_low
+17_SGP,Singapore,2030,APERC GDP projections,1012353.4804235474,GDP_low
+17_SGP,Singapore,2031,APERC GDP projections,1051696.5204262603,GDP_low
+17_SGP,Singapore,2032,APERC GDP projections,1083774.5932522244,GDP_low
+17_SGP,Singapore,2033,APERC GDP projections,1114540.804448573,GDP_low
+17_SGP,Singapore,2034,APERC GDP projections,1149840.6321764349,GDP_low
+17_SGP,Singapore,2035,APERC GDP projections,1183978.7646239437,GDP_low
+17_SGP,Singapore,2036,APERC GDP projections,1217363.6426682717,GDP_low
+17_SGP,Singapore,2037,APERC GDP projections,1251346.228547379,GDP_low
+17_SGP,Singapore,2038,APERC GDP projections,1286381.5938476445,GDP_low
+17_SGP,Singapore,2039,APERC GDP projections,1322278.3721998548,GDP_low
+17_SGP,Singapore,2040,APERC GDP projections,1358584.6983989126,GDP_low
+17_SGP,Singapore,2041,APERC GDP projections,1395075.7501029724,GDP_low
+17_SGP,Singapore,2042,APERC GDP projections,1430933.6694210868,GDP_low
+17_SGP,Singapore,2043,APERC GDP projections,1467447.3515803637,GDP_low
+17_SGP,Singapore,2044,APERC GDP projections,1504793.6865702122,GDP_low
+17_SGP,Singapore,2045,APERC GDP projections,1541860.1215218604,GDP_low
+17_SGP,Singapore,2046,APERC GDP projections,1579606.1264592032,GDP_low
+17_SGP,Singapore,2047,APERC GDP projections,1617619.0616930805,GDP_low
+17_SGP,Singapore,2048,APERC GDP projections,1655610.1642934391,GDP_low
+17_SGP,Singapore,2049,APERC GDP projections,1694917.9565698735,GDP_low
+17_SGP,Singapore,2050,APERC GDP projections,1734103.1490372247,GDP_low
+17_SGP,Singapore,2051,APERC GDP projections,1773435.2845953323,GDP_low
+17_SGP,Singapore,2052,APERC GDP projections,1813361.0776786264,GDP_low
+17_SGP,Singapore,2053,APERC GDP projections,1854681.4353514973,GDP_low
+17_SGP,Singapore,2054,APERC GDP projections,1895736.6872886224,GDP_low
+17_SGP,Singapore,2055,APERC GDP projections,1936123.0659121785,GDP_low
+17_SGP,Singapore,2056,APERC GDP projections,1977321.9834969928,GDP_low
+17_SGP,Singapore,2057,APERC GDP projections,2018942.256304741,GDP_low
+17_SGP,Singapore,2058,APERC GDP projections,2060958.4997286324,GDP_low
+17_SGP,Singapore,2059,APERC GDP projections,2102174.0794423604,GDP_low
+17_SGP,Singapore,2060,APERC GDP projections,2143919.010516507,GDP_low
+17_SGP,Singapore,2061,APERC GDP projections,2184760.708713968,GDP_low
+17_SGP,Singapore,2062,APERC GDP projections,2226301.996748132,GDP_low
+17_SGP,Singapore,2063,APERC GDP projections,2267626.359722425,GDP_low
+17_SGP,Singapore,2064,APERC GDP projections,2309638.820929199,GDP_low
+17_SGP,Singapore,2065,APERC GDP projections,2350725.990254971,GDP_low
+17_SGP,Singapore,2066,APERC GDP projections,2390599.7144227065,GDP_low
+17_SGP,Singapore,2067,APERC GDP projections,2430090.568165954,GDP_low
+17_SGP,Singapore,2068,APERC GDP projections,2470918.232125402,GDP_low
+17_SGP,Singapore,2069,APERC GDP projections,2511097.739163965,GDP_low
+17_SGP,Singapore,2070,APERC GDP projections,2550853.9375963826,GDP_low
+17_SGP,Singapore,2071,APERC GDP projections,2591208.2421345995,GDP_low
+17_SGP,Singapore,2072,APERC GDP projections,2630784.0330239977,GDP_low
+17_SGP,Singapore,2073,APERC GDP projections,2669729.546159807,GDP_low
+17_SGP,Singapore,2074,APERC GDP projections,2707634.802368136,GDP_low
+17_SGP,Singapore,2075,APERC GDP projections,2743065.691121227,GDP_low
+17_SGP,Singapore,2076,APERC GDP projections,2777584.332548278,GDP_low
+17_SGP,Singapore,2077,APERC GDP projections,2813158.6352972337,GDP_low
+17_SGP,Singapore,2078,APERC GDP projections,2846775.426409124,GDP_low
+17_SGP,Singapore,2079,APERC GDP projections,2878968.103388548,GDP_low
+17_SGP,Singapore,2080,APERC GDP projections,2909146.0548433308,GDP_low
+17_SGP,Singapore,2081,APERC GDP projections,2938267.377155192,GDP_low
+17_SGP,Singapore,2082,APERC GDP projections,2965754.470714222,GDP_low
+17_SGP,Singapore,2083,APERC GDP projections,2991706.527800314,GDP_low
+17_SGP,Singapore,2084,APERC GDP projections,3016776.076778613,GDP_low
+17_SGP,Singapore,2085,APERC GDP projections,3040859.9052689862,GDP_low
+17_SGP,Singapore,2086,APERC GDP projections,3062910.949816012,GDP_low
+17_SGP,Singapore,2087,APERC GDP projections,3082978.7350275186,GDP_low
+17_SGP,Singapore,2088,APERC GDP projections,3102165.0260841125,GDP_low
+17_SGP,Singapore,2089,APERC GDP projections,3120442.7348951106,GDP_low
+17_SGP,Singapore,2090,APERC GDP projections,3135965.2110722447,GDP_low
+17_SGP,Singapore,2091,APERC GDP projections,3151335.164569835,GDP_low
+17_SGP,Singapore,2092,APERC GDP projections,3165513.7251073974,GDP_low
+17_SGP,Singapore,2093,APERC GDP projections,3180373.046539386,GDP_low
+17_SGP,Singapore,2094,APERC GDP projections,3193389.444705924,GDP_low
+17_SGP,Singapore,2095,APERC GDP projections,3204198.9740329203,GDP_low
+17_SGP,Singapore,2096,APERC GDP projections,3215283.0833103987,GDP_low
+17_SGP,Singapore,2097,APERC GDP projections,3225337.9826934445,GDP_low
+17_SGP,Singapore,2098,APERC GDP projections,3235341.701614742,GDP_low
+17_SGP,Singapore,2099,APERC GDP projections,3244453.915787922,GDP_low
+17_SGP,Singapore,2100,APERC GDP projections,3254929.0653890003,GDP_low
+17_SGP,Singapore,1990,APERC GDP projections,,GDP_high
+17_SGP,Singapore,1991,APERC GDP projections,,GDP_high
+17_SGP,Singapore,1992,APERC GDP projections,,GDP_high
+17_SGP,Singapore,1993,APERC GDP projections,,GDP_high
+17_SGP,Singapore,1994,APERC GDP projections,,GDP_high
+17_SGP,Singapore,1995,APERC GDP projections,,GDP_high
+17_SGP,Singapore,1996,APERC GDP projections,,GDP_high
+17_SGP,Singapore,1997,APERC GDP projections,,GDP_high
+17_SGP,Singapore,1998,APERC GDP projections,,GDP_high
+17_SGP,Singapore,1999,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2000,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2001,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2002,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2003,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2004,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2005,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2006,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2007,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2008,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2009,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2010,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2011,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2012,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2013,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2014,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2015,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2016,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2017,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2018,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2019,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2020,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2021,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2022,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2023,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2024,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2025,APERC GDP projections,,GDP_high
+17_SGP,Singapore,2026,APERC GDP projections,886530.1206195152,GDP_high
+17_SGP,Singapore,2027,APERC GDP projections,920451.5151273852,GDP_high
+17_SGP,Singapore,2028,APERC GDP projections,954446.961103952,GDP_high
+17_SGP,Singapore,2029,APERC GDP projections,988507.7245167104,GDP_high
+17_SGP,Singapore,2030,APERC GDP projections,1025335.839008402,GDP_high
+17_SGP,Singapore,2031,APERC GDP projections,1068963.005028476,GDP_high
+17_SGP,Singapore,2032,APERC GDP projections,1105305.7462582695,GDP_high
+17_SGP,Singapore,2033,APERC GDP projections,1140366.6313110606,GDP_high
+17_SGP,Singapore,2034,APERC GDP projections,1180768.0694315964,GDP_high
+17_SGP,Singapore,2035,APERC GDP projections,1221501.0074480523,GDP_high
+17_SGP,Singapore,2036,APERC GDP projections,1261978.678837878,GDP_high
+17_SGP,Singapore,2037,APERC GDP projections,1303304.348039758,GDP_high
+17_SGP,Singapore,2038,APERC GDP projections,1345893.3541428272,GDP_high
+17_SGP,Singapore,2039,APERC GDP projections,1389560.997427053,GDP_high
+17_SGP,Singapore,2040,APERC GDP projections,1433861.993378537,GDP_high
+17_SGP,Singapore,2041,APERC GDP projections,1478559.6398493317,GDP_high
+17_SGP,Singapore,2042,APERC GDP projections,1522786.3771378845,GDP_high
+17_SGP,Singapore,2043,APERC GDP projections,1567889.5133662678,GDP_high
+17_SGP,Singapore,2044,APERC GDP projections,1614099.3027919512,GDP_high
+17_SGP,Singapore,2045,APERC GDP projections,1660340.7503484378,GDP_high
+17_SGP,Singapore,2046,APERC GDP projections,1707582.299526712,GDP_high
+17_SGP,Singapore,2047,APERC GDP projections,1755460.9312297828,GDP_high
+17_SGP,Singapore,2048,APERC GDP projections,1803740.797874143,GDP_high
+17_SGP,Singapore,2049,APERC GDP projections,1853736.725264008,GDP_high
+17_SGP,Singapore,2050,APERC GDP projections,1904146.334511869,GDP_high
+17_SGP,Singapore,2051,APERC GDP projections,1955276.10382056,GDP_high
+17_SGP,Singapore,2052,APERC GDP projections,2007623.3698366468,GDP_high
+17_SGP,Singapore,2053,APERC GDP projections,2062043.2040635983,GDP_high
+17_SGP,Singapore,2054,APERC GDP projections,2117077.522139783,GDP_high
+17_SGP,Singapore,2055,APERC GDP projections,2172422.43368305,GDP_high
+17_SGP,Singapore,2056,APERC GDP projections,2229564.9137138915,GDP_high
+17_SGP,Singapore,2057,APERC GDP projections,2288219.775128447,GDP_high
+17_SGP,Singapore,2058,APERC GDP projections,2348450.736601345,GDP_high
+17_SGP,Singapore,2059,APERC GDP projections,2409202.674362041,GDP_high
+17_SGP,Singapore,2060,APERC GDP projections,2471769.7964756563,GDP_high
+17_SGP,Singapore,2061,APERC GDP projections,2534859.798857776,GDP_high
+17_SGP,Singapore,2062,APERC GDP projections,2599971.895392156,GDP_high
+17_SGP,Singapore,2063,APERC GDP projections,2666281.84846506,GDP_high
+17_SGP,Singapore,2064,APERC GDP projections,2734618.404007913,GDP_high
+17_SGP,Singapore,2065,APERC GDP projections,2803486.653943555,GDP_high
+17_SGP,Singapore,2066,APERC GDP projections,2872577.5025361166,GDP_high
+17_SGP,Singapore,2067,APERC GDP projections,2942613.2129060887,GDP_high
+17_SGP,Singapore,2068,APERC GDP projections,3015097.39238529,GDP_high
+17_SGP,Singapore,2069,APERC GDP projections,3088206.492462197,GDP_high
+17_SGP,Singapore,2070,APERC GDP projections,3162086.934583055,GDP_high
+17_SGP,Singapore,2071,APERC GDP projections,3237640.668129289,GDP_high
+17_SGP,Singapore,2072,APERC GDP projections,3313591.665946633,GDP_high
+17_SGP,Singapore,2073,APERC GDP projections,3390050.566298884,GDP_high
+17_SGP,Singapore,2074,APERC GDP projections,3466648.926719426,GDP_high
+17_SGP,Singapore,2075,APERC GDP projections,3542101.087604486,GDP_high
+17_SGP,Singapore,2076,APERC GDP projections,3617832.9705113815,GDP_high
+17_SGP,Singapore,2077,APERC GDP projections,3695633.61071585,GDP_high
+17_SGP,Singapore,2078,APERC GDP projections,3772884.294579713,GDP_high
+17_SGP,Singapore,2079,APERC GDP projections,3850132.213173119,GDP_high
+17_SGP,Singapore,2080,APERC GDP projections,3926922.702652949,GDP_high
+17_SGP,Singapore,2081,APERC GDP projections,4004202.261132949,GDP_high
+17_SGP,Singapore,2082,APERC GDP projections,4081551.728925685,GDP_high
+17_SGP,Singapore,2083,APERC GDP projections,4159183.578681729,GDP_high
+17_SGP,Singapore,2084,APERC GDP projections,4237781.60085809,GDP_high
+17_SGP,Singapore,2085,APERC GDP projections,4317410.806156944,GDP_high
+17_SGP,Singapore,2086,APERC GDP projections,4397275.226212048,GDP_high
+17_SGP,Singapore,2087,APERC GDP projections,4477517.653186146,GDP_high
+17_SGP,Singapore,2088,APERC GDP projections,4559241.334418974,GDP_high
+17_SGP,Singapore,2089,APERC GDP projections,4642526.405951796,GDP_high
+17_SGP,Singapore,2090,APERC GDP projections,4725896.089100106,GDP_high
+17_SGP,Singapore,2091,APERC GDP projections,4811653.212746763,GDP_high
+17_SGP,Singapore,2092,APERC GDP projections,4899003.854988358,GDP_high
+17_SGP,Singapore,2093,APERC GDP projections,4989595.2669436615,GDP_high
+17_SGP,Singapore,2094,APERC GDP projections,5081346.52373008,GDP_high
+17_SGP,Singapore,2095,APERC GDP projections,5173932.969217049,GDP_high
+17_SGP,Singapore,2096,APERC GDP projections,5269400.557809941,GDP_high
+17_SGP,Singapore,2097,APERC GDP projections,5366643.295793012,GDP_high
+17_SGP,Singapore,2098,APERC GDP projections,5466410.208032646,GDP_high
+17_SGP,Singapore,2099,APERC GDP projections,5567976.942041634,GDP_high
+17_SGP,Singapore,2100,APERC GDP projections,5673185.459386189,GDP_high
+17_SGP,Singapore,1990,WDI GDP through 2025,140049.416153099,GDP_med
+17_SGP,Singapore,1991,WDI GDP through 2025,149416.477857285,GDP_med
+17_SGP,Singapore,1992,WDI GDP through 2025,159337.441475797,GDP_med
+17_SGP,Singapore,1993,WDI GDP through 2025,177596.95598247298,GDP_med
+17_SGP,Singapore,1994,WDI GDP through 2025,197302.562442346,GDP_med
+17_SGP,Singapore,1995,WDI GDP through 2025,211459.81271941905,GDP_med
+17_SGP,Singapore,1996,WDI GDP through 2025,227258.801839554,GDP_med
+17_SGP,Singapore,1997,WDI GDP through 2025,246158.119024241,GDP_med
+17_SGP,Singapore,1998,WDI GDP through 2025,240764.757697655,GDP_med
+17_SGP,Singapore,1999,WDI GDP through 2025,254532.581602908,GDP_med
+17_SGP,Singapore,2000,WDI GDP through 2025,277538.04147977097,GDP_med
+17_SGP,Singapore,2001,WDI GDP through 2025,274565.989973697,GDP_med
+17_SGP,Singapore,2002,WDI GDP through 2025,285338.204303906,GDP_med
+17_SGP,Singapore,2003,WDI GDP through 2025,298316.114664843,GDP_med
+17_SGP,Singapore,2004,WDI GDP through 2025,327968.684807152,GDP_med
+17_SGP,Singapore,2005,WDI GDP through 2025,352127.915476514,GDP_med
+17_SGP,Singapore,2006,WDI GDP through 2025,383843.253121348,GDP_med
+17_SGP,Singapore,2007,WDI GDP through 2025,418471.74709983,GDP_med
+17_SGP,Singapore,2008,WDI GDP through 2025,426269.898869297,GDP_med
+17_SGP,Singapore,2009,WDI GDP through 2025,426815.325624664,GDP_med
+17_SGP,Singapore,2010,WDI GDP through 2025,488787.842633126,GDP_med
+17_SGP,Singapore,2011,WDI GDP through 2025,519165.685276846,GDP_med
+17_SGP,Singapore,2012,WDI GDP through 2025,542193.266755059,GDP_med
+17_SGP,Singapore,2013,WDI GDP through 2025,568314.137606487,GDP_med
+17_SGP,Singapore,2014,WDI GDP through 2025,590680.3693923879,GDP_med
+17_SGP,Singapore,2015,WDI GDP through 2025,608263.738590263,GDP_med
+17_SGP,Singapore,2016,WDI GDP through 2025,632052.647907152,GDP_med
+17_SGP,Singapore,2017,WDI GDP through 2025,659400.262106181,GDP_med
+17_SGP,Singapore,2018,WDI GDP through 2025,680412.76680686,GDP_med
+17_SGP,Singapore,2019,WDI GDP through 2025,688297.250280296,GDP_med
+17_SGP,Singapore,2020,WDI GDP through 2025,663443.918456882,GDP_med
+17_SGP,Singapore,2021,WDI GDP through 2025,730724.326968531,GDP_med
+17_SGP,Singapore,2022,WDI GDP through 2025,760028.410066194,GDP_med
+17_SGP,Singapore,2023,WDI GDP through 2025,771050.857055831,GDP_med
+17_SGP,Singapore,2024,WDI GDP through 2025,812252.052277036,GDP_med
+17_SGP,Singapore,2025,WDI GDP through 2025,853074.8819270959,GDP_med
+17_SGP,Singapore,2026,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2027,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2028,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2029,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2030,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2031,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2032,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2033,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2034,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2035,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2036,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2037,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2038,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2039,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2040,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2041,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2042,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2043,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2044,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2045,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2046,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2047,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2048,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2049,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2050,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2051,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2052,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2053,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2054,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2055,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2056,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2057,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2058,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2059,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2060,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2061,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2062,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2063,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2064,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2065,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2066,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2067,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2068,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2069,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2070,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2071,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2072,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2073,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2074,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2075,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2076,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2077,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2078,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2079,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2080,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2081,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2082,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2083,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2084,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2085,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2086,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2087,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2088,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2089,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2090,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2091,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2092,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2093,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2094,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2095,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2096,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2097,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2098,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2099,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,2100,WDI GDP through 2025,,GDP_med
+17_SGP,Singapore,1990,APERC GDP projections,,GDP_med
+17_SGP,Singapore,1991,APERC GDP projections,,GDP_med
+17_SGP,Singapore,1992,APERC GDP projections,,GDP_med
+17_SGP,Singapore,1993,APERC GDP projections,,GDP_med
+17_SGP,Singapore,1994,APERC GDP projections,,GDP_med
+17_SGP,Singapore,1995,APERC GDP projections,,GDP_med
+17_SGP,Singapore,1996,APERC GDP projections,,GDP_med
+17_SGP,Singapore,1997,APERC GDP projections,,GDP_med
+17_SGP,Singapore,1998,APERC GDP projections,,GDP_med
+17_SGP,Singapore,1999,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2000,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2001,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2002,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2003,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2004,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2005,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2006,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2007,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2008,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2009,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2010,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2011,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2012,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2013,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2014,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2015,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2016,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2017,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2018,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2019,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2020,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2021,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2022,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2023,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2024,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2025,APERC GDP projections,,GDP_med
+17_SGP,Singapore,2026,APERC GDP projections,885493.2284439174,GDP_med
+17_SGP,Singapore,2027,APERC GDP projections,918321.048544893,GDP_med
+17_SGP,Singapore,2028,APERC GDP projections,951176.9402920835,GDP_med
+17_SGP,Singapore,2029,APERC GDP projections,984058.587549216,GDP_med
+17_SGP,Singapore,2030,APERC GDP projections,1018881.993362972,GDP_med
+17_SGP,Singapore,2031,APERC GDP projections,1060387.9427273022,GDP_med
+17_SGP,Singapore,2032,APERC GDP projections,1094623.2820714517,GDP_med
+17_SGP,Singapore,2033,APERC GDP projections,1127566.603703414,GDP_med
+17_SGP,Singapore,2034,APERC GDP projections,1165329.8540526736,GDP_med
+17_SGP,Singapore,2035,APERC GDP projections,1202812.8110188018,GDP_med
+17_SGP,Singapore,2036,APERC GDP projections,1239795.7021195786,GDP_med
+17_SGP,Singapore,2037,APERC GDP projections,1277505.2235939642,GDP_med
+17_SGP,Singapore,2038,APERC GDP projections,1316375.8440462486,GDP_med
+17_SGP,Singapore,2039,APERC GDP projections,1356221.2020221765,GDP_med
+17_SGP,Singapore,2040,APERC GDP projections,1396591.0448014806,GDP_med
+17_SGP,Singapore,2041,APERC GDP projections,1437255.9954774731,GDP_med
+17_SGP,Singapore,2042,APERC GDP projections,1477372.3893306782,GDP_med
+17_SGP,Singapore,2043,APERC GDP projections,1518257.8101849274,GDP_med
+17_SGP,Singapore,2044,APERC GDP projections,1560114.4003655051,GDP_med
+17_SGP,Singapore,2045,APERC GDP projections,1601849.2271351016,GDP_med
+17_SGP,Singapore,2046,APERC GDP projections,1644422.175503015,GDP_med
+17_SGP,Singapore,2047,APERC GDP projections,1687448.5522160202,GDP_med
+17_SGP,Singapore,2048,APERC GDP projections,1730663.5687028675,GDP_med
+17_SGP,Singapore,2049,APERC GDP projections,1775390.526843093,GDP_med
+17_SGP,Singapore,2050,APERC GDP projections,1820254.417897152,GDP_med
+17_SGP,Singapore,2051,APERC GDP projections,1865541.0462001795,GDP_med
+17_SGP,Singapore,2052,APERC GDP projections,1911707.911152384,GDP_med
+17_SGP,Singapore,2053,APERC GDP projections,1959575.457440772,GDP_med
+17_SGP,Singapore,2054,APERC GDP projections,2007573.4090590293,GDP_med
+17_SGP,Singapore,2055,APERC GDP projections,2055334.9882820945,GDP_med
+17_SGP,Singapore,2056,APERC GDP projections,2104330.2519213874,GDP_med
+17_SGP,Singapore,2057,APERC GDP projections,2154209.399156401,GDP_med
+17_SGP,Singapore,2058,APERC GDP projections,2204979.845424616,GDP_med
+17_SGP,Singapore,2059,APERC GDP projections,2255510.862943252,GDP_med
+17_SGP,Singapore,2060,APERC GDP projections,2307101.2631342467,GDP_med
+17_SGP,Singapore,2061,APERC GDP projections,2358390.1583597707,GDP_med
+17_SGP,Singapore,2062,APERC GDP projections,2410920.389231246,GDP_med
+17_SGP,Singapore,2063,APERC GDP projections,2463823.488254019,GDP_med
+17_SGP,Singapore,2064,APERC GDP projections,2517964.2848326936,GDP_med
+17_SGP,Singapore,2065,APERC GDP projections,2571796.983373788,GDP_med
+17_SGP,Singapore,2066,APERC GDP projections,2625025.464156178,GDP_med
+17_SGP,Singapore,2067,APERC GDP projections,2678433.153355462,GDP_med
+17_SGP,Singapore,2068,APERC GDP projections,2733637.5944879213,GDP_med
+17_SGP,Singapore,2069,APERC GDP projections,2788744.3410105323,GDP_med
+17_SGP,Singapore,2070,APERC GDP projections,2843946.474017829,GDP_med
+17_SGP,Singapore,2071,APERC GDP projections,2900210.6549493163,GDP_med
+17_SGP,Singapore,2072,APERC GDP projections,2956216.1061141742,GDP_med
+17_SGP,Singapore,2073,APERC GDP projections,3012097.584139495,GDP_med
+17_SGP,Singapore,2074,APERC GDP projections,3067472.491771723,GDP_med
+17_SGP,Singapore,2075,APERC GDP projections,3120974.5541836824,GDP_med
+17_SGP,Singapore,2076,APERC GDP projections,3174098.4816366145,GDP_med
+17_SGP,Singapore,2077,APERC GDP projections,3228716.4151866087,GDP_med
+17_SGP,Singapore,2078,APERC GDP projections,3282004.1786723733,GDP_med
+17_SGP,Singapore,2079,APERC GDP projections,3334499.491122277,GDP_med
+17_SGP,Singapore,2080,APERC GDP projections,3385666.1612096378,GDP_med
+17_SGP,Singapore,2081,APERC GDP projections,3436436.7977724657,GDP_med
+17_SGP,Singapore,2082,APERC GDP projections,3486302.811522928,GDP_med
+17_SGP,Singapore,2083,APERC GDP projections,3535394.244499081,GDP_med
+17_SGP,Singapore,2084,APERC GDP projections,3584367.3050066754,GDP_med
+17_SGP,Singapore,2085,APERC GDP projections,3633169.091146273,GDP_med
+17_SGP,Singapore,2086,APERC GDP projections,3680862.654422876,GDP_med
+17_SGP,Singapore,2087,APERC GDP projections,3727521.993696992,GDP_med
+17_SGP,Singapore,2088,APERC GDP projections,3774216.667316233,GDP_med
+17_SGP,Singapore,2089,APERC GDP projections,3820951.831867382,GDP_med
+17_SGP,Singapore,2090,APERC GDP projections,3866057.316052233,GDP_med
+17_SGP,Singapore,2091,APERC GDP projections,3911943.839828058,GDP_med
+17_SGP,Singapore,2092,APERC GDP projections,3957692.3320866814,GDP_med
+17_SGP,Singapore,2093,APERC GDP projections,4005025.745146023,GDP_med
+17_SGP,Singapore,2094,APERC GDP projections,4051665.273478232,GDP_med
+17_SGP,Singapore,2095,APERC GDP projections,4097242.524169152,GDP_med
+17_SGP,Singapore,2096,APERC GDP projections,4143982.715435718,GDP_med
+17_SGP,Singapore,2097,APERC GDP projections,4190702.857197857,GDP_med
+17_SGP,Singapore,2098,APERC GDP projections,4238256.7302099895,GDP_med
+17_SGP,Singapore,2099,APERC GDP projections,4285874.012406039,GDP_med
+17_SGP,Singapore,2100,APERC GDP projections,4335599.424372463,GDP_med

@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+15_PHL,Philippines,1990,APERC GDP projections,,GDP_low
+15_PHL,Philippines,1991,APERC GDP projections,,GDP_low
+15_PHL,Philippines,1992,APERC GDP projections,,GDP_low
+15_PHL,Philippines,1993,APERC GDP projections,,GDP_low
+15_PHL,Philippines,1994,APERC GDP projections,,GDP_low
+15_PHL,Philippines,1995,APERC GDP projections,,GDP_low
+15_PHL,Philippines,1996,APERC GDP projections,,GDP_low
+15_PHL,Philippines,1997,APERC GDP projections,,GDP_low
+15_PHL,Philippines,1998,APERC GDP projections,,GDP_low
+15_PHL,Philippines,1999,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2000,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2001,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2002,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2003,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2004,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2005,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2006,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2007,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2008,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2009,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2010,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2011,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2012,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2013,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2014,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2015,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2016,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2017,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2018,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2019,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2020,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2021,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2022,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2023,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2024,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2025,APERC GDP projections,,GDP_low
+15_PHL,Philippines,2026,APERC GDP projections,1320323.1373670727,GDP_low
+15_PHL,Philippines,2027,APERC GDP projections,1387465.8277472896,GDP_low
+15_PHL,Philippines,2028,APERC GDP projections,1451432.7943715614,GDP_low
+15_PHL,Philippines,2029,APERC GDP projections,1516804.318063487,GDP_low
+15_PHL,Philippines,2030,APERC GDP projections,1582090.2261904506,GDP_low
+15_PHL,Philippines,2031,APERC GDP projections,1650289.8395248333,GDP_low
+15_PHL,Philippines,2032,APERC GDP projections,1719435.943618005,GDP_low
+15_PHL,Philippines,2033,APERC GDP projections,1789996.3434434305,GDP_low
+15_PHL,Philippines,2034,APERC GDP projections,1862905.2455290891,GDP_low
+15_PHL,Philippines,2035,APERC GDP projections,1937123.679505472,GDP_low
+15_PHL,Philippines,2036,APERC GDP projections,2013553.446906585,GDP_low
+15_PHL,Philippines,2037,APERC GDP projections,2091772.261369704,GDP_low
+15_PHL,Philippines,2038,APERC GDP projections,2171748.594150463,GDP_low
+15_PHL,Philippines,2039,APERC GDP projections,2253580.0296438388,GDP_low
+15_PHL,Philippines,2040,APERC GDP projections,2337086.446044625,GDP_low
+15_PHL,Philippines,2041,APERC GDP projections,2422246.3716268367,GDP_low
+15_PHL,Philippines,2042,APERC GDP projections,2508864.9656016524,GDP_low
+15_PHL,Philippines,2043,APERC GDP projections,2596881.755374944,GDP_low
+15_PHL,Philippines,2044,APERC GDP projections,2686195.2281578635,GDP_low
+15_PHL,Philippines,2045,APERC GDP projections,2776666.44035378,GDP_low
+15_PHL,Philippines,2046,APERC GDP projections,2868122.818715323,GDP_low
+15_PHL,Philippines,2047,APERC GDP projections,2960384.102495339,GDP_low
+15_PHL,Philippines,2048,APERC GDP projections,3053209.173401937,GDP_low
+15_PHL,Philippines,2049,APERC GDP projections,3146438.2367965737,GDP_low
+15_PHL,Philippines,2050,APERC GDP projections,3239998.716038747,GDP_low
+15_PHL,Philippines,2051,APERC GDP projections,3333550.640162452,GDP_low
+15_PHL,Philippines,2052,APERC GDP projections,3427014.216177109,GDP_low
+15_PHL,Philippines,2053,APERC GDP projections,3520779.303743903,GDP_low
+15_PHL,Philippines,2054,APERC GDP projections,3614905.069679011,GDP_low
+15_PHL,Philippines,2055,APERC GDP projections,3709209.9804114494,GDP_low
+15_PHL,Philippines,2056,APERC GDP projections,3803416.242931427,GDP_low
+15_PHL,Philippines,2057,APERC GDP projections,3897303.4307085406,GDP_low
+15_PHL,Philippines,2058,APERC GDP projections,3990989.0939359535,GDP_low
+15_PHL,Philippines,2059,APERC GDP projections,4084178.877573052,GDP_low
+15_PHL,Philippines,2060,APERC GDP projections,4176466.0219168593,GDP_low
+15_PHL,Philippines,2061,APERC GDP projections,4267836.884021694,GDP_low
+15_PHL,Philippines,2062,APERC GDP projections,4358100.98933865,GDP_low
+15_PHL,Philippines,2063,APERC GDP projections,4447020.29770144,GDP_low
+15_PHL,Philippines,2064,APERC GDP projections,4534547.9836710775,GDP_low
+15_PHL,Philippines,2065,APERC GDP projections,4620398.314923731,GDP_low
+15_PHL,Philippines,2066,APERC GDP projections,4704273.2435349785,GDP_low
+15_PHL,Philippines,2067,APERC GDP projections,4786359.583084639,GDP_low
+15_PHL,Philippines,2068,APERC GDP projections,4866054.505566431,GDP_low
+15_PHL,Philippines,2069,APERC GDP projections,4943441.274208085,GDP_low
+15_PHL,Philippines,2070,APERC GDP projections,5018187.786550119,GDP_low
+15_PHL,Philippines,2071,APERC GDP projections,5090083.230581088,GDP_low
+15_PHL,Philippines,2072,APERC GDP projections,5159068.5181044135,GDP_low
+15_PHL,Philippines,2073,APERC GDP projections,5224719.719401456,GDP_low
+15_PHL,Philippines,2074,APERC GDP projections,5287024.501160809,GDP_low
+15_PHL,Philippines,2075,APERC GDP projections,5345622.039270115,GDP_low
+15_PHL,Philippines,2076,APERC GDP projections,5400601.102177981,GDP_low
+15_PHL,Philippines,2077,APERC GDP projections,5451592.57698374,GDP_low
+15_PHL,Philippines,2078,APERC GDP projections,5498157.658550358,GDP_low
+15_PHL,Philippines,2079,APERC GDP projections,5542833.297434551,GDP_low
+15_PHL,Philippines,2080,APERC GDP projections,5585576.728851337,GDP_low
+15_PHL,Philippines,2081,APERC GDP projections,5625952.087177279,GDP_low
+15_PHL,Philippines,2082,APERC GDP projections,5664341.029617774,GDP_low
+15_PHL,Philippines,2083,APERC GDP projections,5700422.795809879,GDP_low
+15_PHL,Philippines,2084,APERC GDP projections,5734376.484988459,GDP_low
+15_PHL,Philippines,2085,APERC GDP projections,5765941.34966823,GDP_low
+15_PHL,Philippines,2086,APERC GDP projections,5795108.766784213,GDP_low
+15_PHL,Philippines,2087,APERC GDP projections,5822073.602165462,GDP_low
+15_PHL,Philippines,2088,APERC GDP projections,5846870.161980348,GDP_low
+15_PHL,Philippines,2089,APERC GDP projections,5869525.804777599,GDP_low
+15_PHL,Philippines,2090,APERC GDP projections,5889998.150403047,GDP_low
+15_PHL,Philippines,2091,APERC GDP projections,5908316.633212609,GDP_low
+15_PHL,Philippines,2092,APERC GDP projections,5924366.213981571,GDP_low
+15_PHL,Philippines,2093,APERC GDP projections,5938424.6893284265,GDP_low
+15_PHL,Philippines,2094,APERC GDP projections,5950490.954788605,GDP_low
+15_PHL,Philippines,2095,APERC GDP projections,5960717.165907303,GDP_low
+15_PHL,Philippines,2096,APERC GDP projections,5968744.702179956,GDP_low
+15_PHL,Philippines,2097,APERC GDP projections,5974861.545338761,GDP_low
+15_PHL,Philippines,2098,APERC GDP projections,5979411.8342989525,GDP_low
+15_PHL,Philippines,2099,APERC GDP projections,5982235.246657429,GDP_low
+15_PHL,Philippines,2100,APERC GDP projections,5983273.915740475,GDP_low
+15_PHL,Philippines,1990,APERC GDP projections,,GDP_high
+15_PHL,Philippines,1991,APERC GDP projections,,GDP_high
+15_PHL,Philippines,1992,APERC GDP projections,,GDP_high
+15_PHL,Philippines,1993,APERC GDP projections,,GDP_high
+15_PHL,Philippines,1994,APERC GDP projections,,GDP_high
+15_PHL,Philippines,1995,APERC GDP projections,,GDP_high
+15_PHL,Philippines,1996,APERC GDP projections,,GDP_high
+15_PHL,Philippines,1997,APERC GDP projections,,GDP_high
+15_PHL,Philippines,1998,APERC GDP projections,,GDP_high
+15_PHL,Philippines,1999,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2000,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2001,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2002,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2003,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2004,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2005,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2006,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2007,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2008,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2009,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2010,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2011,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2012,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2013,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2014,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2015,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2016,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2017,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2018,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2019,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2020,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2021,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2022,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2023,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2024,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2025,APERC GDP projections,,GDP_high
+15_PHL,Philippines,2026,APERC GDP projections,1322913.829400898,GDP_high
+15_PHL,Philippines,2027,APERC GDP projections,1392759.944635093,GDP_high
+15_PHL,Philippines,2028,APERC GDP projections,1459470.177144683,GDP_high
+15_PHL,Philippines,2029,APERC GDP projections,1527585.1629644504,GDP_high
+15_PHL,Philippines,2030,APERC GDP projections,1597921.8650972766,GDP_high
+15_PHL,Philippines,2031,APERC GDP projections,1672040.9365774584,GDP_high
+15_PHL,Philippines,2032,APERC GDP projections,1748140.0158770927,GDP_high
+15_PHL,Philippines,2033,APERC GDP projections,1826212.9313186952,GDP_high
+15_PHL,Philippines,2034,APERC GDP projections,1907256.76727747,GDP_high
+15_PHL,Philippines,2035,APERC GDP projections,1992269.1143239648,GDP_high
+15_PHL,Philippines,2036,APERC GDP projections,2080490.9957296983,GDP_high
+15_PHL,Philippines,2037,APERC GDP projections,2171417.7971257125,GDP_high
+15_PHL,Philippines,2038,APERC GDP projections,2265052.631018107,GDP_high
+15_PHL,Philippines,2039,APERC GDP projections,2361525.799019288,GDP_high
+15_PHL,Philippines,2040,APERC GDP projections,2460688.842713985,GDP_high
+15_PHL,Philippines,2041,APERC GDP projections,2562549.2916304413,GDP_high
+15_PHL,Philippines,2042,APERC GDP projections,2666934.672493907,GDP_high
+15_PHL,Philippines,2043,APERC GDP projections,2773834.4432955496,GDP_high
+15_PHL,Philippines,2044,APERC GDP projections,2883191.121546837,GDP_high
+15_PHL,Philippines,2045,APERC GDP projections,2994901.268417982,GDP_high
+15_PHL,Philippines,2046,APERC GDP projections,3108831.9239879902,GDP_high
+15_PHL,Philippines,2047,APERC GDP projections,3224850.74273748,GDP_high
+15_PHL,Philippines,2048,APERC GDP projections,3342779.343941294,GDP_high
+15_PHL,Philippines,2049,APERC GDP projections,3462520.617490481,GDP_high
+15_PHL,Philippines,2050,APERC GDP projections,3584065.623428157,GDP_high
+15_PHL,Philippines,2051,APERC GDP projections,3707169.711137605,GDP_high
+15_PHL,Philippines,2052,APERC GDP projections,3831847.042573576,GDP_high
+15_PHL,Philippines,2053,APERC GDP projections,3958759.2121792026,GDP_high
+15_PHL,Philippines,2054,APERC GDP projections,4088078.6794403833,GDP_high
+15_PHL,Philippines,2055,APERC GDP projections,4219752.460670317,GDP_high
+15_PHL,Philippines,2056,APERC GDP projections,4353627.967298784,GDP_high
+15_PHL,Philippines,2057,APERC GDP projections,4489612.964947661,GDP_high
+15_PHL,Philippines,2058,APERC GDP projections,4627909.706139608,GDP_high
+15_PHL,Philippines,2059,APERC GDP projections,4768350.265492952,GDP_high
+15_PHL,Philippines,2060,APERC GDP projections,4910664.833488782,GDP_high
+15_PHL,Philippines,2061,APERC GDP projections,5054923.422466895,GDP_high
+15_PHL,Philippines,2062,APERC GDP projections,5201004.569970739,GDP_high
+15_PHL,Philippines,2063,APERC GDP projections,5348723.326460509,GDP_high
+15_PHL,Philippines,2064,APERC GDP projections,5498054.196342168,GDP_high
+15_PHL,Philippines,2065,APERC GDP projections,5648742.981109844,GDP_high
+15_PHL,Philippines,2066,APERC GDP projections,5800461.388556586,GDP_high
+15_PHL,Philippines,2067,APERC GDP projections,5953311.058787879,GDP_high
+15_PHL,Philippines,2068,APERC GDP projections,6106672.407956051,GDP_high
+15_PHL,Philippines,2069,APERC GDP projections,6260537.419862377,GDP_high
+15_PHL,Philippines,2070,APERC GDP projections,6414510.871873617,GDP_high
+15_PHL,Philippines,2071,APERC GDP projections,6568255.05671375,GDP_high
+15_PHL,Philippines,2072,APERC GDP projections,6721622.626894141,GDP_high
+15_PHL,Philippines,2073,APERC GDP projections,6874113.877140664,GDP_high
+15_PHL,Philippines,2074,APERC GDP projections,7025576.99935539,GDP_high
+15_PHL,Philippines,2075,APERC GDP projections,7175566.978442423,GDP_high
+15_PHL,Philippines,2076,APERC GDP projections,7324068.350163573,GDP_high
+15_PHL,Philippines,2077,APERC GDP projections,7473523.945767296,GDP_high
+15_PHL,Philippines,2078,APERC GDP projections,7623714.269591659,GDP_high
+15_PHL,Philippines,2079,APERC GDP projections,7775109.974132285,GDP_high
+15_PHL,Philippines,2080,APERC GDP projections,7927744.701749563,GDP_high
+15_PHL,Philippines,2081,APERC GDP projections,8081320.710035187,GDP_high
+15_PHL,Philippines,2082,APERC GDP projections,8236228.989856495,GDP_high
+15_PHL,Philippines,2083,APERC GDP projections,8392311.41201409,GDP_high
+15_PHL,Philippines,2084,APERC GDP projections,8549852.58526023,GDP_high
+15_PHL,Philippines,2085,APERC GDP projections,8708676.939396586,GDP_high
+15_PHL,Philippines,2086,APERC GDP projections,8868874.97875989,GDP_high
+15_PHL,Philippines,2087,APERC GDP projections,9030769.513704175,GDP_high
+15_PHL,Philippines,2088,APERC GDP projections,9194514.596686684,GDP_high
+15_PHL,Philippines,2089,APERC GDP projections,9360239.770515608,GDP_high
+15_PHL,Philippines,2090,APERC GDP projections,9528035.05432401,GDP_high
+15_PHL,Philippines,2091,APERC GDP projections,9697992.395707175,GDP_high
+15_PHL,Philippines,2092,APERC GDP projections,9870038.519374767,GDP_high
+15_PHL,Philippines,2093,APERC GDP projections,10044537.300335947,GDP_high
+15_PHL,Philippines,2094,APERC GDP projections,10221518.05446442,GDP_high
+15_PHL,Philippines,2095,APERC GDP projections,10401113.812411798,GDP_high
+15_PHL,Philippines,2096,APERC GDP projections,10583106.805583809,GDP_high
+15_PHL,Philippines,2097,APERC GDP projections,10767716.648323309,GDP_high
+15_PHL,Philippines,2098,APERC GDP projections,10955201.548784109,GDP_high
+15_PHL,Philippines,2099,APERC GDP projections,11145453.860262755,GDP_high
+15_PHL,Philippines,2100,APERC GDP projections,11338444.37894503,GDP_high
+15_PHL,Philippines,1990,WDI GDP through 2025,283126.473617181,GDP_med
+15_PHL,Philippines,1991,WDI GDP through 2025,281890.937770952,GDP_med
+15_PHL,Philippines,1992,WDI GDP through 2025,283068.196261779,GDP_med
+15_PHL,Philippines,1993,WDI GDP through 2025,289244.432888471,GDP_med
+15_PHL,Philippines,1994,WDI GDP through 2025,301895.01806997805,GDP_med
+15_PHL,Philippines,1995,WDI GDP through 2025,315858.342273919,GDP_med
+15_PHL,Philippines,1996,WDI GDP through 2025,334368.73991276004,GDP_med
+15_PHL,Philippines,1997,WDI GDP through 2025,351710.479274008,GDP_med
+15_PHL,Philippines,1998,WDI GDP through 2025,349902.368762457,GDP_med
+15_PHL,Philippines,1999,WDI GDP through 2025,361611.68072469096,GDP_med
+15_PHL,Philippines,2000,WDI GDP through 2025,377459.33071605104,GDP_med
+15_PHL,Philippines,2001,WDI GDP through 2025,388968.9389414941,GDP_med
+15_PHL,Philippines,2002,WDI GDP through 2025,403424.016589514,GDP_med
+15_PHL,Philippines,2003,WDI GDP through 2025,423945.837811198,GDP_med
+15_PHL,Philippines,2004,WDI GDP through 2025,451795.808663307,GDP_med
+15_PHL,Philippines,2005,WDI GDP through 2025,474125.83963291,GDP_med
+15_PHL,Philippines,2006,WDI GDP through 2025,499332.345525613,GDP_med
+15_PHL,Philippines,2007,WDI GDP through 2025,531885.276934827,GDP_med
+15_PHL,Philippines,2008,WDI GDP through 2025,554992.965268913,GDP_med
+15_PHL,Philippines,2009,WDI GDP through 2025,563031.05638158,GDP_med
+15_PHL,Philippines,2010,WDI GDP through 2025,604326.568988619,GDP_med
+15_PHL,Philippines,2011,WDI GDP through 2025,627642.895061402,GDP_med
+15_PHL,Philippines,2012,WDI GDP through 2025,670931.1224482331,GDP_med
+15_PHL,Philippines,2013,WDI GDP through 2025,716222.5378800861,GDP_med
+15_PHL,Philippines,2014,WDI GDP through 2025,761688.254932336,GDP_med
+15_PHL,Philippines,2015,WDI GDP through 2025,810042.584431379,GDP_med
+15_PHL,Philippines,2016,WDI GDP through 2025,867956.228661943,GDP_med
+15_PHL,Philippines,2017,WDI GDP through 2025,928114.173543905,GDP_med
+15_PHL,Philippines,2018,WDI GDP through 2025,986970.3999465612,GDP_med
+15_PHL,Philippines,2019,WDI GDP through 2025,1047358.43714574,GDP_med
+15_PHL,Philippines,2020,WDI GDP through 2025,947667.774109205,GDP_med
+15_PHL,Philippines,2021,WDI GDP through 2025,1001824.4583761,GDP_med
+15_PHL,Philippines,2022,WDI GDP through 2025,1077772.59151808,GDP_med
+15_PHL,Philippines,2023,WDI GDP through 2025,1137254.31849328,GDP_med
+15_PHL,Philippines,2024,WDI GDP through 2025,1202245.50576815,GDP_med
+15_PHL,Philippines,2025,WDI GDP through 2025,1255173.180995,GDP_med
+15_PHL,Philippines,2026,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2027,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2028,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2029,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2030,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2031,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2032,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2033,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2034,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2035,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2036,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2037,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2038,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2039,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2040,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2041,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2042,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2043,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2044,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2045,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2046,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2047,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2048,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2049,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2050,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2051,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2052,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2053,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2054,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2055,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2056,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2057,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2058,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2059,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2060,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2061,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2062,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2063,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2064,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2065,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2066,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2067,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2068,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2069,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2070,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2071,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2072,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2073,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2074,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2075,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2076,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2077,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2078,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2079,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2080,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2081,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2082,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2083,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2084,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2085,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2086,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2087,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2088,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2089,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2090,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2091,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2092,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2093,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2094,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2095,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2096,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2097,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2098,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2099,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,2100,WDI GDP through 2025,,GDP_med
+15_PHL,Philippines,1990,APERC GDP projections,,GDP_med
+15_PHL,Philippines,1991,APERC GDP projections,,GDP_med
+15_PHL,Philippines,1992,APERC GDP projections,,GDP_med
+15_PHL,Philippines,1993,APERC GDP projections,,GDP_med
+15_PHL,Philippines,1994,APERC GDP projections,,GDP_med
+15_PHL,Philippines,1995,APERC GDP projections,,GDP_med
+15_PHL,Philippines,1996,APERC GDP projections,,GDP_med
+15_PHL,Philippines,1997,APERC GDP projections,,GDP_med
+15_PHL,Philippines,1998,APERC GDP projections,,GDP_med
+15_PHL,Philippines,1999,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2000,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2001,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2002,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2003,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2004,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2005,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2006,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2007,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2008,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2009,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2010,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2011,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2012,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2013,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2014,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2015,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2016,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2017,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2018,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2019,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2020,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2021,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2022,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2023,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2024,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2025,APERC GDP projections,,GDP_med
+15_PHL,Philippines,2026,APERC GDP projections,1321622.2028458416,GDP_med
+15_PHL,Philippines,2027,APERC GDP projections,1390122.7857751069,GDP_med
+15_PHL,Philippines,2028,APERC GDP projections,1455470.5086716032,GDP_med
+15_PHL,Philippines,2029,APERC GDP projections,1522226.3959351436,GDP_med
+15_PHL,Philippines,2030,APERC GDP projections,1590069.6949483338,GDP_med
+15_PHL,Philippines,2031,APERC GDP projections,1661267.983635993,GDP_med
+15_PHL,Philippines,2032,APERC GDP projections,1733938.2314605052,GDP_med
+15_PHL,Philippines,2033,APERC GDP projections,1808311.577822099,GDP_med
+15_PHL,Philippines,2034,APERC GDP projections,1885354.7911424693,GDP_med
+15_PHL,Philippines,2035,APERC GDP projections,1965065.570443744,GDP_med
+15_PHL,Philippines,2036,APERC GDP projections,2047501.1680751208,GDP_med
+15_PHL,Philippines,2037,APERC GDP projections,2132198.388997554,GDP_med
+15_PHL,Philippines,2038,APERC GDP projections,2219143.754808362,GDP_med
+15_PHL,Philippines,2039,APERC GDP projections,2308453.415378164,GDP_med
+15_PHL,Philippines,2040,APERC GDP projections,2399965.312038119,GDP_med
+15_PHL,Philippines,2041,APERC GDP projections,2493671.302639303,GDP_med
+15_PHL,Philippines,2042,APERC GDP projections,2589384.640051512,GDP_med
+15_PHL,Philippines,2043,APERC GDP projections,2687065.3280937443,GDP_med
+15_PHL,Philippines,2044,APERC GDP projections,2786629.6317689307,GDP_med
+15_PHL,Philippines,2045,APERC GDP projections,2887952.529600559,GDP_med
+15_PHL,Philippines,2046,APERC GDP projections,2990876.2216982488,GDP_med
+15_PHL,Philippines,2047,APERC GDP projections,3095237.7270593653,GDP_med
+15_PHL,Philippines,2048,APERC GDP projections,3200818.553222593,GDP_med
+15_PHL,Philippines,2049,APERC GDP projections,3307481.0418054326,GDP_med
+15_PHL,Philippines,2050,APERC GDP projections,3415174.132553826,GDP_med
+15_PHL,Philippines,2051,APERC GDP projections,3523593.799975885,GDP_med
+15_PHL,Philippines,2052,APERC GDP projections,3632693.631137427,GDP_med
+15_PHL,Philippines,2053,APERC GDP projections,3742986.2805269584,GDP_med
+15_PHL,Philippines,2054,APERC GDP projections,3854574.012584183,GDP_med
+15_PHL,Philippines,2055,APERC GDP projections,3967327.723896345,GDP_med
+15_PHL,Philippines,2056,APERC GDP projections,4081021.2831167006,GDP_med
+15_PHL,Philippines,2057,APERC GDP projections,4195488.413951187,GDP_med
+15_PHL,Philippines,2058,APERC GDP projections,4310878.308252278,GDP_med
+15_PHL,Philippines,2059,APERC GDP projections,4426950.307269526,GDP_med
+15_PHL,Philippines,2060,APERC GDP projections,4543358.202803808,GDP_med
+15_PHL,Philippines,2061,APERC GDP projections,4660122.815015827,GDP_med
+15_PHL,Philippines,2062,APERC GDP projections,4777082.868725095,GDP_med
+15_PHL,Philippines,2063,APERC GDP projections,4894023.118808415,GDP_med
+15_PHL,Philippines,2064,APERC GDP projections,5010905.009705406,GDP_med
+15_PHL,Philippines,2065,APERC GDP projections,5127458.90415194,GDP_med
+15_PHL,Philippines,2066,APERC GDP projections,5243373.219170628,GDP_med
+15_PHL,Philippines,2067,APERC GDP projections,5358793.600509284,GDP_med
+15_PHL,Philippines,2068,APERC GDP projections,5473111.405778386,GDP_med
+15_PHL,Philippines,2069,APERC GDP projections,5586365.110155102,GDP_med
+15_PHL,Philippines,2070,APERC GDP projections,5698192.57363315,GDP_med
+15_PHL,Philippines,2071,APERC GDP projections,5808318.445079587,GDP_med
+15_PHL,Philippines,2072,APERC GDP projections,5916638.618972428,GDP_med
+15_PHL,Philippines,2073,APERC GDP projections,6022689.456372322,GDP_med
+15_PHL,Philippines,2074,APERC GDP projections,6126383.96042907,GDP_med
+15_PHL,Philippines,2075,APERC GDP projections,6227314.807656769,GDP_med
+15_PHL,Philippines,2076,APERC GDP projections,6325511.996945211,GDP_med
+15_PHL,Philippines,2077,APERC GDP projections,6420527.974960927,GDP_med
+15_PHL,Philippines,2078,APERC GDP projections,6514465.842757114,GDP_med
+15_PHL,Philippines,2079,APERC GDP projections,6607770.239581218,GDP_med
+15_PHL,Philippines,2080,APERC GDP projections,6700414.007794954,GDP_med
+15_PHL,Philippines,2081,APERC GDP projections,6792008.965273527,GDP_med
+15_PHL,Philippines,2082,APERC GDP projections,6882913.655740304,GDP_med
+15_PHL,Philippines,2083,APERC GDP projections,6972865.586294943,GDP_med
+15_PHL,Philippines,2084,APERC GDP projections,7062069.378664118,GDP_med
+15_PHL,Philippines,2085,APERC GDP projections,7150282.087058741,GDP_med
+15_PHL,Philippines,2086,APERC GDP projections,7237520.053860861,GDP_med
+15_PHL,Philippines,2087,APERC GDP projections,7324015.29532224,GDP_med
+15_PHL,Philippines,2088,APERC GDP projections,7409839.203874978,GDP_med
+15_PHL,Philippines,2089,APERC GDP projections,7495045.14434852,GDP_med
+15_PHL,Philippines,2090,APERC GDP projections,7579636.7049369775,GDP_med
+15_PHL,Philippines,2091,APERC GDP projections,7663654.594085966,GDP_med
+15_PHL,Philippines,2092,APERC GDP projections,7746988.371151672,GDP_med
+15_PHL,Philippines,2093,APERC GDP projections,7829939.799613466,GDP_med
+15_PHL,Philippines,2094,APERC GDP projections,7912507.3674271265,GDP_med
+15_PHL,Philippines,2095,APERC GDP projections,7994820.510818181,GDP_med
+15_PHL,Philippines,2096,APERC GDP projections,8076581.857579246,GDP_med
+15_PHL,Philippines,2097,APERC GDP projections,8158029.25386693,GDP_med
+15_PHL,Philippines,2098,APERC GDP projections,8239450.258550814,GDP_med
+15_PHL,Philippines,2099,APERC GDP projections,8320698.68861119,GDP_med
+15_PHL,Philippines,2100,APERC GDP projections,8401717.76897455,GDP_med

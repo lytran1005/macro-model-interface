@@ -1,0 +1,445 @@
+economy_code,economy,year,variable,value,population
+18_CT,Chinese Taipei,1990,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,1991,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,1992,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,1993,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,1994,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,1995,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,1996,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,1997,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,1998,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,1999,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2000,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2001,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2002,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2003,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2004,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2005,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2006,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2007,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2008,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2009,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2010,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2011,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2012,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2013,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2014,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2015,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2016,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2017,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2018,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2019,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2020,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2021,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2022,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2023,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2024,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2025,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2026,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2027,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2028,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2029,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2030,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2031,APERC GDP projections,,GDP_low
+18_CT,Chinese Taipei,2032,APERC GDP projections,2190920.024840039,GDP_low
+18_CT,Chinese Taipei,2033,APERC GDP projections,2250085.2213759464,GDP_low
+18_CT,Chinese Taipei,2034,APERC GDP projections,2314163.469035802,GDP_low
+18_CT,Chinese Taipei,2035,APERC GDP projections,2376029.7473834665,GDP_low
+18_CT,Chinese Taipei,2036,APERC GDP projections,2431249.4895678945,GDP_low
+18_CT,Chinese Taipei,2037,APERC GDP projections,2483540.396428656,GDP_low
+18_CT,Chinese Taipei,2038,APERC GDP projections,2535476.7860931177,GDP_low
+18_CT,Chinese Taipei,2039,APERC GDP projections,2588016.0451363483,GDP_low
+18_CT,Chinese Taipei,2040,APERC GDP projections,2641163.8535627453,GDP_low
+18_CT,Chinese Taipei,2041,APERC GDP projections,2694837.0715571274,GDP_low
+18_CT,Chinese Taipei,2042,APERC GDP projections,2749488.56351786,GDP_low
+18_CT,Chinese Taipei,2043,APERC GDP projections,2803618.7490996434,GDP_low
+18_CT,Chinese Taipei,2044,APERC GDP projections,2857011.7292991006,GDP_low
+18_CT,Chinese Taipei,2045,APERC GDP projections,2909072.8147714213,GDP_low
+18_CT,Chinese Taipei,2046,APERC GDP projections,2959438.5978488512,GDP_low
+18_CT,Chinese Taipei,2047,APERC GDP projections,3009440.9839799786,GDP_low
+18_CT,Chinese Taipei,2048,APERC GDP projections,3058761.608182381,GDP_low
+18_CT,Chinese Taipei,2049,APERC GDP projections,3107885.214994155,GDP_low
+18_CT,Chinese Taipei,2050,APERC GDP projections,3156257.47305636,GDP_low
+18_CT,Chinese Taipei,2051,APERC GDP projections,3204176.370428109,GDP_low
+18_CT,Chinese Taipei,2052,APERC GDP projections,3251551.070114372,GDP_low
+18_CT,Chinese Taipei,2053,APERC GDP projections,3298076.6030228534,GDP_low
+18_CT,Chinese Taipei,2054,APERC GDP projections,3343583.824353625,GDP_low
+18_CT,Chinese Taipei,2055,APERC GDP projections,3387976.4879565607,GDP_low
+18_CT,Chinese Taipei,2056,APERC GDP projections,3431465.5349898087,GDP_low
+18_CT,Chinese Taipei,2057,APERC GDP projections,3474476.8689411487,GDP_low
+18_CT,Chinese Taipei,2058,APERC GDP projections,3516309.103459444,GDP_low
+18_CT,Chinese Taipei,2059,APERC GDP projections,3557267.6906523854,GDP_low
+18_CT,Chinese Taipei,2060,APERC GDP projections,3596909.6183399404,GDP_low
+18_CT,Chinese Taipei,2061,APERC GDP projections,3635291.058143981,GDP_low
+18_CT,Chinese Taipei,2062,APERC GDP projections,3672323.091845021,GDP_low
+18_CT,Chinese Taipei,2063,APERC GDP projections,3708175.638179597,GDP_low
+18_CT,Chinese Taipei,2064,APERC GDP projections,3743063.615221544,GDP_low
+18_CT,Chinese Taipei,2065,APERC GDP projections,3776598.831580089,GDP_low
+18_CT,Chinese Taipei,2066,APERC GDP projections,3809033.155077361,GDP_low
+18_CT,Chinese Taipei,2067,APERC GDP projections,3840448.01115469,GDP_low
+18_CT,Chinese Taipei,2068,APERC GDP projections,3870438.647554906,GDP_low
+18_CT,Chinese Taipei,2069,APERC GDP projections,3899141.937112774,GDP_low
+18_CT,Chinese Taipei,2070,APERC GDP projections,3927017.008438004,GDP_low
+18_CT,Chinese Taipei,2071,APERC GDP projections,3953628.106640825,GDP_low
+18_CT,Chinese Taipei,2072,APERC GDP projections,3978803.634884219,GDP_low
+18_CT,Chinese Taipei,2073,APERC GDP projections,4002656.741973372,GDP_low
+18_CT,Chinese Taipei,2074,APERC GDP projections,4025748.6926508383,GDP_low
+18_CT,Chinese Taipei,2075,APERC GDP projections,4047682.621741381,GDP_low
+18_CT,Chinese Taipei,2076,APERC GDP projections,4068660.200103038,GDP_low
+18_CT,Chinese Taipei,2077,APERC GDP projections,4089072.1581058376,GDP_low
+18_CT,Chinese Taipei,2078,APERC GDP projections,4108488.376833091,GDP_low
+18_CT,Chinese Taipei,2079,APERC GDP projections,4126901.815789152,GDP_low
+18_CT,Chinese Taipei,2080,APERC GDP projections,4144774.990003986,GDP_low
+18_CT,Chinese Taipei,2081,APERC GDP projections,4162253.7751465337,GDP_low
+18_CT,Chinese Taipei,2082,APERC GDP projections,4178919.6696959417,GDP_low
+18_CT,Chinese Taipei,2083,APERC GDP projections,4195302.960337781,GDP_low
+18_CT,Chinese Taipei,2084,APERC GDP projections,4210986.021352357,GDP_low
+18_CT,Chinese Taipei,2085,APERC GDP projections,4225795.044076441,GDP_low
+18_CT,Chinese Taipei,2086,APERC GDP projections,4240383.561430546,GDP_low
+18_CT,Chinese Taipei,2087,APERC GDP projections,4254690.333187714,GDP_low
+18_CT,Chinese Taipei,2088,APERC GDP projections,4268188.898224652,GDP_low
+18_CT,Chinese Taipei,2089,APERC GDP projections,4280750.289432772,GDP_low
+18_CT,Chinese Taipei,2090,APERC GDP projections,4292829.863344114,GDP_low
+18_CT,Chinese Taipei,2091,APERC GDP projections,4303878.362521678,GDP_low
+18_CT,Chinese Taipei,2092,APERC GDP projections,4314765.854120665,GDP_low
+18_CT,Chinese Taipei,2093,APERC GDP projections,4325045.799579017,GDP_low
+18_CT,Chinese Taipei,2094,APERC GDP projections,4334578.514642779,GDP_low
+18_CT,Chinese Taipei,2095,APERC GDP projections,4343212.911483738,GDP_low
+18_CT,Chinese Taipei,2096,APERC GDP projections,4351069.753296257,GDP_low
+18_CT,Chinese Taipei,2097,APERC GDP projections,4358160.352996831,GDP_low
+18_CT,Chinese Taipei,2098,APERC GDP projections,4364093.744211086,GDP_low
+18_CT,Chinese Taipei,2099,APERC GDP projections,4369150.197903549,GDP_low
+18_CT,Chinese Taipei,2100,APERC GDP projections,4373275.165121704,GDP_low
+18_CT,Chinese Taipei,1990,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,1991,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,1992,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,1993,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,1994,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,1995,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,1996,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,1997,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,1998,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,1999,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2000,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2001,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2002,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2003,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2004,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2005,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2006,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2007,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2008,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2009,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2010,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2011,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2012,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2013,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2014,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2015,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2016,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2017,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2018,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2019,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2020,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2021,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2022,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2023,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2024,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2025,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2026,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2027,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2028,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2029,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2030,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2031,APERC GDP projections,,GDP_high
+18_CT,Chinese Taipei,2032,APERC GDP projections,2193742.8860146245,GDP_high
+18_CT,Chinese Taipei,2033,APERC GDP projections,2255487.4565885714,GDP_high
+18_CT,Chinese Taipei,2034,APERC GDP projections,2321868.410426345,GDP_high
+18_CT,Chinese Taipei,2035,APERC GDP projections,2387212.6731152893,GDP_high
+18_CT,Chinese Taipei,2036,APERC GDP projections,2445965.5296934554,GDP_high
+18_CT,Chinese Taipei,2037,APERC GDP projections,2501846.8603403545,GDP_high
+18_CT,Chinese Taipei,2038,APERC GDP projections,2557446.1286975145,GDP_high
+18_CT,Chinese Taipei,2039,APERC GDP projections,2613718.132600567,GDP_high
+18_CT,Chinese Taipei,2040,APERC GDP projections,2670697.156790868,GDP_high
+18_CT,Chinese Taipei,2041,APERC GDP projections,2728594.359881311,GDP_high
+18_CT,Chinese Taipei,2042,APERC GDP projections,2787921.495771352,GDP_high
+18_CT,Chinese Taipei,2043,APERC GDP projections,2846862.5193109354,GDP_high
+18_CT,Chinese Taipei,2044,APERC GDP projections,2905260.972121327,GDP_high
+18_CT,Chinese Taipei,2045,APERC GDP projections,2962586.0562801007,GDP_high
+18_CT,Chinese Taipei,2046,APERC GDP projections,3018570.5194566404,GDP_high
+18_CT,Chinese Taipei,2047,APERC GDP projections,3074516.9200664056,GDP_high
+18_CT,Chinese Taipei,2048,APERC GDP projections,3130198.3142584157,GDP_high
+18_CT,Chinese Taipei,2049,APERC GDP projections,3186081.232328179,GDP_high
+18_CT,Chinese Taipei,2050,APERC GDP projections,3241677.08806883,GDP_high
+18_CT,Chinese Taipei,2051,APERC GDP projections,3297268.121783744,GDP_high
+18_CT,Chinese Taipei,2052,APERC GDP projections,3352746.896559569,GDP_high
+18_CT,Chinese Taipei,2053,APERC GDP projections,3407780.737121172,GDP_high
+18_CT,Chinese Taipei,2054,APERC GDP projections,3462248.101253881,GDP_high
+18_CT,Chinese Taipei,2055,APERC GDP projections,3516117.8286822275,GDP_high
+18_CT,Chinese Taipei,2056,APERC GDP projections,3569632.3604994207,GDP_high
+18_CT,Chinese Taipei,2057,APERC GDP projections,3623210.786752703,GDP_high
+18_CT,Chinese Taipei,2058,APERC GDP projections,3676278.216374313,GDP_high
+18_CT,Chinese Taipei,2059,APERC GDP projections,3729182.2711526826,GDP_high
+18_CT,Chinese Taipei,2060,APERC GDP projections,3781629.479713528,GDP_high
+18_CT,Chinese Taipei,2061,APERC GDP projections,3833735.276850142,GDP_high
+18_CT,Chinese Taipei,2062,APERC GDP projections,3885514.241650122,GDP_high
+18_CT,Chinese Taipei,2063,APERC GDP projections,3937209.868308098,GDP_high
+18_CT,Chinese Taipei,2064,APERC GDP projections,3989098.819833645,GDP_high
+18_CT,Chinese Taipei,2065,APERC GDP projections,4040895.690746632,GDP_high
+18_CT,Chinese Taipei,2066,APERC GDP projections,4092835.9925611294,GDP_high
+18_CT,Chinese Taipei,2067,APERC GDP projections,4145034.619817961,GDP_high
+18_CT,Chinese Taipei,2068,APERC GDP projections,4197196.977904563,GDP_high
+18_CT,Chinese Taipei,2069,APERC GDP projections,4249460.986191263,GDP_high
+18_CT,Chinese Taipei,2070,APERC GDP projections,4302159.599141789,GDP_high
+18_CT,Chinese Taipei,2071,APERC GDP projections,4354890.23103396,GDP_high
+18_CT,Chinese Taipei,2072,APERC GDP projections,4407510.7689553695,GDP_high
+18_CT,Chinese Taipei,2073,APERC GDP projections,4460137.770847191,GDP_high
+18_CT,Chinese Taipei,2074,APERC GDP projections,4513197.342652709,GDP_high
+18_CT,Chinese Taipei,2075,APERC GDP projections,4566371.658792281,GDP_high
+18_CT,Chinese Taipei,2076,APERC GDP projections,4619802.000254994,GDP_high
+18_CT,Chinese Taipei,2077,APERC GDP projections,4673789.761555644,GDP_high
+18_CT,Chinese Taipei,2078,APERC GDP projections,4728015.293560783,GDP_high
+18_CT,Chinese Taipei,2079,APERC GDP projections,4782506.27317608,GDP_high
+18_CT,Chinese Taipei,2080,APERC GDP projections,4837613.920529716,GDP_high
+18_CT,Chinese Taipei,2081,APERC GDP projections,4893460.229156717,GDP_high
+18_CT,Chinese Taipei,2082,APERC GDP projections,4949752.265962004,GDP_high
+18_CT,Chinese Taipei,2083,APERC GDP projections,5006889.658001432,GDP_high
+18_CT,Chinese Taipei,2084,APERC GDP projections,5064578.56855177,GDP_high
+18_CT,Chinese Taipei,2085,APERC GDP projections,5122701.948701069,GDP_high
+18_CT,Chinese Taipei,2086,APERC GDP projections,5181741.715940144,GDP_high
+18_CT,Chinese Taipei,2087,APERC GDP projections,5241651.847296818,GDP_high
+18_CT,Chinese Taipei,2088,APERC GDP projections,5302080.052810942,GDP_high
+18_CT,Chinese Taipei,2089,APERC GDP projections,5362905.64739615,GDP_high
+18_CT,Chinese Taipei,2090,APERC GDP projections,5424502.353837749,GDP_high
+18_CT,Chinese Taipei,2091,APERC GDP projections,5486485.006377519,GDP_high
+18_CT,Chinese Taipei,2092,APERC GDP projections,5549444.915989025,GDP_high
+18_CT,Chinese Taipei,2093,APERC GDP projections,5613116.035098274,GDP_high
+18_CT,Chinese Taipei,2094,APERC GDP projections,5677412.6013411535,GDP_high
+18_CT,Chinese Taipei,2095,APERC GDP projections,5742278.805910168,GDP_high
+18_CT,Chinese Taipei,2096,APERC GDP projections,5807834.919074937,GDP_high
+18_CT,Chinese Taipei,2097,APERC GDP projections,5874133.818237765,GDP_high
+18_CT,Chinese Taipei,2098,APERC GDP projections,5940930.497958215,GDP_high
+18_CT,Chinese Taipei,2099,APERC GDP projections,6008414.400391432,GDP_high
+18_CT,Chinese Taipei,2100,APERC GDP projections,6076614.077831477,GDP_high
+18_CT,Chinese Taipei,1990,IMF GDP through 2031,366441.497138,GDP_med
+18_CT,Chinese Taipei,1991,IMF GDP through 2031,397129.155606,GDP_med
+18_CT,Chinese Taipei,1992,IMF GDP through 2031,430137.743751,GDP_med
+18_CT,Chinese Taipei,1993,IMF GDP through 2031,459432.78719,GDP_med
+18_CT,Chinese Taipei,1994,IMF GDP through 2031,493921.744844,GDP_med
+18_CT,Chinese Taipei,1995,IMF GDP through 2031,526007.831958,GDP_med
+18_CT,Chinese Taipei,1996,IMF GDP through 2031,558497.228625,GDP_med
+18_CT,Chinese Taipei,1997,IMF GDP through 2031,592311.2169809999,GDP_med
+18_CT,Chinese Taipei,1998,IMF GDP through 2031,617223.019612,GDP_med
+18_CT,Chinese Taipei,1999,IMF GDP through 2031,658750.5450119999,GDP_med
+18_CT,Chinese Taipei,2000,IMF GDP through 2031,700368.407437,GDP_med
+18_CT,Chinese Taipei,2001,IMF GDP through 2031,690553.3457139999,GDP_med
+18_CT,Chinese Taipei,2002,IMF GDP through 2031,728414.26938,GDP_med
+18_CT,Chinese Taipei,2003,IMF GDP through 2031,759193.98852,GDP_med
+18_CT,Chinese Taipei,2004,IMF GDP through 2031,811952.0481060001,GDP_med
+18_CT,Chinese Taipei,2005,IMF GDP through 2031,855651.4243200001,GDP_med
+18_CT,Chinese Taipei,2006,IMF GDP through 2031,905060.125647,GDP_med
+18_CT,Chinese Taipei,2007,IMF GDP through 2031,967022.389502,GDP_med
+18_CT,Chinese Taipei,2008,IMF GDP through 2031,974760.273081,GDP_med
+18_CT,Chinese Taipei,2009,IMF GDP through 2031,959041.85288,GDP_med
+18_CT,Chinese Taipei,2010,IMF GDP through 2031,1057282.461494,GDP_med
+18_CT,Chinese Taipei,2011,IMF GDP through 2031,1096127.2858000002,GDP_med
+18_CT,Chinese Taipei,2012,IMF GDP through 2031,1120475.56128,GDP_med
+18_CT,Chinese Taipei,2013,IMF GDP through 2031,1148313.127078,GDP_med
+18_CT,Chinese Taipei,2014,IMF GDP through 2031,1202486.862746,GDP_med
+18_CT,Chinese Taipei,2015,IMF GDP through 2031,1220088.898644,GDP_med
+18_CT,Chinese Taipei,2016,IMF GDP through 2031,1246517.59826,GDP_med
+18_CT,Chinese Taipei,2017,IMF GDP through 2031,1292138.861139,GDP_med
+18_CT,Chinese Taipei,2018,IMF GDP through 2031,1329698.413503,GDP_med
+18_CT,Chinese Taipei,2019,IMF GDP through 2031,1370313.777089,GDP_med
+18_CT,Chinese Taipei,2020,IMF GDP through 2031,1417175.254078,GDP_med
+18_CT,Chinese Taipei,2021,IMF GDP through 2031,1512408.876,GDP_med
+18_CT,Chinese Taipei,2022,IMF GDP through 2031,1553039.7201,GDP_med
+18_CT,Chinese Taipei,2023,IMF GDP through 2031,1569835.73794,GDP_med
+18_CT,Chinese Taipei,2024,IMF GDP through 2031,1652536.0098,GDP_med
+18_CT,Chinese Taipei,2025,IMF GDP through 2031,1795919.7249919998,GDP_med
+18_CT,Chinese Taipei,2026,IMF GDP through 2031,1888935.101928,GDP_med
+18_CT,Chinese Taipei,2027,IMF GDP through 2031,1945043.706066,GDP_med
+18_CT,Chinese Taipei,2028,IMF GDP through 2031,1992677.69361,GDP_med
+18_CT,Chinese Taipei,2029,IMF GDP through 2031,2039940.217851,GDP_med
+18_CT,Chinese Taipei,2030,IMF GDP through 2031,2089334.0196,GDP_med
+18_CT,Chinese Taipei,2031,IMF GDP through 2031,2133774.9871340003,GDP_med
+18_CT,Chinese Taipei,2032,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2033,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2034,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2035,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2036,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2037,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2038,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2039,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2040,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2041,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2042,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2043,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2044,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2045,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2046,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2047,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2048,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2049,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2050,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2051,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2052,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2053,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2054,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2055,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2056,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2057,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2058,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2059,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2060,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2061,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2062,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2063,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2064,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2065,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2066,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2067,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2068,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2069,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2070,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2071,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2072,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2073,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2074,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2075,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2076,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2077,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2078,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2079,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2080,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2081,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2082,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2083,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2084,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2085,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2086,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2087,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2088,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2089,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2090,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2091,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2092,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2093,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2094,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2095,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2096,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2097,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2098,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2099,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,2100,IMF GDP through 2031,,GDP_med
+18_CT,Chinese Taipei,1990,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,1991,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,1992,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,1993,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,1994,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,1995,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,1996,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,1997,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,1998,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,1999,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2000,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2001,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2002,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2003,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2004,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2005,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2006,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2007,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2008,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2009,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2010,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2011,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2012,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2013,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2014,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2015,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2016,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2017,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2018,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2019,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2020,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2021,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2022,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2023,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2024,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2025,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2026,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2027,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2028,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2029,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2030,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2031,APERC GDP projections,,GDP_med
+18_CT,Chinese Taipei,2032,APERC GDP projections,2192361.6452325154,GDP_med
+18_CT,Chinese Taipei,2033,APERC GDP projections,2252853.5768144084,GDP_med
+18_CT,Chinese Taipei,2034,APERC GDP projections,2318128.903403348,GDP_med
+18_CT,Chinese Taipei,2035,APERC GDP projections,2381805.16651,GDP_med
+18_CT,Chinese Taipei,2036,APERC GDP projections,2438874.6436182247,GDP_med
+18_CT,Chinese Taipei,2037,APERC GDP projections,2493057.927724237,GDP_med
+18_CT,Chinese Taipei,2038,APERC GDP projections,2546937.182621617,GDP_med
+18_CT,Chinese Taipei,2039,APERC GDP projections,2601468.515417354,GDP_med
+18_CT,Chinese Taipei,2040,APERC GDP projections,2656673.4656862,GDP_med
+18_CT,Chinese Taipei,2041,APERC GDP projections,2712617.034329833,GDP_med
+18_CT,Chinese Taipei,2042,APERC GDP projections,2769783.7924150573,GDP_med
+18_CT,Chinese Taipei,2043,APERC GDP projections,2826514.593006913,GDP_med
+18_CT,Chinese Taipei,2044,APERC GDP projections,2882622.4144963818,GDP_med
+18_CT,Chinese Taipei,2045,APERC GDP projections,2937544.815947311,GDP_med
+18_CT,Chinese Taipei,2046,APERC GDP projections,2990966.0461705485,GDP_med
+18_CT,Chinese Taipei,2047,APERC GDP projections,3044203.340677938,GDP_med
+18_CT,Chinese Taipei,2048,APERC GDP projections,3096986.6745377937,GDP_med
+18_CT,Chinese Taipei,2049,APERC GDP projections,3149791.531052626,GDP_med
+18_CT,Chinese Taipei,2050,APERC GDP projections,3202096.141295939,GDP_med
+18_CT,Chinese Taipei,2051,APERC GDP projections,3254187.999560056,GDP_med
+18_CT,Chinese Taipei,2052,APERC GDP projections,3305961.6397602656,GDP_med
+18_CT,Chinese Taipei,2053,APERC GDP projections,3357093.2842432023,GDP_med
+18_CT,Chinese Taipei,2054,APERC GDP projections,3407429.315392897,GDP_med
+18_CT,Chinese Taipei,2055,APERC GDP projections,3456897.2391485414,GDP_med
+18_CT,Chinese Taipei,2056,APERC GDP projections,3505712.7267565806,GDP_med
+18_CT,Chinese Taipei,2057,APERC GDP projections,3554288.647014446,GDP_med
+18_CT,Chinese Taipei,2058,APERC GDP projections,3601975.771438905,GDP_med
+18_CT,Chinese Taipei,2059,APERC GDP projections,3649092.472746317,GDP_med
+18_CT,Chinese Taipei,2060,APERC GDP projections,3695259.4037088086,GDP_med
+18_CT,Chinese Taipei,2061,APERC GDP projections,3740552.571358094,GDP_med
+18_CT,Chinese Taipei,2062,APERC GDP projections,3784933.050707061,GDP_med
+18_CT,Chinese Taipei,2063,APERC GDP projections,3828601.9278558665,GDP_med
+18_CT,Chinese Taipei,2064,APERC GDP projections,3871802.784223761,GDP_med
+18_CT,Chinese Taipei,2065,APERC GDP projections,3914206.512633856,GDP_med
+18_CT,Chinese Taipei,2066,APERC GDP projections,3956068.023935226,GDP_med
+18_CT,Chinese Taipei,2067,APERC GDP projections,3997490.37343807,GDP_med
+18_CT,Chinese Taipei,2068,APERC GDP projections,4038136.078259799,GDP_med
+18_CT,Chinese Taipei,2069,APERC GDP projections,4078150.5244217594,GDP_med
+18_CT,Chinese Taipei,2070,APERC GDP projections,4117948.135583847,GDP_med
+18_CT,Chinese Taipei,2071,APERC GDP projections,4157137.1886165896,GDP_med
+18_CT,Chinese Taipei,2072,APERC GDP projections,4195564.397083813,GDP_med
+18_CT,Chinese Taipei,2073,APERC GDP projections,4233352.276586873,GDP_med
+18_CT,Chinese Taipei,2074,APERC GDP projections,4270998.572725993,GDP_med
+18_CT,Chinese Taipei,2075,APERC GDP projections,4308162.707201943,GDP_med
+18_CT,Chinese Taipei,2076,APERC GDP projections,4345034.236240035,GDP_med
+18_CT,Chinese Taipei,2077,APERC GDP projections,4381952.499684277,GDP_med
+18_CT,Chinese Taipei,2078,APERC GDP projections,4418552.40682046,GDP_med
+18_CT,Chinese Taipei,2079,APERC GDP projections,4454850.12994608,GDP_med
+18_CT,Chinese Taipei,2080,APERC GDP projections,4491255.5261545405,GDP_med
+18_CT,Chinese Taipei,2081,APERC GDP projections,4527905.802433586,GDP_med
+18_CT,Chinese Taipei,2082,APERC GDP projections,4564446.7127252,GDP_med
+18_CT,Chinese Taipei,2083,APERC GDP projections,4601336.692182445,GDP_med
+18_CT,Chinese Taipei,2084,APERC GDP projections,4638227.171639544,GDP_med
+18_CT,Chinese Taipei,2085,APERC GDP projections,4674966.985291722,GDP_med
+18_CT,Chinese Taipei,2086,APERC GDP projections,4712115.756874364,GDP_med
+18_CT,Chinese Taipei,2087,APERC GDP projections,4749611.434221932,GDP_med
+18_CT,Chinese Taipei,2088,APERC GDP projections,4787023.320761361,GDP_med
+18_CT,Chinese Taipei,2089,APERC GDP projections,4824215.103692759,GDP_med
+18_CT,Chinese Taipei,2090,APERC GDP projections,4861590.817893798,GDP_med
+18_CT,Chinese Taipei,2091,APERC GDP projections,4898684.030829799,GDP_med
+18_CT,Chinese Taipei,2092,APERC GDP projections,4936195.848005111,GDP_med
+18_CT,Chinese Taipei,2093,APERC GDP projections,4973769.374586482,GDP_med
+18_CT,Chinese Taipei,2094,APERC GDP projections,5011284.664150336,GDP_med
+18_CT,Chinese Taipei,2095,APERC GDP projections,5048632.437225754,GDP_med
+18_CT,Chinese Taipei,2096,APERC GDP projections,5085917.775335982,GDP_med
+18_CT,Chinese Taipei,2097,APERC GDP projections,5123171.948084225,GDP_med
+18_CT,Chinese Taipei,2098,APERC GDP projections,5160083.440557505,GDP_med
+18_CT,Chinese Taipei,2099,APERC GDP projections,5196868.413948654,GDP_med
+18_CT,Chinese Taipei,2100,APERC GDP projections,5233517.16515458,GDP_med

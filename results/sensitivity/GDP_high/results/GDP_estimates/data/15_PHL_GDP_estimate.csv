@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+15_PHL,Philippines,1990,Population,62011.501
+15_PHL,Philippines,1991,Population,63697.832
+15_PHL,Philippines,1992,Population,65066.665
+15_PHL,Philippines,1993,Population,66785.586
+15_PHL,Philippines,1994,Population,68275.657
+15_PHL,Philippines,1995,Population,69762.925
+15_PHL,Philippines,1996,Population,71329.566
+15_PHL,Philippines,1997,Population,73050.919
+15_PHL,Philippines,1998,Population,74766.701
+15_PHL,Philippines,1999,Population,76815.347
+15_PHL,Philippines,2000,Population,78691.166
+15_PHL,Philippines,2001,Population,80559.628
+15_PHL,Philippines,2002,Population,82243.348
+15_PHL,Philippines,2003,Population,83894.429
+15_PHL,Philippines,2004,Population,85569.241
+15_PHL,Philippines,2005,Population,87219.768
+15_PHL,Philippines,2006,Population,88812.155
+15_PHL,Philippines,2007,Population,90205.817
+15_PHL,Philippines,2008,Population,91944.551
+15_PHL,Philippines,2009,Population,93453.638
+15_PHL,Philippines,2010,Population,95314.862
+15_PHL,Philippines,2011,Population,97359.388
+15_PHL,Philippines,2012,Population,99137.841
+15_PHL,Philippines,2013,Population,101213.184
+15_PHL,Philippines,2014,Population,102939.488
+15_PHL,Philippines,2015,Population,104594.772
+15_PHL,Philippines,2016,Population,106031.211
+15_PHL,Philippines,2017,Population,107440.227
+15_PHL,Philippines,2018,Population,108799.16
+15_PHL,Philippines,2019,Population,110131.413
+15_PHL,Philippines,2020,Population,111477.954
+15_PHL,Philippines,2021,Population,112684.574
+15_PHL,Philippines,2022,Population,113517.326
+15_PHL,Philippines,2023,Population,114411.351
+15_PHL,Philippines,2024,Population,115371.047
+15_PHL,Philippines,2025,Population,116555.088
+15_PHL,Philippines,2026,Population,117737.303
+15_PHL,Philippines,2027,Population,118914.177
+15_PHL,Philippines,2028,Population,120089.995
+15_PHL,Philippines,2029,Population,121262.964
+15_PHL,Philippines,2030,Population,122574.764
+15_PHL,Philippines,2031,Population,123880.724
+15_PHL,Philippines,2032,Population,125171.036
+15_PHL,Philippines,2033,Population,126455.284
+15_PHL,Philippines,2034,Population,127731.104
+15_PHL,Philippines,2035,Population,129097.281
+15_PHL,Philippines,2036,Population,130445.33
+15_PHL,Philippines,2037,Population,131776.036
+15_PHL,Philippines,2038,Population,133080.52
+15_PHL,Philippines,2039,Population,134354.292
+15_PHL,Philippines,2040,Population,135587.721
+15_PHL,Philippines,2041,Population,136788.893
+15_PHL,Philippines,2042,Population,137953.607
+15_PHL,Philippines,2043,Population,139082.9
+15_PHL,Philippines,2044,Population,140175.685
+15_PHL,Philippines,2045,Population,141231.51
+15_PHL,Philippines,2046,Population,142248.454
+15_PHL,Philippines,2047,Population,143225.288
+15_PHL,Philippines,2048,Population,144157.165
+15_PHL,Philippines,2049,Population,145046.908
+15_PHL,Philippines,2050,Population,145904.096
+15_PHL,Philippines,2051,Population,146721.94
+15_PHL,Philippines,2052,Population,147511.66
+15_PHL,Philippines,2053,Population,148264.112
+15_PHL,Philippines,2054,Population,148997.325
+15_PHL,Philippines,2055,Population,149714.233
+15_PHL,Philippines,2056,Population,150412.148
+15_PHL,Philippines,2057,Population,151092.63
+15_PHL,Philippines,2058,Population,151773.652
+15_PHL,Philippines,2059,Population,152451.632
+15_PHL,Philippines,2060,Population,153118.581
+15_PHL,Philippines,2061,Population,153785.173
+15_PHL,Philippines,2062,Population,154451.691
+15_PHL,Philippines,2063,Population,155115.705
+15_PHL,Philippines,2064,Population,155782.987
+15_PHL,Philippines,2065,Population,156448.42
+15_PHL,Philippines,2066,Population,157104.482
+15_PHL,Philippines,2067,Population,157763.841
+15_PHL,Philippines,2068,Population,158406.856
+15_PHL,Philippines,2069,Population,159042.269
+15_PHL,Philippines,2070,Population,159662.075
+15_PHL,Philippines,2071,Population,160261.725
+15_PHL,Philippines,2072,Population,160844.975
+15_PHL,Philippines,2073,Population,161401.605
+15_PHL,Philippines,2074,Population,161935.98
+15_PHL,Philippines,2075,Population,162441.111
+15_PHL,Philippines,2076,Population,162926.737
+15_PHL,Philippines,2077,Population,163383.826
+15_PHL,Philippines,2078,Population,163805.219
+15_PHL,Philippines,2079,Population,164208.774
+15_PHL,Philippines,2080,Population,164595.564
+15_PHL,Philippines,2081,Population,164955.306
+15_PHL,Philippines,2082,Population,165301.746
+15_PHL,Philippines,2083,Population,165629.308
+15_PHL,Philippines,2084,Population,165947.273
+15_PHL,Philippines,2085,Population,166249.439
+15_PHL,Philippines,2086,Population,166538.513
+15_PHL,Philippines,2087,Population,166824.122
+15_PHL,Philippines,2088,Population,167109.914
+15_PHL,Philippines,2089,Population,167398.475
+15_PHL,Philippines,2090,Population,167690.993
+15_PHL,Philippines,2091,Population,167988.596
+15_PHL,Philippines,2092,Population,168287.605
+15_PHL,Philippines,2093,Population,168596.883
+15_PHL,Philippines,2094,Population,168915.288
+15_PHL,Philippines,2095,Population,169244.57
+15_PHL,Philippines,2096,Population,169576.938
+15_PHL,Philippines,2097,Population,169916.757
+15_PHL,Philippines,2098,Population,170269.001
+15_PHL,Philippines,2099,Population,170628.862
+15_PHL,Philippines,2100,Population,170993.888
+15_PHL,Philippines,1990,Labour efficiency,2.115185678628539
+15_PHL,Philippines,1991,Labour efficiency,2.002038691236315
+15_PHL,Philippines,1992,Labour efficiency,1.929861654860975
+15_PHL,Philippines,1993,Labour efficiency,1.8994827381663706
+15_PHL,Philippines,1994,Labour efficiency,1.9417565882387773
+15_PHL,Philippines,1995,Labour efficiency,1.992644091671946
+15_PHL,Philippines,1996,Labour efficiency,2.0754381881704402
+15_PHL,Philippines,1997,Labour efficiency,2.126599596468749
+15_PHL,Philippines,1998,Labour efficiency,2.0099772967297636
+15_PHL,Philippines,1999,Labour efficiency,2.026969998273575
+15_PHL,Philippines,2000,Labour efficiency,2.0734493700489334
+15_PHL,Philippines,2001,Labour efficiency,2.087208385093721
+15_PHL,Philippines,2002,Labour efficiency,2.1282291542891674
+15_PHL,Philippines,2003,Labour efficiency,2.20657064335539
+15_PHL,Philippines,2004,Labour efficiency,2.341043228858938
+15_PHL,Philippines,2005,Labour efficiency,2.42912303923638
+15_PHL,Philippines,2006,Labour efficiency,2.5361276445445724
+15_PHL,Philippines,2007,Labour efficiency,2.6944474897278146
+15_PHL,Philippines,2008,Labour efficiency,2.7497368059849507
+15_PHL,Philippines,2009,Labour efficiency,2.6886816177538106
+15_PHL,Philippines,2010,Labour efficiency,2.852827907416426
+15_PHL,Philippines,2011,Labour efficiency,2.8813866685228406
+15_PHL,Philippines,2012,Labour efficiency,3.0500121854011355
+15_PHL,Philippines,2013,Labour efficiency,3.200704196009995
+15_PHL,Philippines,2014,Labour efficiency,3.346312766145312
+15_PHL,Philippines,2015,Labour efficiency,3.486394658683663
+15_PHL,Philippines,2016,Labour efficiency,3.6553063600365925
+15_PHL,Philippines,2017,Labour efficiency,3.8187692961248767
+15_PHL,Philippines,2018,Labour efficiency,3.9463127527507402
+15_PHL,Philippines,2019,Labour efficiency,4.083217247266899
+15_PHL,Philippines,2020,Labour efficiency,3.326815675550987
+15_PHL,Philippines,2021,Labour efficiency,3.5045353459799164
+15_PHL,Philippines,2022,Labour efficiency,3.800948497317
+15_PHL,Philippines,2023,Labour efficiency,3.9819828405338704
+15_PHL,Philippines,2024,Labour efficiency,4.174526591391474
+15_PHL,Philippines,2025,Labour efficiency,4.314031561174869
+15_PHL,Philippines,2026,Labour efficiency,4.536118634586456
+15_PHL,Philippines,2027,Labour efficiency,4.767878606268803
+15_PHL,Philippines,2028,Labour efficiency,4.979546593001494
+15_PHL,Philippines,2029,Labour efficiency,5.1973905773762015
+15_PHL,Philippines,2030,Labour efficiency,5.419976929561266
+15_PHL,Philippines,2031,Labour efficiency,5.662294557098563
+15_PHL,Philippines,2032,Labour efficiency,5.907776847590444
+15_PHL,Philippines,2033,Labour efficiency,6.154758537374383
+15_PHL,Philippines,2034,Labour efficiency,6.408879414849449
+15_PHL,Philippines,2035,Labour efficiency,6.6703403807640855
+15_PHL,Philippines,2036,Labour efficiency,6.939760080639996
+15_PHL,Philippines,2037,Labour efficiency,7.214069288598258
+15_PHL,Philippines,2038,Labour efficiency,7.49370000334845
+15_PHL,Philippines,2039,Labour efficiency,7.7796070461266895
+15_PHL,Philippines,2040,Labour efficiency,8.071543652997033
+15_PHL,Philippines,2041,Labour efficiency,8.369155367771238
+15_PHL,Philippines,2042,Labour efficiency,8.671850368850818
+15_PHL,Philippines,2043,Labour efficiency,8.979667017407952
+15_PHL,Philippines,2044,Labour efficiency,9.292544823056682
+15_PHL,Philippines,2045,Labour efficiency,9.61017241152737
+15_PHL,Philippines,2046,Labour efficiency,9.932227638745127
+15_PHL,Philippines,2047,Labour efficiency,10.258401466588229
+15_PHL,Philippines,2048,Labour efficiency,10.588458874163246
+15_PHL,Philippines,2049,Labour efficiency,10.922101277187403
+15_PHL,Philippines,2050,Labour efficiency,11.258976272942066
+15_PHL,Philippines,2051,Labour efficiency,11.598726322792333
+15_PHL,Philippines,2052,Labour efficiency,11.940990016843584
+15_PHL,Philippines,2053,Labour efficiency,12.285397874887764
+15_PHL,Philippines,2054,Labour efficiency,12.631552659621661
+15_PHL,Philippines,2055,Labour efficiency,12.979038297669575
+15_PHL,Philippines,2056,Labour efficiency,13.327428387622211
+15_PHL,Philippines,2057,Labour efficiency,13.676284994838142
+15_PHL,Philippines,2058,Labour efficiency,14.02515689759055
+15_PHL,Philippines,2059,Labour efficiency,14.373578454421656
+15_PHL,Philippines,2060,Labour efficiency,14.721072845022231
+15_PHL,Philippines,2061,Labour efficiency,15.0671539164029
+15_PHL,Philippines,2062,Labour efficiency,15.41132644613879
+15_PHL,Philippines,2063,Labour efficiency,15.753086747200264
+15_PHL,Philippines,2064,Labour efficiency,16.091923810778237
+15_PHL,Philippines,2065,Labour efficiency,16.42732095412089
+15_PHL,Philippines,2066,Labour efficiency,16.758757076271444
+15_PHL,Philippines,2067,Labour efficiency,17.08570776135915
+15_PHL,Philippines,2068,Labour efficiency,17.407646558630063
+15_PHL,Philippines,2069,Labour efficiency,17.724046397833515
+15_PHL,Philippines,2070,Labour efficiency,18.034381046310287
+15_PHL,Philippines,2071,Labour efficiency,18.338126503344704
+15_PHL,Philippines,2072,Labour efficiency,18.634762407437055
+15_PHL,Philippines,2073,Labour efficiency,18.92377349330427
+15_PHL,Philippines,2074,Labour efficiency,19.204651069463083
+15_PHL,Philippines,2075,Labour efficiency,19.476894490763343
+15_PHL,Philippines,2076,Labour efficiency,19.740012615888887
+15_PHL,Philippines,2077,Labour efficiency,20.006685268036303
+15_PHL,Philippines,2078,Labour efficiency,20.276960466179364
+15_PHL,Philippines,2079,Labour efficiency,20.550886877991886
+15_PHL,Philippines,2080,Labour efficiency,20.828513828611182
+15_PHL,Philippines,2081,Labour efficiency,21.109891309519888
+15_PHL,Philippines,2082,Labour efficiency,21.395069987547796
+15_PHL,Philippines,2083,Labour efficiency,21.68410121399527
+15_PHL,Philippines,2084,Labour efficiency,21.977037033879938
+15_PHL,Philippines,2085,Labour efficiency,22.27393019530829
+15_PHL,Philippines,2086,Labour efficiency,22.574834158973857
+15_PHL,Philippines,2087,Labour efficiency,22.87980310778375
+15_PHL,Philippines,2088,Labour efficiency,23.1888919566152
+15_PHL,Philippines,2089,Labour efficiency,23.502156362203934
+15_PHL,Philippines,2090,Labour efficiency,23.819652733166105
+15_PHL,Philippines,2091,Labour efficiency,24.141438240155654
+15_PHL,Philippines,2092,Labour efficiency,24.46757082615884
+15_PHL,Philippines,2093,Labour efficiency,24.798109216927884
+15_PHL,Philippines,2094,Labour efficiency,25.133112931555534
+15_PHL,Philippines,2095,Labour efficiency,25.472642293192504
+15_PHL,Philippines,2096,Labour efficiency,25.81675843990968
+15_PHL,Philippines,2097,Labour efficiency,26.165523335707086
+15_PHL,Philippines,2098,Labour efficiency,26.518999781671553
+15_PHL,Philippines,2099,Labour efficiency,26.877251427285138
+15_PHL,Philippines,2100,Labour efficiency,27.240342781886298
+15_PHL,Philippines,1990,Capital stock,897883.7009319052
+15_PHL,Philippines,1991,Capital stock,926418.2670189212
+15_PHL,Philippines,1992,Capital stock,958077.424952649
+15_PHL,Philippines,1993,Capital stock,995830.408664056
+15_PHL,Philippines,1994,Capital stock,1037406.23230497
+15_PHL,Philippines,1995,Capital stock,1081805.6707766852
+15_PHL,Philippines,1996,Capital stock,1134997.993269137
+15_PHL,Philippines,1997,Capital stock,1198108.514397733
+15_PHL,Philippines,1998,Capital stock,1243134.5907061533
+15_PHL,Philippines,1999,Capital stock,1279862.0163388497
+15_PHL,Philippines,2000,Capital stock,1328147.4425973876
+15_PHL,Philippines,2001,Capital stock,1368555.489667096
+15_PHL,Philippines,2002,Capital stock,1411645.4022764834
+15_PHL,Philippines,2003,Capital stock,1469262.8642433712
+15_PHL,Philippines,2004,Capital stock,1530258.584183735
+15_PHL,Philippines,2005,Capital stock,1587221.00282399
+15_PHL,Philippines,2006,Capital stock,1648196.4500572027
+15_PHL,Philippines,2007,Capital stock,1721823.0566847953
+15_PHL,Philippines,2008,Capital stock,1805065.688583352
+15_PHL,Philippines,2009,Capital stock,1888545.6697140303
+15_PHL,Philippines,2010,Capital stock,2002280.52887264
+15_PHL,Philippines,2011,Capital stock,2100450.6188002503
+15_PHL,Philippines,2012,Capital stock,2217600.4349763817
+15_PHL,Philippines,2013,Capital stock,2354485.488988597
+15_PHL,Philippines,2014,Capital stock,2504496.0217874013
+15_PHL,Philippines,2015,Capital stock,2681883.070839026
+15_PHL,Philippines,2016,Capital stock,2908762.78222214
+15_PHL,Philippines,2017,Capital stock,3157679.17900534
+15_PHL,Philippines,2018,Capital stock,3439812.379367979
+15_PHL,Philippines,2019,Capital stock,3722783.593325348
+15_PHL,Philippines,2020,Capital stock,3870915.4774705744
+15_PHL,Philippines,2021,Capital stock,4047964.620491195
+15_PHL,Philippines,2022,Capital stock,4254873.291272389
+15_PHL,Philippines,2023,Capital stock,4485297.34856369
+15_PHL,Philippines,2024,Capital stock,4741620.666245339
+15_PHL,Philippines,2025,Capital stock,4950365.84971068
+15_PHL,Philippines,2026,Capital stock,5157404.085209143
+15_PHL,Philippines,2027,Capital stock,5362316.384678049
+15_PHL,Philippines,2028,Capital stock,5564717.502483545
+15_PHL,Philippines,2029,Capital stock,5764256.230502852
+15_PHL,Philippines,2030,Capital stock,5960615.297771522
+15_PHL,Philippines,2031,Capital stock,6153510.924326605
+15_PHL,Philippines,2032,Capital stock,6354020.936864618
+15_PHL,Philippines,2033,Capital stock,6563818.0392090045
+15_PHL,Philippines,2034,Capital stock,6782733.633388972
+15_PHL,Philippines,2035,Capital stock,7010877.331214628
+15_PHL,Philippines,2036,Capital stock,7248616.328585539
+15_PHL,Philippines,2037,Capital stock,7496065.27706928
+15_PHL,Philippines,2038,Capital stock,7753174.457590101
+15_PHL,Philippines,2039,Capital stock,8019881.0638321005
+15_PHL,Philippines,2040,Capital stock,8296144.517784872
+15_PHL,Philippines,2041,Capital stock,8581868.826070871
+15_PHL,Philippines,2042,Capital stock,8876948.295966644
+15_PHL,Philippines,2043,Capital stock,9181219.837576024
+15_PHL,Philippines,2044,Capital stock,9494509.914869407
+15_PHL,Philippines,2045,Capital stock,9816622.759014703
+15_PHL,Philippines,2046,Capital stock,10147329.850016493
+15_PHL,Philippines,2047,Capital stock,10486364.600334687
+15_PHL,Philippines,2048,Capital stock,10833425.326784018
+15_PHL,Philippines,2049,Capital stock,11188166.178093227
+15_PHL,Philippines,2050,Capital stock,11550221.164434278
+15_PHL,Philippines,2051,Capital stock,11919228.002090776
+15_PHL,Philippines,2052,Capital stock,12294769.29278146
+15_PHL,Philippines,2053,Capital stock,12684104.668441845
+15_PHL,Philippines,2054,Capital stock,13087156.672613539
+15_PHL,Philippines,2055,Capital stock,13503894.374321641
+15_PHL,Philippines,2056,Capital stock,13934275.065065846
+15_PHL,Philippines,2057,Capital stock,14378219.98609103
+15_PHL,Philippines,2058,Capital stock,14835631.021714661
+15_PHL,Philippines,2059,Capital stock,15306464.95383053
+15_PHL,Philippines,2060,Capital stock,15790638.716699949
+15_PHL,Philippines,2061,Capital stock,16288005.84698595
+15_PHL,Philippines,2062,Capital stock,16798444.057270814
+15_PHL,Philippines,2063,Capital stock,17321806.42304542
+15_PHL,Philippines,2064,Capital stock,17857906.699132733
+15_PHL,Philippines,2065,Capital stock,18406560.85176621
+15_PHL,Philippines,2066,Capital stock,18967529.980932448
+15_PHL,Philippines,2067,Capital stock,19540504.38425737
+15_PHL,Philippines,2068,Capital stock,20125213.91988689
+15_PHL,Philippines,2069,Capital stock,20721246.5115192
+15_PHL,Philippines,2070,Capital stock,21328207.031940307
+15_PHL,Philippines,2071,Capital stock,21945620.060322348
+15_PHL,Philippines,2072,Capital stock,22572947.902509764
+15_PHL,Philippines,2073,Capital stock,23209640.877865717
+15_PHL,Philippines,2074,Capital stock,23855050.088674407
+15_PHL,Philippines,2075,Capital stock,24508518.652316444
+15_PHL,Philippines,2076,Capital stock,25169309.022725232
+15_PHL,Philippines,2077,Capital stock,25836713.711622775
+15_PHL,Philippines,2078,Capital stock,26510666.333383832
+15_PHL,Philippines,2079,Capital stock,27191048.87240008
+15_PHL,Philippines,2080,Capital stock,27877865.99116077
+15_PHL,Philippines,2081,Capital stock,28571130.51899415
+15_PHL,Philippines,2082,Capital stock,29270780.51981221
+15_PHL,Philippines,2083,Capital stock,29976854.311410274
+15_PHL,Philippines,2084,Capital stock,30689349.055644155
+15_PHL,Philippines,2085,Capital stock,31408332.948475424
+15_PHL,Philippines,2086,Capital stock,32133827.311193105
+15_PHL,Philippines,2087,Capital stock,32865875.031831164
+15_PHL,Philippines,2088,Capital stock,33604597.4472011
+15_PHL,Philippines,2089,Capital stock,34350148.69394871
+15_PHL,Philippines,2090,Capital stock,35102708.09450183
+15_PHL,Philippines,2091,Capital stock,35862469.15269783
+15_PHL,Philippines,2092,Capital stock,36629639.38219259
+15_PHL,Philippines,2093,Capital stock,37404398.500908986
+15_PHL,Philippines,2094,Capital stock,38187008.61478363
+15_PHL,Philippines,2095,Capital stock,38977727.08220668
+15_PHL,Philippines,2096,Capital stock,39776832.570412755
+15_PHL,Philippines,2097,Capital stock,40584536.682329364
+15_PHL,Philippines,2098,Capital stock,41401096.00374105
+15_PHL,Philippines,2099,Capital stock,42226819.64984677
+15_PHL,Philippines,2100,Capital stock,43061975.70591877
+15_PHL,Philippines,1990,Savings,0.224397324368827
+15_PHL,Philippines,1991,Savings,0.209940259165043
+15_PHL,Philippines,1992,Savings,0.207100674276883
+15_PHL,Philippines,1993,Savings,0.203512734374584
+15_PHL,Philippines,1994,Savings,0.224209070619903
+15_PHL,Philippines,1995,Savings,0.21935132515576602
+15_PHL,Philippines,1996,Savings,0.224067471448509
+15_PHL,Philippines,1997,Savings,0.23912233786786602
+15_PHL,Philippines,1998,Savings,0.29619158047974503
+15_PHL,Philippines,1999,Savings,0.35967801081710804
+15_PHL,Philippines,2000,Savings,0.333916737451306
+15_PHL,Philippines,2001,Savings,0.346236833401699
+15_PHL,Philippines,2002,Savings,0.35268844285280404
+15_PHL,Philippines,2003,Savings,0.356099556982049
+15_PHL,Philippines,2004,Savings,0.36229230916293803
+15_PHL,Philippines,2005,Savings,0.377714550955846
+15_PHL,Philippines,2006,Savings,0.372282016275856
+15_PHL,Philippines,2007,Savings,0.367544223626749
+15_PHL,Philippines,2008,Savings,0.360222747408748
+15_PHL,Philippines,2009,Savings,0.37948691712027804
+15_PHL,Philippines,2010,Savings,0.397514910839799
+15_PHL,Philippines,2011,Savings,0.368750710888523
+15_PHL,Philippines,2012,Savings,0.351328493512711
+15_PHL,Philippines,2013,Savings,0.363544017148818
+15_PHL,Philippines,2014,Savings,0.373474479713157
+15_PHL,Philippines,2015,Savings,0.35634833370096203
+15_PHL,Philippines,2016,Savings,0.35054772423108504
+15_PHL,Philippines,2017,Savings,0.35488631675390503
+15_PHL,Philippines,2018,Savings,0.338070507208738
+15_PHL,Philippines,2019,Savings,0.317551872075089
+15_PHL,Philippines,2020,Savings,0.248181733606399
+15_PHL,Philippines,2021,Savings,0.202029188331693
+15_PHL,Philippines,2022,Savings,0.224737175447068
+15_PHL,Philippines,2023,Savings,0.273405418997346
+15_PHL,Philippines,2024,Savings,0.291320470859788
+15_PHL,Philippines,2025,Savings,0.301126617213724
+15_PHL,Philippines,2026,Savings,0.301126617213724
+15_PHL,Philippines,2027,Savings,0.299126617213724
+15_PHL,Philippines,2028,Savings,0.297126617213724
+15_PHL,Philippines,2029,Savings,0.295126617213724
+15_PHL,Philippines,2030,Savings,0.293126617213724
+15_PHL,Philippines,2031,Savings,0.291126617213724
+15_PHL,Philippines,2032,Savings,0.289126617213724
+15_PHL,Philippines,2033,Savings,0.287126617213724
+15_PHL,Philippines,2034,Savings,0.285126617213724
+15_PHL,Philippines,2035,Savings,0.283126617213724
+15_PHL,Philippines,2036,Savings,0.281126617213724
+15_PHL,Philippines,2037,Savings,0.279126617213724
+15_PHL,Philippines,2038,Savings,0.277126617213724
+15_PHL,Philippines,2039,Savings,0.275126617213724
+15_PHL,Philippines,2040,Savings,0.273126617213724
+15_PHL,Philippines,2041,Savings,0.271126617213724
+15_PHL,Philippines,2042,Savings,0.269126617213724
+15_PHL,Philippines,2043,Savings,0.267126617213724
+15_PHL,Philippines,2044,Savings,0.265126617213724
+15_PHL,Philippines,2045,Savings,0.263126617213724
+15_PHL,Philippines,2046,Savings,0.261126617213724
+15_PHL,Philippines,2047,Savings,0.259126617213724
+15_PHL,Philippines,2048,Savings,0.257126617213724
+15_PHL,Philippines,2049,Savings,0.255126617213724
+15_PHL,Philippines,2050,Savings,0.253126617213724
+15_PHL,Philippines,2051,Savings,0.251126617213724
+15_PHL,Philippines,2052,Savings,0.24912661721372398
+15_PHL,Philippines,2053,Savings,0.24912661721372398
+15_PHL,Philippines,2054,Savings,0.24912661721372398
+15_PHL,Philippines,2055,Savings,0.24912661721372398
+15_PHL,Philippines,2056,Savings,0.24912661721372398
+15_PHL,Philippines,2057,Savings,0.24912661721372398
+15_PHL,Philippines,2058,Savings,0.24912661721372398
+15_PHL,Philippines,2059,Savings,0.24912661721372398
+15_PHL,Philippines,2060,Savings,0.24912661721372398
+15_PHL,Philippines,2061,Savings,0.24912661721372398
+15_PHL,Philippines,2062,Savings,0.24912661721372398
+15_PHL,Philippines,2063,Savings,0.24912661721372398
+15_PHL,Philippines,2064,Savings,0.24912661721372398
+15_PHL,Philippines,2065,Savings,0.24912661721372398
+15_PHL,Philippines,2066,Savings,0.24912661721372398
+15_PHL,Philippines,2067,Savings,0.24912661721372398
+15_PHL,Philippines,2068,Savings,0.24912661721372398
+15_PHL,Philippines,2069,Savings,0.24912661721372398
+15_PHL,Philippines,2070,Savings,0.24912661721372398
+15_PHL,Philippines,2071,Savings,0.24912661721372398
+15_PHL,Philippines,2072,Savings,0.24912661721372398
+15_PHL,Philippines,2073,Savings,0.24912661721372398
+15_PHL,Philippines,2074,Savings,0.24912661721372398
+15_PHL,Philippines,2075,Savings,0.24912661721372398
+15_PHL,Philippines,2076,Savings,0.24912661721372398
+15_PHL,Philippines,2077,Savings,0.24912661721372398
+15_PHL,Philippines,2078,Savings,0.24912661721372398
+15_PHL,Philippines,2079,Savings,0.24912661721372398
+15_PHL,Philippines,2080,Savings,0.24912661721372398
+15_PHL,Philippines,2081,Savings,0.24912661721372398
+15_PHL,Philippines,2082,Savings,0.24912661721372398
+15_PHL,Philippines,2083,Savings,0.24912661721372398
+15_PHL,Philippines,2084,Savings,0.24912661721372398
+15_PHL,Philippines,2085,Savings,0.24912661721372398
+15_PHL,Philippines,2086,Savings,0.24912661721372398
+15_PHL,Philippines,2087,Savings,0.24912661721372398
+15_PHL,Philippines,2088,Savings,0.24912661721372398
+15_PHL,Philippines,2089,Savings,0.24912661721372398
+15_PHL,Philippines,2090,Savings,0.24912661721372398
+15_PHL,Philippines,2091,Savings,0.24912661721372398
+15_PHL,Philippines,2092,Savings,0.24912661721372398
+15_PHL,Philippines,2093,Savings,0.24912661721372398
+15_PHL,Philippines,2094,Savings,0.24912661721372398
+15_PHL,Philippines,2095,Savings,0.24912661721372398
+15_PHL,Philippines,2096,Savings,0.24912661721372398
+15_PHL,Philippines,2097,Savings,0.24912661721372398
+15_PHL,Philippines,2098,Savings,0.24912661721372398
+15_PHL,Philippines,2099,Savings,0.24912661721372398
+15_PHL,Philippines,2100,Savings,0.24912661721372398
+15_PHL,Philippines,1990,Depreciation,0.0454548299312592
+15_PHL,Philippines,1991,Depreciation,0.0455415323376656
+15_PHL,Philippines,1992,Depreciation,0.045672569423914
+15_PHL,Philippines,1993,Depreciation,0.0460128486156464
+15_PHL,Philippines,1994,Depreciation,0.0464633926749229
+15_PHL,Philippines,1995,Depreciation,0.0469005554914475
+15_PHL,Philippines,1996,Depreciation,0.0472798831760883
+15_PHL,Philippines,1997,Depreciation,0.0475914292037487
+15_PHL,Philippines,1998,Depreciation,0.0473199225962162
+15_PHL,Philippines,1999,Depreciation,0.046509362757206
+15_PHL,Philippines,2000,Depreciation,0.0456325486302376
+15_PHL,Philippines,2001,Depreciation,0.0447482652962208
+15_PHL,Philippines,2002,Depreciation,0.0440052561461926
+15_PHL,Philippines,2003,Depreciation,0.0435408651828766
+15_PHL,Philippines,2004,Depreciation,0.0432892702519894
+15_PHL,Philippines,2005,Depreciation,0.0432303734123707
+15_PHL,Philippines,2006,Depreciation,0.0433097667992115
+15_PHL,Philippines,2007,Depreciation,0.0434171110391617
+15_PHL,Philippines,2008,Depreciation,0.0435211509466171
+15_PHL,Philippines,2009,Depreciation,0.0435354486107826
+15_PHL,Philippines,2010,Depreciation,0.0437284633517265
+15_PHL,Philippines,2011,Depreciation,0.0440823026001453
+15_PHL,Philippines,2012,Depreciation,0.0443370081484318
+15_PHL,Philippines,2013,Depreciation,0.044611282646656
+15_PHL,Philippines,2014,Depreciation,0.0448556691408157
+15_PHL,Philippines,2015,Depreciation,0.0451046079397202
+15_PHL,Philippines,2016,Depreciation,0.0458795987069607
+15_PHL,Philippines,2017,Depreciation,0.0470628365874291
+15_PHL,Philippines,2018,Depreciation,0.0480823628604412
+15_PHL,Philippines,2019,Depreciation,0.0485024377703667
+15_PHL,Philippines,2020,Depreciation,0.0480309426784515
+15_PHL,Philippines,2021,Depreciation,0.0472779609262943
+15_PHL,Philippines,2022,Depreciation,0.0467602163553238
+15_PHL,Philippines,2023,Depreciation,0.0463772527873516
+15_PHL,Philippines,2024,Depreciation,0.0463772527873516
+15_PHL,Philippines,2025,Depreciation,0.0463772527873516
+15_PHL,Philippines,2026,Depreciation,0.0463772527873516
+15_PHL,Philippines,2027,Depreciation,0.0462772527873516
+15_PHL,Philippines,2028,Depreciation,0.046177252787351596
+15_PHL,Philippines,2029,Depreciation,0.04607725278735159
+15_PHL,Philippines,2030,Depreciation,0.04597725278735159
+15_PHL,Philippines,2031,Depreciation,0.04597725278735159
+15_PHL,Philippines,2032,Depreciation,0.04597725278735159
+15_PHL,Philippines,2033,Depreciation,0.04597725278735159
+15_PHL,Philippines,2034,Depreciation,0.04597725278735159
+15_PHL,Philippines,2035,Depreciation,0.04597725278735159
+15_PHL,Philippines,2036,Depreciation,0.04597725278735159
+15_PHL,Philippines,2037,Depreciation,0.04597725278735159
+15_PHL,Philippines,2038,Depreciation,0.04597725278735159
+15_PHL,Philippines,2039,Depreciation,0.04597725278735159
+15_PHL,Philippines,2040,Depreciation,0.04597725278735159
+15_PHL,Philippines,2041,Depreciation,0.04597725278735159
+15_PHL,Philippines,2042,Depreciation,0.04597725278735159
+15_PHL,Philippines,2043,Depreciation,0.04597725278735159
+15_PHL,Philippines,2044,Depreciation,0.04597725278735159
+15_PHL,Philippines,2045,Depreciation,0.04597725278735159
+15_PHL,Philippines,2046,Depreciation,0.04597725278735159
+15_PHL,Philippines,2047,Depreciation,0.04597725278735159
+15_PHL,Philippines,2048,Depreciation,0.04597725278735159
+15_PHL,Philippines,2049,Depreciation,0.04597725278735159
+15_PHL,Philippines,2050,Depreciation,0.04597725278735159
+15_PHL,Philippines,2051,Depreciation,0.04597725278735159
+15_PHL,Philippines,2052,Depreciation,0.04597725278735159
+15_PHL,Philippines,2053,Depreciation,0.04597725278735159
+15_PHL,Philippines,2054,Depreciation,0.04597725278735159
+15_PHL,Philippines,2055,Depreciation,0.04597725278735159
+15_PHL,Philippines,2056,Depreciation,0.04597725278735159
+15_PHL,Philippines,2057,Depreciation,0.04597725278735159
+15_PHL,Philippines,2058,Depreciation,0.04597725278735159
+15_PHL,Philippines,2059,Depreciation,0.04597725278735159
+15_PHL,Philippines,2060,Depreciation,0.04597725278735159
+15_PHL,Philippines,2061,Depreciation,0.04597725278735159
+15_PHL,Philippines,2062,Depreciation,0.04597725278735159
+15_PHL,Philippines,2063,Depreciation,0.04597725278735159
+15_PHL,Philippines,2064,Depreciation,0.04597725278735159
+15_PHL,Philippines,2065,Depreciation,0.04597725278735159
+15_PHL,Philippines,2066,Depreciation,0.04597725278735159
+15_PHL,Philippines,2067,Depreciation,0.04597725278735159
+15_PHL,Philippines,2068,Depreciation,0.04597725278735159
+15_PHL,Philippines,2069,Depreciation,0.04597725278735159
+15_PHL,Philippines,2070,Depreciation,0.04597725278735159
+15_PHL,Philippines,2071,Depreciation,0.04597725278735159
+15_PHL,Philippines,2072,Depreciation,0.04597725278735159
+15_PHL,Philippines,2073,Depreciation,0.04597725278735159
+15_PHL,Philippines,2074,Depreciation,0.04597725278735159
+15_PHL,Philippines,2075,Depreciation,0.04597725278735159
+15_PHL,Philippines,2076,Depreciation,0.04597725278735159
+15_PHL,Philippines,2077,Depreciation,0.04597725278735159
+15_PHL,Philippines,2078,Depreciation,0.04597725278735159
+15_PHL,Philippines,2079,Depreciation,0.04597725278735159
+15_PHL,Philippines,2080,Depreciation,0.04597725278735159
+15_PHL,Philippines,2081,Depreciation,0.04597725278735159
+15_PHL,Philippines,2082,Depreciation,0.04597725278735159
+15_PHL,Philippines,2083,Depreciation,0.04597725278735159
+15_PHL,Philippines,2084,Depreciation,0.04597725278735159
+15_PHL,Philippines,2085,Depreciation,0.04597725278735159
+15_PHL,Philippines,2086,Depreciation,0.04597725278735159
+15_PHL,Philippines,2087,Depreciation,0.04597725278735159
+15_PHL,Philippines,2088,Depreciation,0.04597725278735159
+15_PHL,Philippines,2089,Depreciation,0.04597725278735159
+15_PHL,Philippines,2090,Depreciation,0.04597725278735159
+15_PHL,Philippines,2091,Depreciation,0.04597725278735159
+15_PHL,Philippines,2092,Depreciation,0.04597725278735159
+15_PHL,Philippines,2093,Depreciation,0.04597725278735159
+15_PHL,Philippines,2094,Depreciation,0.04597725278735159
+15_PHL,Philippines,2095,Depreciation,0.04597725278735159
+15_PHL,Philippines,2096,Depreciation,0.04597725278735159
+15_PHL,Philippines,2097,Depreciation,0.04597725278735159
+15_PHL,Philippines,2098,Depreciation,0.04597725278735159
+15_PHL,Philippines,2099,Depreciation,0.04597725278735159
+15_PHL,Philippines,2100,Depreciation,0.04597725278735159
+15_PHL,Philippines,1990,WDI GDP through 2025,283126.473617181
+15_PHL,Philippines,1991,WDI GDP through 2025,281890.937770952
+15_PHL,Philippines,1992,WDI GDP through 2025,283068.196261779
+15_PHL,Philippines,1993,WDI GDP through 2025,289244.432888471
+15_PHL,Philippines,1994,WDI GDP through 2025,301895.01806997805
+15_PHL,Philippines,1995,WDI GDP through 2025,315858.342273919
+15_PHL,Philippines,1996,WDI GDP through 2025,334368.73991276004
+15_PHL,Philippines,1997,WDI GDP through 2025,351710.479274008
+15_PHL,Philippines,1998,WDI GDP through 2025,349902.368762457
+15_PHL,Philippines,1999,WDI GDP through 2025,361611.68072469096
+15_PHL,Philippines,2000,WDI GDP through 2025,377459.33071605104
+15_PHL,Philippines,2001,WDI GDP through 2025,388968.9389414941
+15_PHL,Philippines,2002,WDI GDP through 2025,403424.016589514
+15_PHL,Philippines,2003,WDI GDP through 2025,423945.837811198
+15_PHL,Philippines,2004,WDI GDP through 2025,451795.808663307
+15_PHL,Philippines,2005,WDI GDP through 2025,474125.83963291
+15_PHL,Philippines,2006,WDI GDP through 2025,499332.345525613
+15_PHL,Philippines,2007,WDI GDP through 2025,531885.276934827
+15_PHL,Philippines,2008,WDI GDP through 2025,554992.965268913
+15_PHL,Philippines,2009,WDI GDP through 2025,563031.05638158
+15_PHL,Philippines,2010,WDI GDP through 2025,604326.568988619
+15_PHL,Philippines,2011,WDI GDP through 2025,627642.895061402
+15_PHL,Philippines,2012,WDI GDP through 2025,670931.1224482331
+15_PHL,Philippines,2013,WDI GDP through 2025,716222.5378800861
+15_PHL,Philippines,2014,WDI GDP through 2025,761688.254932336
+15_PHL,Philippines,2015,WDI GDP through 2025,810042.584431379
+15_PHL,Philippines,2016,WDI GDP through 2025,867956.228661943
+15_PHL,Philippines,2017,WDI GDP through 2025,928114.173543905
+15_PHL,Philippines,2018,WDI GDP through 2025,986970.3999465612
+15_PHL,Philippines,2019,WDI GDP through 2025,1047358.43714574
+15_PHL,Philippines,2020,WDI GDP through 2025,947667.774109205
+15_PHL,Philippines,2021,WDI GDP through 2025,1001824.4583761
+15_PHL,Philippines,2022,WDI GDP through 2025,1077772.59151808
+15_PHL,Philippines,2023,WDI GDP through 2025,1137254.31849328
+15_PHL,Philippines,2024,WDI GDP through 2025,1202245.50576815
+15_PHL,Philippines,2025,WDI GDP through 2025,1255173.180995
+15_PHL,Philippines,2026,WDI GDP through 2025,
+15_PHL,Philippines,2027,WDI GDP through 2025,
+15_PHL,Philippines,2028,WDI GDP through 2025,
+15_PHL,Philippines,2029,WDI GDP through 2025,
+15_PHL,Philippines,2030,WDI GDP through 2025,
+15_PHL,Philippines,2031,WDI GDP through 2025,
+15_PHL,Philippines,2032,WDI GDP through 2025,
+15_PHL,Philippines,2033,WDI GDP through 2025,
+15_PHL,Philippines,2034,WDI GDP through 2025,
+15_PHL,Philippines,2035,WDI GDP through 2025,
+15_PHL,Philippines,2036,WDI GDP through 2025,
+15_PHL,Philippines,2037,WDI GDP through 2025,
+15_PHL,Philippines,2038,WDI GDP through 2025,
+15_PHL,Philippines,2039,WDI GDP through 2025,
+15_PHL,Philippines,2040,WDI GDP through 2025,
+15_PHL,Philippines,2041,WDI GDP through 2025,
+15_PHL,Philippines,2042,WDI GDP through 2025,
+15_PHL,Philippines,2043,WDI GDP through 2025,
+15_PHL,Philippines,2044,WDI GDP through 2025,
+15_PHL,Philippines,2045,WDI GDP through 2025,
+15_PHL,Philippines,2046,WDI GDP through 2025,
+15_PHL,Philippines,2047,WDI GDP through 2025,
+15_PHL,Philippines,2048,WDI GDP through 2025,
+15_PHL,Philippines,2049,WDI GDP through 2025,
+15_PHL,Philippines,2050,WDI GDP through 2025,
+15_PHL,Philippines,2051,WDI GDP through 2025,
+15_PHL,Philippines,2052,WDI GDP through 2025,
+15_PHL,Philippines,2053,WDI GDP through 2025,
+15_PHL,Philippines,2054,WDI GDP through 2025,
+15_PHL,Philippines,2055,WDI GDP through 2025,
+15_PHL,Philippines,2056,WDI GDP through 2025,
+15_PHL,Philippines,2057,WDI GDP through 2025,
+15_PHL,Philippines,2058,WDI GDP through 2025,
+15_PHL,Philippines,2059,WDI GDP through 2025,
+15_PHL,Philippines,2060,WDI GDP through 2025,
+15_PHL,Philippines,2061,WDI GDP through 2025,
+15_PHL,Philippines,2062,WDI GDP through 2025,
+15_PHL,Philippines,2063,WDI GDP through 2025,
+15_PHL,Philippines,2064,WDI GDP through 2025,
+15_PHL,Philippines,2065,WDI GDP through 2025,
+15_PHL,Philippines,2066,WDI GDP through 2025,
+15_PHL,Philippines,2067,WDI GDP through 2025,
+15_PHL,Philippines,2068,WDI GDP through 2025,
+15_PHL,Philippines,2069,WDI GDP through 2025,
+15_PHL,Philippines,2070,WDI GDP through 2025,
+15_PHL,Philippines,2071,WDI GDP through 2025,
+15_PHL,Philippines,2072,WDI GDP through 2025,
+15_PHL,Philippines,2073,WDI GDP through 2025,
+15_PHL,Philippines,2074,WDI GDP through 2025,
+15_PHL,Philippines,2075,WDI GDP through 2025,
+15_PHL,Philippines,2076,WDI GDP through 2025,
+15_PHL,Philippines,2077,WDI GDP through 2025,
+15_PHL,Philippines,2078,WDI GDP through 2025,
+15_PHL,Philippines,2079,WDI GDP through 2025,
+15_PHL,Philippines,2080,WDI GDP through 2025,
+15_PHL,Philippines,2081,WDI GDP through 2025,
+15_PHL,Philippines,2082,WDI GDP through 2025,
+15_PHL,Philippines,2083,WDI GDP through 2025,
+15_PHL,Philippines,2084,WDI GDP through 2025,
+15_PHL,Philippines,2085,WDI GDP through 2025,
+15_PHL,Philippines,2086,WDI GDP through 2025,
+15_PHL,Philippines,2087,WDI GDP through 2025,
+15_PHL,Philippines,2088,WDI GDP through 2025,
+15_PHL,Philippines,2089,WDI GDP through 2025,
+15_PHL,Philippines,2090,WDI GDP through 2025,
+15_PHL,Philippines,2091,WDI GDP through 2025,
+15_PHL,Philippines,2092,WDI GDP through 2025,
+15_PHL,Philippines,2093,WDI GDP through 2025,
+15_PHL,Philippines,2094,WDI GDP through 2025,
+15_PHL,Philippines,2095,WDI GDP through 2025,
+15_PHL,Philippines,2096,WDI GDP through 2025,
+15_PHL,Philippines,2097,WDI GDP through 2025,
+15_PHL,Philippines,2098,WDI GDP through 2025,
+15_PHL,Philippines,2099,WDI GDP through 2025,
+15_PHL,Philippines,2100,WDI GDP through 2025,
+15_PHL,Philippines,1990,APERC GDP projections,
+15_PHL,Philippines,1991,APERC GDP projections,
+15_PHL,Philippines,1992,APERC GDP projections,
+15_PHL,Philippines,1993,APERC GDP projections,
+15_PHL,Philippines,1994,APERC GDP projections,
+15_PHL,Philippines,1995,APERC GDP projections,
+15_PHL,Philippines,1996,APERC GDP projections,
+15_PHL,Philippines,1997,APERC GDP projections,
+15_PHL,Philippines,1998,APERC GDP projections,
+15_PHL,Philippines,1999,APERC GDP projections,
+15_PHL,Philippines,2000,APERC GDP projections,
+15_PHL,Philippines,2001,APERC GDP projections,
+15_PHL,Philippines,2002,APERC GDP projections,
+15_PHL,Philippines,2003,APERC GDP projections,
+15_PHL,Philippines,2004,APERC GDP projections,
+15_PHL,Philippines,2005,APERC GDP projections,
+15_PHL,Philippines,2006,APERC GDP projections,
+15_PHL,Philippines,2007,APERC GDP projections,
+15_PHL,Philippines,2008,APERC GDP projections,
+15_PHL,Philippines,2009,APERC GDP projections,
+15_PHL,Philippines,2010,APERC GDP projections,
+15_PHL,Philippines,2011,APERC GDP projections,
+15_PHL,Philippines,2012,APERC GDP projections,
+15_PHL,Philippines,2013,APERC GDP projections,
+15_PHL,Philippines,2014,APERC GDP projections,
+15_PHL,Philippines,2015,APERC GDP projections,
+15_PHL,Philippines,2016,APERC GDP projections,
+15_PHL,Philippines,2017,APERC GDP projections,
+15_PHL,Philippines,2018,APERC GDP projections,
+15_PHL,Philippines,2019,APERC GDP projections,
+15_PHL,Philippines,2020,APERC GDP projections,
+15_PHL,Philippines,2021,APERC GDP projections,
+15_PHL,Philippines,2022,APERC GDP projections,
+15_PHL,Philippines,2023,APERC GDP projections,
+15_PHL,Philippines,2024,APERC GDP projections,
+15_PHL,Philippines,2025,APERC GDP projections,
+15_PHL,Philippines,2026,APERC GDP projections,1322913.829400898
+15_PHL,Philippines,2027,APERC GDP projections,1392759.944635093
+15_PHL,Philippines,2028,APERC GDP projections,1459470.177144683
+15_PHL,Philippines,2029,APERC GDP projections,1527585.1629644504
+15_PHL,Philippines,2030,APERC GDP projections,1597921.8650972766
+15_PHL,Philippines,2031,APERC GDP projections,1672040.9365774584
+15_PHL,Philippines,2032,APERC GDP projections,1748140.0158770927
+15_PHL,Philippines,2033,APERC GDP projections,1826212.9313186952
+15_PHL,Philippines,2034,APERC GDP projections,1907256.76727747
+15_PHL,Philippines,2035,APERC GDP projections,1992269.1143239648
+15_PHL,Philippines,2036,APERC GDP projections,2080490.9957296986
+15_PHL,Philippines,2037,APERC GDP projections,2171417.7971257125
+15_PHL,Philippines,2038,APERC GDP projections,2265052.631018107
+15_PHL,Philippines,2039,APERC GDP projections,2361525.7990192873
+15_PHL,Philippines,2040,APERC GDP projections,2460688.842713985
+15_PHL,Philippines,2041,APERC GDP projections,2562549.2916304413
+15_PHL,Philippines,2042,APERC GDP projections,2666934.672493907
+15_PHL,Philippines,2043,APERC GDP projections,2773834.4432955496
+15_PHL,Philippines,2044,APERC GDP projections,2883191.1215468375
+15_PHL,Philippines,2045,APERC GDP projections,2994901.268417982
+15_PHL,Philippines,2046,APERC GDP projections,3108831.9239879902
+15_PHL,Philippines,2047,APERC GDP projections,3224850.74273748
+15_PHL,Philippines,2048,APERC GDP projections,3342779.343941294
+15_PHL,Philippines,2049,APERC GDP projections,3462520.617490481
+15_PHL,Philippines,2050,APERC GDP projections,3584065.6234281575
+15_PHL,Philippines,2051,APERC GDP projections,3707169.7111376054
+15_PHL,Philippines,2052,APERC GDP projections,3831847.0425735754
+15_PHL,Philippines,2053,APERC GDP projections,3958759.2121792026
+15_PHL,Philippines,2054,APERC GDP projections,4088078.6794403833
+15_PHL,Philippines,2055,APERC GDP projections,4219752.460670317
+15_PHL,Philippines,2056,APERC GDP projections,4353627.967298784
+15_PHL,Philippines,2057,APERC GDP projections,4489612.964947661
+15_PHL,Philippines,2058,APERC GDP projections,4627909.706139608
+15_PHL,Philippines,2059,APERC GDP projections,4768350.2654929515
+15_PHL,Philippines,2060,APERC GDP projections,4910664.833488782
+15_PHL,Philippines,2061,APERC GDP projections,5054923.422466895
+15_PHL,Philippines,2062,APERC GDP projections,5201004.569970739
+15_PHL,Philippines,2063,APERC GDP projections,5348723.326460509
+15_PHL,Philippines,2064,APERC GDP projections,5498054.196342168
+15_PHL,Philippines,2065,APERC GDP projections,5648742.981109844
+15_PHL,Philippines,2066,APERC GDP projections,5800461.388556586
+15_PHL,Philippines,2067,APERC GDP projections,5953311.058787879
+15_PHL,Philippines,2068,APERC GDP projections,6106672.407956051
+15_PHL,Philippines,2069,APERC GDP projections,6260537.419862377
+15_PHL,Philippines,2070,APERC GDP projections,6414510.871873617
+15_PHL,Philippines,2071,APERC GDP projections,6568255.05671375
+15_PHL,Philippines,2072,APERC GDP projections,6721622.626894141
+15_PHL,Philippines,2073,APERC GDP projections,6874113.877140664
+15_PHL,Philippines,2074,APERC GDP projections,7025576.99935539
+15_PHL,Philippines,2075,APERC GDP projections,7175566.978442423
+15_PHL,Philippines,2076,APERC GDP projections,7324068.350163573
+15_PHL,Philippines,2077,APERC GDP projections,7473523.945767296
+15_PHL,Philippines,2078,APERC GDP projections,7623714.269591659
+15_PHL,Philippines,2079,APERC GDP projections,7775109.974132285
+15_PHL,Philippines,2080,APERC GDP projections,7927744.701749563
+15_PHL,Philippines,2081,APERC GDP projections,8081320.710035187
+15_PHL,Philippines,2082,APERC GDP projections,8236228.989856495
+15_PHL,Philippines,2083,APERC GDP projections,8392311.41201409
+15_PHL,Philippines,2084,APERC GDP projections,8549852.58526023
+15_PHL,Philippines,2085,APERC GDP projections,8708676.939396586
+15_PHL,Philippines,2086,APERC GDP projections,8868874.97875989
+15_PHL,Philippines,2087,APERC GDP projections,9030769.513704175
+15_PHL,Philippines,2088,APERC GDP projections,9194514.596686684
+15_PHL,Philippines,2089,APERC GDP projections,9360239.770515608
+15_PHL,Philippines,2090,APERC GDP projections,9528035.05432401
+15_PHL,Philippines,2091,APERC GDP projections,9697992.395707175
+15_PHL,Philippines,2092,APERC GDP projections,9870038.519374767
+15_PHL,Philippines,2093,APERC GDP projections,10044537.300335947
+15_PHL,Philippines,2094,APERC GDP projections,10221518.05446442
+15_PHL,Philippines,2095,APERC GDP projections,10401113.812411798
+15_PHL,Philippines,2096,APERC GDP projections,10583106.805583807
+15_PHL,Philippines,2097,APERC GDP projections,10767716.648323309
+15_PHL,Philippines,2098,APERC GDP projections,10955201.548784107
+15_PHL,Philippines,2099,APERC GDP projections,11145453.860262755
+15_PHL,Philippines,2100,APERC GDP projections,11338444.37894503
+15_PHL,Philippines,1990,9th Outlook projections (rebased to 2021 PPP USD),283157.3442897615
+15_PHL,Philippines,1991,9th Outlook projections (rebased to 2021 PPP USD),281921.6302802153
+15_PHL,Philippines,1992,9th Outlook projections (rebased to 2021 PPP USD),283098.9679990584
+15_PHL,Philippines,1993,9th Outlook projections (rebased to 2021 PPP USD),289276.48039031256
+15_PHL,Philippines,1994,9th Outlook projections (rebased to 2021 PPP USD),301928.16281692777
+15_PHL,Philippines,1995,9th Outlook projections (rebased to 2021 PPP USD),315892.7476357005
+15_PHL,Philippines,1996,9th Outlook projections (rebased to 2021 PPP USD),334405.63524316
+15_PHL,Philippines,1997,9th Outlook projections (rebased to 2021 PPP USD),351748.67632176157
+15_PHL,Philippines,1998,9th Outlook projections (rebased to 2021 PPP USD),349940.29599525355
+15_PHL,Philippines,1999,9th Outlook projections (rebased to 2021 PPP USD),361651.06626707496
+15_PHL,Philippines,2000,9th Outlook projections (rebased to 2021 PPP USD),377500.4923029353
+15_PHL,Philippines,2001,9th Outlook projections (rebased to 2021 PPP USD),389011.83020875516
+15_PHL,Philippines,2002,9th Outlook projections (rebased to 2021 PPP USD),403468.2931043841
+15_PHL,Philippines,2003,9th Outlook projections (rebased to 2021 PPP USD),423992.54131365626
+15_PHL,Philippines,2004,9th Outlook projections (rebased to 2021 PPP USD),451844.9494566545
+15_PHL,Philippines,2005,9th Outlook projections (rebased to 2021 PPP USD),474177.3659612194
+15_PHL,Philippines,2006,9th Outlook projections (rebased to 2021 PPP USD),499386.9324867842
+15_PHL,Philippines,2007,9th Outlook projections (rebased to 2021 PPP USD),531943.7128470319
+15_PHL,Philippines,2008,9th Outlook projections (rebased to 2021 PPP USD),555053.3577554148
+15_PHL,Philippines,2009,9th Outlook projections (rebased to 2021 PPP USD),563092.2744700228
+15_PHL,Philippines,2010,9th Outlook projections (rebased to 2021 PPP USD),604392.8132960588
+15_PHL,Philippines,2011,9th Outlook projections (rebased to 2021 PPP USD),627711.9580864083
+15_PHL,Philippines,2012,9th Outlook projections (rebased to 2021 PPP USD),671004.9355486642
+15_PHL,Philippines,2013,9th Outlook projections (rebased to 2021 PPP USD),716301.0485187005
+15_PHL,Philippines,2014,9th Outlook projections (rebased to 2021 PPP USD),761771.2056434915
+15_PHL,Philippines,2015,9th Outlook projections (rebased to 2021 PPP USD),810131.1960814223
+15_PHL,Philippines,2016,9th Outlook projections (rebased to 2021 PPP USD),868051.4018807199
+15_PHL,Philippines,2017,9th Outlook projections (rebased to 2021 PPP USD),928215.3197166157
+15_PHL,Philippines,2018,9th Outlook projections (rebased to 2021 PPP USD),987079.1199579554
+15_PHL,Philippines,2019,9th Outlook projections (rebased to 2021 PPP USD),1047473.3910708089
+15_PHL,Philippines,2020,9th Outlook projections (rebased to 2021 PPP USD),947771.4676311002
+15_PHL,Philippines,2021,9th Outlook projections (rebased to 2021 PPP USD),1001824.4583761002
+15_PHL,Philippines,2022,9th Outlook projections (rebased to 2021 PPP USD),1066626.3435021357
+15_PHL,Philippines,2023,9th Outlook projections (rebased to 2021 PPP USD),1120155.417916766
+15_PHL,Philippines,2024,9th Outlook projections (rebased to 2021 PPP USD),1187577.7859740302
+15_PHL,Philippines,2025,9th Outlook projections (rebased to 2021 PPP USD),1258499.8202990214
+15_PHL,Philippines,2026,9th Outlook projections (rebased to 2021 PPP USD),1333698.3144087768
+15_PHL,Philippines,2027,9th Outlook projections (rebased to 2021 PPP USD),1413421.4142378168
+15_PHL,Philippines,2028,9th Outlook projections (rebased to 2021 PPP USD),1492087.7639319308
+15_PHL,Philippines,2029,9th Outlook projections (rebased to 2021 PPP USD),1574305.675458067
+15_PHL,Philippines,2030,9th Outlook projections (rebased to 2021 PPP USD),1658537.0967436945
+15_PHL,Philippines,2031,9th Outlook projections (rebased to 2021 PPP USD),1745084.5561475824
+15_PHL,Philippines,2032,9th Outlook projections (rebased to 2021 PPP USD),1834737.350984531
+15_PHL,Philippines,2033,9th Outlook projections (rebased to 2021 PPP USD),1927152.5131822715
+15_PHL,Philippines,2034,9th Outlook projections (rebased to 2021 PPP USD),2023033.272926389
+15_PHL,Philippines,2035,9th Outlook projections (rebased to 2021 PPP USD),2122097.9657415664
+15_PHL,Philippines,2036,9th Outlook projections (rebased to 2021 PPP USD),2224283.025624736
+15_PHL,Philippines,2037,9th Outlook projections (rebased to 2021 PPP USD),2329459.1053526974
+15_PHL,Philippines,2038,9th Outlook projections (rebased to 2021 PPP USD),2437712.5191960637
+15_PHL,Philippines,2039,9th Outlook projections (rebased to 2021 PPP USD),2549135.1908253697
+15_PHL,Philippines,2040,9th Outlook projections (rebased to 2021 PPP USD),2663426.550813752
+15_PHL,Philippines,2041,9th Outlook projections (rebased to 2021 PPP USD),2780626.069612463
+15_PHL,Philippines,2042,9th Outlook projections (rebased to 2021 PPP USD),2900538.025290096
+15_PHL,Philippines,2043,9th Outlook projections (rebased to 2021 PPP USD),3023153.8290575915
+15_PHL,Philippines,2044,9th Outlook projections (rebased to 2021 PPP USD),3148519.575394512
+15_PHL,Philippines,2045,9th Outlook projections (rebased to 2021 PPP USD),3276456.752614199
+15_PHL,Philippines,2046,9th Outlook projections (rebased to 2021 PPP USD),3407747.7852451704
+15_PHL,Philippines,2047,9th Outlook projections (rebased to 2021 PPP USD),3542476.8808968747
+15_PHL,Philippines,2048,9th Outlook projections (rebased to 2021 PPP USD),3680435.9509957894
+15_PHL,Philippines,2049,9th Outlook projections (rebased to 2021 PPP USD),3821537.230418164
+15_PHL,Philippines,2050,9th Outlook projections (rebased to 2021 PPP USD),3965698.230440871
+15_PHL,Philippines,2051,9th Outlook projections (rebased to 2021 PPP USD),4112855.4055735953
+15_PHL,Philippines,2052,9th Outlook projections (rebased to 2021 PPP USD),4262942.377909335
+15_PHL,Philippines,2053,9th Outlook projections (rebased to 2021 PPP USD),4415640.3179717045
+15_PHL,Philippines,2054,9th Outlook projections (rebased to 2021 PPP USD),4570952.773794638
+15_PHL,Philippines,2055,9th Outlook projections (rebased to 2021 PPP USD),4728632.117349572
+15_PHL,Philippines,2056,9th Outlook projections (rebased to 2021 PPP USD),4888453.438389025
+15_PHL,Philippines,2057,9th Outlook projections (rebased to 2021 PPP USD),5050331.980782106
+15_PHL,Philippines,2058,9th Outlook projections (rebased to 2021 PPP USD),5214032.058545524
+15_PHL,Philippines,2059,9th Outlook projections (rebased to 2021 PPP USD),5379057.23579889
+15_PHL,Philippines,2060,9th Outlook projections (rebased to 2021 PPP USD),5545377.2590609025
+15_PHL,Philippines,2061,9th Outlook projections (rebased to 2021 PPP USD),5712628.587785563
+15_PHL,Philippines,2062,9th Outlook projections (rebased to 2021 PPP USD),5880679.177125841
+15_PHL,Philippines,2063,9th Outlook projections (rebased to 2021 PPP USD),6049416.721349074
+15_PHL,Philippines,2064,9th Outlook projections (rebased to 2021 PPP USD),6218377.518138311
+15_PHL,Philippines,2065,9th Outlook projections (rebased to 2021 PPP USD),6387169.09883219
+15_PHL,Philippines,2066,9th Outlook projections (rebased to 2021 PPP USD),6555816.796337246
+15_PHL,Philippines,2067,9th Outlook projections (rebased to 2021 PPP USD),6723673.803272581
+15_PHL,Philippines,2068,9th Outlook projections (rebased to 2021 PPP USD),6890565.29746478
+15_PHL,Philippines,2069,9th Outlook projections (rebased to 2021 PPP USD),7056491.138474404
+15_PHL,Philippines,2070,9th Outlook projections (rebased to 2021 PPP USD),7220917.664498258
+15_PHL,Philippines,2071,9th Outlook projections (rebased to 2021 PPP USD),7383604.962837371
+15_PHL,Philippines,2072,9th Outlook projections (rebased to 2021 PPP USD),7547250.180751015
+15_PHL,Philippines,2073,9th Outlook projections (rebased to 2021 PPP USD),7712083.9115418
+15_PHL,Philippines,2074,9th Outlook projections (rebased to 2021 PPP USD),7877936.195716917
+15_PHL,Philippines,2075,9th Outlook projections (rebased to 2021 PPP USD),8044715.506363157
+15_PHL,Philippines,2076,9th Outlook projections (rebased to 2021 PPP USD),8212425.220526665
+15_PHL,Philippines,2077,9th Outlook projections (rebased to 2021 PPP USD),8380867.235114218
+15_PHL,Philippines,2078,9th Outlook projections (rebased to 2021 PPP USD),8550340.290930238
+15_PHL,Philippines,2079,9th Outlook projections (rebased to 2021 PPP USD),8720493.97381649
+15_PHL,Philippines,2080,9th Outlook projections (rebased to 2021 PPP USD),8891771.931855008
+15_PHL,Philippines,2081,9th Outlook projections (rebased to 2021 PPP USD),9064010.318408089
+15_PHL,Philippines,2082,9th Outlook projections (rebased to 2021 PPP USD),9237159.84342846
+15_PHL,Philippines,2083,9th Outlook projections (rebased to 2021 PPP USD),9411045.498383796
+15_PHL,Philippines,2084,9th Outlook projections (rebased to 2021 PPP USD),9585914.326541398
+15_PHL,Philippines,2085,9th Outlook projections (rebased to 2021 PPP USD),9761741.111122478
+15_PHL,Philippines,2086,9th Outlook projections (rebased to 2021 PPP USD),9938331.092040505
+15_PHL,Philippines,2087,9th Outlook projections (rebased to 2021 PPP USD),10116072.988127666
+15_PHL,Philippines,2088,9th Outlook projections (rebased to 2021 PPP USD),10294783.596776074
+15_PHL,Philippines,2089,9th Outlook projections (rebased to 2021 PPP USD),10474516.728863826
+15_PHL,Philippines,2090,9th Outlook projections (rebased to 2021 PPP USD),10655050.510784347
+15_PHL,Philippines,2091,9th Outlook projections (rebased to 2021 PPP USD),10836693.01241961
+15_PHL,Philippines,2092,9th Outlook projections (rebased to 2021 PPP USD),11018987.31247031
+15_PHL,Philippines,2093,9th Outlook projections (rebased to 2021 PPP USD),11202123.651072498
+15_PHL,Philippines,2094,9th Outlook projections (rebased to 2021 PPP USD),11385939.007034907
+15_PHL,Philippines,2095,9th Outlook projections (rebased to 2021 PPP USD),11570860.489216683
+15_PHL,Philippines,2096,9th Outlook projections (rebased to 2021 PPP USD),11756677.741568686
+15_PHL,Philippines,2097,9th Outlook projections (rebased to 2021 PPP USD),11943581.88962027
+15_PHL,Philippines,2098,9th Outlook projections (rebased to 2021 PPP USD),12131263.6655504
+15_PHL,Philippines,2099,9th Outlook projections (rebased to 2021 PPP USD),12319645.540942498
+15_PHL,Philippines,2100,9th Outlook projections (rebased to 2021 PPP USD),12508931.442204364

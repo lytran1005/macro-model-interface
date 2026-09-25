@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+01_AUS,Australia,1990,Population,17004.135
+01_AUS,Australia,1991,Population,17248.461
+01_AUS,Australia,1992,Population,17457.924
+01_AUS,Australia,1993,Population,17640.653
+01_AUS,Australia,1994,Population,17805.169
+01_AUS,Australia,1995,Population,17989.698
+01_AUS,Australia,1996,Population,18200.991
+01_AUS,Australia,1997,Population,18409.624
+01_AUS,Australia,1998,Population,18600.201
+01_AUS,Australia,1999,Population,18803.233
+01_AUS,Australia,2000,Population,19016.729
+01_AUS,Australia,2001,Population,19248.213
+01_AUS,Australia,2002,Population,19482.653
+01_AUS,Australia,2003,Population,19708.057
+01_AUS,Australia,2004,Population,19930.852
+01_AUS,Australia,2005,Population,20162.502
+01_AUS,Australia,2006,Population,20426.478
+01_AUS,Australia,2007,Population,20754.641
+01_AUS,Australia,2008,Population,21154.456
+01_AUS,Australia,2009,Population,21586.721
+01_AUS,Australia,2010,Population,21979.301
+01_AUS,Australia,2011,Population,22303.86
+01_AUS,Australia,2012,Population,22655.69
+01_AUS,Australia,2013,Population,23049.598
+01_AUS,Australia,2014,Population,23422.943
+01_AUS,Australia,2015,Population,23768.258
+01_AUS,Australia,2016,Population,24127.746
+01_AUS,Australia,2017,Population,24532.18
+01_AUS,Australia,2018,Population,24929.897
+01_AUS,Australia,2019,Population,25309.514
+01_AUS,Australia,2020,Population,25655.914
+01_AUS,Australia,2021,Population,25831.668
+01_AUS,Australia,2022,Population,26081.167
+01_AUS,Australia,2023,Population,26320.802
+01_AUS,Australia,2024,Population,26581.446
+01_AUS,Australia,2025,Population,26891.409
+01_AUS,Australia,2026,Population,27195.833
+01_AUS,Australia,2027,Population,27489.98
+01_AUS,Australia,2028,Population,27782.232
+01_AUS,Australia,2029,Population,28070.74
+01_AUS,Australia,2030,Population,28376.272
+01_AUS,Australia,2031,Population,28680.099
+01_AUS,Australia,2032,Population,28979.695
+01_AUS,Australia,2033,Population,29273.025
+01_AUS,Australia,2034,Population,29563.779
+01_AUS,Australia,2035,Population,29871.096
+01_AUS,Australia,2036,Population,30180.418
+01_AUS,Australia,2037,Population,30489.504
+01_AUS,Australia,2038,Population,30791.517
+01_AUS,Australia,2039,Population,31099.05
+01_AUS,Australia,2040,Population,31400.818
+01_AUS,Australia,2041,Population,31707.457
+01_AUS,Australia,2042,Population,32018.661
+01_AUS,Australia,2043,Population,32333.708
+01_AUS,Australia,2044,Population,32646.626
+01_AUS,Australia,2045,Population,32959.911
+01_AUS,Australia,2046,Population,33277.527
+01_AUS,Australia,2047,Population,33602.152
+01_AUS,Australia,2048,Population,33915.487
+01_AUS,Australia,2049,Population,34242.747
+01_AUS,Australia,2050,Population,34560.236
+01_AUS,Australia,2051,Population,34880.54
+01_AUS,Australia,2052,Population,35202.118
+01_AUS,Australia,2053,Population,35522.34
+01_AUS,Australia,2054,Population,35847.251
+01_AUS,Australia,2055,Population,36180.222
+01_AUS,Australia,2056,Population,36519.705
+01_AUS,Australia,2057,Population,36859.268
+01_AUS,Australia,2058,Population,37205.237
+01_AUS,Australia,2059,Population,37564.374
+01_AUS,Australia,2060,Population,37918.153
+01_AUS,Australia,2061,Population,38277.338
+01_AUS,Australia,2062,Population,38646.329
+01_AUS,Australia,2063,Population,39021.506
+01_AUS,Australia,2064,Population,39404.423
+01_AUS,Australia,2065,Population,39781.341
+01_AUS,Australia,2066,Population,40169.046
+01_AUS,Australia,2067,Population,40569.588
+01_AUS,Australia,2068,Population,40975.319
+01_AUS,Australia,2069,Population,41385.911
+01_AUS,Australia,2070,Population,41798.472
+01_AUS,Australia,2071,Population,42208.991
+01_AUS,Australia,2072,Population,42615.673
+01_AUS,Australia,2073,Population,43026.162
+01_AUS,Australia,2074,Population,43441.914
+01_AUS,Australia,2075,Population,43863.696
+01_AUS,Australia,2076,Population,44286.359
+01_AUS,Australia,2077,Population,44709.813
+01_AUS,Australia,2078,Population,45141.559
+01_AUS,Australia,2079,Population,45574.464
+01_AUS,Australia,2080,Population,46009.331
+01_AUS,Australia,2081,Population,46446.674
+01_AUS,Australia,2082,Population,46897.006
+01_AUS,Australia,2083,Population,47343.81
+01_AUS,Australia,2084,Population,47801.764
+01_AUS,Australia,2085,Population,48252.029
+01_AUS,Australia,2086,Population,48708.463
+01_AUS,Australia,2087,Population,49176.361
+01_AUS,Australia,2088,Population,49656.367
+01_AUS,Australia,2089,Population,50153.774
+01_AUS,Australia,2090,Population,50648.844
+01_AUS,Australia,2091,Population,51157.15
+01_AUS,Australia,2092,Population,51671.923
+01_AUS,Australia,2093,Population,52188.062
+01_AUS,Australia,2094,Population,52707.183
+01_AUS,Australia,2095,Population,53218.946
+01_AUS,Australia,2096,Population,53742.202
+01_AUS,Australia,2097,Population,54278.88
+01_AUS,Australia,2098,Population,54825.705
+01_AUS,Australia,2099,Population,55363.527
+01_AUS,Australia,2100,Population,55899.711
+01_AUS,Australia,1990,Labour efficiency,12.147905529296125
+01_AUS,Australia,1991,Labour efficiency,11.821306167093887
+01_AUS,Australia,1992,Labour efficiency,11.87888488519565
+01_AUS,Australia,1993,Labour efficiency,12.3665232879977
+01_AUS,Australia,1994,Labour efficiency,12.837008394353541
+01_AUS,Australia,1995,Labour efficiency,13.309678789067211
+01_AUS,Australia,1996,Labour efficiency,13.772434002648183
+01_AUS,Australia,1997,Labour efficiency,14.304291550449708
+01_AUS,Australia,1998,Labour efficiency,15.017419737467103
+01_AUS,Australia,1999,Labour efficiency,15.683455108904564
+01_AUS,Australia,2000,Labour efficiency,16.093558620828155
+01_AUS,Australia,2001,Labour efficiency,16.37290360824898
+01_AUS,Australia,2002,Labour efficiency,16.823460566690567
+01_AUS,Australia,2003,Labour efficiency,17.258573664881563
+01_AUS,Australia,2004,Labour efficiency,17.78202997926111
+01_AUS,Australia,2005,Labour efficiency,18.061823596878718
+01_AUS,Australia,2006,Labour efficiency,18.378383847054614
+01_AUS,Australia,2007,Labour efficiency,18.784431815470914
+01_AUS,Australia,2008,Labour efficiency,18.93154971990272
+01_AUS,Australia,2009,Labour efficiency,18.812419341998016
+01_AUS,Australia,2010,Labour efficiency,18.8131989921576
+01_AUS,Australia,2011,Labour efficiency,19.04029168402632
+01_AUS,Australia,2012,Labour efficiency,19.388434928891407
+01_AUS,Australia,2013,Labour efficiency,19.511140511001003
+01_AUS,Australia,2014,Labour efficiency,19.64856238875188
+01_AUS,Australia,2015,Labour efficiency,19.848967018318724
+01_AUS,Australia,2016,Labour efficiency,20.11380561556084
+01_AUS,Australia,2017,Labour efficiency,20.316461557051316
+01_AUS,Australia,2018,Labour efficiency,20.57988054651488
+01_AUS,Australia,2019,Labour efficiency,20.446751874538123
+01_AUS,Australia,2020,Labour efficiency,20.163960067423126
+01_AUS,Australia,2021,Labour efficiency,20.698075087072123
+01_AUS,Australia,2022,Labour efficiency,21.540735317169336
+01_AUS,Australia,2023,Labour efficiency,21.980568399153906
+01_AUS,Australia,2024,Labour efficiency,22.063960959073977
+01_AUS,Australia,2025,Labour efficiency,22.104158319265572
+01_AUS,Australia,2026,Labour efficiency,22.390008131649733
+01_AUS,Australia,2027,Labour efficiency,22.67863488758141
+01_AUS,Australia,2028,Labour efficiency,22.977367256245802
+01_AUS,Australia,2029,Labour efficiency,23.28050941727123
+01_AUS,Australia,2030,Labour efficiency,23.587650955978454
+01_AUS,Australia,2031,Labour efficiency,23.914614572325
+01_AUS,Australia,2032,Labour efficiency,24.24611044186683
+01_AUS,Australia,2033,Labour efficiency,24.583468686635644
+01_AUS,Australia,2034,Labour efficiency,24.909529962201297
+01_AUS,Australia,2035,Labour efficiency,25.239915930786424
+01_AUS,Australia,2036,Labour efficiency,25.574683952682214
+01_AUS,Australia,2037,Labour efficiency,25.913892148974437
+01_AUS,Australia,2038,Labour efficiency,26.257599411634192
+01_AUS,Australia,2039,Labour efficiency,26.605865413742503
+01_AUS,Australia,2040,Labour efficiency,26.958750619850505
+01_AUS,Australia,2041,Labour efficiency,27.31631629647707
+01_AUS,Australia,2042,Labour efficiency,27.67862452274565
+01_AUS,Australia,2043,Labour efficiency,28.045738201162216
+01_AUS,Australia,2044,Labour efficiency,28.41772106853612
+01_AUS,Australia,2045,Labour efficiency,28.794637707045847
+01_AUS,Australia,2046,Labour efficiency,29.176553555451502
+01_AUS,Australia,2047,Labour efficiency,29.56353492045602
+01_AUS,Australia,2048,Labour efficiency,29.955648988217092
+01_AUS,Australia,2049,Labour efficiency,30.35296383601174
+01_AUS,Australia,2050,Labour efficiency,30.755548444055616
+01_AUS,Australia,2051,Labour efficiency,31.163472707479098
+01_AUS,Australia,2052,Labour efficiency,31.576807448462173
+01_AUS,Australia,2053,Labour efficiency,31.99562442853032
+01_AUS,Australia,2054,Labour efficiency,32.41999636101345
+01_AUS,Australia,2055,Labour efficiency,32.84999692367012
+01_AUS,Australia,2056,Labour efficiency,33.285700771479135
+01_AUS,Australia,2057,Labour efficiency,33.727183549600895
+01_AUS,Australia,2058,Labour efficiency,34.17452190651056
+01_AUS,Australia,2059,Labour efficiency,34.62779350730548
+01_AUS,Australia,2060,Labour efficiency,35.087077047189105
+01_AUS,Australia,2061,Labour efficiency,35.55245226513369
+01_AUS,Australia,2062,Labour efficiency,36.0239999577243
+01_AUS,Australia,2063,Labour efficiency,36.501801993186376
+01_AUS,Australia,2064,Labour efficiency,36.98594132559936
+01_AUS,Australia,2065,Labour efficiency,37.47650200929887
+01_AUS,Australia,2066,Labour efficiency,37.97356921346985
+01_AUS,Australia,2067,Labour efficiency,38.47722923693333
+01_AUS,Australia,2068,Labour efficiency,38.987569523129274
+01_AUS,Australia,2069,Labour efficiency,39.504678675298145
+01_AUS,Australia,2070,Labour efficiency,40.02864647186387
+01_AUS,Australia,2071,Labour efficiency,40.559563882020804
+01_AUS,Australia,2072,Labour efficiency,41.09752308152741
+01_AUS,Australia,2073,Labour efficiency,41.6426174687095
+01_AUS,Australia,2074,Labour efficiency,42.19494168067563
+01_AUS,Australia,2075,Labour efficiency,42.754591609747635
+01_AUS,Australia,2076,Labour efficiency,43.32166442010907
+01_AUS,Australia,2077,Labour efficiency,43.89625856467448
+01_AUS,Australia,2078,Labour efficiency,44.47847380218238
+01_AUS,Australia,2079,Labour efficiency,45.06841121451497
+01_AUS,Australia,2080,Labour efficiency,45.666173224247586
+01_AUS,Australia,2081,Labour efficiency,46.271863612430884
+01_AUS,Australia,2082,Labour efficiency,46.885587536608895
+01_AUS,Australia,2083,Labour efficiency,47.507451549076045
+01_AUS,Australia,2084,Labour efficiency,48.137563615376365
+01_AUS,Australia,2085,Labour efficiency,48.77603313304802
+01_AUS,Australia,2086,Labour efficiency,49.42297095061646
+01_AUS,Australia,2087,Labour efficiency,50.078489386839536
+01_AUS,Australia,2088,Labour efficiency,50.742702250207785
+01_AUS,Australia,2089,Labour efficiency,51.41572485870345
+01_AUS,Australia,2090,Labour efficiency,52.09767405982149
+01_AUS,Australia,2091,Labour efficiency,52.78866825085621
+01_AUS,Australia,2092,Labour efficiency,53.488827399456895
+01_AUS,Australia,2093,Labour efficiency,54.198273064456124
+01_AUS,Australia,2094,Labour efficiency,54.91712841697435
+01_AUS,Australia,2095,Labour efficiency,55.64551826180434
+01_AUS,Australia,2096,Labour efficiency,56.38356905907931
+01_AUS,Australia,2097,Labour efficiency,57.13140894622843
+01_AUS,Australia,2098,Labour efficiency,57.889167760223515
+01_AUS,Australia,2099,Labour efficiency,58.6569770601208
+01_AUS,Australia,2100,Labour efficiency,59.43497014990173
+01_AUS,Australia,1990,Capital stock,3209897.8799290387
+01_AUS,Australia,1991,Capital stock,3241658.658973061
+01_AUS,Australia,1992,Capital stock,3194702.3399404967
+01_AUS,Australia,1993,Capital stock,3269648.971523141
+01_AUS,Australia,1994,Capital stock,3361182.7214058777
+01_AUS,Australia,1995,Capital stock,3448704.642123038
+01_AUS,Australia,1996,Capital stock,3539685.5882801856
+01_AUS,Australia,1997,Capital stock,3618952.593968984
+01_AUS,Australia,1998,Capital stock,3713698.16689125
+01_AUS,Australia,1999,Capital stock,3870166.47047785
+01_AUS,Australia,2000,Capital stock,4029636.3295536186
+01_AUS,Australia,2001,Capital stock,4055167.2217895496
+01_AUS,Australia,2002,Capital stock,4212083.822908463
+01_AUS,Australia,2003,Capital stock,4299559.029608603
+01_AUS,Australia,2004,Capital stock,4482319.629141826
+01_AUS,Australia,2005,Capital stock,4650882.519740263
+01_AUS,Australia,2006,Capital stock,4757938.92073421
+01_AUS,Australia,2007,Capital stock,4933821.0109843705
+01_AUS,Australia,2008,Capital stock,5179907.517135421
+01_AUS,Australia,2009,Capital stock,5324474.609806161
+01_AUS,Australia,2010,Capital stock,5473220.512650328
+01_AUS,Australia,2011,Capital stock,5579192.6585253775
+01_AUS,Australia,2012,Capital stock,5843307.971197058
+01_AUS,Australia,2013,Capital stock,6022326.709007116
+01_AUS,Australia,2014,Capital stock,6203059.684433638
+01_AUS,Australia,2015,Capital stock,6305359.386441025
+01_AUS,Australia,2016,Capital stock,6468601.789678548
+01_AUS,Australia,2017,Capital stock,6577618.49395307
+01_AUS,Australia,2018,Capital stock,6760298.377382127
+01_AUS,Australia,2019,Capital stock,7045508.502159561
+01_AUS,Australia,2020,Capital stock,7025525.094107329
+01_AUS,Australia,2021,Capital stock,7027074.30576847
+01_AUS,Australia,2022,Capital stock,7240002.559464331
+01_AUS,Australia,2023,Capital stock,7565589.948001127
+01_AUS,Australia,2024,Capital stock,7669496.345443953
+01_AUS,Australia,2025,Capital stock,7773065.059257426
+01_AUS,Australia,2026,Capital stock,7877665.581116392
+01_AUS,Australia,2027,Capital stock,7984510.765826189
+01_AUS,Australia,2028,Capital stock,8093521.183853062
+01_AUS,Australia,2029,Capital stock,8204761.576644678
+01_AUS,Australia,2030,Capital stock,8318222.259549335
+01_AUS,Australia,2031,Capital stock,8434067.072546076
+01_AUS,Australia,2032,Capital stock,8552463.527952002
+01_AUS,Australia,2033,Capital stock,8673397.06986372
+01_AUS,Australia,2034,Capital stock,8796848.306226164
+01_AUS,Australia,2035,Capital stock,8922647.848316913
+01_AUS,Australia,2036,Capital stock,9050964.291031588
+01_AUS,Australia,2037,Capital stock,9181835.891945638
+01_AUS,Australia,2038,Capital stock,9315280.811663952
+01_AUS,Australia,2039,Capital stock,9451254.010534083
+01_AUS,Australia,2040,Capital stock,9589827.835932937
+01_AUS,Australia,2041,Capital stock,9730968.802833447
+01_AUS,Australia,2042,Capital stock,9874744.599566601
+01_AUS,Australia,2043,Capital stock,10021220.850042615
+01_AUS,Australia,2044,Capital stock,10170457.000985676
+01_AUS,Australia,2045,Capital stock,10322454.488701247
+01_AUS,Australia,2046,Capital stock,10477239.57346238
+01_AUS,Australia,2047,Capital stock,10634878.666479513
+01_AUS,Australia,2048,Capital stock,10795466.222402718
+01_AUS,Australia,2049,Capital stock,10958910.422756921
+01_AUS,Australia,2050,Capital stock,11125379.243292136
+01_AUS,Australia,2051,Capital stock,11294795.079987299
+01_AUS,Australia,2052,Capital stock,11467212.255775074
+01_AUS,Australia,2053,Capital stock,11642669.364144867
+01_AUS,Australia,2054,Capital stock,11821177.13869515
+01_AUS,Australia,2055,Capital stock,12002812.33329877
+01_AUS,Australia,2056,Capital stock,12187689.853355926
+01_AUS,Australia,2057,Capital stock,12375908.909090485
+01_AUS,Australia,2058,Capital stock,12567497.718607131
+01_AUS,Australia,2059,Capital stock,12762556.738135472
+01_AUS,Australia,2060,Capital stock,12961265.346298084
+01_AUS,Australia,2061,Capital stock,13163590.454265295
+01_AUS,Australia,2062,Capital stock,13369624.687397223
+01_AUS,Australia,2063,Capital stock,13579513.969795583
+01_AUS,Australia,2064,Capital stock,13793362.818481663
+01_AUS,Australia,2065,Capital stock,14011295.887441462
+01_AUS,Australia,2066,Capital stock,14233271.736324353
+01_AUS,Australia,2067,Capital stock,14459455.533749174
+01_AUS,Australia,2068,Capital stock,14690040.093979893
+01_AUS,Australia,2069,Capital stock,14925124.362215055
+01_AUS,Australia,2070,Capital stock,15164804.414520103
+01_AUS,Australia,2071,Capital stock,15409140.43615739
+01_AUS,Australia,2072,Capital stock,15658141.386887543
+01_AUS,Australia,2073,Capital stock,15911792.91952795
+01_AUS,Australia,2074,Capital stock,16170182.004641723
+01_AUS,Australia,2075,Capital stock,16433416.29794998
+01_AUS,Australia,2076,Capital stock,16701615.265713107
+01_AUS,Australia,2077,Capital stock,16974829.476337086
+01_AUS,Australia,2078,Capital stock,17256503.97641416
+01_AUS,Australia,2079,Capital stock,17546838.74040542
+01_AUS,Australia,2080,Capital stock,17845938.166507684
+01_AUS,Australia,2081,Capital stock,18153922.112627354
+01_AUS,Australia,2082,Capital stock,18470921.970866002
+01_AUS,Australia,2083,Capital stock,18797226.84575666
+01_AUS,Australia,2084,Capital stock,19132888.35015084
+01_AUS,Australia,2085,Capital stock,19478180.292953406
+01_AUS,Australia,2086,Capital stock,19833098.206282575
+01_AUS,Australia,2087,Capital stock,20197851.311495297
+01_AUS,Australia,2088,Capital stock,20572735.764778573
+01_AUS,Australia,2089,Capital stock,20958064.274056308
+01_AUS,Australia,2090,Capital stock,21354239.99603471
+01_AUS,Australia,2091,Capital stock,21761358.885935802
+01_AUS,Australia,2092,Capital stock,22179772.250190005
+01_AUS,Australia,2093,Capital stock,22609728.230582222
+01_AUS,Australia,2094,Capital stock,23051396.52312045
+01_AUS,Australia,2095,Capital stock,23504978.53274334
+01_AUS,Australia,2096,Capital stock,23970505.621425934
+01_AUS,Australia,2097,Capital stock,24448334.427073672
+01_AUS,Australia,2098,Capital stock,24938862.67656394
+01_AUS,Australia,2099,Capital stock,25442439.003765803
+01_AUS,Australia,2100,Capital stock,25959079.47747148
+01_AUS,Australia,1990,Savings,0.244154383916175
+01_AUS,Australia,1991,Savings,0.208078722173929
+01_AUS,Australia,1992,Savings,0.183164839064147
+01_AUS,Australia,1993,Savings,0.203034156711219
+01_AUS,Australia,1994,Savings,0.218463364095375
+01_AUS,Australia,1995,Savings,0.20605357082663597
+01_AUS,Australia,1996,Savings,0.20867817518059797
+01_AUS,Australia,1997,Savings,0.21780204262641298
+01_AUS,Australia,1998,Savings,0.21591082101526599
+01_AUS,Australia,1999,Savings,0.205938348860108
+01_AUS,Australia,2000,Savings,0.211585828443316
+01_AUS,Australia,2001,Savings,0.20707708507732
+01_AUS,Australia,2002,Savings,0.217443643675091
+01_AUS,Australia,2003,Savings,0.21047926543595502
+01_AUS,Australia,2004,Savings,0.214867186852419
+01_AUS,Australia,2005,Savings,0.209463328004775
+01_AUS,Australia,2006,Savings,0.21619792482093503
+01_AUS,Australia,2007,Savings,0.213208215222712
+01_AUS,Australia,2008,Savings,0.21845024795339
+01_AUS,Australia,2009,Savings,0.23919557892300902
+01_AUS,Australia,2010,Savings,0.21709135142117097
+01_AUS,Australia,2011,Savings,0.23162167704174197
+01_AUS,Australia,2012,Savings,0.24200411352821
+01_AUS,Australia,2013,Savings,0.237827985137743
+01_AUS,Australia,2014,Savings,0.234563274824008
+01_AUS,Australia,2015,Savings,0.22521231196962
+01_AUS,Australia,2016,Savings,0.20529640955704997
+01_AUS,Australia,2017,Savings,0.215782074482669
+01_AUS,Australia,2018,Savings,0.214012664353392
+01_AUS,Australia,2019,Savings,0.219808894845608
+01_AUS,Australia,2020,Savings,0.23232599045577298
+01_AUS,Australia,2021,Savings,0.251958520075371
+01_AUS,Australia,2022,Savings,0.249259369836481
+01_AUS,Australia,2023,Savings,0.23775385639383198
+01_AUS,Australia,2024,Savings,0.229191602790214
+01_AUS,Australia,2025,Savings,0.22155512734817598
+01_AUS,Australia,2026,Savings,0.22155512734817598
+01_AUS,Australia,2027,Savings,0.22155512734817598
+01_AUS,Australia,2028,Savings,0.22155512734817598
+01_AUS,Australia,2029,Savings,0.22155512734817598
+01_AUS,Australia,2030,Savings,0.22155512734817598
+01_AUS,Australia,2031,Savings,0.22155512734817598
+01_AUS,Australia,2032,Savings,0.22155512734817598
+01_AUS,Australia,2033,Savings,0.22155512734817598
+01_AUS,Australia,2034,Savings,0.22155512734817598
+01_AUS,Australia,2035,Savings,0.22155512734817598
+01_AUS,Australia,2036,Savings,0.22155512734817598
+01_AUS,Australia,2037,Savings,0.22155512734817598
+01_AUS,Australia,2038,Savings,0.22155512734817598
+01_AUS,Australia,2039,Savings,0.22155512734817598
+01_AUS,Australia,2040,Savings,0.22155512734817598
+01_AUS,Australia,2041,Savings,0.22155512734817598
+01_AUS,Australia,2042,Savings,0.22155512734817598
+01_AUS,Australia,2043,Savings,0.22155512734817598
+01_AUS,Australia,2044,Savings,0.22155512734817598
+01_AUS,Australia,2045,Savings,0.22155512734817598
+01_AUS,Australia,2046,Savings,0.22155512734817598
+01_AUS,Australia,2047,Savings,0.22155512734817598
+01_AUS,Australia,2048,Savings,0.22155512734817598
+01_AUS,Australia,2049,Savings,0.22155512734817598
+01_AUS,Australia,2050,Savings,0.22155512734817598
+01_AUS,Australia,2051,Savings,0.22155512734817598
+01_AUS,Australia,2052,Savings,0.22155512734817598
+01_AUS,Australia,2053,Savings,0.22155512734817598
+01_AUS,Australia,2054,Savings,0.22155512734817598
+01_AUS,Australia,2055,Savings,0.22155512734817598
+01_AUS,Australia,2056,Savings,0.22155512734817598
+01_AUS,Australia,2057,Savings,0.22155512734817598
+01_AUS,Australia,2058,Savings,0.22155512734817598
+01_AUS,Australia,2059,Savings,0.22155512734817598
+01_AUS,Australia,2060,Savings,0.22155512734817598
+01_AUS,Australia,2061,Savings,0.22155512734817598
+01_AUS,Australia,2062,Savings,0.22155512734817598
+01_AUS,Australia,2063,Savings,0.22155512734817598
+01_AUS,Australia,2064,Savings,0.22155512734817598
+01_AUS,Australia,2065,Savings,0.22155512734817598
+01_AUS,Australia,2066,Savings,0.22155512734817598
+01_AUS,Australia,2067,Savings,0.22155512734817598
+01_AUS,Australia,2068,Savings,0.22155512734817598
+01_AUS,Australia,2069,Savings,0.22155512734817598
+01_AUS,Australia,2070,Savings,0.22155512734817598
+01_AUS,Australia,2071,Savings,0.22155512734817598
+01_AUS,Australia,2072,Savings,0.22155512734817598
+01_AUS,Australia,2073,Savings,0.22155512734817598
+01_AUS,Australia,2074,Savings,0.22155512734817598
+01_AUS,Australia,2075,Savings,0.22155512734817598
+01_AUS,Australia,2076,Savings,0.22155512734817598
+01_AUS,Australia,2077,Savings,0.22155512734817598
+01_AUS,Australia,2078,Savings,0.22155512734817598
+01_AUS,Australia,2079,Savings,0.22155512734817598
+01_AUS,Australia,2080,Savings,0.22155512734817598
+01_AUS,Australia,2081,Savings,0.22155512734817598
+01_AUS,Australia,2082,Savings,0.22155512734817598
+01_AUS,Australia,2083,Savings,0.22155512734817598
+01_AUS,Australia,2084,Savings,0.22155512734817598
+01_AUS,Australia,2085,Savings,0.22155512734817598
+01_AUS,Australia,2086,Savings,0.22155512734817598
+01_AUS,Australia,2087,Savings,0.22155512734817598
+01_AUS,Australia,2088,Savings,0.22155512734817598
+01_AUS,Australia,2089,Savings,0.22155512734817598
+01_AUS,Australia,2090,Savings,0.22155512734817598
+01_AUS,Australia,2091,Savings,0.22155512734817598
+01_AUS,Australia,2092,Savings,0.22155512734817598
+01_AUS,Australia,2093,Savings,0.22155512734817598
+01_AUS,Australia,2094,Savings,0.22155512734817598
+01_AUS,Australia,2095,Savings,0.22155512734817598
+01_AUS,Australia,2096,Savings,0.22155512734817598
+01_AUS,Australia,2097,Savings,0.22155512734817598
+01_AUS,Australia,2098,Savings,0.22155512734817598
+01_AUS,Australia,2099,Savings,0.22155512734817598
+01_AUS,Australia,2100,Savings,0.22155512734817598
+01_AUS,Australia,1990,Depreciation,0.0266587734222412
+01_AUS,Australia,1991,Depreciation,0.0266145970672369
+01_AUS,Australia,1992,Depreciation,0.0265624206513166
+01_AUS,Australia,1993,Depreciation,0.0265669394284487
+01_AUS,Australia,1994,Depreciation,0.026645528152585
+01_AUS,Australia,1995,Depreciation,0.0268062464892864
+01_AUS,Australia,1996,Depreciation,0.0270403921604157
+01_AUS,Australia,1997,Depreciation,0.0273331478238106
+01_AUS,Australia,1998,Depreciation,0.0276049114763737
+01_AUS,Australia,1999,Depreciation,0.0278514698147774
+01_AUS,Australia,2000,Depreciation,0.0280478689819574
+01_AUS,Australia,2001,Depreciation,0.0282667931169271
+01_AUS,Australia,2002,Depreciation,0.028569508343935
+01_AUS,Australia,2003,Depreciation,0.0289010461419821
+01_AUS,Australia,2004,Depreciation,0.0292827058583498
+01_AUS,Australia,2005,Depreciation,0.0297582074999809
+01_AUS,Australia,2006,Depreciation,0.0302797425538301
+01_AUS,Australia,2007,Depreciation,0.0308394953608513
+01_AUS,Australia,2008,Depreciation,0.0313971936702728
+01_AUS,Australia,2009,Depreciation,0.0318343117833138
+01_AUS,Australia,2010,Depreciation,0.0321767814457417
+01_AUS,Australia,2011,Depreciation,0.0325480066239834
+01_AUS,Australia,2012,Depreciation,0.0329092144966126
+01_AUS,Australia,2013,Depreciation,0.0330710075795651
+01_AUS,Australia,2014,Depreciation,0.0330260097980499
+01_AUS,Australia,2015,Depreciation,0.0328843593597412
+01_AUS,Australia,2016,Depreciation,0.0327083803713322
+01_AUS,Australia,2017,Depreciation,0.0326015762984753
+01_AUS,Australia,2018,Depreciation,0.0325943343341351
+01_AUS,Australia,2019,Depreciation,0.0326513238251209
+01_AUS,Australia,2020,Depreciation,0.0327924713492394
+01_AUS,Australia,2021,Depreciation,0.0330823920667172
+01_AUS,Australia,2022,Depreciation,0.0334764197468758
+01_AUS,Australia,2023,Depreciation,0.0339214503765106
+01_AUS,Australia,2024,Depreciation,0.0339214503765106
+01_AUS,Australia,2025,Depreciation,0.0339214503765106
+01_AUS,Australia,2026,Depreciation,0.0339214503765106
+01_AUS,Australia,2027,Depreciation,0.0341214503765106
+01_AUS,Australia,2028,Depreciation,0.0343214503765106
+01_AUS,Australia,2029,Depreciation,0.034521450376510596
+01_AUS,Australia,2030,Depreciation,0.034721450376510594
+01_AUS,Australia,2031,Depreciation,0.03492145037651059
+01_AUS,Australia,2032,Depreciation,0.03512145037651059
+01_AUS,Australia,2033,Depreciation,0.03532145037651059
+01_AUS,Australia,2034,Depreciation,0.03552145037651059
+01_AUS,Australia,2035,Depreciation,0.03572145037651059
+01_AUS,Australia,2036,Depreciation,0.03592145037651059
+01_AUS,Australia,2037,Depreciation,0.036121450376510586
+01_AUS,Australia,2038,Depreciation,0.036321450376510585
+01_AUS,Australia,2039,Depreciation,0.036521450376510584
+01_AUS,Australia,2040,Depreciation,0.03672145037651058
+01_AUS,Australia,2041,Depreciation,0.03692145037651058
+01_AUS,Australia,2042,Depreciation,0.03712145037651058
+01_AUS,Australia,2043,Depreciation,0.03732145037651058
+01_AUS,Australia,2044,Depreciation,0.03752145037651058
+01_AUS,Australia,2045,Depreciation,0.037721450376510576
+01_AUS,Australia,2046,Depreciation,0.037921450376510575
+01_AUS,Australia,2047,Depreciation,0.038121450376510574
+01_AUS,Australia,2048,Depreciation,0.03832145037651057
+01_AUS,Australia,2049,Depreciation,0.03852145037651057
+01_AUS,Australia,2050,Depreciation,0.03872145037651057
+01_AUS,Australia,2051,Depreciation,0.03892145037651057
+01_AUS,Australia,2052,Depreciation,0.03912145037651057
+01_AUS,Australia,2053,Depreciation,0.03932145037651057
+01_AUS,Australia,2054,Depreciation,0.039521450376510565
+01_AUS,Australia,2055,Depreciation,0.039721450376510564
+01_AUS,Australia,2056,Depreciation,0.03992145037651056
+01_AUS,Australia,2057,Depreciation,0.04012145037651056
+01_AUS,Australia,2058,Depreciation,0.04032145037651056
+01_AUS,Australia,2059,Depreciation,0.04052145037651056
+01_AUS,Australia,2060,Depreciation,0.04072145037651056
+01_AUS,Australia,2061,Depreciation,0.04092145037651056
+01_AUS,Australia,2062,Depreciation,0.041121450376510556
+01_AUS,Australia,2063,Depreciation,0.041321450376510555
+01_AUS,Australia,2064,Depreciation,0.04152145037651055
+01_AUS,Australia,2065,Depreciation,0.04172145037651055
+01_AUS,Australia,2066,Depreciation,0.04192145037651055
+01_AUS,Australia,2067,Depreciation,0.04212145037651055
+01_AUS,Australia,2068,Depreciation,0.04232145037651055
+01_AUS,Australia,2069,Depreciation,0.04252145037651055
+01_AUS,Australia,2070,Depreciation,0.042721450376510546
+01_AUS,Australia,2071,Depreciation,0.042921450376510545
+01_AUS,Australia,2072,Depreciation,0.043121450376510544
+01_AUS,Australia,2073,Depreciation,0.04332145037651054
+01_AUS,Australia,2074,Depreciation,0.04352145037651054
+01_AUS,Australia,2075,Depreciation,0.04372145037651054
+01_AUS,Australia,2076,Depreciation,0.04392145037651054
+01_AUS,Australia,2077,Depreciation,0.04412145037651054
+01_AUS,Australia,2078,Depreciation,0.04412145037651054
+01_AUS,Australia,2079,Depreciation,0.04412145037651054
+01_AUS,Australia,2080,Depreciation,0.04412145037651054
+01_AUS,Australia,2081,Depreciation,0.04412145037651054
+01_AUS,Australia,2082,Depreciation,0.04412145037651054
+01_AUS,Australia,2083,Depreciation,0.04412145037651054
+01_AUS,Australia,2084,Depreciation,0.04412145037651054
+01_AUS,Australia,2085,Depreciation,0.04412145037651054
+01_AUS,Australia,2086,Depreciation,0.04412145037651054
+01_AUS,Australia,2087,Depreciation,0.04412145037651054
+01_AUS,Australia,2088,Depreciation,0.04412145037651054
+01_AUS,Australia,2089,Depreciation,0.04412145037651054
+01_AUS,Australia,2090,Depreciation,0.04412145037651054
+01_AUS,Australia,2091,Depreciation,0.04412145037651054
+01_AUS,Australia,2092,Depreciation,0.04412145037651054
+01_AUS,Australia,2093,Depreciation,0.04412145037651054
+01_AUS,Australia,2094,Depreciation,0.04412145037651054
+01_AUS,Australia,2095,Depreciation,0.04412145037651054
+01_AUS,Australia,2096,Depreciation,0.04412145037651054
+01_AUS,Australia,2097,Depreciation,0.04412145037651054
+01_AUS,Australia,2098,Depreciation,0.04412145037651054
+01_AUS,Australia,2099,Depreciation,0.04412145037651054
+01_AUS,Australia,2100,Depreciation,0.04412145037651054
+01_AUS,Australia,1990,WDI GDP through 2025,618913.6434465031
+01_AUS,Australia,1991,WDI GDP through 2025,616533.1075007679
+01_AUS,Australia,1992,WDI GDP through 2025,619203.1019303941
+01_AUS,Australia,1993,WDI GDP through 2025,644255.029953675
+01_AUS,Australia,1994,WDI GDP through 2025,669888.9347595761
+01_AUS,Australia,1995,WDI GDP through 2025,695948.765791245
+01_AUS,Australia,1996,WDI GDP through 2025,722851.8817928929
+01_AUS,Australia,1997,WDI GDP through 2025,751172.915991526
+01_AUS,Australia,1998,WDI GDP through 2025,786303.874098678
+01_AUS,Australia,1999,WDI GDP through 2025,825840.965575829
+01_AUS,Australia,2000,WDI GDP through 2025,858181.3725486491
+01_AUS,Australia,2001,WDI GDP through 2025,875614.973582609
+01_AUS,Australia,2002,WDI GDP through 2025,910200.060722256
+01_AUS,Australia,2003,WDI GDP through 2025,938336.894067504
+01_AUS,Australia,2004,WDI GDP through 2025,977924.778471004
+01_AUS,Australia,2005,WDI GDP through 2025,1008783.01113519
+01_AUS,Australia,2006,WDI GDP through 2025,1036735.64362706
+01_AUS,Australia,2007,WDI GDP through 2025,1076022.44225027
+01_AUS,Australia,2008,WDI GDP through 2025,1115017.33453773
+01_AUS,Australia,2009,WDI GDP through 2025,1136814.23153392
+01_AUS,Australia,2010,WDI GDP through 2025,1161938.37118743
+01_AUS,Australia,2011,WDI GDP through 2025,1189763.71538194
+01_AUS,Australia,2012,WDI GDP through 2025,1236788.78573622
+01_AUS,Australia,2013,WDI GDP through 2025,1269618.76308348
+01_AUS,Australia,2014,WDI GDP through 2025,1302643.95661756
+01_AUS,Australia,2015,WDI GDP through 2025,1330837.70251883
+01_AUS,Australia,2016,WDI GDP through 2025,1367510.80730548
+01_AUS,Australia,2017,WDI GDP through 2025,1398872.07352942
+01_AUS,Australia,2018,WDI GDP through 2025,1439078.04053065
+01_AUS,Australia,2019,WDI GDP through 2025,1470651.6579045
+01_AUS,Australia,2020,WDI GDP through 2025,1468687.86874001
+01_AUS,Australia,2021,WDI GDP through 2025,1498163.67705936
+01_AUS,Australia,2022,WDI GDP through 2025,1561881.26129328
+01_AUS,Australia,2023,WDI GDP through 2025,1617856.2900553702
+01_AUS,Australia,2024,WDI GDP through 2025,1640076.05346249
+01_AUS,Australia,2025,WDI GDP through 2025,1662223.60523938
+01_AUS,Australia,2026,WDI GDP through 2025,
+01_AUS,Australia,2027,WDI GDP through 2025,
+01_AUS,Australia,2028,WDI GDP through 2025,
+01_AUS,Australia,2029,WDI GDP through 2025,
+01_AUS,Australia,2030,WDI GDP through 2025,
+01_AUS,Australia,2031,WDI GDP through 2025,
+01_AUS,Australia,2032,WDI GDP through 2025,
+01_AUS,Australia,2033,WDI GDP through 2025,
+01_AUS,Australia,2034,WDI GDP through 2025,
+01_AUS,Australia,2035,WDI GDP through 2025,
+01_AUS,Australia,2036,WDI GDP through 2025,
+01_AUS,Australia,2037,WDI GDP through 2025,
+01_AUS,Australia,2038,WDI GDP through 2025,
+01_AUS,Australia,2039,WDI GDP through 2025,
+01_AUS,Australia,2040,WDI GDP through 2025,
+01_AUS,Australia,2041,WDI GDP through 2025,
+01_AUS,Australia,2042,WDI GDP through 2025,
+01_AUS,Australia,2043,WDI GDP through 2025,
+01_AUS,Australia,2044,WDI GDP through 2025,
+01_AUS,Australia,2045,WDI GDP through 2025,
+01_AUS,Australia,2046,WDI GDP through 2025,
+01_AUS,Australia,2047,WDI GDP through 2025,
+01_AUS,Australia,2048,WDI GDP through 2025,
+01_AUS,Australia,2049,WDI GDP through 2025,
+01_AUS,Australia,2050,WDI GDP through 2025,
+01_AUS,Australia,2051,WDI GDP through 2025,
+01_AUS,Australia,2052,WDI GDP through 2025,
+01_AUS,Australia,2053,WDI GDP through 2025,
+01_AUS,Australia,2054,WDI GDP through 2025,
+01_AUS,Australia,2055,WDI GDP through 2025,
+01_AUS,Australia,2056,WDI GDP through 2025,
+01_AUS,Australia,2057,WDI GDP through 2025,
+01_AUS,Australia,2058,WDI GDP through 2025,
+01_AUS,Australia,2059,WDI GDP through 2025,
+01_AUS,Australia,2060,WDI GDP through 2025,
+01_AUS,Australia,2061,WDI GDP through 2025,
+01_AUS,Australia,2062,WDI GDP through 2025,
+01_AUS,Australia,2063,WDI GDP through 2025,
+01_AUS,Australia,2064,WDI GDP through 2025,
+01_AUS,Australia,2065,WDI GDP through 2025,
+01_AUS,Australia,2066,WDI GDP through 2025,
+01_AUS,Australia,2067,WDI GDP through 2025,
+01_AUS,Australia,2068,WDI GDP through 2025,
+01_AUS,Australia,2069,WDI GDP through 2025,
+01_AUS,Australia,2070,WDI GDP through 2025,
+01_AUS,Australia,2071,WDI GDP through 2025,
+01_AUS,Australia,2072,WDI GDP through 2025,
+01_AUS,Australia,2073,WDI GDP through 2025,
+01_AUS,Australia,2074,WDI GDP through 2025,
+01_AUS,Australia,2075,WDI GDP through 2025,
+01_AUS,Australia,2076,WDI GDP through 2025,
+01_AUS,Australia,2077,WDI GDP through 2025,
+01_AUS,Australia,2078,WDI GDP through 2025,
+01_AUS,Australia,2079,WDI GDP through 2025,
+01_AUS,Australia,2080,WDI GDP through 2025,
+01_AUS,Australia,2081,WDI GDP through 2025,
+01_AUS,Australia,2082,WDI GDP through 2025,
+01_AUS,Australia,2083,WDI GDP through 2025,
+01_AUS,Australia,2084,WDI GDP through 2025,
+01_AUS,Australia,2085,WDI GDP through 2025,
+01_AUS,Australia,2086,WDI GDP through 2025,
+01_AUS,Australia,2087,WDI GDP through 2025,
+01_AUS,Australia,2088,WDI GDP through 2025,
+01_AUS,Australia,2089,WDI GDP through 2025,
+01_AUS,Australia,2090,WDI GDP through 2025,
+01_AUS,Australia,2091,WDI GDP through 2025,
+01_AUS,Australia,2092,WDI GDP through 2025,
+01_AUS,Australia,2093,WDI GDP through 2025,
+01_AUS,Australia,2094,WDI GDP through 2025,
+01_AUS,Australia,2095,WDI GDP through 2025,
+01_AUS,Australia,2096,WDI GDP through 2025,
+01_AUS,Australia,2097,WDI GDP through 2025,
+01_AUS,Australia,2098,WDI GDP through 2025,
+01_AUS,Australia,2099,WDI GDP through 2025,
+01_AUS,Australia,2100,WDI GDP through 2025,
+01_AUS,Australia,1990,APERC GDP projections,
+01_AUS,Australia,1991,APERC GDP projections,
+01_AUS,Australia,1992,APERC GDP projections,
+01_AUS,Australia,1993,APERC GDP projections,
+01_AUS,Australia,1994,APERC GDP projections,
+01_AUS,Australia,1995,APERC GDP projections,
+01_AUS,Australia,1996,APERC GDP projections,
+01_AUS,Australia,1997,APERC GDP projections,
+01_AUS,Australia,1998,APERC GDP projections,
+01_AUS,Australia,1999,APERC GDP projections,
+01_AUS,Australia,2000,APERC GDP projections,
+01_AUS,Australia,2001,APERC GDP projections,
+01_AUS,Australia,2002,APERC GDP projections,
+01_AUS,Australia,2003,APERC GDP projections,
+01_AUS,Australia,2004,APERC GDP projections,
+01_AUS,Australia,2005,APERC GDP projections,
+01_AUS,Australia,2006,APERC GDP projections,
+01_AUS,Australia,2007,APERC GDP projections,
+01_AUS,Australia,2008,APERC GDP projections,
+01_AUS,Australia,2009,APERC GDP projections,
+01_AUS,Australia,2010,APERC GDP projections,
+01_AUS,Australia,2011,APERC GDP projections,
+01_AUS,Australia,2012,APERC GDP projections,
+01_AUS,Australia,2013,APERC GDP projections,
+01_AUS,Australia,2014,APERC GDP projections,
+01_AUS,Australia,2015,APERC GDP projections,
+01_AUS,Australia,2016,APERC GDP projections,
+01_AUS,Australia,2017,APERC GDP projections,
+01_AUS,Australia,2018,APERC GDP projections,
+01_AUS,Australia,2019,APERC GDP projections,
+01_AUS,Australia,2020,APERC GDP projections,
+01_AUS,Australia,2021,APERC GDP projections,
+01_AUS,Australia,2022,APERC GDP projections,
+01_AUS,Australia,2023,APERC GDP projections,
+01_AUS,Australia,2024,APERC GDP projections,
+01_AUS,Australia,2025,APERC GDP projections,
+01_AUS,Australia,2026,APERC GDP projections,1695481.2304040217
+01_AUS,Australia,2027,APERC GDP projections,1728916.918518987
+01_AUS,Australia,2028,APERC GDP projections,1763175.0950062273
+01_AUS,Australia,2029,APERC GDP projections,1797935.8438102305
+01_AUS,Australia,2030,APERC GDP projections,1833986.8894833964
+01_AUS,Australia,2031,APERC GDP projections,1871376.7924447374
+01_AUS,Australia,2032,APERC GDP projections,1909316.9409995798
+01_AUS,Australia,2033,APERC GDP projections,1947790.0834008073
+01_AUS,Australia,2034,APERC GDP projections,1986122.9464564722
+01_AUS,Australia,2035,APERC GDP projections,2025820.390605213
+01_AUS,Australia,2036,APERC GDP projections,2066327.9784659236
+01_AUS,Australia,2037,APERC GDP projections,2107568.0893589864
+01_AUS,Australia,2038,APERC GDP projections,2149265.379122804
+01_AUS,Australia,2039,APERC GDP projections,2191949.183732016
+01_AUS,Australia,2040,APERC GDP projections,2235160.726774597
+01_AUS,Australia,2041,APERC GDP projections,2279358.09162877
+01_AUS,Australia,2042,APERC GDP projections,2324550.314830238
+01_AUS,Australia,2043,APERC GDP projections,2370727.7645376236
+01_AUS,Australia,2044,APERC GDP projections,2417646.0423004352
+01_AUS,Australia,2045,APERC GDP projections,2465424.9123280435
+01_AUS,Australia,2046,APERC GDP projections,2514257.5943380767
+01_AUS,Australia,2047,APERC GDP projections,2564289.6998185255
+01_AUS,Australia,2048,APERC GDP projections,2614704.6275368244
+01_AUS,Australia,2049,APERC GDP projections,2666666.909144255
+01_AUS,Australia,2050,APERC GDP projections,2719105.353342105
+01_AUS,Australia,2051,APERC GDP projections,2772609.906955559
+01_AUS,Australia,2052,APERC GDP projections,2827127.196464427
+01_AUS,Australia,2053,APERC GDP projections,2882546.4872759166
+01_AUS,Australia,2054,APERC GDP projections,2939175.922057946
+01_AUS,Australia,2055,APERC GDP projections,2997209.791294764
+01_AUS,Australia,2056,APERC GDP projections,3056606.5317280814
+01_AUS,Australia,2057,APERC GDP projections,3117072.553114347
+01_AUS,Australia,2058,APERC GDP projections,3178948.1160729546
+01_AUS,Australia,2059,APERC GDP projections,3242617.030130808
+01_AUS,Australia,2060,APERC GDP projections,3307162.842144743
+01_AUS,Australia,2061,APERC GDP projections,3373156.711463752
+01_AUS,Australia,2062,APERC GDP projections,3440866.2737612417
+01_AUS,Australia,2063,APERC GDP projections,3510142.0284348964
+01_AUS,Australia,2064,APERC GDP projections,3581104.9864327055
+01_AUS,Australia,2065,APERC GDP projections,3653039.7821350116
+01_AUS,Australia,2066,APERC GDP projections,3726882.1373932236
+01_AUS,Australia,2067,APERC GDP projections,3802799.3310649106
+01_AUS,Australia,2068,APERC GDP projections,3880416.081588626
+01_AUS,Australia,2069,APERC GDP projections,3959750.4359715236
+01_AUS,Australia,2070,APERC GDP projections,4040671.1977273985
+01_AUS,Australia,2071,APERC GDP projections,4122971.3179107644
+01_AUS,Australia,2072,APERC GDP projections,4206559.960385015
+01_AUS,Australia,2073,APERC GDP projections,4291904.242721424
+01_AUS,Australia,2074,APERC GDP projections,4379127.285457202
+01_AUS,Australia,2075,APERC GDP projections,4468316.56779631
+01_AUS,Australia,2076,APERC GDP projections,4559198.028354841
+01_AUS,Australia,2077,APERC GDP projections,4651793.026876618
+01_AUS,Australia,2078,APERC GDP projections,4746975.438785007
+01_AUS,Australia,2079,APERC GDP projections,4844353.699677667
+01_AUS,Australia,2080,APERC GDP projections,4944018.378027089
+01_AUS,Australia,2081,APERC GDP projections,5046045.4030163875
+01_AUS,Australia,2082,APERC GDP projections,5151172.783481144
+01_AUS,Australia,2083,APERC GDP projections,5258386.162530081
+01_AUS,Australia,2084,APERC GDP projections,5368698.711421875
+01_AUS,Australia,2085,APERC GDP projections,5480908.941642857
+01_AUS,Australia,2086,APERC GDP projections,5595980.460363224
+01_AUS,Australia,2087,APERC GDP projections,5714347.317478042
+01_AUS,Australia,2088,APERC GDP projections,5836143.197897969
+01_AUS,Australia,2089,APERC GDP projections,5961838.620679397
+01_AUS,Australia,2090,APERC GDP projections,6090127.303142024
+01_AUS,Australia,2091,APERC GDP projections,6222180.894505046
+01_AUS,Australia,2092,APERC GDP projections,6357603.716738712
+01_AUS,Australia,2093,APERC GDP projections,6496091.116990803
+01_AUS,Australia,2094,APERC GDP projections,6637820.009084634
+01_AUS,Australia,2095,APERC GDP projections,6782063.0043674195
+01_AUS,Australia,2096,APERC GDP projections,6930294.497361759
+01_AUS,Australia,2097,APERC GDP projections,7082770.9675916545
+01_AUS,Australia,2098,APERC GDP projections,7239350.0363993775
+01_AUS,Australia,2099,APERC GDP projections,7398600.083363046
+01_AUS,Australia,2100,APERC GDP projections,7561129.60158825
+01_AUS,Australia,1990,9th Outlook projections (rebased to 2021 PPP USD),612064.4044803015
+01_AUS,Australia,1991,9th Outlook projections (rebased to 2021 PPP USD),605953.5029391164
+01_AUS,Australia,1992,9th Outlook projections (rebased to 2021 PPP USD),621482.0104623733
+01_AUS,Australia,1993,9th Outlook projections (rebased to 2021 PPP USD),645944.8012344415
+01_AUS,Australia,1994,9th Outlook projections (rebased to 2021 PPP USD),677225.150854998
+01_AUS,Australia,1995,9th Outlook projections (rebased to 2021 PPP USD),697272.7522181849
+01_AUS,Australia,1996,9th Outlook projections (rebased to 2021 PPP USD),725363.1620864028
+01_AUS,Australia,1997,9th Outlook projections (rebased to 2021 PPP USD),758766.1905592511
+01_AUS,Australia,1998,9th Outlook projections (rebased to 2021 PPP USD),794062.3399951287
+01_AUS,Australia,1999,9th Outlook projections (rebased to 2021 PPP USD),828562.9316434457
+01_AUS,Australia,2000,9th Outlook projections (rebased to 2021 PPP USD),854246.527013509
+01_AUS,Australia,2001,9th Outlook projections (rebased to 2021 PPP USD),877003.9495278484
+01_AUS,Australia,2002,9th Outlook projections (rebased to 2021 PPP USD),913565.4120640458
+01_AUS,Australia,2003,9th Outlook projections (rebased to 2021 PPP USD),941136.8554956765
+01_AUS,Australia,2004,9th Outlook projections (rebased to 2021 PPP USD),979817.9789352212
+01_AUS,Australia,2005,9th Outlook projections (rebased to 2021 PPP USD),1009201.95529288
+01_AUS,Australia,2006,9th Outlook projections (rebased to 2021 PPP USD),1035459.5331785277
+01_AUS,Australia,2007,9th Outlook projections (rebased to 2021 PPP USD),1080657.5429587348
+01_AUS,Australia,2008,9th Outlook projections (rebased to 2021 PPP USD),1108370.3291883555
+01_AUS,Australia,2009,9th Outlook projections (rebased to 2021 PPP USD),1129551.3566538126
+01_AUS,Australia,2010,9th Outlook projections (rebased to 2021 PPP USD),1157056.9523898282
+01_AUS,Australia,2011,9th Outlook projections (rebased to 2021 PPP USD),1189777.4200095204
+01_AUS,Australia,2012,9th Outlook projections (rebased to 2021 PPP USD),1234724.9171776606
+01_AUS,Australia,2013,9th Outlook projections (rebased to 2021 PPP USD),1261991.0735724487
+01_AUS,Australia,2014,9th Outlook projections (rebased to 2021 PPP USD),1294180.549327223
+01_AUS,Australia,2015,9th Outlook projections (rebased to 2021 PPP USD),1324147.3821484016
+01_AUS,Australia,2016,9th Outlook projections (rebased to 2021 PPP USD),1359910.165479053
+01_AUS,Australia,2017,9th Outlook projections (rebased to 2021 PPP USD),1392215.150661058
+01_AUS,Australia,2018,9th Outlook projections (rebased to 2021 PPP USD),1430925.62077636
+01_AUS,Australia,2019,9th Outlook projections (rebased to 2021 PPP USD),1459277.0577176658
+01_AUS,Australia,2020,9th Outlook projections (rebased to 2021 PPP USD),1428094.229582106
+01_AUS,Australia,2021,9th Outlook projections (rebased to 2021 PPP USD),1498163.67705936
+01_AUS,Australia,2022,9th Outlook projections (rebased to 2021 PPP USD),1554344.6855718803
+01_AUS,Australia,2023,9th Outlook projections (rebased to 2021 PPP USD),1583704.3338080042
+01_AUS,Australia,2024,9th Outlook projections (rebased to 2021 PPP USD),1612242.5063034345
+01_AUS,Australia,2025,9th Outlook projections (rebased to 2021 PPP USD),1644670.982227819
+01_AUS,Australia,2026,9th Outlook projections (rebased to 2021 PPP USD),1680036.3617371344
+01_AUS,Australia,2027,9th Outlook projections (rebased to 2021 PPP USD),1718355.8094372316
+01_AUS,Australia,2028,9th Outlook projections (rebased to 2021 PPP USD),1756544.5515957214
+01_AUS,Australia,2029,9th Outlook projections (rebased to 2021 PPP USD),1794194.723568515
+01_AUS,Australia,2030,9th Outlook projections (rebased to 2021 PPP USD),1833546.2399245522
+01_AUS,Australia,2031,9th Outlook projections (rebased to 2021 PPP USD),1873003.8706054285
+01_AUS,Australia,2032,9th Outlook projections (rebased to 2021 PPP USD),1914969.48028641
+01_AUS,Australia,2033,9th Outlook projections (rebased to 2021 PPP USD),1956478.523708701
+01_AUS,Australia,2034,9th Outlook projections (rebased to 2021 PPP USD),1998984.5015807406
+01_AUS,Australia,2035,9th Outlook projections (rebased to 2021 PPP USD),2042879.5577741056
+01_AUS,Australia,2036,9th Outlook projections (rebased to 2021 PPP USD),2087982.4761631256
+01_AUS,Australia,2037,9th Outlook projections (rebased to 2021 PPP USD),2134256.6884447713
+01_AUS,Australia,2038,9th Outlook projections (rebased to 2021 PPP USD),2181653.1839270866
+01_AUS,Australia,2039,9th Outlook projections (rebased to 2021 PPP USD),2230327.459657438
+01_AUS,Australia,2040,9th Outlook projections (rebased to 2021 PPP USD),2280479.3826566534
+01_AUS,Australia,2041,9th Outlook projections (rebased to 2021 PPP USD),2331530.9344232175
+01_AUS,Australia,2042,9th Outlook projections (rebased to 2021 PPP USD),2383504.982889417
+01_AUS,Australia,2043,9th Outlook projections (rebased to 2021 PPP USD),2436489.562949762
+01_AUS,Australia,2044,9th Outlook projections (rebased to 2021 PPP USD),2490473.028877621
+01_AUS,Australia,2045,9th Outlook projections (rebased to 2021 PPP USD),2545471.416826891
+01_AUS,Australia,2046,9th Outlook projections (rebased to 2021 PPP USD),2601483.4341786224
+01_AUS,Australia,2047,9th Outlook projections (rebased to 2021 PPP USD),2658525.7892070995
+01_AUS,Australia,2048,9th Outlook projections (rebased to 2021 PPP USD),2716615.1877265424
+01_AUS,Australia,2049,9th Outlook projections (rebased to 2021 PPP USD),2775750.10844983
+01_AUS,Australia,2050,9th Outlook projections (rebased to 2021 PPP USD),2835983.199393504
+01_AUS,Australia,2051,9th Outlook projections (rebased to 2021 PPP USD),2897348.193885823
+01_AUS,Australia,2052,9th Outlook projections (rebased to 2021 PPP USD),2959908.9284390816
+01_AUS,Australia,2053,9th Outlook projections (rebased to 2021 PPP USD),3023773.675161787
+01_AUS,Australia,2054,9th Outlook projections (rebased to 2021 PPP USD),3089034.1621493674
+01_AUS,Australia,2055,9th Outlook projections (rebased to 2021 PPP USD),3155667.7051610234
+01_AUS,Australia,2056,9th Outlook projections (rebased to 2021 PPP USD),3223699.749651047
+01_AUS,Australia,2057,9th Outlook projections (rebased to 2021 PPP USD),3293210.4730713707
+01_AUS,Australia,2058,9th Outlook projections (rebased to 2021 PPP USD),3364370.997591922
+01_AUS,Australia,2059,9th Outlook projections (rebased to 2021 PPP USD),3437027.1824529506
+01_AUS,Australia,2060,9th Outlook projections (rebased to 2021 PPP USD),3511305.65781778
+01_AUS,Australia,2061,9th Outlook projections (rebased to 2021 PPP USD),3587188.410224863
+01_AUS,Australia,2062,9th Outlook projections (rebased to 2021 PPP USD),3664814.466204923
+01_AUS,Australia,2063,9th Outlook projections (rebased to 2021 PPP USD),3744068.237562721
+01_AUS,Australia,2064,9th Outlook projections (rebased to 2021 PPP USD),3825048.2569025815
+01_AUS,Australia,2065,9th Outlook projections (rebased to 2021 PPP USD),3907715.224530548
+01_AUS,Australia,2066,9th Outlook projections (rebased to 2021 PPP USD),3992156.311325517
+01_AUS,Australia,2067,9th Outlook projections (rebased to 2021 PPP USD),4078305.2483388726
+01_AUS,Australia,2068,9th Outlook projections (rebased to 2021 PPP USD),4166144.97366431
+01_AUS,Australia,2069,9th Outlook projections (rebased to 2021 PPP USD),4255860.701900582
+01_AUS,Australia,2070,9th Outlook projections (rebased to 2021 PPP USD),4347393.499019391
+01_AUS,Australia,2071,9th Outlook projections (rebased to 2021 PPP USD),4440624.521789819
+01_AUS,Australia,2072,9th Outlook projections (rebased to 2021 PPP USD),4535549.44460575
+01_AUS,Australia,2073,9th Outlook projections (rebased to 2021 PPP USD),4632244.4964297535
+01_AUS,Australia,2074,9th Outlook projections (rebased to 2021 PPP USD),4730819.021308099
+01_AUS,Australia,2075,9th Outlook projections (rebased to 2021 PPP USD),4831260.112416432
+01_AUS,Australia,2076,9th Outlook projections (rebased to 2021 PPP USD),4933592.692345492
+01_AUS,Australia,2077,9th Outlook projections (rebased to 2021 PPP USD),5037775.621595243
+01_AUS,Australia,2078,9th Outlook projections (rebased to 2021 PPP USD),5143832.157501199
+01_AUS,Australia,2079,9th Outlook projections (rebased to 2021 PPP USD),5251873.3263874855
+01_AUS,Australia,2080,9th Outlook projections (rebased to 2021 PPP USD),5361944.227709318
+01_AUS,Australia,2081,9th Outlook projections (rebased to 2021 PPP USD),5474201.130107497
+01_AUS,Australia,2082,9th Outlook projections (rebased to 2021 PPP USD),5588544.881829878
+01_AUS,Australia,2083,9th Outlook projections (rebased to 2021 PPP USD),5705494.706468192
+01_AUS,Australia,2084,9th Outlook projections (rebased to 2021 PPP USD),5825170.3851144565
+01_AUS,Australia,2085,9th Outlook projections (rebased to 2021 PPP USD),5947817.732026246
+01_AUS,Australia,2086,9th Outlook projections (rebased to 2021 PPP USD),6073634.558093623
+01_AUS,Australia,2087,9th Outlook projections (rebased to 2021 PPP USD),6202360.278884557
+01_AUS,Australia,2088,9th Outlook projections (rebased to 2021 PPP USD),6334327.321479347
+01_AUS,Australia,2089,9th Outlook projections (rebased to 2021 PPP USD),6469514.278891658
+01_AUS,Australia,2090,9th Outlook projections (rebased to 2021 PPP USD),6608137.631037632
+01_AUS,Australia,2091,9th Outlook projections (rebased to 2021 PPP USD),6750423.51578038
+01_AUS,Australia,2092,9th Outlook projections (rebased to 2021 PPP USD),6896435.374103701
+01_AUS,Australia,2093,9th Outlook projections (rebased to 2021 PPP USD),7046229.5340289725
+01_AUS,Australia,2094,9th Outlook projections (rebased to 2021 PPP USD),7200076.639262567
+01_AUS,Australia,2095,9th Outlook projections (rebased to 2021 PPP USD),7357829.29658941
+01_AUS,Australia,2096,9th Outlook projections (rebased to 2021 PPP USD),7519596.530945959
+01_AUS,Australia,2097,9th Outlook projections (rebased to 2021 PPP USD),7685721.020951324
+01_AUS,Australia,2098,9th Outlook projections (rebased to 2021 PPP USD),7855860.6146867005
+01_AUS,Australia,2099,9th Outlook projections (rebased to 2021 PPP USD),8030087.517523824
+01_AUS,Australia,2100,9th Outlook projections (rebased to 2021 PPP USD),8208857.56680458
