@@ -1,0 +1,721 @@
+economy_code,economy,variable,year,value,percent,source
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1990,36267.7410592234,,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1991,35670.6678637309,-0.016462927606037292,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1992,35426.2848289008,-0.006851092212898591,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1993,36533.1468283451,0.03124408909345533,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1994,37622.6524772939,0.02982238716166319,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1995,38653.3366778657,0.02739530928059475,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1996,39663.1617728168,0.026125172669229313,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1997,40773.5660516518,0.02799585885752598,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1998,42257.1718122395,0.03638646074538299,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",1999,43899.073794405,0.03885498985736491,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2000,45099.0752097084,0.027335460901144026,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2001,45428.2000837579,0.007297818691826663,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2002,46688.3947760633,0.027740361493123755,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2003,47581.2285345879,0.019123248139221616,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2004,49061.2761503925,0.031105704106162868,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2005,49997.0664953941,0.019073909576526882,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2006,50693.7248649798,0.013933984899891616,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2007,51663.2403953881,0.01912496138310127,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2008,52473.3819160773,0.015681198362492044,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2009,52407.9115378584,-0.001247687414613452,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2010,52739.2681556133,0.006322644960113255,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2011,53257.0473237603,0.009817716215159367,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2012,54403.8836902433,0.021533983277577384,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2013,54895.0052588984,0.009027325538951914,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2014,55489.068844146,0.010821814889093284,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2015,55879.9958817103,0.00704511799724572,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2016,56529.951824687,0.011631281153859696,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2017,56881.8569859104,0.006225109872988188,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2018,57647.8455068105,0.013466306507711856,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2019,58048.6188420831,0.0069520956377329135,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2020,57260.4650530108,-0.013577477032079233,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2021,58327.4146842325,0.01863326870003479,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2022,60029.1329190733,0.02917527279502119,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2023,60684.9596204883,0.010925140336428552,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2024,60309.5831772339,-0.006185658614620948,WDI
+01_AUS,Australia,"Gross domestic product per capita, constant prices",2025,60194.0633547961,-0.0019154472034456083,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1990,118163.68336994,,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1991,118220.68359533,0.00048238362045260885,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1992,111457.220883519,-0.05721048556073638,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1993,107899.136339239,-0.03192332014090371,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1994,106239.232694338,-0.015383845517374706,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1995,105043.853097683,-0.011251771745135364,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1996,102522.125418121,-0.024006427841303357,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1997,106503.420270796,0.0388335184862576,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1998,97171.6372551031,-0.08761956181281205,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",1999,99083.3205282422,0.019673264001103474,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2000,100323.439918528,0.012515924816350221,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2001,99680.7626777537,-0.006406052676186436,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2002,101571.583784666,0.018968766451205044,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2003,103226.914446986,0.01629718274187142,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2004,101497.754798655,-0.01675105429232837,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2005,99795.6850854526,-0.016769530681529532,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2006,102248.510300567,0.024578469630366362,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2007,96752.6204091885,-0.05375031748846926,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2008,91275.5000919182,-0.05660952947947384,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2009,87875.8283546044,-0.03724626798965991,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2010,88586.5133683924,0.008087377690713549,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2011,90279.6634042123,0.019112954911983282,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2012,89718.4636049982,-0.00621623716851305,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2013,86606.6518910199,-0.034684184157216635,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2014,83310.6151819533,-0.03805754681769835,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2015,81910.1882959493,-0.016809705257192276,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2016,78880.6228501768,-0.0369864300009467,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2017,78966.8643142346,0.0010933162155881693,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2018,78099.0507802561,-0.01098959090644891,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2019,80228.1598170527,0.02726165062859942,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2020,80280.8980640677,0.0006573533175291413,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2021,78248.797127611,-0.025312384209192462,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2022,76357.829114996,-0.024166096886206967,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2023,76616.7014884981,0.003390253186903003,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2024,79071.7333801445,0.032043038188154904,WDI
+02_BD,Brunei Darussalam,"Gross domestic product per capita, constant prices",2025,78985.122026951,-0.0010953516445265654,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1990,40475.096436631,,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1991,39139.2968301857,-0.033002999969046765,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1992,39023.1668132004,-0.0029670951292037895,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1993,39622.4634110923,0.015357456783573475,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1994,40952.1197737093,0.0335581447529274,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1995,41617.706919569,0.016252813029888458,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1996,41880.535589577,0.006315308782291806,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1997,43241.2236471729,0.03248974824320405,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1998,44553.2651715658,0.030342377336462834,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",1999,46464.5274488374,0.04289836603247155,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2000,48399.2864445547,0.04163948504259918,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2001,48774.1483226516,0.007745194312447801,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2002,49694.9870914363,0.01887964834758682,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2003,50139.7664579994,0.008950185775171482,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2004,51210.6593966138,0.021358155696864944,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2005,52356.5371486354,0.022375766403378128,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2006,53195.7608573851,0.01602901479842389,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2007,53761.8407991685,0.010641448353394756,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2008,53711.6580329654,-0.0009334272312319092,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2009,51552.4020321975,-0.04020088151891843,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2010,52558.4200617806,0.019514474397425374,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2011,53681.1084809345,0.02136077183892171,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2012,54034.7821680318,0.006588419969437043,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2013,54712.1568593677,0.012535901213212464,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2014,55723.4615652506,0.018484095015343094,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2015,55660.8455840759,-0.0011236915190809826,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2016,55606.1329948184,-0.0009829636737166414,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2017,56612.3062191777,0.01809464478411149,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2018,57337.4682870033,0.012809265621825938,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2019,57583.8230739204,0.0042965759437436635,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2020,54092.8576890836,-0.06062406416391364,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2021,56995.0952020711,0.05365287834614052,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2022,58583.1299860138,0.02786265692359091,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2023,58088.3778077995,-0.008445301204159317,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2024,57534.0915185335,-0.009542120303307478,WDI
+03_CDA,Canada,"Gross domestic product per capita, constant prices",2025,57989.5784653558,0.007916818268966175,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1990,10955.2486481454,,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1991,11610.2783301649,0.05979140255574111,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1992,12738.6163157023,0.09718440449492438,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1993,13380.4722185057,0.05038662652961867,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1994,13849.6261008096,0.03506258035161447,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1995,14911.5640742268,0.07667629188596825,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1996,15748.4653555533,0.05612431245713534,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1997,16687.855593506,0.05964963675787294,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1998,17161.0335564475,0.02835462952625467,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",1999,16900.1244018472,-0.015203580468629463,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2000,17529.4205997692,0.037236187317841285,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2001,17874.5313866938,0.019687518190369957,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2002,18244.5196827315,0.020699188584777595,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2003,18907.3458745755,0.03633015301966913,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2004,19966.7093106095,0.056029198548618764,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2005,20923.479756183,0.04791828391397002,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2006,21973.7382914389,0.0501952135827477,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2007,22884.2997108846,0.04143862129278464,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2008,23515.3473178269,0.027575569928502297,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2009,23019.0299454094,-0.02110610426924231,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2010,24122.4787924386,0.04793637480146118,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2011,25372.2741480772,0.051810403333440114,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2012,26676.8110154019,0.051415843125105276,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2013,27297.8185145366,0.02327892560981737,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2014,27511.5610030404,0.007830020863754283,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2015,27817.9584848024,0.011137044594748291,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2016,27965.3473526831,0.005298335172986279,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2017,27899.5979777012,-0.0023511016742508994,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2018,28499.4064000406,0.021498819546388992,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2019,28227.9790507594,-0.009523965007243507,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2020,26258.4038553242,-0.06977386485562864,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2021,29106.6356522053,0.1084693423322296,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2022,29560.4513805785,0.015591486896522122,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2023,29600.4188613168,0.0013520592166789136,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2024,30267.6440919907,0.022541073955742563,WDI
+04_CHL,Chile,"Gross domestic product per capita, constant prices",2025,30863.4223155169,0.019683666879241946,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1990,1666.8141224419,,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1991,1798.38257887629,0.07893409028814835,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1992,2030.47126519674,0.12905412288049933,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1993,2286.7956394875,0.12623885828097348,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1994,2556.90688386013,0.11811778879951218,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1995,2807.88647301744,0.09815750066674678,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1996,3055.72827655781,0.08826631914146854,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1997,3305.83025665988,0.08184693057322567,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1998,3533.69839702638,0.0689291713957303,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",1999,3774.42758274469,0.06812386306677576,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2000,4065.86707804429,0.07721422359034125,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2001,4372.43560608339,0.07540052887969995,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2002,4744.38182475307,0.08506613983112521,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2003,5191.78118308167,0.09430087519397445,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2004,5684.3881718733,0.09488207831194351,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2005,6298.29929808598,0.10799950806497516,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2006,7057.11131595304,0.12047887563832638,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2007,8013.78375739131,0.1355614781469654,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2008,8743.7020031299,0.09108284773286623,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2009,9518.68128351945,0.08863285598161275,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2010,10476.1525652407,0.10058864807029577,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2011,11404.9179835542,0.08865520166201968,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2012,12217.9343813101,0.07128647474083238,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2013,13080.8787864744,0.07062932065540917,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2014,13968.5187785922,0.0678578256558433,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2015,14857.1088234405,0.06361376312928257,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2016,15772.8372607502,0.06163570908661109,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2017,16758.0463976858,0.06246239155635225,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2018,17807.0490552244,0.06259695388380493,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2019,18820.5871645645,0.05691780295527038,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2020,19215.1012491012,0.020961837220439872,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2021,20843.2978347377,0.08473525923849401,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2022,21499.3125559757,0.031473652895017246,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2023,22687.2519534328,0.055254761954093956,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2024,23841.4769141817,0.05087548563034572,WDI
+05_PRC,China,"Gross domestic product per capita, constant prices",2025,25066.5215296486,0.05138291641396586,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1990,31598.7264606102,,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1991,33124.6445961019,0.04829049478920777,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1992,34895.7384690892,0.05346755850765339,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1993,36428.5238295824,0.0439247148144164,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1994,37767.182764774,0.036747548197506585,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1995,37905.6482894504,0.0036662921229473344,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1996,37804.0797903194,-0.002679508297956379,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1997,39402.5736869551,0.04228363461038476,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1998,36776.3657079191,-0.06665067109322975,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",1999,37339.8931803408,0.015323087574701466,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2000,39848.5593475546,0.06718461017276267,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2001,39777.8262391597,-0.0017750480708215166,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2002,40258.1488758671,0.012075135373650348,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2003,41570.5634425877,0.03259997300837991,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2004,44836.1768653659,0.07855590957501168,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2005,47938.8533561286,0.0692002910970626,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2006,50981.7296233058,0.06347411450524798,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2007,53813.022139769,0.05553543470147182,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2008,54630.3299120222,0.01518791808663722,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2009,53172.2884268262,-0.026689230827345534,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2010,56355.409086809,0.05986427806964323,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2011,58672.8050185719,0.04112109146778109,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2012,59015.3179560955,0.005837677905721206,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2013,60601.6109212886,0.02687934285761573,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2014,61839.8044187474,0.02043169279884327,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2015,62779.7552386246,0.015199770256586476,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2016,63749.4285013369,0.01544563624096007,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2017,65662.8543379575,0.030014792000534918,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2018,66993.9592604441,0.02027181023285385,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2019,65388.3366418212,-0.023966677538506342,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2020,61328.5367014193,-0.06208752430330711,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2021,65884.9376260603,0.07429495581843137,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2022,64035.6484949629,-0.02806846599132129,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2023,64387.6654066058,0.0054972022602470805,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2024,66186.0448635456,0.02793049640149392,WDI
+06_HKC,"Hong Kong, China","Gross domestic product per capita, constant prices",2025,68724.5565865756,0.038354183699352395,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1990,4873.05380133263,,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1991,5118.46789591815,0.05036145804883296,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1992,5357.3758979759,0.046675686341272726,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1993,5609.15178814269,0.04699612178826462,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1994,5931.23473426762,0.05742097170659366,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1995,6312.93453561158,0.06435418904240886,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1996,6695.40975787395,0.06058596364413549,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1997,6897.00236563331,0.03010907697206755,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1998,5897.68530859207,-0.14489150562288933,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",1999,5855.65800744994,-0.0071260670827761885,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2000,6056.38197842165,0.03427863627218941,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2001,6190.51954040991,0.022148134392147023,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2002,6381.94955179996,0.03092309298766449,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2003,6599.09193597034,0.03402445951788158,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2004,6843.54654972364,0.03704367451237145,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2005,7140.8545640704,0.043443558422024076,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2006,7434.48785352221,0.04112018902180736,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2007,7802.46406905954,0.04949583922757972,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2008,8165.06155116624,0.04647217582770691,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2009,8435.4557468629,0.03311600212714105,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2010,8848.22473702066,0.048932624690879,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2011,9274.96955181702,0.048229427651274914,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2012,9708.61182531081,0.04675403741986828,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2013,10121.8141535043,0.04256039232264408,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2014,10504.3869411088,0.03779685951574696,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2015,10893.6621142169,0.037058342889548124,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2016,11319.6634287738,0.03910542754956037,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2017,11772.5743296107,0.04001098651799406,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2018,12262.2310300771,0.04159300139093647,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2019,12757.7850854842,0.04041304181853955,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2020,12388.5449268131,-0.0289423403981951,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2021,12757.0746440204,0.02974761922279301,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2022,13334.2653947637,0.045244757661886625,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2023,13889.9495012858,0.04167339482685817,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2024,14470.7179806578,0.041812137568839836,WDI
+07_INA,Indonesia,"Gross domestic product per capita, constant prices",2025,15091.0088604652,0.042865245569466914,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1990,36137.8442587458,,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1991,37226.3339021829,0.030120491849030984,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1992,37402.9442395168,0.004744231269132371,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1993,37088.8020049844,-0.00839886380389554,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1994,37352.6868581318,0.007114946800167221,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1995,38137.9346304016,0.02102252443719066,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1996,39221.765120663,0.028418699144694415,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1997,39661.7312762235,0.011217398151433855,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1998,38852.9526557943,-0.020391914180358683,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",1999,38647.2705275615,-0.005293860933941907,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2000,39731.7953686304,0.028062132881944812,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2001,39748.9837725849,0.0004326108043954946,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2002,39690.3676794625,-0.0014746563951862912,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2003,40152.1282635641,0.011634071718124472,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2004,40986.7225710497,0.020785804976692912,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2005,41740.352036905,0.018387160977531236,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2006,42358.9337348253,0.014819752774805961,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2007,43041.5697058021,0.016115513559671335,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2008,42518.8423408417,-0.012144709603607695,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2009,39999.9464203408,-0.05924187446847218,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2010,41647.0458542008,0.04117754100346538,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2011,41640.6608721251,-0.00015331176424970838,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2012,42394.9433175064,0.018114084396922303,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2013,43304.1181931426,0.02144536127403618,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2014,43754.438013293,0.010399006813668565,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2015,44589.3032854003,0.019080699239095722,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2016,44926.6202909525,0.007564975917949468,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2017,45693.3776080987,0.01706688177700766,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2018,46133.0225978718,0.009621634748558705,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2019,46055.3498672487,-0.0016836687962147323,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2020,44212.5503415724,-0.040012713636701,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2021,45999.4617966896,0.04041638497015154,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2022,46819.360613609,0.017824095867539302,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2023,47387.2172542523,0.012128671412873437,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2024,47479.8448545667,0.0019546959218434967,WDI
+08_JPN,Japan,"Gross domestic product per capita, constant prices",2025,48283.3723959465,0.01692355027361714,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1990,14377.8839203268,,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1991,15784.4668669974,0.09782962183204424,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1992,16613.4907015983,0.052521497342064016,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1993,17595.9036148432,0.05913344347015426,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1994,19052.2990926264,0.08276900747254845,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1995,20697.8969808345,0.08637266716251468,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1996,22139.7963785414,0.06966405326309455,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1997,23311.0420901741,0.0529022802019945,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1998,22000.3387603516,-0.05622671542320201,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",1999,24382.2508517369,0.10826706430893318,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2000,26404.1588575745,0.08292540414469451,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2001,27440.6564915847,0.03925509006369521,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2002,29395.2766036796,0.07123080720369512,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2003,30142.4605585814,0.02541850396496259,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2004,31579.5283048867,0.04767586055267059,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2005,32886.0472450743,0.04137233867376744,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2006,34429.6222013137,0.04693707774413669,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2007,36257.3401689702,0.05308562368095804,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2008,37064.1518484106,0.02225236809099651,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2009,37176.1939270969,0.0030229230428513443,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2010,39574.0500732947,0.0644997750684222,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2011,40719.2273771671,0.02893758161601956,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2012,41537.6728611117,0.020099730192904675,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2013,42709.9751857887,0.02822262885541993,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2014,43806.9250985661,0.02568369351669375,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2015,44849.106767089,0.023790340595190695,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2016,46088.2430785383,0.02762900759393938,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2017,47536.7898568851,0.031429854591730866,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2018,48834.4471157733,0.02729795728308404,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2019,49790.8679884821,0.01958496367208551,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2020,49374.0926148025,-0.008370518340351296,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2021,51718.2518656631,0.047477515569730455,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2022,53228.6035655365,0.02920345613762243,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2023,54029.3434990785,0.015043414252942311,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2024,55070.9386194121,0.019278322720159835,WDI
+09_ROK,Korea,"Gross domestic product per capita, constant prices",2025,55697.0848086328,0.011369811463499913,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1990,12013.6969483112,,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1991,12795.0498964228,0.06503850991691928,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1992,13567.8936121181,0.060401774276110265,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1993,14533.790397007,0.0711898849226098,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1994,15474.0144648307,0.06469228206410094,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1995,16568.5160590209,0.07073158660138157,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1996,17771.7118795056,0.07261940756786167,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1997,18604.514527465,0.04686113828571514,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1998,16817.1719190401,-0.09607037075793212,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",1999,17428.6256563043,0.03635889198301645,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2000,18532.9096706227,0.0633603610574398,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2001,18186.4411330146,-0.018694772907532298,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2002,18708.8694877279,0.028726255504982534,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2003,19329.0062757538,0.03314667347659239,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2004,20168.5062099425,0.043432131078655845,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2005,20767.5857243346,0.029703712717046304,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2006,21444.4857715028,0.03259406539369847,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2007,22305.118263117,0.0401330440274712,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2008,22898.0027575442,0.026580647877916475,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2009,22106.6417311801,-0.03456026426162295,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2010,23307.9698543785,0.05434240703797166,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2011,24115.8181203958,0.03465974390152815,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2012,25006.3587781537,0.03692765691431088,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2013,25736.3525554142,0.02919232598942978,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2014,26818.4317281659,0.042044775786383104,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2015,27699.6278860387,0.03285785562723009,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2016,28425.3707609412,0.026200455756602237,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2017,29551.5457597197,0.03961865645481577,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2018,30459.9655338061,0.030740177907195188,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2019,31300.5086554849,0.0275950122381432,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2020,29200.452632127,-0.06709335130852268,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2021,29822.8491831618,0.02131461997784334,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2022,32129.2217820113,0.07733575637540668,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2023,32857.6676600774,0.022672378528444392,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2024,34116.2317848885,0.038303513743925155,WDI
+10_MAS,Malaysia,"Gross domestic product per capita, constant prices",2025,35461.4465805872,0.039430345185266225,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1990,17169.5925859795,,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1991,17511.7313112492,0.01992701478246417,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1992,17796.4059662866,0.016256225611143815,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1993,17970.5871869693,0.009787438037358154,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1994,18422.8199296267,0.02516516227056398,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1995,17028.1215022837,-0.07570493728270744,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1996,17775.8727889128,0.04391272910102373,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1997,18737.6426464292,0.054105352178053456,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1998,19573.0654561328,0.044585267499634096,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",1999,19793.2852863293,0.011251167104614046,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2000,20470.4937669158,0.03421405142148015,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2001,20078.2183931307,-0.019162965888936623,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2002,19744.7933675609,-0.016606305352464767,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2003,19701.4633898714,-0.00219450145073119,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2004,20127.2242902968,0.021610623129867834,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2005,20277.2552852007,0.00745413240991355,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2006,20965.8256087044,0.0339577676474907,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2007,21102.2688338349,0.006507887057586315,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2008,20992.5602662364,-0.005198899154511549,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2009,19385.5437251877,-0.07655171740215794,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2010,20058.3854882301,0.03470842874364011,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2011,20457.6001677783,0.01990263273095705,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2012,20898.935720908,0.021573183047385314,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2013,20805.3480406564,-0.004478107474055304,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2014,21069.7661653886,0.012709142102092619,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2015,21408.9283216195,0.016097101105376543,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2016,21578.263354126,0.00790955203187349,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2017,21777.5225127275,0.009234253717799845,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2018,21997.7730219494,0.010113662336621587,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2019,21704.185952748,-0.01334621776979239,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2020,19728.4817827455,-0.09102871558066217,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2021,20782.5877440905,0.05343066805408814,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2022,21391.8573698845,0.029316350461084717,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2023,21864.9236104145,0.022114313514261852,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2024,21970.3520412926,0.004821806504180293,WDI
+11_MEX,Mexico,"Gross domestic product per capita, constant prices",2025,21911.9292842747,-0.0026591634448139834,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1990,30785.701752556,,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1991,29014.1499420181,-0.05754462980174935,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1992,29029.5811361611,0.0005318506374938359,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1993,30532.5880166798,0.0517750109265771,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1994,31669.5406509196,0.03723734894725217,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1995,32687.4657703706,0.0321420866400044,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1996,33329.5301011769,0.019642523997326578,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1997,33577.7254994905,0.0074467115965981545,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1998,33565.7312220905,-0.00035720934701732876,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",1999,35187.2357200331,0.04830833230516496,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2000,35984.6288016116,0.02266143006864607,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2001,36995.0603198774,0.028079531508757416,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2002,38072.2713835052,0.029117699885165882,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2003,39092.3455202712,0.026793099011369836,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2004,40091.1399487332,0.025549616303889522,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2005,40970.295838255,0.021928932194146267,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2006,41596.8311289998,0.0152924277925226,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2007,42473.1182614499,0.021066199243220174,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2008,41682.2459069155,-0.018620538988120883,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2009,41250.9985717425,-0.010346067631193834,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2010,41395.370375582,0.003499837793948579,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2011,41961.9202263641,0.013686309498906812,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2012,42693.4234516571,0.01743254887638357,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2013,43453.2814172317,0.017798009720045194,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2014,44369.7664241859,0.021091272674076178,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2015,45097.016468387,0.016390666501338025,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2016,45746.135981069,0.014393846057134008,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2017,46285.9810980642,0.011800889964096672,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2018,46974.6818400482,0.014879251247259528,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2019,47392.1933135172,0.008888010671166402,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2020,46326.3804672976,-0.022489207012826973,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2021,48202.0913368233,0.040489044268195995,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2022,49842.9845334162,0.03404195027818968,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2023,49592.5875512098,-0.005023715665311568,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2024,48325.3650985684,-0.02555265847608479,WDI
+12_NZ,New Zealand,"Gross domestic product per capita, constant prices",2025,48232.6651994696,-0.0019182451888303254,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1990,3164.55429204087,,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1991,3358.61893269232,0.061324478186245424,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1992,3690.81786572429,0.09890938498511792,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1993,4206.96808195882,0.13984711113162462,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1994,4298.44184540518,0.02174339373731793,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1995,4009.23567052359,-0.06728163024718758,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1996,4167.57013807001,0.03949243211381037,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1997,3864.72542324923,-0.07266697494886709,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1998,3590.56011797751,-0.07094043567038677,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",1999,3532.1120397137,-0.016278261982348385,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2000,3327.22485837041,-0.0580069881814671,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2001,3212.17084845522,-0.03457957150859359,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2002,3101.1924006365,-0.034549360247164596,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2003,3064.83667344612,-0.011723144679097741,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2004,3046.72321896172,-0.0059100880126292665,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2005,3136.98756942536,0.029626698579597655,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2006,3202.89763507367,0.02101062378783447,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2007,3346.27900337124,0.044766141361327616,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2008,3234.33247673,-0.03345403253239143,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2009,3350.07263964739,0.03578486867077024,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2010,3579.63000710983,0.06852310148313734,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2011,3515.28312517363,-0.017975847170907167,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2012,3577.91014722774,0.017815640966619473,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2013,3615.74646029074,0.010574975755698324,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2014,3999.13038811865,0.10603175085375938,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2015,4155.05563962107,0.03898978937162734,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2016,4276.29643263164,0.02917910216519415,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2017,4322.77662200998,0.010869262716134198,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2018,4211.68504310327,-0.02569912549750386,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2019,4302.16255230002,0.021482496499805714,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2020,4078.15378358566,-0.052068876057368096,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2021,3977.44297360749,-0.024695196729344948,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2022,4126.03032145403,0.03735750552113459,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2023,4206.37834691367,0.019473445224543307,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2024,4292.71205430013,0.020524475039152223,WDI
+13_PNG,Papua New Guinea,"Gross domestic product per capita, constant prices",2025,4456.23105962118,0.03809223708756537,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1990,6316.2269138715,,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1991,6321.7220102527,0.0008699966698682005,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1992,6160.80456813974,-0.025454684950078632,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1993,6354.40466195469,0.03142448225287686,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1994,6996.76185617847,0.10108849347755955,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1995,7371.04799020402,0.05349419370262498,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1996,7436.18931908276,0.008837458250890773,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1997,7772.77834225556,0.04526364361233304,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1998,7602.78356076635,-0.02187052994487937,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",1999,7584.30465257181,-0.0024305450821853203,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2000,7668.06078201131,0.011043349822597026,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2001,7610.63949294843,-0.007488371662048632,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2002,7930.50980631714,0.04202936082639086,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2003,8173.27672987692,0.030611767652869215,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2004,8494.84031217202,0.0393432882456608,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2005,8948.74710742664,0.053433234595855694,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2006,9546.62529545456,0.06681138497385142,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2007,10284.9672238506,0.07734062095718652,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2008,11150.0262166889,0.08410906656389239,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2009,11202.8654418496,0.004738932818078245,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2010,12057.3912963716,0.07627743624678551,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2011,12724.8832049429,0.0553595626254717,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2012,13393.5923851679,0.052551302000575006,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2013,14050.2420319137,0.049027148793401754,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2014,14242.6444760801,0.013693888242592323,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2015,14540.8313160635,0.02093619906641586,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2016,14915.4366324454,0.02576230397281809,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2017,15067.489279382,0.010194314164819085,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2018,15384.1846082423,0.021018453903508538,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2019,15461.4572585466,0.00502286291227283,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2020,13607.7640705828,-0.11989123385760658,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2021,15285.7706852395,0.12331244177610401,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2022,15566.5242612563,0.01836698860646302,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2023,15342.2741359642,-0.014405921420123202,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2024,15708.8329440963,0.02389207785518832,WDI
+14_PE,Peru,"Gross domestic product per capita, constant prices",2025,16079.1247394843,0.023572202766798167,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1990,4504.46230383567,,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1991,4378.39532090518,-0.02798713240937578,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1992,4293.71810131081,-0.01933978395922087,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1993,4283.15967786629,-0.002459039740242197,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1994,4374.06721651165,0.02122441036114897,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1995,4477.32317711022,0.023606395486742704,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1996,4631.77197705972,0.03449578997091396,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1997,4758.70845808515,0.02740559804198517,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1998,4616.67292900617,-0.02984749545596932,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",1999,4650.75926947589,0.007383312830232747,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2000,4740.43891694569,0.01928279712484593,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2001,4778.4008437474,0.008008103778324838,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2002,4856.49948429567,0.016344095671769088,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2003,5003.38317718716,0.030244766496210662,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2004,5229.45080700165,0.04518295357534097,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2005,5386.81653712891,0.03009220966694337,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2006,5578.57225112139,0.035597223827987134,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2007,5840.06810169965,0.04687504953004673,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2008,5987.03757861835,0.025165712858027822,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2009,5965.30730902221,-0.0036295528983727454,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2010,6273.03927731515,0.05158694302764788,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2011,6388.31296959977,0.018376051414420225,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2012,6697.55620962768,0.04840765339762054,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2013,7016.53846470436,0.047626663381808765,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2014,7340.361585912,0.04615140682782304,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2015,7691.76308685047,0.047872505574234614,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2016,8131.82537948653,0.057212148588972056,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2017,8584.13622709699,0.055622302066577145,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2018,9016.28659637608,0.050342906711446256,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2019,9452.2939715981,0.048357754665569797,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2020,8455.18457134106,-0.1054886150656249,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2021,8857.78995115514,0.04761639162540754,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2022,9457.10395402883,0.06765954105691252,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2023,9898.53294588106,0.04667697362723566,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2024,10378.1717703535,0.04845554660420914,WDI
+15_PHL,Philippines,"Gross domestic product per capita, constant prices",2025,10747.5454408601,0.035591400747650104,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1990,29643.595703125,,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1991,28066.921875,-0.053187671425392824,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1992,23965.244140625,-0.14613920802011715,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1993,21899.517578125,-0.08619676688368283,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1994,19153.36328125,-0.1253979356886875,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1995,18363.712890625,-0.04122776658228067,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1996,17699.869140625,-0.03614975653093033,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1997,17977.3515625,0.01567708889090702,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1998,17052.755859375,-0.05143114100597934,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",1999,18200.3203125,0.0672949558762439,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2000,20104.75,0.10463715224792147,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2001,21219.904296875,0.05546720535569949,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2002,22319.677734375,0.051827445690316276,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2003,24057.927734375,0.07787970868965033,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2004,25894.146484375,0.07632489257902009,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2005,27656.658203125,0.06806602873794398,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2006,30022.671875,0.08554951413499623,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2007,32630.369140625,0.08685760136480192,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2008,34342.2265625,0.052462091816905865,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2009,31654.00390625,-0.07827747136190077,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2010,33063.5859375,0.04453092365265299,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2011,34444.64453125,0.04176977646528157,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2012,35740.69921875,0.03762717557802486,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2013,36260.06640625,0.01453153404529739,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2014,35853.24609375,-0.011219513719089025,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2015,35037.15234375,-0.022762060312922716,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2016,35005.4453125,-0.0009049545733318398,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2017,35570.703125,0.01614771094764933,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2018,36536.6953125,0.027156960718639045,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2019,37319.3203125,0.021420245955639183,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2020,36376.3359375,-0.025267994355303136,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2021,38638.4296875,0.062185860441981156,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2022,38214.69140625,-0.010966757310716613,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2023,39881.44921875,0.04361562925580498,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2024,41891.171875,0.050392417919084664,WDI
+16_RUS,Russia,"Gross domestic product per capita, constant prices",2025,42357.98828125,0.011143550904781252,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1990,45961.0598271094,,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1991,47659.4966886953,0.03695382282251258,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1992,49319.8192699525,0.034837182442403636,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1993,53598.4639619519,0.08675304888244217,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1994,57706.871164823,0.07665158475040523,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1995,59997.0074442828,0.03968567751522478,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1996,61911.5030358083,0.03190985139222868,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1997,64846.0629277791,0.04739926747172518,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1998,61306.7734542676,-0.05457986674462123,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",1999,64296.6384874384,0.04876891841977504,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2000,68904.1280154511,0.07165988201564955,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2001,66352.1492865891,-0.03703665952045343,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2002,68328.932172058,0.029792296206272884,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2003,72497.86860121,0.06101275545554041,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2004,78712.5347297388,0.08572205291598167,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2005,82547.482835778,0.0487209326850746,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2006,87210.0480467646,0.0564834329383781,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2007,91198.1515708456,0.0457298627096554,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2008,88083.2853664583,-0.03415492694462763,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2009,85575.755106675,-0.028467719492421995,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2010,96280.0168756448,0.12508521549855245,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2011,100153.729405945,0.04023381648658719,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2012,102061.11936105,0.019044622366221953,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2013,105259.693561054,0.03133979148992827,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2014,107990.891202625,0.025947231548672844,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2015,109894.041337341,0.017623246863895936,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2016,112719.947951111,0.02571483020717502,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2017,117492.967994526,0.042344058262741235,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2018,120668.888726158,0.027030730313834184,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2019,120678.341978557,7.834042808219088e-05,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2020,116684.213596572,-0.03309730906557129,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2021,133990.186782104,0.1483146061674312,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2022,134828.001392614,0.006252805751159052,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2023,130296.843789261,-0.033606947789416974,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2024,134548.764138482,0.032632565959141324,WDI
+17_SGP,Singapore,"Gross domestic product per capita, constant prices",2025,139592.612210761,0.03748713787580926,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1990,8702.899560469,,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1991,9295.04057342995,0.06803950899888789,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1992,9887.97373654022,0.06379027164283513,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1993,10539.9611081001,0.0659374093147631,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1994,11216.2548285636,0.06416472637112092,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1995,11955.2188089811,0.06588330879712512,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1996,12457.6820831228,0.04202878108464514,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1997,11954.1474335919,-0.040419609857685335,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1998,10898.3370239872,-0.08832168211660218,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",1999,11254.6098303333,0.03269056605259535,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2000,11623.7874580461,0.03280234795148518,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2001,11902.6109229705,0.023987316176483864,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2002,12513.5421967032,0.05132750097322614,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2003,13288.7481561137,0.06194936231682946,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2004,13998.521730812,0.05341162059510918,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2005,14459.825626203,0.03295375785113297,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2006,15052.6955101059,0.041001177969155034,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2007,15744.3652449147,0.04594989212028078,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2008,15893.5084947968,0.009472801701565725,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2009,15667.6047343164,-0.014213586669951317,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2010,16732.187029014,0.06794799286491249,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2011,16768.1688542486,0.0021504555962832406,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2012,17871.5786477565,0.06580383362661135,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2013,18244.4071505088,0.020861531602811123,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2014,18326.604873747,0.004505365538058026,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2015,18814.0408554566,0.02659717853184329,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2016,19372.7128024107,0.029694415529669227,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2017,20096.8605455164,0.037379780028307996,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2018,20882.1707419576,0.03907626241733575,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2019,21280.1504518601,0.019058349575834743,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2020,19950.2844063147,-0.06249326331380134,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2021,20236.9760408784,0.014370303135776696,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2022,20768.4800093577,0.026264001469669784,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2023,21245.2706771879,0.022957417568130634,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2024,21882.2142474833,0.02998048742110493,WDI
+19_THA,Thailand,"Gross domestic product per capita, constant prices",2025,22431.7518380848,0.025113436162645275,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1990,44384.2101912606,,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1991,43747.6307351749,-0.0143424756989603,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1992,44664.873585596,0.020966686309793703,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1993,45292.7380683092,0.014057231831406725,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1994,46543.3199204553,0.02761108966872383,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1995,47227.0083257008,0.014689291748288591,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1996,48441.9061125568,0.025724639987302567,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1997,49990.6740739125,0.03197165606483532,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1998,51626.4838297863,0.03272229843220775,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",1999,53480.8969962416,0.035919803730374955,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2000,55045.6745311559,0.029258625468160382,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2001,55024.3542766281,-0.00038731934360669573,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2002,55443.2199435683,0.007612368603807651,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2003,56505.4468784112,0.0191588247566441,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2004,58139.0820195229,0.028911109129478474,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2005,59612.3907215559,0.025341107063545865,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2006,60684.3399832539,0.017981987447961645,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2007,61314.4520816367,0.010383438273476875,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2008,60806.2238713713,-0.008288881218227684,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2009,58722.496767251,-0.03426831944914366,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2010,59797.0736545937,0.018299237030091398,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2011,60253.2035796719,0.007627963998923182,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2012,61142.3637034265,0.014757059723453203,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2013,61966.6621370894,0.013481625238781936,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2014,63026.8779187814,0.017109454424807824,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2015,64367.7188912582,0.021274113786893478,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2016,65025.9855980616,0.010226658923791598,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2017,66164.0320014289,0.01750140951960022,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2018,67728.4424921024,0.02364442497457997,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2019,69121.4580016741,0.020567658996943905,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2020,67406.8311325507,-0.02480599973863218,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2021,71441.231980595,0.05985151327038274,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2022,72828.7430907189,0.019421713087209636,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2023,74351.6718197429,0.0209110944991453,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2024,75698.1773354629,0.018109956141731942,WDI
+20_USA,United States of America,"Gross domestic product per capita, constant prices",2025,76931.3106990408,0.016290132827282866,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1990,2467.96460080463,,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1991,2560.84383496164,0.03763394099199324,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1992,2726.47373748487,0.0646778613603789,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1993,2890.42431737761,0.06013282931673558,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1994,3089.60933725631,0.06891203436158966,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1995,3328.21486039558,0.07722837973786056,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1996,3584.02898335147,0.07686226210932912,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1997,3820.30249485434,0.0659239957601927,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1998,3982.95805965603,0.04257661926530032,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",1999,4119.05367208231,0.03416948167363665,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2000,4349.22348751462,0.055879295041074695,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2001,4570.26846577385,0.05082401005461956,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2002,4809.62151118535,0.0523717692306227,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2003,5090.28990869885,0.05835561007467471,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2004,5421.09702829121,0.06498787407511708,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2005,5776.36304451268,0.0655339711441123,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2006,6098.24495436514,0.055723974994652536,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2007,6418.54381402878,0.052523121334174805,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2008,6659.13561432065,0.03748386039930396,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2009,6914.33863589545,0.038323745956754474,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2010,7274.73310698016,0.05212276836048213,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2011,7652.61895672271,0.05194497779993679,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2012,7979.86828926858,0.04276305071460351,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2013,8324.19871250047,0.043149888036993156,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2014,8751.88280634375,0.05137840993644538,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2015,9248.02396069622,0.05668964785415609,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2016,9743.1882231455,0.05354270972412167,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2017,10290.5487142244,0.05617878650631147,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2018,10936.8937859558,0.06280958282020177,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2019,11628.6139147451,0.0632464886581916,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2020,11851.3965685649,0.019158143477212786,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2021,12048.9019935536,0.016665160417681957,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2022,12979.7638983711,0.07725699033119615,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2023,13534.7997843016,0.04276163189687554,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2024,14396.4217369473,0.06365974867578439,WDI
+21_VN,Viet Nam,"Gross domestic product per capita, constant prices",2025,15457.3499403547,0.07369388190987824,WDI

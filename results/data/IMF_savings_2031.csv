@@ -1,0 +1,22 @@
+economy_code,economy,year,value,source
+01_AUS,Australia,2031,22.626,IMF
+02_BD,Brunei Darussalam,2031,27.109,IMF
+03_CDA,Canada,2031,23.472,IMF
+04_CHL,Chile,2031,23.431,IMF
+05_PRC,China,2031,42.457,IMF
+06_HKC,"Hong Kong, China",2031,32.536,IMF
+07_INA,Indonesia,2031,30.378,IMF
+08_JPN,Japan,2031,31.845,IMF
+09_ROK,Korea,2031,34.966,IMF
+10_MAS,Malaysia,2031,22.677,IMF
+11_MEX,Mexico,2031,21.814,IMF
+12_NZ,New Zealand,2031,18.979,IMF
+13_PNG,Papua New Guinea,2031,25.0,APERC assumption
+14_PE,Peru,2031,21.583,IMF
+15_PHL,Philippines,2031,21.36,IMF
+16_RUS,Russia,2031,28.354,IMF
+17_SGP,Singapore,2031,43.046,IMF
+18_CT,Chinese Taipei,2031,39.814,IMF
+19_THA,Thailand,2031,23.805,IMF
+20_USA,United States of America,2031,17.23,IMF
+21_VN,Viet Nam,2031,35.171,IMF

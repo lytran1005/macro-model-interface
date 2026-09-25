@@ -1,0 +1,25 @@
+check,status,detail
+config file present: economies.csv,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\config\economies.csv
+config file present: economy_name_mappings.csv,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\config\economy_name_mappings.csv
+config file present: population_variant_choices.csv,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\config\population_variant_choices.csv
+config file present: gdp_model_parameters.csv,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\config\gdp_model_parameters.csv
+config file present: gdp_model_parameters_sensitivity.csv,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\config\gdp_model_parameters_sensitivity.csv
+source file present: WPP2024_GEN_F01_DEMOGRAPHIC_INDICATORS_FULL.xlsx,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\data_source\WPP2024_GEN_F01_DEMOGRAPHIC_INDICATORS_FULL.xlsx
+source file present: WEOApr2026all.xlsx,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\data_source\WEOApr2026all.xlsx
+source file present: pwt110.xlsx,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\data_source\pwt110.xlsx
+source file present: 00_APEC_GDP_data_2024_02_01.csv,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\data_source\00_APEC_GDP_data_2024_02_01.csv
+final combined output exists (00_APEC_GDP_data_*.csv),PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\results\GDP_estimates\data\00_APEC_GDP_data_2026_09_25.csv
+all 21 APEC economies present,PASS,
+economy codes are canonical,PASS,
+no years beyond 2100,PASS,max year found: 2100
+years start at 1990,PASS,min year found: 1990
+real_GDP non-missing for 1990-2100,PASS,
+population non-missing for 1990-2100,PASS,
+k_stock non-missing for 1990-2100,PASS,
+lab_efficiency non-missing for 1990-2100,PASS,
+GDP values are positive,PASS,
+GDP source handoffs match WDI/IMF cutoffs,PASS,
+savings source anchors match WDI/IMF cutoffs,PASS,
+PNG WDI savings path covers 2005-2025,PASS,missing: []
+GDP per capita historical comparison vs WDI,PASS,"median abs pct diff=0.007; worst: [{'economy_code': '17_SGP', 'year': 2025, 'abs_pct_diff': 0.04423242570928619}, {'economy_code': '03_CDA', 'year': 2024, 'abs_pct_diff': 0.04359916783860555}, {'economy_code': '03_CDA', 'year': 2025, 'abs_pct_diff': 0.04268915407995871}]"
+no duplicate rows by economy_code/variable/year,PASS,

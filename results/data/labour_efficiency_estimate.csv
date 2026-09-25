@@ -1,0 +1,763 @@
+economy_code,economy,year,variable,value,percent,source
+01_AUS,Australia,1990.0,Labour efficiency,12.147905529296125,,WDI and PWT calculation
+01_AUS,Australia,1991.0,Labour efficiency,11.821306167093883,-0.026885240539170185,WDI and PWT calculation
+01_AUS,Australia,1992.0,Labour efficiency,11.87888488519565,0.004870757705442319,WDI and PWT calculation
+01_AUS,Australia,1993.0,Labour efficiency,12.366523287997703,0.04105085683672072,WDI and PWT calculation
+01_AUS,Australia,1994.0,Labour efficiency,12.837008394353541,0.038045058857606895,WDI and PWT calculation
+01_AUS,Australia,1995.0,Labour efficiency,13.309678789067211,0.036820914982152564,WDI and PWT calculation
+01_AUS,Australia,1996.0,Labour efficiency,13.772434002648183,0.03476832318155454,WDI and PWT calculation
+01_AUS,Australia,1997.0,Labour efficiency,14.304291550449708,0.03861754194641698,WDI and PWT calculation
+01_AUS,Australia,1998.0,Labour efficiency,15.017419737467103,0.049854142339190055,WDI and PWT calculation
+01_AUS,Australia,1999.0,Labour efficiency,15.683455108904564,0.04435085274840955,WDI and PWT calculation
+01_AUS,Australia,2000.0,Labour efficiency,16.093558620828155,0.02614879878673837,WDI and PWT calculation
+01_AUS,Australia,2001.0,Labour efficiency,16.37290360824898,0.017357564849535434,WDI and PWT calculation
+01_AUS,Australia,2002.0,Labour efficiency,16.823460566690567,0.02751845177996337,WDI and PWT calculation
+01_AUS,Australia,2003.0,Labour efficiency,17.258573664881563,0.02586347181462134,WDI and PWT calculation
+01_AUS,Australia,2004.0,Labour efficiency,17.78202997926111,0.030330218739031523,WDI and PWT calculation
+01_AUS,Australia,2005.0,Labour efficiency,18.061823596878718,0.0157346274831347,WDI and PWT calculation
+01_AUS,Australia,2006.0,Labour efficiency,18.378383847054614,0.017526483329767473,WDI and PWT calculation
+01_AUS,Australia,2007.0,Labour efficiency,18.784431815470914,0.022093779942536917,WDI and PWT calculation
+01_AUS,Australia,2008.0,Labour efficiency,18.93154971990272,0.007831906010094869,WDI and PWT calculation
+01_AUS,Australia,2009.0,Labour efficiency,18.812419341998016,-0.006292690227016173,WDI and PWT calculation
+01_AUS,Australia,2010.0,Labour efficiency,18.8131989921576,4.14433755386856e-05,WDI and PWT calculation
+01_AUS,Australia,2011.0,Labour efficiency,19.04029168402632,0.01207092382126973,WDI and PWT calculation
+01_AUS,Australia,2012.0,Labour efficiency,19.388434928891407,0.018284554178188195,WDI and PWT calculation
+01_AUS,Australia,2013.0,Labour efficiency,19.511140511001003,0.006328802843531545,WDI and PWT calculation
+01_AUS,Australia,2014.0,Labour efficiency,19.64856238875188,0.00704325191412547,WDI and PWT calculation
+01_AUS,Australia,2015.0,Labour efficiency,19.848967018318724,0.010199455084895614,WDI and PWT calculation
+01_AUS,Australia,2016.0,Labour efficiency,20.11380561556084,0.01334268916854442,WDI and PWT calculation
+01_AUS,Australia,2017.0,Labour efficiency,20.316461557051316,0.010075464850554994,WDI and PWT calculation
+01_AUS,Australia,2018.0,Labour efficiency,20.57988054651488,0.01296579075661608,WDI and PWT calculation
+01_AUS,Australia,2019.0,Labour efficiency,20.446751874538123,-0.006468874864256735,WDI and PWT calculation
+01_AUS,Australia,2020.0,Labour efficiency,20.163960067423126,-0.013830646982475048,WDI and PWT calculation
+01_AUS,Australia,2021.0,Labour efficiency,20.698075087072123,0.026488597371897793,WDI and PWT calculation
+01_AUS,Australia,2022.0,Labour efficiency,21.540735317169336,0.04071200952515297,WDI and PWT calculation
+01_AUS,Australia,2023.0,Labour efficiency,21.980568399153906,0.020418666099759175,WDI and PWT calculation
+01_AUS,Australia,2024.0,Labour efficiency,22.063960959073977,0.0037939219043707784,WDI and PWT calculation
+01_AUS,Australia,2025.0,Labour efficiency,22.142401158151042,0.0035551277135852377,WDI and PWT calculation
+02_BD,Brunei Darussalam,1990.0,Labour efficiency,51.49955444794638,,WDI and PWT calculation
+02_BD,Brunei Darussalam,1991.0,Labour efficiency,51.11563831662681,-0.007454746656257338,WDI and PWT calculation
+02_BD,Brunei Darussalam,1992.0,Labour efficiency,47.95440524386286,-0.06184473434885518,WDI and PWT calculation
+02_BD,Brunei Darussalam,1993.0,Labour efficiency,44.46776506369906,-0.07270740117478591,WDI and PWT calculation
+02_BD,Brunei Darussalam,1994.0,Labour efficiency,43.287868520063526,-0.02653374960368171,WDI and PWT calculation
+02_BD,Brunei Darussalam,1995.0,Labour efficiency,42.552499824290805,-0.01698787029515869,WDI and PWT calculation
+02_BD,Brunei Darussalam,1996.0,Labour efficiency,38.88472404779899,-0.08619413175810864,WDI and PWT calculation
+02_BD,Brunei Darussalam,1997.0,Labour efficiency,38.70527630504805,-0.004614864761039672,WDI and PWT calculation
+02_BD,Brunei Darussalam,1998.0,Labour efficiency,34.420753087743826,-0.11069610209049008,WDI and PWT calculation
+02_BD,Brunei Darussalam,1999.0,Labour efficiency,35.46827078733657,0.03043273623103082,WDI and PWT calculation
+02_BD,Brunei Darussalam,2000.0,Labour efficiency,36.70231555208264,0.034792921598722604,WDI and PWT calculation
+02_BD,Brunei Darussalam,2001.0,Labour efficiency,37.08609698493559,0.010456600001390592,WDI and PWT calculation
+02_BD,Brunei Darussalam,2002.0,Labour efficiency,38.12618882421259,0.028045330294516946,WDI and PWT calculation
+02_BD,Brunei Darussalam,2003.0,Labour efficiency,39.2743062369245,0.030113616076484995,WDI and PWT calculation
+02_BD,Brunei Darussalam,2004.0,Labour efficiency,38.477783969277695,-0.020281001600429116,WDI and PWT calculation
+02_BD,Brunei Darussalam,2005.0,Labour efficiency,37.651289046501574,-0.021479795287484005,WDI and PWT calculation
+02_BD,Brunei Darussalam,2006.0,Labour efficiency,39.37686151497424,0.04583036895075443,WDI and PWT calculation
+02_BD,Brunei Darussalam,2007.0,Labour efficiency,36.70996745230156,-0.0677274409403733,WDI and PWT calculation
+02_BD,Brunei Darussalam,2008.0,Labour efficiency,33.45127936710738,-0.0887684820050113,WDI and PWT calculation
+02_BD,Brunei Darussalam,2009.0,Labour efficiency,31.191709525598778,-0.06754808438598725,WDI and PWT calculation
+02_BD,Brunei Darussalam,2010.0,Labour efficiency,31.453206568716954,0.008383543162440832,WDI and PWT calculation
+02_BD,Brunei Darussalam,2011.0,Labour efficiency,31.74655755830188,0.009326584523076553,WDI and PWT calculation
+02_BD,Brunei Darussalam,2012.0,Labour efficiency,30.235975382705,-0.04758255041740289,WDI and PWT calculation
+02_BD,Brunei Darussalam,2013.0,Labour efficiency,27.3449114729343,-0.09561669081872548,WDI and PWT calculation
+02_BD,Brunei Darussalam,2014.0,Labour efficiency,25.30219122967436,-0.07470202437048667,WDI and PWT calculation
+02_BD,Brunei Darussalam,2015.0,Labour efficiency,24.209054925550156,-0.04320322671667176,WDI and PWT calculation
+02_BD,Brunei Darussalam,2016.0,Labour efficiency,22.53176621906665,-0.06928352683083472,WDI and PWT calculation
+02_BD,Brunei Darussalam,2017.0,Labour efficiency,22.301840449061984,-0.010204516049438728,WDI and PWT calculation
+02_BD,Brunei Darussalam,2018.0,Labour efficiency,21.367756514770438,-0.04188371522184553,WDI and PWT calculation
+02_BD,Brunei Darussalam,2019.0,Labour efficiency,21.918611360534946,0.02577972307873,WDI and PWT calculation
+02_BD,Brunei Darussalam,2020.0,Labour efficiency,21.66126041923138,-0.011741206460137987,WDI and PWT calculation
+02_BD,Brunei Darussalam,2021.0,Labour efficiency,20.62486346996215,-0.04784564375344891,WDI and PWT calculation
+02_BD,Brunei Darussalam,2022.0,Labour efficiency,19.678986758685237,-0.04586099261478649,WDI and PWT calculation
+02_BD,Brunei Darussalam,2023.0,Labour efficiency,19.722441250563005,0.002208167138411765,WDI and PWT calculation
+02_BD,Brunei Darussalam,2024.0,Labour efficiency,20.35066349095485,0.031853168297505396,WDI and PWT calculation
+02_BD,Brunei Darussalam,2025.0,Labour efficiency,20.32353962744462,-0.0013328245303788622,WDI and PWT calculation
+03_CDA,Canada,1990.0,Labour efficiency,16.162924091620617,,WDI and PWT calculation
+03_CDA,Canada,1991.0,Labour efficiency,15.088975388181655,-0.06644519873701138,WDI and PWT calculation
+03_CDA,Canada,1992.0,Labour efficiency,14.875241726627804,-0.01416488900374624,WDI and PWT calculation
+03_CDA,Canada,1993.0,Labour efficiency,15.12083300258307,0.01651006958197132,WDI and PWT calculation
+03_CDA,Canada,1994.0,Labour efficiency,15.818154275728336,0.046116591131331264,WDI and PWT calculation
+03_CDA,Canada,1995.0,Labour efficiency,16.110327696605335,0.018470765664823086,WDI and PWT calculation
+03_CDA,Canada,1996.0,Labour efficiency,16.131861713402238,0.0013366591420385099,WDI and PWT calculation
+03_CDA,Canada,1997.0,Labour efficiency,16.788883694132334,0.04072821800748816,WDI and PWT calculation
+03_CDA,Canada,1998.0,Labour efficiency,17.390317245508072,0.035823319902200446,WDI and PWT calculation
+03_CDA,Canada,1999.0,Labour efficiency,18.38573734995643,0.05723990485023922,WDI and PWT calculation
+03_CDA,Canada,2000.0,Labour efficiency,19.43428351461086,0.057030411383360624,WDI and PWT calculation
+03_CDA,Canada,2001.0,Labour efficiency,19.456642665646847,0.001150500404050181,WDI and PWT calculation
+03_CDA,Canada,2002.0,Labour efficiency,19.846906070734672,0.020058106210527615,WDI and PWT calculation
+03_CDA,Canada,2003.0,Labour efficiency,19.85247521607421,0.0002806052147217297,WDI and PWT calculation
+03_CDA,Canada,2004.0,Labour efficiency,20.25055399014253,0.020051845915213695,WDI and PWT calculation
+03_CDA,Canada,2005.0,Labour efficiency,20.64619619484011,0.019537352157880106,WDI and PWT calculation
+03_CDA,Canada,2006.0,Labour efficiency,20.83427736446425,0.009109724999665891,WDI and PWT calculation
+03_CDA,Canada,2007.0,Labour efficiency,20.83491967831812,3.08296679858433e-05,WDI and PWT calculation
+03_CDA,Canada,2008.0,Labour efficiency,20.49384285838229,-0.01637044083691719,WDI and PWT calculation
+03_CDA,Canada,2009.0,Labour efficiency,18.981210237500196,-0.07380912556687258,WDI and PWT calculation
+03_CDA,Canada,2010.0,Labour efficiency,19.358390176348863,0.019871227078212872,WDI and PWT calculation
+03_CDA,Canada,2011.0,Labour efficiency,19.75880248555158,0.020684173919168325,WDI and PWT calculation
+03_CDA,Canada,2012.0,Labour efficiency,19.70443769382827,-0.002751421386142372,WDI and PWT calculation
+03_CDA,Canada,2013.0,Labour efficiency,19.840001621598223,0.0068798678691761594,WDI and PWT calculation
+03_CDA,Canada,2014.0,Labour efficiency,20.165071135674314,0.016384550781599394,WDI and PWT calculation
+03_CDA,Canada,2015.0,Labour efficiency,19.85466982898912,-0.01539301818460026,WDI and PWT calculation
+03_CDA,Canada,2016.0,Labour efficiency,19.714813529262603,-0.007044000274550877,WDI and PWT calculation
+03_CDA,Canada,2017.0,Labour efficiency,20.157279708200427,0.02244333573234525,WDI and PWT calculation
+03_CDA,Canada,2018.0,Labour efficiency,20.49636488237586,0.01682197097446081,WDI and PWT calculation
+03_CDA,Canada,2019.0,Labour efficiency,20.551943173772575,0.0027116169972414284,WDI and PWT calculation
+03_CDA,Canada,2020.0,Labour efficiency,18.37598764893014,-0.10587590216867127,WDI and PWT calculation
+03_CDA,Canada,2021.0,Labour efficiency,19.669915424146293,0.07041405337968265,WDI and PWT calculation
+03_CDA,Canada,2022.0,Labour efficiency,20.671515191955127,0.050920390159852724,WDI and PWT calculation
+03_CDA,Canada,2023.0,Labour efficiency,20.724684651577938,0.002572112355049061,WDI and PWT calculation
+03_CDA,Canada,2024.0,Labour efficiency,20.892683108366718,0.00810620087172187,WDI and PWT calculation
+03_CDA,Canada,2025.0,Labour efficiency,21.03972412725369,0.007037919357906208,WDI and PWT calculation
+04_CHL,Chile,1990.0,Labour efficiency,5.49968380121199,,WDI and PWT calculation
+04_CHL,Chile,1991.0,Labour efficiency,5.992785828232941,0.08966006862290588,WDI and PWT calculation
+04_CHL,Chile,1992.0,Labour efficiency,6.889120503348085,0.14956894853348035,WDI and PWT calculation
+04_CHL,Chile,1993.0,Labour efficiency,7.296084774865115,0.05907347263257279,WDI and PWT calculation
+04_CHL,Chile,1994.0,Labour efficiency,7.562134126236413,0.036464673805303605,WDI and PWT calculation
+04_CHL,Chile,1995.0,Labour efficiency,8.342545874119654,0.10319993468188371,WDI and PWT calculation
+04_CHL,Chile,1996.0,Labour efficiency,8.849072783442166,0.060716107165063926,WDI and PWT calculation
+04_CHL,Chile,1997.0,Labour efficiency,9.387542518996453,0.0608504132276817,WDI and PWT calculation
+04_CHL,Chile,1998.0,Labour efficiency,9.49074908178764,0.010993991514002932,WDI and PWT calculation
+04_CHL,Chile,1999.0,Labour efficiency,9.043179800844666,-0.04715847791212202,WDI and PWT calculation
+04_CHL,Chile,2000.0,Labour efficiency,9.371631745320302,0.03632040407346082,WDI and PWT calculation
+04_CHL,Chile,2001.0,Labour efficiency,9.449559639088378,0.008315296192361377,WDI and PWT calculation
+04_CHL,Chile,2002.0,Labour efficiency,9.544706945850091,0.010068967274214025,WDI and PWT calculation
+04_CHL,Chile,2003.0,Labour efficiency,9.869886505379593,0.03406909833631788,WDI and PWT calculation
+04_CHL,Chile,2004.0,Labour efficiency,10.497220985739489,0.06356045533228438,WDI and PWT calculation
+04_CHL,Chile,2005.0,Labour efficiency,10.926578330749974,0.04090200116714415,WDI and PWT calculation
+04_CHL,Chile,2006.0,Labour efficiency,11.432921487077355,0.04634050486806207,WDI and PWT calculation
+04_CHL,Chile,2007.0,Labour efficiency,11.793034005602113,0.03149785633810165,WDI and PWT calculation
+04_CHL,Chile,2008.0,Labour efficiency,11.810342140014802,0.001467657466642347,WDI and PWT calculation
+04_CHL,Chile,2009.0,Labour efficiency,11.061774491366084,-0.06338238467389401,WDI and PWT calculation
+04_CHL,Chile,2010.0,Labour efficiency,11.584293176521768,0.047236425364078904,WDI and PWT calculation
+04_CHL,Chile,2011.0,Labour efficiency,12.156368128386411,0.049383673491973035,WDI and PWT calculation
+04_CHL,Chile,2012.0,Labour efficiency,12.71079124144092,0.04560762780454719,WDI and PWT calculation
+04_CHL,Chile,2013.0,Labour efficiency,12.757858440828258,0.0037029322953465726,WDI and PWT calculation
+04_CHL,Chile,2014.0,Labour efficiency,12.574229354529724,-0.014393409924574496,WDI and PWT calculation
+04_CHL,Chile,2015.0,Labour efficiency,12.490104934891265,-0.00669022468626701,WDI and PWT calculation
+04_CHL,Chile,2016.0,Labour efficiency,12.376873376658478,-0.009065701114845948,WDI and PWT calculation
+04_CHL,Chile,2017.0,Labour efficiency,12.186657900292488,-0.0153686210222298,WDI and PWT calculation
+04_CHL,Chile,2018.0,Labour efficiency,12.458207075814828,0.022282497608784313,WDI and PWT calculation
+04_CHL,Chile,2019.0,Labour efficiency,12.045975471847811,-0.03308915973690019,WDI and PWT calculation
+04_CHL,Chile,2020.0,Labour efficiency,10.489788241492986,-0.1291873152150882,WDI and PWT calculation
+04_CHL,Chile,2021.0,Labour efficiency,12.189240398539996,0.16201014910145894,WDI and PWT calculation
+04_CHL,Chile,2022.0,Labour efficiency,12.241575541954298,0.004293552485893359,WDI and PWT calculation
+04_CHL,Chile,2023.0,Labour efficiency,12.009641955536114,-0.01894638362711576,WDI and PWT calculation
+04_CHL,Chile,2024.0,Labour efficiency,12.276891539464168,0.02225291852309219,WDI and PWT calculation
+04_CHL,Chile,2025.0,Labour efficiency,12.514898371872096,0.019386571237747896,WDI and PWT calculation
+05_PRC,China,1990.0,Labour efficiency,0.7769012201742964,,WDI and PWT calculation
+05_PRC,China,1991.0,Labour efficiency,0.8511126892091129,0.09552239989810696,WDI and PWT calculation
+05_PRC,China,1992.0,Labour efficiency,0.9927522031344542,0.16641687489932533,WDI and PWT calculation
+05_PRC,China,1993.0,Labour efficiency,1.1315473967341545,0.13980849718739163,WDI and PWT calculation
+05_PRC,China,1994.0,Labour efficiency,1.276641488716401,0.12822626113675284,WDI and PWT calculation
+05_PRC,China,1995.0,Labour efficiency,1.4011103207670073,0.09749709150981256,WDI and PWT calculation
+05_PRC,China,1996.0,Labour efficiency,1.5154633334930123,0.08161599485142967,WDI and PWT calculation
+05_PRC,China,1997.0,Labour efficiency,1.6282916350188978,0.07445135690998606,WDI and PWT calculation
+05_PRC,China,1998.0,Labour efficiency,1.7064513821272682,0.048001073903117586,WDI and PWT calculation
+05_PRC,China,1999.0,Labour efficiency,1.7921522693716496,0.05022169874980342,WDI and PWT calculation
+05_PRC,China,2000.0,Labour efficiency,1.9121230591865874,0.06694229718382183,WDI and PWT calculation
+05_PRC,China,2001.0,Labour efficiency,2.027774911908837,0.06048347786331676,WDI and PWT calculation
+05_PRC,China,2002.0,Labour efficiency,2.174419018332051,0.07231774373082223,WDI and PWT calculation
+05_PRC,China,2003.0,Labour efficiency,2.3470877161292147,0.07940911863878664,WDI and PWT calculation
+05_PRC,China,2004.0,Labour efficiency,2.533234157729492,0.0793095376542925,WDI and PWT calculation
+05_PRC,China,2005.0,Labour efficiency,2.7889835020274467,0.10095764085511139,WDI and PWT calculation
+05_PRC,China,2006.0,Labour efficiency,3.1263976477971966,0.12098104758399164,WDI and PWT calculation
+05_PRC,China,2007.0,Labour efficiency,3.585141480533362,0.14673240080620853,WDI and PWT calculation
+05_PRC,China,2008.0,Labour efficiency,3.845502636712148,0.07262228215887645,WDI and PWT calculation
+05_PRC,China,2009.0,Labour efficiency,4.060785368397456,0.055982988967437475,WDI and PWT calculation
+05_PRC,China,2010.0,Labour efficiency,4.372637945062376,0.0767961239941104,WDI and PWT calculation
+05_PRC,China,2011.0,Labour efficiency,4.655067742084999,0.06459025434327237,WDI and PWT calculation
+05_PRC,China,2012.0,Labour efficiency,4.853392138827997,0.04260397651145009,WDI and PWT calculation
+05_PRC,China,2013.0,Labour efficiency,5.061695832322401,0.04291919703498448,WDI and PWT calculation
+05_PRC,China,2014.0,Labour efficiency,5.280596954425572,0.04324659745560733,WDI and PWT calculation
+05_PRC,China,2015.0,Labour efficiency,5.491523515163691,0.039943696244672644,WDI and PWT calculation
+05_PRC,China,2016.0,Labour efficiency,5.71277397829922,0.040289450190751586,WDI and PWT calculation
+05_PRC,China,2017.0,Labour efficiency,5.964815268078022,0.044118897533180323,WDI and PWT calculation
+05_PRC,China,2018.0,Labour efficiency,6.222404261632965,0.043184739506265224,WDI and PWT calculation
+05_PRC,China,2019.0,Labour efficiency,6.448735394851562,0.03637358225246534,WDI and PWT calculation
+05_PRC,China,2020.0,Labour efficiency,6.328131994709436,-0.01870186831334586,WDI and PWT calculation
+05_PRC,China,2021.0,Labour efficiency,6.886766835575523,0.08827800073277992,WDI and PWT calculation
+05_PRC,China,2022.0,Labour efficiency,6.907224179306059,0.0029705294543815874,WDI and PWT calculation
+05_PRC,China,2023.0,Labour efficiency,7.202615405946342,0.04276554792086684,WDI and PWT calculation
+05_PRC,China,2024.0,Labour efficiency,7.577576939337197,0.05205908024483641,WDI and PWT calculation
+05_PRC,China,2025.0,Labour efficiency,7.9712340729972055,0.05195026547555459,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1990.0,Labour efficiency,10.720547554362522,,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1991.0,Labour efficiency,11.238481909994587,0.04831230429282507,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1992.0,Labour efficiency,11.656169663138176,0.037165851801757244,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1993.0,Labour efficiency,12.07542215065811,0.03596828972435007,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1994.0,Labour efficiency,12.43811160528966,0.03003534370115446,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1995.0,Labour efficiency,12.10129878814454,-0.027079095913714157,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1996.0,Labour efficiency,12.140900285821683,0.003272499784563676,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1997.0,Labour efficiency,12.341359339985255,0.016511053500511075,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1998.0,Labour efficiency,10.571856024407259,-0.14337993626398293,WDI and PWT calculation
+06_HKC,"Hong Kong, China",1999.0,Labour efficiency,10.59467779843178,0.0021587291741234083,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2000.0,Labour efficiency,11.51675624794391,0.08703223137645733,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2001.0,Labour efficiency,11.195203671865666,-0.02792041171624604,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2002.0,Labour efficiency,11.188534983780858,-0.0005956736724287426,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2003.0,Labour efficiency,11.472194051084118,0.025352654991422696,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2004.0,Labour efficiency,12.865885105104372,0.12148426428408876,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2005.0,Labour efficiency,14.158129602687678,0.10043961119088696,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2006.0,Labour efficiency,15.498032428802556,0.09463840660566647,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2007.0,Labour efficiency,16.8094163378514,0.08461615466823269,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2008.0,Labour efficiency,16.986672501311347,0.010545051648271908,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2009.0,Labour efficiency,15.960123440190014,-0.060432616278561,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2010.0,Labour efficiency,17.410531362113755,0.09087698646937747,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2011.0,Labour efficiency,18.39832147294492,0.05673520757560846,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2012.0,Labour efficiency,18.44440321179902,0.002504670815860255,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2013.0,Labour efficiency,18.938491486267594,0.02678797837994029,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2014.0,Labour efficiency,19.3906223418976,0.023873646745193433,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2015.0,Labour efficiency,19.79342041637266,0.02077282860616214,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2016.0,Labour efficiency,20.17047899431057,0.01904969277700075,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2017.0,Labour efficiency,21.094083379119358,0.04578990836406538,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2018.0,Labour efficiency,21.743739504280374,0.03079802584852298,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2019.0,Labour efficiency,20.944025365811896,-0.0367790525779178,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2020.0,Labour efficiency,18.620643227099343,-0.11093293185679287,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2021.0,Labour efficiency,20.55028953757696,0.10362941209621201,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2022.0,Labour efficiency,19.257659417288085,-0.062900822780392,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2023.0,Labour efficiency,20.235374138168662,0.05077017407436646,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2024.0,Labour efficiency,20.821395720947507,0.02896025439299743,WDI and PWT calculation
+06_HKC,"Hong Kong, China",2025.0,Labour efficiency,21.65342682923559,0.039960390717276084,WDI and PWT calculation
+07_INA,Indonesia,1990.0,Labour efficiency,1.913697554377949,,WDI and PWT calculation
+07_INA,Indonesia,1991.0,Labour efficiency,1.9967415783734224,0.04339453943779903,WDI and PWT calculation
+07_INA,Indonesia,1992.0,Labour efficiency,2.066693445229902,0.03503300958627986,WDI and PWT calculation
+07_INA,Indonesia,1993.0,Labour efficiency,2.146443332833811,0.03858815529123483,WDI and PWT calculation
+07_INA,Indonesia,1994.0,Labour efficiency,2.246478522392072,0.046605092260316505,WDI and PWT calculation
+07_INA,Indonesia,1995.0,Labour efficiency,2.3665006421768187,0.05342678266825618,WDI and PWT calculation
+07_INA,Indonesia,1996.0,Labour efficiency,2.4661518809169034,0.042109111218503914,WDI and PWT calculation
+07_INA,Indonesia,1997.0,Labour efficiency,2.4542361415337135,-0.004831713519103942,WDI and PWT calculation
+07_INA,Indonesia,1998.0,Labour efficiency,1.8564590996868933,-0.2435694885795523,WDI and PWT calculation
+07_INA,Indonesia,1999.0,Labour efficiency,1.8189470313019203,-0.020206245530159928,WDI and PWT calculation
+07_INA,Indonesia,2000.0,Labour efficiency,1.896250548270814,0.04249904787692671,WDI and PWT calculation
+07_INA,Indonesia,2001.0,Labour efficiency,1.9358867814339753,0.020902424101765238,WDI and PWT calculation
+07_INA,Indonesia,2002.0,Labour efficiency,2.001655950672821,0.033973665128354424,WDI and PWT calculation
+07_INA,Indonesia,2003.0,Labour efficiency,2.0809621893447576,0.039620314692582204,WDI and PWT calculation
+07_INA,Indonesia,2004.0,Labour efficiency,2.1579840424010825,0.03701261534241396,WDI and PWT calculation
+07_INA,Indonesia,2005.0,Labour efficiency,2.255086300660569,0.04499674527316966,WDI and PWT calculation
+07_INA,Indonesia,2006.0,Labour efficiency,2.3508735129978806,0.0424760738909431,WDI and PWT calculation
+07_INA,Indonesia,2007.0,Labour efficiency,2.4776027331914015,0.05390728998937644,WDI and PWT calculation
+07_INA,Indonesia,2008.0,Labour efficiency,2.588093147791715,0.04459569450748502,WDI and PWT calculation
+07_INA,Indonesia,2009.0,Labour efficiency,2.6513752343487393,0.024451239945138648,WDI and PWT calculation
+07_INA,Indonesia,2010.0,Labour efficiency,2.7817004857856658,0.049153831471514975,WDI and PWT calculation
+07_INA,Indonesia,2011.0,Labour efficiency,2.9114115086861663,0.04663011836224529,WDI and PWT calculation
+07_INA,Indonesia,2012.0,Labour efficiency,3.0344623964231023,0.04226502758878814,WDI and PWT calculation
+07_INA,Indonesia,2013.0,Labour efficiency,3.1429968917000113,0.035767289588048534,WDI and PWT calculation
+07_INA,Indonesia,2014.0,Labour efficiency,3.2330449467539584,0.028650379926160596,WDI and PWT calculation
+07_INA,Indonesia,2015.0,Labour efficiency,3.32240308121578,0.02763900160173738,WDI and PWT calculation
+07_INA,Indonesia,2016.0,Labour efficiency,3.4275227075051284,0.03163963664844727,WDI and PWT calculation
+07_INA,Indonesia,2017.0,Labour efficiency,3.538741096893193,0.032448622191337595,WDI and PWT calculation
+07_INA,Indonesia,2018.0,Labour efficiency,3.6598336639956957,0.03421910893928204,WDI and PWT calculation
+07_INA,Indonesia,2019.0,Labour efficiency,3.781514870877807,0.0332477423985611,WDI and PWT calculation
+07_INA,Indonesia,2020.0,Labour efficiency,3.5024595278216606,-0.0737945909469262,WDI and PWT calculation
+07_INA,Indonesia,2021.0,Labour efficiency,3.576383417899451,0.021106279598830158,WDI and PWT calculation
+07_INA,Indonesia,2022.0,Labour efficiency,3.754028398715013,0.04967168227166763,WDI and PWT calculation
+07_INA,Indonesia,2023.0,Labour efficiency,3.916370430916699,0.04324475335808731,WDI and PWT calculation
+07_INA,Indonesia,2024.0,Labour efficiency,4.07956157948699,0.04166897678575654,WDI and PWT calculation
+07_INA,Indonesia,2025.0,Labour efficiency,4.253772244605853,0.04270328115521904,WDI and PWT calculation
+08_JPN,Japan,1990.0,Labour efficiency,13.875875647011444,,WDI and PWT calculation
+08_JPN,Japan,1991.0,Labour efficiency,14.136349082434801,0.01877167553598369,WDI and PWT calculation
+08_JPN,Japan,1992.0,Labour efficiency,13.865564283086746,-0.019155214530215625,WDI and PWT calculation
+08_JPN,Japan,1993.0,Labour efficiency,13.354876588684142,-0.03683136755029448,WDI and PWT calculation
+08_JPN,Japan,1994.0,Labour efficiency,13.230300400004268,-0.009328142259691918,WDI and PWT calculation
+08_JPN,Japan,1995.0,Labour efficiency,13.417329457355187,0.014136418047685284,WDI and PWT calculation
+08_JPN,Japan,1996.0,Labour efficiency,13.74580535088453,0.0244814658962762,WDI and PWT calculation
+08_JPN,Japan,1997.0,Labour efficiency,13.700292253794506,-0.00331105351256078,WDI and PWT calculation
+08_JPN,Japan,1998.0,Labour efficiency,13.082033611611367,-0.04512740536698434,WDI and PWT calculation
+08_JPN,Japan,1999.0,Labour efficiency,12.775741814096163,-0.02341316393219972,WDI and PWT calculation
+08_JPN,Japan,2000.0,Labour efficiency,13.177625569561148,0.03145678437408339,WDI and PWT calculation
+08_JPN,Japan,2001.0,Labour efficiency,13.056310207769432,-0.009206162457062073,WDI and PWT calculation
+08_JPN,Japan,2002.0,Labour efficiency,12.917831093281166,-0.01060629781956779,WDI and PWT calculation
+08_JPN,Japan,2003.0,Labour efficiency,13.089786712615393,0.013311493089862791,WDI and PWT calculation
+08_JPN,Japan,2004.0,Labour efficiency,13.428757753287167,0.025895841400157327,WDI and PWT calculation
+08_JPN,Japan,2005.0,Labour efficiency,13.704105556120387,0.02050433911251548,WDI and PWT calculation
+08_JPN,Japan,2006.0,Labour efficiency,13.917268749614141,0.015554695826065945,WDI and PWT calculation
+08_JPN,Japan,2007.0,Labour efficiency,14.186311805220752,0.019331598781842096,WDI and PWT calculation
+08_JPN,Japan,2008.0,Labour efficiency,13.826851870766255,-0.025338505130150235,WDI and PWT calculation
+08_JPN,Japan,2009.0,Labour efficiency,12.486807335736408,-0.09691609829588665,WDI and PWT calculation
+08_JPN,Japan,2010.0,Labour efficiency,13.341446281649981,0.06844335168587512,WDI and PWT calculation
+08_JPN,Japan,2011.0,Labour efficiency,13.298988757028978,-0.003182377961480798,WDI and PWT calculation
+08_JPN,Japan,2012.0,Labour efficiency,13.624573210770707,0.024481895555378053,WDI and PWT calculation
+08_JPN,Japan,2013.0,Labour efficiency,14.052405937478962,0.031401550719404314,WDI and PWT calculation
+08_JPN,Japan,2014.0,Labour efficiency,14.172802789561956,0.008567703823719297,WDI and PWT calculation
+08_JPN,Japan,2015.0,Labour efficiency,14.539413822427237,0.025867221770367488,WDI and PWT calculation
+08_JPN,Japan,2016.0,Labour efficiency,14.6653323057055,0.008660492425357047,WDI and PWT calculation
+08_JPN,Japan,2017.0,Labour efficiency,15.001733019449103,0.02293849922600999,WDI and PWT calculation
+08_JPN,Japan,2018.0,Labour efficiency,15.13073175806159,0.008598922434177814,WDI and PWT calculation
+08_JPN,Japan,2019.0,Labour efficiency,14.991889729987037,-0.00917616082914019,WDI and PWT calculation
+08_JPN,Japan,2020.0,Labour efficiency,13.929748219823447,-0.07084774029781427,WDI and PWT calculation
+08_JPN,Japan,2021.0,Labour efficiency,14.683621456423355,0.05411965993233614,WDI and PWT calculation
+08_JPN,Japan,2022.0,Labour efficiency,15.011477950696491,0.022328040480076305,WDI and PWT calculation
+08_JPN,Japan,2023.0,Labour efficiency,15.316293653709636,0.020305509158677015,WDI and PWT calculation
+08_JPN,Japan,2024.0,Labour efficiency,15.35335513594631,0.002419742208827236,WDI and PWT calculation
+08_JPN,Japan,2025.0,Labour efficiency,15.616624955156576,0.01714738028783569,WDI and PWT calculation
+09_ROK,Korea,1990.0,Labour efficiency,6.431932344114609,,WDI and PWT calculation
+09_ROK,Korea,1991.0,Labour efficiency,6.917545561557524,0.07550036154955264,WDI and PWT calculation
+09_ROK,Korea,1992.0,Labour efficiency,7.074908613340976,0.02274839397631978,WDI and PWT calculation
+09_ROK,Korea,1993.0,Labour efficiency,7.332354366722935,0.03638856237612731,WDI and PWT calculation
+09_ROK,Korea,1994.0,Labour efficiency,7.859177266784043,0.07184907789673045,WDI and PWT calculation
+09_ROK,Korea,1995.0,Labour efficiency,8.466169838588938,0.07723360234795607,WDI and PWT calculation
+09_ROK,Korea,1996.0,Labour efficiency,8.911929139860177,0.05265182600512719,WDI and PWT calculation
+09_ROK,Korea,1997.0,Labour efficiency,9.220680495228287,0.03464472736740731,WDI and PWT calculation
+09_ROK,Korea,1998.0,Labour efficiency,8.124608191841336,-0.11887108591976148,WDI and PWT calculation
+09_ROK,Korea,1999.0,Labour efficiency,9.328187260191688,0.14813995209750264,WDI and PWT calculation
+09_ROK,Korea,2000.0,Labour efficiency,10.273363482325836,0.10132474786046752,WDI and PWT calculation
+09_ROK,Korea,2001.0,Labour efficiency,10.591044600457693,0.030922795506884482,WDI and PWT calculation
+09_ROK,Korea,2002.0,Labour efficiency,11.439799965553346,0.08013896618459859,WDI and PWT calculation
+09_ROK,Korea,2003.0,Labour efficiency,11.492036260564158,0.004566189545979871,WDI and PWT calculation
+09_ROK,Korea,2004.0,Labour efficiency,11.969920893427823,0.04158398233597338,WDI and PWT calculation
+09_ROK,Korea,2005.0,Labour efficiency,12.344086561654972,0.031258825480842356,WDI and PWT calculation
+09_ROK,Korea,2006.0,Labour efficiency,12.931462704114248,0.047583605277353724,WDI and PWT calculation
+09_ROK,Korea,2007.0,Labour efficiency,13.675312696665554,0.05752249452141589,WDI and PWT calculation
+09_ROK,Korea,2008.0,Labour efficiency,13.873096417268517,0.014462829844555491,WDI and PWT calculation
+09_ROK,Korea,2009.0,Labour efficiency,13.610506077825097,-0.0189280267032933,WDI and PWT calculation
+09_ROK,Korea,2010.0,Labour efficiency,14.719728135388316,0.08149748813311342,WDI and PWT calculation
+09_ROK,Korea,2011.0,Labour efficiency,15.127405209830362,0.027695964945299023,WDI and PWT calculation
+09_ROK,Korea,2012.0,Labour efficiency,15.240349819650477,0.007466224924464804,WDI and PWT calculation
+09_ROK,Korea,2013.0,Labour efficiency,15.556345931910853,0.020734177102217144,WDI and PWT calculation
+09_ROK,Korea,2014.0,Labour efficiency,15.865131542143697,0.019849494963944503,WDI and PWT calculation
+09_ROK,Korea,2015.0,Labour efficiency,16.092571202750396,0.014335819403862748,WDI and PWT calculation
+09_ROK,Korea,2016.0,Labour efficiency,16.376772463900835,0.01766040103658928,WDI and PWT calculation
+09_ROK,Korea,2017.0,Labour efficiency,16.752683474969334,0.02295391304343486,WDI and PWT calculation
+09_ROK,Korea,2018.0,Labour efficiency,17.14585868183668,0.02346938670779508,WDI and PWT calculation
+09_ROK,Korea,2019.0,Labour efficiency,17.37303030259625,0.013249358050537507,WDI and PWT calculation
+09_ROK,Korea,2020.0,Labour efficiency,16.760341467072493,-0.035266664758663024,WDI and PWT calculation
+09_ROK,Korea,2021.0,Labour efficiency,17.64060334650651,0.05252052180221911,WDI and PWT calculation
+09_ROK,Korea,2022.0,Labour efficiency,18.094459648252638,0.025727935311011363,WDI and PWT calculation
+09_ROK,Korea,2023.0,Labour efficiency,18.200082059129983,0.005837279086007063,WDI and PWT calculation
+09_ROK,Korea,2024.0,Labour efficiency,18.572385960853694,0.02045616610486367,WDI and PWT calculation
+09_ROK,Korea,2025.0,Labour efficiency,18.774288142795697,0.010871095526851837,WDI and PWT calculation
+10_MAS,Malaysia,1990.0,Labour efficiency,5.691918912340883,,WDI and PWT calculation
+10_MAS,Malaysia,1991.0,Labour efficiency,6.009409951391662,0.05577926248429388,WDI and PWT calculation
+10_MAS,Malaysia,1992.0,Labour efficiency,6.2982570158947855,0.048065794618693314,WDI and PWT calculation
+10_MAS,Malaysia,1993.0,Labour efficiency,6.673764044202932,0.059620785141109245,WDI and PWT calculation
+10_MAS,Malaysia,1994.0,Labour efficiency,6.977686517658419,0.045539888950596685,WDI and PWT calculation
+10_MAS,Malaysia,1995.0,Labour efficiency,7.291699559441603,0.04500245761808186,WDI and PWT calculation
+10_MAS,Malaysia,1996.0,Labour efficiency,7.686440226413542,0.05413561869273842,WDI and PWT calculation
+10_MAS,Malaysia,1997.0,Labour efficiency,7.806931873421512,0.015675871204190672,WDI and PWT calculation
+10_MAS,Malaysia,1998.0,Labour efficiency,6.575577387016245,-0.15772578861580433,WDI and PWT calculation
+10_MAS,Malaysia,1999.0,Labour efficiency,6.979883715275163,0.06148605733957879,WDI and PWT calculation
+10_MAS,Malaysia,2000.0,Labour efficiency,7.62281304069453,0.09211175309587838,WDI and PWT calculation
+10_MAS,Malaysia,2001.0,Labour efficiency,7.30822315493223,-0.04126952662788086,WDI and PWT calculation
+10_MAS,Malaysia,2002.0,Labour efficiency,7.588281193710132,0.03832094790221263,WDI and PWT calculation
+10_MAS,Malaysia,2003.0,Labour efficiency,7.928687406909884,0.0448594621772731,WDI and PWT calculation
+10_MAS,Malaysia,2004.0,Labour efficiency,8.41936461940784,0.06188631072405881,WDI and PWT calculation
+10_MAS,Malaysia,2005.0,Labour efficiency,8.722369071929952,0.03598899278261958,WDI and PWT calculation
+10_MAS,Malaysia,2006.0,Labour efficiency,9.073636035256406,0.04027196744711126,WDI and PWT calculation
+10_MAS,Malaysia,2007.0,Labour efficiency,9.515976384250925,0.04875006527435821,WDI and PWT calculation
+10_MAS,Malaysia,2008.0,Labour efficiency,9.777327123994423,0.027464416596917784,WDI and PWT calculation
+10_MAS,Malaysia,2009.0,Labour efficiency,9.092948844855929,-0.06999645920191921,WDI and PWT calculation
+10_MAS,Malaysia,2010.0,Labour efficiency,9.73823161907694,0.07096518249809147,WDI and PWT calculation
+10_MAS,Malaysia,2011.0,Labour efficiency,10.093024056593315,0.036432943001822427,WDI and PWT calculation
+10_MAS,Malaysia,2012.0,Labour efficiency,10.405947746574029,0.031003957607363075,WDI and PWT calculation
+10_MAS,Malaysia,2013.0,Labour efficiency,10.581883272615682,0.01690720829340875,WDI and PWT calculation
+10_MAS,Malaysia,2014.0,Labour efficiency,10.997455608940605,0.03927205825454161,WDI and PWT calculation
+10_MAS,Malaysia,2015.0,Labour efficiency,11.280072807247562,0.025698416829907256,WDI and PWT calculation
+10_MAS,Malaysia,2016.0,Labour efficiency,11.469961793396697,0.016834021321842085,WDI and PWT calculation
+10_MAS,Malaysia,2017.0,Labour efficiency,11.907434680003785,0.038140744885387656,WDI and PWT calculation
+10_MAS,Malaysia,2018.0,Labour efficiency,12.210300239414602,0.025434996500079077,WDI and PWT calculation
+10_MAS,Malaysia,2019.0,Labour efficiency,12.499842673885603,0.023712966003601066,WDI and PWT calculation
+10_MAS,Malaysia,2020.0,Labour efficiency,10.988028307203823,-0.1209466715801335,WDI and PWT calculation
+10_MAS,Malaysia,2021.0,Labour efficiency,11.272145854531669,0.025857009045160195,WDI and PWT calculation
+10_MAS,Malaysia,2022.0,Labour efficiency,12.601088303899664,0.11789613677095279,WDI and PWT calculation
+10_MAS,Malaysia,2023.0,Labour efficiency,12.949847698500122,0.02767692648360609,WDI and PWT calculation
+10_MAS,Malaysia,2024.0,Labour efficiency,13.443137293698515,0.03809230862657387,WDI and PWT calculation
+10_MAS,Malaysia,2025.0,Labour efficiency,13.969603247282958,0.03916243225688287,WDI and PWT calculation
+11_MEX,Mexico,1990.0,Labour efficiency,7.415275556241167,,WDI and PWT calculation
+11_MEX,Mexico,1991.0,Labour efficiency,7.627614371522345,0.028635323619559783,WDI and PWT calculation
+11_MEX,Mexico,1992.0,Labour efficiency,7.772283215963493,0.018966460205601,WDI and PWT calculation
+11_MEX,Mexico,1993.0,Labour efficiency,7.831066136287574,0.007563146978914359,WDI and PWT calculation
+11_MEX,Mexico,1994.0,Labour efficiency,8.038211857115481,0.026451790499895766,WDI and PWT calculation
+11_MEX,Mexico,1995.0,Labour efficiency,7.071411581770032,-0.12027554044742317,WDI and PWT calculation
+11_MEX,Mexico,1996.0,Labour efficiency,7.567137880578751,0.07010287735007426,WDI and PWT calculation
+11_MEX,Mexico,1997.0,Labour efficiency,8.187488308382068,0.08197953276303616,WDI and PWT calculation
+11_MEX,Mexico,1998.0,Labour efficiency,8.703273158152559,0.06299671283102137,WDI and PWT calculation
+11_MEX,Mexico,1999.0,Labour efficiency,8.764627005411873,0.007049514147656311,WDI and PWT calculation
+11_MEX,Mexico,2000.0,Labour efficiency,9.160533098194973,0.04517090031767945,WDI and PWT calculation
+11_MEX,Mexico,2001.0,Labour efficiency,8.810850970000308,-0.03817268323211098,WDI and PWT calculation
+11_MEX,Mexico,2002.0,Labour efficiency,8.524240675120303,-0.03252924102971122,WDI and PWT calculation
+11_MEX,Mexico,2003.0,Labour efficiency,8.450672327766705,-0.00863048688528023,WDI and PWT calculation
+11_MEX,Mexico,2004.0,Labour efficiency,8.699577037065662,0.029453835108612658,WDI and PWT calculation
+11_MEX,Mexico,2005.0,Labour efficiency,8.742992492791103,0.004990524888792258,WDI and PWT calculation
+11_MEX,Mexico,2006.0,Labour efficiency,9.155615603348911,0.04719472319094753,WDI and PWT calculation
+11_MEX,Mexico,2007.0,Labour efficiency,9.161647244123493,0.0006587913949092083,WDI and PWT calculation
+11_MEX,Mexico,2008.0,Labour efficiency,8.978917231474409,-0.019945104606193254,WDI and PWT calculation
+11_MEX,Mexico,2009.0,Labour efficiency,7.821670360468391,-0.12888490239663208,WDI and PWT calculation
+11_MEX,Mexico,2010.0,Labour efficiency,8.223021063312688,0.051312658850054316,WDI and PWT calculation
+11_MEX,Mexico,2011.0,Labour efficiency,8.421240961505585,0.024105483455133525,WDI and PWT calculation
+11_MEX,Mexico,2012.0,Labour efficiency,8.639554779356004,0.025924186096604407,WDI and PWT calculation
+11_MEX,Mexico,2013.0,Labour efficiency,8.51532178394703,-0.014379559894200256,WDI and PWT calculation
+11_MEX,Mexico,2014.0,Labour efficiency,8.626222647185688,0.013023684371825661,WDI and PWT calculation
+11_MEX,Mexico,2015.0,Labour efficiency,8.771512385672821,0.01684279949979417,WDI and PWT calculation
+11_MEX,Mexico,2016.0,Labour efficiency,8.802082999622485,0.0034852158448293036,WDI and PWT calculation
+11_MEX,Mexico,2017.0,Labour efficiency,8.86771823747295,0.007456784701221242,WDI and PWT calculation
+11_MEX,Mexico,2018.0,Labour efficiency,8.956013713116405,0.009956955473657159,WDI and PWT calculation
+11_MEX,Mexico,2019.0,Labour efficiency,8.719554804517305,-0.026402249502230912,WDI and PWT calculation
+11_MEX,Mexico,2020.0,Labour efficiency,7.4379377758542695,-0.1469819339857894,WDI and PWT calculation
+11_MEX,Mexico,2021.0,Labour efficiency,8.08604304267087,0.08713507511726437,WDI and PWT calculation
+11_MEX,Mexico,2022.0,Labour efficiency,8.455635333506569,0.04570743550155787,WDI and PWT calculation
+11_MEX,Mexico,2023.0,Labour efficiency,8.704029091632924,0.029376119987348792,WDI and PWT calculation
+11_MEX,Mexico,2024.0,Labour efficiency,8.744592365235889,0.0046602869976568595,WDI and PWT calculation
+11_MEX,Mexico,2025.0,Labour efficiency,8.71975235864371,-0.002840613439104356,WDI and PWT calculation
+12_NZ,New Zealand,1990.0,Labour efficiency,14.853441502863976,,WDI and PWT calculation
+12_NZ,New Zealand,1991.0,Labour efficiency,13.983690941799065,-0.058555491055538256,WDI and PWT calculation
+12_NZ,New Zealand,1992.0,Labour efficiency,13.874089938016034,-0.00783777360635296,WDI and PWT calculation
+12_NZ,New Zealand,1993.0,Labour efficiency,14.99626959303421,0.08088311810227777,WDI and PWT calculation
+12_NZ,New Zealand,1994.0,Labour efficiency,15.847010499001358,0.05673016883894366,WDI and PWT calculation
+12_NZ,New Zealand,1995.0,Labour efficiency,16.419545845957543,0.03612891825825848,WDI and PWT calculation
+12_NZ,New Zealand,1996.0,Labour efficiency,16.74705327218091,0.019946192744667135,WDI and PWT calculation
+12_NZ,New Zealand,1997.0,Labour efficiency,16.844188260361154,0.005800124153280128,WDI and PWT calculation
+12_NZ,New Zealand,1998.0,Labour efficiency,16.64377484239677,-0.011898075161983934,WDI and PWT calculation
+12_NZ,New Zealand,1999.0,Labour efficiency,17.637662949403197,0.05971530595779817,WDI and PWT calculation
+12_NZ,New Zealand,2000.0,Labour efficiency,17.97522607914931,0.01913876746111276,WDI and PWT calculation
+12_NZ,New Zealand,2001.0,Labour efficiency,18.556551541129625,0.032340369985923934,WDI and PWT calculation
+12_NZ,New Zealand,2002.0,Labour efficiency,19.403040960094405,0.04561674172534591,WDI and PWT calculation
+12_NZ,New Zealand,2003.0,Labour efficiency,20.01353296136714,0.03146372790369889,WDI and PWT calculation
+12_NZ,New Zealand,2004.0,Labour efficiency,20.337795128608164,0.01620214521179042,WDI and PWT calculation
+12_NZ,New Zealand,2005.0,Labour efficiency,20.610057565796414,0.013387018379650728,WDI and PWT calculation
+12_NZ,New Zealand,2006.0,Labour efficiency,20.747891531536826,0.006687704063920608,WDI and PWT calculation
+12_NZ,New Zealand,2007.0,Labour efficiency,21.150552252482306,0.019407307982762356,WDI and PWT calculation
+12_NZ,New Zealand,2008.0,Labour efficiency,20.114907694434873,-0.04896536722467315,WDI and PWT calculation
+12_NZ,New Zealand,2009.0,Labour efficiency,19.91388808725112,-0.009993563492183832,WDI and PWT calculation
+12_NZ,New Zealand,2010.0,Labour efficiency,19.82904375761275,-0.00426056073362624,WDI and PWT calculation
+12_NZ,New Zealand,2011.0,Labour efficiency,20.095067286563577,0.013415852635288772,WDI and PWT calculation
+12_NZ,New Zealand,2012.0,Labour efficiency,20.43340513767816,0.01683686082209901,WDI and PWT calculation
+12_NZ,New Zealand,2013.0,Labour efficiency,20.704953534301666,0.013289434374439413,WDI and PWT calculation
+12_NZ,New Zealand,2014.0,Labour efficiency,21.29874441887115,0.028678687135701875,WDI and PWT calculation
+12_NZ,New Zealand,2015.0,Labour efficiency,21.84668041369963,0.025726211087964357,WDI and PWT calculation
+12_NZ,New Zealand,2016.0,Labour efficiency,22.300286534139133,0.020763159978989476,WDI and PWT calculation
+12_NZ,New Zealand,2017.0,Labour efficiency,22.702466496436774,0.01803474415819495,WDI and PWT calculation
+12_NZ,New Zealand,2018.0,Labour efficiency,23.086642202355076,0.016922201205697096,WDI and PWT calculation
+12_NZ,New Zealand,2019.0,Labour efficiency,23.111747840186027,0.0010874529786921716,WDI and PWT calculation
+12_NZ,New Zealand,2020.0,Labour efficiency,22.207051617734635,-0.0391444311657958,WDI and PWT calculation
+12_NZ,New Zealand,2021.0,Labour efficiency,23.042051351024245,0.03760065710941918,WDI and PWT calculation
+12_NZ,New Zealand,2022.0,Labour efficiency,23.667479829476434,0.02714291661468704,WDI and PWT calculation
+12_NZ,New Zealand,2023.0,Labour efficiency,23.569074052846094,-0.004157847702389583,WDI and PWT calculation
+12_NZ,New Zealand,2024.0,Labour efficiency,23.171096706985246,-0.016885574077645682,WDI and PWT calculation
+12_NZ,New Zealand,2025.0,Labour efficiency,23.103733979574567,-0.0029071877029615,WDI and PWT calculation
+13_PNG,Papua New Guinea,1990.0,Labour efficiency,2.0227269267925605,,WDI and PWT calculation
+13_PNG,Papua New Guinea,1991.0,Labour efficiency,2.152807109474712,0.0643093147963476,WDI and PWT calculation
+13_PNG,Papua New Guinea,1992.0,Labour efficiency,2.3681048911336453,0.10000792951276827,WDI and PWT calculation
+13_PNG,Papua New Guinea,1993.0,Labour efficiency,2.6992318544989073,0.1398278279838976,WDI and PWT calculation
+13_PNG,Papua New Guinea,1994.0,Labour efficiency,2.757635227687717,0.02163703465912592,WDI and PWT calculation
+13_PNG,Papua New Guinea,1995.0,Labour efficiency,2.5717219522554617,-0.06741764594737354,WDI and PWT calculation
+13_PNG,Papua New Guinea,1996.0,Labour efficiency,2.6731094042032613,0.03942395555587974,WDI and PWT calculation
+13_PNG,Papua New Guinea,1997.0,Labour efficiency,2.4786635084020054,-0.07274146561136052,WDI and PWT calculation
+13_PNG,Papua New Guinea,1998.0,Labour efficiency,2.301960714690604,-0.07128954499569085,WDI and PWT calculation
+13_PNG,Papua New Guinea,1999.0,Labour efficiency,2.264484983451156,-0.016279917811058198,WDI and PWT calculation
+13_PNG,Papua New Guinea,2000.0,Labour efficiency,2.1324815964647876,-0.058292895714057935,WDI and PWT calculation
+13_PNG,Papua New Guinea,2001.0,Labour efficiency,2.0582857820253753,-0.034793179252948114,WDI and PWT calculation
+13_PNG,Papua New Guinea,2002.0,Labour efficiency,1.986787057922506,-0.034737024725747134,WDI and PWT calculation
+13_PNG,Papua New Guinea,2003.0,Labour efficiency,1.9631433251040153,-0.011900486629510154,WDI and PWT calculation
+13_PNG,Papua New Guinea,2004.0,Labour efficiency,1.9510471087635826,-0.0061616572696198135,WDI and PWT calculation
+13_PNG,Papua New Guinea,2005.0,Labour efficiency,2.008427025993122,0.0294098061352821,WDI and PWT calculation
+13_PNG,Papua New Guinea,2006.0,Labour efficiency,2.050169542457542,0.020783685901547333,WDI and PWT calculation
+13_PNG,Papua New Guinea,2007.0,Labour efficiency,2.141469604336432,0.044532932515156,WDI and PWT calculation
+13_PNG,Papua New Guinea,2008.0,Labour efficiency,2.0694534106362297,-0.033629332657522104,WDI and PWT calculation
+13_PNG,Papua New Guinea,2009.0,Labour efficiency,2.1429740342753614,0.03552659038433181,WDI and PWT calculation
+13_PNG,Papua New Guinea,2010.0,Labour efficiency,2.2893807519097704,0.06831940811822101,WDI and PWT calculation
+13_PNG,Papua New Guinea,2011.0,Labour efficiency,2.24629243375624,-0.018820948904015422,WDI and PWT calculation
+13_PNG,Papua New Guinea,2012.0,Labour efficiency,2.285266410767473,0.017350357605069533,WDI and PWT calculation
+13_PNG,Papua New Guinea,2013.0,Labour efficiency,2.3085113564491593,0.010171656823976027,WDI and PWT calculation
+13_PNG,Papua New Guinea,2014.0,Labour efficiency,2.552295430967075,0.10560228514227132,WDI and PWT calculation
+13_PNG,Papua New Guinea,2015.0,Labour efficiency,2.650748286415565,0.038574239586044445,WDI and PWT calculation
+13_PNG,Papua New Guinea,2016.0,Labour efficiency,2.727028335262751,0.028776798324496644,WDI and PWT calculation
+13_PNG,Papua New Guinea,2017.0,Labour efficiency,2.7556390824297607,0.010491547446371818,WDI and PWT calculation
+13_PNG,Papua New Guinea,2018.0,Labour efficiency,2.683958016652987,-0.026012501504213525,WDI and PWT calculation
+13_PNG,Papua New Guinea,2019.0,Labour efficiency,2.740659243932614,0.021125974001015013,WDI and PWT calculation
+13_PNG,Papua New Guinea,2020.0,Labour efficiency,2.595496120060385,-0.052966498550885976,WDI and PWT calculation
+13_PNG,Papua New Guinea,2021.0,Labour efficiency,2.5302025489689806,-0.02515648957698513,WDI and PWT calculation
+13_PNG,Papua New Guinea,2022.0,Labour efficiency,2.623155834551764,0.036737487921929546,WDI and PWT calculation
+13_PNG,Papua New Guinea,2023.0,Labour efficiency,2.6738966080528432,0.019343407979324212,WDI and PWT calculation
+13_PNG,Papua New Guinea,2024.0,Labour efficiency,2.7283434355636857,0.020362353333658323,WDI and PWT calculation
+13_PNG,Papua New Guinea,2025.0,Labour efficiency,2.831684964934804,0.03787702384680447,WDI and PWT calculation
+14_PE,Peru,1990.0,Labour efficiency,2.6777021172958455,,WDI and PWT calculation
+14_PE,Peru,1991.0,Labour efficiency,2.691515193133131,0.0051585558184623626,WDI and PWT calculation
+14_PE,Peru,1992.0,Labour efficiency,2.582433223316061,-0.04052808993810286,WDI and PWT calculation
+14_PE,Peru,1993.0,Labour efficiency,2.7057426354395053,0.04774931293871165,WDI and PWT calculation
+14_PE,Peru,1994.0,Labour efficiency,3.113887002156797,0.1508437503890665,WDI and PWT calculation
+14_PE,Peru,1995.0,Labour efficiency,3.3033317581455983,0.060838673933121035,WDI and PWT calculation
+14_PE,Peru,1996.0,Labour efficiency,3.2773249205439665,-0.007872911201698751,WDI and PWT calculation
+14_PE,Peru,1997.0,Labour efficiency,3.4288954345449296,0.046248241378461064,WDI and PWT calculation
+14_PE,Peru,1998.0,Labour efficiency,3.2261364386454874,-0.0591324523508987,WDI and PWT calculation
+14_PE,Peru,1999.0,Labour efficiency,3.1628722440349613,-0.01960989431590432,WDI and PWT calculation
+14_PE,Peru,2000.0,Labour efficiency,3.1812682154985774,0.005816223370485485,WDI and PWT calculation
+14_PE,Peru,2001.0,Labour efficiency,3.1134938257698934,-0.02130420484462736,WDI and PWT calculation
+14_PE,Peru,2002.0,Labour efficiency,3.302541870278566,0.06071893990730026,WDI and PWT calculation
+14_PE,Peru,2003.0,Labour efficiency,3.429728712501769,0.03851180309561841,WDI and PWT calculation
+14_PE,Peru,2004.0,Labour efficiency,3.602415623995589,0.050350020648675775,WDI and PWT calculation
+14_PE,Peru,2005.0,Labour efficiency,3.8514956695161544,0.06914250645079645,WDI and PWT calculation
+14_PE,Peru,2006.0,Labour efficiency,4.174898634856365,0.08396814980213585,WDI and PWT calculation
+14_PE,Peru,2007.0,Labour efficiency,4.558714285684687,0.09193412448959415,WDI and PWT calculation
+14_PE,Peru,2008.0,Labour efficiency,4.972575225688098,0.090784575226182,WDI and PWT calculation
+14_PE,Peru,2009.0,Labour efficiency,4.822862829361861,-0.03010761819204466,WDI and PWT calculation
+14_PE,Peru,2010.0,Labour efficiency,5.204048660032033,0.07903725321597199,WDI and PWT calculation
+14_PE,Peru,2011.0,Labour efficiency,5.438573312942715,0.04506580707284136,WDI and PWT calculation
+14_PE,Peru,2012.0,Labour efficiency,5.64058965786023,0.03714509914516673,WDI and PWT calculation
+14_PE,Peru,2013.0,Labour efficiency,5.836622607365186,0.034753981657180466,WDI and PWT calculation
+14_PE,Peru,2014.0,Labour efficiency,5.751637853066825,-0.014560604653643283,WDI and PWT calculation
+14_PE,Peru,2015.0,Labour efficiency,5.793418348683389,0.007264104014178541,WDI and PWT calculation
+14_PE,Peru,2016.0,Labour efficiency,5.92676982641852,0.023017753890574255,WDI and PWT calculation
+14_PE,Peru,2017.0,Labour efficiency,5.917890113994369,-0.001498238110170691,WDI and PWT calculation
+14_PE,Peru,2018.0,Labour efficiency,6.04406647072818,0.02132117263134603,WDI and PWT calculation
+14_PE,Peru,2019.0,Labour efficiency,5.966423166004272,-0.012846202982700339,WDI and PWT calculation
+14_PE,Peru,2020.0,Labour efficiency,4.768830368350577,-0.2007220682028369,WDI and PWT calculation
+14_PE,Peru,2021.0,Labour efficiency,5.637187178300228,0.18209010236822376,WDI and PWT calculation
+14_PE,Peru,2022.0,Labour efficiency,5.6828382013273,0.008098191807928812,WDI and PWT calculation
+14_PE,Peru,2023.0,Labour efficiency,5.449035158007603,-0.04114194968019491,WDI and PWT calculation
+14_PE,Peru,2024.0,Labour efficiency,5.57784750294575,0.02363947766951946,WDI and PWT calculation
+14_PE,Peru,2025.0,Labour efficiency,5.707833224578995,0.02330392173048801,WDI and PWT calculation
+15_PHL,Philippines,1990.0,Labour efficiency,2.115185678628539,,WDI and PWT calculation
+15_PHL,Philippines,1991.0,Labour efficiency,2.0020386912363146,-0.05349269737188633,WDI and PWT calculation
+15_PHL,Philippines,1992.0,Labour efficiency,1.929861654860975,-0.036051768974938336,WDI and PWT calculation
+15_PHL,Philippines,1993.0,Labour efficiency,1.8994827381663706,-0.01574149971739447,WDI and PWT calculation
+15_PHL,Philippines,1994.0,Labour efficiency,1.9417565882387777,0.02225545366798931,WDI and PWT calculation
+15_PHL,Philippines,1995.0,Labour efficiency,1.992644091671946,0.026206942590741633,WDI and PWT calculation
+15_PHL,Philippines,1996.0,Labour efficiency,2.0754381881704393,0.041549866754691855,WDI and PWT calculation
+15_PHL,Philippines,1997.0,Labour efficiency,2.126599596468749,0.024650894731492956,WDI and PWT calculation
+15_PHL,Philippines,1998.0,Labour efficiency,2.0099772967297636,-0.05483980149936962,WDI and PWT calculation
+15_PHL,Philippines,1999.0,Labour efficiency,2.026969998273575,0.008454175861318802,WDI and PWT calculation
+15_PHL,Philippines,2000.0,Labour efficiency,2.0734493700489334,0.022930468539221538,WDI and PWT calculation
+15_PHL,Philippines,2001.0,Labour efficiency,2.087208385093721,0.006635809508318324,WDI and PWT calculation
+15_PHL,Philippines,2002.0,Labour efficiency,2.1282291542891674,0.019653413376645057,WDI and PWT calculation
+15_PHL,Philippines,2003.0,Labour efficiency,2.20657064335539,0.03681064555869629,WDI and PWT calculation
+15_PHL,Philippines,2004.0,Labour efficiency,2.341043228858938,0.060941890035781654,WDI and PWT calculation
+15_PHL,Philippines,2005.0,Labour efficiency,2.42912303923638,0.037624170836167536,WDI and PWT calculation
+15_PHL,Philippines,2006.0,Labour efficiency,2.5361276445445724,0.044050714426483006,WDI and PWT calculation
+15_PHL,Philippines,2007.0,Labour efficiency,2.6944474897278146,0.06242581895426347,WDI and PWT calculation
+15_PHL,Philippines,2008.0,Labour efficiency,2.749736805984952,0.020519723048201932,WDI and PWT calculation
+15_PHL,Philippines,2009.0,Labour efficiency,2.6886816177538106,-0.022204011706957405,WDI and PWT calculation
+15_PHL,Philippines,2010.0,Labour efficiency,2.852827907416426,0.06105084684580353,WDI and PWT calculation
+15_PHL,Philippines,2011.0,Labour efficiency,2.8813866685228406,0.010010684847891138,WDI and PWT calculation
+15_PHL,Philippines,2012.0,Labour efficiency,3.0500121854011355,0.05852234922872812,WDI and PWT calculation
+15_PHL,Philippines,2013.0,Labour efficiency,3.200704196009995,0.049407019201479274,WDI and PWT calculation
+15_PHL,Philippines,2014.0,Labour efficiency,3.346312766145312,0.04549266699397991,WDI and PWT calculation
+15_PHL,Philippines,2015.0,Labour efficiency,3.486394658683663,0.04186156594672252,WDI and PWT calculation
+15_PHL,Philippines,2016.0,Labour efficiency,3.6553063600365925,0.04844881830352055,WDI and PWT calculation
+15_PHL,Philippines,2017.0,Labour efficiency,3.8187692961248767,0.04471935317800502,WDI and PWT calculation
+15_PHL,Philippines,2018.0,Labour efficiency,3.9463127527507402,0.03339909974537858,WDI and PWT calculation
+15_PHL,Philippines,2019.0,Labour efficiency,4.083217247266899,0.034691749765836555,WDI and PWT calculation
+15_PHL,Philippines,2020.0,Labour efficiency,3.326815675550987,-0.18524646765297859,WDI and PWT calculation
+15_PHL,Philippines,2021.0,Labour efficiency,3.5045353459799164,0.053420353804090936,WDI and PWT calculation
+15_PHL,Philippines,2022.0,Labour efficiency,3.800948497317,0.08457987210119078,WDI and PWT calculation
+15_PHL,Philippines,2023.0,Labour efficiency,3.9819828405338704,0.04762872828838871,WDI and PWT calculation
+15_PHL,Philippines,2024.0,Labour efficiency,4.174526591391474,0.04835373696180678,WDI and PWT calculation
+15_PHL,Philippines,2025.0,Labour efficiency,4.322888217993695,0.03553974884437583,WDI and PWT calculation
+16_RUS,Russia,1990.0,Labour efficiency,6.93634024195128,,WDI and PWT calculation
+16_RUS,Russia,1991.0,Labour efficiency,6.170686348147189,-0.11038297821283094,WDI and PWT calculation
+16_RUS,Russia,1992.0,Labour efficiency,4.727995955998494,-0.2337973947714711,WDI and PWT calculation
+16_RUS,Russia,1993.0,Labour efficiency,4.120137314838132,-0.1285658124113157,WDI and PWT calculation
+16_RUS,Russia,1994.0,Labour efficiency,3.3272954736839995,-0.1924309265855818,WDI and PWT calculation
+16_RUS,Russia,1995.0,Labour efficiency,3.123448114440166,-0.06126518094232625,WDI and PWT calculation
+16_RUS,Russia,1996.0,Labour efficiency,2.9709580746260036,-0.048821057442631544,WDI and PWT calculation
+16_RUS,Russia,1997.0,Labour efficiency,3.0792840544599365,0.0364616319426081,WDI and PWT calculation
+16_RUS,Russia,1998.0,Labour efficiency,2.849958369622767,-0.07447370258194319,WDI and PWT calculation
+16_RUS,Russia,1999.0,Labour efficiency,3.199378267661619,0.12260526390955762,WDI and PWT calculation
+16_RUS,Russia,2000.0,Labour efficiency,3.7973959011830454,0.1869168267991359,WDI and PWT calculation
+16_RUS,Russia,2001.0,Labour efficiency,4.164135249993898,0.09657653780492015,WDI and PWT calculation
+16_RUS,Russia,2002.0,Labour efficiency,4.544012800646346,0.09122603562240306,WDI and PWT calculation
+16_RUS,Russia,2003.0,Labour efficiency,5.111614311666723,0.12491195247945619,WDI and PWT calculation
+16_RUS,Russia,2004.0,Labour efficiency,5.768315883912832,0.1284724418169143,WDI and PWT calculation
+16_RUS,Russia,2005.0,Labour efficiency,6.412568258486525,0.11168812310893683,WDI and PWT calculation
+16_RUS,Russia,2006.0,Labour efficiency,7.30939251849383,0.13985414639765104,WDI and PWT calculation
+16_RUS,Russia,2007.0,Labour efficiency,8.329352756393801,0.13954104056107575,WDI and PWT calculation
+16_RUS,Russia,2008.0,Labour efficiency,8.982781457917831,0.078448916816789,WDI and PWT calculation
+16_RUS,Russia,2009.0,Labour efficiency,7.806651971301712,-0.13093154855497735,WDI and PWT calculation
+16_RUS,Russia,2010.0,Labour efficiency,8.345855429359721,0.06906974462806748,WDI and PWT calculation
+16_RUS,Russia,2011.0,Labour efficiency,8.869277390895366,0.0627163944985567,WDI and PWT calculation
+16_RUS,Russia,2012.0,Labour efficiency,9.384533489938546,0.058094484627587484,WDI and PWT calculation
+16_RUS,Russia,2013.0,Labour efficiency,9.567197400298152,0.01946435702482674,WDI and PWT calculation
+16_RUS,Russia,2014.0,Labour efficiency,9.6031424233235,0.0037571110453129553,WDI and PWT calculation
+16_RUS,Russia,2015.0,Labour efficiency,9.241929948648473,-0.03761398704217256,WDI and PWT calculation
+16_RUS,Russia,2016.0,Labour efficiency,9.212102641440035,-0.0032273894494081468,WDI and PWT calculation
+16_RUS,Russia,2017.0,Labour efficiency,9.419416998942099,0.02250456443781612,WDI and PWT calculation
+16_RUS,Russia,2018.0,Labour efficiency,9.797893560888403,0.04018046573251932,WDI and PWT calculation
+16_RUS,Russia,2019.0,Labour efficiency,10.102132271866793,0.03105144070893595,WDI and PWT calculation
+16_RUS,Russia,2020.0,Labour efficiency,9.626742226190318,-0.047058386574523325,WDI and PWT calculation
+16_RUS,Russia,2021.0,Labour efficiency,10.573837270091902,0.09838167696283961,WDI and PWT calculation
+16_RUS,Russia,2022.0,Labour efficiency,10.325985839683895,-0.02344006476334326,WDI and PWT calculation
+16_RUS,Russia,2023.0,Labour efficiency,10.89271534520154,0.05488381587156943,WDI and PWT calculation
+16_RUS,Russia,2024.0,Labour efficiency,11.465799921154288,0.052611727910911066,WDI and PWT calculation
+16_RUS,Russia,2025.0,Labour efficiency,11.642355551135278,0.015398457255062281,WDI and PWT calculation
+17_SGP,Singapore,1990.0,Labour efficiency,19.72578193327592,,WDI and PWT calculation
+17_SGP,Singapore,1991.0,Labour efficiency,20.260453453478878,0.027105212965018666,WDI and PWT calculation
+17_SGP,Singapore,1992.0,Labour efficiency,20.822523608699726,0.027742229783328742,WDI and PWT calculation
+17_SGP,Singapore,1993.0,Labour efficiency,23.052168140298715,0.10707849699195138,WDI and PWT calculation
+17_SGP,Singapore,1994.0,Labour efficiency,25.334950997853007,0.09902681794011547,WDI and PWT calculation
+17_SGP,Singapore,1995.0,Labour efficiency,26.080485679635018,0.029427121522563437,WDI and PWT calculation
+17_SGP,Singapore,1996.0,Labour efficiency,26.52538001366973,0.017058514151142123,WDI and PWT calculation
+17_SGP,Singapore,1997.0,Labour efficiency,27.30150853922681,0.029259845670716267,WDI and PWT calculation
+17_SGP,Singapore,1998.0,Labour efficiency,24.09983816534623,-0.11727082293934121,WDI and PWT calculation
+17_SGP,Singapore,1999.0,Labour efficiency,24.77331811568732,0.027945413812342723,WDI and PWT calculation
+17_SGP,Singapore,2000.0,Labour efficiency,26.951138048949595,0.08790990060726678,WDI and PWT calculation
+17_SGP,Singapore,2001.0,Labour efficiency,24.91930208592805,-0.07538961654722165,WDI and PWT calculation
+17_SGP,Singapore,2002.0,Labour efficiency,25.388390567662977,0.01882430254737444,WDI and PWT calculation
+17_SGP,Singapore,2003.0,Labour efficiency,26.80657947533561,0.055859740454716755,WDI and PWT calculation
+17_SGP,Singapore,2004.0,Labour efficiency,30.61015483085321,0.14188961926370447,WDI and PWT calculation
+17_SGP,Singapore,2005.0,Labour efficiency,32.98271442240301,0.0775089052851965,WDI and PWT calculation
+17_SGP,Singapore,2006.0,Labour efficiency,36.00358708641672,0.09158957098939768,WDI and PWT calculation
+17_SGP,Singapore,2007.0,Labour efficiency,38.74393108747904,0.07611308269047967,WDI and PWT calculation
+17_SGP,Singapore,2008.0,Labour efficiency,36.71202225637571,-0.05244457064812369,WDI and PWT calculation
+17_SGP,Singapore,2009.0,Labour efficiency,34.000367293736936,-0.07386286006535225,WDI and PWT calculation
+17_SGP,Singapore,2010.0,Labour efficiency,40.06179563737416,0.17827537835903828,WDI and PWT calculation
+17_SGP,Singapore,2011.0,Labour efficiency,41.88528752851294,0.045516978511008555,WDI and PWT calculation
+17_SGP,Singapore,2012.0,Labour efficiency,42.35988991628845,0.011331004650557253,WDI and PWT calculation
+17_SGP,Singapore,2013.0,Labour efficiency,43.17695438429458,0.01928863530148006,WDI and PWT calculation
+17_SGP,Singapore,2014.0,Labour efficiency,43.70725859238778,0.012282112429080838,WDI and PWT calculation
+17_SGP,Singapore,2015.0,Labour efficiency,43.7744027090295,0.00153622347418092,WDI and PWT calculation
+17_SGP,Singapore,2016.0,Labour efficiency,44.55817247328447,0.01790475062480512,WDI and PWT calculation
+17_SGP,Singapore,2017.0,Labour efficiency,46.08786500333994,0.03433023495235621,WDI and PWT calculation
+17_SGP,Singapore,2018.0,Labour efficiency,47.384503448172815,0.028134053177314877,WDI and PWT calculation
+17_SGP,Singapore,2019.0,Labour efficiency,46.87281435177626,-0.010798659037468128,WDI and PWT calculation
+17_SGP,Singapore,2020.0,Labour efficiency,43.24789198909498,-0.07733528299531078,WDI and PWT calculation
+17_SGP,Singapore,2021.0,Labour efficiency,50.56841711911351,0.16926894683940685,WDI and PWT calculation
+17_SGP,Singapore,2022.0,Labour efficiency,52.93351065695804,0.046770171434743046,WDI and PWT calculation
+17_SGP,Singapore,2023.0,Labour efficiency,50.79643522215076,-0.04037282636809891,WDI and PWT calculation
+17_SGP,Singapore,2024.0,Labour efficiency,53.080422870960625,0.04496354200489017,WDI and PWT calculation
+17_SGP,Singapore,2025.0,Labour efficiency,55.36855861327929,0.043106961447559655,WDI and PWT calculation
+18_CT,Chinese Taipei,1990.0,Labour efficiency,6.477921609589137,,IMF and PWT calculation
+18_CT,Chinese Taipei,1991.0,Labour efficiency,6.912180610035507,0.06703677917366968,IMF and PWT calculation
+18_CT,Chinese Taipei,1992.0,Labour efficiency,7.347213325768267,0.06293711641463107,IMF and PWT calculation
+18_CT,Chinese Taipei,1993.0,Labour efficiency,7.640580338829587,0.039929017990048,IMF and PWT calculation
+18_CT,Chinese Taipei,1994.0,Labour efficiency,8.04370190226443,0.0527605948184553,IMF and PWT calculation
+18_CT,Chinese Taipei,1995.0,Labour efficiency,8.365490633500125,0.04000505428291734,IMF and PWT calculation
+18_CT,Chinese Taipei,1996.0,Labour efficiency,8.707090220149349,0.04083437560509218,IMF and PWT calculation
+18_CT,Chinese Taipei,1997.0,Labour efficiency,9.038798202434085,0.03809630702081401,IMF and PWT calculation
+18_CT,Chinese Taipei,1998.0,Labour efficiency,9.128152879849798,0.009885681195056506,IMF and PWT calculation
+18_CT,Chinese Taipei,1999.0,Labour efficiency,9.649963312384077,0.057164953238914684,IMF and PWT calculation
+18_CT,Chinese Taipei,2000.0,Labour efficiency,10.144401524314024,0.051237315202578904,IMF and PWT calculation
+18_CT,Chinese Taipei,2001.0,Labour efficiency,9.622551961035324,-0.051442124212841445,IMF and PWT calculation
+18_CT,Chinese Taipei,2002.0,Labour efficiency,10.22335754932733,0.06243724021702901,IMF and PWT calculation
+18_CT,Chinese Taipei,2003.0,Labour efficiency,10.674886124858713,0.04416636837289256,IMF and PWT calculation
+18_CT,Chinese Taipei,2004.0,Labour efficiency,11.593272242801172,0.08603240420558711,IMF and PWT calculation
+18_CT,Chinese Taipei,2005.0,Labour efficiency,12.310679513720949,0.061881344274067995,IMF and PWT calculation
+18_CT,Chinese Taipei,2006.0,Labour efficiency,13.180041411169784,0.07061851431351784,IMF and PWT calculation
+18_CT,Chinese Taipei,2007.0,Labour efficiency,14.354432115882988,0.08910371887890545,IMF and PWT calculation
+18_CT,Chinese Taipei,2008.0,Labour efficiency,14.31804135796309,-0.0025351583139002765,IMF and PWT calculation
+18_CT,Chinese Taipei,2009.0,Labour efficiency,13.798024512712528,-0.036318993097568475,IMF and PWT calculation
+18_CT,Chinese Taipei,2010.0,Labour efficiency,15.949041021388595,0.1558930777876406,IMF and PWT calculation
+18_CT,Chinese Taipei,2011.0,Labour efficiency,16.70656541650815,0.04749654816886295,IMF and PWT calculation
+18_CT,Chinese Taipei,2012.0,Labour efficiency,17.10704637929032,0.0239714718613826,IMF and PWT calculation
+18_CT,Chinese Taipei,2013.0,Labour efficiency,17.53180307420036,0.02482934140076032,IMF and PWT calculation
+18_CT,Chinese Taipei,2014.0,Labour efficiency,18.63884918307103,0.0631450230295929,IMF and PWT calculation
+18_CT,Chinese Taipei,2015.0,Labour efficiency,18.803725442863865,0.0088458390415318,IMF and PWT calculation
+18_CT,Chinese Taipei,2016.0,Labour efficiency,19.17768883910245,0.019887729023426504,IMF and PWT calculation
+18_CT,Chinese Taipei,2017.0,Labour efficiency,20.020460874193187,0.04394544317417237,IMF and PWT calculation
+18_CT,Chinese Taipei,2018.0,Labour efficiency,20.68674836101162,0.03328032711161466,IMF and PWT calculation
+18_CT,Chinese Taipei,2019.0,Labour efficiency,21.373195265827928,0.033182929131098104,IMF and PWT calculation
+18_CT,Chinese Taipei,2020.0,Labour efficiency,22.183097515240586,0.03789336312795277,IMF and PWT calculation
+18_CT,Chinese Taipei,2021.0,Labour efficiency,24.16864706252221,0.08950731726790995,IMF and PWT calculation
+18_CT,Chinese Taipei,2022.0,Labour efficiency,24.817275613176495,0.02683760282387082,IMF and PWT calculation
+18_CT,Chinese Taipei,2023.0,Labour efficiency,24.987410569654003,0.006855504976830629,IMF and PWT calculation
+18_CT,Chinese Taipei,2024.0,Labour efficiency,26.42329399138531,0.05746427456853498,IMF and PWT calculation
+18_CT,Chinese Taipei,2025.0,Labour efficiency,28.8407121055265,0.09148814356489132,IMF and PWT calculation
+18_CT,Chinese Taipei,2026.0,Labour efficiency,30.468200264858464,0.056430234918509514,IMF and PWT calculation
+18_CT,Chinese Taipei,2027.0,Labour efficiency,31.511658438485544,0.034247450277875124,IMF and PWT calculation
+18_CT,Chinese Taipei,2028.0,Labour efficiency,32.43110941448276,0.029178120783204475,IMF and PWT calculation
+18_CT,Chinese Taipei,2029.0,Labour efficiency,33.35279996948196,0.02841995144907372,IMF and PWT calculation
+18_CT,Chinese Taipei,2030.0,Labour efficiency,34.320926369297936,0.029026840346292326,IMF and PWT calculation
+18_CT,Chinese Taipei,2031.0,Labour efficiency,35.22257693903757,0.026271160633537516,IMF and PWT calculation
+19_THA,Thailand,1990.0,Labour efficiency,4.07240156805612,,WDI and PWT calculation
+19_THA,Thailand,1991.0,Labour efficiency,4.229601933623473,0.0386013910809857,WDI and PWT calculation
+19_THA,Thailand,1992.0,Labour efficiency,4.42359648116706,0.04586591139970286,WDI and PWT calculation
+19_THA,Thailand,1993.0,Labour efficiency,4.625070280770346,0.04554524818460193,WDI and PWT calculation
+19_THA,Thailand,1994.0,Labour efficiency,4.808749680896744,0.0397138614066217,WDI and PWT calculation
+19_THA,Thailand,1995.0,Labour efficiency,5.009284463219378,0.041702063037150516,WDI and PWT calculation
+19_THA,Thailand,1996.0,Labour efficiency,5.0480001262180805,0.007728781083001346,WDI and PWT calculation
+19_THA,Thailand,1997.0,Labour efficiency,4.567653283432106,-0.09515586980498869,WDI and PWT calculation
+19_THA,Thailand,1998.0,Labour efficiency,3.9349265284016783,-0.13852337639668677,WDI and PWT calculation
+19_THA,Thailand,1999.0,Labour efficiency,4.1685354407811825,0.059368049363400344,WDI and PWT calculation
+19_THA,Thailand,2000.0,Labour efficiency,4.398806419745567,0.05524025937542021,WDI and PWT calculation
+19_THA,Thailand,2001.0,Labour efficiency,4.565345693214591,0.03786010512339333,WDI and PWT calculation
+19_THA,Thailand,2002.0,Labour efficiency,4.942280225703376,0.08256429147282707,WDI and PWT calculation
+19_THA,Thailand,2003.0,Labour efficiency,5.40806993459854,0.09424591233672386,WDI and PWT calculation
+19_THA,Thailand,2004.0,Labour efficiency,5.800445733459498,0.07255375829197486,WDI and PWT calculation
+19_THA,Thailand,2005.0,Labour efficiency,5.983053297658498,0.03148164340985726,WDI and PWT calculation
+19_THA,Thailand,2006.0,Labour efficiency,6.2647175943721285,0.04707701614890536,WDI and PWT calculation
+19_THA,Thailand,2007.0,Labour efficiency,6.622975940124741,0.0571866712833875,WDI and PWT calculation
+19_THA,Thailand,2008.0,Labour efficiency,6.603941332887758,-0.0028740263303183022,WDI and PWT calculation
+19_THA,Thailand,2009.0,Labour efficiency,6.383479811934794,-0.033383325175083134,WDI and PWT calculation
+19_THA,Thailand,2010.0,Labour efficiency,7.006735852818775,0.09763578161847053,WDI and PWT calculation
+19_THA,Thailand,2011.0,Labour efficiency,6.909686478329742,-0.01385086815424763,WDI and PWT calculation
+19_THA,Thailand,2012.0,Labour efficiency,7.520378080586148,0.0883819554145715,WDI and PWT calculation
+19_THA,Thailand,2013.0,Labour efficiency,7.6458865518547094,0.01668911721241262,WDI and PWT calculation
+19_THA,Thailand,2014.0,Labour efficiency,7.586205056729905,-0.007805699799499077,WDI and PWT calculation
+19_THA,Thailand,2015.0,Labour efficiency,7.785172319836693,0.026227509224823864,WDI and PWT calculation
+19_THA,Thailand,2016.0,Labour efficiency,8.03994606729358,0.032725511650875116,WDI and PWT calculation
+19_THA,Thailand,2017.0,Labour efficiency,8.40324386507999,0.04518659637087641,WDI and PWT calculation
+19_THA,Thailand,2018.0,Labour efficiency,8.794523958180017,0.04656298203197551,WDI and PWT calculation
+19_THA,Thailand,2019.0,Labour efficiency,8.910955852127666,0.01323913545534805,WDI and PWT calculation
+19_THA,Thailand,2020.0,Labour efficiency,7.894444090193033,-0.11407437976386348,WDI and PWT calculation
+19_THA,Thailand,2021.0,Labour efficiency,7.961317026023743,0.008470885988512311,WDI and PWT calculation
+19_THA,Thailand,2022.0,Labour efficiency,8.166852327101633,0.0258167461999117,WDI and PWT calculation
+19_THA,Thailand,2023.0,Labour efficiency,8.33022638435493,0.020004531820802196,WDI and PWT calculation
+19_THA,Thailand,2024.0,Labour efficiency,8.579015999147252,0.02986588879019858,WDI and PWT calculation
+19_THA,Thailand,2025.0,Labour efficiency,8.793756532890997,0.02503090491556259,WDI and PWT calculation
+20_USA,United States of America,1990.0,Labour efficiency,18.869074108739756,,WDI and PWT calculation
+20_USA,United States of America,1991.0,Labour efficiency,18.356506643730366,-0.02716442057811297,WDI and PWT calculation
+20_USA,United States of America,1992.0,Labour efficiency,18.941335634338916,0.031859492765106134,WDI and PWT calculation
+20_USA,United States of America,1993.0,Labour efficiency,19.285572384930223,0.01817383722229371,WDI and PWT calculation
+20_USA,United States of America,1994.0,Labour efficiency,20.041064077585848,0.03917393155755988,WDI and PWT calculation
+20_USA,United States of America,1995.0,Labour efficiency,20.378678710620616,0.01684614308540433,WDI and PWT calculation
+20_USA,United States of America,1996.0,Labour efficiency,21.065995173323117,0.033727233863513284,WDI and PWT calculation
+20_USA,United States of America,1997.0,Labour efficiency,21.994593467557692,0.044080438004206135,WDI and PWT calculation
+20_USA,United States of America,1998.0,Labour efficiency,22.939344821363157,0.0429537993143172,WDI and PWT calculation
+20_USA,United States of America,1999.0,Labour efficiency,24.003037834425186,0.0463698079149768,WDI and PWT calculation
+20_USA,United States of America,2000.0,Labour efficiency,24.838106737837684,0.03479013403107012,WDI and PWT calculation
+20_USA,United States of America,2001.0,Labour efficiency,24.493657799975857,-0.013867761399748879,WDI and PWT calculation
+20_USA,United States of America,2002.0,Labour efficiency,24.522909370201123,0.0011942507919455725,WDI and PWT calculation
+20_USA,United States of America,2003.0,Labour efficiency,24.98498260751269,0.018842512947222056,WDI and PWT calculation
+20_USA,United States of America,2004.0,Labour efficiency,25.857458071097685,0.034919994834123,WDI and PWT calculation
+20_USA,United States of America,2005.0,Labour efficiency,26.574489286375687,0.02773015094161435,WDI and PWT calculation
+20_USA,United States of America,2006.0,Labour efficiency,27.027397664224857,0.01704297580165992,WDI and PWT calculation
+20_USA,United States of America,2007.0,Labour efficiency,27.195834963828585,0.006232094621032802,WDI and PWT calculation
+20_USA,United States of America,2008.0,Labour efficiency,26.61668267146161,-0.021295624610800368,WDI and PWT calculation
+20_USA,United States of America,2009.0,Labour efficiency,25.06072440574562,-0.058458008645242865,WDI and PWT calculation
+20_USA,United States of America,2010.0,Labour efficiency,25.766430781005738,0.028159855391024502,WDI and PWT calculation
+20_USA,United States of America,2011.0,Labour efficiency,25.981555167011642,0.00834901767475249,WDI and PWT calculation
+20_USA,United States of America,2012.0,Labour efficiency,26.475180270427938,0.018999059149586328,WDI and PWT calculation
+20_USA,United States of America,2013.0,Labour efficiency,26.894059323701523,0.015821575112803465,WDI and PWT calculation
+20_USA,United States of America,2014.0,Labour efficiency,27.47490821778462,0.021597665383715325,WDI and PWT calculation
+20_USA,United States of America,2015.0,Labour efficiency,28.246254178579697,0.028074560056065234,WDI and PWT calculation
+20_USA,United States of America,2016.0,Labour efficiency,28.518488014451403,0.009637873898272531,WDI and PWT calculation
+20_USA,United States of America,2017.0,Labour efficiency,29.072441215080637,0.019424353785815196,WDI and PWT calculation
+20_USA,United States of America,2018.0,Labour efficiency,29.877942180875248,0.027706684823453287,WDI and PWT calculation
+20_USA,United States of America,2019.0,Labour efficiency,30.541035351687107,0.02219340163380812,WDI and PWT calculation
+20_USA,United States of America,2020.0,Labour efficiency,28.927093985769027,-0.052845011550301746,WDI and PWT calculation
+20_USA,United States of America,2021.0,Labour efficiency,31.504190517877102,0.08908936837471138,WDI and PWT calculation
+20_USA,United States of America,2022.0,Labour efficiency,32.38815319107535,0.028058574388592383,WDI and PWT calculation
+20_USA,United States of America,2023.0,Labour efficiency,33.41807628058771,0.03179937687203993,WDI and PWT calculation
+20_USA,United States of America,2024.0,Labour efficiency,34.151619530826196,0.0219504930229808,WDI and PWT calculation
+20_USA,United States of America,2025.0,Labour efficiency,34.69898647822155,0.016027554620104745,WDI and PWT calculation
+21_VN,Viet Nam,1990.0,Labour efficiency,2.198865383970826,,WDI and PWT calculation
+21_VN,Viet Nam,1991.0,Labour efficiency,2.2864485193769886,0.03983105834701006,WDI and PWT calculation
+21_VN,Viet Nam,1992.0,Labour efficiency,2.417456439778074,0.057297559639253315,WDI and PWT calculation
+21_VN,Viet Nam,1993.0,Labour efficiency,2.4855433921098404,0.028164707008336842,WDI and PWT calculation
+21_VN,Viet Nam,1994.0,Labour efficiency,2.5574158520572894,0.02891619602200568,WDI and PWT calculation
+21_VN,Viet Nam,1995.0,Labour efficiency,2.6627352610681903,0.041181964570282004,WDI and PWT calculation
+21_VN,Viet Nam,1996.0,Labour efficiency,2.7710881957078413,0.040692342278211946,WDI and PWT calculation
+21_VN,Viet Nam,1997.0,Labour efficiency,2.850570145060609,0.028682576568973106,WDI and PWT calculation
+21_VN,Viet Nam,1998.0,Labour efficiency,2.832832774873485,-0.006222393866665121,WDI and PWT calculation
+21_VN,Viet Nam,1999.0,Labour efficiency,2.8068698009829345,-0.009165021712836618,WDI and PWT calculation
+21_VN,Viet Nam,2000.0,Labour efficiency,2.885372958647633,0.027968221980658958,WDI and PWT calculation
+21_VN,Viet Nam,2001.0,Labour efficiency,2.9622876894546333,0.026656772593810496,WDI and PWT calculation
+21_VN,Viet Nam,2002.0,Labour efficiency,3.049212470865904,0.02934380131974068,WDI and PWT calculation
+21_VN,Viet Nam,2003.0,Labour efficiency,3.1629033770607253,0.03728533425633529,WDI and PWT calculation
+21_VN,Viet Nam,2004.0,Labour efficiency,3.3129235275670315,0.04743115189491487,WDI and PWT calculation
+21_VN,Viet Nam,2005.0,Labour efficiency,3.471680006647928,0.04792035727956723,WDI and PWT calculation
+21_VN,Viet Nam,2006.0,Labour efficiency,3.717325199967523,0.07075686493260003,WDI and PWT calculation
+21_VN,Viet Nam,2007.0,Labour efficiency,3.8787762272262287,0.04343204281942192,WDI and PWT calculation
+21_VN,Viet Nam,2008.0,Labour efficiency,3.970275712081259,0.02358978180096316,WDI and PWT calculation
+21_VN,Viet Nam,2009.0,Labour efficiency,4.042755305504496,0.01825555671176371,WDI and PWT calculation
+21_VN,Viet Nam,2010.0,Labour efficiency,4.189753218826232,0.03636082379796468,WDI and PWT calculation
+21_VN,Viet Nam,2011.0,Labour efficiency,4.2902387889680575,0.023983648891372278,WDI and PWT calculation
+21_VN,Viet Nam,2012.0,Labour efficiency,4.358341215823176,0.015873808010462565,WDI and PWT calculation
+21_VN,Viet Nam,2013.0,Labour efficiency,4.438347440055448,0.01835703545693179,WDI and PWT calculation
+21_VN,Viet Nam,2014.0,Labour efficiency,4.577471553893715,0.03134592677055692,WDI and PWT calculation
+21_VN,Viet Nam,2015.0,Labour efficiency,4.75300655709245,0.03834759017768663,WDI and PWT calculation
+21_VN,Viet Nam,2016.0,Labour efficiency,4.909304902585506,0.032884100540494066,WDI and PWT calculation
+21_VN,Viet Nam,2017.0,Labour efficiency,5.081796868713342,0.03513572074877502,WDI and PWT calculation
+21_VN,Viet Nam,2018.0,Labour efficiency,5.3146226710335505,0.04581564520093817,WDI and PWT calculation
+21_VN,Viet Nam,2019.0,Labour efficiency,5.5670420987073275,0.04749526792363756,WDI and PWT calculation
+21_VN,Viet Nam,2020.0,Labour efficiency,5.458557403831117,-0.019486954284286928,WDI and PWT calculation
+21_VN,Viet Nam,2021.0,Labour efficiency,5.347255913224388,-0.020390275739998853,WDI and PWT calculation
+21_VN,Viet Nam,2022.0,Labour efficiency,5.758251231468897,0.07686097783875834,WDI and PWT calculation
+21_VN,Viet Nam,2023.0,Labour efficiency,5.901721727068023,0.024915636680639786,WDI and PWT calculation
+21_VN,Viet Nam,2024.0,Labour efficiency,6.276628653887175,0.06352500916802906,WDI and PWT calculation
+21_VN,Viet Nam,2025.0,Labour efficiency,6.738124160822759,0.07352601729110986,WDI and PWT calculation

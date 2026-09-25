@@ -1,0 +1,19 @@
+source,source_name,economy
+UNDESA,"China, Hong Kong SAR","Hong Kong, China"
+UNDESA,Republic of Korea,Korea
+UNDESA,Russian Federation,Russia
+UNDESA,"China, Taiwan Province of China",Chinese Taipei
+IMF,Hong Kong SAR,"Hong Kong, China"
+IMF,"Hong Kong Special Administrative Region, People's Republic of China","Hong Kong, China"
+IMF,"Korea, Republic of",Korea
+IMF,Taiwan Province of China,Chinese Taipei
+IMF,United States,United States of America
+IMF,Vietnam,Viet Nam
+IMF,"China, P.R.: Mainland",China
+IMF,"China, People's Republic of",China
+IMF,"Russian Federation",Russia
+PWT,"China, Hong Kong SAR","Hong Kong, China"
+PWT,Republic of Korea,Korea
+PWT,Russian Federation,Russia
+PWT,Taiwan,Chinese Taipei
+PWT,United States,United States of America
