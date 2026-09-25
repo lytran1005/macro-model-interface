@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+12_NZ,New Zealand,1990,Population,3345.088
+12_NZ,New Zealand,1991,Population,3448.869
+12_NZ,New Zealand,1992,Population,3512.982
+12_NZ,New Zealand,1993,Population,3551.507
+12_NZ,New Zealand,1994,Population,3595.712
+12_NZ,New Zealand,1995,Population,3646.349
+12_NZ,New Zealand,1996,Population,3702.508
+12_NZ,New Zealand,1997,Population,3756.249
+12_NZ,New Zealand,1998,Population,3797.651
+12_NZ,New Zealand,1999,Population,3825.091
+12_NZ,New Zealand,2000,Population,3846.018
+12_NZ,New Zealand,2001,Population,3869.13
+12_NZ,New Zealand,2002,Population,3914.395
+12_NZ,New Zealand,2003,Population,3987.842
+12_NZ,New Zealand,2004,Population,4057.331
+12_NZ,New Zealand,2005,Population,4110.49
+12_NZ,New Zealand,2006,Population,4159.523
+12_NZ,New Zealand,2007,Population,4204.357
+12_NZ,New Zealand,2008,Population,4242.174
+12_NZ,New Zealand,2009,Population,4281.474
+12_NZ,New Zealand,2010,Population,4327.134
+12_NZ,New Zealand,2011,Population,4368.407
+12_NZ,New Zealand,2012,Population,4396.994
+12_NZ,New Zealand,2013,Population,4426.359
+12_NZ,New Zealand,2014,Population,4481.343
+12_NZ,New Zealand,2015,Population,4564.623
+12_NZ,New Zealand,2016,Population,4663.435
+12_NZ,New Zealand,2017,Population,4766.105
+12_NZ,New Zealand,2018,Population,4859.398
+12_NZ,New Zealand,2019,Population,4942.296
+12_NZ,New Zealand,2020,Population,5036.509
+12_NZ,New Zealand,2021,Population,5103.281
+12_NZ,New Zealand,2022,Population,5112.112
+12_NZ,New Zealand,2023,Population,5151.357
+12_NZ,New Zealand,2024,Population,5194.315
+12_NZ,New Zealand,2025,Population,5233.573
+12_NZ,New Zealand,2026,Population,5270.225
+12_NZ,New Zealand,2027,Population,5304.733
+12_NZ,New Zealand,2028,Population,5337.008
+12_NZ,New Zealand,2029,Population,5366.65
+12_NZ,New Zealand,2030,Population,5394.543
+12_NZ,New Zealand,2031,Population,5420.155
+12_NZ,New Zealand,2032,Population,5444.81
+12_NZ,New Zealand,2033,Population,5467.423
+12_NZ,New Zealand,2034,Population,5489.829
+12_NZ,New Zealand,2035,Population,5510.302
+12_NZ,New Zealand,2036,Population,5530.903
+12_NZ,New Zealand,2037,Population,5550.675
+12_NZ,New Zealand,2038,Population,5570.034
+12_NZ,New Zealand,2039,Population,5589.74
+12_NZ,New Zealand,2040,Population,5608.263
+12_NZ,New Zealand,2041,Population,5626.318
+12_NZ,New Zealand,2042,Population,5645.254
+12_NZ,New Zealand,2043,Population,5662.987
+12_NZ,New Zealand,2044,Population,5679.004
+12_NZ,New Zealand,2045,Population,5693.643
+12_NZ,New Zealand,2046,Population,5707.47
+12_NZ,New Zealand,2047,Population,5719.43
+12_NZ,New Zealand,2048,Population,5730.377
+12_NZ,New Zealand,2049,Population,5741.17
+12_NZ,New Zealand,2050,Population,5749.747
+12_NZ,New Zealand,2051,Population,5760.828
+12_NZ,New Zealand,2052,Population,5772.603
+12_NZ,New Zealand,2053,Population,5781.163
+12_NZ,New Zealand,2054,Population,5790.908
+12_NZ,New Zealand,2055,Population,5800.296
+12_NZ,New Zealand,2056,Population,5809.074
+12_NZ,New Zealand,2057,Population,5815.495
+12_NZ,New Zealand,2058,Population,5821.382
+12_NZ,New Zealand,2059,Population,5826.893
+12_NZ,New Zealand,2060,Population,5831.479
+12_NZ,New Zealand,2061,Population,5834.924
+12_NZ,New Zealand,2062,Population,5836.139
+12_NZ,New Zealand,2063,Population,5840.14
+12_NZ,New Zealand,2064,Population,5842.046
+12_NZ,New Zealand,2065,Population,5845.511
+12_NZ,New Zealand,2066,Population,5849.599
+12_NZ,New Zealand,2067,Population,5853.429
+12_NZ,New Zealand,2068,Population,5855.865
+12_NZ,New Zealand,2069,Population,5857.47
+12_NZ,New Zealand,2070,Population,5858.707
+12_NZ,New Zealand,2071,Population,5859.377
+12_NZ,New Zealand,2072,Population,5859.431
+12_NZ,New Zealand,2073,Population,5863.32
+12_NZ,New Zealand,2074,Population,5864.624
+12_NZ,New Zealand,2075,Population,5865.755
+12_NZ,New Zealand,2076,Population,5866.149
+12_NZ,New Zealand,2077,Population,5866.56
+12_NZ,New Zealand,2078,Population,5867.664
+12_NZ,New Zealand,2079,Population,5867.077
+12_NZ,New Zealand,2080,Population,5865.85
+12_NZ,New Zealand,2081,Population,5863.325
+12_NZ,New Zealand,2082,Population,5861.784
+12_NZ,New Zealand,2083,Population,5858.513
+12_NZ,New Zealand,2084,Population,5854.094
+12_NZ,New Zealand,2085,Population,5850.322
+12_NZ,New Zealand,2086,Population,5846.854
+12_NZ,New Zealand,2087,Population,5843.751
+12_NZ,New Zealand,2088,Population,5840.852
+12_NZ,New Zealand,2089,Population,5840.101
+12_NZ,New Zealand,2090,Population,5837.037
+12_NZ,New Zealand,2091,Population,5835.969
+12_NZ,New Zealand,2092,Population,5834.417
+12_NZ,New Zealand,2093,Population,5834.141
+12_NZ,New Zealand,2094,Population,5831.566
+12_NZ,New Zealand,2095,Population,5830.254
+12_NZ,New Zealand,2096,Population,5828.348
+12_NZ,New Zealand,2097,Population,5825.751
+12_NZ,New Zealand,2098,Population,5822.748
+12_NZ,New Zealand,2099,Population,5818.745
+12_NZ,New Zealand,2100,Population,5814.526
+12_NZ,New Zealand,1990,Labour efficiency,14.853441502863976
+12_NZ,New Zealand,1991,Labour efficiency,13.983690941799065
+12_NZ,New Zealand,1992,Labour efficiency,13.874089938016034
+12_NZ,New Zealand,1993,Labour efficiency,14.99626959303421
+12_NZ,New Zealand,1994,Labour efficiency,15.847010499001358
+12_NZ,New Zealand,1995,Labour efficiency,16.419545845957543
+12_NZ,New Zealand,1996,Labour efficiency,16.74705327218091
+12_NZ,New Zealand,1997,Labour efficiency,16.844188260361154
+12_NZ,New Zealand,1998,Labour efficiency,16.64377484239677
+12_NZ,New Zealand,1999,Labour efficiency,17.637662949403197
+12_NZ,New Zealand,2000,Labour efficiency,17.9752260791493
+12_NZ,New Zealand,2001,Labour efficiency,18.556551541129625
+12_NZ,New Zealand,2002,Labour efficiency,19.403040960094412
+12_NZ,New Zealand,2003,Labour efficiency,20.01353296136714
+12_NZ,New Zealand,2004,Labour efficiency,20.337795128608164
+12_NZ,New Zealand,2005,Labour efficiency,20.610057565796414
+12_NZ,New Zealand,2006,Labour efficiency,20.747891531536826
+12_NZ,New Zealand,2007,Labour efficiency,21.150552252482306
+12_NZ,New Zealand,2008,Labour efficiency,20.114907694434873
+12_NZ,New Zealand,2009,Labour efficiency,19.91388808725112
+12_NZ,New Zealand,2010,Labour efficiency,19.82904375761275
+12_NZ,New Zealand,2011,Labour efficiency,20.095067286563577
+12_NZ,New Zealand,2012,Labour efficiency,20.43340513767816
+12_NZ,New Zealand,2013,Labour efficiency,20.704953534301666
+12_NZ,New Zealand,2014,Labour efficiency,21.29874441887115
+12_NZ,New Zealand,2015,Labour efficiency,21.84668041369963
+12_NZ,New Zealand,2016,Labour efficiency,22.300286534139133
+12_NZ,New Zealand,2017,Labour efficiency,22.702466496436774
+12_NZ,New Zealand,2018,Labour efficiency,23.086642202355076
+12_NZ,New Zealand,2019,Labour efficiency,23.111747840186027
+12_NZ,New Zealand,2020,Labour efficiency,22.207051617734635
+12_NZ,New Zealand,2021,Labour efficiency,23.042051351024245
+12_NZ,New Zealand,2022,Labour efficiency,23.667479829476434
+12_NZ,New Zealand,2023,Labour efficiency,23.569074052846094
+12_NZ,New Zealand,2024,Labour efficiency,23.171096706985246
+12_NZ,New Zealand,2025,Labour efficiency,23.103733979574567
+12_NZ,New Zealand,2026,Labour efficiency,23.284996846045654
+12_NZ,New Zealand,2027,Labour efficiency,23.437603317063438
+12_NZ,New Zealand,2028,Labour efficiency,23.564301493825468
+12_NZ,New Zealand,2029,Labour efficiency,23.664546893781477
+12_NZ,New Zealand,2030,Labour efficiency,23.77271252724676
+12_NZ,New Zealand,2031,Labour efficiency,23.985295497403346
+12_NZ,New Zealand,2032,Labour efficiency,24.131041558561964
+12_NZ,New Zealand,2033,Labour efficiency,24.226837725563055
+12_NZ,New Zealand,2034,Labour efficiency,24.342704983518747
+12_NZ,New Zealand,2035,Labour efficiency,24.511872583432677
+12_NZ,New Zealand,2036,Labour efficiency,24.706376182546695
+12_NZ,New Zealand,2037,Labour efficiency,24.902644225656804
+12_NZ,New Zealand,2038,Labour efficiency,25.103933317322024
+12_NZ,New Zealand,2039,Labour efficiency,25.313570452386166
+12_NZ,New Zealand,2040,Labour efficiency,25.535328295002515
+12_NZ,New Zealand,2041,Labour efficiency,25.769727228204452
+12_NZ,New Zealand,2042,Labour efficiency,26.006888770339124
+12_NZ,New Zealand,2043,Labour efficiency,26.254364329568528
+12_NZ,New Zealand,2044,Labour efficiency,26.518755317094715
+12_NZ,New Zealand,2045,Labour efficiency,26.799831309856533
+12_NZ,New Zealand,2046,Labour efficiency,27.093667662527412
+12_NZ,New Zealand,2047,Labour efficiency,27.39893243640566
+12_NZ,New Zealand,2048,Labour efficiency,27.716741275472295
+12_NZ,New Zealand,2049,Labour efficiency,28.047982444329133
+12_NZ,New Zealand,2050,Labour efficiency,28.393280017715686
+12_NZ,New Zealand,2051,Labour efficiency,28.752909644042827
+12_NZ,New Zealand,2052,Labour efficiency,29.127119374298243
+12_NZ,New Zealand,2053,Labour efficiency,29.517301318836175
+12_NZ,New Zealand,2054,Labour efficiency,29.924162966406794
+12_NZ,New Zealand,2055,Labour efficiency,30.336632728299104
+12_NZ,New Zealand,2056,Labour efficiency,30.754787905842523
+12_NZ,New Zealand,2057,Labour efficiency,31.178706865875327
+12_NZ,New Zealand,2058,Labour efficiency,31.608469055431467
+12_NZ,New Zealand,2059,Labour efficiency,32.044155016629794
+12_NZ,New Zealand,2060,Labour efficiency,32.485846401768534
+12_NZ,New Zealand,2061,Labour efficiency,32.933625988627824
+12_NZ,New Zealand,2062,Labour efficiency,33.38757769598316
+12_NZ,New Zealand,2063,Labour efficiency,33.84778659933271
+12_NZ,New Zealand,2064,Labour efficiency,34.31433894684136
+12_NZ,New Zealand,2065,Labour efficiency,34.787322175504585
+12_NZ,New Zealand,2066,Labour efficiency,35.26682492753509
+12_NZ,New Zealand,2067,Labour efficiency,35.75293706697532
+12_NZ,New Zealand,2068,Labour efficiency,36.245749696538965
+12_NZ,New Zealand,2069,Labour efficiency,36.745355174684605
+12_NZ,New Zealand,2070,Labour efficiency,37.25184713292468
+12_NZ,New Zealand,2071,Labour efficiency,37.765320493373075
+12_NZ,New Zealand,2072,Labour efficiency,38.28587148653453
+12_NZ,New Zealand,2073,Labour efficiency,38.81359766933933
+12_NZ,New Zealand,2074,Labour efficiency,39.34859794342648
+12_NZ,New Zealand,2075,Labour efficiency,39.890972573679015
+12_NZ,New Zealand,2076,Labour efficiency,40.44082320701467
+12_NZ,New Zealand,2077,Labour efficiency,40.998252891435655
+12_NZ,New Zealand,2078,Labour efficiency,41.56336609534098
+12_NZ,New Zealand,2079,Labour efficiency,42.13626872710495
+12_NZ,New Zealand,2080,Labour efficiency,42.71706815492554
+12_NZ,New Zealand,2081,Labour efficiency,43.305873226946424
+12_NZ,New Zealand,2082,Labour efficiency,43.90279429165623
+12_NZ,New Zealand,2083,Labour efficiency,44.50794321856908
+12_NZ,New Zealand,2084,Labour efficiency,45.12143341919019
+12_NZ,New Zealand,2085,Labour efficiency,45.74337986827036
+12_NZ,New Zealand,2086,Labour efficiency,46.373899125353546
+12_NZ,New Zealand,2087,Labour efficiency,47.01310935662136
+12_NZ,New Zealand,2088,Labour efficiency,47.66113035703871
+12_NZ,New Zealand,2089,Labour efficiency,48.31808357280469
+12_NZ,New Zealand,2090,Labour efficiency,48.984092124112905
+12_NZ,New Zealand,2091,Labour efficiency,49.659280828225555
+12_NZ,New Zealand,2092,Labour efficiency,50.34377622286553
+12_NZ,New Zealand,2093,Labour efficiency,51.037706589930984
+12_NZ,New Zealand,2094,Labour efficiency,51.74120197953674
+12_NZ,New Zealand,2095,Labour efficiency,52.4543942343871
+12_NZ,New Zealand,2096,Labour efficiency,53.17741701448463
+12_NZ,New Zealand,2097,Labour efficiency,53.91040582217947
+12_NZ,New Zealand,2098,Labour efficiency,54.65349802756396
+12_NZ,New Zealand,2099,Labour efficiency,55.40683289421731
+12_NZ,New Zealand,2100,Labour efficiency,56.170551605305086
+12_NZ,New Zealand,1990,Capital stock,303784.81424467184
+12_NZ,New Zealand,1991,Capital stock,309190.3063427882
+12_NZ,New Zealand,1992,Capital stock,312781.30849657016
+12_NZ,New Zealand,1993,Capital stock,319635.19118783355
+12_NZ,New Zealand,1994,Capital stock,327173.00974663824
+12_NZ,New Zealand,1995,Capital stock,341031.59904052125
+12_NZ,New Zealand,1996,Capital stock,353407.24911527603
+12_NZ,New Zealand,1997,Capital stock,360931.1224258788
+12_NZ,New Zealand,1998,Capital stock,369254.9388033074
+12_NZ,New Zealand,1999,Capital stock,381751.1828912888
+12_NZ,New Zealand,2000,Capital stock,394989.1668476712
+12_NZ,New Zealand,2001,Capital stock,405894.04304673686
+12_NZ,New Zealand,2002,Capital stock,418601.3762877093
+12_NZ,New Zealand,2003,Capital stock,436158.9226018568
+12_NZ,New Zealand,2004,Capital stock,458615.7505272198
+12_NZ,New Zealand,2005,Capital stock,478755.1573844474
+12_NZ,New Zealand,2006,Capital stock,498608.004316297
+12_NZ,New Zealand,2007,Capital stock,514057.6020456416
+12_NZ,New Zealand,2008,Capital stock,532955.5863737098
+12_NZ,New Zealand,2009,Capital stock,533076.5000111656
+12_NZ,New Zealand,2010,Capital stock,547676.4956873877
+12_NZ,New Zealand,2011,Capital stock,558079.2940684898
+12_NZ,New Zealand,2012,Capital stock,570540.0281951741
+12_NZ,New Zealand,2013,Capital stock,589991.7396506098
+12_NZ,New Zealand,2014,Capital stock,609648.6417491436
+12_NZ,New Zealand,2015,Capital stock,625597.4442180974
+12_NZ,New Zealand,2016,Capital stock,643959.36307046
+12_NZ,New Zealand,2017,Capital stock,658330.0911490239
+12_NZ,New Zealand,2018,Capital stock,676655.9314858771
+12_NZ,New Zealand,2019,Capital stock,697559.4297101386
+12_NZ,New Zealand,2020,Capital stock,715605.8531484056
+12_NZ,New Zealand,2021,Capital stock,737480.8580434255
+12_NZ,New Zealand,2022,Capital stock,767192.0463303919
+12_NZ,New Zealand,2023,Capital stock,798277.7540373307
+12_NZ,New Zealand,2024,Capital stock,791342.9365981559
+12_NZ,New Zealand,2025,Capital stock,795005.8401357542
+12_NZ,New Zealand,2026,Capital stock,798501.7053177002
+12_NZ,New Zealand,2027,Capital stock,801837.380931636
+12_NZ,New Zealand,2028,Capital stock,805019.5105515209
+12_NZ,New Zealand,2029,Capital stock,808054.5307009034
+12_NZ,New Zealand,2030,Capital stock,810948.6701134463
+12_NZ,New Zealand,2031,Capital stock,813707.9499610631
+12_NZ,New Zealand,2032,Capital stock,816338.1849307636
+12_NZ,New Zealand,2033,Capital stock,818844.9850414777
+12_NZ,New Zealand,2034,Capital stock,821233.7581017101
+12_NZ,New Zealand,2035,Capital stock,823509.7127178785
+12_NZ,New Zealand,2036,Capital stock,825677.8617716018
+12_NZ,New Zealand,2037,Capital stock,827743.0262920463
+12_NZ,New Zealand,2038,Capital stock,829709.8396567185
+12_NZ,New Zealand,2039,Capital stock,831582.7520608372
+12_NZ,New Zealand,2040,Capital stock,833366.0352016384
+12_NZ,New Zealand,2041,Capital stock,835063.7871297031
+12_NZ,New Zealand,2042,Capital stock,836679.9372246584
+12_NZ,New Zealand,2043,Capital stock,838218.2512574208
+12_NZ,New Zealand,2044,Capital stock,839682.3365055609
+12_NZ,New Zealand,2045,Capital stock,841075.6468923839
+12_NZ,New Zealand,2046,Capital stock,842401.4881239693
+12_NZ,New Zealand,2047,Capital stock,843663.0228017345
+12_NZ,New Zealand,2048,Capital stock,844863.275491083
+12_NZ,New Zealand,2049,Capital stock,846005.1377294135
+12_NZ,New Zealand,2050,Capital stock,847091.3729592059
+12_NZ,New Zealand,2051,Capital stock,848124.6213741028
+12_NZ,New Zealand,2052,Capital stock,849107.4046678673
+12_NZ,New Zealand,2053,Capital stock,850042.1306778715
+12_NZ,New Zealand,2054,Capital stock,850931.0979163353
+12_NZ,New Zealand,2055,Capital stock,851776.4999839396
+12_NZ,New Zealand,2056,Capital stock,852580.4298616784
+12_NZ,New Zealand,2057,Capital stock,853344.8840779151
+12_NZ,New Zealand,2058,Capital stock,854071.7667485755
+12_NZ,New Zealand,2059,Capital stock,854762.8934892596
+12_NZ,New Zealand,2060,Capital stock,855419.995198803
+12_NZ,New Zealand,2061,Capital stock,856044.721714459
+12_NZ,New Zealand,2062,Capital stock,856638.6453394406
+12_NZ,New Zealand,2063,Capital stock,857203.2642440399
+12_NZ,New Zealand,2064,Capital stock,857740.0057419562
+12_NZ,New Zealand,2065,Capital stock,858250.2294438166
+12_NZ,New Zealand,2066,Capital stock,858735.2302901631
+12_NZ,New Zealand,2067,Capital stock,859196.2414664265
+12_NZ,New Zealand,2068,Capital stock,859634.43720261
+12_NZ,New Zealand,2069,Capital stock,860050.9354605572
+12_NZ,New Zealand,2070,Capital stock,860446.800511816
+12_NZ,New Zealand,2071,Capital stock,860823.0454091922
+12_NZ,New Zealand,2072,Capital stock,861180.6343551641
+12_NZ,New Zealand,2073,Capital stock,861520.4849703681
+12_NZ,New Zealand,2074,Capital stock,861843.4704653855
+12_NZ,New Zealand,2075,Capital stock,862150.4217190727
+12_NZ,New Zealand,2076,Capital stock,862442.1292666594
+12_NZ,New Zealand,2077,Capital stock,862719.3452008163
+12_NZ,New Zealand,2078,Capital stock,862982.7849888615
+12_NZ,New Zealand,2079,Capital stock,863233.129209224
+12_NZ,New Zealand,2080,Capital stock,863471.0252102311
+12_NZ,New Zealand,2081,Capital stock,863697.088694226
+12_NZ,New Zealand,2082,Capital stock,863911.9052299539
+12_NZ,New Zealand,2083,Capital stock,864116.031696085
+12_NZ,New Zealand,2084,Capital stock,864309.9976586665
+12_NZ,New Zealand,2085,Capital stock,864494.3066852201
+12_NZ,New Zealand,2086,Capital stock,864669.4375981219
+12_NZ,New Zealand,2087,Capital stock,864835.8456698167
+12_NZ,New Zealand,2088,Capital stock,864993.9637623442
+12_NZ,New Zealand,2089,Capital stock,865144.2034135666
+12_NZ,New Zealand,2090,Capital stock,865286.9558724068
+12_NZ,New Zealand,2091,Capital stock,865422.5930853275
+12_NZ,New Zealand,2092,Capital stock,865551.4686361973
+12_NZ,New Zealand,2093,Capital stock,865673.9186416131
+12_NZ,New Zealand,2094,Capital stock,865790.2626036693
+12_NZ,New Zealand,2095,Capital stock,865900.8042220862
+12_NZ,New Zealand,2096,Capital stock,866005.8321675372
+12_NZ,New Zealand,2097,Capital stock,866105.6208179402
+12_NZ,New Zealand,2098,Capital stock,866200.4309594054
+12_NZ,New Zealand,2099,Capital stock,866290.5104534663
+12_NZ,New Zealand,2100,Capital stock,866376.0948721496
+12_NZ,New Zealand,1990,Savings,0.17725000000000002
+12_NZ,New Zealand,1991,Savings,0.15599
+12_NZ,New Zealand,1992,Savings,0.15498
+12_NZ,New Zealand,1993,Savings,0.17658000000000001
+12_NZ,New Zealand,1994,Savings,0.1894
+12_NZ,New Zealand,1995,Savings,0.19412
+12_NZ,New Zealand,1996,Savings,0.18334
+12_NZ,New Zealand,1997,Savings,0.18675
+12_NZ,New Zealand,1998,Savings,0.18181999999999998
+12_NZ,New Zealand,1999,Savings,0.18131
+12_NZ,New Zealand,2000,Savings,0.197746053146032
+12_NZ,New Zealand,2001,Savings,0.217888599913365
+12_NZ,New Zealand,2002,Savings,0.20853637142055098
+12_NZ,New Zealand,2003,Savings,0.213357225941397
+12_NZ,New Zealand,2004,Savings,0.200302441455003
+12_NZ,New Zealand,2005,Savings,0.176910746297353
+12_NZ,New Zealand,2006,Savings,0.170080900749185
+12_NZ,New Zealand,2007,Savings,0.180473595021003
+12_NZ,New Zealand,2008,Savings,0.159099268780347
+12_NZ,New Zealand,2009,Savings,0.183789054944526
+12_NZ,New Zealand,2010,Savings,0.177333268313253
+12_NZ,New Zealand,2011,Savings,0.175804229030309
+12_NZ,New Zealand,2012,Savings,0.176459958412175
+12_NZ,New Zealand,2013,Savings,0.19713163723914198
+12_NZ,New Zealand,2014,Savings,0.19768775961705898
+12_NZ,New Zealand,2015,Savings,0.208829128204934
+12_NZ,New Zealand,2016,Savings,0.20712949728582403
+12_NZ,New Zealand,2017,Savings,0.20768621578362
+12_NZ,New Zealand,2018,Savings,0.20092825886710203
+12_NZ,New Zealand,2019,Savings,0.214827262717104
+12_NZ,New Zealand,2020,Savings,0.206816204705713
+12_NZ,New Zealand,2021,Savings,0.186886565090577
+12_NZ,New Zealand,2022,Savings,0.179987943013408
+12_NZ,New Zealand,2023,Savings,0.185522226526172
+12_NZ,New Zealand,2024,Savings,0.18945180291738598
+12_NZ,New Zealand,2025,Savings,0.191451802917386
+12_NZ,New Zealand,2026,Savings,0.191451802917386
+12_NZ,New Zealand,2027,Savings,0.191951802917386
+12_NZ,New Zealand,2028,Savings,0.192451802917386
+12_NZ,New Zealand,2029,Savings,0.192951802917386
+12_NZ,New Zealand,2030,Savings,0.193451802917386
+12_NZ,New Zealand,2031,Savings,0.193951802917386
+12_NZ,New Zealand,2032,Savings,0.194451802917386
+12_NZ,New Zealand,2033,Savings,0.194951802917386
+12_NZ,New Zealand,2034,Savings,0.195451802917386
+12_NZ,New Zealand,2035,Savings,0.195951802917386
+12_NZ,New Zealand,2036,Savings,0.196451802917386
+12_NZ,New Zealand,2037,Savings,0.196951802917386
+12_NZ,New Zealand,2038,Savings,0.197451802917386
+12_NZ,New Zealand,2039,Savings,0.197951802917386
+12_NZ,New Zealand,2040,Savings,0.198451802917386
+12_NZ,New Zealand,2041,Savings,0.198951802917386
+12_NZ,New Zealand,2042,Savings,0.199451802917386
+12_NZ,New Zealand,2043,Savings,0.199951802917386
+12_NZ,New Zealand,2044,Savings,0.200451802917386
+12_NZ,New Zealand,2045,Savings,0.200951802917386
+12_NZ,New Zealand,2046,Savings,0.201451802917386
+12_NZ,New Zealand,2047,Savings,0.20195180291738601
+12_NZ,New Zealand,2048,Savings,0.20245180291738601
+12_NZ,New Zealand,2049,Savings,0.20295180291738601
+12_NZ,New Zealand,2050,Savings,0.20345180291738602
+12_NZ,New Zealand,2051,Savings,0.20395180291738602
+12_NZ,New Zealand,2052,Savings,0.20445180291738602
+12_NZ,New Zealand,2053,Savings,0.20495180291738602
+12_NZ,New Zealand,2054,Savings,0.20545180291738602
+12_NZ,New Zealand,2055,Savings,0.20595180291738602
+12_NZ,New Zealand,2056,Savings,0.20645180291738602
+12_NZ,New Zealand,2057,Savings,0.20695180291738602
+12_NZ,New Zealand,2058,Savings,0.20745180291738602
+12_NZ,New Zealand,2059,Savings,0.20795180291738602
+12_NZ,New Zealand,2060,Savings,0.20845180291738602
+12_NZ,New Zealand,2061,Savings,0.20895180291738602
+12_NZ,New Zealand,2062,Savings,0.20945180291738602
+12_NZ,New Zealand,2063,Savings,0.20995180291738602
+12_NZ,New Zealand,2064,Savings,0.21045180291738602
+12_NZ,New Zealand,2065,Savings,0.21095180291738602
+12_NZ,New Zealand,2066,Savings,0.21145180291738602
+12_NZ,New Zealand,2067,Savings,0.21195180291738602
+12_NZ,New Zealand,2068,Savings,0.21245180291738602
+12_NZ,New Zealand,2069,Savings,0.21295180291738602
+12_NZ,New Zealand,2070,Savings,0.21345180291738602
+12_NZ,New Zealand,2071,Savings,0.21395180291738602
+12_NZ,New Zealand,2072,Savings,0.21445180291738603
+12_NZ,New Zealand,2073,Savings,0.21495180291738603
+12_NZ,New Zealand,2074,Savings,0.21545180291738603
+12_NZ,New Zealand,2075,Savings,0.21595180291738603
+12_NZ,New Zealand,2076,Savings,0.21645180291738603
+12_NZ,New Zealand,2077,Savings,0.21695180291738603
+12_NZ,New Zealand,2078,Savings,0.21745180291738603
+12_NZ,New Zealand,2079,Savings,0.21795180291738603
+12_NZ,New Zealand,2080,Savings,0.21845180291738603
+12_NZ,New Zealand,2081,Savings,0.21895180291738603
+12_NZ,New Zealand,2082,Savings,0.21945180291738603
+12_NZ,New Zealand,2083,Savings,0.21995180291738603
+12_NZ,New Zealand,2084,Savings,0.22045180291738603
+12_NZ,New Zealand,2085,Savings,0.22045180291738603
+12_NZ,New Zealand,2086,Savings,0.22045180291738603
+12_NZ,New Zealand,2087,Savings,0.22045180291738603
+12_NZ,New Zealand,2088,Savings,0.22045180291738603
+12_NZ,New Zealand,2089,Savings,0.22045180291738603
+12_NZ,New Zealand,2090,Savings,0.22045180291738603
+12_NZ,New Zealand,2091,Savings,0.22045180291738603
+12_NZ,New Zealand,2092,Savings,0.22045180291738603
+12_NZ,New Zealand,2093,Savings,0.22045180291738603
+12_NZ,New Zealand,2094,Savings,0.22045180291738603
+12_NZ,New Zealand,2095,Savings,0.22045180291738603
+12_NZ,New Zealand,2096,Savings,0.22045180291738603
+12_NZ,New Zealand,2097,Savings,0.22045180291738603
+12_NZ,New Zealand,2098,Savings,0.22045180291738603
+12_NZ,New Zealand,2099,Savings,0.22045180291738603
+12_NZ,New Zealand,2100,Savings,0.22045180291738603
+12_NZ,New Zealand,1990,Depreciation,0.0277670454233885
+12_NZ,New Zealand,1991,Depreciation,0.0276933815330267
+12_NZ,New Zealand,1992,Depreciation,0.0275685582309961
+12_NZ,New Zealand,1993,Depreciation,0.0275999922305346
+12_NZ,New Zealand,1994,Depreciation,0.0277998130768538
+12_NZ,New Zealand,1995,Depreciation,0.0280970111489296
+12_NZ,New Zealand,1996,Depreciation,0.028420502319932
+12_NZ,New Zealand,1997,Depreciation,0.0286767594516277
+12_NZ,New Zealand,1998,Depreciation,0.0288711674511433
+12_NZ,New Zealand,1999,Depreciation,0.0291374698281288
+12_NZ,New Zealand,2000,Depreciation,0.0293862074613571
+12_NZ,New Zealand,2001,Depreciation,0.0296699162572622
+12_NZ,New Zealand,2002,Depreciation,0.0301408115774393
+12_NZ,New Zealand,2003,Depreciation,0.0306633524596691
+12_NZ,New Zealand,2004,Depreciation,0.0312730334699154
+12_NZ,New Zealand,2005,Depreciation,0.0319666117429733
+12_NZ,New Zealand,2006,Depreciation,0.0325175039470196
+12_NZ,New Zealand,2007,Depreciation,0.0329684764146805
+12_NZ,New Zealand,2008,Depreciation,0.0333565473556519
+12_NZ,New Zealand,2009,Depreciation,0.0334164462983608
+12_NZ,New Zealand,2010,Depreciation,0.0333861708641052
+12_NZ,New Zealand,2011,Depreciation,0.0336520224809647
+12_NZ,New Zealand,2012,Depreciation,0.0340679548680782
+12_NZ,New Zealand,2013,Depreciation,0.0344928652048111
+12_NZ,New Zealand,2014,Depreciation,0.0350295267999172
+12_NZ,New Zealand,2015,Depreciation,0.0356348343193531
+12_NZ,New Zealand,2016,Depreciation,0.0360590778291225
+12_NZ,New Zealand,2017,Depreciation,0.0364218652248383
+12_NZ,New Zealand,2018,Depreciation,0.0369205065071583
+12_NZ,New Zealand,2019,Depreciation,0.037402305752039
+12_NZ,New Zealand,2020,Depreciation,0.0376625247299671
+12_NZ,New Zealand,2021,Depreciation,0.0381065532565117
+12_NZ,New Zealand,2022,Depreciation,0.0387854464352131
+12_NZ,New Zealand,2023,Depreciation,0.0392140857875347
+12_NZ,New Zealand,2024,Depreciation,0.0392140857875347
+12_NZ,New Zealand,2025,Depreciation,0.0392140857875347
+12_NZ,New Zealand,2026,Depreciation,0.0392140857875347
+12_NZ,New Zealand,2027,Depreciation,0.0393140857875347
+12_NZ,New Zealand,2028,Depreciation,0.039414085787534706
+12_NZ,New Zealand,2029,Depreciation,0.03951408578753471
+12_NZ,New Zealand,2030,Depreciation,0.03961408578753471
+12_NZ,New Zealand,2031,Depreciation,0.039714085787534714
+12_NZ,New Zealand,2032,Depreciation,0.03981408578753472
+12_NZ,New Zealand,2033,Depreciation,0.03991408578753472
+12_NZ,New Zealand,2034,Depreciation,0.04001408578753472
+12_NZ,New Zealand,2035,Depreciation,0.040114085787534726
+12_NZ,New Zealand,2036,Depreciation,0.04021408578753473
+12_NZ,New Zealand,2037,Depreciation,0.04031408578753473
+12_NZ,New Zealand,2038,Depreciation,0.040414085787534734
+12_NZ,New Zealand,2039,Depreciation,0.04051408578753474
+12_NZ,New Zealand,2040,Depreciation,0.04061408578753474
+12_NZ,New Zealand,2041,Depreciation,0.04071408578753474
+12_NZ,New Zealand,2042,Depreciation,0.040814085787534746
+12_NZ,New Zealand,2043,Depreciation,0.04091408578753475
+12_NZ,New Zealand,2044,Depreciation,0.04101408578753475
+12_NZ,New Zealand,2045,Depreciation,0.041114085787534754
+12_NZ,New Zealand,2046,Depreciation,0.04121408578753476
+12_NZ,New Zealand,2047,Depreciation,0.04131408578753476
+12_NZ,New Zealand,2048,Depreciation,0.04141408578753476
+12_NZ,New Zealand,2049,Depreciation,0.041514085787534766
+12_NZ,New Zealand,2050,Depreciation,0.04161408578753477
+12_NZ,New Zealand,2051,Depreciation,0.04171408578753477
+12_NZ,New Zealand,2052,Depreciation,0.041814085787534774
+12_NZ,New Zealand,2053,Depreciation,0.04191408578753478
+12_NZ,New Zealand,2054,Depreciation,0.04201408578753478
+12_NZ,New Zealand,2055,Depreciation,0.04211408578753478
+12_NZ,New Zealand,2056,Depreciation,0.042214085787534786
+12_NZ,New Zealand,2057,Depreciation,0.04231408578753479
+12_NZ,New Zealand,2058,Depreciation,0.04241408578753479
+12_NZ,New Zealand,2059,Depreciation,0.042514085787534794
+12_NZ,New Zealand,2060,Depreciation,0.0426140857875348
+12_NZ,New Zealand,2061,Depreciation,0.0427140857875348
+12_NZ,New Zealand,2062,Depreciation,0.0428140857875348
+12_NZ,New Zealand,2063,Depreciation,0.042914085787534806
+12_NZ,New Zealand,2064,Depreciation,0.04301408578753481
+12_NZ,New Zealand,2065,Depreciation,0.04311408578753481
+12_NZ,New Zealand,2066,Depreciation,0.043214085787534814
+12_NZ,New Zealand,2067,Depreciation,0.04331408578753482
+12_NZ,New Zealand,2068,Depreciation,0.04341408578753482
+12_NZ,New Zealand,2069,Depreciation,0.04351408578753482
+12_NZ,New Zealand,2070,Depreciation,0.043614085787534826
+12_NZ,New Zealand,2071,Depreciation,0.04371408578753483
+12_NZ,New Zealand,2072,Depreciation,0.04381408578753483
+12_NZ,New Zealand,2073,Depreciation,0.043914085787534834
+12_NZ,New Zealand,2074,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2075,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2076,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2077,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2078,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2079,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2080,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2081,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2082,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2083,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2084,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2085,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2086,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2087,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2088,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2089,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2090,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2091,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2092,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2093,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2094,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2095,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2096,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2097,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2098,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2099,Depreciation,0.04401408578753484
+12_NZ,New Zealand,2100,Depreciation,0.04401408578753484
+12_NZ,New Zealand,1990,WDI GDP through 2025,102510.229695661
+12_NZ,New Zealand,1991,WDI GDP through 2025,101407.355462347
+12_NZ,New Zealand,1992,WDI GDP through 2025,102523.77169858
+12_NZ,New Zealand,1993,WDI GDP through 2025,109068.510913184
+12_NZ,New Zealand,1994,WDI GDP through 2025,114643.737156329
+12_NZ,New Zealand,1995,WDI GDP through 2025,120074.136760879
+12_NZ,New Zealand,1996,WDI GDP through 2025,124385.806337592
+12_NZ,New Zealand,1997,WDI GDP through 2025,126967.453431224
+12_NZ,New Zealand,1998,WDI GDP through 2025,128053.264612275
+12_NZ,New Zealand,1999,WDI GDP through 2025,134946.567709899
+12_NZ,New Zealand,2000,WDI GDP through 2025,138817.90252797698
+12_NZ,New Zealand,2001,WDI GDP through 2025,143559.33157128398
+12_NZ,New Zealand,2002,WDI GDP through 2025,150328.36355776998
+12_NZ,New Zealand,2003,WDI GDP through 2025,157432.693879236
+12_NZ,New Zealand,2004,WDI GDP through 2025,163872.534540447
+12_NZ,New Zealand,2005,WDI GDP through 2025,169367.105965762
+12_NZ,New Zealand,2006,WDI GDP through 2025,174066.09954241198
+12_NZ,New Zealand,2007,WDI GDP through 2025,179397.95691271202
+12_NZ,New Zealand,2008,WDI GDP through 2025,177558.031114279
+12_NZ,New Zealand,2009,WDI GDP through 2025,177486.546454779
+12_NZ,New Zealand,2010,WDI GDP through 2025,180098.837893045
+12_NZ,New Zealand,2011,WDI GDP through 2025,183961.05827238
+12_NZ,New Zealand,2012,WDI GDP through 2025,188196.87991725
+12_NZ,New Zealand,2013,WDI GDP through 2025,193023.821383485
+12_NZ,New Zealand,2014,WDI GDP through 2025,200396.050054836
+12_NZ,New Zealand,2015,WDI GDP through 2025,207870.187709383
+12_NZ,New Zealand,2016,WDI GDP through 2025,215651.859628357
+12_NZ,New Zealand,2017,WDI GDP through 2025,222802.198613642
+12_NZ,New Zealand,2018,WDI GDP through 2025,230204.12582534
+12_NZ,New Zealand,2019,WDI GDP through 2025,235553.418426175
+12_NZ,New Zealand,2020,WDI GDP through 2025,234985.93228232
+12_NZ,New Zealand,2021,WDI GDP through 2025,245088.353611212
+12_NZ,New Zealand,2022,WDI GDP through 2025,253287.094503461
+12_NZ,New Zealand,2023,WDI GDP through 2025,257881.45526629096
+12_NZ,New Zealand,2024,WDI GDP through 2025,255641.181371427
+12_NZ,New Zealand,2025,WDI GDP through 2025,256824.472387616
+12_NZ,New Zealand,2026,WDI GDP through 2025,
+12_NZ,New Zealand,2027,WDI GDP through 2025,
+12_NZ,New Zealand,2028,WDI GDP through 2025,
+12_NZ,New Zealand,2029,WDI GDP through 2025,
+12_NZ,New Zealand,2030,WDI GDP through 2025,
+12_NZ,New Zealand,2031,WDI GDP through 2025,
+12_NZ,New Zealand,2032,WDI GDP through 2025,
+12_NZ,New Zealand,2033,WDI GDP through 2025,
+12_NZ,New Zealand,2034,WDI GDP through 2025,
+12_NZ,New Zealand,2035,WDI GDP through 2025,
+12_NZ,New Zealand,2036,WDI GDP through 2025,
+12_NZ,New Zealand,2037,WDI GDP through 2025,
+12_NZ,New Zealand,2038,WDI GDP through 2025,
+12_NZ,New Zealand,2039,WDI GDP through 2025,
+12_NZ,New Zealand,2040,WDI GDP through 2025,
+12_NZ,New Zealand,2041,WDI GDP through 2025,
+12_NZ,New Zealand,2042,WDI GDP through 2025,
+12_NZ,New Zealand,2043,WDI GDP through 2025,
+12_NZ,New Zealand,2044,WDI GDP through 2025,
+12_NZ,New Zealand,2045,WDI GDP through 2025,
+12_NZ,New Zealand,2046,WDI GDP through 2025,
+12_NZ,New Zealand,2047,WDI GDP through 2025,
+12_NZ,New Zealand,2048,WDI GDP through 2025,
+12_NZ,New Zealand,2049,WDI GDP through 2025,
+12_NZ,New Zealand,2050,WDI GDP through 2025,
+12_NZ,New Zealand,2051,WDI GDP through 2025,
+12_NZ,New Zealand,2052,WDI GDP through 2025,
+12_NZ,New Zealand,2053,WDI GDP through 2025,
+12_NZ,New Zealand,2054,WDI GDP through 2025,
+12_NZ,New Zealand,2055,WDI GDP through 2025,
+12_NZ,New Zealand,2056,WDI GDP through 2025,
+12_NZ,New Zealand,2057,WDI GDP through 2025,
+12_NZ,New Zealand,2058,WDI GDP through 2025,
+12_NZ,New Zealand,2059,WDI GDP through 2025,
+12_NZ,New Zealand,2060,WDI GDP through 2025,
+12_NZ,New Zealand,2061,WDI GDP through 2025,
+12_NZ,New Zealand,2062,WDI GDP through 2025,
+12_NZ,New Zealand,2063,WDI GDP through 2025,
+12_NZ,New Zealand,2064,WDI GDP through 2025,
+12_NZ,New Zealand,2065,WDI GDP through 2025,
+12_NZ,New Zealand,2066,WDI GDP through 2025,
+12_NZ,New Zealand,2067,WDI GDP through 2025,
+12_NZ,New Zealand,2068,WDI GDP through 2025,
+12_NZ,New Zealand,2069,WDI GDP through 2025,
+12_NZ,New Zealand,2070,WDI GDP through 2025,
+12_NZ,New Zealand,2071,WDI GDP through 2025,
+12_NZ,New Zealand,2072,WDI GDP through 2025,
+12_NZ,New Zealand,2073,WDI GDP through 2025,
+12_NZ,New Zealand,2074,WDI GDP through 2025,
+12_NZ,New Zealand,2075,WDI GDP through 2025,
+12_NZ,New Zealand,2076,WDI GDP through 2025,
+12_NZ,New Zealand,2077,WDI GDP through 2025,
+12_NZ,New Zealand,2078,WDI GDP through 2025,
+12_NZ,New Zealand,2079,WDI GDP through 2025,
+12_NZ,New Zealand,2080,WDI GDP through 2025,
+12_NZ,New Zealand,2081,WDI GDP through 2025,
+12_NZ,New Zealand,2082,WDI GDP through 2025,
+12_NZ,New Zealand,2083,WDI GDP through 2025,
+12_NZ,New Zealand,2084,WDI GDP through 2025,
+12_NZ,New Zealand,2085,WDI GDP through 2025,
+12_NZ,New Zealand,2086,WDI GDP through 2025,
+12_NZ,New Zealand,2087,WDI GDP through 2025,
+12_NZ,New Zealand,2088,WDI GDP through 2025,
+12_NZ,New Zealand,2089,WDI GDP through 2025,
+12_NZ,New Zealand,2090,WDI GDP through 2025,
+12_NZ,New Zealand,2091,WDI GDP through 2025,
+12_NZ,New Zealand,2092,WDI GDP through 2025,
+12_NZ,New Zealand,2093,WDI GDP through 2025,
+12_NZ,New Zealand,2094,WDI GDP through 2025,
+12_NZ,New Zealand,2095,WDI GDP through 2025,
+12_NZ,New Zealand,2096,WDI GDP through 2025,
+12_NZ,New Zealand,2097,WDI GDP through 2025,
+12_NZ,New Zealand,2098,WDI GDP through 2025,
+12_NZ,New Zealand,2099,WDI GDP through 2025,
+12_NZ,New Zealand,2100,WDI GDP through 2025,
+12_NZ,New Zealand,1990,APERC GDP projections,
+12_NZ,New Zealand,1991,APERC GDP projections,
+12_NZ,New Zealand,1992,APERC GDP projections,
+12_NZ,New Zealand,1993,APERC GDP projections,
+12_NZ,New Zealand,1994,APERC GDP projections,
+12_NZ,New Zealand,1995,APERC GDP projections,
+12_NZ,New Zealand,1996,APERC GDP projections,
+12_NZ,New Zealand,1997,APERC GDP projections,
+12_NZ,New Zealand,1998,APERC GDP projections,
+12_NZ,New Zealand,1999,APERC GDP projections,
+12_NZ,New Zealand,2000,APERC GDP projections,
+12_NZ,New Zealand,2001,APERC GDP projections,
+12_NZ,New Zealand,2002,APERC GDP projections,
+12_NZ,New Zealand,2003,APERC GDP projections,
+12_NZ,New Zealand,2004,APERC GDP projections,
+12_NZ,New Zealand,2005,APERC GDP projections,
+12_NZ,New Zealand,2006,APERC GDP projections,
+12_NZ,New Zealand,2007,APERC GDP projections,
+12_NZ,New Zealand,2008,APERC GDP projections,
+12_NZ,New Zealand,2009,APERC GDP projections,
+12_NZ,New Zealand,2010,APERC GDP projections,
+12_NZ,New Zealand,2011,APERC GDP projections,
+12_NZ,New Zealand,2012,APERC GDP projections,
+12_NZ,New Zealand,2013,APERC GDP projections,
+12_NZ,New Zealand,2014,APERC GDP projections,
+12_NZ,New Zealand,2015,APERC GDP projections,
+12_NZ,New Zealand,2016,APERC GDP projections,
+12_NZ,New Zealand,2017,APERC GDP projections,
+12_NZ,New Zealand,2018,APERC GDP projections,
+12_NZ,New Zealand,2019,APERC GDP projections,
+12_NZ,New Zealand,2020,APERC GDP projections,
+12_NZ,New Zealand,2021,APERC GDP projections,
+12_NZ,New Zealand,2022,APERC GDP projections,
+12_NZ,New Zealand,2023,APERC GDP projections,
+12_NZ,New Zealand,2024,APERC GDP projections,
+12_NZ,New Zealand,2025,APERC GDP projections,
+12_NZ,New Zealand,2026,APERC GDP projections,259569.42994527236
+12_NZ,New Zealand,2027,APERC GDP projections,262047.82358150245
+12_NZ,New Zealand,2028,APERC GDP projections,264273.74380493537
+12_NZ,New Zealand,2029,APERC GDP projections,266230.095202591
+12_NZ,New Zealand,2030,APERC GDP projections,268174.44166633446
+12_NZ,New Zealand,2031,APERC GDP projections,270745.65230842546
+12_NZ,New Zealand,2032,APERC GDP projections,272824.4716202363
+12_NZ,New Zealand,2033,APERC GDP projections,274491.1336716182
+12_NZ,New Zealand,2034,APERC GDP projections,276276.0951097519
+12_NZ,New Zealand,2035,APERC GDP projections,278354.7428106722
+12_NZ,New Zealand,2036,APERC GDP projections,280599.7702991663
+12_NZ,New Zealand,2037,APERC GDP projections,282821.8575366807
+12_NZ,New Zealand,2038,APERC GDP projections,285056.05302922515
+12_NZ,New Zealand,2039,APERC GDP projections,287348.67412156926
+12_NZ,New Zealand,2040,APERC GDP projections,289678.4639963403
+12_NZ,New Zealand,2041,APERC GDP projections,292070.9196770639
+12_NZ,New Zealand,2042,APERC GDP projections,294501.0682733698
+12_NZ,New Zealand,2043,APERC GDP projections,296955.30521627725
+12_NZ,New Zealand,2044,APERC GDP projections,299461.6364079827
+12_NZ,New Zealand,2045,APERC GDP projections,302028.13379865995
+12_NZ,New Zealand,2046,APERC GDP projections,304645.3209590506
+12_NZ,New Zealand,2047,APERC GDP projections,307269.4904044571
+12_NZ,New Zealand,2048,APERC GDP projections,309934.4064228623
+12_NZ,New Zealand,2049,APERC GDP projections,312673.0286943027
+12_NZ,New Zealand,2050,APERC GDP projections,315421.0579083397
+12_NZ,New Zealand,2051,APERC GDP projections,318334.63556057826
+12_NZ,New Zealand,2052,APERC GDP projections,321356.1288684997
+12_NZ,New Zealand,2053,APERC GDP projections,324362.99243793916
+12_NZ,New Zealand,2054,APERC GDP projections,327505.77632428025
+12_NZ,New Zealand,2055,APERC GDP projections,330659.32896450243
+12_NZ,New Zealand,2056,APERC GDP projections,333815.063902248
+12_NZ,New Zealand,2057,APERC GDP projections,336912.1762733029
+12_NZ,New Zealand,2058,APERC GDP projections,340012.96883870574
+12_NZ,New Zealand,2059,APERC GDP projections,343122.9637647109
+12_NZ,New Zealand,2060,APERC GDP projections,346222.66945659526
+12_NZ,New Zealand,2061,APERC GDP projections,349303.89890206594
+12_NZ,New Zealand,2062,APERC GDP projections,352326.56385564007
+12_NZ,New Zealand,2063,APERC GDP projections,355472.20316687954
+12_NZ,New Zealand,2064,APERC GDP projections,358563.9570354026
+12_NZ,New Zealand,2065,APERC GDP projections,361735.9401984625
+12_NZ,New Zealand,2066,APERC GDP projections,364954.88960873056
+12_NZ,New Zealand,2067,APERC GDP projections,368188.4791390987
+12_NZ,New Zealand,2068,APERC GDP projections,371393.59344197705
+12_NZ,New Zealand,2069,APERC GDP projections,374590.8652910631
+12_NZ,New Zealand,2070,APERC GDP projections,377797.7475479021
+12_NZ,New Zealand,2071,APERC GDP projections,381006.4466665159
+12_NZ,New Zealand,2072,APERC GDP projections,384214.8009895322
+12_NZ,New Zealand,2073,APERC GDP projections,387599.08354977274
+12_NZ,New Zealand,2074,APERC GDP projections,390906.61494595715
+12_NZ,New Zealand,2075,APERC GDP projections,394232.42785893334
+12_NZ,New Zealand,2076,APERC GDP projections,397553.7291724996
+12_NZ,New Zealand,2077,APERC GDP projections,400900.9955010202
+12_NZ,New Zealand,2078,APERC GDP projections,404302.49610165367
+12_NZ,New Zealand,2079,APERC GDP projections,407659.8661939201
+12_NZ,New Zealand,2080,APERC GDP projections,411015.82362150936
+12_NZ,New Zealand,2081,APERC GDP projections,414342.08097969624
+12_NZ,New Zealand,2082,APERC GDP projections,417735.0997202462
+12_NZ,New Zealand,2083,APERC GDP projections,421079.1901395577
+12_NZ,New Zealand,2084,APERC GDP projections,424398.03301025665
+12_NZ,New Zealand,2085,APERC GDP projections,427769.35348536476
+12_NZ,New Zealand,2086,APERC GDP projections,431178.960233681
+12_NZ,New Zealand,2087,APERC GDP projections,434630.1798962609
+12_NZ,New Zealand,2088,APERC GDP projections,438116.44468992157
+12_NZ,New Zealand,2089,APERC GDP projections,441726.4815954507
+12_NZ,New Zealand,2090,APERC GDP projections,445258.85830229154
+12_NZ,New Zealand,2091,APERC GDP projections,448910.0546392483
+12_NZ,New Zealand,2092,APERC GDP projections,452567.2380736024
+12_NZ,New Zealand,2093,APERC GDP projections,456312.72124671086
+12_NZ,New Zealand,2094,APERC GDP projections,459979.1051358665
+12_NZ,New Zealand,2095,APERC GDP projections,463733.9247386775
+12_NZ,New Zealand,2096,APERC GDP projections,467489.6010039675
+12_NZ,New Zealand,2097,APERC GDP projections,471240.9843750698
+12_NZ,New Zealand,2098,APERC GDP projections,475001.4477461143
+12_NZ,New Zealand,2099,APERC GDP projections,478741.43102585356
+12_NZ,New Zealand,2100,APERC GDP projections,482498.9667136419
+12_NZ,New Zealand,1990,9th Outlook projections (rebased to 2021 PPP USD),103333.4775148086
+12_NZ,New Zealand,1991,9th Outlook projections (rebased to 2021 PPP USD),101967.32560758483
+12_NZ,New Zealand,1992,9th Outlook projections (rebased to 2021 PPP USD),102678.4079951463
+12_NZ,New Zealand,1993,9th Outlook projections (rebased to 2021 PPP USD),108059.82774617238
+12_NZ,New Zealand,1994,9th Outlook projections (rebased to 2021 PPP USD),114082.38526990297
+12_NZ,New Zealand,1995,9th Outlook projections (rebased to 2021 PPP USD),119667.4830269986
+12_NZ,New Zealand,1996,9th Outlook projections (rebased to 2021 PPP USD),124538.60553397983
+12_NZ,New Zealand,1997,9th Outlook projections (rebased to 2021 PPP USD),127584.09844680098
+12_NZ,New Zealand,1998,9th Outlook projections (rebased to 2021 PPP USD),127997.18820379631
+12_NZ,New Zealand,1999,9th Outlook projections (rebased to 2021 PPP USD),133801.29873976545
+12_NZ,New Zealand,2000,9th Outlook projections (rebased to 2021 PPP USD),139493.8020046862
+12_NZ,New Zealand,2001,9th Outlook projections (rebased to 2021 PPP USD),143093.7769564327
+12_NZ,New Zealand,2002,9th Outlook projections (rebased to 2021 PPP USD),149829.68825088593
+12_NZ,New Zealand,2003,9th Outlook projections (rebased to 2021 PPP USD),156198.24357883638
+12_NZ,New Zealand,2004,9th Outlook projections (rebased to 2021 PPP USD),163646.16700415037
+12_NZ,New Zealand,2005,9th Outlook projections (rebased to 2021 PPP USD),168818.31404407023
+12_NZ,New Zealand,2006,9th Outlook projections (rebased to 2021 PPP USD),173717.76313043147
+12_NZ,New Zealand,2007,9th Outlook projections (rebased to 2021 PPP USD),179732.76661703648
+12_NZ,New Zealand,2008,9th Outlook projections (rebased to 2021 PPP USD),179410.35013126108
+12_NZ,New Zealand,2009,9th Outlook projections (rebased to 2021 PPP USD),177247.251699269
+12_NZ,New Zealand,2010,9th Outlook projections (rebased to 2021 PPP USD),180376.5796542415
+12_NZ,New Zealand,2011,9th Outlook projections (rebased to 2021 PPP USD),183649.60741629262
+12_NZ,New Zealand,2012,9th Outlook projections (rebased to 2021 PPP USD),188228.42619075003
+12_NZ,New Zealand,2013,9th Outlook projections (rebased to 2021 PPP USD),192515.78698005973
+12_NZ,New Zealand,2014,9th Outlook projections (rebased to 2021 PPP USD),199757.7867801684
+12_NZ,New Zealand,2015,9th Outlook projections (rebased to 2021 PPP USD),207091.17591956828
+12_NZ,New Zealand,2016,9th Outlook projections (rebased to 2021 PPP USD),215306.93769859622
+12_NZ,New Zealand,2017,9th Outlook projections (rebased to 2021 PPP USD),222831.67471735273
+12_NZ,New Zealand,2018,9th Outlook projections (rebased to 2021 PPP USD),230476.2009901175
+12_NZ,New Zealand,2019,9th Outlook projections (rebased to 2021 PPP USD),237107.81317886693
+12_NZ,New Zealand,2020,9th Outlook projections (rebased to 2021 PPP USD),232159.44596343234
+12_NZ,New Zealand,2021,9th Outlook projections (rebased to 2021 PPP USD),245088.353611212
+12_NZ,New Zealand,2022,9th Outlook projections (rebased to 2021 PPP USD),250769.70842396378
+12_NZ,New Zealand,2023,9th Outlook projections (rebased to 2021 PPP USD),255554.84871333203
+12_NZ,New Zealand,2024,9th Outlook projections (rebased to 2021 PPP USD),260715.3438681824
+12_NZ,New Zealand,2025,9th Outlook projections (rebased to 2021 PPP USD),266401.9939173295
+12_NZ,New Zealand,2026,9th Outlook projections (rebased to 2021 PPP USD),272537.5248272294
+12_NZ,New Zealand,2027,9th Outlook projections (rebased to 2021 PPP USD),278945.75095488515
+12_NZ,New Zealand,2028,9th Outlook projections (rebased to 2021 PPP USD),284408.38720543624
+12_NZ,New Zealand,2029,9th Outlook projections (rebased to 2021 PPP USD),289732.7390562077
+12_NZ,New Zealand,2030,9th Outlook projections (rebased to 2021 PPP USD),295154.4351568681
+12_NZ,New Zealand,2031,9th Outlook projections (rebased to 2021 PPP USD),300838.88306991756
+12_NZ,New Zealand,2032,9th Outlook projections (rebased to 2021 PPP USD),306470.8446648802
+12_NZ,New Zealand,2033,9th Outlook projections (rebased to 2021 PPP USD),312041.495006812
+12_NZ,New Zealand,2034,9th Outlook projections (rebased to 2021 PPP USD),317596.68153006205
+12_NZ,New Zealand,2035,9th Outlook projections (rebased to 2021 PPP USD),323212.6505523638
+12_NZ,New Zealand,2036,9th Outlook projections (rebased to 2021 PPP USD),328895.0281156533
+12_NZ,New Zealand,2037,9th Outlook projections (rebased to 2021 PPP USD),334649.4742550882
+12_NZ,New Zealand,2038,9th Outlook projections (rebased to 2021 PPP USD),340470.44621107756
+12_NZ,New Zealand,2039,9th Outlook projections (rebased to 2021 PPP USD),346364.432357893
+12_NZ,New Zealand,2040,9th Outlook projections (rebased to 2021 PPP USD),352335.5154496998
+12_NZ,New Zealand,2041,9th Outlook projections (rebased to 2021 PPP USD),358383.42930434603
+12_NZ,New Zealand,2042,9th Outlook projections (rebased to 2021 PPP USD),364506.54868457676
+12_NZ,New Zealand,2043,9th Outlook projections (rebased to 2021 PPP USD),370703.6790517288
+12_NZ,New Zealand,2044,9th Outlook projections (rebased to 2021 PPP USD),376972.0131135069
+12_NZ,New Zealand,2045,9th Outlook projections (rebased to 2021 PPP USD),383311.265669753
+12_NZ,New Zealand,2046,9th Outlook projections (rebased to 2021 PPP USD),389718.54812553426
+12_NZ,New Zealand,2047,9th Outlook projections (rebased to 2021 PPP USD),396194.2986412699
+12_NZ,New Zealand,2048,9th Outlook projections (rebased to 2021 PPP USD),402743.01057798293
+12_NZ,New Zealand,2049,9th Outlook projections (rebased to 2021 PPP USD),409354.6734313533
+12_NZ,New Zealand,2050,9th Outlook projections (rebased to 2021 PPP USD),416046.6321109302
+12_NZ,New Zealand,2051,9th Outlook projections (rebased to 2021 PPP USD),422820.52253789466
+12_NZ,New Zealand,2052,9th Outlook projections (rebased to 2021 PPP USD),429661.72216439573
+12_NZ,New Zealand,2053,9th Outlook projections (rebased to 2021 PPP USD),436589.2355179024
+12_NZ,New Zealand,2054,9th Outlook projections (rebased to 2021 PPP USD),443604.1611819595
+12_NZ,New Zealand,2055,9th Outlook projections (rebased to 2021 PPP USD),450701.61370467884
+12_NZ,New Zealand,2056,9th Outlook projections (rebased to 2021 PPP USD),457883.1729114696
+12_NZ,New Zealand,2057,9th Outlook projections (rebased to 2021 PPP USD),465152.8405524699
+12_NZ,New Zealand,2058,9th Outlook projections (rebased to 2021 PPP USD),472512.0969984765
+12_NZ,New Zealand,2059,9th Outlook projections (rebased to 2021 PPP USD),479955.168191236
+12_NZ,New Zealand,2060,9th Outlook projections (rebased to 2021 PPP USD),487481.52233813226
+12_NZ,New Zealand,2061,9th Outlook projections (rebased to 2021 PPP USD),495103.9910418012
+12_NZ,New Zealand,2062,9th Outlook projections (rebased to 2021 PPP USD),502820.3259720489
+12_NZ,New Zealand,2063,9th Outlook projections (rebased to 2021 PPP USD),510633.32854383666
+12_NZ,New Zealand,2064,9th Outlook projections (rebased to 2021 PPP USD),518531.10198998556
+12_NZ,New Zealand,2065,9th Outlook projections (rebased to 2021 PPP USD),526523.1763030528
+12_NZ,New Zealand,2066,9th Outlook projections (rebased to 2021 PPP USD),534608.7460213265
+12_NZ,New Zealand,2067,9th Outlook projections (rebased to 2021 PPP USD),542788.4938825701
+12_NZ,New Zealand,2068,9th Outlook projections (rebased to 2021 PPP USD),551045.3202725502
+12_NZ,New Zealand,2069,9th Outlook projections (rebased to 2021 PPP USD),559404.3654736517
+12_NZ,New Zealand,2070,9th Outlook projections (rebased to 2021 PPP USD),567856.4975319101
+12_NZ,New Zealand,2071,9th Outlook projections (rebased to 2021 PPP USD),576392.787411879
+12_NZ,New Zealand,2072,9th Outlook projections (rebased to 2021 PPP USD),585017.1130211222
+12_NZ,New Zealand,2073,9th Outlook projections (rebased to 2021 PPP USD),593718.5697874499
+12_NZ,New Zealand,2074,9th Outlook projections (rebased to 2021 PPP USD),602534.2645124524
+12_NZ,New Zealand,2075,9th Outlook projections (rebased to 2021 PPP USD),611447.2990655691
+12_NZ,New Zealand,2076,9th Outlook projections (rebased to 2021 PPP USD),620477.4818589514
+12_NZ,New Zealand,2077,9th Outlook projections (rebased to 2021 PPP USD),629610.8539626609
+12_NZ,New Zealand,2078,9th Outlook projections (rebased to 2021 PPP USD),638840.9320652247
+12_NZ,New Zealand,2079,9th Outlook projections (rebased to 2021 PPP USD),648194.0048087866
+12_NZ,New Zealand,2080,9th Outlook projections (rebased to 2021 PPP USD),657650.9062470663
+12_NZ,New Zealand,2081,9th Outlook projections (rebased to 2021 PPP USD),667207.6296456119
+12_NZ,New Zealand,2082,9th Outlook projections (rebased to 2021 PPP USD),676883.3890970026
+12_NZ,New Zealand,2083,9th Outlook projections (rebased to 2021 PPP USD),686667.8117238153
+12_NZ,New Zealand,2084,9th Outlook projections (rebased to 2021 PPP USD),696577.1950549266
+12_NZ,New Zealand,2085,9th Outlook projections (rebased to 2021 PPP USD),706599.1909156376
+12_NZ,New Zealand,2086,9th Outlook projections (rebased to 2021 PPP USD),716731.8526977636
+12_NZ,New Zealand,2087,9th Outlook projections (rebased to 2021 PPP USD),726978.6746012721
+12_NZ,New Zealand,2088,9th Outlook projections (rebased to 2021 PPP USD),737360.1940647439
+12_NZ,New Zealand,2089,9th Outlook projections (rebased to 2021 PPP USD),747884.2017752723
+12_NZ,New Zealand,2090,9th Outlook projections (rebased to 2021 PPP USD),758517.6648135703
+12_NZ,New Zealand,2091,9th Outlook projections (rebased to 2021 PPP USD),769301.8359063461
+12_NZ,New Zealand,2092,9th Outlook projections (rebased to 2021 PPP USD),780215.8234811136
+12_NZ,New Zealand,2093,9th Outlook projections (rebased to 2021 PPP USD),791276.1119685692
+12_NZ,New Zealand,2094,9th Outlook projections (rebased to 2021 PPP USD),802489.1329665829
+12_NZ,New Zealand,2095,9th Outlook projections (rebased to 2021 PPP USD),813852.1936787219
+12_NZ,New Zealand,2096,9th Outlook projections (rebased to 2021 PPP USD),825366.9432964311
+12_NZ,New Zealand,2097,9th Outlook projections (rebased to 2021 PPP USD),837032.8918036327
+12_NZ,New Zealand,2098,9th Outlook projections (rebased to 2021 PPP USD),848841.5860455713
+12_NZ,New Zealand,2099,9th Outlook projections (rebased to 2021 PPP USD),860825.3065165591
+12_NZ,New Zealand,2100,9th Outlook projections (rebased to 2021 PPP USD),872972.539258376

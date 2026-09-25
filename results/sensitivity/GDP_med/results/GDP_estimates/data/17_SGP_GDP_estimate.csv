@@ -1,0 +1,889 @@
+economy_code,economy,year,variable,value
+17_SGP,Singapore,1990,Population,2988.681
+17_SGP,Singapore,1991,Population,3090.501
+17_SGP,Singapore,1992,Population,3182.081
+17_SGP,Singapore,1993,Population,3270.848
+17_SGP,Singapore,1994,Population,3364.936
+17_SGP,Singapore,1995,Population,3470.698
+17_SGP,Singapore,1996,Population,3596.551
+17_SGP,Singapore,1997,Population,3732.569
+17_SGP,Singapore,1998,Population,3860.676
+17_SGP,Singapore,1999,Population,3942.159
+17_SGP,Singapore,2000,Population,3990.955
+17_SGP,Singapore,2001,Population,4079.535
+17_SGP,Singapore,2002,Population,4152.797
+17_SGP,Singapore,2003,Population,4140.988
+17_SGP,Singapore,2004,Population,4135.502
+17_SGP,Singapore,2005,Population,4210.033
+17_SGP,Singapore,2006,Population,4326.694
+17_SGP,Singapore,2007,Population,4487.422
+17_SGP,Singapore,2008,Population,4705.608
+17_SGP,Singapore,2009,Population,4907.874
+17_SGP,Singapore,2010,Population,5029.261
+17_SGP,Singapore,2011,Population,5124.767
+17_SGP,Singapore,2012,Population,5239.711
+17_SGP,Singapore,2013,Population,5346.968
+17_SGP,Singapore,2014,Population,5424.209
+17_SGP,Singapore,2015,Population,5491.591
+17_SGP,Singapore,2016,Population,5559.088
+17_SGP,Singapore,2017,Population,5596.771
+17_SGP,Singapore,2018,Population,5611.386
+17_SGP,Singapore,2019,Population,5657.353
+17_SGP,Singapore,2020,Population,5681.772
+17_SGP,Singapore,2021,Population,5558.529
+17_SGP,Singapore,2022,Population,5534.051
+17_SGP,Singapore,2023,Population,5765.718
+17_SGP,Singapore,2024,Population,5812.461
+17_SGP,Singapore,2025,Population,5852.313
+17_SGP,Singapore,2026,Population,5889.187
+17_SGP,Singapore,2027,Population,5922.308
+17_SGP,Singapore,2028,Population,5956.784
+17_SGP,Singapore,2029,Population,5989.912
+17_SGP,Singapore,2030,Population,6018.264
+17_SGP,Singapore,2031,Population,6044.491
+17_SGP,Singapore,2032,Population,6072.318
+17_SGP,Singapore,2033,Population,6098.129
+17_SGP,Singapore,2034,Population,6124.177
+17_SGP,Singapore,2035,Population,6145.385
+17_SGP,Singapore,2036,Population,6161.08
+17_SGP,Singapore,2037,Population,6172.62
+17_SGP,Singapore,2038,Population,6183.805
+17_SGP,Singapore,2039,Population,6192.304
+17_SGP,Singapore,2040,Population,6195.539
+17_SGP,Singapore,2041,Population,6194.024
+17_SGP,Singapore,2042,Population,6188.634
+17_SGP,Singapore,2043,Population,6182.134
+17_SGP,Singapore,2044,Population,6174.429
+17_SGP,Singapore,2045,Population,6161.921
+17_SGP,Singapore,2046,Population,6150.454
+17_SGP,Singapore,2047,Population,6136.765
+17_SGP,Singapore,2048,Population,6119.563
+17_SGP,Singapore,2049,Population,6106.852
+17_SGP,Singapore,2050,Population,6090.563
+17_SGP,Singapore,2051,Population,6072.82
+17_SGP,Singapore,2052,Population,6056.236
+17_SGP,Singapore,2053,Population,6044.328
+17_SGP,Singapore,2054,Population,6028.74
+17_SGP,Singapore,2055,Population,6008.249
+17_SGP,Singapore,2056,Population,5990.229
+17_SGP,Singapore,2057,Population,5972.718
+17_SGP,Singapore,2058,Population,5955.683
+17_SGP,Singapore,2059,Population,5934.097
+17_SGP,Singapore,2060,Population,5913.977
+17_SGP,Singapore,2061,Population,5889.475
+17_SGP,Singapore,2062,Population,5867.268
+17_SGP,Singapore,2063,Population,5843.629
+17_SGP,Singapore,2064,Population,5822.037
+17_SGP,Singapore,2065,Population,5796.463
+17_SGP,Singapore,2066,Population,5766.213
+17_SGP,Singapore,2067,Population,5734.564
+17_SGP,Singapore,2068,Population,5707.293
+17_SGP,Singapore,2069,Population,5677.52
+17_SGP,Singapore,2070,Population,5646.138
+17_SGP,Singapore,2071,Population,5616.432
+17_SGP,Singapore,2072,Population,5584.074
+17_SGP,Singapore,2073,Population,5549.752
+17_SGP,Singapore,2074,Population,5512.532
+17_SGP,Singapore,2075,Population,5468.734
+17_SGP,Singapore,2076,Population,5423.311
+17_SGP,Singapore,2077,Population,5381.662
+17_SGP,Singapore,2078,Population,5335.785
+17_SGP,Singapore,2079,Population,5287.561
+17_SGP,Singapore,2080,Population,5235.884
+17_SGP,Singapore,2081,Population,5183.492
+17_SGP,Singapore,2082,Population,5129.259
+17_SGP,Singapore,2083,Population,5073.733
+17_SGP,Singapore,2084,Population,5018.63
+17_SGP,Singapore,2085,Population,4963.844
+17_SGP,Singapore,2086,Population,4907.318
+17_SGP,Singapore,2087,Population,4849.442
+17_SGP,Singapore,2088,Population,4792.673
+17_SGP,Singapore,2089,Population,4736.975
+17_SGP,Singapore,2090,Population,4678.935
+17_SGP,Singapore,2091,Population,4623.589
+17_SGP,Singapore,2092,Population,4568.972
+17_SGP,Singapore,2093,Population,4518.313
+17_SGP,Singapore,2094,Population,4467.109
+17_SGP,Singapore,2095,Population,4414.803
+17_SGP,Singapore,2096,Population,4365.459
+17_SGP,Singapore,2097,Population,4316.827
+17_SGP,Singapore,2098,Population,4270.327
+17_SGP,Singapore,2099,Population,4224.55
+17_SGP,Singapore,2100,Population,4182.766
+17_SGP,Singapore,1990,Labour efficiency,19.72578193327592
+17_SGP,Singapore,1991,Labour efficiency,20.260453453478878
+17_SGP,Singapore,1992,Labour efficiency,20.822523608699726
+17_SGP,Singapore,1993,Labour efficiency,23.052168140298715
+17_SGP,Singapore,1994,Labour efficiency,25.334950997853007
+17_SGP,Singapore,1995,Labour efficiency,26.080485679635018
+17_SGP,Singapore,1996,Labour efficiency,26.52538001366973
+17_SGP,Singapore,1997,Labour efficiency,27.30150853922681
+17_SGP,Singapore,1998,Labour efficiency,24.09983816534623
+17_SGP,Singapore,1999,Labour efficiency,24.77331811568732
+17_SGP,Singapore,2000,Labour efficiency,26.951138048949595
+17_SGP,Singapore,2001,Labour efficiency,24.91930208592805
+17_SGP,Singapore,2002,Labour efficiency,25.388390567662977
+17_SGP,Singapore,2003,Labour efficiency,26.80657947533561
+17_SGP,Singapore,2004,Labour efficiency,30.61015483085321
+17_SGP,Singapore,2005,Labour efficiency,32.98271442240301
+17_SGP,Singapore,2006,Labour efficiency,36.00358708641672
+17_SGP,Singapore,2007,Labour efficiency,38.74393108747904
+17_SGP,Singapore,2008,Labour efficiency,36.71202225637571
+17_SGP,Singapore,2009,Labour efficiency,34.000367293736936
+17_SGP,Singapore,2010,Labour efficiency,40.061795637374175
+17_SGP,Singapore,2011,Labour efficiency,41.88528752851294
+17_SGP,Singapore,2012,Labour efficiency,42.35988991628845
+17_SGP,Singapore,2013,Labour efficiency,43.17695438429458
+17_SGP,Singapore,2014,Labour efficiency,43.70725859238778
+17_SGP,Singapore,2015,Labour efficiency,43.7744027090295
+17_SGP,Singapore,2016,Labour efficiency,44.55817247328447
+17_SGP,Singapore,2017,Labour efficiency,46.08786500333994
+17_SGP,Singapore,2018,Labour efficiency,47.384503448172815
+17_SGP,Singapore,2019,Labour efficiency,46.87281435177626
+17_SGP,Singapore,2020,Labour efficiency,43.24789198909498
+17_SGP,Singapore,2021,Labour efficiency,50.56841711911351
+17_SGP,Singapore,2022,Labour efficiency,52.93351065695804
+17_SGP,Singapore,2023,Labour efficiency,50.79643522215076
+17_SGP,Singapore,2024,Labour efficiency,53.080422870960625
+17_SGP,Singapore,2025,Labour efficiency,55.36855861327929
+17_SGP,Singapore,2026,Labour efficiency,56.758153804972096
+17_SGP,Singapore,2027,Labour efficiency,58.22344688364726
+17_SGP,Singapore,2028,Labour efficiency,59.6769983138218
+17_SGP,Singapore,2029,Labour efficiency,61.14792608975772
+17_SGP,Singapore,2030,Labour efficiency,62.87185942167064
+17_SGP,Singapore,2031,Labour efficiency,65.30787021380439
+17_SGP,Singapore,2032,Labour efficiency,66.98584593629649
+17_SGP,Singapore,2033,Labour efficiency,68.56574931706584
+17_SGP,Singapore,2034,Labour efficiency,70.62145166342688
+17_SGP,Singapore,2035,Labour efficiency,72.63298147250964
+17_SGP,Singapore,2036,Labour efficiency,74.59558998853505
+17_SGP,Singapore,2037,Labour efficiency,76.62557998546839
+17_SGP,Singapore,2038,Labour efficiency,78.72151600084953
+17_SGP,Singapore,2039,Labour efficiency,80.89357998389725
+17_SGP,Singapore,2040,Labour efficiency,83.14938677158513
+17_SGP,Singapore,2041,Labour efficiency,85.46554878095047
+17_SGP,Singapore,2042,Labour efficiency,87.75315466389904
+17_SGP,Singapore,2043,Labour efficiency,90.11140828071832
+17_SGP,Singapore,2044,Labour efficiency,92.56266637477356
+17_SGP,Singapore,2045,Labour efficiency,95.0548822033056
+17_SGP,Singapore,2046,Labour efficiency,97.5993844325699
+17_SGP,Singapore,2047,Labour efficiency,100.20953907879901
+17_SGP,Singapore,2048,Labour efficiency,102.88479155637624
+17_SGP,Singapore,2049,Labour efficiency,105.62471109348732
+17_SGP,Singapore,2050,Labour efficiency,108.42744889684435
+17_SGP,Singapore,2051,Labour efficiency,111.28990587494663
+17_SGP,Singapore,2052,Labour efficiency,114.2117306680213
+17_SGP,Singapore,2053,Labour efficiency,117.20441525739855
+17_SGP,Singapore,2054,Labour efficiency,120.26765534438053
+17_SGP,Singapore,2055,Labour efficiency,123.39812752561643
+17_SGP,Singapore,2056,Labour efficiency,126.59903408754334
+17_SGP,Singapore,2057,Labour efficiency,129.87247477150615
+17_SGP,Singapore,2058,Labour efficiency,133.2190389606375
+17_SGP,Singapore,2059,Labour efficiency,136.63946821241674
+17_SGP,Singapore,2060,Labour efficiency,140.13465886415045
+17_SGP,Singapore,2061,Labour efficiency,143.70586946227021
+17_SGP,Singapore,2062,Labour efficiency,147.35493142770537
+17_SGP,Singapore,2063,Labour efficiency,151.08395634171674
+17_SGP,Singapore,2064,Labour efficiency,154.893804242767
+17_SGP,Singapore,2065,Labour efficiency,158.7854876278953
+17_SGP,Singapore,2066,Labour efficiency,162.7605890064726
+17_SGP,Singapore,2067,Labour efficiency,166.82047070512766
+17_SGP,Singapore,2068,Labour efficiency,170.96639305909818
+17_SGP,Singapore,2069,Labour efficiency,175.19970073908806
+17_SGP,Singapore,2070,Labour efficiency,179.52181321885053
+17_SGP,Singapore,2071,Labour efficiency,183.93421374208617
+17_SGP,Singapore,2072,Labour efficiency,188.43840972379206
+17_SGP,Singapore,2073,Labour efficiency,193.03586070114977
+17_SGP,Singapore,2074,Labour efficiency,197.72793584243945
+17_SGP,Singapore,2075,Labour efficiency,202.51606672986293
+17_SGP,Singapore,2076,Labour efficiency,207.40173516912168
+17_SGP,Singapore,2077,Labour efficiency,212.38640498122976
+17_SGP,Singapore,2078,Labour efficiency,217.4715486200091
+17_SGP,Singapore,2079,Labour efficiency,222.6586616116853
+17_SGP,Singapore,2080,Labour efficiency,227.94925448023696
+17_SGP,Singapore,2081,Labour efficiency,233.3448449352355
+17_SGP,Singapore,2082,Labour efficiency,238.84695054772496
+17_SGP,Singapore,2083,Labour efficiency,244.45708568109046
+17_SGP,Singapore,2084,Labour efficiency,250.1767673962789
+17_SGP,Singapore,2085,Labour efficiency,256.0075275761188
+17_SGP,Singapore,2086,Labour efficiency,261.950906731314
+17_SGP,Singapore,2087,Labour efficiency,268.0084486362523
+17_SGP,Singapore,2088,Labour efficiency,274.18170313181946
+17_SGP,Singapore,2089,Labour efficiency,280.47222582874747
+17_SGP,Singapore,2090,Labour efficiency,286.8815759123973
+17_SGP,Singapore,2091,Labour efficiency,293.41131472329164
+17_SGP,Singapore,2092,Labour efficiency,300.06300517179073
+17_SGP,Singapore,2093,Labour efficiency,306.8382120233043
+17_SGP,Singapore,2094,Labour efficiency,313.7385026109136
+17_SGP,Singapore,2095,Labour efficiency,320.7654468744602
+17_SGP,Singapore,2096,Labour efficiency,327.92061584879315
+17_SGP,Singapore,2097,Labour efficiency,335.2055807635244
+17_SGP,Singapore,2098,Labour efficiency,342.6219127204335
+17_SGP,Singapore,2099,Labour efficiency,350.1711819727769
+17_SGP,Singapore,2100,Labour efficiency,357.8549571551842
+17_SGP,Singapore,1990,Capital stock,512781.76288564
+17_SGP,Singapore,1991,Capital stock,550781.269054242
+17_SGP,Singapore,1992,Capital stock,594193.2416852084
+17_SGP,Singapore,1993,Capital stock,641993.4285053425
+17_SGP,Singapore,1994,Capital stock,694682.7237099021
+17_SGP,Singapore,1995,Capital stock,755041.5607349786
+17_SGP,Singapore,1996,Capital stock,835564.586733302
+17_SGP,Singapore,1997,Capital stock,924152.574305508
+17_SGP,Singapore,1998,Capital stock,1002226.9315432494
+17_SGP,Singapore,1999,Capital stock,1070979.0649178035
+17_SGP,Singapore,2000,Capital stock,1150337.7945580396
+17_SGP,Singapore,2001,Capital stock,1218700.6555167097
+17_SGP,Singapore,2002,Capital stock,1270386.8808035809
+17_SGP,Singapore,2003,Capital stock,1314237.1063205164
+17_SGP,Singapore,2004,Capital stock,1367698.2882837087
+17_SGP,Singapore,2005,Capital stock,1421979.3764711604
+17_SGP,Singapore,2006,Capital stock,1484676.5461494916
+17_SGP,Singapore,2007,Capital stock,1562659.875363109
+17_SGP,Singapore,2008,Capital stock,1652249.3307578105
+17_SGP,Singapore,2009,Capital stock,1745960.8182669303
+17_SGP,Singapore,2010,Capital stock,1846924.3620427176
+17_SGP,Singapore,2011,Capital stock,1952816.8347692348
+17_SGP,Singapore,2012,Capital stock,2070103.5255776315
+17_SGP,Singapore,2013,Capital stock,2194986.0523749427
+17_SGP,Singapore,2014,Capital stock,2322984.8144032788
+17_SGP,Singapore,2015,Capital stock,2448229.896497319
+17_SGP,Singapore,2016,Capital stock,2576242.609980968
+17_SGP,Singapore,2017,Capital stock,2695172.6891587432
+17_SGP,Singapore,2018,Capital stock,2785296.3962276126
+17_SGP,Singapore,2019,Capital stock,2878317.006572698
+17_SGP,Singapore,2020,Capital stock,2943319.614831123
+17_SGP,Singapore,2021,Capital stock,3062845.299159905
+17_SGP,Singapore,2022,Capital stock,3176243.457703904
+17_SGP,Singapore,2023,Capital stock,3293651.246240451
+17_SGP,Singapore,2024,Capital stock,3469647.896455045
+17_SGP,Singapore,2025,Capital stock,3644028.305375653
+17_SGP,Singapore,2026,Capital stock,3818015.639746375
+17_SGP,Singapore,2027,Capital stock,3991195.426694512
+17_SGP,Singapore,2028,Capital stock,4163178.6548784035
+17_SGP,Singapore,2029,Capital stock,4333603.048230393
+17_SGP,Singapore,2030,Capital stock,4502133.910141564
+17_SGP,Singapore,2031,Capital stock,4668464.576535715
+17_SGP,Singapore,2032,Capital stock,4832316.518209046
+17_SGP,Singapore,2033,Capital stock,4993439.13352348
+17_SGP,Singapore,2034,Capital stock,5154014.304551921
+17_SGP,Singapore,2035,Capital stock,5320723.138125831
+17_SGP,Singapore,2036,Capital stock,5493135.530527491
+17_SGP,Singapore,2037,Capital stock,5670766.131234385
+17_SGP,Singapore,2038,Capital stock,5853638.627492867
+17_SGP,Singapore,2039,Capital stock,6041945.958294331
+17_SGP,Singapore,2040,Capital stock,6233987.307006245
+17_SGP,Singapore,2041,Capital stock,6429680.138504199
+17_SGP,Singapore,2042,Capital stock,6628856.842742244
+17_SGP,Singapore,2043,Capital stock,6831035.192324825
+17_SGP,Singapore,2044,Capital stock,7036264.029849195
+17_SGP,Singapore,2045,Capital stock,7244664.180954079
+17_SGP,Singapore,2046,Capital stock,7455931.887916869
+17_SGP,Singapore,2047,Capital stock,7670143.968182296
+17_SGP,Singapore,2048,Capital stock,7887225.194578194
+17_SGP,Singapore,2049,Capital stock,8107003.341741085
+17_SGP,Singapore,2050,Capital stock,8329812.296112774
+17_SGP,Singapore,2051,Capital stock,8555447.816570349
+17_SGP,Singapore,2052,Capital stock,8783823.26579044
+17_SGP,Singapore,2053,Capital stock,9015026.022146469
+17_SGP,Singapore,2054,Capital stock,9249441.039928813
+17_SGP,Singapore,2055,Capital stock,9486844.884349335
+17_SGP,Singapore,2056,Capital stock,9726890.356426695
+17_SGP,Singapore,2057,Capital stock,9969792.087145673
+17_SGP,Singapore,2058,Capital stock,10215620.602143345
+17_SGP,Singapore,2059,Capital stock,10464442.629899744
+17_SGP,Singapore,2060,Capital stock,10715904.997229949
+17_SGP,Singapore,2061,Capital stock,10970148.354454651
+17_SGP,Singapore,2062,Capital stock,11226807.434064632
+17_SGP,Singapore,2063,Capital stock,11486097.566596331
+17_SGP,Singapore,2064,Capital stock,11747904.383860875
+17_SGP,Singapore,2065,Capital stock,12012430.65960155
+17_SGP,Singapore,2066,Capital stock,12279308.231872607
+17_SGP,Singapore,2067,Capital stock,12548083.805382915
+17_SGP,Singapore,2068,Capital stock,12818611.015963243
+17_SGP,Singapore,2069,Capital stock,13091328.05201379
+17_SGP,Singapore,2070,Capital stock,13365969.735603027
+17_SGP,Singapore,2071,Capital stock,13642354.211701196
+17_SGP,Singapore,2072,Capital stock,13920651.268187
+17_SGP,Singapore,2073,Capital stock,14200552.289023804
+17_SGP,Singapore,2074,Capital stock,14481813.749574699
+17_SGP,Singapore,2075,Capital stock,14764071.64514991
+17_SGP,Singapore,2076,Capital stock,15046505.576976964
+17_SGP,Singapore,2077,Capital stock,15328867.016333293
+17_SGP,Singapore,2078,Capital stock,15611573.238217233
+17_SGP,Singapore,2079,Capital stock,15894034.86619473
+17_SGP,Singapore,2080,Capital stock,16175884.73486414
+17_SGP,Singapore,2081,Capital stock,16456593.323421184
+17_SGP,Singapore,2082,Capital stock,16735984.707503563
+17_SGP,Singapore,2083,Capital stock,17013719.470264003
+17_SGP,Singapore,2084,Capital stock,17289523.953168992
+17_SGP,Singapore,2085,Capital stock,17563365.42636298
+17_SGP,Singapore,2086,Capital stock,17835195.33512174
+17_SGP,Singapore,2087,Capital stock,18104650.902469918
+17_SGP,Singapore,2088,Capital stock,18371417.55170068
+17_SGP,Singapore,2089,Capital stock,18635561.229598995
+17_SGP,Singapore,2090,Capital stock,18897145.894083235
+17_SGP,Singapore,2091,Capital stock,19155672.776167013
+17_SGP,Singapore,2092,Capital stock,19411479.923739206
+17_SGP,Singapore,2093,Capital stock,19664578.688206553
+17_SGP,Singapore,2094,Capital stock,19915551.81308499
+17_SGP,Singapore,2095,Capital stock,20164191.620738585
+17_SGP,Singapore,2096,Capital stock,20410182.417126577
+17_SGP,Singapore,2097,Capital stock,20653960.550987426
+17_SGP,Singapore,2098,Capital stock,20895547.23576124
+17_SGP,Singapore,2099,Capital stock,21135241.560594864
+17_SGP,Singapore,2100,Capital stock,21373072.784637287
+17_SGP,Singapore,1990,Savings,0.437346820122541
+17_SGP,Singapore,1991,Savings,0.44974234807006097
+17_SGP,Singapore,1992,Savings,0.469931769374517
+17_SGP,Singapore,1993,Savings,0.44368999664709596
+17_SGP,Singapore,1994,Savings,0.480937388256663
+17_SGP,Singapore,1995,Savings,0.505941912194197
+17_SGP,Singapore,1996,Savings,0.488767626927082
+17_SGP,Singapore,1997,Savings,0.523004833795433
+17_SGP,Singapore,1998,Savings,0.5134960865138251
+17_SGP,Singapore,1999,Savings,0.489122577264388
+17_SGP,Singapore,2000,Savings,0.463748639816815
+17_SGP,Singapore,2001,Savings,0.40081772000628296
+17_SGP,Singapore,2002,Savings,0.384280208891596
+17_SGP,Singapore,2003,Savings,0.39398793615194
+17_SGP,Singapore,2004,Savings,0.40614350645740205
+17_SGP,Singapore,2005,Savings,0.4362664151037
+17_SGP,Singapore,2006,Savings,0.481685207360732
+17_SGP,Singapore,2007,Savings,0.49970919838469
+17_SGP,Singapore,2008,Savings,0.443584688806777
+17_SGP,Singapore,2009,Savings,0.43863106021342296
+17_SGP,Singapore,2010,Savings,0.5059158090580069
+17_SGP,Singapore,2011,Savings,0.488092109004309
+17_SGP,Singapore,2012,Savings,0.47253102209668596
+17_SGP,Singapore,2013,Savings,0.455156971062719
+17_SGP,Singapore,2014,Savings,0.47295047799474604
+17_SGP,Singapore,2015,Savings,0.440462153091754
+17_SGP,Singapore,2016,Savings,0.452357210400528
+17_SGP,Singapore,2017,Savings,0.466182575489954
+17_SGP,Singapore,2018,Savings,0.41421833244141404
+17_SGP,Singapore,2019,Savings,0.399868811642176
+17_SGP,Singapore,2020,Savings,0.420805317790255
+17_SGP,Singapore,2021,Savings,0.441544994049441
+17_SGP,Singapore,2022,Savings,0.419202431450759
+17_SGP,Singapore,2023,Savings,0.37877615856889496
+17_SGP,Singapore,2024,Savings,0.40451288585266704
+17_SGP,Singapore,2025,Savings,0.399756209143373
+17_SGP,Singapore,2026,Savings,0.399756209143373
+17_SGP,Singapore,2027,Savings,0.398756209143373
+17_SGP,Singapore,2028,Savings,0.397756209143373
+17_SGP,Singapore,2029,Savings,0.396756209143373
+17_SGP,Singapore,2030,Savings,0.395756209143373
+17_SGP,Singapore,2031,Savings,0.394756209143373
+17_SGP,Singapore,2032,Savings,0.393756209143373
+17_SGP,Singapore,2033,Savings,0.392756209143373
+17_SGP,Singapore,2034,Savings,0.391756209143373
+17_SGP,Singapore,2035,Savings,0.390756209143373
+17_SGP,Singapore,2036,Savings,0.389756209143373
+17_SGP,Singapore,2037,Savings,0.388756209143373
+17_SGP,Singapore,2038,Savings,0.387756209143373
+17_SGP,Singapore,2039,Savings,0.386756209143373
+17_SGP,Singapore,2040,Savings,0.385756209143373
+17_SGP,Singapore,2041,Savings,0.384756209143373
+17_SGP,Singapore,2042,Savings,0.383756209143373
+17_SGP,Singapore,2043,Savings,0.382756209143373
+17_SGP,Singapore,2044,Savings,0.381756209143373
+17_SGP,Singapore,2045,Savings,0.380756209143373
+17_SGP,Singapore,2046,Savings,0.379756209143373
+17_SGP,Singapore,2047,Savings,0.378756209143373
+17_SGP,Singapore,2048,Savings,0.377756209143373
+17_SGP,Singapore,2049,Savings,0.376756209143373
+17_SGP,Singapore,2050,Savings,0.375756209143373
+17_SGP,Singapore,2051,Savings,0.374756209143373
+17_SGP,Singapore,2052,Savings,0.373756209143373
+17_SGP,Singapore,2053,Savings,0.372756209143373
+17_SGP,Singapore,2054,Savings,0.371756209143373
+17_SGP,Singapore,2055,Savings,0.370756209143373
+17_SGP,Singapore,2056,Savings,0.369756209143373
+17_SGP,Singapore,2057,Savings,0.368756209143373
+17_SGP,Singapore,2058,Savings,0.367756209143373
+17_SGP,Singapore,2059,Savings,0.366756209143373
+17_SGP,Singapore,2060,Savings,0.365756209143373
+17_SGP,Singapore,2061,Savings,0.364756209143373
+17_SGP,Singapore,2062,Savings,0.363756209143373
+17_SGP,Singapore,2063,Savings,0.362756209143373
+17_SGP,Singapore,2064,Savings,0.361756209143373
+17_SGP,Singapore,2065,Savings,0.360756209143373
+17_SGP,Singapore,2066,Savings,0.359756209143373
+17_SGP,Singapore,2067,Savings,0.358756209143373
+17_SGP,Singapore,2068,Savings,0.35775620914337297
+17_SGP,Singapore,2069,Savings,0.35675620914337297
+17_SGP,Singapore,2070,Savings,0.35575620914337297
+17_SGP,Singapore,2071,Savings,0.35475620914337297
+17_SGP,Singapore,2072,Savings,0.35375620914337297
+17_SGP,Singapore,2073,Savings,0.35275620914337297
+17_SGP,Singapore,2074,Savings,0.35175620914337297
+17_SGP,Singapore,2075,Savings,0.35075620914337297
+17_SGP,Singapore,2076,Savings,0.34975620914337296
+17_SGP,Singapore,2077,Savings,0.34875620914337296
+17_SGP,Singapore,2078,Savings,0.34775620914337296
+17_SGP,Singapore,2079,Savings,0.34675620914337296
+17_SGP,Singapore,2080,Savings,0.34575620914337296
+17_SGP,Singapore,2081,Savings,0.34475620914337296
+17_SGP,Singapore,2082,Savings,0.34375620914337296
+17_SGP,Singapore,2083,Savings,0.34275620914337296
+17_SGP,Singapore,2084,Savings,0.34175620914337296
+17_SGP,Singapore,2085,Savings,0.34075620914337296
+17_SGP,Singapore,2086,Savings,0.33975620914337296
+17_SGP,Singapore,2087,Savings,0.33875620914337295
+17_SGP,Singapore,2088,Savings,0.33775620914337295
+17_SGP,Singapore,2089,Savings,0.33675620914337295
+17_SGP,Singapore,2090,Savings,0.33575620914337295
+17_SGP,Singapore,2091,Savings,0.33475620914337295
+17_SGP,Singapore,2092,Savings,0.33375620914337295
+17_SGP,Singapore,2093,Savings,0.33275620914337295
+17_SGP,Singapore,2094,Savings,0.33175620914337295
+17_SGP,Singapore,2095,Savings,0.33075620914337295
+17_SGP,Singapore,2096,Savings,0.32975620914337295
+17_SGP,Singapore,2097,Savings,0.32875620914337295
+17_SGP,Singapore,2098,Savings,0.32775620914337295
+17_SGP,Singapore,2099,Savings,0.32675620914337294
+17_SGP,Singapore,2100,Savings,0.32575620914337294
+17_SGP,Singapore,1990,Depreciation,0.0418878048658371
+17_SGP,Singapore,1991,Depreciation,0.0433828830718994
+17_SGP,Singapore,1992,Depreciation,0.0446267388761044
+17_SGP,Singapore,1993,Depreciation,0.0456315316259861
+17_SGP,Singapore,1994,Depreciation,0.046156257390976
+17_SGP,Singapore,1995,Depreciation,0.0464525781571865
+17_SGP,Singapore,1996,Depreciation,0.0472463257610798
+17_SGP,Singapore,1997,Depreciation,0.0479022897779942
+17_SGP,Singapore,1998,Depreciation,0.0477310195565224
+17_SGP,Singapore,1999,Depreciation,0.0472639799118042
+17_SGP,Singapore,2000,Depreciation,0.0469802767038345
+17_SGP,Singapore,2001,Depreciation,0.046735730022192
+17_SGP,Singapore,2002,Depreciation,0.0463997572660446
+17_SGP,Singapore,2003,Depreciation,0.0461049489676952
+17_SGP,Singapore,2004,Depreciation,0.0462254360318184
+17_SGP,Singapore,2005,Depreciation,0.0468008518218994
+17_SGP,Singapore,2006,Depreciation,0.0476377792656422
+17_SGP,Singapore,2007,Depreciation,0.0486085154116154
+17_SGP,Singapore,2008,Depreciation,0.0494943074882031
+17_SGP,Singapore,2009,Depreciation,0.0499123372137547
+17_SGP,Singapore,2010,Depreciation,0.0503729693591595
+17_SGP,Singapore,2011,Depreciation,0.0511189624667168
+17_SGP,Singapore,2012,Depreciation,0.0516959168016911
+17_SGP,Singapore,2013,Depreciation,0.052265603095293
+17_SGP,Singapore,2014,Depreciation,0.0529721193015575
+17_SGP,Singapore,2015,Depreciation,0.0535507313907146
+17_SGP,Singapore,2016,Depreciation,0.0541719123721123
+17_SGP,Singapore,2017,Depreciation,0.0556410737335682
+17_SGP,Singapore,2018,Depreciation,0.0571823418140411
+17_SGP,Singapore,2019,Depreciation,0.0580892637372017
+17_SGP,Singapore,2020,Depreciation,0.0583657994866371
+17_SGP,Singapore,2021,Depreciation,0.0585080720484257
+17_SGP,Singapore,2022,Depreciation,0.0587096810340881
+17_SGP,Singapore,2023,Depreciation,0.0587050914764404
+17_SGP,Singapore,2024,Depreciation,0.0587050914764404
+17_SGP,Singapore,2025,Depreciation,0.0587050914764404
+17_SGP,Singapore,2026,Depreciation,0.0587050914764404
+17_SGP,Singapore,2027,Depreciation,0.0584050914764404
+17_SGP,Singapore,2028,Depreciation,0.0581050914764404
+17_SGP,Singapore,2029,Depreciation,0.0578050914764404
+17_SGP,Singapore,2030,Depreciation,0.057505091476440395
+17_SGP,Singapore,2031,Depreciation,0.057205091476440394
+17_SGP,Singapore,2032,Depreciation,0.05690509147644039
+17_SGP,Singapore,2033,Depreciation,0.05660509147644039
+17_SGP,Singapore,2034,Depreciation,0.05630509147644039
+17_SGP,Singapore,2035,Depreciation,0.05600509147644039
+17_SGP,Singapore,2036,Depreciation,0.055705091476440385
+17_SGP,Singapore,2037,Depreciation,0.055405091476440384
+17_SGP,Singapore,2038,Depreciation,0.05510509147644038
+17_SGP,Singapore,2039,Depreciation,0.05480509147644038
+17_SGP,Singapore,2040,Depreciation,0.05480509147644038
+17_SGP,Singapore,2041,Depreciation,0.05480509147644038
+17_SGP,Singapore,2042,Depreciation,0.05480509147644038
+17_SGP,Singapore,2043,Depreciation,0.05480509147644038
+17_SGP,Singapore,2044,Depreciation,0.05480509147644038
+17_SGP,Singapore,2045,Depreciation,0.05480509147644038
+17_SGP,Singapore,2046,Depreciation,0.05480509147644038
+17_SGP,Singapore,2047,Depreciation,0.05480509147644038
+17_SGP,Singapore,2048,Depreciation,0.05480509147644038
+17_SGP,Singapore,2049,Depreciation,0.05480509147644038
+17_SGP,Singapore,2050,Depreciation,0.05480509147644038
+17_SGP,Singapore,2051,Depreciation,0.05480509147644038
+17_SGP,Singapore,2052,Depreciation,0.05480509147644038
+17_SGP,Singapore,2053,Depreciation,0.05480509147644038
+17_SGP,Singapore,2054,Depreciation,0.05480509147644038
+17_SGP,Singapore,2055,Depreciation,0.05480509147644038
+17_SGP,Singapore,2056,Depreciation,0.05480509147644038
+17_SGP,Singapore,2057,Depreciation,0.05480509147644038
+17_SGP,Singapore,2058,Depreciation,0.05480509147644038
+17_SGP,Singapore,2059,Depreciation,0.05480509147644038
+17_SGP,Singapore,2060,Depreciation,0.05480509147644038
+17_SGP,Singapore,2061,Depreciation,0.05480509147644038
+17_SGP,Singapore,2062,Depreciation,0.05480509147644038
+17_SGP,Singapore,2063,Depreciation,0.05480509147644038
+17_SGP,Singapore,2064,Depreciation,0.05480509147644038
+17_SGP,Singapore,2065,Depreciation,0.05480509147644038
+17_SGP,Singapore,2066,Depreciation,0.05480509147644038
+17_SGP,Singapore,2067,Depreciation,0.05480509147644038
+17_SGP,Singapore,2068,Depreciation,0.05480509147644038
+17_SGP,Singapore,2069,Depreciation,0.05480509147644038
+17_SGP,Singapore,2070,Depreciation,0.05480509147644038
+17_SGP,Singapore,2071,Depreciation,0.05480509147644038
+17_SGP,Singapore,2072,Depreciation,0.05480509147644038
+17_SGP,Singapore,2073,Depreciation,0.05480509147644038
+17_SGP,Singapore,2074,Depreciation,0.05480509147644038
+17_SGP,Singapore,2075,Depreciation,0.05480509147644038
+17_SGP,Singapore,2076,Depreciation,0.05480509147644038
+17_SGP,Singapore,2077,Depreciation,0.05480509147644038
+17_SGP,Singapore,2078,Depreciation,0.05480509147644038
+17_SGP,Singapore,2079,Depreciation,0.05480509147644038
+17_SGP,Singapore,2080,Depreciation,0.05480509147644038
+17_SGP,Singapore,2081,Depreciation,0.05480509147644038
+17_SGP,Singapore,2082,Depreciation,0.05480509147644038
+17_SGP,Singapore,2083,Depreciation,0.05480509147644038
+17_SGP,Singapore,2084,Depreciation,0.05480509147644038
+17_SGP,Singapore,2085,Depreciation,0.05480509147644038
+17_SGP,Singapore,2086,Depreciation,0.05480509147644038
+17_SGP,Singapore,2087,Depreciation,0.05480509147644038
+17_SGP,Singapore,2088,Depreciation,0.05480509147644038
+17_SGP,Singapore,2089,Depreciation,0.05480509147644038
+17_SGP,Singapore,2090,Depreciation,0.05480509147644038
+17_SGP,Singapore,2091,Depreciation,0.05480509147644038
+17_SGP,Singapore,2092,Depreciation,0.05480509147644038
+17_SGP,Singapore,2093,Depreciation,0.05480509147644038
+17_SGP,Singapore,2094,Depreciation,0.05480509147644038
+17_SGP,Singapore,2095,Depreciation,0.05480509147644038
+17_SGP,Singapore,2096,Depreciation,0.05480509147644038
+17_SGP,Singapore,2097,Depreciation,0.05480509147644038
+17_SGP,Singapore,2098,Depreciation,0.05480509147644038
+17_SGP,Singapore,2099,Depreciation,0.05480509147644038
+17_SGP,Singapore,2100,Depreciation,0.05480509147644038
+17_SGP,Singapore,1990,WDI GDP through 2025,140049.416153099
+17_SGP,Singapore,1991,WDI GDP through 2025,149416.477857285
+17_SGP,Singapore,1992,WDI GDP through 2025,159337.441475797
+17_SGP,Singapore,1993,WDI GDP through 2025,177596.95598247298
+17_SGP,Singapore,1994,WDI GDP through 2025,197302.562442346
+17_SGP,Singapore,1995,WDI GDP through 2025,211459.81271941905
+17_SGP,Singapore,1996,WDI GDP through 2025,227258.801839554
+17_SGP,Singapore,1997,WDI GDP through 2025,246158.119024241
+17_SGP,Singapore,1998,WDI GDP through 2025,240764.757697655
+17_SGP,Singapore,1999,WDI GDP through 2025,254532.581602908
+17_SGP,Singapore,2000,WDI GDP through 2025,277538.04147977097
+17_SGP,Singapore,2001,WDI GDP through 2025,274565.989973697
+17_SGP,Singapore,2002,WDI GDP through 2025,285338.204303906
+17_SGP,Singapore,2003,WDI GDP through 2025,298316.114664843
+17_SGP,Singapore,2004,WDI GDP through 2025,327968.684807152
+17_SGP,Singapore,2005,WDI GDP through 2025,352127.915476514
+17_SGP,Singapore,2006,WDI GDP through 2025,383843.253121348
+17_SGP,Singapore,2007,WDI GDP through 2025,418471.74709983
+17_SGP,Singapore,2008,WDI GDP through 2025,426269.898869297
+17_SGP,Singapore,2009,WDI GDP through 2025,426815.325624664
+17_SGP,Singapore,2010,WDI GDP through 2025,488787.842633126
+17_SGP,Singapore,2011,WDI GDP through 2025,519165.685276846
+17_SGP,Singapore,2012,WDI GDP through 2025,542193.266755059
+17_SGP,Singapore,2013,WDI GDP through 2025,568314.137606487
+17_SGP,Singapore,2014,WDI GDP through 2025,590680.3693923879
+17_SGP,Singapore,2015,WDI GDP through 2025,608263.738590263
+17_SGP,Singapore,2016,WDI GDP through 2025,632052.647907152
+17_SGP,Singapore,2017,WDI GDP through 2025,659400.262106181
+17_SGP,Singapore,2018,WDI GDP through 2025,680412.76680686
+17_SGP,Singapore,2019,WDI GDP through 2025,688297.250280296
+17_SGP,Singapore,2020,WDI GDP through 2025,663443.918456882
+17_SGP,Singapore,2021,WDI GDP through 2025,730724.326968531
+17_SGP,Singapore,2022,WDI GDP through 2025,760028.410066194
+17_SGP,Singapore,2023,WDI GDP through 2025,771050.857055831
+17_SGP,Singapore,2024,WDI GDP through 2025,812252.052277036
+17_SGP,Singapore,2025,WDI GDP through 2025,853074.8819270959
+17_SGP,Singapore,2026,WDI GDP through 2025,
+17_SGP,Singapore,2027,WDI GDP through 2025,
+17_SGP,Singapore,2028,WDI GDP through 2025,
+17_SGP,Singapore,2029,WDI GDP through 2025,
+17_SGP,Singapore,2030,WDI GDP through 2025,
+17_SGP,Singapore,2031,WDI GDP through 2025,
+17_SGP,Singapore,2032,WDI GDP through 2025,
+17_SGP,Singapore,2033,WDI GDP through 2025,
+17_SGP,Singapore,2034,WDI GDP through 2025,
+17_SGP,Singapore,2035,WDI GDP through 2025,
+17_SGP,Singapore,2036,WDI GDP through 2025,
+17_SGP,Singapore,2037,WDI GDP through 2025,
+17_SGP,Singapore,2038,WDI GDP through 2025,
+17_SGP,Singapore,2039,WDI GDP through 2025,
+17_SGP,Singapore,2040,WDI GDP through 2025,
+17_SGP,Singapore,2041,WDI GDP through 2025,
+17_SGP,Singapore,2042,WDI GDP through 2025,
+17_SGP,Singapore,2043,WDI GDP through 2025,
+17_SGP,Singapore,2044,WDI GDP through 2025,
+17_SGP,Singapore,2045,WDI GDP through 2025,
+17_SGP,Singapore,2046,WDI GDP through 2025,
+17_SGP,Singapore,2047,WDI GDP through 2025,
+17_SGP,Singapore,2048,WDI GDP through 2025,
+17_SGP,Singapore,2049,WDI GDP through 2025,
+17_SGP,Singapore,2050,WDI GDP through 2025,
+17_SGP,Singapore,2051,WDI GDP through 2025,
+17_SGP,Singapore,2052,WDI GDP through 2025,
+17_SGP,Singapore,2053,WDI GDP through 2025,
+17_SGP,Singapore,2054,WDI GDP through 2025,
+17_SGP,Singapore,2055,WDI GDP through 2025,
+17_SGP,Singapore,2056,WDI GDP through 2025,
+17_SGP,Singapore,2057,WDI GDP through 2025,
+17_SGP,Singapore,2058,WDI GDP through 2025,
+17_SGP,Singapore,2059,WDI GDP through 2025,
+17_SGP,Singapore,2060,WDI GDP through 2025,
+17_SGP,Singapore,2061,WDI GDP through 2025,
+17_SGP,Singapore,2062,WDI GDP through 2025,
+17_SGP,Singapore,2063,WDI GDP through 2025,
+17_SGP,Singapore,2064,WDI GDP through 2025,
+17_SGP,Singapore,2065,WDI GDP through 2025,
+17_SGP,Singapore,2066,WDI GDP through 2025,
+17_SGP,Singapore,2067,WDI GDP through 2025,
+17_SGP,Singapore,2068,WDI GDP through 2025,
+17_SGP,Singapore,2069,WDI GDP through 2025,
+17_SGP,Singapore,2070,WDI GDP through 2025,
+17_SGP,Singapore,2071,WDI GDP through 2025,
+17_SGP,Singapore,2072,WDI GDP through 2025,
+17_SGP,Singapore,2073,WDI GDP through 2025,
+17_SGP,Singapore,2074,WDI GDP through 2025,
+17_SGP,Singapore,2075,WDI GDP through 2025,
+17_SGP,Singapore,2076,WDI GDP through 2025,
+17_SGP,Singapore,2077,WDI GDP through 2025,
+17_SGP,Singapore,2078,WDI GDP through 2025,
+17_SGP,Singapore,2079,WDI GDP through 2025,
+17_SGP,Singapore,2080,WDI GDP through 2025,
+17_SGP,Singapore,2081,WDI GDP through 2025,
+17_SGP,Singapore,2082,WDI GDP through 2025,
+17_SGP,Singapore,2083,WDI GDP through 2025,
+17_SGP,Singapore,2084,WDI GDP through 2025,
+17_SGP,Singapore,2085,WDI GDP through 2025,
+17_SGP,Singapore,2086,WDI GDP through 2025,
+17_SGP,Singapore,2087,WDI GDP through 2025,
+17_SGP,Singapore,2088,WDI GDP through 2025,
+17_SGP,Singapore,2089,WDI GDP through 2025,
+17_SGP,Singapore,2090,WDI GDP through 2025,
+17_SGP,Singapore,2091,WDI GDP through 2025,
+17_SGP,Singapore,2092,WDI GDP through 2025,
+17_SGP,Singapore,2093,WDI GDP through 2025,
+17_SGP,Singapore,2094,WDI GDP through 2025,
+17_SGP,Singapore,2095,WDI GDP through 2025,
+17_SGP,Singapore,2096,WDI GDP through 2025,
+17_SGP,Singapore,2097,WDI GDP through 2025,
+17_SGP,Singapore,2098,WDI GDP through 2025,
+17_SGP,Singapore,2099,WDI GDP through 2025,
+17_SGP,Singapore,2100,WDI GDP through 2025,
+17_SGP,Singapore,1990,APERC GDP projections,
+17_SGP,Singapore,1991,APERC GDP projections,
+17_SGP,Singapore,1992,APERC GDP projections,
+17_SGP,Singapore,1993,APERC GDP projections,
+17_SGP,Singapore,1994,APERC GDP projections,
+17_SGP,Singapore,1995,APERC GDP projections,
+17_SGP,Singapore,1996,APERC GDP projections,
+17_SGP,Singapore,1997,APERC GDP projections,
+17_SGP,Singapore,1998,APERC GDP projections,
+17_SGP,Singapore,1999,APERC GDP projections,
+17_SGP,Singapore,2000,APERC GDP projections,
+17_SGP,Singapore,2001,APERC GDP projections,
+17_SGP,Singapore,2002,APERC GDP projections,
+17_SGP,Singapore,2003,APERC GDP projections,
+17_SGP,Singapore,2004,APERC GDP projections,
+17_SGP,Singapore,2005,APERC GDP projections,
+17_SGP,Singapore,2006,APERC GDP projections,
+17_SGP,Singapore,2007,APERC GDP projections,
+17_SGP,Singapore,2008,APERC GDP projections,
+17_SGP,Singapore,2009,APERC GDP projections,
+17_SGP,Singapore,2010,APERC GDP projections,
+17_SGP,Singapore,2011,APERC GDP projections,
+17_SGP,Singapore,2012,APERC GDP projections,
+17_SGP,Singapore,2013,APERC GDP projections,
+17_SGP,Singapore,2014,APERC GDP projections,
+17_SGP,Singapore,2015,APERC GDP projections,
+17_SGP,Singapore,2016,APERC GDP projections,
+17_SGP,Singapore,2017,APERC GDP projections,
+17_SGP,Singapore,2018,APERC GDP projections,
+17_SGP,Singapore,2019,APERC GDP projections,
+17_SGP,Singapore,2020,APERC GDP projections,
+17_SGP,Singapore,2021,APERC GDP projections,
+17_SGP,Singapore,2022,APERC GDP projections,
+17_SGP,Singapore,2023,APERC GDP projections,
+17_SGP,Singapore,2024,APERC GDP projections,
+17_SGP,Singapore,2025,APERC GDP projections,
+17_SGP,Singapore,2026,APERC GDP projections,885493.2284439174
+17_SGP,Singapore,2027,APERC GDP projections,918321.048544893
+17_SGP,Singapore,2028,APERC GDP projections,951176.9402920837
+17_SGP,Singapore,2029,APERC GDP projections,984058.5875492161
+17_SGP,Singapore,2030,APERC GDP projections,1018881.993362972
+17_SGP,Singapore,2031,APERC GDP projections,1060387.9427273022
+17_SGP,Singapore,2032,APERC GDP projections,1094623.2820714517
+17_SGP,Singapore,2033,APERC GDP projections,1127566.603703414
+17_SGP,Singapore,2034,APERC GDP projections,1165329.8540526736
+17_SGP,Singapore,2035,APERC GDP projections,1202812.8110188018
+17_SGP,Singapore,2036,APERC GDP projections,1239795.7021195786
+17_SGP,Singapore,2037,APERC GDP projections,1277505.2235939642
+17_SGP,Singapore,2038,APERC GDP projections,1316375.8440462486
+17_SGP,Singapore,2039,APERC GDP projections,1356221.2020221765
+17_SGP,Singapore,2040,APERC GDP projections,1396591.0448014806
+17_SGP,Singapore,2041,APERC GDP projections,1437255.9954774731
+17_SGP,Singapore,2042,APERC GDP projections,1477372.3893306782
+17_SGP,Singapore,2043,APERC GDP projections,1518257.8101849274
+17_SGP,Singapore,2044,APERC GDP projections,1560114.4003655051
+17_SGP,Singapore,2045,APERC GDP projections,1601849.2271351016
+17_SGP,Singapore,2046,APERC GDP projections,1644422.175503015
+17_SGP,Singapore,2047,APERC GDP projections,1687448.5522160202
+17_SGP,Singapore,2048,APERC GDP projections,1730663.5687028677
+17_SGP,Singapore,2049,APERC GDP projections,1775390.526843093
+17_SGP,Singapore,2050,APERC GDP projections,1820254.4178971522
+17_SGP,Singapore,2051,APERC GDP projections,1865541.0462001793
+17_SGP,Singapore,2052,APERC GDP projections,1911707.9111523842
+17_SGP,Singapore,2053,APERC GDP projections,1959575.457440772
+17_SGP,Singapore,2054,APERC GDP projections,2007573.4090590295
+17_SGP,Singapore,2055,APERC GDP projections,2055334.9882820945
+17_SGP,Singapore,2056,APERC GDP projections,2104330.2519213874
+17_SGP,Singapore,2057,APERC GDP projections,2154209.399156401
+17_SGP,Singapore,2058,APERC GDP projections,2204979.845424616
+17_SGP,Singapore,2059,APERC GDP projections,2255510.8629432516
+17_SGP,Singapore,2060,APERC GDP projections,2307101.2631342467
+17_SGP,Singapore,2061,APERC GDP projections,2358390.1583597707
+17_SGP,Singapore,2062,APERC GDP projections,2410920.389231246
+17_SGP,Singapore,2063,APERC GDP projections,2463823.488254019
+17_SGP,Singapore,2064,APERC GDP projections,2517964.2848326936
+17_SGP,Singapore,2065,APERC GDP projections,2571796.9833737877
+17_SGP,Singapore,2066,APERC GDP projections,2625025.464156178
+17_SGP,Singapore,2067,APERC GDP projections,2678433.153355462
+17_SGP,Singapore,2068,APERC GDP projections,2733637.5944879213
+17_SGP,Singapore,2069,APERC GDP projections,2788744.3410105323
+17_SGP,Singapore,2070,APERC GDP projections,2843946.474017829
+17_SGP,Singapore,2071,APERC GDP projections,2900210.6549493163
+17_SGP,Singapore,2072,APERC GDP projections,2956216.1061141742
+17_SGP,Singapore,2073,APERC GDP projections,3012097.584139495
+17_SGP,Singapore,2074,APERC GDP projections,3067472.491771723
+17_SGP,Singapore,2075,APERC GDP projections,3120974.5541836824
+17_SGP,Singapore,2076,APERC GDP projections,3174098.4816366145
+17_SGP,Singapore,2077,APERC GDP projections,3228716.4151866087
+17_SGP,Singapore,2078,APERC GDP projections,3282004.1786723733
+17_SGP,Singapore,2079,APERC GDP projections,3334499.491122277
+17_SGP,Singapore,2080,APERC GDP projections,3385666.1612096378
+17_SGP,Singapore,2081,APERC GDP projections,3436436.7977724657
+17_SGP,Singapore,2082,APERC GDP projections,3486302.8115229276
+17_SGP,Singapore,2083,APERC GDP projections,3535394.244499081
+17_SGP,Singapore,2084,APERC GDP projections,3584367.3050066754
+17_SGP,Singapore,2085,APERC GDP projections,3633169.091146273
+17_SGP,Singapore,2086,APERC GDP projections,3680862.6544228755
+17_SGP,Singapore,2087,APERC GDP projections,3727521.9936969914
+17_SGP,Singapore,2088,APERC GDP projections,3774216.667316233
+17_SGP,Singapore,2089,APERC GDP projections,3820951.831867382
+17_SGP,Singapore,2090,APERC GDP projections,3866057.3160522333
+17_SGP,Singapore,2091,APERC GDP projections,3911943.839828058
+17_SGP,Singapore,2092,APERC GDP projections,3957692.3320866823
+17_SGP,Singapore,2093,APERC GDP projections,4005025.745146023
+17_SGP,Singapore,2094,APERC GDP projections,4051665.2734782314
+17_SGP,Singapore,2095,APERC GDP projections,4097242.524169152
+17_SGP,Singapore,2096,APERC GDP projections,4143982.715435718
+17_SGP,Singapore,2097,APERC GDP projections,4190702.8571978565
+17_SGP,Singapore,2098,APERC GDP projections,4238256.7302099895
+17_SGP,Singapore,2099,APERC GDP projections,4285874.012406039
+17_SGP,Singapore,2100,APERC GDP projections,4335599.424372463
+17_SGP,Singapore,1990,9th Outlook projections (rebased to 2021 PPP USD),143569.59094546075
+17_SGP,Singapore,1991,9th Outlook projections (rebased to 2021 PPP USD),153174.6809015526
+17_SGP,Singapore,1992,9th Outlook projections (rebased to 2021 PPP USD),163364.7946600042
+17_SGP,Singapore,1993,9th Outlook projections (rebased to 2021 PPP USD),182042.89417434327
+17_SGP,Singapore,1994,9th Outlook projections (rebased to 2021 PPP USD),202267.72732380393
+17_SGP,Singapore,1995,9th Outlook projections (rebased to 2021 PPP USD),216814.7014067492
+17_SGP,Singapore,1996,9th Outlook projections (rebased to 2021 PPP USD),232999.8858248351
+17_SGP,Singapore,1997,9th Outlook projections (rebased to 2021 PPP USD),252353.782523862
+17_SGP,Singapore,1998,9th Outlook projections (rebased to 2021 PPP USD),246813.77924658437
+17_SGP,Singapore,1999,9th Outlook projections (rebased to 2021 PPP USD),260959.87900068818
+17_SGP,Singapore,2000,9th Outlook projections (rebased to 2021 PPP USD),284534.32740500645
+17_SGP,Singapore,2001,9th Outlook projections (rebased to 2021 PPP USD),281478.673281776
+17_SGP,Singapore,2002,9th Outlook projections (rebased to 2021 PPP USD),292526.44561939326
+17_SGP,Singapore,2003,9th Outlook projections (rebased to 2021 PPP USD),305840.5749293399
+17_SGP,Singapore,2004,9th Outlook projections (rebased to 2021 PPP USD),336253.930075705
+17_SGP,Singapore,2005,9th Outlook projections (rebased to 2021 PPP USD),361014.55186132656
+17_SGP,Singapore,2006,9th Outlook projections (rebased to 2021 PPP USD),393475.66635702207
+17_SGP,Singapore,2007,9th Outlook projections (rebased to 2021 PPP USD),429046.20559154364
+17_SGP,Singapore,2008,9th Outlook projections (rebased to 2021 PPP USD),436967.49478272663
+17_SGP,Singapore,2009,9th Outlook projections (rebased to 2021 PPP USD),437599.8980076022
+17_SGP,Singapore,2010,9th Outlook projections (rebased to 2021 PPP USD),501121.81045800034
+17_SGP,Singapore,2011,9th Outlook projections (rebased to 2021 PPP USD),532270.1847769705
+17_SGP,Singapore,2012,9th Outlook projections (rebased to 2021 PPP USD),555799.7718966556
+17_SGP,Singapore,2013,9th Outlook projections (rebased to 2021 PPP USD),582606.6635184345
+17_SGP,Singapore,2014,9th Outlook projections (rebased to 2021 PPP USD),605584.0914369215
+17_SGP,Singapore,2015,9th Outlook projections (rebased to 2021 PPP USD),623579.4259037819
+17_SGP,Singapore,2016,9th Outlook projections (rebased to 2021 PPP USD),645757.0908704686
+17_SGP,Singapore,2017,9th Outlook projections (rebased to 2021 PPP USD),675862.2232966339
+17_SGP,Singapore,2018,9th Outlook projections (rebased to 2021 PPP USD),700679.4976817463
+17_SGP,Singapore,2019,9th Outlook projections (rebased to 2021 PPP USD),708369.4584049366
+17_SGP,Singapore,2020,9th Outlook projections (rebased to 2021 PPP USD),678992.7231539462
+17_SGP,Singapore,2021,9th Outlook projections (rebased to 2021 PPP USD),730724.326968531
+17_SGP,Singapore,2022,9th Outlook projections (rebased to 2021 PPP USD),752780.1356157485
+17_SGP,Singapore,2023,9th Outlook projections (rebased to 2021 PPP USD),769744.1640827503
+17_SGP,Singapore,2024,9th Outlook projections (rebased to 2021 PPP USD),789926.8330959294
+17_SGP,Singapore,2025,9th Outlook projections (rebased to 2021 PPP USD),809483.8129961772
+17_SGP,Singapore,2026,9th Outlook projections (rebased to 2021 PPP USD),829889.2786389937
+17_SGP,Singapore,2027,9th Outlook projections (rebased to 2021 PPP USD),850562.4181550156
+17_SGP,Singapore,2028,9th Outlook projections (rebased to 2021 PPP USD),875077.0758972822
+17_SGP,Singapore,2029,9th Outlook projections (rebased to 2021 PPP USD),896449.788743351
+17_SGP,Singapore,2030,9th Outlook projections (rebased to 2021 PPP USD),917387.2831457653
+17_SGP,Singapore,2031,9th Outlook projections (rebased to 2021 PPP USD),938555.7734612041
+17_SGP,Singapore,2032,9th Outlook projections (rebased to 2021 PPP USD),959671.0672002692
+17_SGP,Singapore,2033,9th Outlook projections (rebased to 2021 PPP USD),980821.3048427178
+17_SGP,Singapore,2034,9th Outlook projections (rebased to 2021 PPP USD),1001971.2932654829
+17_SGP,Singapore,2035,9th Outlook projections (rebased to 2021 PPP USD),1023119.8960075257
+17_SGP,Singapore,2036,9th Outlook projections (rebased to 2021 PPP USD),1043647.1079896612
+17_SGP,Singapore,2037,9th Outlook projections (rebased to 2021 PPP USD),1063997.9741898174
+17_SGP,Singapore,2038,9th Outlook projections (rebased to 2021 PPP USD),1084212.371472446
+17_SGP,Singapore,2039,9th Outlook projections (rebased to 2021 PPP USD),1104252.8641684705
+17_SGP,Singapore,2040,9th Outlook projections (rebased to 2021 PPP USD),1124117.4954463262
+17_SGP,Singapore,2041,9th Outlook projections (rebased to 2021 PPP USD),1143799.7369353871
+17_SGP,Singapore,2042,9th Outlook projections (rebased to 2021 PPP USD),1163217.483557607
+17_SGP,Singapore,2043,9th Outlook projections (rebased to 2021 PPP USD),1182378.729846104
+17_SGP,Singapore,2044,9th Outlook projections (rebased to 2021 PPP USD),1201365.8989070158
+17_SGP,Singapore,2045,9th Outlook projections (rebased to 2021 PPP USD),1220188.7142227776
+17_SGP,Singapore,2046,9th Outlook projections (rebased to 2021 PPP USD),1238831.437270516
+17_SGP,Singapore,2047,9th Outlook projections (rebased to 2021 PPP USD),1257317.8955891083
+17_SGP,Singapore,2048,9th Outlook projections (rebased to 2021 PPP USD),1275653.3211910834
+17_SGP,Singapore,2049,9th Outlook projections (rebased to 2021 PPP USD),1293831.39367425
+17_SGP,Singapore,2050,9th Outlook projections (rebased to 2021 PPP USD),1311872.866911883
+17_SGP,Singapore,2051,9th Outlook projections (rebased to 2021 PPP USD),1329785.2364165692
+17_SGP,Singapore,2052,9th Outlook projections (rebased to 2021 PPP USD),1347592.6102349677
+17_SGP,Singapore,2053,9th Outlook projections (rebased to 2021 PPP USD),1365303.9341143302
+17_SGP,Singapore,2054,9th Outlook projections (rebased to 2021 PPP USD),1382904.1516583485
+17_SGP,Singapore,2055,9th Outlook projections (rebased to 2021 PPP USD),1400432.905030958
+17_SGP,Singapore,2056,9th Outlook projections (rebased to 2021 PPP USD),1417920.8756854038
+17_SGP,Singapore,2057,9th Outlook projections (rebased to 2021 PPP USD),1435346.0160176186
+17_SGP,Singapore,2058,9th Outlook projections (rebased to 2021 PPP USD),1452723.1518410018
+17_SGP,Singapore,2059,9th Outlook projections (rebased to 2021 PPP USD),1470074.1656862542
+17_SGP,Singapore,2060,9th Outlook projections (rebased to 2021 PPP USD),1487399.6212295901
+17_SGP,Singapore,2061,9th Outlook projections (rebased to 2021 PPP USD),1504708.7670166907
+17_SGP,Singapore,2062,9th Outlook projections (rebased to 2021 PPP USD),1522071.3762222491
+17_SGP,Singapore,2063,9th Outlook projections (rebased to 2021 PPP USD),1539401.270309951
+17_SGP,Singapore,2064,9th Outlook projections (rebased to 2021 PPP USD),1556758.3874310039
+17_SGP,Singapore,2065,9th Outlook projections (rebased to 2021 PPP USD),1574117.9579294813
+17_SGP,Singapore,2066,9th Outlook projections (rebased to 2021 PPP USD),1591496.0189043365
+17_SGP,Singapore,2067,9th Outlook projections (rebased to 2021 PPP USD),1608920.6883262373
+17_SGP,Singapore,2068,9th Outlook projections (rebased to 2021 PPP USD),1626393.0443166895
+17_SGP,Singapore,2069,9th Outlook projections (rebased to 2021 PPP USD),1643912.6727424136
+17_SGP,Singapore,2070,9th Outlook projections (rebased to 2021 PPP USD),1661497.6863651099
+17_SGP,Singapore,2071,9th Outlook projections (rebased to 2021 PPP USD),1679122.0645914844
+17_SGP,Singapore,2072,9th Outlook projections (rebased to 2021 PPP USD),1696829.5199265266
+17_SGP,Singapore,2073,9th Outlook projections (rebased to 2021 PPP USD),1714610.9121237204
+17_SGP,Singapore,2074,9th Outlook projections (rebased to 2021 PPP USD),1732444.9811738143
+17_SGP,Singapore,2075,9th Outlook projections (rebased to 2021 PPP USD),1750383.0804560063
+17_SGP,Singapore,2076,9th Outlook projections (rebased to 2021 PPP USD),1768458.4554815239
+17_SGP,Singapore,2077,9th Outlook projections (rebased to 2021 PPP USD),1786673.548972808
+17_SGP,Singapore,2078,9th Outlook projections (rebased to 2021 PPP USD),1805028.9579202842
+17_SGP,Singapore,2079,9th Outlook projections (rebased to 2021 PPP USD),1823498.3741920253
+17_SGP,Singapore,2080,9th Outlook projections (rebased to 2021 PPP USD),1842120.9498631665
+17_SGP,Singapore,2081,9th Outlook projections (rebased to 2021 PPP USD),1860930.925221441
+17_SGP,Singapore,2082,9th Outlook projections (rebased to 2021 PPP USD),1879889.75760899
+17_SGP,Singapore,2083,9th Outlook projections (rebased to 2021 PPP USD),1899080.9623209205
+17_SGP,Singapore,2084,9th Outlook projections (rebased to 2021 PPP USD),1918492.8879382117
+17_SGP,Singapore,2085,9th Outlook projections (rebased to 2021 PPP USD),1938126.5362805007
+17_SGP,Singapore,2086,9th Outlook projections (rebased to 2021 PPP USD),1957951.2536338584
+17_SGP,Singapore,2087,9th Outlook projections (rebased to 2021 PPP USD),1978003.3671597326
+17_SGP,Singapore,2088,9th Outlook projections (rebased to 2021 PPP USD),1998300.892582287
+17_SGP,Singapore,2089,9th Outlook projections (rebased to 2021 PPP USD),2018858.581358366
+17_SGP,Singapore,2090,9th Outlook projections (rebased to 2021 PPP USD),2039719.211516594
+17_SGP,Singapore,2091,9th Outlook projections (rebased to 2021 PPP USD),2060850.1781714906
+17_SGP,Singapore,2092,9th Outlook projections (rebased to 2021 PPP USD),2082286.9652171656
+17_SGP,Singapore,2093,9th Outlook projections (rebased to 2021 PPP USD),2104049.3825476994
+17_SGP,Singapore,2094,9th Outlook projections (rebased to 2021 PPP USD),2126161.1509812917
+17_SGP,Singapore,2095,9th Outlook projections (rebased to 2021 PPP USD),2148718.0215171883
+17_SGP,Singapore,2096,9th Outlook projections (rebased to 2021 PPP USD),2171644.8197514666
+17_SGP,Singapore,2097,9th Outlook projections (rebased to 2021 PPP USD),2195003.029482805
+17_SGP,Singapore,2098,9th Outlook projections (rebased to 2021 PPP USD),2218803.8739565033
+17_SGP,Singapore,2099,9th Outlook projections (rebased to 2021 PPP USD),2243088.0335716973
+17_SGP,Singapore,2100,9th Outlook projections (rebased to 2021 PPP USD),2267837.762261282
