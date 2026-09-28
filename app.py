@@ -242,19 +242,15 @@ def calculate_cagr(start_value, end_value, years):
 # --- sidebar: data + parameters --------------------------------------------
 
 with st.sidebar:
-    st.header("⚙️ Data & Configuration")
-    st.caption(
-        "Upload a wide CSV (one row per economy-year). Required columns: `economy` or `economy_code`, `year`, and: "
-        "`population_1jan`, `Real GDP PPP 2021 USD`, `output_to_kstock`, `delta`, `Gross national savings`."
-    )
-
     has_data = "df_wide" in st.session_state
 
-    inputs_label = "📁 1. Model Input Data"
-    if has_data:
-        inputs_label = f"📁 1. Data ({st.session_state.get('data_label', 'loaded')})"
+    with st.expander("⚙️ Data & Configuration", expanded=not has_data):
+        st.caption(
+            "Upload a wide CSV (one row per economy-year). Required columns: `economy` or `economy_code`, `year`, and: "
+            "`population_1jan`, `Real GDP PPP 2021 USD`, `output_to_kstock`, `delta`, `Gross national savings`."
+        )
 
-    with st.expander(inputs_label, expanded=not has_data):
+        st.markdown("**📁 1. Model Input Data**")
         uploaded = st.file_uploader("Upload Wide CSV", type=["csv"], help="Upload observed data for 21 APEC economies.")
 
         use_sample = st.button("Use Pipeline Sample Data", use_container_width=True, type="primary" if not has_data else "secondary")
@@ -273,7 +269,8 @@ with st.sidebar:
             st.session_state["df_wide"] = load_bundled_sample()
             st.session_state["data_label"] = "pipeline sample data (21 APEC economies)"
 
-    with st.expander("🛠️ 2. Model Parameters (Optional)", expanded=False):
+        st.divider()
+        st.markdown("**🛠️ 2. Model Parameters (Optional)**")
         st.caption("Defaults are pre-loaded from `config/gdp_model_parameters.csv`. Upload a CSV to customize tuning knobs.")
         params_file = st.file_uploader("Upload custom parameters.csv", type=["csv"])
         if params_file is not None:
@@ -287,27 +284,27 @@ with st.sidebar:
             use_container_width=True,
         )
 
-    st.divider()
+        st.divider()
 
-    # --- data status ----------------------------------------------------------
+        # --- data status ------------------------------------------------------
 
-    if "df_wide" in st.session_state:
-        df_wide = st.session_state["df_wide"]
-        ok, message = validate(df_wide)
-        if not ok:
-            st.error(message)
+        if "df_wide" in st.session_state:
+            df_wide = st.session_state["df_wide"]
+            ok, message = validate(df_wide)
+            if not ok:
+                st.error(message)
+                st.stop()
+            st.success(f"✓ Loaded {st.session_state.get('data_label', 'data')}")
+            df = wide_to_long(df_wide)
+        else:
+            st.info("👈 Upload a wide CSV or click **Use Pipeline Sample Data** to begin.")
             st.stop()
-        st.success(f"✓ Loaded {st.session_state.get('data_label', 'data')}")
-        df = wide_to_long(df_wide)
-        st.caption(
-            f"**Economies:** {df['economy_code'].nunique()} | "
-            f"**Years:** {df['year'].min()}–{df['year'].max()} | "
-            f"**Rows:** {len(df):,}"
-        )
-    else:
-        st.info("👈 Upload a wide CSV or click **Use Pipeline Sample Data** to begin.")
-        st.stop()
 
+    st.caption(
+        f"**Economies:** {df['economy_code'].nunique()} | "
+        f"**Years:** {df['year'].min()}–{df['year'].max()} | "
+        f"**Rows:** {len(df):,}"
+    )
     st.caption(
         f"**Model Horizon:** {HISTORY_START_YEAR}–{FINAL_YEAR}\n\n"
         f"**Jump-off Years:**\n"
