@@ -849,7 +849,7 @@ with active_tab:
                         max_value=10,
                         value=int(econ_params["lab_eff_periods"]),
                         key=widget_key("lab_eff_periods"),
-                        help="Years used to average recent labour-efficiency growth.",
+                        help="Number of recent years used to calculate average labour-efficiency growth. Longer periods produce more stable estimates, shorter periods place greater weight on recent trends.",
                     )
 
                     low_eff_pct, high_eff_pct = st.slider(
@@ -860,7 +860,7 @@ with active_tab:
                         step=0.01,
                         format="%.1f",
                         key=widget_key("efficiency_range_pct"),
-                        help="Lower and upper bounds of the labour-efficiency growth corridor.",
+                        help="Lower and upper bounds for future labour-efficiency growth. Labour efficiency captures improvements in productivity that cannot be explained by labour or capital alone.",
                     )
                     change_eff = st.number_input(
                         "Annual efficiency adjustment (%)",
@@ -879,7 +879,7 @@ with active_tab:
                         step=0.1,
                         format="%.1f",
                         key=widget_key("savings_range_pct"),
-                        help="Lower and upper bounds of the savings-rate corridor.",
+                        help="Lower and upper bounds for the savings rate. Savings are assumed to equal investment, which increases the capital stock available for future production.",
                     )
                     change_sav = st.number_input(
                         "Annual savings adjustment (%)",
@@ -898,7 +898,7 @@ with active_tab:
                         step=0.01,
                         format="%.1f",
                         key=widget_key("depreciation_range_pct"),
-                        help="Lower and upper bounds of the depreciation-rate corridor.",
+                        help="Lower and upper bounds for the depreciation rate. Depreciation reduces the productive capital stock through wear and tear, ageing, and technological obsolescence.",
                     )
                     change_del = st.number_input(
                         "Annual depreciation adjustment (%)",
@@ -913,9 +913,10 @@ with active_tab:
                         min_value=0.3,
                         max_value=0.5,
                         value=float(econ_params["alpha"]),
-                        step=0.01,
+                        step=0.05,
                         format="%.2f",
                         key=widget_key("alpha_bounded"),
+                        help="Capital share parameter in the Cobb-Douglas production function. Higher values imply economic output is more sensitive to changes in capital stock relative to labour.",
                     )
 
                     pending_params = econ_params.copy()
