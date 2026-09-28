@@ -392,7 +392,7 @@ VIEW_DOCS = "📖 Model Methodology"
 view_labels = [VIEW_POPULATION, VIEW_DETAIL, VIEW_COMPARE, VIEW_DATA, VIEW_DOCS]
 tab_population, tab_detail, tab_compare, tab_data, tab_docs = st.tabs(
     view_labels,
-    default=VIEW_COMPARE,
+    default=VIEW_POPULATION,
     key="active_view",
     on_change="rerun",
     width="stretch",
@@ -803,9 +803,8 @@ with active_tab:
             st.divider()
             st.markdown("### 🔍 Economy Deep Dive")
             sel_code = st.selectbox("Choose Economy", sorted(results["economy_code"].unique()), key="deep_dive_econ")
-            sel_name = results.loc[results["economy_code"] == sel_code, "economy"].iloc[0]
             jump_off = jump_off_year_for_economy(sel_code)
-            source_name = "IMF WEO" if sel_code == "18_CT" else "World Bank WDI"
+            source_name = "IMF" if sel_code == "18_CT" else "WDI"
 
             deep_dive_scenario = st.radio(
                 "Population Scenario",
@@ -821,8 +820,6 @@ with active_tab:
                 help="Display the rebased 9th Outlook GDP comparison line.",
             )
 
-            st.markdown(f"### {sel_name}")
-            st.markdown(f"**Code:** `{sel_code}`")
             st.markdown(f"**Historical Anchor:** {jump_off} ({source_name})")
             st.markdown(f"**Projection Period:** {jump_off + 1}–{FINAL_YEAR}")
 
