@@ -826,21 +826,146 @@ with active_tab:
             st.markdown(f"**Historical Anchor:** {jump_off} ({source_name})")
             st.markdown(f"**Projection Period:** {jump_off + 1}–{FINAL_YEAR}")
 
-            with st.expander("Model Parameters Applied", expanded=True):
-                econ_params = params.get(sel_code, {})
-                p_df = pd.DataFrame(
-                    [
-                        (key, value)
-                        for key, value in econ_params.items()
-                        if key != "cap_compare"
-                    ],
-                    columns=["Parameter", "Value"],
-                ).set_index("Parameter")
-                st.dataframe(p_df, use_container_width=True)
+            econ_params = params.get(sel_code, {}).copy()
+            applied_params_key = f"deep_dive_applied_params_{sel_code}"
+            if applied_params_key not in st.session_state:
+                st.session_state[applied_params_key] = econ_params.copy()
+
+            with st.expander("Model Parameters", expanded=True):
+                with st.form(
+                    f"deep_dive_parameter_form_{sel_code}",
+                    clear_on_submit=False,
+                    border=False,
+                ):
+                    run_model = st.form_submit_button(
+                        "Run model",
+                        type="primary",
+                        width="stretch",
+                        help="Apply all parameter changes and rerun this economy.",
+                    )
+
+                    widget_key = lambda parameter: f"deep_dive_{sel_code}_{parameter}"
+
+                    lab_eff_periods = st.slider(
+                        "Labour efficiency look-back period",
+                        min_value=1,
+                        max_value=10,
+                        value=int(econ_params["lab_eff_periods"]),
+                        key=widget_key("lab_eff_periods"),
+                        help="Years used to average recent labour-efficiency growth.",
+                    )
+
+                    efficiency_max = max(0.02, float(econ_params["high_eff"]))
+                    low_eff, high_eff = st.slider(
+                        "Labour efficiency growth corridor",
+                        min_value=0.0,
+                        max_value=efficiency_max,
+                        value=(float(econ_params["low_eff"]), float(econ_params["high_eff"])),
+                        step=0.0001,
+                        format="%.4f",
+                        key=widget_key("efficiency_range"),
+                        help="Lower and upper bounds of the labour-efficiency growth corridor.",
+                    )
+                    change_eff = st.number_input(
+                        "Annual efficiency adjustment",
+                        min_value=0.0,
+                        value=float(econ_params["change_eff"]),
+                        step=0.0001,
+                        format="%.4f",
+                        key=widget_key("change_eff"),
+                    )
+
+                    low_sav, high_sav = st.slider(
+                        "Savings rate corridor",
+                        min_value=0.1,
+                        max_value=max(0.4, float(econ_params["high_sav"])),
+                        value=(float(econ_params["low_sav"]), float(econ_params["high_sav"])),
+                        step=0.001,
+                        format="%.3f",
+                        key=widget_key("savings_range"),
+                        help="Lower and upper bounds of the savings-rate corridor.",
+                    )
+                    change_sav = st.number_input(
+                        "Annual savings adjustment",
+                        min_value=0.0,
+                        value=float(econ_params["change_sav"]),
+                        step=0.0001,
+                        format="%.4f",
+                        key=widget_key("change_sav"),
+                    )
+
+                    depreciation_max = max(0.05, float(econ_params["high_delta"]))
+                    low_delta, high_delta = st.slider(
+                        "Depreciation rate corridor",
+                        min_value=0.02,
+                        max_value=depreciation_max,
+                        value=(float(econ_params["low_delta"]), float(econ_params["high_delta"])),
+                        step=0.0001,
+                        format="%.4f",
+                        key=widget_key("depreciation_range"),
+                        help="Lower and upper bounds of the depreciation-rate corridor.",
+                    )
+                    change_del = st.number_input(
+                        "Annual depreciation adjustment",
+                        min_value=0.0,
+                        value=float(econ_params["change_del"]),
+                        step=0.0001,
+                        format="%.4f",
+                        key=widget_key("change_del"),
+                    )
+                    alpha = st.number_input(
+                        "Capital share (alpha)",
+                        min_value=0.01,
+                        max_value=0.99,
+                        value=float(econ_params["alpha"]),
+                        step=0.01,
+                        format="%.2f",
+                        key=widget_key("alpha"),
+                    )
+
+                    pending_params = econ_params.copy()
+                    pending_params.update({
+                        "lab_eff_periods": lab_eff_periods,
+                        "low_eff": low_eff,
+                        "high_eff": high_eff,
+                        "change_eff": change_eff,
+                        "low_sav": low_sav,
+                        "high_sav": high_sav,
+                        "change_sav": change_sav,
+                        "low_delta": low_delta,
+                        "high_delta": high_delta,
+                        "change_del": change_del,
+                        "alpha": alpha,
+                    })
+
+                if run_model:
+                    st.session_state[applied_params_key] = pending_params
+
+                export_columns = sample_params_csv().columns.tolist()
+                export_row = {
+                    "economy_code": sel_code,
+                    **st.session_state[applied_params_key],
+                    "notes": "",
+                }
+                economy_params_csv = pd.DataFrame([export_row]).reindex(columns=export_columns)
+                st.download_button(
+                    f"Download {sel_code} parameters CSV",
+                    economy_params_csv.to_csv(index=False).encode(),
+                    file_name=f"{sel_code}_model_parameters.csv",
+                    mime="text/csv",
+                    width="stretch",
+                    on_click="ignore",
+                    help="Download the parameters currently applied to this economy.",
+                )
+
+            deep_dive_params = {
+                **params,
+                sel_code: st.session_state[applied_params_key],
+            }
 
         try:
             deep_dive_results = cached_pipeline_population_scenario(
-                sel_code, deep_dive_scenario, params
+                sel_code, deep_dive_scenario, deep_dive_params
             )
         except (FileNotFoundError, ValueError) as exc:
             st.warning(
