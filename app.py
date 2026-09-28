@@ -852,86 +852,84 @@ with active_tab:
                         help="Years used to average recent labour-efficiency growth.",
                     )
 
-                    efficiency_max = max(0.02, float(econ_params["high_eff"]))
-                    low_eff, high_eff = st.slider(
-                        "Labour efficiency growth corridor",
-                        min_value=0.0,
-                        max_value=efficiency_max,
-                        value=(float(econ_params["low_eff"]), float(econ_params["high_eff"])),
-                        step=0.0001,
-                        format="%.4f",
-                        key=widget_key("efficiency_range"),
+                    low_eff_pct, high_eff_pct = st.slider(
+                        "Labour efficiency growth corridor (%)",
+                        min_value=0.5,
+                        max_value=10.0,
+                        value=(float(econ_params["low_eff"]) * 100, float(econ_params["high_eff"]) * 100),
+                        step=0.01,
+                        format="%.1f",
+                        key=widget_key("efficiency_range_pct"),
                         help="Lower and upper bounds of the labour-efficiency growth corridor.",
                     )
                     change_eff = st.number_input(
-                        "Annual efficiency adjustment",
+                        "Annual efficiency adjustment (%)",
                         min_value=0.0,
-                        value=float(econ_params["change_eff"]),
-                        step=0.0001,
+                        value=float(econ_params["change_eff"]) * 100,
+                        step=0.01,
                         format="%.4f",
-                        key=widget_key("change_eff"),
+                        key=widget_key("change_eff_pct"),
                     )
 
-                    low_sav, high_sav = st.slider(
-                        "Savings rate corridor",
-                        min_value=0.1,
-                        max_value=max(0.4, float(econ_params["high_sav"])),
-                        value=(float(econ_params["low_sav"]), float(econ_params["high_sav"])),
-                        step=0.001,
-                        format="%.3f",
-                        key=widget_key("savings_range"),
+                    low_sav_pct, high_sav_pct = st.slider(
+                        "Savings rate corridor (%)",
+                        min_value=15.0,
+                        max_value=40.0,
+                        value=(float(econ_params["low_sav"]) * 100, float(econ_params["high_sav"]) * 100),
+                        step=0.1,
+                        format="%.1f",
+                        key=widget_key("savings_range_pct"),
                         help="Lower and upper bounds of the savings-rate corridor.",
                     )
                     change_sav = st.number_input(
-                        "Annual savings adjustment",
+                        "Annual savings adjustment (%)",
                         min_value=0.0,
-                        value=float(econ_params["change_sav"]),
-                        step=0.0001,
+                        value=float(econ_params["change_sav"]) * 100,
+                        step=0.01,
                         format="%.4f",
-                        key=widget_key("change_sav"),
+                        key=widget_key("change_sav_pct"),
                     )
 
-                    depreciation_max = max(0.05, float(econ_params["high_delta"]))
-                    low_delta, high_delta = st.slider(
-                        "Depreciation rate corridor",
-                        min_value=0.02,
-                        max_value=depreciation_max,
-                        value=(float(econ_params["low_delta"]), float(econ_params["high_delta"])),
-                        step=0.0001,
-                        format="%.4f",
-                        key=widget_key("depreciation_range"),
+                    low_delta_pct, high_delta_pct = st.slider(
+                        "Depreciation rate corridor (%)",
+                        min_value=3.0,
+                        max_value=7.0,
+                        value=(float(econ_params["low_delta"]) * 100, float(econ_params["high_delta"]) * 100),
+                        step=0.01,
+                        format="%.1f",
+                        key=widget_key("depreciation_range_pct"),
                         help="Lower and upper bounds of the depreciation-rate corridor.",
                     )
                     change_del = st.number_input(
-                        "Annual depreciation adjustment",
+                        "Annual depreciation adjustment (%)",
                         min_value=0.0,
-                        value=float(econ_params["change_del"]),
-                        step=0.0001,
+                        value=float(econ_params["change_del"]) * 100,
+                        step=0.01,
                         format="%.4f",
-                        key=widget_key("change_del"),
+                        key=widget_key("change_del_pct"),
                     )
                     alpha = st.number_input(
                         "Capital share (alpha)",
-                        min_value=0.01,
-                        max_value=0.99,
+                        min_value=0.3,
+                        max_value=0.5,
                         value=float(econ_params["alpha"]),
                         step=0.01,
                         format="%.2f",
-                        key=widget_key("alpha"),
+                        key=widget_key("alpha_bounded"),
                     )
 
                     pending_params = econ_params.copy()
                     pending_params.update({
                         "lab_eff_periods": lab_eff_periods,
-                        "low_eff": low_eff,
-                        "high_eff": high_eff,
-                        "change_eff": change_eff,
-                        "low_sav": low_sav,
-                        "high_sav": high_sav,
-                        "change_sav": change_sav,
-                        "low_delta": low_delta,
-                        "high_delta": high_delta,
-                        "change_del": change_del,
+                        "low_eff": low_eff_pct / 100,
+                        "high_eff": high_eff_pct / 100,
+                        "change_eff": change_eff / 100,
+                        "low_sav": low_sav_pct / 100,
+                        "high_sav": high_sav_pct / 100,
+                        "change_sav": change_sav / 100,
+                        "low_delta": low_delta_pct / 100,
+                        "high_delta": high_delta_pct / 100,
+                        "change_del": change_del / 100,
                         "alpha": alpha,
                     })
 
