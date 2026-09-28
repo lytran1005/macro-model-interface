@@ -85,6 +85,7 @@ GDP_SCENARIO_DIRS = {
     "Medium": "GDP_med",
     "High": "GDP_high",
 }
+POPULATION_GDP_SCENARIOS_PATH = RESULTS_DIR / "sensitivity" / "population_gdp_scenarios.csv"
 
 
 def load_population_scenarios():
@@ -137,8 +138,29 @@ def load_population_scenarios():
     return loaded
 
 
-def load_population_gdp_scenarios():
-    """Load continuous GDP paths from the pipeline population sensitivities."""
+def _normalise_population_gdp_scenarios(data):
+    """Validate and normalise a combined population GDP scenario table."""
+    required_columns = ["economy_code", "economy", "year", "value", "scenario"]
+    missing_columns = set(required_columns) - set(data.columns)
+    if missing_columns:
+        raise ValueError(
+            f"Population GDP scenarios are missing columns: {sorted(missing_columns)}"
+        )
+
+    data = data[required_columns].copy()
+    data["year"] = pd.to_numeric(data["year"], errors="coerce")
+    data["value"] = pd.to_numeric(data["value"], errors="coerce")
+    data = data[
+        data["year"].between(HISTORY_START_YEAR, FINAL_YEAR)
+    ].dropna(subset=["economy_code", "year", "value", "scenario"])
+    data["year"] = data["year"].astype(int)
+    return data.drop_duplicates(
+        subset=["economy_code", "year", "scenario"], keep="last"
+    ).reset_index(drop=True)
+
+
+def generate_population_gdp_scenarios(output_path=POPULATION_GDP_SCENARIOS_PATH):
+    """Combine the 63 per-economy sensitivity files and save one CSV."""
     sensitivity_dir = RESULTS_DIR / "sensitivity"
     economy_codes = sorted(load_economies()["economy_code"])
     frames = []
@@ -181,9 +203,23 @@ def load_population_gdp_scenarios():
             "GDP population-sensitivity outputs are missing. Run the main "
             "pipeline with sensitivity enabled. Example missing file: " + missing[0]
         )
-    return pd.concat(frames, ignore_index=True).drop_duplicates(
-        subset=["economy_code", "year", "scenario"], keep="last"
+
+    combined = _normalise_population_gdp_scenarios(
+        pd.concat(frames, ignore_index=True)
     )
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    combined.to_csv(output_path, index=False)
+    return combined
+
+
+def load_population_gdp_scenarios():
+    """Read the combined scenario CSV, generating it first when absent."""
+    if POPULATION_GDP_SCENARIOS_PATH.exists():
+        return _normalise_population_gdp_scenarios(
+            pd.read_csv(POPULATION_GDP_SCENARIOS_PATH)
+        )
+    return generate_population_gdp_scenarios()
 
 
 def ensure_percent(df):
