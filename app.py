@@ -799,8 +799,9 @@ with active_tab:
             "depreciation rates, and labour efficiency growth. Compare the resulting projections against the "
             "rebased 9th Outlook (2021 USD PPP)."
         )
-        col_d1, col_d2 = st.columns([1, 3])
-        with col_d1:
+        with st.sidebar:
+            st.divider()
+            st.markdown("### 🔍 Economy Deep Dive")
             sel_code = st.selectbox("Choose Economy", sorted(results["economy_code"].unique()), key="deep_dive_econ")
             sel_name = results.loc[results["economy_code"] == sel_code, "economy"].iloc[0]
             jump_off = jump_off_year_for_economy(sel_code)
@@ -847,7 +848,7 @@ with active_tab:
             )
             deep_dive_results = results[results["economy_code"] == sel_code]
 
-        with col_d2:
+        with st.container():
             econ_results = deep_dive_results
 
             # Primary GDP Chart
