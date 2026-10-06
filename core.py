@@ -459,8 +459,13 @@ def build_model_inputs(df):
                                      "Gross national savings", range(HISTORY_START_YEAR, LAST_IMF_YEAR + 1))
 
     has_9th = (df["variable"] == "9th Outlook").any()
-    gdp_9th = df[df["variable"] == "9th Outlook"].copy() if has_9th else pd.DataFrame(
-        columns=["economy_code", "economy", "variable", "year", "value"])
+    if has_9th:
+        gdp_9th = df[df["variable"] == "9th Outlook"].copy()
+        gdp_9th["variable"] = "real_GDP"
+    else:
+        gdp_9th = pd.DataFrame(
+            columns=["economy_code", "economy", "variable", "year", "value"]
+        )
 
     return {
         "input_data": build_input_table(df),
