@@ -14,6 +14,8 @@ from core import (
     HISTORY_START_YEAR,
     LAST_PWT_YEAR,
     FINAL_YEAR,
+    POPULATION_SCENARIO_COLUMNS,
+    CUSTOM_POPULATION_COLUMN,
     POPULATION_SAMPLE_FILE,
     POPULATION_SCENARIO_FILES,
     jump_off_year_for_economy,
@@ -40,6 +42,10 @@ def _pipeline_sample_data():
         RESULTS_DATA_DIR / "WDI_to2025.csv",
         RESULTS_DATA_DIR / "IMF_to2031.csv",
         RESULTS_DATA_DIR / "PWT_cap_labour_to2023.csv",
+        *[
+            RESULTS_DATA_DIR / filename
+            for filename in POPULATION_SCENARIO_FILES.values()
+        ],
     ]
     if not all(path.exists() for path in required_files):
         return None
@@ -51,6 +57,25 @@ def _pipeline_sample_data():
     ].copy()
     pop["year"] = pd.to_numeric(pop["year"], errors="coerce")
     pop["value"] = pd.to_numeric(pop["value"], errors="coerce")
+
+    population_paths = {}
+    for scenario, filename in POPULATION_SCENARIO_FILES.items():
+        scenario_data = pd.read_csv(RESULTS_DATA_DIR / filename)
+        scenario_data = scenario_data[
+            scenario_data["variable"] == "population_1jan"
+        ][["economy_code", "year", "value"]].copy()
+        scenario_data["year"] = pd.to_numeric(
+            scenario_data["year"], errors="coerce"
+        )
+        scenario_data["value"] = pd.to_numeric(
+            scenario_data["value"], errors="coerce"
+        )
+        population_paths[scenario] = {
+            (row["economy_code"], int(row["year"])): float(row["value"])
+            for _, row in scenario_data.dropna(
+                subset=["economy_code", "year", "value"]
+            ).iterrows()
+        }
 
     gdp_frames = []
     for name in ["IMF_to2031.csv", "WDI_to2025.csv"]:
@@ -112,6 +137,10 @@ def _pipeline_sample_data():
             pop_row = pop[(pop["economy_code"] == code) & (pop["year"] == year)]
             if not pop_row.empty:
                 record["population_1jan"] = float(pop_row["value"].iloc[0])
+            for scenario, column in POPULATION_SCENARIO_COLUMNS.items():
+                population = population_paths[scenario].get((code, year))
+                if population is not None:
+                    record[column] = population
 
             gdp_row = gdp[(gdp["economy_code"] == code) & (gdp["year"] == year)]
             if not gdp_row.empty:
@@ -136,7 +165,13 @@ def _pipeline_sample_data():
         return None
 
     sample = pd.DataFrame(rows)
-    all_cols = ["economy_code", "economy", "year"] + WIDE_VARIABLE_COLUMNS + (["9th Outlook"] if "9th Outlook" in sample.columns else [])
+    all_cols = (
+        ["economy_code", "economy", "year"]
+        + WIDE_VARIABLE_COLUMNS
+        + list(POPULATION_SCENARIO_COLUMNS.values())
+        + [CUSTOM_POPULATION_COLUMN]
+        + (["9th Outlook"] if "9th Outlook" in sample.columns else [])
+    )
     for column in all_cols:
         if column not in sample.columns:
             sample[column] = np.nan
@@ -174,7 +209,22 @@ def make_sample_data(seed=7, include_9th=True):
 
         rows = []
         for year in range(HISTORY_START_YEAR, FINAL_YEAR + 1):
-            rows.append((code, name, "population_1jan", year, pop(year)))
+            baseline_population = pop(year)
+            years_after_history = max(year - LAST_PWT_YEAR, 0)
+            projection_fraction = years_after_history / max(FINAL_YEAR - LAST_PWT_YEAR, 1)
+            rows.append((code, name, "population_1jan", year, baseline_population))
+            rows.append((
+                code, name, POPULATION_SCENARIO_COLUMNS["Low"], year,
+                baseline_population * (1 - 0.15 * projection_fraction),
+            ))
+            rows.append((
+                code, name, POPULATION_SCENARIO_COLUMNS["Medium"], year,
+                baseline_population,
+            ))
+            rows.append((
+                code, name, POPULATION_SCENARIO_COLUMNS["High"], year,
+                baseline_population * (1 + 0.15 * projection_fraction),
+            ))
 
         for year in range(HISTORY_START_YEAR, jump_off + 1):
             gdp_pc = per_capita_1990 * (1 + gdp_growth) ** (year - 1990)
@@ -196,7 +246,12 @@ def make_sample_data(seed=7, include_9th=True):
     long = pd.concat(frames, ignore_index=True)
     wide = long.pivot(index=["economy_code", "economy", "year"], columns="variable", values="value").reset_index()
     wide.columns.name = None
-    all_cols = WIDE_VARIABLE_COLUMNS + (["9th Outlook"] if include_9th else [])
+    all_cols = (
+        WIDE_VARIABLE_COLUMNS
+        + list(POPULATION_SCENARIO_COLUMNS.values())
+        + [CUSTOM_POPULATION_COLUMN]
+        + (["9th Outlook"] if include_9th else [])
+    )
     cols = ["economy_code", "economy", "year"] + [v for v in all_cols if v in wide.columns]
     return wide[cols].copy()
 

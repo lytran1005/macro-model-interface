@@ -5,6 +5,7 @@ Run from this project root with:
 """
 
 from pathlib import Path
+import io
 
 import altair as alt
 import numpy as np
@@ -13,6 +14,9 @@ import streamlit as st
 
 SCENARIO_ORDER = ["Low", "Medium", "High"]
 SCENARIO_COLORS = ["#2a9d8f", "#e9c46a", "#e76f51"]
+CUSTOM_SCENARIO_COLOR = "#7b4fa3"
+SCENARIO_DISPLAY_ORDER = ["High", "Medium", "Low", "Custom"]
+SHOW_SUMMARY_METRICS = False
 ECONOMY_COLORS = {
     "01_AUS": "#8B4513",
     "02_BD": "#000000",
@@ -47,13 +51,17 @@ from core import (
     FINAL_YEAR,
     REPO_MACRO,  # noqa: F401  (kept explicit so the model path is obvious)
     jump_off_year_for_economy,
-    load_population_scenarios,
-    load_population_gdp_scenarios,
+    CUSTOM_SCENARIO,
+    available_population_scenarios,
+    custom_population_status,
+    population_scenarios_from_wide,
+    run_uploaded_population_gdp_scenarios,
+    run_uploaded_population_scenario,
     load_gdp_model_parameters,
     run_analysis,
     wide_to_long,
-    run_pipeline_population_scenario,
     parse_params_csv,
+    parse_uploaded_economy_params,
 )
 from generate_samples import sample_params_csv
 
@@ -67,11 +75,7 @@ st.set_page_config(
 )
 
 st.title("APERC 10th Outlook — Solow-Swan Macro Model")
-st.markdown(
-    "Interactive front-end for the **APERC 10th Energy Demand and Supply Outlook** macroeconomic projections. "
-    "Upload a single wide-format CSV containing observed data across the 21 APEC economies to derive capital stock ($K$) "
-    "and labour efficiency ($E$), simulate Solow-Swan growth paths to **2100**, and explore or export results."
-)
+st.markdown("Interactive front-end for the **APERC 10th Energy Demand and Supply Outlook** macroeconomic projections. ")
 
 
 def validate(df):
@@ -96,24 +100,25 @@ def cached_run(df, params):
 
 
 @st.cache_data(show_spinner="Loading population scenarios...")
-def cached_population_scenarios():
-    return load_population_scenarios()
+def cached_population_scenarios(df_wide):
+    return population_scenarios_from_wide(df_wide)
 
 
-@st.cache_data(show_spinner="Loading GDP population-sensitivity projections...")
-def cached_population_gdp_scenarios():
-    return load_population_gdp_scenarios()
+@st.cache_data(show_spinner="Running GDP population-sensitivity projections...")
+def cached_population_gdp_scenarios(df_wide, params):
+    return run_uploaded_population_gdp_scenarios(df_wide, params)
 
 
-@st.cache_data
 def load_bundled_sample():
     """Load the checked-in sample without rebuilding it from pipeline outputs."""
     return pd.read_csv(SAMPLE_INPUT_PATH)
 
 
 @st.cache_data(show_spinner="Running population scenario...")
-def cached_pipeline_population_scenario(economy, scenario, params):
-    return run_pipeline_population_scenario(economy, scenario, params)
+def cached_uploaded_population_scenario(df_wide, scenario, params, economy):
+    return run_uploaded_population_scenario(
+        df_wide, scenario, params, economy=economy
+    )
 
 
 def render_chart_download_button(chart, file_name):
@@ -197,11 +202,16 @@ def render_interactive_line_chart(
 def chart_series_order(series_values):
     """Return series in the requested High → Medium → Low order while keeping historical estimates first."""
     ordered = []
-    if "Historical estimates" in series_values:
-        ordered.append("Historical estimates")
-    for scenario in ["High", "Medium", "Low"]:
+    ordered.extend(
+        label for label in series_values
+        if label == "Historical estimates" or str(label).endswith(" — Historical estimates")
+    )
+    for scenario in SCENARIO_DISPLAY_ORDER:
         for label in series_values:
-            if label == "Historical estimates":
+            if (
+                label == "Historical estimates"
+                or str(label).endswith(" — Historical estimates")
+            ):
                 continue
             if label == scenario or str(label).endswith(f" — {scenario}"):
                 ordered.append(label)
@@ -218,14 +228,18 @@ def chart_series_colors(series_values):
         "High": SCENARIO_COLORS[2],
         "Medium": SCENARIO_COLORS[1],
         "Low": SCENARIO_COLORS[0],
+        "Custom": CUSTOM_SCENARIO_COLOR,
     }
     colors = []
     for label in ordered:
-        if label == "Historical estimates":
+        if (
+            label == "Historical estimates"
+            or str(label).endswith(" — Historical estimates")
+        ):
             colors.append("#7fb3d5")
             continue
         scenario = next(
-            (s for s in ["High", "Medium", "Low"] if label == s or str(label).endswith(f" — {s}")),
+            (s for s in SCENARIO_DISPLAY_ORDER if label == s or str(label).endswith(f" — {s}")),
             None,
         )
         colors.append(color_map.get(scenario, "#7fb3d5"))
@@ -239,6 +253,70 @@ def calculate_cagr(start_value, end_value, years):
     return (end_value / start_value) ** (1 / years) - 1
 
 
+def set_deep_dive_parameter_widgets(economy_code, parameters):
+    """Load model parameters into the visible Deep Dive controls."""
+    widget_key = lambda parameter: f"deep_dive_{economy_code}_{parameter}"
+    st.session_state[widget_key("lab_eff_periods")] = int(
+        parameters["lab_eff_periods"]
+    )
+    st.session_state[widget_key("efficiency_range_pct")] = (
+        float(parameters["low_eff"]) * 100,
+        float(parameters["high_eff"]) * 100,
+    )
+    st.session_state[widget_key("change_eff_pct")] = (
+        float(parameters["change_eff"]) * 100
+    )
+    st.session_state[widget_key("savings_range_pct")] = (
+        float(parameters["low_sav"]) * 100,
+        float(parameters["high_sav"]) * 100,
+    )
+    st.session_state[widget_key("change_sav_pct")] = (
+        float(parameters["change_sav"]) * 100
+    )
+    st.session_state[widget_key("depreciation_range_pct")] = (
+        float(parameters["low_delta"]) * 100,
+        float(parameters["high_delta"]) * 100,
+    )
+    st.session_state[widget_key("change_del_pct")] = (
+        float(parameters["change_del"]) * 100
+    )
+    st.session_state[widget_key("alpha_bounded")] = float(parameters["alpha"])
+
+
+def load_uploaded_deep_dive_parameters():
+    """Apply the uploaded parameter row for the currently selected economy."""
+    uploaded_file = st.session_state.get("deep_dive_parameter_upload")
+    economy_code = st.session_state.get("deep_dive_econ")
+    if uploaded_file is None or economy_code is None:
+        return
+
+    try:
+        uploaded_params = parse_uploaded_economy_params(
+            pd.read_csv(io.BytesIO(uploaded_file.getvalue())),
+            economy_code,
+        )
+    except (
+        pd.errors.EmptyDataError,
+        pd.errors.ParserError,
+        UnicodeDecodeError,
+        ValueError,
+    ) as exc:
+        st.session_state["deep_dive_parameter_upload_feedback"] = (
+            "error",
+            f"Could not load parameters: {exc}",
+        )
+        return
+
+    st.session_state[f"deep_dive_applied_params_{economy_code}"] = (
+        uploaded_params.copy()
+    )
+    set_deep_dive_parameter_widgets(economy_code, uploaded_params)
+    st.session_state["deep_dive_parameter_upload_feedback"] = (
+        "success",
+        f"Parameters loaded successfully for {economy_code}.",
+    )
+
+
 # --- sidebar: data + parameters --------------------------------------------
 
 with st.sidebar:
@@ -247,11 +325,15 @@ with st.sidebar:
     with st.expander("⚙️ Data & Configuration", expanded=not has_data):
         st.caption(
             "Upload a wide CSV (one row per economy-year). Required columns: `economy` or `economy_code`, `year`, and: "
-            "`population_1jan`, `Real GDP PPP 2021 USD`, `output_to_kstock`, `delta`, `Gross national savings`."
+            "`population_1jan`, `Real GDP PPP 2021 USD`, `output_to_kstock`, `delta`, `Gross national savings`. "
+            "To use population scenarios, also include `population_1jan_low`, `population_1jan_medium`, "
+            "and `population_1jan_high`. The sample also includes an optional blank "
+            "`population_1jan_custom` column for your own population path; fill it for each year "
+            "of an economy to enable the Custom scenario."
         )
 
         st.markdown("**📁 1. Model Input Data**")
-        uploaded = st.file_uploader("Upload Wide CSV", type=["csv"], help="Upload observed data for 21 APEC economies.")
+        uploaded = st.file_uploader("Upload Model Input Data CSV", type=["csv"], help="Upload the input dataset for all 21 APEC economies, with historical model inputs and population projections (Low, Medium, and High). The file should follow the required format. Download the sample file for reference.")
 
         use_sample = st.button("Use Pipeline Sample Data", use_container_width=True, type="primary" if not has_data else "secondary")
         st.download_button(
@@ -272,7 +354,15 @@ with st.sidebar:
         st.divider()
         st.markdown("**🛠️ 2. Model Parameters (Optional)**")
         st.caption("Defaults are pre-loaded from `config/gdp_model_parameters.csv`. Upload a CSV to customize tuning knobs.")
-        params_file = st.file_uploader("Upload custom parameters.csv", type=["csv"])
+        params_file = st.file_uploader(
+            "Upload Custom Parameters CSV",
+            type=["csv"],
+            help=(
+                "Upload a custom parameter file to use your own model settings "
+                "instead of the preloaded defaults. The file should follow the "
+                "required format. Download the sample file for reference."
+            ),
+        )
         if params_file is not None:
             st.session_state["params"] = parse_params_csv(pd.read_csv(params_file))
             st.success("Custom parameters loaded")
@@ -331,7 +421,7 @@ if results.empty:
 gdp_rows = results[results["variable"] == "real_GDP"]
 pop_rows = results[results["variable"] == "population"]
 
-if not gdp_rows.empty and not pop_rows.empty:
+if SHOW_SUMMARY_METRICS and not gdp_rows.empty and not pop_rows.empty:
     gdp_by_yr = gdp_rows.groupby("year")["value"].sum()
     pop_by_yr = pop_rows.groupby("year")["value"].sum()
 
@@ -467,25 +557,24 @@ with active_tab:
     if active_view == VIEW_POPULATION:
         st.subheader("Population Scenarios")
         st.caption(
-            "Compare UN DESA Low, Medium, and High population projections for your economy and examine "
+            "Compare Low, Medium, and High population projections from the currently loaded wide CSV and examine "
             "their impact on long-term GDP. Select the population pathway that best reflects your economy's "
             "expectations before proceeding to macroeconomic assumptions in the next tab."
         )
 
         try:
-            population_scenarios = cached_population_scenarios()
+            population_scenarios = cached_population_scenarios(df_wide)
         except (FileNotFoundError, ValueError) as exc:
             st.error(str(exc))
-            st.info("Run the main pipeline with the population step enabled, then refresh this page.")
+            st.info(
+                "Add `population_1jan_low`, `population_1jan_medium`, and "
+                "`population_1jan_high` columns to the loaded wide CSV."
+            )
             population_scenarios = pd.DataFrame()
 
         if not population_scenarios.empty:
-            if "source" in population_scenarios.columns and population_scenarios["source"].eq("Sample fallback").all():
-                st.warning(
-                    "Official population scenario outputs were not found. "
-                    "This tab is using the bundled pipeline sample fallback."
-                )
-            scenario_order = SCENARIO_ORDER
+            scenario_order = available_population_scenarios(df_wide)
+            custom_codes, incomplete_custom_codes = custom_population_status(df_wide)
             all_population_codes = sorted(population_scenarios["economy_code"].unique())
 
             population_labels = [
@@ -495,7 +584,12 @@ with active_tab:
                 for code in all_population_codes
             ]
             population_label_to_code = dict(zip(population_labels, all_population_codes))
-            scenario_choice = ["High", "Low", "Medium", "All"]
+            scenario_choice = ["High", "Low", "Medium"]
+            if CUSTOM_SCENARIO in scenario_order:
+                scenario_choice.append(CUSTOM_SCENARIO)
+            scenario_choice.append("All")
+            if st.session_state.get("population_scenario_selected") not in scenario_choice:
+                st.session_state.pop("population_scenario_selected", None)
 
             control_view, control_economies, control_scenarios = st.columns([1, 2, 1])
             with control_view:
@@ -519,11 +613,32 @@ with active_tab:
                 selected_scenario = st.selectbox(
                     "Scenarios",
                     scenario_choice,
-                    index=3,
+                    index=len(scenario_choice) - 1,
                     key="population_scenario_selected",
-                    help="Choose High, Low, Medium, or All scenarios.",
+                    help="Choose High, Low, Medium, Custom (if provided), or All scenarios.",
                 )
             selected_scenarios = scenario_order if selected_scenario == "All" else [selected_scenario]
+            if CUSTOM_SCENARIO in scenario_order:
+                st.caption(
+                    "Custom is a user-provided population path (not a UN DESA variant). "
+                    "Available for: "
+                    + ", ".join(custom_codes) + "."
+                )
+            if incomplete_custom_codes:
+                st.warning(
+                    "Custom population ignored for economies with missing years: "
+                    + ", ".join(incomplete_custom_codes)
+                )
+            if (
+                population_view == "Total"
+                and CUSTOM_SCENARIO in selected_scenarios
+                and set(custom_codes) != set(all_population_codes)
+            ):
+                selected_scenarios = [s for s in selected_scenarios if s != CUSTOM_SCENARIO]
+                st.info(
+                    "Custom is not shown in the APEC total because it does not cover all economies. "
+                    "Use the By Economy view."
+                )
 
             year_min = int(population_scenarios["year"].min())
             year_max = int(population_scenarios["year"].max())
@@ -610,11 +725,52 @@ with active_tab:
             ).dropna(subset=["value"])
             historical_population = population_long[
                 population_long["year"] <= LAST_PWT_YEAR
-            ].drop_duplicates(subset=["year"], keep="first")
+            ].copy()
             projected_population = population_long[
                 population_long["year"] > LAST_PWT_YEAR
-            ]
-            historical_population["series"] = "Historical estimates"
+            ].copy()
+            custom_history = historical_population[
+                historical_population["series"].str.endswith(f" — {CUSTOM_SCENARIO}")
+            ].copy()
+            official_history = historical_population[
+                ~historical_population["series"].str.endswith(f" — {CUSTOM_SCENARIO}")
+            ].copy()
+            if not official_history.empty:
+                official_history["economy_series"] = official_history["series"].map(
+                    lambda series: (
+                        series.rsplit(" — ", 1)[0] if " — " in series else ""
+                    )
+                )
+                official_history["scenario"] = official_history["series"].map(
+                    lambda series: (
+                        series.rsplit(" — ", 1)[1]
+                        if " — " in series
+                        else series
+                    )
+                )
+                official_history["scenario_priority"] = official_history[
+                    "scenario"
+                ].map({"Medium": 0, "Low": 1, "High": 2})
+                official_history = official_history.sort_values(
+                    ["scenario_priority", "series"]
+                ).drop_duplicates(
+                    subset=["year", "economy_series"], keep="first"
+                )
+                official_history["series"] = official_history[
+                    "economy_series"
+                ].map(
+                    lambda economy: (
+                        f"{economy} — Historical estimates"
+                        if economy
+                        else "Historical estimates"
+                    )
+                )
+                official_history = official_history[
+                    ["year", "series", "value"]
+                ]
+            historical_population = pd.concat(
+                [official_history, custom_history], ignore_index=True
+            )
             population_plot = pd.concat(
                 [historical_population, projected_population], ignore_index=True
             )
@@ -664,7 +820,7 @@ with active_tab:
             with download_col:
                 render_chart_download_button(population_chart, "apec_population_paths.png")
             st.caption(
-                "UN DESA historical estimates extend through 2023; scenario projections begin in 2024."
+                "Population paths are read from the currently loaded wide CSV."
             )
             st.download_button(
                 "⬇️ Download population data",
@@ -676,10 +832,25 @@ with active_tab:
 
             st.markdown("#### Real GDP Population Sensitivity (1990–2100)")
             st.caption(
-                "GDP projections calculated by the main macro pipeline using the selected population scenarios."
+                "GDP projections are recalculated from the population paths and other inputs in the currently loaded wide CSV."
             )
             try:
-                population_gdp_scenarios = cached_population_gdp_scenarios()
+                population_gdp_scenarios, sensitivity_errors = (
+                    cached_population_gdp_scenarios(df_wide, params)
+                )
+                if population_gdp_scenarios.empty:
+                    raise ValueError(
+                        "No GDP sensitivity projections were produced from the loaded population paths."
+                    )
+                if sensitivity_errors:
+                    error_examples = "; ".join(
+                        f"{scenario}/{code}: {message}"
+                        for scenario, code, message in sensitivity_errors[:5]
+                    )
+                    st.warning(
+                        f"{len(sensitivity_errors)} economy/scenario run(s) failed. "
+                        f"Examples: {error_examples}"
+                    )
                 population_gdp_view = population_gdp_scenarios[
                     population_gdp_scenarios["year"].between(
                         population_year_from, population_year_to
@@ -788,7 +959,7 @@ with active_tab:
                     mime="text/csv",
                     help="Download the GDP sensitivity data currently selected for this chart.",
                 )
-            except FileNotFoundError as exc:
+            except (FileNotFoundError, ValueError) as exc:
                 st.warning(str(exc))
 
     # --- TAB 2: Economy Deep Dive ----------------------------------------------
@@ -802,16 +973,26 @@ with active_tab:
         with st.sidebar:
             st.divider()
             st.markdown("### 🔍 Economy Deep Dive")
-            sel_code = st.selectbox("Choose Economy", sorted(results["economy_code"].unique()), key="deep_dive_econ")
+            sel_code = st.selectbox(
+                "Choose Economy",
+                sorted(results["economy_code"].unique()),
+                key="deep_dive_econ",
+                on_change=load_uploaded_deep_dive_parameters,
+            )
             jump_off = jump_off_year_for_economy(sel_code)
             source_name = "IMF" if sel_code == "18_CT" else "WDI"
 
+            deep_dive_options = ["Medium", "Low", "High"]
+            if sel_code in custom_population_status(df_wide)[0]:
+                deep_dive_options.append(CUSTOM_SCENARIO)
+            if st.session_state.get("deep_dive_population_scenario") not in deep_dive_options:
+                st.session_state.pop("deep_dive_population_scenario", None)
             deep_dive_scenario = st.radio(
                 "Population Scenario",
-                ["Medium", "Low", "High"],
+                deep_dive_options,
                 horizontal=True,
                 key="deep_dive_population_scenario",
-                help="Re-runs this economy with the selected UN DESA population path and the current model parameters.",
+                help="Re-runs this economy using the selected population column from the currently loaded wide CSV and the current model parameters.",
             )
             show_9th_outlook = st.toggle(
                 "Show rebased 9th Outlook",
@@ -829,19 +1010,30 @@ with active_tab:
                 st.session_state[applied_params_key] = econ_params.copy()
 
             with st.expander("Model Parameters", expanded=True):
+                widget_key = lambda parameter: f"deep_dive_{sel_code}_{parameter}"
+                if st.button(
+                    "↻ Reset to Preloaded Defaults",
+                    key=f"deep_dive_reset_params_{sel_code}",
+                    help="Restore this economy's values from config/gdp_model_parameters.csv and apply them immediately.",
+                    use_container_width=True,
+                ):
+                    configured_params = load_gdp_model_parameters(
+                        "gdp_model_parameters.csv"
+                    )[sel_code]
+                    st.session_state[applied_params_key] = configured_params.copy()
+                    set_deep_dive_parameter_widgets(sel_code, configured_params)
+
                 with st.form(
                     f"deep_dive_parameter_form_{sel_code}",
                     clear_on_submit=False,
                     border=False,
                 ):
                     run_model = st.form_submit_button(
-                        "Run model",
+                        "Run Model",
                         type="primary",
                         width="stretch",
                         help="Apply all parameter changes and rerun this economy.",
                     )
-
-                    widget_key = lambda parameter: f"deep_dive_{sel_code}_{parameter}"
 
                     lab_eff_periods = st.slider(
                         "Labour efficiency look-back period",
@@ -869,6 +1061,7 @@ with active_tab:
                         step=0.01,
                         format="%.4f",
                         key=widget_key("change_eff_pct"),
+                        help="Determines how much the labour-efficiency growth rate changes each year toward the specified corridor. A larger value moves the rate toward the corridor more quickly, and a smaller value moves it more slowly.",
                     )
 
                     low_sav_pct, high_sav_pct = st.slider(
@@ -888,6 +1081,7 @@ with active_tab:
                         step=0.01,
                         format="%.4f",
                         key=widget_key("change_sav_pct"),
+                        help="Determines how much the savings rate changes each year toward the specified corridor. A larger value moves the rate toward the corridor more quickly, and a smaller value moves it more slowly.",
                     )
 
                     low_delta_pct, high_delta_pct = st.slider(
@@ -907,6 +1101,7 @@ with active_tab:
                         step=0.01,
                         format="%.4f",
                         key=widget_key("change_del_pct"),
+                        help="Determines how much the depreciation rate changes each year toward the specified corridor. A larger value moves the rate toward the corridor more quickly, and a smaller value moves it more slowly.",
                     )
                     alpha = st.number_input(
                         "Capital share (alpha)",
@@ -944,6 +1139,13 @@ with active_tab:
                     "notes": "",
                 }
                 economy_params_csv = pd.DataFrame([export_row]).reindex(columns=export_columns)
+                st.file_uploader(
+                    "Upload Parameters CSV",
+                    type=["csv"],
+                    key="deep_dive_parameter_upload",
+                    on_change=load_uploaded_deep_dive_parameters,
+                    help="Upload custom parameter settings for the selected economy.",
+                )
                 st.download_button(
                     f"Download {sel_code} parameters CSV",
                     economy_params_csv.to_csv(index=False).encode(),
@@ -953,6 +1155,14 @@ with active_tab:
                     on_click="ignore",
                     help="Download the parameters currently applied to this economy.",
                 )
+                upload_feedback = st.session_state.get(
+                    "deep_dive_parameter_upload_feedback"
+                )
+                if upload_feedback is not None:
+                    if upload_feedback[0] == "success":
+                        st.success(upload_feedback[1])
+                    else:
+                        st.error(upload_feedback[1])
 
             deep_dive_params = {
                 **params,
@@ -960,14 +1170,25 @@ with active_tab:
             }
 
         try:
-            deep_dive_results = cached_pipeline_population_scenario(
-                sel_code, deep_dive_scenario, deep_dive_params
+            deep_dive_results, deep_dive_errors = cached_uploaded_population_scenario(
+                df_wide, deep_dive_scenario, deep_dive_params, sel_code
             )
+            economy_error = next(
+                (
+                    message for code, message in deep_dive_errors
+                    if code == sel_code
+                ),
+                None,
+            )
+            if economy_error:
+                st.error(
+                    f"{deep_dive_scenario} population scenario failed for "
+                    f"{sel_code}: {economy_error}"
+                )
+                deep_dive_results = pd.DataFrame(columns=results.columns)
         except (FileNotFoundError, ValueError) as exc:
-            st.warning(
-                f"Population scenario could not be applied: {exc}. Showing the loaded input instead."
-            )
-            deep_dive_results = results[results["economy_code"] == sel_code]
+            st.error(f"Population scenario could not be applied: {exc}")
+            deep_dive_results = pd.DataFrame(columns=results.columns)
 
         with st.container():
             econ_results = deep_dive_results
