@@ -1067,7 +1067,7 @@ with active_tab:
                     low_sav_pct, high_sav_pct = st.slider(
                         "Savings rate corridor (%)",
                         min_value=15.0,
-                        max_value=40.0,
+                        max_value=50.0,
                         value=(float(econ_params["low_sav"]) * 100, float(econ_params["high_sav"]) * 100),
                         step=0.1,
                         format="%.1f",
