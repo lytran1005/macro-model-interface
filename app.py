@@ -1041,7 +1041,7 @@ with active_tab:
                         max_value=10,
                         value=int(econ_params["lab_eff_periods"]),
                         key=widget_key("lab_eff_periods"),
-                        help="Number of recent years used to calculate average labour-efficiency growth. Longer periods produce more stable estimates, shorter periods place greater weight on recent trends.",
+                        help="Number of recent years used to calculate the average labour-efficiency growth rate for each projection year. The average is recalculated each year using the preceding years in the look-back period. Longer periods produce more stable estimates, while shorter periods place greater weight on recent trends.",
                     )
 
                     low_eff_pct, high_eff_pct = st.slider(
