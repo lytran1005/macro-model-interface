@@ -66,6 +66,7 @@ from core import (
 from generate_samples import sample_params_csv
 
 SAMPLE_INPUT_PATH = Path(__file__).resolve().parent / "sample_wide_input.csv"
+UN_DESA_LAST_ESTIMATE_YEAR = 2023
 
 st.set_page_config(
     page_title="APERC 10th Outlook — Solow-Swan GDP Model",
@@ -146,6 +147,9 @@ def render_interactive_line_chart(
     series_order=None,
     series_colors=None,
     value_format=",.2f",
+    show_legend=True,
+    dashed_series=None,
+    fit_y_to_data=False,
 ):
     """Render a line chart with a nearest-year guide, hover points, and tooltips."""
     chart_data = data.copy()
@@ -156,11 +160,19 @@ def render_interactive_line_chart(
         id_vars="year", var_name="series", value_name="plot_value"
     ).dropna(subset=["plot_value"])
 
+    y_scale = alt.Undefined
+    if fit_y_to_data and not chart_data.empty:
+        y_min = float(chart_data["plot_value"].min())
+        y_max = float(chart_data["plot_value"].max())
+        padding = (y_max - y_min) * 0.05 or abs(y_max) * 0.05 or 1.0
+        y_scale = alt.Scale(domain=[y_min - padding, y_max + padding], zero=False)
+
     hover = alt.selection_point(
         fields=["year"], nearest=True, on="pointerover", empty=False
     )
+    legend = alt.Undefined if show_legend else None
     color_encoding = alt.Color(
-        "series:N", title=series_title, sort=series_order
+        "series:N", title=series_title, sort=series_order, legend=legend
     )
     if series_colors:
         color_encoding = alt.Color(
@@ -168,10 +180,11 @@ def render_interactive_line_chart(
             title=series_title,
             sort=series_order,
             scale=alt.Scale(range=series_colors),
+            legend=legend,
         )
     base = alt.Chart(chart_data).encode(
         x=alt.X("year:Q", title="Year"),
-        y=alt.Y("plot_value:Q", title=y_title),
+        y=alt.Y("plot_value:Q", title=y_title, scale=y_scale),
         color=color_encoding,
     )
     tooltip = [
@@ -180,6 +193,14 @@ def render_interactive_line_chart(
         alt.Tooltip("series:N", title=series_title),
     ]
     line = base.mark_line().encode(tooltip=alt.value(None))
+    if dashed_series:
+        line = line.encode(
+            strokeDash=alt.condition(
+                alt.FieldOneOfPredicate(field="series", oneOf=list(dashed_series)),
+                alt.value([6, 4]),
+                alt.value([1, 0]),
+            )
+        )
     selectors = base.mark_point(opacity=0).encode(
         tooltip=alt.value(None)
     ).add_params(hover)
@@ -618,12 +639,6 @@ with active_tab:
                     help="Choose High, Low, Medium, Custom (if provided), or All scenarios.",
                 )
             selected_scenarios = scenario_order if selected_scenario == "All" else [selected_scenario]
-            if CUSTOM_SCENARIO in scenario_order:
-                st.caption(
-                    "Custom is a user-provided population path (not a UN DESA variant). "
-                    "Available for: "
-                    + ", ".join(custom_codes) + "."
-                )
             if incomplete_custom_codes:
                 st.warning(
                     "Custom population ignored for economies with missing years: "
@@ -819,9 +834,16 @@ with active_tab:
                 st.altair_chart(population_chart, use_container_width=True)
             with download_col:
                 render_chart_download_button(population_chart, "apec_population_paths.png")
-            st.caption(
-                "Population paths are read from the currently loaded wide CSV."
+            population_caption = (
+                "Low, Medium, and High population paths use UN DESA historical estimates "
+                "through 2023 and projections from 2024 onward."
             )
+            if CUSTOM_SCENARIO in scenario_order:
+                population_caption += (
+                    " Custom is a user-provided population path and is not a UN DESA variant. "
+                    "Available for: " + ", ".join(custom_codes) + "."
+                )
+            st.caption(population_caption)
             st.download_button(
                 "⬇️ Download population data",
                 population_scenarios.to_csv(index=False).encode(),
@@ -1264,6 +1286,41 @@ with active_tab:
                     use_container_width=True,
                 )
                 st.caption(f"Real GDP (Millions 2021 USD PPP). Jump-off from {source_name} occurs at year {jump_off}.")
+
+            # Population path used by the current model run
+            st.markdown("#### Population Projection")
+            st.caption(f"{deep_dive_scenario} scenario")
+            population_path = econ_results[
+                econ_results["variable"] == "population"
+            ].set_index("year")["value"].sort_index()
+            if not population_path.empty:
+                if deep_dive_scenario == CUSTOM_SCENARIO:
+                    # Custom coverage is user-defined, so no historical/projection split.
+                    population_plot = pd.DataFrame({CUSTOM_SCENARIO: population_path})
+                    population_order = [CUSTOM_SCENARIO]
+                    population_colors = ["#1f4e79"]
+                    population_dashed = None
+                else:
+                    population_plot = pd.DataFrame({
+                        "Historical": population_path[population_path.index <= UN_DESA_LAST_ESTIMATE_YEAR],
+                        "Projection": population_path[population_path.index >= UN_DESA_LAST_ESTIMATE_YEAR],
+                    })
+                    population_order = ["Historical", "Projection"]
+                    population_colors = ["#7fb3d5", "#1f4e79"]
+                    population_dashed = ["Projection"]
+                render_interactive_line_chart(
+                    population_plot,
+                    "Population (thousands)",
+                    series_order=population_order,
+                    series_colors=population_colors,
+                    value_format=",.0f",
+                    show_legend=False,
+                    dashed_series=population_dashed,
+                    fit_y_to_data=True,
+                )
+                st.caption(
+                    "Shows the population path selected for the current GDP projection."
+                )
 
             # 4-Quadrant Decomposition Grid
             st.markdown("#### Model Drivers Decomposition")
