@@ -6,6 +6,7 @@ Run from this project root with:
 
 from pathlib import Path
 import io
+import json
 
 import altair as alt
 import numpy as np
@@ -16,7 +17,39 @@ SCENARIO_ORDER = ["Low", "Medium", "High"]
 SCENARIO_COLORS = ["#2a9d8f", "#e9c46a", "#e76f51"]
 CUSTOM_SCENARIO_COLOR = "#7b4fa3"
 SCENARIO_DISPLAY_ORDER = ["High", "Medium", "Low", "Custom"]
-SHOW_SUMMARY_METRICS = False
+WORLD_TOPOJSON_PATH = Path(__file__).resolve().parent / "assets" / "world-110m.json"
+# ISO 3166-1 numeric codes used only to join model results to the basemap geometry.
+APEC_MAP_IDS = {
+    "01_AUS": "036", "02_BD": "096", "03_CDA": "124", "04_CHL": "152",
+    "05_PRC": "156", "06_HKC": "344", "07_INA": "360", "08_JPN": "392",
+    "09_ROK": "410", "10_MAS": "458", "11_MEX": "484", "12_NZ": "554",
+    "13_PNG": "598", "14_PE": "604", "15_PHL": "608", "16_RUS": "643",
+    "17_SGP": "702", "18_CT": "158", "19_THA": "764", "20_USA": "840",
+    "21_VN": "704",
+}
+# Economies too small to be drawn at the basemap resolution get a point marker.
+APEC_MAP_MARKERS = {
+    "02_BD": (114.73, 4.54),
+    "06_HKC": (114.17, 22.32),
+    "17_SGP": (103.82, 1.35),
+}
+MAP_INDICATORS = {
+    "Population": {
+        "variable": "population", "factor": 1e-3,
+        "unit": "Millions", "format": ",.1f", "scale": "sqrt",
+    },
+    "Real GDP": {
+        "variable": "real_GDP", "factor": 1e-3,
+        "unit": "Billion USD (2021 PPP)", "format": ",.0f", "scale": "sqrt",
+    },
+    "GDP per capita": {
+        "variable": "GDP_per_capita", "factor": 1.0,
+        "unit": "USD (2021 PPP)", "format": ",.0f", "scale": "linear",
+    },
+}
+MAP_BASE_YEAR = 2025
+MAP_LAND_COLOR = "#e6e9ec"
+MAP_SEQUENTIAL_SCHEME = "blues"
 ECONOMY_COLORS = {
     "01_AUS": "#8B4513",
     "02_BD": "#000000",
@@ -274,6 +307,151 @@ def calculate_cagr(start_value, end_value, years):
     return (end_value / start_value) ** (1 / years) - 1
 
 
+@st.cache_resource
+def load_world_topojson():
+    with open(WORLD_TOPOJSON_PATH, encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def render_apec_summary_metrics(scenario_results):
+    """Show APEC-wide totals for the selected population scenario."""
+    gdp_rows = scenario_results[scenario_results["variable"] == "real_GDP"]
+    pop_rows = scenario_results[scenario_results["variable"] == "population"]
+    if gdp_rows.empty or pop_rows.empty:
+        return
+
+    gdp_by_yr = gdp_rows.groupby("year")["value"].sum()
+    pop_by_yr = pop_rows.groupby("year")["value"].sum()
+    gdp_start, gdp_end = gdp_by_yr.get(MAP_BASE_YEAR, np.nan), gdp_by_yr.get(FINAL_YEAR, np.nan)
+    pop_start, pop_end = pop_by_yr.get(MAP_BASE_YEAR, np.nan), pop_by_yr.get(FINAL_YEAR, np.nan)
+
+    def per_capita(gdp, pop):
+        return gdp / pop * 1000 if pd.notna(gdp) and pd.notna(pop) and pop != 0 else np.nan
+
+    gdp_pc_start, gdp_pc_end = per_capita(gdp_start, pop_start), per_capita(gdp_end, pop_end)
+    gdp_cagr = calculate_cagr(gdp_start, gdp_end, FINAL_YEAR - MAP_BASE_YEAR)
+
+    def delta(start, end, digits):
+        if pd.isna(start) or pd.isna(end) or start == 0:
+            return None
+        return f"{(end / start - 1) * 100:+.{digits}f}% vs {MAP_BASE_YEAR}"
+
+    c1, c2, c3, c4 = st.columns(4)
+    with c1:
+        st.metric(
+            f"APEC GDP ({MAP_BASE_YEAR})",
+            f"${gdp_start / 1_000_000:.1f} T" if pd.notna(gdp_start) else "N/A",
+            help="Total APEC Real GDP in Trillions (2021 USD PPP)",
+        )
+    with c2:
+        st.metric(
+            f"APEC GDP ({FINAL_YEAR})",
+            f"${gdp_end / 1_000_000:.1f} T" if pd.notna(gdp_end) else "N/A",
+            delta=f"{gdp_cagr * 100:+.2f}% CAGR ({MAP_BASE_YEAR}-{FINAL_YEAR})" if pd.notna(gdp_cagr) else None,
+            help=f"Total APEC Real GDP in Trillions (2021 USD PPP); CAGR for {MAP_BASE_YEAR}-{FINAL_YEAR}",
+        )
+    with c3:
+        st.metric(
+            f"APEC GDP per Capita ({FINAL_YEAR})",
+            f"${gdp_pc_end:,.0f}" if pd.notna(gdp_pc_end) else "N/A",
+            delta=delta(gdp_pc_start, gdp_pc_end, 0),
+            help="Total APEC Real GDP per capita in 2021 USD PPP",
+        )
+    with c4:
+        st.metric(
+            f"APEC Population ({FINAL_YEAR})",
+            f"{pop_end / 1_000_000:.2f} B" if pd.notna(pop_end) else "N/A",
+            delta=delta(pop_start, pop_end, 1),
+            help="Total APEC Population (Billions)",
+        )
+
+
+def build_apec_map_data(scenario_results, indicator, year):
+    """Return one row per APEC economy for the selected indicator and year."""
+    spec = MAP_INDICATORS[indicator]
+    rows = scenario_results[
+        (scenario_results["variable"] == spec["variable"])
+        & (scenario_results["year"] == year)
+    ].dropna(subset=["value"])
+    data = pd.DataFrame({
+        "economy_code": rows["economy_code"].to_numpy(),
+        "Economy": rows["economy"].to_numpy(),
+        "value": rows["value"].to_numpy() * spec["factor"],
+    })
+    data["id"] = data["economy_code"].map(APEC_MAP_IDS)
+    data["Indicator"] = f"{indicator} ({spec['unit']})"
+    data["Year"] = str(year)
+    data["Value"] = data["value"].map(lambda v: format(v, spec["format"]))
+    return data.dropna(subset=["id"])
+
+
+def render_apec_map(scenario_results, indicator, year):
+    """Draw a muted world basemap with the APEC economies shaded by value."""
+    spec = MAP_INDICATORS[indicator]
+    series = scenario_results[
+        scenario_results["variable"] == spec["variable"]
+    ]["value"].dropna() * spec["factor"]
+    map_data = build_apec_map_data(scenario_results, indicator, year)
+    if series.empty or map_data.empty:
+        st.info("No values are available for this indicator and year.")
+        return
+
+    # Fixed range across all years so colours stay comparable when the year changes.
+    low = 0.0 if spec["scale"] == "sqrt" else float(series.min())
+    color = alt.Color(
+        "value:Q",
+        title=f"{indicator} ({spec['unit']})",
+        scale=alt.Scale(
+            type=spec["scale"],
+            domain=[low, float(series.max())],
+            scheme=MAP_SEQUENTIAL_SCHEME,
+        ),
+        legend=alt.Legend(
+            orient="bottom", direction="horizontal", format=",.0f",
+            gradientLength=320, titleLimit=400,
+        ),
+    )
+    tooltip = [
+        alt.Tooltip("Economy:N", title="Economy"),
+        alt.Tooltip("Indicator:N", title="Indicator"),
+        alt.Tooltip("Year:N", title="Year"),
+        alt.Tooltip("Value:N", title="Value"),
+    ]
+    world = alt.NamedData(
+        name="world",
+        format=alt.DataFormat(type="topojson", feature="countries"),
+    )
+    # Land is filled and stroked in the same muted colour so that no borders show.
+    land = alt.Chart(world).mark_geoshape(
+        fill=MAP_LAND_COLOR, stroke=MAP_LAND_COLOR, strokeWidth=0.5
+    ).transform_filter("datum.id !== '010'")
+    economies = alt.Chart(world).mark_geoshape(
+        stroke="white", strokeWidth=0.3
+    ).transform_lookup(
+        lookup="id",
+        from_=alt.LookupData(map_data, "id", ["Economy", "Indicator", "Year", "Value", "value"]),
+    ).transform_filter("isValid(datum.value)").encode(color=color, tooltip=tooltip)
+
+    layers = [land, economies]
+    markers = map_data[map_data["economy_code"].isin(APEC_MAP_MARKERS)].copy()
+    if not markers.empty:
+        markers["longitude"] = markers["economy_code"].map(lambda c: APEC_MAP_MARKERS[c][0])
+        markers["latitude"] = markers["economy_code"].map(lambda c: APEC_MAP_MARKERS[c][1])
+        layers.append(
+            alt.Chart(markers).mark_circle(
+                size=110, stroke="white", strokeWidth=0.8
+            ).encode(
+                longitude="longitude:Q", latitude="latitude:Q",
+                color=alt.Color("value:Q", legend=None), tooltip=tooltip,
+            )
+        )
+
+    chart = alt.layer(*layers).properties(
+        height=460, datasets={"world": load_world_topojson()}
+    ).project(type="naturalEarth1", rotate=[-160, 0, 0]).configure_view(stroke=None)
+    st.altair_chart(chart, use_container_width=True)
+
+
 def set_deep_dive_parameter_widgets(economy_code, parameters):
     """Load model parameters into the visible Deep Dive controls."""
     widget_key = lambda parameter: f"deep_dive_{economy_code}_{parameter}"
@@ -437,71 +615,17 @@ if results.empty:
     st.error("No results produced. Please check your uploaded dataset format.")
     st.stop()
 
-# --- top summary metrics ----------------------------------------------------
-
-gdp_rows = results[results["variable"] == "real_GDP"]
-pop_rows = results[results["variable"] == "population"]
-
-if SHOW_SUMMARY_METRICS and not gdp_rows.empty and not pop_rows.empty:
-    gdp_by_yr = gdp_rows.groupby("year")["value"].sum()
-    pop_by_yr = pop_rows.groupby("year")["value"].sum()
-
-    gdp_2025 = gdp_by_yr.get(2025, np.nan)
-    gdp_2060 = gdp_by_yr.get(2060, np.nan)
-
-    pop_2025 = pop_by_yr.get(2025, np.nan)
-    pop_2060 = pop_by_yr.get(2060, np.nan)
-
-    val_2025_gdp = gdp_2025 / 1_000_000  # Trillion USD PPP
-    val_2060_gdp = gdp_2060 / 1_000_000
-
-    val_2025_pop = pop_2025 / 1_000_000  # Billion people
-    val_2060_pop = pop_2060 / 1_000_000
-
-    val_2025_gdp_pc = (gdp_2025 / pop_2025) * 1000 if pd.notna(gdp_2025) and pd.notna(pop_2025) and pop_2025 != 0 else np.nan
-    val_2060_gdp_pc = (gdp_2060 / pop_2060) * 1000 if pd.notna(gdp_2060) and pd.notna(pop_2060) and pop_2060 != 0 else np.nan
-
-    gdp_cagr_2025_2060 = calculate_cagr(gdp_2025, gdp_2060, 2060 - 2025)
-
-    c1, c2, c3, c4 = st.columns(4)
-    with c1:
-        st.metric(
-            "APEC GDP (2025)",
-            f"${val_2025_gdp:.1f} T" if pd.notna(val_2025_gdp) else "N/A",
-            help="Total APEC Real GDP in Trillions (2021 USD PPP)",
-        )
-    with c2:
-        st.metric(
-            "APEC GDP (2060)",
-            f"${val_2060_gdp:.1f} T" if pd.notna(val_2060_gdp) else "N/A",
-            delta=f"{gdp_cagr_2025_2060 * 100:+.2f}% CAGR (2025-2060)" if pd.notna(gdp_cagr_2025_2060) else None,
-            help="Total APEC Real GDP in Trillions (2021 USD PPP); CAGR for 2025-2060",
-        )
-    with c3:
-        st.metric(
-            "APEC GDP per Capita (2060)",
-            f"${val_2060_gdp_pc:,.0f}" if pd.notna(val_2060_gdp_pc) else "N/A",
-            delta=f"{(val_2060_gdp_pc/val_2025_gdp_pc - 1)*100:+.0f}% vs 2025" if pd.notna(val_2025_gdp_pc) and pd.notna(val_2060_gdp_pc) else None,
-            help="Total APEC Real GDP per capita in 2021 USD PPP",
-        )
-    with c4:
-        st.metric(
-            "APEC Population (2060)",
-            f"{val_2060_pop:.2f} B" if pd.notna(val_2060_pop) else "N/A",
-            delta=f"{(val_2060_pop/val_2025_pop - 1)*100:+.1f}% vs 2025" if pd.notna(val_2025_pop) and pd.notna(val_2060_pop) else None,
-            help="Total APEC Population (Billions)",
-        )
-
 # --- tabs -------------------------------------------------------------------
 
 VIEW_POPULATION = "👥 Population Scenarios"
 VIEW_DETAIL = "🔍 Economy Deep Dive"
 VIEW_COMPARE = "📈 Economy Comparison"
+VIEW_OVERVIEW = "🌏 APEC Overview"
 VIEW_DATA = "📋 Combined Results & Export"
 VIEW_DOCS = "📖 Model Methodology"
 
-view_labels = [VIEW_POPULATION, VIEW_DETAIL, VIEW_COMPARE, VIEW_DATA, VIEW_DOCS]
-tab_population, tab_detail, tab_compare, tab_data, tab_docs = st.tabs(
+view_labels = [VIEW_POPULATION, VIEW_DETAIL, VIEW_COMPARE, VIEW_OVERVIEW, VIEW_DATA, VIEW_DOCS]
+tab_population, tab_detail, tab_compare, tab_overview, tab_data, tab_docs = st.tabs(
     view_labels,
     default=VIEW_POPULATION,
     key="active_view",
@@ -511,7 +635,7 @@ tab_population, tab_detail, tab_compare, tab_data, tab_docs = st.tabs(
 
 tabs_by_view = dict(zip(
     view_labels,
-    [tab_population, tab_detail, tab_compare, tab_data, tab_docs],
+    [tab_population, tab_detail, tab_compare, tab_overview, tab_data, tab_docs],
 ))
 active_view = st.session_state["active_view"]
 active_tab = tabs_by_view[active_view]
@@ -573,6 +697,35 @@ with active_tab:
                     )
         else:
             st.warning("Please select at least one economy to compare.")
+
+    # --- TAB 4: APEC Overview ----------------------------------------------
+    if active_view == VIEW_OVERVIEW:
+        st.subheader("APEC Overview")
+        render_apec_summary_metrics(results)
+
+        map_col1, map_col2 = st.columns([1, 2])
+        with map_col1:
+            map_indicator = st.radio(
+                "Indicator",
+                list(MAP_INDICATORS),
+                horizontal=True,
+                key="overview_indicator",
+            )
+        with map_col2:
+            map_year = st.slider(
+                "Model year",
+                min_value=HISTORY_START_YEAR,
+                max_value=FINAL_YEAR,
+                value=MAP_BASE_YEAR,
+                key="overview_year",
+            )
+        render_apec_map(results, map_indicator, map_year)
+        st.caption(
+            "Colour scale is fixed across all model years for the selected indicator. "
+            "Hong Kong, China; Singapore; and Brunei Darussalam are shown as point markers. "
+            "The map is for illustrating model results only; boundaries and names shown "
+            "do not imply any position on the legal status of any territory."
+        )
 
     # --- TAB 3: Population Scenarios -------------------------------------------
     if active_view == VIEW_POPULATION:

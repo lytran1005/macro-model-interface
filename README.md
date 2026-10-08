@@ -34,6 +34,12 @@ streamlit run app.py
 
 Dependencies are listed in `envs/environment.yml` (local conda setup) and
 `requirements.txt` (pip, used by Streamlit Cloud deployment). Keep them in sync.
+
+> **Deployment note:** deploy with pip, not conda. Keep `requirements.txt` in the
+> repo root and do not put an `environment.yml` there. A root-level
+> `environment.yml` made Streamlit Cloud builds much slower (conda solve), so the
+> conda file lives in `envs/` where the deployment ignores it.
+
 Update an existing environment with
 `conda env update -n macro10-interface-env -f envs/environment.yml --prune`.
 
@@ -97,11 +103,19 @@ The app now resolves all paths relative to this project root instead of assuming
 
 ## 4. Notes
 
-### Summary metrics
+### APEC Overview tab
 
-The top-of-page summary metrics are currently disabled. To show them again
-after the underlying data has been reviewed and agreed on, open `app.py` and
-change `SHOW_SUMMARY_METRICS = False` to `SHOW_SUMMARY_METRICS = True`.
+Shows APEC-wide summary metrics and an interactive map of the 21 economies
+(GDP per capita, Real GDP or Population, by model year). It appears after
+Economy Comparison and uses the standard model results, like that tab; it does
+not have a Low/Medium/High/Custom selector. Population and population-dependent
+results use the `population_1jan` values in the loaded input. The Low/Medium/
+High/Custom variants remain available in the Population Scenarios and Economy
+Deep Dive workflows. The overview uses the default model parameters, not the
+Economy Deep Dive controls. The basemap is
+`assets/world-110m.json` (Natural Earth-derived, via `world-atlas`); non-APEC land
+is muted and borders are not drawn. Hong Kong, China; Singapore; and Brunei
+Darussalam are too small to draw at this resolution and appear as point markers.
 
 ### Model parameter files
 
