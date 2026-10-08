@@ -1,4 +1,4 @@
-﻿name: macro10-interface-env
+name: macro10-interface-env
 channels:
   - conda-forge
 dependencies:
@@ -7,5 +7,3 @@ dependencies:
   - pandas
   - numpy
   - altair
-  - matplotlib
-  - seaborn

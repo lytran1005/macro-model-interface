@@ -27,14 +27,15 @@ columns in the currently loaded wide CSV.
 Create and activate the conda environment (named `macro10-interface-env`):
 
 ```bash
-conda env create -f environment.yml
+conda env create -f envs/environment.yml
 conda activate macro10-interface-env
 streamlit run app.py
 ```
 
-`environment.yml` is the single list of dependencies. After changing it, update
-the environment with
-`conda env update -n macro10-interface-env -f environment.yml --prune`.
+Dependencies are listed in `envs/environment.yml` (local conda setup) and
+`requirements.txt` (pip, used by Streamlit Cloud deployment). Keep them in sync.
+Update an existing environment with
+`conda env update -n macro10-interface-env -f envs/environment.yml --prune`.
 
 ### Run order
 
