@@ -14,33 +14,27 @@ columns in the currently loaded wide CSV.
 
 - `app.py` — Streamlit UI
 - `core.py` — model execution and data loading
-- `generate_samples.py` — refreshes the bundled sample CSVs from prepared pipeline outputs
+- `generate_samples.py` — refreshes the bundled sample CSV from prepared pipeline outputs
 - `macro_model/` — copied model helper modules
 - `config/` — economy metadata and model parameter tables
-- `results/` — prepared pipeline data used to refresh the bundled sample
+- `results/data/` — prepared source data used only to refresh the bundled sample
 - `.streamlit/config.toml` — light theme configuration
 
 ---
 
 ## 2. Setup
 
-From this folder:
+Create and activate the conda environment (named `macro10-interface-env`):
 
 ```bash
-python -m venv .venv
-. .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate macro10-interface-env
 streamlit run app.py
 ```
 
-If you are using PowerShell on Windows:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-streamlit run app.py
-```
+`environment.yml` is the single list of dependencies. After changing it, update
+the environment with
+`conda env update -n macro10-interface-env -f environment.yml --prune`.
 
 ### Run order
 
@@ -60,8 +54,7 @@ relaunching) the app:
 python -c "import generate_samples; print(generate_samples.refresh_streamlit_samples())"
 ```
 
-The refresh function rebuilds the wide sample and other generated sample CSVs
-from the available prepared outputs. In the full data pipeline, this refresh
+The refresh function rebuilds `sample_wide_input.csv` from the available prepared outputs. In the full data pipeline, this refresh
 belongs **after** the upstream scripts have finished writing the required
 `results/` files. Those upstream pipeline scripts are not part of this
 standalone interface, so there is no additional sequence of pipeline `.py`
@@ -77,15 +70,14 @@ The project is intentionally packaged with the files needed for a local run:
 - `config/` copied from the main project, including economy codes and GDP model parameters
 - `results/` copied from the main project as source data for regenerating the sample
 - `macro_model/` copied from the main project to preserve the same calculation logic
-- bundled sample CSVs for offline/demo use when the prepared outputs are unavailable
+- the bundled `sample_wide_input.csv` for offline/demo use when the prepared outputs are unavailable
 
 The wide input may include `population_1jan_low`, `population_1jan_medium`,
 and `population_1jan_high`. The Population Scenarios tab and Economy Deep Dive
 use these columns from the currently loaded file; the main model input column
 `population_1jan` remains the population path used for the standard results.
 When refreshing the bundled sample, these three columns are populated from
-the matching prepared UN DESA outputs. The tabs do not load the scenario paths
-or precomputed GDP sensitivity projections directly from `results/`.
+the matching prepared UN DESA outputs. GDP for each population scenario is recalculated by the app from the loaded wide CSV; nothing is read from `results/` at runtime.
 
 **Optional custom population.** Add a `population_1jan_custom` column to the
 wide CSV to include a user-defined "Custom" scenario (it is not a UN DESA

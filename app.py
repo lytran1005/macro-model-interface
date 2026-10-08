@@ -542,7 +542,7 @@ with active_tab:
                 st.caption(f"{var_title} ({HISTORY_START_YEAR}–{FINAL_YEAR})")
 
                 # Benchmark year summary table
-                benchmark_years = [y for y in [1990, 2025, 2030, 2050, 2070, 2100] if y in chart_df.index]
+                benchmark_years = [y for y in [1990, 2025, 2030, 2040, 2050, FINAL_YEAR] if y in chart_df.index]
                 if benchmark_years:
                     st.markdown("##### Benchmark Year Values")
                     bench_table = chart_df.loc[benchmark_years].T
@@ -659,7 +659,7 @@ with active_tab:
                     max_value=year_max,
                     value=year_max,
                     step=1,
-                    key="population_year_to_2100",
+                    key="population_year_to_final",
                 )
 
             if not selected_scenarios:
@@ -830,7 +830,7 @@ with active_tab:
                 help="Download the complete Low, Medium, and High population scenario dataset used by this tab.",
             )
 
-            st.markdown("#### Real GDP Population Sensitivity (1990–2100)")
+            st.markdown(f"#### Real GDP Population Sensitivity ({HISTORY_START_YEAR}–{FINAL_YEAR})")
             st.caption(
                 "GDP projections are recalculated from the population paths and other inputs in the currently loaded wide CSV."
             )
@@ -1194,7 +1194,7 @@ with active_tab:
             econ_results = deep_dive_results
 
             # Primary GDP Chart
-            st.markdown("#### Real GDP Trajectory (1990–2100)")
+            st.markdown(f"#### Real GDP Trajectory ({HISTORY_START_YEAR}–{FINAL_YEAR})")
             displayed_gdp_variables = ["real_GDP"]
             if show_9th_outlook:
                 displayed_gdp_variables.append("real_GDP_9th")
@@ -1397,5 +1397,5 @@ Where:
 3. **Labour Efficiency & Rate Convergence:**
    - Labour efficiency growth is computed over a rolling window and guided towards the long-term target corridor $[low\_eff, high\_eff]$ at step rate $change\_eff$.
    - Savings and depreciation rates transition dynamically toward policy corridors $[low\_sav, high\_sav]$ and $[low\_delta, high\_delta]$.
-4. **Horizon:** 1990 historical start through **2100** projection end.
+4. **Horizon:** 1990 historical start through **2060** projection end.
 """)

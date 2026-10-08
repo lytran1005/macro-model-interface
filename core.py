@@ -38,12 +38,11 @@ from model import (  # noqa: E402
     LABEL_9TH,
 )
 from config_loaders import load_economies, economy_code_map, load_gdp_model_parameters  # noqa: E402
-from prepare_model_inputs import build_gdp_input_table, build_labour_efficiency  # noqa: E402
 
 # Raw variables in the uploaded CSV, with a short description. Everything else
 # (capital stock, labour efficiency) is derived from these by the app.
 REQUIRED_VARIABLES = {
-    "population_1jan": "population, thousands (to 2100)",
+    "population_1jan": "population, thousands (to 2060)",
     "Real GDP PPP 2021 USD": "historical real GDP, millions 2021 USD PPP (to 2025 for non-CT, to 2031 for CT)",
     "output_to_kstock": "PWT output-to-capital ratio (to 2023)",
     "delta": "PWT depreciation rate (to 2023)",
@@ -85,13 +84,6 @@ POPULATION_SCENARIO_COLUMNS = {
 }
 CUSTOM_SCENARIO = "Custom"
 CUSTOM_POPULATION_COLUMN = "population_1jan_custom"
-POPULATION_SAMPLE_FILE = "sample_population_scenarios.csv"
-GDP_SCENARIO_DIRS = {
-    "Low": "GDP_low",
-    "Medium": "GDP_med",
-    "High": "GDP_high",
-}
-POPULATION_GDP_SCENARIOS_PATH = RESULTS_DIR / "sensitivity" / "population_gdp_scenarios.csv"
 
 
 def _with_economy_code(df_wide):
@@ -269,69 +261,6 @@ def _normalise_population_gdp_scenarios(data):
     return data.drop_duplicates(
         subset=["economy_code", "year", "scenario"], keep="last"
     ).reset_index(drop=True)
-
-
-def generate_population_gdp_scenarios(output_path=POPULATION_GDP_SCENARIOS_PATH):
-    """Combine the 63 per-economy sensitivity files and save one CSV."""
-    sensitivity_dir = RESULTS_DIR / "sensitivity"
-    economy_codes = sorted(load_economies()["economy_code"])
-    frames = []
-    missing = []
-
-    for scenario, directory in GDP_SCENARIO_DIRS.items():
-        for code in economy_codes:
-            path = (
-                sensitivity_dir / directory / "results" / "GDP_estimates" / "data"
-                / f"{code}_GDP_estimate.csv"
-            )
-            if not path.exists():
-                missing.append(str(path))
-                continue
-            output = pd.read_csv(path)
-            historical_label = LABEL_IMF if code == "18_CT" else LABEL_WDI
-            historical = output[output["variable"] == historical_label][
-                ["economy_code", "economy", "year", "value"]
-            ].copy()
-            projected = output[output["variable"] == LABEL_APERC][
-                ["economy_code", "economy", "year", "value"]
-            ].copy()
-            historical["year"] = pd.to_numeric(historical["year"], errors="coerce")
-            projected["year"] = pd.to_numeric(projected["year"], errors="coerce")
-            jump_off = jump_off_year_for_economy(code)
-            combined = pd.concat([
-                historical[historical["year"] <= jump_off],
-                projected[projected["year"] > jump_off],
-            ], ignore_index=True)
-            combined["value"] = pd.to_numeric(combined["value"], errors="coerce")
-            combined = combined[
-                combined["year"].between(HISTORY_START_YEAR, FINAL_YEAR)
-            ].dropna(subset=["economy_code", "year", "value"])
-            combined["year"] = combined["year"].astype(int)
-            combined["scenario"] = scenario
-            frames.append(combined[["economy_code", "economy", "year", "value", "scenario"]])
-
-    if missing:
-        raise FileNotFoundError(
-            "GDP population-sensitivity outputs are missing. Run the main "
-            "pipeline with sensitivity enabled. Example missing file: " + missing[0]
-        )
-
-    combined = _normalise_population_gdp_scenarios(
-        pd.concat(frames, ignore_index=True)
-    )
-    output_path = Path(output_path)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    combined.to_csv(output_path, index=False)
-    return combined
-
-
-def load_population_gdp_scenarios():
-    """Read the combined scenario CSV, generating it first when absent."""
-    if POPULATION_GDP_SCENARIOS_PATH.exists():
-        return _normalise_population_gdp_scenarios(
-            pd.read_csv(POPULATION_GDP_SCENARIOS_PATH)
-        )
-    return generate_population_gdp_scenarios()
 
 
 def ensure_percent(df):
@@ -627,91 +556,6 @@ def run_analysis(df, params):
 
     results_long = postprocess(pd.concat(combined, ignore_index=True)) if combined else pd.DataFrame()
     return results_long, inputs, errors
-
-
-def run_pipeline_population_scenario(economy, scenario, params):
-    """Run one economy with the pipeline sensitivity input assembly."""
-    scenario_file = {
-        "Low": "undesa_pop_to2100_low.csv",
-        "Medium": "undesa_pop_to2100_med.csv",
-        "High": "undesa_pop_to2100_high.csv",
-    }.get(scenario)
-    if scenario_file is None:
-        raise ValueError(f"Unknown population scenario: {scenario}")
-
-    results_data_dir = RESULTS_DIR / "data"
-    required = {
-        "population": results_data_dir / scenario_file,
-        "imf": results_data_dir / "IMF_to2031.csv",
-        "wdi": results_data_dir / "WDI_to2025.csv",
-        "capital": results_data_dir / "capital_stock.csv",
-        "delta": results_data_dir / "PWT_delta_2023.csv",
-        "imf_savings": results_data_dir / "IMF_savings_2031.csv",
-        "wdi_savings": results_data_dir / "WDI_savings_2025.csv",
-        "pwt": results_data_dir / "PWT_cap_labour_to2023.csv",
-        "gdp_9th": results_data_dir / "GDP_9th.csv",
-    }
-    missing = [str(path) for path in required.values() if not path.exists()]
-    if missing:
-        raise FileNotFoundError(
-            "Pipeline sensitivity inputs are missing. Run the main pipeline first. "
-            f"Example missing file: {missing[0]}"
-        )
-
-    imf_savings = pd.read_csv(required["imf_savings"])
-    wdi_savings = pd.read_csv(required["wdi_savings"])
-    savings = pd.concat([
-        imf_savings[imf_savings["economy_code"] == "18_CT"],
-        wdi_savings[
-            (wdi_savings["economy_code"] != "18_CT")
-            & (wdi_savings["year"] == LAST_WDI_YEAR)
-        ],
-    ], ignore_index=True)
-    inputs = {
-        "imf_long": pd.read_csv(required["imf"]),
-        "wdi_long": pd.read_csv(required["wdi"]),
-        "cap_df": pd.read_csv(required["capital"]),
-        "delta_df": pd.read_csv(required["delta"]),
-        "savings_df": savings,
-        "wdi_savings": wdi_savings,
-        "delta_hist": pd.read_csv(required["pwt"]),
-    }
-    population = pd.read_csv(required["population"])
-    scenario_lab_eff = build_labour_efficiency(
-        inputs["imf_long"],
-        population,
-        inputs["cap_df"],
-        [economy],
-        wdi_long=inputs["wdi_long"],
-        alpha_by_economy={economy: params[economy]["alpha"]},
-    )
-    inputs["lab_eff"] = scenario_lab_eff
-    gdp_input = build_gdp_input_table(
-        population,
-        inputs["imf_long"],
-        scenario_lab_eff,
-        inputs["cap_df"],
-        [economy],
-        wdi_long=inputs["wdi_long"],
-    )
-    cap_growth = inputs["cap_df"][
-        ["economy_code", "variable", "year", "percent"]
-    ].reset_index(drop=True)
-    gdp_long, _ = aperc_gdp_model(
-        economy=economy,
-        input_data=gdp_input,
-        labour_data=inputs["lab_eff"],
-        cap_growth_data=cap_growth,
-        delta_data=inputs["delta_df"],
-        sav_data=inputs["savings_df"],
-        save_invest_hist=inputs["imf_long"],
-        delta_hist=inputs["delta_hist"],
-        gdp_9th=pd.read_csv(required["gdp_9th"]),
-        wdi_savings_hist=inputs["wdi_savings"],
-        jump_off_year=jump_off_year_for_economy(economy),
-        **params[economy],
-    )
-    return postprocess(gdp_long)
 
 
 def postprocess(combined):

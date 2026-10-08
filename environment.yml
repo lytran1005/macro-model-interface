@@ -1,0 +1,11 @@
+﻿name: macro10-interface-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - streamlit
+  - pandas
+  - numpy
+  - altair
+  - matplotlib
+  - seaborn

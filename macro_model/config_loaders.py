@@ -3,8 +3,6 @@
 
 These files are the single source of truth for:
   - economies.csv                    canonical economy names and codes
-  - economy_name_mappings.csv        source-specific name -> canonical name
-  - population_variant_choices.csv   UN DESA variant used per economy
   - gdp_model_parameters.csv         per-economy GDP model parameters
 """
 
@@ -40,34 +38,6 @@ def economy_code_map():
 def economy_codes():
     """Return the sorted list of the 21 APEC economy codes."""
     return sorted(load_economies()["economy_code"].tolist())
-
-
-def load_name_mapping(source):
-    """Return dict of source-specific name -> canonical name for one source.
-
-    source must be one of 'UNDESA', 'IMF', 'PWT' (see economy_name_mappings.csv).
-    """
-    path = CONFIG_DIR / "economy_name_mappings.csv"
-    df = pd.read_csv(path)
-    known = df["source"].unique()
-    if source not in known:
-        raise ValueError(f"Unknown source '{source}'. Known sources: {sorted(known)}")
-    df = df[df["source"] == source]
-    return dict(zip(df["source_name"], df["economy"]))
-
-
-def load_population_variant_choices():
-    """Return dict of canonical economy name -> {'variant': str, 'extra_annual_growth': float}."""
-    path = CONFIG_DIR / "population_variant_choices.csv"
-    df = pd.read_csv(path)
-    df["extra_annual_growth"] = df["extra_annual_growth"].fillna(0.0)
-    return {
-        row["economy"]: {
-            "variant": row["variant"],
-            "extra_annual_growth": row["extra_annual_growth"],
-        }
-        for _, row in df.iterrows()
-    }
 
 
 def load_gdp_model_parameters(filename="gdp_model_parameters.csv"):

@@ -16,7 +16,6 @@ from core import (
     FINAL_YEAR,
     POPULATION_SCENARIO_COLUMNS,
     CUSTOM_POPULATION_COLUMN,
-    POPULATION_SAMPLE_FILE,
     POPULATION_SCENARIO_FILES,
     jump_off_year_for_economy,
     load_economies,
@@ -27,7 +26,6 @@ APP_DIR = PROJECT_ROOT
 CONFIG_DIR = PROJECT_ROOT / "config"
 RESULTS_DATA_DIR = PROJECT_ROOT / "results" / "data"
 SAMPLE_WIDE_INPUT_FILE = "sample_wide_input.csv"
-SAMPLE_MODEL_PARAMETERS_FILE = "sample_model_parameters.csv"
 
 
 def _pipeline_sample_data():
@@ -279,35 +277,8 @@ def sample_params_csv():
     return df
 
 
-def _population_scenarios_sample():
-    """Build the population-scenarios fallback from the pipeline's UN DESA outputs.
-
-    Mirrors what core.load_population_scenarios expects to find in
-    sample_population_scenarios.csv: one row per economy/year/scenario.
-    """
-    frames = []
-    for scenario, filename in POPULATION_SCENARIO_FILES.items():
-        path = RESULTS_DATA_DIR / filename
-        if not path.exists():
-            return None
-        population = pd.read_csv(path)
-        population = population[population["variable"] == "population_1jan"].copy()
-        population["year"] = pd.to_numeric(population["year"], errors="coerce")
-        population["value"] = pd.to_numeric(population["value"], errors="coerce")
-        population = population[
-            population["year"].between(HISTORY_START_YEAR, FINAL_YEAR)
-        ].dropna(subset=["economy_code", "year", "value"])
-        population["year"] = population["year"].astype(int)
-        population["scenario"] = scenario
-        frames.append(population[["economy_code", "economy", "year", "value", "scenario"]])
-
-    if not frames:
-        return None
-    return pd.concat(frames, ignore_index=True)
-
-
 def refresh_streamlit_samples():
-    """Regenerate the Streamlit app's bundled sample CSVs from pipeline outputs.
+    """Regenerate the Streamlit app's bundled sample CSV from pipeline outputs.
 
     Call this at the end of the main pipeline run so the sample files shipped
     with the app (used for demo/offline mode) stay in sync with the latest
@@ -322,17 +293,4 @@ def refresh_streamlit_samples():
         wide_sample.to_csv(path, index=False)
         written.append(path.name)
 
-    params_sample = sample_params_csv()
-    if params_sample is not None:
-        path = APP_DIR / SAMPLE_MODEL_PARAMETERS_FILE
-        params_sample.to_csv(path, index=False)
-        written.append(path.name)
-
-    population_sample = _population_scenarios_sample()
-    if population_sample is not None:
-        path = APP_DIR / POPULATION_SAMPLE_FILE
-        population_sample.to_csv(path, index=False)
-        written.append(path.name)
-
     return written
-    return df
