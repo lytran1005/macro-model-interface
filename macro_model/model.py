@@ -192,37 +192,19 @@ def aperc_gdp_model(economy,
             * ((GDP_df2.loc[year, "labour"] * GDP_df2.loc[year, "efficiency"]) ** (1 - alpha))
 
     # --- 4. Historical savings and depreciation (for reporting) ---
-    if economy == "02_BD":
-        # Brunei: prefer WDI savings; retain the IMF investment proxy only as
-        # a fallback for years absent from the WDI history.
-        hist_sav = save_invest_hist[
-            (save_invest_hist["variable"] == "Total investment")
-            & (save_invest_hist["economy_code"] == economy)
+    hist_sav = save_invest_hist[
+        (save_invest_hist["variable"] == "Gross national savings")
+        & (save_invest_hist["economy_code"] == economy)
+    ].set_index("year")["value"] / 100
+    if economy != "18_CT" and wdi_savings_hist is not None:
+        wdi_hist = wdi_savings_hist[
+            wdi_savings_hist["economy_code"] == economy
         ].set_index("year")["value"] / 100
-        if wdi_savings_hist is not None:
-            wdi_hist = wdi_savings_hist[
-                wdi_savings_hist["economy_code"] == economy
-            ].set_index("year")["value"] / 100
-            hist_sav = wdi_hist.combine_first(hist_sav)
-    elif economy == "13_PNG":
-        # PNG: use the WDI seed/corridor path where available; use its anchor
-        # for earlier years without a WDI observation.
-        hist_sav = pd.Series(savings, index=range(HISTORY_START_YEAR, jump_off_year + 1))
-        if wdi_savings_hist is not None:
-            wdi_hist = wdi_savings_hist[
-                wdi_savings_hist["economy_code"] == economy
-            ].set_index("year")["value"] / 100
-            hist_sav = wdi_hist.combine_first(hist_sav)
-    else:
-        hist_sav = save_invest_hist[
-            (save_invest_hist["variable"] == "Gross national savings")
-            & (save_invest_hist["economy_code"] == economy)
-        ].set_index("year")["value"] / 100
-        if economy != "18_CT" and wdi_savings_hist is not None:
-            wdi_hist = wdi_savings_hist[
-                wdi_savings_hist["economy_code"] == economy
-            ].set_index("year")["value"] / 100
-            hist_sav = wdi_hist.combine_first(hist_sav)
+        hist_sav = wdi_hist.combine_first(hist_sav)
+    if economy == "13_PNG" and hist_sav.empty:
+        hist_sav = pd.Series(
+            savings, index=range(HISTORY_START_YEAR, jump_off_year + 1)
+        )
 
     hist_years = range(HISTORY_START_YEAR, jump_off_year + 1)
     dyn_savings.loc[hist_years, "savings"] = hist_sav.reindex(hist_years).values
