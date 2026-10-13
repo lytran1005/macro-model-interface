@@ -695,7 +695,7 @@ def parse_uploaded_economy_params(df, economy_code):
         raise ValueError("'lab_eff_periods' must be an integer from 1 to 10.")
     for low, high, label, minimum, maximum in [
         ("low_eff", "high_eff", "efficiency", 0.005, 0.1),
-        ("low_sav", "high_sav", "savings", 0.15, 0.4),
+        ("low_sav", "high_sav", "savings", 0.15, 0.5),
         ("low_delta", "high_delta", "depreciation", 0.03, 0.07),
     ]:
         if (
