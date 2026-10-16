@@ -130,7 +130,15 @@ def validate(df):
 
 @st.cache_data(show_spinner="Deriving inputs and running Solow-Swan model for all economies...")
 def cached_run(df, params):
-    return run_analysis(df, params)
+def cached_run(
+    df, params, use_uploaded_australia_gdp, use_uploaded_chile_gdp
+):
+    return run_analysis(
+        df,
+        params,
+        use_uploaded_australia_gdp=use_uploaded_australia_gdp,
+        use_uploaded_chile_gdp=use_uploaded_chile_gdp,
+    )
 
 
 @st.cache_data(show_spinner="Loading population scenarios...")
@@ -140,7 +148,15 @@ def cached_population_scenarios(df_wide):
 
 @st.cache_data(show_spinner="Running GDP population-sensitivity projections...")
 def cached_population_gdp_scenarios(df_wide, params):
-    return run_uploaded_population_gdp_scenarios(df_wide, params)
+def cached_population_gdp_scenarios(
+    df_wide, params, use_uploaded_australia_gdp, use_uploaded_chile_gdp
+):
+    return run_uploaded_population_gdp_scenarios(
+        df_wide,
+        params,
+        use_uploaded_australia_gdp=use_uploaded_australia_gdp,
+        use_uploaded_chile_gdp=use_uploaded_chile_gdp,
+    )
 
 
 def load_bundled_sample():
@@ -150,8 +166,22 @@ def load_bundled_sample():
 
 @st.cache_data(show_spinner="Running population scenario...")
 def cached_uploaded_population_scenario(df_wide, scenario, params, economy):
+def cached_uploaded_population_scenario(
+    df_wide,
+    scenario,
+    params,
+    economy,
+    use_uploaded_australia_gdp,
+    use_uploaded_chile_gdp,
+):
     return run_uploaded_population_scenario(
         df_wide, scenario, params, economy=economy
+        df_wide,
+        scenario,
+        params,
+        economy=economy,
+        use_uploaded_australia_gdp=use_uploaded_australia_gdp,
+        use_uploaded_chile_gdp=use_uploaded_chile_gdp,
     )
 
 
@@ -594,6 +624,7 @@ with st.sidebar:
         f"**Years:** {df['year'].min()}–{df['year'].max()} | "
         f"**Rows:** {len(df):,}"
     )
+    use_uploaded_australia_gdp = st.toggle(
     st.caption(
         f"**Model Horizon:** {HISTORY_START_YEAR}–{FINAL_YEAR}\n\n"
         f"**Jump-off Years:**\n"
@@ -605,6 +636,12 @@ with st.sidebar:
 
 params = st.session_state.get("params") or load_gdp_model_parameters("gdp_model_parameters.csv")
 results, inputs, errors = cached_run(df, params)
+results, inputs, errors = cached_run(
+    df,
+    params,
+    use_uploaded_australia_gdp,
+    use_uploaded_chile_gdp,
+)
 
 if errors:
     with st.expander(f"⚠️ {len(errors)} economy/ies had warnings or issues - show details"):
@@ -1012,6 +1049,12 @@ with active_tab:
             try:
                 population_gdp_scenarios, sensitivity_errors = (
                     cached_population_gdp_scenarios(df_wide, params)
+                    cached_population_gdp_scenarios(
+                        df_wide,
+                        params,
+                        use_uploaded_australia_gdp,
+                        use_uploaded_chile_gdp,
+                    )
                 )
                 if population_gdp_scenarios.empty:
                     raise ValueError(
@@ -1118,7 +1161,6 @@ with active_tab:
                     )
                 else:
                     selected_gdp_code = selected_population_codes[0]
-                    selected_gdp_source = "IMF WEO" if selected_gdp_code == "18_CT" else "World Bank WDI"
                     selected_gdp_jump_off = (
                         LAST_IMF_YEAR if selected_gdp_code == "18_CT" else LAST_WDI_YEAR
                     )
@@ -1155,7 +1197,21 @@ with active_tab:
                 on_change=load_uploaded_deep_dive_parameters,
             )
             jump_off = jump_off_year_for_economy(sel_code)
-            source_name = "IMF" if sel_code == "18_CT" else "WDI"
+            jump_off = (
+                australia_gdp_jump_off
+                if sel_code == "01_AUS" and use_uploaded_australia_gdp
+                else chile_gdp_jump_off
+                if sel_code == "04_CHL" and use_uploaded_chile_gdp
+                else jump_off_year_for_economy(sel_code)
+            )
+            source_name = (
+                "uploaded GDP"
+                if (
+                    (sel_code == "01_AUS" and use_uploaded_australia_gdp)
+                    or (sel_code == "04_CHL" and use_uploaded_chile_gdp)
+                )
+                else "IMF" if sel_code == "18_CT" else "WDI"
+            )
 
             deep_dive_options = ["Medium", "Low", "High"]
             if sel_code in custom_population_status(df_wide)[0]:
@@ -1347,6 +1403,12 @@ with active_tab:
         try:
             deep_dive_results, deep_dive_errors = cached_uploaded_population_scenario(
                 df_wide, deep_dive_scenario, deep_dive_params, sel_code
+                df_wide,
+                deep_dive_scenario,
+                deep_dive_params,
+                sel_code,
+                use_uploaded_australia_gdp,
+                use_uploaded_chile_gdp,
             )
             economy_error = next(
                 (
@@ -1381,7 +1443,7 @@ with active_tab:
                 ][["year", "real_GDP"]].rename(columns={"real_GDP": "value"})
                 historical_gdp["series"] = "10th Outlook historical"
                 projected_gdp = gdp_chart[
-                    gdp_chart["year"] >= jump_off
+                    gdp_chart["year"] > jump_off
                 ][["year", "real_GDP"]].rename(columns={"real_GDP": "value"})
                 projected_gdp["series"] = "10th Outlook projection"
                 gdp_plot = pd.concat([historical_gdp, projected_gdp], ignore_index=True)
