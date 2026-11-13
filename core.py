@@ -5,9 +5,10 @@ wide-format upload, rebuilds the inputs the APERC Solow-Swan model expects,
 runs the projection for every economy, and assembles the combined result
 table.
 
-The model itself lives in the repo (workflow/scripts/Macro/model.py) so there
-is a single authoritative copy; its functions and constants are imported
-directly below. Sample/template generators live in generate_samples.py.
+The model itself lives in macro_model/model.py; its functions and constants
+are imported directly below. Standard app runs use the loaded wide CSV's
+population_1jan; scenario runs substitute the selected column in a copy.
+Sample/template generators live in generate_samples.py.
 """
 
 import sys
@@ -38,6 +39,7 @@ from model import (  # noqa: E402
     LABEL_9TH,
 )
 from config_loaders import load_economies, economy_code_map, load_gdp_model_parameters  # noqa: E402
+from population import load_default_population  # noqa: E402
 
 # Raw variables in the uploaded CSV, with a short description. Everything else
 # (capital stock, labour efficiency) is derived from these by the app.
@@ -79,11 +81,14 @@ POPULATION_SCENARIO_FILES = {
     "High": "undesa_pop_to2100_high.csv",
 }
 POPULATION_SCENARIO_COLUMNS = {
-    scenario: f"population_1jan_{scenario.lower()}"
-    for scenario in POPULATION_SCENARIO_FILES
+    "Low": "population_1jan_low",
+    "Medium": "population_1jan_medium",
+    "High": "population_1jan_high",
 }
 CUSTOM_SCENARIO = "Custom"
 CUSTOM_POPULATION_COLUMN = "population_1jan_custom"
+DEFAULT_SCENARIO = "Default"
+DEFAULT_POPULATION_COLUMN = "population_1jan"
 
 
 def _with_economy_code(df_wide):
@@ -96,15 +101,17 @@ def _with_economy_code(df_wide):
 def custom_population_status(df_wide):
     """Return (complete, incomplete) economy codes for the optional custom column.
 
-    An economy is complete when the custom column has a value for every year in
-    which the Medium UN DESA column has one. Economies with no custom values at
-    all are ignored; partially filled economies are reported as incomplete.
+    A complete economy has at least one finite, positive custom value and one
+    for every 1990–2060 row where the Medium column is numeric. If Medium is
+    absent, numeric-year rows within the horizon are the reference. Economies
+    with no valid custom values are ignored; partial paths are incomplete.
     """
     if CUSTOM_POPULATION_COLUMN not in df_wide.columns:
         return [], []
     frame = _with_economy_code(df_wide)
     frame["year"] = pd.to_numeric(frame["year"], errors="coerce")
     custom = pd.to_numeric(frame[CUSTOM_POPULATION_COLUMN], errors="coerce")
+    valid_custom = custom.notna() & np.isfinite(custom) & (custom > 0)
     reference_column = POPULATION_SCENARIO_COLUMNS["Medium"]
     reference = (
         pd.to_numeric(frame[reference_column], errors="coerce")
@@ -114,7 +121,7 @@ def custom_population_status(df_wide):
     in_horizon = frame["year"].between(HISTORY_START_YEAR, FINAL_YEAR)
     complete, incomplete = [], []
     for code, group in frame[in_horizon].groupby("economy_code"):
-        provided = custom.loc[group.index].notna()
+        provided = valid_custom.loc[group.index]
         if not provided.any():
             continue
         needed = reference.loc[group.index].notna()
@@ -126,8 +133,8 @@ def custom_population_status(df_wide):
 
 
 def available_population_scenarios(df_wide):
-    """Official scenarios, plus Custom when any economy has a complete custom path."""
-    scenarios = list(POPULATION_SCENARIO_COLUMNS)
+    """Default and official scenarios, plus Custom when a complete path exists."""
+    scenarios = [DEFAULT_SCENARIO, *POPULATION_SCENARIO_COLUMNS]
     if custom_population_status(df_wide)[0]:
         scenarios.append(CUSTOM_SCENARIO)
     return scenarios
@@ -135,8 +142,9 @@ def available_population_scenarios(df_wide):
 
 def population_scenarios_from_wide(df_wide):
     """Return population paths embedded in the currently loaded wide input."""
+    scenario_columns = {DEFAULT_SCENARIO: DEFAULT_POPULATION_COLUMN, **POPULATION_SCENARIO_COLUMNS}
     missing = [
-        column for column in POPULATION_SCENARIO_COLUMNS.values()
+        column for column in scenario_columns.values()
         if column not in df_wide.columns
     ]
     if missing:
@@ -156,7 +164,7 @@ def population_scenarios_from_wide(df_wide):
 
     identifiers = ["economy_code", "economy", "year"]
     frames = []
-    for scenario, column in POPULATION_SCENARIO_COLUMNS.items():
+    for scenario, column in scenario_columns.items():
         population = frame[identifiers + [column]].rename(
             columns={column: "value"}
         )
@@ -188,13 +196,15 @@ def population_scenarios_from_wide(df_wide):
 
 
 def run_uploaded_population_scenario(df_wide, scenario, params, economy=None):
-    """Run the model using one population pathway from the uploaded wide CSV."""
+    """Run the model using a scenario column from the loaded wide CSV."""
     custom_codes = None
     if scenario == CUSTOM_SCENARIO:
         population_column = CUSTOM_POPULATION_COLUMN
         custom_codes, _ = custom_population_status(df_wide)
         if not custom_codes:
             raise ValueError("No economy has a complete custom population path.")
+    elif scenario == DEFAULT_SCENARIO:
+        population_column = DEFAULT_POPULATION_COLUMN
     else:
         population_column = POPULATION_SCENARIO_COLUMNS.get(scenario)
     if population_column is None:
@@ -214,12 +224,12 @@ def run_uploaded_population_scenario(df_wide, scenario, params, economy=None):
         long_input = long_input[long_input["economy_code"].isin(custom_codes)]
     if economy is not None:
         long_input = long_input[long_input["economy_code"] == economy]
-    results, _, errors = run_analysis(long_input, params)
+    results, _, errors = run_analysis(long_input, params, use_default_population=False)
     return results, errors
 
 
 def run_uploaded_population_gdp_scenarios(df_wide, params):
-    """Run GDP projections for Low, Medium, and High paths in the uploaded CSV."""
+    """Run GDP projections for each available population path in the wide CSV."""
     frames = []
     errors = []
     for scenario in available_population_scenarios(df_wide):
@@ -510,13 +520,15 @@ def derive_labour_efficiency(df, capital_df, codes, alpha_by_code):
     return pd.DataFrame(rows)
 
 
-def run_analysis(df, params):
+def run_analysis(df, params, use_default_population=False):
     """Derive capital and labour efficiency from the raw upload, run the model
     for every economy, and postprocess results.
 
     params: dict of economy_code -> model keyword arguments
             (e.g. config/gdp_model_parameters.csv). Unknown codes run with
             model defaults.
+    use_default_population: replace input population with configured source
+            paths. By default the supplied population values are preserved.
 
     Returns (results_long, inputs, errors):
       results_long : combined long result table (real_GDP, population, ...)
@@ -529,6 +541,12 @@ def run_analysis(df, params):
     df["year"] = df["year"].astype(int)
 
     codes = sorted(df["economy_code"].unique())
+    if use_default_population:
+        population = load_default_population(codes)
+        df = pd.concat(
+            [df[df["variable"] != "population_1jan"], population],
+            ignore_index=True,
+        )
     capital_df = derive_capital_stock(df, codes)
     labour_eff_df = derive_labour_efficiency(
         df, capital_df, codes,

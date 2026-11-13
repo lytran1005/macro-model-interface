@@ -16,7 +16,8 @@ import streamlit as st
 SCENARIO_ORDER = ["Low", "Medium", "High"]
 SCENARIO_COLORS = ["#2a9d8f", "#e9c46a", "#e76f51"]
 CUSTOM_SCENARIO_COLOR = "#7b4fa3"
-SCENARIO_DISPLAY_ORDER = ["High", "Medium", "Low", "Custom"]
+DEFAULT_SCENARIO_COLOR = "#172b4d"
+SCENARIO_DISPLAY_ORDER = ["High", "Medium", "Low", "Custom", "Default"]
 WORLD_TOPOJSON_PATH = Path(__file__).resolve().parent / "assets" / "world-110m.json"
 # ISO 3166-1 numeric codes used only to join model results to the basemap geometry.
 APEC_MAP_IDS = {
@@ -85,6 +86,7 @@ from core import (
     REPO_MACRO,  # noqa: F401  (kept explicit so the model path is obvious)
     jump_off_year_for_economy,
     CUSTOM_SCENARIO,
+    DEFAULT_SCENARIO,
     available_population_scenarios,
     custom_population_status,
     population_scenarios_from_wide,
@@ -99,7 +101,7 @@ from core import (
 from generate_samples import sample_params_csv
 
 SAMPLE_INPUT_PATH = Path(__file__).resolve().parent / "sample_wide_input.csv"
-UN_DESA_LAST_ESTIMATE_YEAR = 2023
+POPULATION_HISTORY_END_YEAR = 2024
 
 st.set_page_config(
     page_title="APERC 10th Outlook — Solow-Swan GDP Model",
@@ -283,6 +285,7 @@ def chart_series_colors(series_values):
         "Medium": SCENARIO_COLORS[1],
         "Low": SCENARIO_COLORS[0],
         "Custom": CUSTOM_SCENARIO_COLOR,
+        "Default": DEFAULT_SCENARIO_COLOR,
     }
     colors = []
     for label in ordered:
@@ -526,9 +529,10 @@ with st.sidebar:
             "Upload a wide CSV (one row per economy-year). Required columns: `economy` or `economy_code`, `year`, and: "
             "`population_1jan`, `Real GDP PPP 2021 USD`, `output_to_kstock`, `delta`, `Gross national savings`. "
             "To use population scenarios, also include `population_1jan_low`, `population_1jan_medium`, "
-            "and `population_1jan_high`. The sample also includes an optional blank "
-            "`population_1jan_custom` column for your own population path; fill it for each year "
-            "of an economy to enable the Custom scenario."
+            "and `population_1jan_high`. Population values are in thousands. The loaded "
+            "`population_1jan` supplies Default and is not replaced for uploads. "
+            "An optional `population_1jan_custom` path enables Custom for an economy when "
+            "it has finite, positive values in every model year where Medium has a value."
         )
 
         st.markdown("**📁 1. Model Input Data**")
@@ -731,9 +735,8 @@ with active_tab:
     if active_view == VIEW_POPULATION:
         st.subheader("Population Scenarios")
         st.caption(
-            "Compare Low, Medium, and High population projections from the currently loaded wide CSV and examine "
-            "their impact on long-term GDP. Select the population pathway that best reflects your economy's "
-            "expectations before proceeding to macroeconomic assumptions in the next tab."
+            "Compare the Default, Low, Medium, High and available Custom population paths "
+            "from the currently loaded wide CSV and examine their impact on long-term GDP."
         )
 
         try:
@@ -758,7 +761,7 @@ with active_tab:
                 for code in all_population_codes
             ]
             population_label_to_code = dict(zip(population_labels, all_population_codes))
-            scenario_choice = ["High", "Low", "Medium"]
+            scenario_choice = [DEFAULT_SCENARIO, "High", "Low", "Medium"]
             if CUSTOM_SCENARIO in scenario_order:
                 scenario_choice.append(CUSTOM_SCENARIO)
             scenario_choice.append("All")
@@ -789,12 +792,12 @@ with active_tab:
                     scenario_choice,
                     index=len(scenario_choice) - 1,
                     key="population_scenario_selected",
-                    help="Choose High, Low, Medium, Custom (if provided), or All scenarios.",
+                    help="Choose Default, High, Low, Medium, Custom (if provided), or All scenarios.",
                 )
             selected_scenarios = scenario_order if selected_scenario == "All" else [selected_scenario]
             if incomplete_custom_codes:
                 st.warning(
-                    "Custom population ignored for economies with missing years: "
+                    "Custom population ignored for economies with missing or invalid values: "
                     + ", ".join(incomplete_custom_codes)
                 )
             if (
@@ -804,7 +807,7 @@ with active_tab:
             ):
                 selected_scenarios = [s for s in selected_scenarios if s != CUSTOM_SCENARIO]
                 st.info(
-                    "Custom is not shown in the APEC total because it does not cover all economies. "
+                    "Custom is not shown in the total because it does not cover all economies in the loaded data. "
                     "Use the By Economy view."
                 )
 
@@ -883,7 +886,7 @@ with active_tab:
             if population_view == "Total":
                 chart_data = selected_total
                 st.markdown("#### Total APEC Population Paths")
-                st.caption("Total population across all 21 APEC economies for each selected scenario.")
+                st.caption("Total population across economies represented in the loaded data for each selected scenario.")
             else:
                 chart_data = common_population_chart
                 st.markdown("#### Population Paths by Economy")
@@ -891,56 +894,10 @@ with active_tab:
             population_long = chart_data.reset_index().melt(
                 id_vars="year", var_name="series", value_name="value"
             ).dropna(subset=["value"])
-            historical_population = population_long[
-                population_long["year"] <= LAST_PWT_YEAR
-            ].copy()
-            projected_population = population_long[
-                population_long["year"] > LAST_PWT_YEAR
-            ].copy()
-            custom_history = historical_population[
-                historical_population["series"].str.endswith(f" — {CUSTOM_SCENARIO}")
-            ].copy()
-            official_history = historical_population[
-                ~historical_population["series"].str.endswith(f" — {CUSTOM_SCENARIO}")
-            ].copy()
-            if not official_history.empty:
-                official_history["economy_series"] = official_history["series"].map(
-                    lambda series: (
-                        series.rsplit(" — ", 1)[0] if " — " in series else ""
-                    )
-                )
-                official_history["scenario"] = official_history["series"].map(
-                    lambda series: (
-                        series.rsplit(" — ", 1)[1]
-                        if " — " in series
-                        else series
-                    )
-                )
-                official_history["scenario_priority"] = official_history[
-                    "scenario"
-                ].map({"Medium": 0, "Low": 1, "High": 2})
-                official_history = official_history.sort_values(
-                    ["scenario_priority", "series"]
-                ).drop_duplicates(
-                    subset=["year", "economy_series"], keep="first"
-                )
-                official_history["series"] = official_history[
-                    "economy_series"
-                ].map(
-                    lambda economy: (
-                        f"{economy} — Historical estimates"
-                        if economy
-                        else "Historical estimates"
-                    )
-                )
-                official_history = official_history[
-                    ["year", "series", "value"]
-                ]
-            historical_population = pd.concat(
-                [official_history, custom_history], ignore_index=True
-            )
-            population_plot = pd.concat(
-                [historical_population, projected_population], ignore_index=True
+            population_plot = population_long.copy()
+            population_plot["is_default"] = (
+                population_plot["series"].eq(DEFAULT_SCENARIO)
+                | population_plot["series"].str.endswith(f" — {DEFAULT_SCENARIO}")
             )
             population_series_order = chart_series_order(population_plot["series"].unique())
             population_hover = alt.selection_point(
@@ -961,7 +918,12 @@ with active_tab:
                 alt.Tooltip("value:Q", title="Population", format=",.2f"),
                 alt.Tooltip("series:N", title="Series"),
             ]
-            population_line = population_base.mark_line().encode(tooltip=alt.value(None))
+            population_line = population_base.transform_filter(
+                "!datum.is_default"
+            ).mark_line().encode(tooltip=alt.value(None))
+            population_default_line = population_base.transform_filter(
+                "datum.is_default"
+            ).mark_line().encode(tooltip=alt.value(None))
             population_selectors = population_base.mark_point(opacity=0).encode(
                 tooltip=alt.value(None)
             ).add_params(population_hover)
@@ -972,11 +934,12 @@ with active_tab:
             population_hover_rule = alt.Chart(population_plot).mark_rule(
                 color="#a0a0a0", strokeDash=[3, 3]
             ).encode(x="year:Q").transform_filter(population_hover)
-            population_divider = alt.Chart(pd.DataFrame({"year": [LAST_PWT_YEAR + 1]})).mark_rule(
+            population_divider = alt.Chart(pd.DataFrame({"year": [POPULATION_HISTORY_END_YEAR + 1]})).mark_rule(
                 color="#b8b8b8", strokeDash=[5, 5]
             ).encode(x="year:Q")
             population_chart = (
                 population_line
+                + population_default_line
                 + population_selectors
                 + population_points
                 + population_hover_rule
@@ -988,12 +951,13 @@ with active_tab:
             with download_col:
                 render_chart_download_button(population_chart, "apec_population_paths.png")
             population_caption = (
-                "Low, Medium, and High population paths use UN DESA historical estimates "
-                "through 2023 and projections from 2024 onward."
+                "Default uses population_1jan from the loaded data. In the prepared bundled sample, "
+                "Low, Medium and High share configured history through 2024 and use UN DESA projections from 2025. "
+                "Refresh the sample after changing the population configuration."
             )
             if CUSTOM_SCENARIO in scenario_order:
                 population_caption += (
-                    " Custom is a user-provided population path and is not a UN DESA variant. "
+                    " Custom uses the separate population_1jan_custom column and is not a UN DESA variant. "
                     "Available for: " + ", ".join(custom_codes) + "."
                 )
             st.caption(population_caption)
@@ -1002,7 +966,7 @@ with active_tab:
                 population_scenarios.to_csv(index=False).encode(),
                 file_name="apec_population_scenarios.csv",
                 mime="text/csv",
-                help="Download the complete Low, Medium, and High population scenario dataset used by this tab.",
+                help="Download all available population scenario paths used by this tab.",
             )
 
             st.markdown(f"#### Real GDP Population Sensitivity ({HISTORY_START_YEAR}–{FINAL_YEAR})")
@@ -1041,7 +1005,7 @@ with active_tab:
                     gdp_chart_data = gdp_chart_data[
                         [scenario for scenario in scenario_order if scenario in selected_scenarios]
                     ]
-                    st.caption("Total APEC real GDP under each selected population scenario.")
+                    st.caption("Total real GDP across economies represented in the loaded data under each selected population scenario.")
                 else:
                     population_gdp_view = population_gdp_view[
                         population_gdp_view["economy_code"].isin(selected_population_codes)
@@ -1070,6 +1034,10 @@ with active_tab:
                 gdp_plot = gdp_chart_data.reset_index().melt(
                     id_vars="year", var_name="series", value_name="value"
                 ).dropna(subset=["value"])
+                gdp_plot["is_default"] = (
+                    gdp_plot["series"].eq(DEFAULT_SCENARIO)
+                    | gdp_plot["series"].str.endswith(f" — {DEFAULT_SCENARIO}")
+                )
                 gdp_hover = alt.selection_point(
                     fields=["year"], nearest=True, on="pointerover", empty=False
                 )
@@ -1088,7 +1056,12 @@ with active_tab:
                     alt.Tooltip("value:Q", title="Real GDP (millions 2021 USD PPP)", format=",.2f"),
                     alt.Tooltip("series:N", title="Population scenario"),
                 ]
-                gdp_line = gdp_base.mark_line().encode(tooltip=alt.value(None))
+                gdp_line = gdp_base.transform_filter(
+                    "!datum.is_default"
+                ).mark_line().encode(tooltip=alt.value(None))
+                gdp_default_line = gdp_base.transform_filter(
+                    "datum.is_default"
+                ).mark_line().encode(tooltip=alt.value(None))
                 gdp_selectors = gdp_base.mark_point(opacity=0).encode(
                     tooltip=alt.value(None)
                 ).add_params(gdp_hover)
@@ -1101,6 +1074,7 @@ with active_tab:
                 ).encode(x="year:Q").transform_filter(gdp_hover)
                 gdp_chart = (
                     gdp_line
+                    + gdp_default_line
                     + gdp_selectors
                     + gdp_points
                     + gdp_hover_rule
@@ -1112,9 +1086,10 @@ with active_tab:
                     render_chart_download_button(gdp_chart, "apec_gdp_population_sensitivity.png")
                 if population_view == "Total":
                     st.caption(
-                        "Real GDP (Millions 2021 USD PPP). Historical source: World Bank WDI "
-                        "through 2025 for non-CT economies and IMF WEO through 2031 for CT; "
-                        "population-sensitivity projections begin in 2026 and 2032 respectively."
+                        "Real GDP (Millions 2021 USD PPP). The prepared sample uses WDI historical GDP "
+                        "through 2025 for non-CT economies and IMF GDP through 2031 for CT. "
+                        "Population-sensitivity GDP projections begin in 2026 and 2032 respectively; "
+                        "uploaded historical inputs come from the loaded CSV."
                     )
                 else:
                     selected_gdp_code = selected_population_codes[0]
@@ -1123,9 +1098,10 @@ with active_tab:
                         LAST_IMF_YEAR if selected_gdp_code == "18_CT" else LAST_WDI_YEAR
                     )
                     st.caption(
-                        f"Real GDP (Millions 2021 USD PPP). Jump-off from {selected_gdp_source} "
-                        f"occurs at year {selected_gdp_jump_off}; population-sensitivity projections "
-                        f"begin in {selected_gdp_jump_off + 1}."
+                        f"Real GDP (Millions 2021 USD PPP). The GDP jump-off year is {selected_gdp_jump_off}; "
+                        f"population-sensitivity GDP projections begin in {selected_gdp_jump_off + 1}. "
+                        f"The prepared sample uses {selected_gdp_source} historical GDP; uploaded "
+                        "historical inputs come from the loaded CSV."
                     )
                 st.download_button(
                     "⬇️ Download GDP sensitivity data",
@@ -1157,7 +1133,7 @@ with active_tab:
             jump_off = jump_off_year_for_economy(sel_code)
             source_name = "IMF" if sel_code == "18_CT" else "WDI"
 
-            deep_dive_options = ["Medium", "Low", "High"]
+            deep_dive_options = [DEFAULT_SCENARIO, "Medium", "Low", "High"]
             if sel_code in custom_population_status(df_wide)[0]:
                 deep_dive_options.append(CUSTOM_SCENARIO)
             if st.session_state.get("deep_dive_population_scenario") not in deep_dive_options:
@@ -1167,7 +1143,7 @@ with active_tab:
                 deep_dive_options,
                 horizontal=True,
                 key="deep_dive_population_scenario",
-                help="Re-runs this economy using the selected population column from the currently loaded wide CSV and the current model parameters.",
+                help="Default uses population_1jan from the loaded CSV. Each selection reruns this economy using its population column and current Deep Dive parameters.",
             )
             show_9th_outlook = st.toggle(
                 "Show rebased 9th Outlook",
@@ -1448,18 +1424,21 @@ with active_tab:
             ].set_index("year")["value"].sort_index()
             if not population_path.empty:
                 if deep_dive_scenario == CUSTOM_SCENARIO:
-                    # Custom coverage is user-defined, so no historical/projection split.
                     population_plot = pd.DataFrame({CUSTOM_SCENARIO: population_path})
                     population_order = [CUSTOM_SCENARIO]
                     population_colors = ["#1f4e79"]
                     population_dashed = None
                 else:
                     population_plot = pd.DataFrame({
-                        "Historical": population_path[population_path.index <= UN_DESA_LAST_ESTIMATE_YEAR],
-                        "Projection": population_path[population_path.index >= UN_DESA_LAST_ESTIMATE_YEAR],
+                        "Historical": population_path[population_path.index <= POPULATION_HISTORY_END_YEAR],
+                        "Projection": population_path[population_path.index >= POPULATION_HISTORY_END_YEAR],
                     })
                     population_order = ["Historical", "Projection"]
-                    population_colors = ["#7fb3d5", "#1f4e79"]
+                    population_colors = (
+                        [DEFAULT_SCENARIO_COLOR, DEFAULT_SCENARIO_COLOR]
+                        if deep_dive_scenario == DEFAULT_SCENARIO
+                        else ["#7fb3d5", "#1f4e79"]
+                    )
                     population_dashed = ["Projection"]
                 render_interactive_line_chart(
                     population_plot,

@@ -1,7 +1,8 @@
 #%%
 """Build capital stock and labour efficiency inputs (step 4 of the pipeline).
 
-Combines the outputs of the population, IMF, and PWT prep steps to produce:
+Combines configured default population sources with IMF, WDI (when available),
+and PWT prepared data to produce:
 
   results/data/capital_stock.csv
     capital = GDP / output_to_kstock, with the PWT ratio forward-filled
@@ -25,6 +26,7 @@ import seaborn as sns
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paths import RESULTS_DIR, RESULTS_DATA_DIR, ensure_dir
 from config_loaders import economy_codes, load_gdp_model_parameters
+from population import load_default_population
 from model import HISTORY_START_YEAR, LAST_PWT_YEAR, LAST_IMF_YEAR, LAST_WDI_YEAR, FINAL_YEAR
 
 #%%
@@ -184,8 +186,8 @@ def build_gdp_input_table(pop_long, imf_long, lab_eff, cap_df, codes, wdi_long=N
     """Assemble the wide per-economy table the GDP model consumes.
 
     Columns: economy_code, economy, year, labour, efficiency, capital, real_output.
-    Used by both the main results run and the population sensitivity run
-    (which passes different population datasets).
+    Accepts the population path supplied by its caller, including configured
+    default or sensitivity data.
     """
     def source_for_economy(economy_code):
         if economy_code == "18_CT":
@@ -269,7 +271,7 @@ def make_labour_efficiency_charts(e_df, codes):
 def run_model_input_prep(save_charts=True):
     """Run the full model-input preparation step (capital + labour efficiency)."""
     ensure_dir(RESULTS_DATA_DIR)
-    pop_long = pd.read_csv(RESULTS_DATA_DIR / "undesa_pop_to2100.csv")
+    pop_long = load_default_population()
     imf_long = pd.read_csv(RESULTS_DATA_DIR / "IMF_to2031.csv")
     wdi_long = None
     if (RESULTS_DATA_DIR / "WDI_to2025.csv").exists():

@@ -4,9 +4,11 @@ This project is a self-contained Streamlit front end for the APERC 10th Outlook
 macro model. It copies the UI and the required model helpers into a standalone
 root so it can run without depending on the original repository layout.
 
-The app reads its configuration from the local `config` directory. Population
-scenario paths and the corresponding GDP sensitivity runs use the population
-columns in the currently loaded wide CSV.
+The app loads model-parameter defaults from the local `config` directory. The
+bundled sample's population paths are prepared using the source selections in
+`config/default_population_scenario.csv` and source files in `results/data/`.
+Default and sensitivity model runs use population columns from the currently
+loaded wide CSV; uploaded population values are not replaced.
 
 ---
 
@@ -16,8 +18,8 @@ columns in the currently loaded wide CSV.
 - `core.py` — model execution and data loading
 - `generate_samples.py` — refreshes the bundled sample CSV from prepared pipeline outputs
 - `macro_model/` — copied model helper modules
-- `config/` — economy metadata and model parameter tables
-- `results/data/` — prepared source data used only to refresh the bundled sample
+- `config/` — economy metadata, model parameters and default population selections
+- `results/data/` — source data for preparing the bundled sample and model inputs
 - `.streamlit/config.toml` — light theme configuration
 
 ---
@@ -53,20 +55,21 @@ For normal use, start only the Streamlit app:
    you do not need to run those files separately. The app reads the bundled
    `sample_wide_input.csv` or a CSV uploaded in the interface.
 
-To refresh the bundled samples after the prepared source files in
-`results/data/` change, run this from the project folder before launching (or
-relaunching) the app:
+After changing `config/default_population_scenario.csv` or the prepared source
+files in `results/data/`, refresh the bundled sample from the project folder:
 
 ```powershell
 python -c "import generate_samples; print(generate_samples.refresh_streamlit_samples())"
 ```
 
-The refresh function rebuilds `sample_wide_input.csv` from the available prepared outputs. In the full data pipeline, this refresh
-belongs **after** the upstream scripts have finished writing the required
-`results/` files. Those upstream pipeline scripts are not part of this
-standalone interface, so there is no additional sequence of pipeline `.py`
-files to run here. If you only want to run the interface using its current
-sample, skip the refresh step.
+The refresh function rebuilds `sample_wide_input.csv` from the prepared outputs
+and reports the files written. It returns an empty list when its required
+pipeline CSVs are unavailable; selected population sources that are missing or
+invalid raise an error. In the full data pipeline, refresh after upstream
+scripts have finished writing `results/`. Those scripts are not part of this
+standalone interface. To use the current sample without changing its defaults,
+skip the refresh. Reload the sample in the app or restart the app after a
+refresh; editing configuration alone does not update an already loaded sample.
 
 ---
 
@@ -74,28 +77,21 @@ sample, skip the refresh step.
 
 The project is intentionally packaged with the files needed for a local run:
 
-- `config/` copied from the main project, including economy codes and GDP model parameters
+- `config/` with economy codes, GDP model parameters and default population source selections
 - `results/` copied from the main project as source data for regenerating the sample
 - `macro_model/` copied from the main project to preserve the same calculation logic
 - the bundled `sample_wide_input.csv` for offline/demo use when the prepared outputs are unavailable
 
-The wide input may include `population_1jan_low`, `population_1jan_medium`,
-and `population_1jan_high`. The Population Scenarios tab and Economy Deep Dive
-use these columns from the currently loaded file; the main model input column
-`population_1jan` remains the population path used for the standard results.
-When refreshing the bundled sample, these three columns are populated from
-the matching prepared UN DESA outputs. GDP for each population scenario is recalculated by the app from the loaded wide CSV; nothing is read from `results/` at runtime.
+### Population data
 
-**Optional custom population.** Add a `population_1jan_custom` column to the
-wide CSV to include a user-defined "Custom" scenario (it is not a UN DESA
-variant). The official Low/Medium/High columns are never modified. Custom is
-shown only when at least one economy has a value in every year where
-`population_1jan_medium` has one; economies with a partial path are ignored
-with a warning, and economies left blank simply have no Custom line. The
-Custom population and GDP lines appear alongside the official scenarios in the
-Population Scenarios tab (By Economy view; the APEC total only includes Custom
-when every economy is covered) and as an extra option in Economy Deep Dive for
-covered economies. Without the column the app behaves as before.
+The bundled sample's default population sources are configured per economy in
+[`default_population_scenario.csv`](./config/default_population_scenario.csv).
+For source-file formats, year ranges, preparation steps and scenario details,
+see the [configuration guide](./config/default_population_scenario.md).
+The app uses the population columns in the loaded wide CSV: `population_1jan`
+for Default and the Low/Medium/High columns for comparisons and sensitivity.
+Uploads keep their own population values. The separate optional Custom scenario
+uses `population_1jan_custom` when a complete valid path is available.
 
 The app now resolves all paths relative to this project root instead of assuming the original repository structure.
 
@@ -108,11 +104,12 @@ The app now resolves all paths relative to this project root instead of assuming
 Shows APEC-wide summary metrics and an interactive map of the 21 economies
 (GDP per capita, Real GDP or Population, by model year). It appears after
 Economy Comparison and uses the standard model results, like that tab; it does
-not have a Low/Medium/High/Custom selector. Population and population-dependent
-results use the `population_1jan` values in the loaded input. The Low/Medium/
-High/Custom variants remain available in the Population Scenarios and Economy
-Deep Dive workflows. The overview uses the default model parameters, not the
-Economy Deep Dive controls. The basemap is
+not have a population-scenario selector. Population and population-dependent
+results use `population_1jan` from the loaded CSV (Default). The
+Default/Low/Medium/High/Custom choices are available in the Population
+Scenarios and Economy Deep Dive workflows when their required columns and
+Custom coverage are present. The overview uses the default model parameters,
+not the Economy Deep Dive controls. The basemap is
 `assets/world-110m.json` (Natural Earth-derived, via `world-atlas`); non-APEC land
 is muted and borders are not drawn. Hong Kong, China; Singapore; and Brunei
 Darussalam are too small to draw at this resolution and appear as point markers.

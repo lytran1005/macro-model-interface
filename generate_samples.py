@@ -1,8 +1,9 @@
 """Sample / template data generators for the Streamlit app.
 
-The default sample input should mirror the current pipeline output, refreshed
-whenever the pipeline is re-run. A synthetic fallback remains only for
-offline/demo use when the prepared result files are unavailable.
+The prepared sample combines configured default population and common history
+with UN DESA sensitivity projections. Refresh preserves the existing optional
+custom scenario column. A synthetic fallback is used by make_sample_data()
+when required pipeline CSVs are unavailable.
 """
 
 from pathlib import Path
@@ -19,7 +20,9 @@ from core import (
     POPULATION_SCENARIO_FILES,
     jump_off_year_for_economy,
     load_economies,
+    load_default_population,
 )
+from population import load_population_sensitivity_paths
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 APP_DIR = PROJECT_ROOT
@@ -31,12 +34,11 @@ SAMPLE_WIDE_INPUT_FILE = "sample_wide_input.csv"
 def _pipeline_sample_data():
     """Build the sample wide CSV directly from the current pipeline outputs.
 
-    This keeps the Streamlit sample aligned with the actual model input files
-    written by the macro pipeline. If the underlying result files are missing,
-    we fall back to the legacy synthetic sample for demo-only use.
+    Return None when required pipeline CSVs are unavailable. Configured
+    population source errors are raised, and existing optional custom scenario
+    values are preserved by economy and year.
     """
     required_files = [
-        RESULTS_DATA_DIR / "undesa_pop_to2100.csv",
         RESULTS_DATA_DIR / "WDI_to2025.csv",
         RESULTS_DATA_DIR / "IMF_to2031.csv",
         RESULTS_DATA_DIR / "PWT_cap_labour_to2023.csv",
@@ -49,31 +51,11 @@ def _pipeline_sample_data():
         return None
 
     economies = load_economies()
-    pop = pd.read_csv(RESULTS_DATA_DIR / "undesa_pop_to2100.csv")
-    pop = pop[pop["variable"] == "population_1jan"][
-        ["economy_code", "economy", "year", "value"]
-    ].copy()
-    pop["year"] = pd.to_numeric(pop["year"], errors="coerce")
-    pop["value"] = pd.to_numeric(pop["value"], errors="coerce")
+    pop = load_default_population()
 
-    population_paths = {}
-    for scenario, filename in POPULATION_SCENARIO_FILES.items():
-        scenario_data = pd.read_csv(RESULTS_DATA_DIR / filename)
-        scenario_data = scenario_data[
-            scenario_data["variable"] == "population_1jan"
-        ][["economy_code", "year", "value"]].copy()
-        scenario_data["year"] = pd.to_numeric(
-            scenario_data["year"], errors="coerce"
-        )
-        scenario_data["value"] = pd.to_numeric(
-            scenario_data["value"], errors="coerce"
-        )
-        population_paths[scenario] = {
-            (row["economy_code"], int(row["year"])): float(row["value"])
-            for _, row in scenario_data.dropna(
-                subset=["economy_code", "year", "value"]
-            ).iterrows()
-        }
+    population_paths = load_population_sensitivity_paths(pop, RESULTS_DATA_DIR).set_index(
+        ["economy_code", "year"]
+    )
 
     gdp_frames = []
     for name in ["IMF_to2031.csv", "WDI_to2025.csv"]:
@@ -135,10 +117,9 @@ def _pipeline_sample_data():
             pop_row = pop[(pop["economy_code"] == code) & (pop["year"] == year)]
             if not pop_row.empty:
                 record["population_1jan"] = float(pop_row["value"].iloc[0])
-            for scenario, column in POPULATION_SCENARIO_COLUMNS.items():
-                population = population_paths[scenario].get((code, year))
-                if population is not None:
-                    record[column] = population
+            if (code, year) in population_paths.index:
+                for column in POPULATION_SCENARIO_COLUMNS.values():
+                    record[column] = population_paths.at[(code, year), column]
 
             gdp_row = gdp[(gdp["economy_code"] == code) & (gdp["year"] == year)]
             if not gdp_row.empty:
@@ -163,6 +144,20 @@ def _pipeline_sample_data():
         return None
 
     sample = pd.DataFrame(rows)
+    existing_path = APP_DIR / SAMPLE_WIDE_INPUT_FILE
+    if existing_path.exists():
+        existing = pd.read_csv(existing_path)
+        if CUSTOM_POPULATION_COLUMN in existing.columns:
+            custom = existing[["economy_code", "year", CUSTOM_POPULATION_COLUMN]]
+            if custom.duplicated(["economy_code", "year"]).any():
+                raise ValueError(f"{existing_path} has duplicate economy/year rows.")
+            extra = custom[custom[CUSTOM_POPULATION_COLUMN].notna()].merge(
+                sample[["economy_code", "year"]], on=["economy_code", "year"],
+                how="left", indicator=True,
+            )
+            if (extra["_merge"] == "left_only").any():
+                raise ValueError(f"{existing_path} has custom population rows outside the prepared sample.")
+            sample = sample.merge(custom, on=["economy_code", "year"], how="left", validate="one_to_one")
     all_cols = (
         ["economy_code", "economy", "year"]
         + WIDE_VARIABLE_COLUMNS
@@ -282,8 +277,8 @@ def refresh_streamlit_samples():
 
     Call this at the end of the main pipeline run so the sample files shipped
     with the app (used for demo/offline mode) stay in sync with the latest
-    data. Silently skips a file if its required source outputs are not yet
-    available (e.g. a partial pipeline run).
+    data. Returns an empty list if required pipeline CSVs are unavailable;
+    configured population source errors are raised.
     """
     written = []
 

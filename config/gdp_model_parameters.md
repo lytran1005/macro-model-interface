@@ -1,11 +1,11 @@
 # `gdp_model_parameters.csv` — what the parameters mean
 
-This file holds the per-economy Solow-Swan model assumptions used by the main
-calibrated run (`generate_results.py`, step 6) and, via the twin file
-`gdp_model_parameters_sensitivity.csv`, by the population sensitivity run
-(`run_sensitivity.py`, step 7). Every column (except `economy_code` and
-`notes`) is passed straight to `model.aperc_gdp_model` as a keyword argument,
-so the column set must match that function's signature.
+This file holds the per-economy Solow-Swan assumptions loaded as defaults by
+the standalone app. Standard and population-sensitivity runs use the loaded
+model parameters; Economy Deep Dive can apply session-specific parameters to
+its selected economy. Every column (except `economy_code` and `notes`) is
+passed to `model.aperc_gdp_model` as a keyword argument, so the column set
+must match that function's signature.
 
 The bands below are **assumed ranges**, not hard facts. They were set to make
 the projections reasonable and should be revisited whenever there is evidence
@@ -89,8 +89,11 @@ raises GDP faster.
 The strongest long-run levers are usually `lab_eff_periods`, the efficiency
 corridor, and the savings corridor. `change_*` parameters mainly control the
 speed of transition, so they often have little effect in the first few years
-but compound over a longer horizon. Population is not controlled by this file;
-it comes from the UN DESA population inputs.
+but compound over a longer horizon. The bundled sample's default population
+is prepared separately using
+[`default_population_scenario.csv`](./default_population_scenario.csv).
+The app uses the population columns in the loaded CSV, including for uploads;
+see the [default population guide](./default_population_scenario.md).
 
 ## How to justify a corridor
 
@@ -144,13 +147,10 @@ When an economy's projected GDP seems too high or too low:
   override the defaults in the `aperc_gdp_model` signature (`model.py`); the
   function itself is the single authoritative calculation and should not be
   edited for a parameter tweak. Editing one cell changes only that economy.
-- **Keep the twin files in sync.** `gdp_model_parameters.csv` and
-  `gdp_model_parameters_sensitivity.csv` must stay identical so the
-  population sensitivity run isolates population uncertainty only (Low/Medium/
-  High UN DESA variants). Edit the main file, then run
-  `workflow/scripts/Other/sync_sensitivity_parameters.py` (set `REPORT_ONLY = False`,
-  `APPLY_SYNC = True`) — it backs up the old sensitivity file to
-  `gdp_model_parameters_sensitivity.backup.csv` first.
+- **Compare population paths with consistent parameters.** The app's
+  population sensitivity run uses the same loaded parameter set for the
+  Default, Low, Medium, High and available Custom population paths. Deep Dive
+  parameter controls apply only to its selected economy and view.
 - **PNG's depreciation is not in this file.** PNG is missing from PWT, so its
   assumed depreciation/output-capital ratio is a constant at the top of
   `prepare_pwt.py`. The 25% PNG savings value in `prepare_imf.py` is only an
@@ -160,6 +160,6 @@ When an economy's projected GDP seems too high or too low:
   `aperc_gdp_model` as keyword arguments; an extra column raises a `TypeError`,
   and a renamed column silently changes what is passed. Keep `economy_code`
   values equal to `config/economies.csv` (the loader validates this).
-- **Re-run and validate.** After any change, re-run the pipeline
-  (`python workflow/scripts/run_pipeline.py`) and check that every row of
-  `results/validation_report.csv` says `PASS`.
+- **Re-run and validate.** Restart the app after editing the parameter file,
+  run the model and compare the affected economy's outputs. The full pipeline
+  and its validation scripts are maintained outside this standalone project.

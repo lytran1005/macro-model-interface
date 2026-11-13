@@ -2,9 +2,8 @@
 """The APERC Solow-Swan GDP model (single authoritative copy).
 
 This module defines the model calculation only. It does no file I/O and no
-plotting, so it is safe to import from anywhere. The runner scripts
-(generate_results.py, run_sensitivity.py) load the data, call
-aperc_gdp_model() per economy, and handle saving/plotting.
+plotting. The standalone app prepares model inputs in core.py and calls
+aperc_gdp_model() per economy for the Default and selected scenario paths.
 
 Model outline, per economy:
   1. Project labour efficiency growth beyond each economy's jump-off year by nudging the recent
