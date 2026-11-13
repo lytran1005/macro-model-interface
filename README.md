@@ -93,6 +93,23 @@ for Default and the Low/Medium/High columns for comparisons and sensitivity.
 Uploads keep their own population values. The separate optional Custom scenario
 uses `population_1jan_custom` when a complete valid path is available.
 
+### GDP projection inputs
+
+The bundled sample uses `results/data/custom_gdp_partial_projection_overrides.csv`
+for valid non-CT GDP values supplied after WDI 2025. Those values are used
+unchanged through their final supplied year; model GDP calculation resumes in
+the following year. This repository-level file is applied only when the bundled
+sample is selected.
+
+An uploaded wide CSV does not use that repository file. Instead, finite,
+positive `Real GDP PPP 2021 USD` values after the normal source cutoff are
+preserved as user-supplied projections. The annual path must be continuous from
+2026 for non-CT economies or 2032 for Chinese Taipei, through the final supplied
+year. Capital and other model state continue evolving during supplied years, and
+APERC model GDP resumes in the next year. With no future GDP values, the normal
+2026 (non-CT) or 2032 (CT) model start is unchanged. GDP parameters still govern
+model calculations during handoff years but do not alter supplied GDP values.
+
 The app now resolves all paths relative to this project root instead of assuming the original repository structure.
 
 ---

@@ -131,8 +131,10 @@ def validate(df):
 
 
 @st.cache_data(show_spinner="Deriving inputs and running Solow-Swan model for all economies...")
-def cached_run(df, params):
-    return run_analysis(df, params)
+def cached_run(df, params, use_repository_gdp_overrides=False):
+    return run_analysis(
+        df, params, use_repository_gdp_overrides=use_repository_gdp_overrides
+    )
 
 
 @st.cache_data(show_spinner="Loading population scenarios...")
@@ -141,8 +143,12 @@ def cached_population_scenarios(df_wide):
 
 
 @st.cache_data(show_spinner="Running GDP population-sensitivity projections...")
-def cached_population_gdp_scenarios(df_wide, params):
-    return run_uploaded_population_gdp_scenarios(df_wide, params)
+def cached_population_gdp_scenarios(
+    df_wide, params, use_repository_gdp_overrides=False
+):
+    return run_uploaded_population_gdp_scenarios(
+        df_wide, params, use_repository_gdp_overrides=use_repository_gdp_overrides
+    )
 
 
 def load_bundled_sample():
@@ -151,9 +157,15 @@ def load_bundled_sample():
 
 
 @st.cache_data(show_spinner="Running population scenario...")
-def cached_uploaded_population_scenario(df_wide, scenario, params, economy):
+def cached_uploaded_population_scenario(
+    df_wide, scenario, params, economy, use_repository_gdp_overrides=False
+):
     return run_uploaded_population_scenario(
-        df_wide, scenario, params, economy=economy
+        df_wide,
+        scenario,
+        params,
+        economy=economy,
+        use_repository_gdp_overrides=use_repository_gdp_overrides,
     )
 
 
@@ -531,6 +543,10 @@ with st.sidebar:
             "To use population scenarios, also include `population_1jan_low`, `population_1jan_medium`, "
             "and `population_1jan_high`. Population values are in thousands. The loaded "
             "`population_1jan` supplies Default and is not replaced for uploads. "
+            "For uploads, optional GDP projections after the normal source cutoff must be finite, positive, "
+            "and continuous annually through the final supplied year (from 2026 for non-CT, or 2032 for CT; "
+            "IMF remains the source for CT through 2031); model calculation resumes in the next year. "
+            "Repository GDP overrides apply only when using the bundled sample. "
             "An optional `population_1jan_custom` path enables Custom for an economy when "
             "it has finite, positive values in every model year where Medium has a value."
         )
@@ -550,9 +566,11 @@ with st.sidebar:
         if uploaded is not None:
             st.session_state["df_wide"] = pd.read_csv(uploaded)
             st.session_state["data_label"] = uploaded.name
+            st.session_state["data_source"] = "uploaded"
         elif use_sample:
             st.session_state["df_wide"] = load_bundled_sample()
             st.session_state["data_label"] = "pipeline sample data (21 APEC economies)"
+            st.session_state["data_source"] = "bundled"
 
         st.divider()
         st.markdown("**🛠️ 2. Model Parameters (Optional)**")
@@ -593,6 +611,10 @@ with st.sidebar:
             st.info("👈 Upload a wide CSV or click **Use Pipeline Sample Data** to begin.")
             st.stop()
 
+    use_repository_gdp_overrides = (
+        st.session_state.get("data_source") == "bundled"
+    )
+
     st.caption(
         f"**Economies:** {df['economy_code'].nunique()} | "
         f"**Years:** {df['year'].min()}–{df['year'].max()} | "
@@ -608,7 +630,9 @@ with st.sidebar:
 # --- run model --------------------------------------------------------------
 
 params = st.session_state.get("params") or load_gdp_model_parameters("gdp_model_parameters.csv")
-results, inputs, errors = cached_run(df, params)
+results, inputs, errors = cached_run(
+    df, params, use_repository_gdp_overrides=use_repository_gdp_overrides
+)
 
 if errors:
     with st.expander(f"⚠️ {len(errors)} economy/ies had warnings or issues - show details"):
@@ -975,7 +999,11 @@ with active_tab:
             )
             try:
                 population_gdp_scenarios, sensitivity_errors = (
-                    cached_population_gdp_scenarios(df_wide, params)
+                    cached_population_gdp_scenarios(
+                        df_wide,
+                        params,
+                        use_repository_gdp_overrides=use_repository_gdp_overrides,
+                    )
                 )
                 if population_gdp_scenarios.empty:
                     raise ValueError(
@@ -1322,7 +1350,11 @@ with active_tab:
 
         try:
             deep_dive_results, deep_dive_errors = cached_uploaded_population_scenario(
-                df_wide, deep_dive_scenario, deep_dive_params, sel_code
+                df_wide,
+                deep_dive_scenario,
+                deep_dive_params,
+                sel_code,
+                use_repository_gdp_overrides=use_repository_gdp_overrides,
             )
             economy_error = next(
                 (

@@ -59,6 +59,12 @@ economies retain their historical level differences.
 - **Savings**: seeded at the economy's source jump-off value: WDI 2025 for non-CT economies and IMF 2031 for CT.
 - **Depreciation**: seeded at the 2023 PWT value and held forward to the economy's jump-off year.
 
+For bundled researcher overrides and future GDP supplied in uploaded CSVs, the
+provided GDP values take precedence through their final supplied year. Capital,
+savings, depreciation and efficiency continue evolving during those years, but
+the GDP model resumes calculating output only in the following year. See the
+README for the different bundled-data and upload rules.
+
 ## How parameters affect GDP
 
 The model is a Solow-Swan calculation. Its production function is:

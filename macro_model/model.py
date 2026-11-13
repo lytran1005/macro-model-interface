@@ -11,7 +11,8 @@ Model outline, per economy:
   2. Project savings and depreciation rates beyond each economy's jump-off year.
   3. Accumulate capital: K(t) = K(t-1)*(1-delta) + s*Y(t-1), with the growth
      rate capped relative to recent capital growth (cap_compare).
-  4. Output from Cobb-Douglas: Y = K^alpha * (E*L)^(1-alpha).
+  4. Use supplied GDP during researcher override years; otherwise calculate
+     output from Cobb-Douglas: Y = K^alpha * (E*L)^(1-alpha).
 
 Parameter defaults below are the model-wide defaults; per-economy values live
 in config/gdp_model_parameters.csv.
@@ -46,6 +47,7 @@ def jump_off_year_for_economy(economy_code):
 LABEL_IMF = "IMF GDP through 2031"
 LABEL_WDI = "WDI GDP through 2025"
 LABEL_APERC = "APERC GDP projections"
+LABEL_RESEARCHER = "Researcher-supplied GDP projections"
 LABEL_9TH = "9th Outlook projections (rebased to 2021 PPP USD)"
 
 #%%
@@ -71,6 +73,7 @@ def aperc_gdp_model(economy,
                     gdp_9th,
                     wdi_savings_hist=None,
                     jump_off_year=None,
+                    gdp_overrides=None,
                     lab_eff_periods=10,
                     high_eff=0.015,
                     low_eff=0.012,
@@ -110,6 +113,9 @@ def aperc_gdp_model(economy,
     gdp_9th : pd.DataFrame
         9th Outlook data (long format) for comparison; must contain
         variable == 'real_GDP' rows in millions USD PPP.
+    gdp_overrides : pd.DataFrame, optional
+        Validated researcher-supplied values (columns year, value). They
+        replace GDP output for their years while model state keeps evolving.
     lab_eff_periods, high_eff, ... cap_compare
         Model parameters; per-economy values in config/gdp_model_parameters.csv.
 
@@ -123,6 +129,10 @@ def aperc_gdp_model(economy,
     if jump_off_year is None:
         jump_off_year = jump_off_year_for_economy(economy)
     projection_start_year = jump_off_year + 1
+    if gdp_overrides is None or gdp_overrides.empty:
+        gdp_override_by_year = {}
+    else:
+        gdp_override_by_year = gdp_overrides.set_index("year")["value"].to_dict()
 
     # --- 1. Labour efficiency growth beyond the historical jump-off year ---
     eff_df = labour_data[labour_data["economy_code"] == economy][["year", "percent"]]\
@@ -186,9 +196,12 @@ def aperc_gdp_model(economy,
             GDP_df2.at[year, "capital"] = new_cap_calc
             cap_growth.loc[year, "percent"] = cap_diff
 
-        # Cobb-Douglas output
-        GDP_df2.at[year, "real_output"] = (GDP_df2.loc[year, "capital"]) ** alpha \
-            * ((GDP_df2.loc[year, "labour"] * GDP_df2.loc[year, "efficiency"]) ** (1 - alpha))
+        # Keep supplied GDP fixed while still advancing the model's capital state.
+        if year in gdp_override_by_year:
+            GDP_df2.at[year, "real_output"] = gdp_override_by_year[year]
+        else:
+            GDP_df2.at[year, "real_output"] = (GDP_df2.loc[year, "capital"]) ** alpha \
+                * ((GDP_df2.loc[year, "labour"] * GDP_df2.loc[year, "efficiency"]) ** (1 - alpha))
 
     # --- 4. Historical savings and depreciation (for reporting) ---
     hist_sav = save_invest_hist[
@@ -221,8 +234,14 @@ def aperc_gdp_model(economy,
     GDP_estimates = GDP_df2.reset_index()
     GDP_estimates["real_output_historical"] = np.where(
         GDP_estimates["year"] <= jump_off_year, GDP_estimates["real_output"], np.nan)
+    has_override = GDP_estimates["year"].isin(gdp_override_by_year)
+    GDP_estimates["real_output_researcher"] = np.where(
+        has_override, GDP_estimates["real_output"], np.nan)
     GDP_estimates["real_output_projection"] = np.where(
-        GDP_estimates["year"] > jump_off_year, GDP_estimates["real_output"], np.nan)
+        (GDP_estimates["year"] > jump_off_year) & ~has_override,
+        GDP_estimates["real_output"],
+        np.nan,
+    )
 
     GDP_estimates["economy_code"] = GDP_estimates["economy_code"].astype(str)
     gdp_9th = gdp_9th.copy()
@@ -239,6 +258,7 @@ def aperc_gdp_model(economy,
     historical_label = LABEL_IMF if economy == "18_CT" else LABEL_WDI
     GDP_estimates_long["variable"] = GDP_estimates_long["variable"].map({
         "real_output_historical": historical_label,
+        "real_output_researcher": LABEL_RESEARCHER,
         "real_output_projection": LABEL_APERC,
         "real_output_9th": LABEL_9TH,
         "labour": "Population",

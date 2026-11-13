@@ -36,6 +36,7 @@ from model import (  # noqa: E402
     LABEL_IMF,
     LABEL_WDI,
     LABEL_APERC,
+    LABEL_RESEARCHER,
     LABEL_9TH,
 )
 from config_loaders import load_economies, economy_code_map, load_gdp_model_parameters  # noqa: E402
@@ -45,7 +46,7 @@ from population import load_default_population  # noqa: E402
 # (capital stock, labour efficiency) is derived from these by the app.
 REQUIRED_VARIABLES = {
     "population_1jan": "population, thousands (to 2060)",
-    "Real GDP PPP 2021 USD": "historical real GDP, millions 2021 USD PPP (to 2025 for non-CT, to 2031 for CT)",
+    "Real GDP PPP 2021 USD": "historical real GDP, millions 2021 USD PPP (optional continuous projections after the source cutoff)",
     "output_to_kstock": "PWT output-to-capital ratio (to 2023)",
     "delta": "PWT depreciation rate (to 2023)",
     "Gross national savings": "historical savings rate, percent of GDP (to 2025 for non-CT, to 2031 for CT)",
@@ -62,6 +63,10 @@ ALPHA = 0.4
 
 # PNG / Brunei assumptions, mirroring prepare_imf.py and prepare_pwt.py.
 PNG_SAVINGS_RATE_PERCENT = 25
+GDP_VARIABLE = "Real GDP PPP 2021 USD"
+REPOSITORY_GDP_OVERRIDE_FILE = (
+    RESULTS_DIR / "data" / "custom_gdp_partial_projection_overrides.csv"
+)
 
 UNITS = {
     "real_GDP": "Millions (2021 USD PPP)",
@@ -195,7 +200,9 @@ def population_scenarios_from_wide(df_wide):
     )
 
 
-def run_uploaded_population_scenario(df_wide, scenario, params, economy=None):
+def run_uploaded_population_scenario(
+    df_wide, scenario, params, economy=None, use_repository_gdp_overrides=False
+):
     """Run the model using a scenario column from the loaded wide CSV."""
     custom_codes = None
     if scenario == CUSTOM_SCENARIO:
@@ -224,17 +231,27 @@ def run_uploaded_population_scenario(df_wide, scenario, params, economy=None):
         long_input = long_input[long_input["economy_code"].isin(custom_codes)]
     if economy is not None:
         long_input = long_input[long_input["economy_code"] == economy]
-    results, _, errors = run_analysis(long_input, params, use_default_population=False)
+    results, _, errors = run_analysis(
+        long_input,
+        params,
+        use_default_population=False,
+        use_repository_gdp_overrides=use_repository_gdp_overrides,
+    )
     return results, errors
 
 
-def run_uploaded_population_gdp_scenarios(df_wide, params):
+def run_uploaded_population_gdp_scenarios(
+    df_wide, params, use_repository_gdp_overrides=False
+):
     """Run GDP projections for each available population path in the wide CSV."""
     frames = []
     errors = []
     for scenario in available_population_scenarios(df_wide):
         results, scenario_errors = run_uploaded_population_scenario(
-            df_wide, scenario, params
+            df_wide,
+            scenario,
+            params,
+            use_repository_gdp_overrides=use_repository_gdp_overrides,
         )
         errors.extend(
             (scenario, economy_code, message)
@@ -418,6 +435,110 @@ def build_model_inputs(df):
     }
 
 
+def _validated_gdp_projection_rows(rows, economy_code, cutoff, source):
+    """Validate a continuous annual GDP projection path after its source cutoff."""
+    columns = ["economy_code", "year", "value"]
+    if rows.empty:
+        return pd.DataFrame(columns=columns)
+
+    provided = rows[rows["value"].notna()].copy()
+    if provided.empty:
+        return pd.DataFrame(columns=columns)
+
+    provided["year"] = pd.to_numeric(provided["year"], errors="coerce")
+    if provided["year"].isna().any() or (provided["year"] % 1 != 0).any():
+        raise ValueError(f"{source} GDP years for {economy_code} must be integers.")
+
+    provided["year"] = provided["year"].astype(int)
+    provided = provided[provided["year"] > cutoff].copy()
+    if provided.empty:
+        return pd.DataFrame(columns=columns)
+    if (provided["year"] > FINAL_YEAR).any():
+        raise ValueError(
+            f"{source} GDP years for {economy_code} cannot exceed {FINAL_YEAR}."
+        )
+    provided["value"] = pd.to_numeric(provided["value"], errors="coerce")
+    values = provided["value"].to_numpy(dtype=float)
+    if not np.isfinite(values).all() or (values <= 0).any():
+        raise ValueError(
+            f"{source} GDP values for {economy_code} must be finite and positive."
+        )
+    if provided["year"].duplicated().any():
+        raise ValueError(
+            f"{source} GDP projections for {economy_code} contain duplicate years."
+        )
+
+    provided = provided.sort_values("year")
+    expected_years = list(range(cutoff + 1, int(provided["year"].max()) + 1))
+    if provided["year"].tolist() != expected_years:
+        raise ValueError(
+            f"{source} GDP projections for {economy_code} must contain continuous "
+            f"annual values from {cutoff + 1} through the final supplied year."
+        )
+    provided["economy_code"] = economy_code
+    return provided[columns].reset_index(drop=True)
+
+
+def load_repository_gdp_overrides(path=None):
+    """Load bundled-only researcher GDP projections from the repository CSV."""
+    if path is None:
+        path = REPOSITORY_GDP_OVERRIDE_FILE
+    path = Path(path)
+    if not path.exists():
+        raise FileNotFoundError(f"Repository GDP override file not found: {path}")
+
+    data = pd.read_csv(path)
+    required = {"economy_code", "variable", "year", "value"}
+    missing = required - set(data.columns)
+    if missing:
+        raise ValueError(
+            "Repository GDP override file is missing required columns: "
+            + ", ".join(sorted(missing))
+        )
+
+    data = data[data["variable"] == GDP_VARIABLE].copy()
+    if data["value"].notna().any():
+        codes = set(data.loc[data["value"].notna(), "economy_code"].astype(str))
+        unknown = codes - set(load_economies()["economy_code"].astype(str))
+        if unknown:
+            raise ValueError(
+                "Repository GDP overrides contain unknown economy codes: "
+                + ", ".join(sorted(unknown))
+            )
+        if "18_CT" in codes:
+            raise ValueError(
+                "Repository GDP overrides must not include Chinese Taipei (18_CT)."
+            )
+
+    frames = []
+    for code in sorted(data["economy_code"].dropna().astype(str).unique()):
+        overrides = _validated_gdp_projection_rows(
+            data[data["economy_code"].astype(str) == code],
+            code,
+            jump_off_year_for_economy(code),
+            "Repository",
+        )
+        if not overrides.empty:
+            frames.append(overrides)
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=[
+        "economy_code", "year", "value"
+    ])
+
+
+def uploaded_gdp_projection_overrides(df, economy_code):
+    """Extract optional future GDP supplied in an uploaded wide/long input."""
+    rows = df[
+        (df["economy_code"].astype(str) == str(economy_code))
+        & (df["variable"] == GDP_VARIABLE)
+    ][["year", "value"]]
+    return _validated_gdp_projection_rows(
+        rows,
+        str(economy_code),
+        jump_off_year_for_economy(str(economy_code)),
+        "Uploaded",
+    )
+
+
 def wide_to_long(df):
     """Convert the wide upload (economy | year | <variable columns>) to the
     internal long schema (economy_code, economy, variable, year, value).
@@ -520,7 +641,9 @@ def derive_labour_efficiency(df, capital_df, codes, alpha_by_code):
     return pd.DataFrame(rows)
 
 
-def run_analysis(df, params, use_default_population=False):
+def run_analysis(
+    df, params, use_default_population=False, use_repository_gdp_overrides=False
+):
     """Derive capital and labour efficiency from the raw upload, run the model
     for every economy, and postprocess results.
 
@@ -529,6 +652,8 @@ def run_analysis(df, params, use_default_population=False):
             model defaults.
     use_default_population: replace input population with configured source
             paths. By default the supplied population values are preserved.
+    use_repository_gdp_overrides: apply the repository override CSV to bundled
+            data. When false, future GDP supplied in the input is used instead.
 
     Returns (results_long, inputs, errors):
       results_long : combined long result table (real_GDP, population, ...)
@@ -536,9 +661,28 @@ def run_analysis(df, params, use_default_population=False):
       errors       : list of (economy_code, message) for economies that failed
     """
     df = df.copy()
+    source_codes = sorted(df["economy_code"].dropna().astype(str).unique())
+    repository_overrides = (
+        load_repository_gdp_overrides() if use_repository_gdp_overrides else None
+    )
+    uploaded_overrides = {}
+    projection_errors = {}
+    if not use_repository_gdp_overrides:
+        for code in source_codes:
+            try:
+                uploaded_overrides[code] = uploaded_gdp_projection_overrides(df, code)
+            except ValueError as exc:
+                projection_errors[code] = str(exc)
+
     df["year"] = pd.to_numeric(df["year"], errors="coerce")
     df = df[df["year"].notna()].copy()
     df["year"] = df["year"].astype(int)
+    if projection_errors:
+        df = df[
+            ~df["economy_code"].astype(str).isin(projection_errors)
+        ].copy()
+    if df.empty:
+        return pd.DataFrame(), {}, list(projection_errors.items())
 
     codes = sorted(df["economy_code"].unique())
     if use_default_population:
@@ -558,13 +702,26 @@ def run_analysis(df, params, use_default_population=False):
     inputs = build_model_inputs(df)
     codes = sorted(inputs["input_data"]["economy_code"].unique())
 
-    combined, errors = [], []
+    combined = []
+    errors = list(projection_errors.items())
     for code in codes:
+        if code in projection_errors:
+            continue
         try:
             jump_off = jump_off_year_for_economy(code)
+            gdp_overrides = (
+                repository_overrides[
+                    repository_overrides["economy_code"] == code
+                ][["year", "value"]]
+                if use_repository_gdp_overrides
+                else uploaded_overrides.get(
+                    code, pd.DataFrame(columns=["year", "value"])
+                )
+            )
             gdp_long, _ = aperc_gdp_model(
                 economy=code,
                 jump_off_year=jump_off,
+                gdp_overrides=gdp_overrides,
                 **inputs,
                 **params.get(code, {}),
             )
@@ -588,8 +745,8 @@ def postprocess(combined):
         if col not in ["economy_code", "economy", "year"]:
             wide[col] = pd.to_numeric(wide[col], errors="coerce")
 
-    # One continuous real GDP series: CT stays on IMF through 2031, all other
-    # economies use WDI through 2025 and then continue via the APERC model.
+    # One continuous series: use the normal historical source, supplied GDP
+    # override years, then APERC calculations for the remaining projection.
     wide["real_GDP"] = np.nan
     for code in wide["economy_code"].unique():
         jump_off = jump_off_year_for_economy(code)
@@ -599,8 +756,14 @@ def postprocess(combined):
         proj_mask = mask & (wide["year"] > jump_off)
         if historical_label in wide.columns:
             wide.loc[hist_mask, "real_GDP"] = wide.loc[hist_mask, historical_label]
+        if LABEL_RESEARCHER in wide.columns:
+            researcher_mask = proj_mask & wide[LABEL_RESEARCHER].notna()
+            wide.loc[researcher_mask, "real_GDP"] = wide.loc[
+                researcher_mask, LABEL_RESEARCHER
+            ]
         if LABEL_APERC in wide.columns:
-            wide.loc[proj_mask, "real_GDP"] = wide.loc[proj_mask, LABEL_APERC]
+            model_mask = proj_mask & wide["real_GDP"].isna()
+            wide.loc[model_mask, "real_GDP"] = wide.loc[model_mask, LABEL_APERC]
 
     keep_vars = ["economy_code", "economy", "year", "real_GDP"]
     rename_dict = {
