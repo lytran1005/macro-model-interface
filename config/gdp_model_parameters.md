@@ -28,8 +28,81 @@ depreciation values shown in the output are proportions: `0.25` means 25%.
 | `high_delta` / `low_delta` | Depreciation corridor | Each bound must be from **3% to 7%**, with `low_delta` no greater than `high_delta`. |
 | `change_del` | Annual step toward the depreciation corridor | Must be finite and non-negative. `0.0005` means 0.05 percentage points per year. |
 | `alpha` | Capital share in the Cobb-Douglas production function `Y = K^alpha · (E·L)^(1-alpha)` | Must be from **0.3 to 0.5**. Economy-specific values are allowed and affect the derived labour-efficiency series. |
-| `cap_compare` | Series-break guardrail on capital growth | Caps how much year-on-year capital growth may jump relative to the previous year (default 0.05). Model-stability tuning, not an economics assumption. |
-| `notes` | Free-text per-economy caveats | Not used by the model; documents exceptions such as Brunei's IMF investment proxy and PNG's IMF-fallback savings assumption. WDI savings are preferred for non-CT economies when available. |
+| `cap_compare` | Relative-growth guardrail on capital growth | Must be finite and in `[0, 1)`. For non-zero prior growth, it bounds the ratio of raw to prior growth between `1 - cap_compare` and `1 + cap_compare`. A value of `0` creates a zero-width band; exact-zero prior growth passes raw growth through for that year. It is a technical guardrail, not a target growth-rate assumption. |
+| `notes` | Free-text per-economy caveats | Not used by the model. The Brunei and PNG notes in the CSV describe their current source treatment; they are not instructions to substitute another savings series. |
+
+### Savings source policy
+
+- The 20 non-Chinese Taipei economies use World Bank WDI gross national
+  savings only, through the 2025 jump-off year. IMF observations are not used
+  to fill missing WDI values.
+- Chinese Taipei uses IMF gross national savings only: historical observations
+  through 2030 and the existing 2031 jump-off value. No later IMF observations
+  are included.
+- Missing source observations remain missing, except for the existing
+  conditional Papua New Guinea (PNG) jump-off fallback described below.
+- The app consumes the selected `Gross national savings` values from its
+  bundled or uploaded wide input. It does not load source files at model-run
+  time or pass the optional `wdi_savings_hist` argument to the model.
+
+The Brunei CSV note says it no longer uses savings proxied by IMF Total
+Investment. That variable is not a substitute for gross national savings.
+
+The bundled sample retains 45 accepted missing historical observations under
+this policy:
+
+| Economy | Missing years | Observations |
+| --- | --- | ---: |
+| Brunei Darussalam | 1990-2000 | 11 |
+| Hong Kong, China | 1990-1997 | 8 |
+| Japan | 1990-1995 | 6 |
+| New Zealand | 1990-1999 | 10 |
+| Russia | 1990-1993 | 4 |
+| Viet Nam | 1990-1995 | 6 |
+| **Total** |  | **45** |
+
+These are accepted historical source-data limitations. They remain missing
+rather than being filled with another source; they are not missing projected
+savings values and do not prevent model execution.
+
+### Capital-growth guardrail (`cap_compare`)
+
+Let `g_raw` be the raw capital growth calculated for the current year, `g_prior`
+the previous year's applied capital growth, and `c = cap_compare`. When
+`g_prior` is non-zero, the model calculates `q = g_raw / g_prior` and permits
+the relative-growth band:
+
+`1 - c <= q <= 1 + c`
+
+If `q` is below the band, applied growth is `g_prior * (1 - c)`. If `q` is
+above it, applied growth is `g_prior * (1 + c)`. Within the band, the raw
+growth is retained. Comparing the ratio is important when prior growth is
+negative: it keeps the relative bounds in the intended order and prevents the
+guardrail from treating a contraction as a positive-growth case.
+
+When `g_prior` is exactly zero, a percentage-relative band is undefined, so
+raw growth passes through for that year. If that produces non-zero applied
+growth, the guardrail resumes in the next year. A `cap_compare` value of zero
+does not disable the guardrail: it creates a zero-width band and holds applied
+growth at the prior year's rate whenever prior growth is non-zero. Configured
+values must be finite and in `[0, 1)`.
+
+### Historical capital stock and depreciation
+
+The app does not use a PWT capital-stock series directly. Historical capital
+stock is derived as `K = GDP / output_to_kstock`, using the PWT output-to-capital
+ratio. The latest available PWT output-to-capital ratio is carried forward
+beyond 2023 through the historical GDP source cutoff: 2025 for non-Chinese
+Taipei economies and 2031 for Chinese Taipei. These cutoffs do not extend to
+cover later GDP overrides.
+
+The 2023 PWT depreciation value is carried forward through the same historical
+GDP source cutoff. Capital and depreciation then evolve during model years,
+including years with supplied GDP overrides. Overrides can delay the GDP
+output handoff without extending the historical capital-stock derivation or
+depreciation carry-forward. In the current bundled sample, for example,
+Australia has a GDP override through 2030 and Chile through 2031; most other
+economies have supplied GDP through 2025.
 
 ### Interpreting `alpha`
 
@@ -159,9 +232,11 @@ When an economy's projected GDP seems too high or too low:
   Default, Low, Medium, High and available Custom population paths. Deep Dive
   parameter controls apply only to its selected economy and view.
 - **PNG's depreciation is not in this file.** PNG is missing from PWT, so its
-  assumed depreciation/output-capital ratio is a constant at the top of
-  `prepare_pwt.py`. The 25% PNG savings value in `prepare_imf.py` is only an
-  IMF fallback; WDI savings are preferred for PNG when available.
+  assumed depreciation/output-capital ratio is a constant in the upstream
+  preparation pipeline. PNG's WDI value is the 2025 savings anchor when
+  available. The app retains the conditional 25% fallback only when the PNG
+  jump-off value is missing or NaN; it is not the normal PNG savings
+  source or a replacement for missing historical WDI observations.
 - **Do not add, rename, or drop columns.** `config_loaders.load_gdp_model_parameters`
   drops only `economy_code` and `notes` and passes everything else to
   `aperc_gdp_model` as keyword arguments; an extra column raises a `TypeError`,

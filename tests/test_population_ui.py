@@ -1,12 +1,18 @@
 import json
+import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import pandas as pd
 import pyarrow as pa
 from streamlit.testing.v1 import AppTest
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+import core
 
 
 class PopulationUITests(unittest.TestCase):
@@ -148,6 +154,7 @@ class PopulationUITests(unittest.TestCase):
         self.file_uploader(app, "Upload Model Input Data CSV").set_value(
             ("sample_wide_input.csv", sample_path.read_bytes(), "text/csv")
         )
+        app.session_state["active_view"] = "🌏 APEC Overview"
         app.run(timeout=120)
         self.assertFalse(app.exception, [element.value for element in app.exception])
         self.assertTrue(app.get("vega_lite_chart"))
@@ -160,16 +167,49 @@ class PopulationUITests(unittest.TestCase):
                 "text/csv",
             )
         )
+        app.session_state["active_view"] = "🌏 APEC Overview"
         app.run(timeout=120)
         self.assertFalse(app.exception, [element.value for element in app.exception])
         self.assertTrue(
             any("Missing economies" in item.value for item in app.warning)
         )
         self.assertEqual(app.get("vega_lite_chart"), [])
+        self.assertEqual(app.dataframe, [])
+        self.assertFalse(
+            {
+                "⬇️ Download Combined Results (Long Format CSV)",
+                "⬇️ Download Combined Results (Wide Format CSV)",
+                "⬇️ Download LEAP Input CSV",
+            }
+            & {item.label for item in app.get("download_button")}
+        )
+
+        invalid = sample.copy()
+        invalid.loc[
+            invalid["economy_code"].eq("01_AUS")
+            & invalid["year"].eq(2025),
+            "population_1jan",
+        ] = 0
+        self.file_uploader(app, "Upload Model Input Data CSV").set_value(
+            (
+                "invalid_population.csv",
+                invalid.to_csv(index=False).encode("utf-8"),
+                "text/csv",
+            )
+        )
+        app.session_state["active_view"] = "🌏 APEC Overview"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [element.value for element in app.exception])
+        self.assertTrue(
+            any("01_AUS 2025 population_1jan" in item.value for item in app.error)
+        )
+        self.assertEqual(app.get("vega_lite_chart"), [])
+        self.assertEqual(app.dataframe, [])
 
         self.file_uploader(app, "Upload Model Input Data CSV").set_value(
             ("malformed.csv", b'"unterminated\n1,2\n', "text/csv")
         )
+        app.session_state["active_view"] = "🌏 APEC Overview"
         app.run(timeout=120)
         self.assertFalse(app.exception, [element.value for element in app.exception])
         self.assertTrue(
@@ -336,25 +376,173 @@ class PopulationUITests(unittest.TestCase):
             {item.label for item in app.get("download_button")},
         )
 
-    def test_partial_upload_is_deep_dive_only_when_switching_tabs(self):
-        app = self.app_with_population(
-            "🔍 Economy Deep Dive",
-            False,
-            economy_code=["01_AUS", "18_CT"],
-            partial_upload=True,
-        )
+    def test_partial_dataset_blocks_all_apec_wide_tabs_but_not_deep_dive(self):
+        data = pd.read_csv(ROOT / "sample_wide_input.csv")
+        partial = data[data["economy_code"].isin(["01_AUS", "18_CT"])].copy()
+        app = self.app_with_view("🔍 Economy Deep Dive", partial)
+        self.assertTrue(app.get("vega_lite_chart"))
+
+        apec_wide_views = [
+            "👥 Population Scenarios",
+            "📈 Economy Comparison",
+            "🌏 APEC Overview",
+            "📋 Combined Results & Export",
+        ]
+        result_downloads = {
+            "⬇️ Download Combined Results (Long Format CSV)",
+            "⬇️ Download Combined Results (Wide Format CSV)",
+            "⬇️ Download LEAP Input CSV",
+        }
+        for view in apec_wide_views:
+            with self.subTest(view=view):
+                app.session_state["active_view"] = view
+                app.run(timeout=120)
+                self.assertFalse(
+                    app.exception, [element.value for element in app.exception]
+                )
+                self.assertTrue(
+                    any(
+                        "complete results for all 21 APEC economies" in item.value
+                        and "Missing economies" in item.value
+                        for item in app.warning
+                    )
+                )
+                self.assertEqual(app.get("vega_lite_chart"), [])
+                self.assertEqual(app.dataframe, [])
+                self.assertFalse(
+                    result_downloads
+                    & {item.label for item in app.get("download_button")}
+                )
+
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [element.value for element in app.exception])
+        self.assertTrue(app.get("vega_lite_chart"))
         self.assertTrue(
             any("Loaded dataset includes 2 of 21" in item.value for item in app.caption)
         )
 
-        overview = self.app_with_view(
-            "🌏 APEC Overview", app.session_state["df_wide"]
+    def test_deep_dive_resets_selection_and_blocks_invalid_replacement(self):
+        complete = pd.read_csv(ROOT / "sample_wide_input.csv")
+        app = self.app_with_view("🔍 Economy Deep Dive", complete)
+
+        economy_select = next(
+            item for item in app.selectbox if item.label == "Choose Economy"
         )
+        economy_select.set_value("01_AUS").run(timeout=120)
+        self.assertFalse(app.exception, [element.value for element in app.exception])
+
+        partial = complete[complete["economy_code"].eq("18_CT")].copy()
+        app.session_state["df_wide"] = partial
+        app.session_state["data_label"] = "partial Chinese Taipei data"
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [element.value for element in app.exception])
+        self.assertEqual(app.session_state["deep_dive_econ"], "18_CT")
+        economy_select = next(
+            item for item in app.selectbox if item.label == "Choose Economy"
+        )
+        self.assertEqual(economy_select.value, "18_CT")
+        self.assertEqual(economy_select.options, ["18_CT"])
+        self.assertTrue(app.get("vega_lite_chart"))
+
+        selected_parameters = pd.read_csv(
+            ROOT / "config" / "gdp_model_parameters.csv"
+        )
+        selected_parameters = selected_parameters[
+            selected_parameters["economy_code"].eq("18_CT")
+        ]
+        self.file_uploader(app, "Upload Parameters CSV").set_value(
+            (
+                "chinese-taipei-parameters.csv",
+                selected_parameters.to_csv(index=False).encode("utf-8"),
+                "text/csv",
+            )
+        )
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [element.value for element in app.exception])
         self.assertTrue(
-            any("complete results for all 21 APEC economies" in item.value
-                and "Missing economies" in item.value for item in overview.warning)
+            any(
+                "Parameters loaded successfully for 18_CT" in item.value
+                for item in app.success
+            )
         )
-        self.assertEqual(overview.get("vega_lite_chart"), [])
+
+        invalid = partial.copy()
+        invalid.loc[invalid["year"].eq(2025), "population_1jan"] = 0
+        app.session_state["df_wide"] = invalid
+        app.session_state["data_label"] = "invalid Chinese Taipei data"
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [element.value for element in app.exception])
+        self.assertTrue(
+            any(
+                "18_CT 2025 population_1jan" in item.value
+                for item in app.error
+            )
+        )
+        self.assertEqual(app.get("vega_lite_chart"), [])
+        self.assertEqual(app.dataframe, [])
+
+    def test_methodology_is_accessible_without_model_execution(self):
+        complete = pd.read_csv(ROOT / "sample_wide_input.csv")
+        # Ensure this complete input cannot hit a cached model result.
+        unique_row = complete["economy_code"].eq("01_AUS") & complete["year"].eq(1990)
+        complete.loc[unique_row, "population_1jan"] += 0.125
+        invalid = complete.copy()
+        invalid.loc[
+            invalid["economy_code"].eq("01_AUS")
+            & invalid["year"].eq(2025),
+            "population_1jan",
+        ] = 0
+        partial = complete[complete["economy_code"].eq("01_AUS")].copy()
+
+        def assert_methodology(app):
+            self.assertFalse(
+                app.exception, [element.value for element in app.exception]
+            )
+            self.assertIn(
+                "APERC Solow-Swan Macro Model Methodology",
+                {element.value for element in app.subheader},
+            )
+            self.assertEqual(app.get("vega_lite_chart"), [])
+
+        with patch.object(
+            core,
+            "run_analysis",
+            side_effect=AssertionError("Model calculation was triggered"),
+        ) as run_analysis:
+            app = self.app_with_view("📖 Model Methodology", complete)
+            assert_methodology(app)
+            run_analysis.assert_not_called()
+
+            app.session_state["df_wide"] = invalid
+            app.session_state["active_view"] = "📖 Model Methodology"
+            app.run(timeout=120)
+            assert_methodology(app)
+            self.assertTrue(
+                any(
+                    "01_AUS 2025 population_1jan" in item.value
+                    for item in app.error
+                )
+            )
+            run_analysis.assert_not_called()
+
+            app.session_state["df_wide"] = partial
+            app.session_state["active_view"] = "📖 Model Methodology"
+            app.run(timeout=120)
+            assert_methodology(app)
+            run_analysis.assert_not_called()
+
+            del app.session_state["df_wide"]
+            app.session_state["active_view"] = "📖 Model Methodology"
+            app.run(timeout=120)
+            assert_methodology(app)
+            self.assertTrue(
+                any("No model dataset is loaded" in item.value for item in app.error)
+            )
+            run_analysis.assert_not_called()
 
     def test_methodology_is_accessible_without_data_or_valid_input(self):
         app = self.app_with_view("📖 Model Methodology")

@@ -161,6 +161,20 @@ updates that economy's controls and projection for the current app session
 without changing `config/gdp_model_parameters.csv`. Use **Reset to preloaded
 defaults** to restore that economy's configured values.
 
+### Savings data and validation report
+
+The bundled sample uses World Bank WDI gross national savings only for the 20
+economies other than Chinese Taipei, through the 2025 jump-off year. Chinese
+Taipei uses IMF gross national savings only, through its 2031 jump-off value;
+WDI gaps are not filled with IMF observations. The accepted historical gaps
+and full source policy are documented in the
+[parameter guide](./config/gdp_model_parameters.md). Uploaded CSV savings
+values are consumed as provided; the documented conditional PNG jump-off
+fallback applies only when that anchor is missing.
+
+`results/validation_report.csv` belongs to the legacy external 1990-2100
+pipeline. It does not validate this standalone app, whose horizon is 1990-2060.
+
 This folder is intended to be portable and runnable from its own directory. The
 main repo still remains the source of truth for the full pipeline; this project
 contains the app and the minimum supporting files required to run the UI in isolation.

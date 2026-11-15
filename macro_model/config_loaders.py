@@ -7,6 +7,7 @@ These files are the single source of truth for:
   - default_population_scenario.csv  per-economy population source selections
 """
 
+import math
 import sys
 from pathlib import Path
 
@@ -90,6 +91,8 @@ def load_gdp_model_parameters(filename="gdp_model_parameters.csv"):
             f"Missing: {sorted(expected_codes - got_codes)}, "
             f"unexpected: {sorted(got_codes - expected_codes)}"
         )
+    if "cap_compare" not in df.columns:
+        raise ValueError(f"{path} is missing required column 'cap_compare'.")
 
     params = {}
     for _, row in df.iterrows():
@@ -99,5 +102,18 @@ def load_gdp_model_parameters(filename="gdp_model_parameters.csv"):
             raise ValueError(f"{path} lab_eff_periods must be at least 1 for {row['economy_code']}")
         if not 0 < kwargs["alpha"] < 1:
             raise ValueError(f"{path} alpha must be between 0 and 1 for {row['economy_code']}")
+        try:
+            cap_compare = float(kwargs["cap_compare"])
+        except (TypeError, ValueError, OverflowError) as exc:
+            raise ValueError(
+                f"{path} cap_compare must be finite and in [0, 1) "
+                f"for {row['economy_code']}."
+            ) from exc
+        if not math.isfinite(cap_compare) or not 0 <= cap_compare < 1:
+            raise ValueError(
+                f"{path} cap_compare must be finite and in [0, 1) "
+                f"for {row['economy_code']}."
+            )
+        kwargs["cap_compare"] = cap_compare
         params[row["economy_code"]] = kwargs
     return params

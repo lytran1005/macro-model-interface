@@ -1,4 +1,5 @@
 check,status,detail
+report scope,LEGACY,External Macro-model-10th-9th pipeline; 1990-2100 horizon; not validation for this standalone 1990-2060 app
 config file present: economies.csv,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\config\economies.csv
 config file present: economy_name_mappings.csv,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\config\economy_name_mappings.csv
 config file present: population_variant_choices.csv,PASS,C:\Users\ly.tran\code\GitHub\Macro-model-10th-9th\config\population_variant_choices.csv

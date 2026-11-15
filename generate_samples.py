@@ -14,6 +14,8 @@ from core import (
     WIDE_VARIABLE_COLUMNS,
     HISTORY_START_YEAR,
     LAST_PWT_YEAR,
+    LAST_WDI_YEAR,
+    LAST_IMF_YEAR,
     FINAL_YEAR,
     POPULATION_SCENARIO_COLUMNS,
     CUSTOM_POPULATION_COLUMN,
@@ -77,16 +79,31 @@ def _pipeline_sample_data():
     pwt = pwt[pwt["variable"].isin(["output_to_kstock", "delta"])][["economy_code", "economy", "year", "variable", "value"]].copy()
     pwt["year"] = pd.to_numeric(pwt["year"], errors="coerce")
 
-    savings_frames = []
+    # This file has legacy savings rows for other economies; only CT is approved.
+    imf_history = pd.read_csv(RESULTS_DATA_DIR / "IMF_to2031.csv")
+    imf_history = imf_history[
+        (imf_history["economy_code"] == "18_CT")
+        & (imf_history["variable"] == "Gross national savings")
+        & imf_history["year"].between(HISTORY_START_YEAR, LAST_IMF_YEAR - 1)
+        & imf_history["value"].notna()
+    ][["economy_code", "economy", "year", "value"]].copy()
+
+    savings_frames = [imf_history]
     for name in ["IMF_savings_2031.csv", "WDI_savings_2025.csv"]:
         path = RESULTS_DATA_DIR / name
         if not path.exists():
             continue
         frame = pd.read_csv(path)
         if name == "IMF_savings_2031.csv":
-            frame = frame[frame["economy_code"] == "18_CT"]
+            frame = frame[
+                (frame["economy_code"] == "18_CT")
+                & (frame["year"] == LAST_IMF_YEAR)
+            ]
         else:
-            frame = frame[frame["economy_code"] != "18_CT"]
+            frame = frame[
+                (frame["economy_code"] != "18_CT")
+                & frame["year"].between(HISTORY_START_YEAR, LAST_WDI_YEAR)
+            ]
         savings_frames.append(frame)
     savings = pd.concat(savings_frames, ignore_index=True) if savings_frames else pd.DataFrame(columns=["economy_code", "economy", "year", "variable", "value"])
     if "variable" not in savings.columns:
@@ -147,6 +164,48 @@ def _pipeline_sample_data():
     existing_path = APP_DIR / SAMPLE_WIDE_INPUT_FILE
     if existing_path.exists():
         existing = pd.read_csv(existing_path)
+        if "Gross national savings" in existing.columns:
+            ct_after_cutoff = existing[
+                (existing["economy_code"] == "18_CT")
+                & (existing["year"] > LAST_IMF_YEAR)
+                & existing["Gross national savings"].notna()
+            ]
+            if not ct_after_cutoff.empty:
+                years = ", ".join(
+                    str(int(year)) for year in sorted(ct_after_cutoff["year"].unique())
+                )
+                raise ValueError(
+                    f"{existing_path} has Chinese Taipei savings values after "
+                    f"the approved IMF cutoff: {years}."
+                )
+            existing_ct = existing[
+                (existing["economy_code"] == "18_CT")
+                & existing["year"].between(HISTORY_START_YEAR, LAST_IMF_YEAR)
+                & existing["Gross national savings"].notna()
+            ]
+            approved_ct = savings[
+                (savings["economy_code"] == "18_CT")
+                & (savings["variable"] == "Gross national savings")
+                & savings["year"].between(HISTORY_START_YEAR, LAST_IMF_YEAR)
+                & savings["value"].notna()
+            ]
+            approved = approved_ct.set_index(["economy_code", "year"])["value"]
+            mismatches = []
+            for _, record in existing_ct.iterrows():
+                key = (record["economy_code"], record["year"])
+                if key not in approved.index or not np.isclose(
+                    record["Gross national savings"],
+                    approved.loc[key],
+                    rtol=0,
+                    atol=1e-12,
+                ):
+                    mismatches.append(key)
+            if mismatches:
+                details = ", ".join(f"{code} {year}" for code, year in mismatches)
+                raise ValueError(
+                    f"{existing_path} has Chinese Taipei savings values that do "
+                    f"not match the approved IMF source: {details}."
+                )
         if CUSTOM_POPULATION_COLUMN in existing.columns:
             custom = existing[["economy_code", "year", CUSTOM_POPULATION_COLUMN]]
             if custom.duplicated(["economy_code", "year"]).any():

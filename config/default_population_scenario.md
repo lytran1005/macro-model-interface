@@ -51,12 +51,13 @@ thousands and are not rescaled. The selected historical and projection
 segments are concatenated at the 2024/2025 boundary as supplied, without
 interpolation or rebasing.
 
-The source workbooks are not tracked with this standalone app. Place the
-required source files under `results/data/` where sample preparation or
-model-input preparation will run. Only files required by the configured
-default sources need to be read for the Default path. Sample refresh also
-requires all three UN DESA Low/Medium/High CSVs to prepare the sensitivity
-columns.
+The EGEDA workbook and the consolidated custom population workbook named
+above are tracked bundled inputs in this standalone app. Researcher-supplied
+replacement or additional source workbooks should be placed under
+`results/data/` where sample preparation or model-input preparation will run.
+Only files required by the configured default sources need to be read for the
+Default path. Sample refresh also requires all three UN DESA Low/Medium/High
+CSVs to prepare the sensitivity columns.
 
 ## Prepared wide-input scenarios
 

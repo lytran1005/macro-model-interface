@@ -62,6 +62,51 @@ def _band_walk(current, high, low, step):
     return current
 
 
+def _apply_capital_growth_guardrail(raw_growth, prior_growth, cap_compare, economy, year):
+    """Apply the relative capital-growth band, with an explicit zero-rate case."""
+    values = {}
+    for name, value in (
+        ("raw capital growth", raw_growth),
+        ("prior capital growth", prior_growth),
+        ("cap_compare", cap_compare),
+    ):
+        try:
+            value = float(value)
+        except (TypeError, ValueError, OverflowError) as exc:
+            raise ValueError(
+                f"{economy} {year} {name} must be a finite numeric value."
+            ) from exc
+        if not np.isfinite(value):
+            raise ValueError(
+                f"{economy} {year} {name} must be a finite numeric value."
+            )
+        values[name] = value
+
+    raw_growth = values["raw capital growth"]
+    prior_growth = values["prior capital growth"]
+    cap_compare = values["cap_compare"]
+    if not 0 <= cap_compare < 1:
+        raise ValueError(
+            f"{economy} {year} cap_compare must be greater than or equal to "
+            "zero and less than one."
+        )
+
+    if prior_growth == 0:
+        # Relative growth is undefined at exact zero; pass raw growth through.
+        return raw_growth
+
+    growth_ratio = raw_growth / prior_growth
+    if not np.isfinite(growth_ratio):
+        raise ValueError(
+            f"{economy} {year} relative capital-growth ratio must be finite."
+        )
+    if growth_ratio < (1 - cap_compare):
+        return prior_growth * (1 - cap_compare)
+    if growth_ratio > (1 + cap_compare):
+        return prior_growth * (1 + cap_compare)
+    return raw_growth
+
+
 def aperc_gdp_model(economy,
                     input_data,
                     labour_data,
@@ -105,9 +150,16 @@ def aperc_gdp_model(economy,
     sav_data : pd.DataFrame
         Economy-specific savings anchor: WDI 2025 for non-CT, IMF 2031 for CT.
     save_invest_hist : pd.DataFrame
-        IMF history (IMF_to2031.csv) for historical savings/investment rates.
+        Historical gross national savings series already selected upstream.
+        In the standalone app, the bundled or uploaded wide-input series is
+        supplied here: WDI only for the 20 non-CT economies and IMF only for
+        Chinese Taipei (historical observations through 2030 plus the 2031
+        anchor, which is also passed in ``sav_data``).
     wdi_savings_hist : pd.DataFrame, optional
-        WDI savings history and 2025 anchor for non-CT economies.
+        Separate WDI history for non-CT economies. Direct callers may supply
+        it to combine WDI history with ``save_invest_hist``; the standalone
+        app does not pass this optional argument because its selected savings
+        history is already in the wide input.
     delta_hist : pd.DataFrame
         PWT history (PWT_cap_labour_to2023.csv) for historical delta.
     gdp_9th : pd.DataFrame
@@ -191,22 +243,31 @@ def aperc_gdp_model(economy,
                 dyn_delta.loc[year, "delta"], high_delta, low_delta, change_del)
 
         # Capital accumulation
-        new_cap_calc = GDP_df2.loc[year - 1, "capital"] \
+        cap_prev = GDP_df2.loc[year - 1, "capital"]
+        if not np.isfinite(cap_prev) or cap_prev <= 0:
+            raise ValueError(
+                f"{economy} {year - 1} capital stock must be finite and positive."
+            )
+        new_cap_calc = cap_prev \
             - (GDP_df2.loc[year - 1, "capital"] * dyn_delta.loc[year, "delta"]) \
             + (GDP_df2.loc[year - 1, "real_output"] * dyn_savings.loc[year, "savings"])
 
-        cap_prev = GDP_df2.loc[year - 1, "capital"]
         cap_diff = (new_cap_calc / cap_prev) - 1
 
-        # Cap the change in capital growth relative to last year's growth
-        growth_ratio = cap_diff / cap_growth.loc[year - 1, "percent"]
-        if (growth_ratio < (1 - cap_compare)) | (growth_ratio > (1 + cap_compare)):
-            GDP_df2.at[year, "capital"] = GDP_df2.loc[year - 1, "capital"] \
-                * (1 + (cap_growth.loc[year - 1, "percent"] * (1 - cap_compare)))
-            cap_growth.loc[year, "percent"] = cap_growth.loc[year - 1, "percent"] * (1 - cap_compare)
-        else:
+        prior_year = year - 1
+        if prior_year not in cap_growth.index:
+            raise ValueError(
+                f"{economy} {year} is missing prior capital growth for {prior_year}."
+            )
+        prior_growth = cap_growth.loc[prior_year, "percent"]
+        applied_growth = _apply_capital_growth_guardrail(
+            cap_diff, prior_growth, cap_compare, economy, year
+        )
+        if applied_growth == cap_diff:
             GDP_df2.at[year, "capital"] = new_cap_calc
-            cap_growth.loc[year, "percent"] = cap_diff
+        else:
+            GDP_df2.at[year, "capital"] = cap_prev * (1 + applied_growth)
+        cap_growth.loc[year, "percent"] = applied_growth
 
         # Keep supplied GDP fixed while still advancing the model's capital state.
         if year in gdp_override_by_year:
