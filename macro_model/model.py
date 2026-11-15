@@ -135,8 +135,12 @@ def aperc_gdp_model(economy,
         gdp_override_by_year = gdp_overrides.set_index("year")["value"].to_dict()
 
     # --- 1. Labour efficiency growth beyond the historical jump-off year ---
-    eff_df = labour_data[labour_data["economy_code"] == economy][["year", "percent"]]\
-        .set_index("year").iloc[-lab_eff_periods:]
+    eff_df = (
+        labour_data[labour_data["economy_code"] == economy][["year", "percent"]]
+        .sort_values("year", kind="stable")
+        .set_index("year")
+        .iloc[-lab_eff_periods:]
+    )
 
     for year in range(projection_start_year, FINAL_YEAR + 1):
         rolling_avg = eff_df["percent"].iloc[-lab_eff_periods:].sum() / lab_eff_periods
@@ -145,7 +149,12 @@ def aperc_gdp_model(economy,
         else:
             eff_df.loc[year, "percent"] = eff_df.loc[year - 1, "percent"]
 
-    GDP_df2 = input_data[input_data["economy_code"] == economy].copy().set_index("year")
+    GDP_df2 = (
+        input_data[input_data["economy_code"] == economy]
+        .copy()
+        .sort_values("year", kind="stable")
+        .set_index("year")
+    )
 
     for year in range(projection_start_year, FINAL_YEAR + 1):
         GDP_df2.at[year, "efficiency"] = GDP_df2.loc[year - 1, "efficiency"] \
@@ -167,8 +176,11 @@ def aperc_gdp_model(economy,
     dyn_delta.index.name = "year"
     dyn_delta.loc[projection_start_year, "delta"] = delta
 
-    cap_growth = cap_growth_data[cap_growth_data["economy_code"] == economy][["year", "percent"]]\
+    cap_growth = (
+        cap_growth_data[cap_growth_data["economy_code"] == economy][["year", "percent"]]
+        .sort_values("year", kind="stable")
         .set_index("year")
+    )
 
     # --- 3. Solow-Swan projection loop ---
     for year in range(projection_start_year, FINAL_YEAR + 1):

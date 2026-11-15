@@ -122,17 +122,15 @@ class GdpProjectionOverrideTests(unittest.TestCase):
     def test_invalid_values_and_duplicate_projection_years_are_rejected(self):
         wide = self.economy_input("01_AUS")
         wide.loc[wide["year"] == 2026, self.gdp_column] = 0
-        results, _, errors = core.run_analysis(core.wide_to_long(wide), self.params)
-        self.assertTrue(results.empty)
-        self.assertIn("finite and positive", errors[0][1])
+        with self.assertRaisesRegex(ValueError, "01_AUS 2026.*positive"):
+            core.run_analysis(core.wide_to_long(wide), self.params)
 
         wide = self.economy_input("01_AUS")
         wide.loc[wide["year"] == 2026, self.gdp_column] = 1_800_000.0
         duplicated = wide[wide["year"] == 2026].copy()
         wide = pd.concat([wide, duplicated], ignore_index=True)
-        results, _, errors = core.run_analysis(core.wide_to_long(wide), self.params)
-        self.assertTrue(results.empty)
-        self.assertIn("duplicate years", errors[0][1])
+        with self.assertRaisesRegex(ValueError, "duplicate"):
+            core.run_analysis(core.wide_to_long(wide), self.params)
 
 
 if __name__ == "__main__":

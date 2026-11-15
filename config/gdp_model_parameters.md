@@ -4,13 +4,14 @@ This file holds the per-economy Solow-Swan assumptions loaded as defaults by
 the standalone app. Standard and population-sensitivity runs use the loaded
 model parameters; Economy Deep Dive can apply session-specific parameters to
 its selected economy. Every column (except `economy_code` and `notes`) is
-passed to `model.aperc_gdp_model` as a keyword argument, so the column set
-must match that function's signature.
+defined in the model configuration. `cap_compare` remains fixed from the
+configured CSV and is not accepted as an upload override.
 
-The bands below are **assumed ranges**, not hard facts. They were set to make
-the projections reasonable and should be revisited whenever there is evidence
-to change them. Any change to an assumption has knock-on effects — see
-[If you change an assumption](#if-you-change-an-assumption).
+The global parameter upload requires exactly one row for each of the 21 APEC
+economies. The Economy Deep Dive uploader continues to apply only the row for
+the selected economy. Both upload paths validate finite values and the bounds
+and relationships below; these are input-validation limits, not claims that
+every economy should share the same parameter values.
 
 **Units used in this file:** rates are stored as decimal fractions. For
 example, `0.015` means 1.5% per year, `0.002` means 0.2 percentage points per
@@ -19,14 +20,14 @@ depreciation values shown in the output are proportions: `0.25` means 25%.
 
 | Parameter | Role | Notes |
 | --- | --- | --- |
-| `lab_eff_periods` | Look-back window (years) for labour-efficiency growth | The model averages efficiency growth over this many recent historical years and nudges that average toward the `[low_eff, high_eff]` band. A shorter period reacts more to recent history; a longer period smooths shocks. |
-| `high_eff` / `low_eff` | Labour-efficiency growth band | Default corridor **1.2–1.5%/yr**. It matters only when the rolling efficiency-growth average is outside the corridor; inside it, the current rate is retained. Some economies widen it where historical or structural evidence supports faster growth, such as PNG 6–8% and Indonesia 1.2–3%. |
-| `change_eff` | Annual step toward the efficiency band | `0.0001` means 0.01 percentage points per year; `0.002` means 0.2 percentage points. A larger step removes an above-band or below-band deviation faster; a smaller step preserves the starting trajectory longer. |
-| `high_sav` / `low_sav` | Savings-rate corridor | Default corridor **22–25%**, seeded at the economy's source jump-off year: IMF 2031 for CT and WDI 2025 for other economies. Exceptions: PRC 18–20%, THA 22–34%. |
-| `change_sav` | Annual step toward the savings corridor | `0.002` means 0.2 percentage points per year. The effect depends on the starting value: if savings starts above the corridor, a larger step lowers GDP sooner; if it starts below, a larger step raises GDP sooner. |
-| `high_delta` / `low_delta` | Depreciation corridor | Default corridor **4.4–4.6%**, seeded from 2023 PWT data (`PWT_delta_2023.csv`) and carried to the jump-off year. Higher depreciation reduces capital accumulation; lower depreciation increases it. Exceptions: PRC 5.2–5.4%, SGP high 5%. |
-| `change_del` | Annual step toward the depreciation corridor | `0.0005` means 0.05 percentage points per year. It controls how quickly depreciation moves toward the corridor, not the eventual corridor itself. Its GDP effect is conditional on whether the starting depreciation rate is above or below the corridor. |
-| `alpha` | Capital share in the Cobb-Douglas production function `Y = K^alpha · (E·L)^(1-alpha)` | Fixed at **0.4** for all economies — the standard middle-ground capital share, consistent with national-accounting labour shares of roughly 60–70% for APEC. |
+| `lab_eff_periods` | Look-back window (years) for labour-efficiency growth | Uploads accept an integer from **1 to 10**. The model averages efficiency growth over this many recent historical years and nudges that average toward the `[low_eff, high_eff]` band. |
+| `high_eff` / `low_eff` | Labour-efficiency growth band | Each bound must be from **0.5% to 10%/yr**, with `low_eff` no greater than `high_eff`. The economy-specific values in the CSV are retained. |
+| `change_eff` | Annual step toward the efficiency band | Must be finite and non-negative. `0.0001` means 0.01 percentage points per year; `0.002` means 0.2 percentage points. |
+| `high_sav` / `low_sav` | Savings-rate corridor | Each bound must be from **15% to 50%**, with `low_sav` no greater than `high_sav`. The starting value continues to use the existing economy-specific savings workflow. |
+| `change_sav` | Annual step toward the savings corridor | Must be finite and non-negative. `0.002` means 0.2 percentage points per year. |
+| `high_delta` / `low_delta` | Depreciation corridor | Each bound must be from **3% to 7%**, with `low_delta` no greater than `high_delta`. |
+| `change_del` | Annual step toward the depreciation corridor | Must be finite and non-negative. `0.0005` means 0.05 percentage points per year. |
+| `alpha` | Capital share in the Cobb-Douglas production function `Y = K^alpha · (E·L)^(1-alpha)` | Must be from **0.3 to 0.5**. Economy-specific values are allowed and affect the derived labour-efficiency series. |
 | `cap_compare` | Series-break guardrail on capital growth | Caps how much year-on-year capital growth may jump relative to the previous year (default 0.05). Model-stability tuning, not an economics assumption. |
 | `notes` | Free-text per-economy caveats | Not used by the model; documents exceptions such as Brunei's IMF investment proxy and PNG's IMF-fallback savings assumption. WDI savings are preferred for non-CT economies when available. |
 

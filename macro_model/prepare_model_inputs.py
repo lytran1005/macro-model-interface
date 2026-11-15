@@ -103,7 +103,10 @@ def build_capital_stock(imf_long, pwt_long, codes, wdi_long=None):
         capital = capital.reset_index()
         capital = capital[["economy_code", "economy", "year", "variable", "capital", "source"]]
         capital = capital.rename(columns={"capital": "value"})
-        capital["percent"] = capital.groupby(["economy", "variable"], group_keys=False)["value"]\
+        capital = capital.sort_values(
+            ["economy_code", "variable", "year"], kind="stable"
+        )
+        capital["percent"] = capital.groupby(["economy_code", "variable"], group_keys=False)["value"]\
             .apply(pd.Series.pct_change)
 
         capital_df = pd.concat([capital_df, capital], axis=0).reset_index(drop=True)
@@ -174,7 +177,10 @@ def build_labour_efficiency(
     e_df = e_estimate.rename(columns={"E": "value"})
     e_df["variable"] = "Labour efficiency"
     e_df = e_df[["economy_code", "economy", "year", "variable", "value"]].reset_index(drop=True)
-    e_df["percent"] = e_df.groupby(["economy", "variable"], group_keys=False)["value"]\
+    e_df = e_df.sort_values(
+        ["economy_code", "variable", "year"], kind="stable"
+    )
+    e_df["percent"] = e_df.groupby(["economy_code", "variable"], group_keys=False)["value"]\
         .apply(pd.Series.pct_change)
     e_df["source"] = e_df["economy_code"].map(
         lambda economy: input_source_label(economy, wdi_available=wdi_long is not None)

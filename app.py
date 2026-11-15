@@ -45,12 +45,24 @@ MAP_INDICATORS = {
     },
     "GDP per capita": {
         "variable": "GDP_per_capita", "factor": 1.0,
-        "unit": "USD (2021 PPP)", "format": ",.0f", "scale": "linear",
+        "unit": "USD (2021 PPP)", "format": ",.0f", "scale": "log",
     },
 }
 MAP_BASE_YEAR = 2025
 MAP_LAND_COLOR = "#e6e9ec"
-MAP_SEQUENTIAL_SCHEME = "blues"
+MAP_APEC_BORDER_COLOR = "#475569"
+MAP_SEQUENTIAL_SCHEME = alt.SchemeParams(
+    name="plasma", extent=[0.0, 0.75]
+)
+INDEXED_BASE_YEAR = 2025
+INDEXED_MODE = "Indexed (2025 = 100)"
+CAGR_START_YEAR = 2025
+CAGR_END_YEAR = 2060
+INDEXED_COMPARISON_TITLES = {
+    "real_GDP": "Real GDP Index (2025 = 100)",
+    "GDP_per_capita": "GDP per Capita Index (2025 = 100)",
+    "population": "Population Index (2025 = 100)",
+}
 ECONOMY_COLORS = {
     "01_AUS": "#8B4513",
     "02_BD": "#000000",
@@ -87,21 +99,231 @@ from core import (
     jump_off_year_for_economy,
     CUSTOM_SCENARIO,
     DEFAULT_SCENARIO,
+    build_leap_input_export,
     available_population_scenarios,
     custom_population_status,
     population_scenarios_from_wide,
+    load_default_population_scenarios,
+    load_repository_gdp_overrides,
     run_uploaded_population_gdp_scenarios,
     run_uploaded_population_scenario,
+    uploaded_gdp_projection_overrides,
     load_gdp_model_parameters,
+    load_economies,
+    economy_code_map,
     run_analysis,
     wide_to_long,
     parse_params_csv,
     parse_uploaded_economy_params,
+    validate_wide_model_input,
 )
 from generate_samples import sample_params_csv
 
 SAMPLE_INPUT_PATH = Path(__file__).resolve().parent / "sample_wide_input.csv"
 POPULATION_HISTORY_END_YEAR = 2024
+
+
+def _indexed_comparison_data(chart_df, economy_codes):
+    """Return chart-only indexed values and economies with invalid base values."""
+    selected_data = chart_df.reindex(columns=economy_codes).apply(
+        pd.to_numeric, errors="coerce"
+    )
+    if INDEXED_BASE_YEAR not in selected_data.index:
+        return None, list(economy_codes)
+
+    baseline = selected_data.loc[INDEXED_BASE_YEAR]
+    valid_baseline = baseline.notna() & np.isfinite(baseline) & baseline.gt(0)
+    invalid_codes = [
+        code for code in economy_codes
+        if code not in valid_baseline.index or not bool(valid_baseline.loc[code])
+    ]
+    if invalid_codes:
+        return None, invalid_codes
+
+    indexed_data = selected_data.div(baseline, axis="columns").mul(100)
+    indexed_data = indexed_data.where(
+        np.isfinite(indexed_data) & selected_data.gt(0)
+    )
+    return indexed_data, []
+
+
+def _comparison_cagr_values(chart_df, economy_codes, variable):
+    """Return display-ready CAGR values from the fixed 2025 and 2060 endpoints."""
+    cagr_values = pd.Series("—", index=economy_codes, dtype=object)
+    if variable == "gdp_growth":
+        return cagr_values
+    if (
+        CAGR_START_YEAR not in chart_df.index
+        or CAGR_END_YEAR not in chart_df.index
+    ):
+        return cagr_values
+
+    start_values = pd.to_numeric(
+        chart_df.loc[CAGR_START_YEAR].reindex(economy_codes), errors="coerce"
+    )
+    end_values = pd.to_numeric(
+        chart_df.loc[CAGR_END_YEAR].reindex(economy_codes), errors="coerce"
+    )
+    valid_endpoints = (
+        np.isfinite(start_values)
+        & np.isfinite(end_values)
+        & start_values.gt(0)
+        & end_values.gt(0)
+    )
+    if not valid_endpoints.any():
+        return cagr_values
+
+    elapsed_years = CAGR_END_YEAR - CAGR_START_YEAR
+    rates = np.expm1(
+        (
+            np.log(end_values[valid_endpoints])
+            - np.log(start_values[valid_endpoints])
+        )
+        / elapsed_years
+    ) * 100
+    for economy_code, value in rates.items():
+        if np.isfinite(value):
+            cagr_values.loc[economy_code] = f"{value:.2f}%"
+    return cagr_values
+
+
+def _comparison_endpoint_ranks(chart_df, economy_codes, variable):
+    """Rank selected economies by valid absolute values at 2025 and 2060."""
+    rankings = pd.DataFrame(index=economy_codes)
+    level_variable = variable != "gdp_growth"
+    for year in (CAGR_START_YEAR, CAGR_END_YEAR):
+        if year not in chart_df.index:
+            values = pd.Series(np.nan, index=economy_codes, dtype=float)
+        else:
+            values = pd.to_numeric(
+                chart_df.loc[year].reindex(economy_codes), errors="coerce"
+            )
+        valid_values = values.notna() & np.isfinite(values)
+        if level_variable:
+            valid_values &= values.gt(0)
+        rankings[f"rank_{year}"] = values.where(valid_values).rank(
+            method="min", ascending=False
+        )
+
+    rankings["movement"] = (
+        rankings[f"rank_{CAGR_START_YEAR}"]
+        - rankings[f"rank_{CAGR_END_YEAR}"]
+    )
+    return rankings
+
+
+def _population_paths_caption(
+    is_bundled,
+    population_view,
+    economy_code,
+    economy_codes,
+    custom_codes,
+):
+    custom_total_available = bool(economy_codes) and set(custom_codes) == set(
+        economy_codes
+    )
+    if is_bundled:
+        if population_view == "Total":
+            selections = load_default_population_scenarios()
+            loaded_selections = [selections[code] for code in economy_codes]
+            historical_sources = []
+            if any(
+                item["Historical to 2024"] == "EGEDA"
+                for item in loaded_selections
+            ):
+                historical_sources.append("EGEDA historical population")
+            if any(
+                item["Historical to 2024"] == "Custom"
+                for item in loaded_selections
+            ):
+                historical_sources.append(
+                    "researcher-provided custom historical population"
+                )
+
+            projection_names = []
+            for choice, name in [
+                ("MED", "Medium"),
+                ("LOW", "Low"),
+                ("HIGH", "High"),
+            ]:
+                if any(item["Projection"] == choice for item in loaded_selections):
+                    projection_names.append(name)
+            projection_sources = []
+            if projection_names:
+                projection_sources.append(
+                    "UN DESA " + _join_population_sources(projection_names) + " projections"
+                )
+            if any(
+                item["Projection"] == "Custom" for item in loaded_selections
+            ):
+                projection_sources.append(
+                    "researcher-provided custom projections"
+                )
+            caption = (
+                "Default combines the selected historical sources ("
+                + _join_population_sources(historical_sources)
+                + ") through 2024 with the selected projections ("
+                + _join_population_sources(projection_sources)
+                + ") from 2025 onward. Low, Medium and High share the same historical data "
+                "and use their corresponding UN DESA projections from 2025 onward."
+            )
+        else:
+            selections = load_default_population_scenarios()[economy_code]
+            historical_source = (
+                "EGEDA historical population"
+                if selections["Historical to 2024"] == "EGEDA"
+                else "researcher-provided custom historical population"
+            )
+            projection_choice = selections["Projection"]
+            projection_source = {
+                "MED": "UN DESA Medium projections",
+                "LOW": "UN DESA Low projections",
+                "HIGH": "UN DESA High projections",
+                "Custom": "researcher-provided custom projections",
+            }[projection_choice]
+            caption = (
+                f"Default combines {historical_source} through 2024 with {projection_source} "
+                "from 2025 onward. Low, Medium and High share the same historical population "
+                "data and use their corresponding UN DESA projections from 2025 onward."
+            )
+    else:
+        if population_view == "Total":
+            caption = (
+                "Default, Low, Medium and High use population values supplied in the uploaded "
+                "dataset; the underlying sources are not identified."
+            )
+        else:
+            caption = (
+                "Default, Low, Medium and High use population values supplied in the uploaded "
+                "dataset; the underlying sources are not identified."
+            )
+
+    if population_view == "Total":
+        if custom_total_available:
+            caption += (
+                " A separate Custom total is available because custom population paths "
+                "cover all economies represented in the loaded data; it is distinct from "
+                "the sources used for Default."
+            )
+    elif custom_codes:
+        if economy_code in custom_codes:
+            caption += (
+                " A separate Custom path is available for this economy and is distinct "
+                "from the sources used for Default."
+            )
+        else:
+            caption += (
+                " A separate Custom path is available for other economies with complete, "
+                "valid custom data, but not for this economy; it does not affect Default."
+            )
+    return caption
+
+
+def _join_population_sources(sources):
+    if len(sources) == 1:
+        return sources[0]
+    return ", ".join(sources[:-1]) + " and " + sources[-1]
+
 
 st.set_page_config(
     page_title="APERC 10th Outlook — Solow-Swan GDP Model",
@@ -130,6 +352,126 @@ def validate(df):
                   f" (optional missing: {optional or 'none'}; extra: {extra or 'none'})")
 
 
+def _apec_results_status(results, errors, included_codes):
+    expected_codes = set(
+        load_economies()["economy_code"].astype(str)
+    )
+    included_codes = set(map(str, included_codes))
+    if results.empty:
+        return False, "No model results were produced."
+    result_codes = set(results["economy_code"].astype(str))
+    missing = sorted(expected_codes - included_codes)
+    if missing:
+        return False, "Missing economies: " + ", ".join(missing) + "."
+    if errors:
+        examples = "; ".join(
+            f"{code}: {message}" for code, message in errors[:3]
+        )
+        return False, "One or more economies failed model calculations. " + examples
+    missing_results = sorted(expected_codes - result_codes)
+    if missing_results:
+        return False, "Missing economies in model results: " + ", ".join(
+            missing_results
+        ) + "."
+
+    expected_years = set(range(HISTORY_START_YEAR, FINAL_YEAR + 1))
+    for code in sorted(expected_codes):
+        for variable in ("real_GDP", "population"):
+            series = results[
+                results["economy_code"].astype(str).eq(code)
+                & results["variable"].eq(variable)
+            ]
+            years = pd.to_numeric(series["year"], errors="coerce")
+            if (
+                series.empty
+                or years.isna().any()
+                or years.duplicated().any()
+                or set(years.astype(int)) != expected_years
+            ):
+                return False, (
+                    f"Incomplete {variable} result coverage for {code}; "
+                    f"all years {HISTORY_START_YEAR}–{FINAL_YEAR} are required."
+                )
+            values = pd.to_numeric(series["value"], errors="coerce").to_numpy(
+                dtype=float
+            )
+            if not np.isfinite(values).all() or (values <= 0).any():
+                return False, (
+                    f"Invalid {variable} result values for {code}; "
+                    "all values must be finite and positive."
+                )
+    return True, ""
+
+
+def _population_scenario_coverage_error(df_wide):
+    frame = df_wide.copy()
+    if "economy_code" not in frame.columns:
+        frame["economy_code"] = frame["economy"].map(economy_code_map())
+    frame["year"] = pd.to_numeric(frame["year"], errors="coerce")
+    expected_years = set(range(HISTORY_START_YEAR, FINAL_YEAR + 1))
+    required_columns = {
+        "Default": "population_1jan",
+        "Low": "population_1jan_low",
+        "Medium": "population_1jan_medium",
+        "High": "population_1jan_high",
+    }
+    for scenario, column in required_columns.items():
+        if column not in frame.columns:
+            return f"The {scenario} population path requires column '{column}'."
+        for code, group in frame.groupby("economy_code", sort=True):
+            years = set(group["year"].dropna().astype(int))
+            values = pd.to_numeric(group[column], errors="coerce").to_numpy(
+                dtype=float
+            )
+            if years != expected_years or len(values) != len(expected_years):
+                return (
+                    f"The {scenario} population path for {code} must contain "
+                    f"one value for every year from {HISTORY_START_YEAR} "
+                    f"through {FINAL_YEAR}."
+                )
+            if not np.isfinite(values).all() or (values <= 0).any():
+                return (
+                    f"The {scenario} population path for {code} must contain "
+                    "only finite, positive values."
+                )
+    return ""
+
+
+def _population_gdp_scenario_coverage_error(scenarios, df_wide):
+    expected_years = set(range(HISTORY_START_YEAR, FINAL_YEAR + 1))
+    expected_codes = set(load_economies()["economy_code"].astype(str))
+    custom_codes, _ = custom_population_status(df_wide)
+    for scenario in available_population_scenarios(df_wide):
+        scenario_codes = (
+            set(custom_codes) if scenario == CUSTOM_SCENARIO else expected_codes
+        )
+        for code in sorted(scenario_codes):
+            series = scenarios[
+                scenarios["scenario"].eq(scenario)
+                & scenarios["economy_code"].astype(str).eq(code)
+            ]
+            years = pd.to_numeric(series["year"], errors="coerce")
+            if (
+                years.isna().any()
+                or years.duplicated().any()
+                or set(years.astype(int)) != expected_years
+            ):
+                return (
+                    f"The {scenario} GDP sensitivity result for {code} is "
+                    f"incomplete; all years {HISTORY_START_YEAR}–{FINAL_YEAR} "
+                    "are required."
+                )
+            values = pd.to_numeric(series["value"], errors="coerce").to_numpy(
+                dtype=float
+            )
+            if not np.isfinite(values).all() or (values <= 0).any():
+                return (
+                    f"The {scenario} GDP sensitivity result for {code} must "
+                    "contain only finite, positive values."
+                )
+    return ""
+
+
 @st.cache_data(show_spinner="Deriving inputs and running Solow-Swan model for all economies...")
 def cached_run(df, params, use_repository_gdp_overrides=False):
     return run_analysis(
@@ -148,6 +490,156 @@ def cached_population_gdp_scenarios(
 ):
     return run_uploaded_population_gdp_scenarios(
         df_wide, params, use_repository_gdp_overrides=use_repository_gdp_overrides
+    )
+
+
+def _gdp_projection_override_end_years(
+    df_wide, economy_codes, use_repository_gdp_overrides
+):
+    economy_codes = sorted({str(code) for code in economy_codes})
+    if not economy_codes:
+        return {}
+
+    if use_repository_gdp_overrides:
+        overrides = load_repository_gdp_overrides()
+    else:
+        long_input = wide_to_long(df_wide)
+        override_frames = [
+            uploaded_gdp_projection_overrides(long_input, code)
+            for code in economy_codes
+        ]
+        populated_frames = [frame for frame in override_frames if not frame.empty]
+        overrides = (
+            pd.concat(populated_frames, ignore_index=True)
+            if populated_frames
+            else pd.DataFrame(columns=["economy_code", "year", "value"])
+        )
+
+    overrides = overrides[overrides["economy_code"].astype(str).isin(economy_codes)]
+    if overrides.empty:
+        return {}
+    return overrides.groupby("economy_code")["year"].max().astype(int).to_dict()
+
+
+def _gdp_sensitivity_bottom_caption(
+    is_bundled,
+    population_view,
+    economy_code,
+    economy_codes,
+    override_end_years,
+):
+    unit = "Real GDP (Millions 2021 USD PPP)."
+    if population_view == "Total":
+        standard_starts = []
+        if any(code != "18_CT" for code in economy_codes):
+            standard_starts.append(f"{LAST_WDI_YEAR + 1} for non-CT economies")
+        if "18_CT" in economy_codes:
+            standard_starts.append(f"{LAST_IMF_YEAR + 1} for CT")
+
+        if is_bundled:
+            historical_sources = []
+            if any(code != "18_CT" for code in economy_codes):
+                historical_sources.append(
+                    f"World Bank WDI through {LAST_WDI_YEAR} for non-CT economies"
+                )
+            if "18_CT" in economy_codes:
+                historical_sources.append(
+                    f"IMF WEO through {LAST_IMF_YEAR} for CT"
+                )
+            return (
+                unit
+                + " The prepared sample uses "
+                + " and ".join(historical_sources)
+                + ". Researcher-supplied projections are retained where available; "
+                "the model generates the remaining projections after each economy's "
+                "final supplied year. Without additional supplied projections, model "
+                "generation starts in "
+                + " and ".join(standard_starts)
+                + "."
+            )
+
+        return (
+            unit
+            + " GDP values come from the uploaded data. Supplied future projections "
+            "are retained where available; the model generates the remaining "
+            "projections after each economy's final supplied year. Without supplied "
+            "future projections, model generation starts in "
+            + " and ".join(standard_starts)
+            + "."
+        )
+
+    jump_off_year = jump_off_year_for_economy(economy_code)
+    if is_bundled:
+        historical_source = (
+            "IMF WEO" if economy_code == "18_CT" else "World Bank WDI"
+        )
+        caption = (
+            f"{unit} In the prepared sample, historical GDP uses {historical_source} "
+            f"through {jump_off_year}."
+        )
+    else:
+        caption = f"{unit} GDP values come from the uploaded data."
+
+    supplied_end_year = override_end_years.get(economy_code)
+    if supplied_end_year is not None:
+        supplied_source = (
+            "Researcher-supplied projections"
+            if is_bundled
+            else "Supplied future projections"
+        )
+        return (
+            f"{caption} {supplied_source} are retained through {supplied_end_year}; "
+            f"the model generates the remaining projections from "
+            f"{supplied_end_year + 1} onward."
+        )
+
+    if is_bundled:
+        return (
+            f"{caption} Without additional supplied projections, the model generates "
+            f"projections from {jump_off_year + 1} onward."
+        )
+    return (
+        f"{caption} No future GDP projections are supplied; the model generates "
+        f"projections from {jump_off_year + 1} onward after the standard "
+        f"{jump_off_year} anchor."
+    )
+
+
+def _deep_dive_gdp_caption(is_bundled, economy_code, override_end_years):
+    unit = "Real GDP (Millions 2021 USD PPP)."
+    jump_off_year = jump_off_year_for_economy(economy_code)
+    supplied_end_year = override_end_years.get(economy_code)
+
+    if is_bundled:
+        if economy_code == "18_CT":
+            historical_period = (
+                f"IMF WEO data and projections extend through {jump_off_year}"
+            )
+        else:
+            historical_period = (
+                f"Historical GDP uses World Bank WDI through {jump_off_year}"
+            )
+        if supplied_end_year is not None:
+            return (
+                f"{unit} {historical_period}. Researcher-supplied projections are "
+                f"retained through {supplied_end_year}, after which the model "
+                f"generates the remaining projections from {supplied_end_year + 1} onward."
+            )
+        return (
+            f"{unit} {historical_period}; the model generates projections from "
+            f"{jump_off_year + 1} onward."
+        )
+
+    if supplied_end_year is not None:
+        return (
+            f"{unit} GDP values from the uploaded data are used as supplied. Future "
+            f"GDP projections are retained through {supplied_end_year}, after which "
+            f"the model generates the remaining projections from "
+            f"{supplied_end_year + 1} onward."
+        )
+    return (
+        f"{unit} GDP values from the uploaded data are used as supplied; the model "
+        f"generates projections from {jump_off_year + 1} onward."
     )
 
 
@@ -197,6 +689,7 @@ def render_interactive_line_chart(
     show_legend=True,
     dashed_series=None,
     fit_y_to_data=False,
+    chart_title=None,
 ):
     """Render a line chart with a nearest-year guide, hover points, and tooltips."""
     chart_data = data.copy()
@@ -259,6 +752,8 @@ def render_interactive_line_chart(
         color="#a0a0a0", strokeDash=[3, 3]
     ).encode(x="year:Q").transform_filter(hover)
     chart = (line + selectors + points + hover_rule).properties(height=height)
+    if chart_title:
+        chart = chart.properties(title=chart_title)
     chart_col, download_col = st.columns([10, 1])
     with chart_col:
         st.altair_chart(chart, use_container_width=True)
@@ -381,17 +876,74 @@ def render_apec_summary_metrics(scenario_results):
         )
 
 
+def _valid_map_values(values, scale):
+    numeric_values = pd.to_numeric(values, errors="coerce")
+    valid_values = numeric_values.notna() & np.isfinite(numeric_values)
+    if scale == "log":
+        valid_values &= numeric_values.gt(0)
+    elif scale == "sqrt":
+        valid_values &= numeric_values.ge(0)
+    return numeric_values.loc[valid_values]
+
+
+def _log_legend_values(low, high, max_ticks=4):
+    if not np.isfinite(low) or not np.isfinite(high) or low <= 0 or high <= low:
+        return []
+
+    min_exponent = int(np.floor(np.log10(low)))
+    max_exponent = int(np.ceil(np.log10(high)))
+    nice_ticks = []
+    with np.errstate(over="ignore", under="ignore"):
+        for exponent in range(min_exponent, max_exponent + 1):
+            magnitude = np.power(10.0, exponent)
+            if not np.isfinite(magnitude) or magnitude == 0:
+                continue
+            nice_ticks.extend(
+                tick
+                for tick in (magnitude, 2 * magnitude, 5 * magnitude)
+                if low <= tick <= high
+            )
+
+    nice_ticks = sorted(set(nice_ticks))
+    if len(nice_ticks) > max_ticks:
+        log_ticks = np.log(nice_ticks)
+        target_logs = np.linspace(log_ticks[0], log_ticks[-1], max_ticks)
+        remaining_ticks = nice_ticks.copy()
+        selected_ticks = []
+        for target in target_logs:
+            closest = min(
+                remaining_ticks,
+                key=lambda tick: abs(np.log(tick) - target),
+            )
+            selected_ticks.append(closest)
+            remaining_ticks.remove(closest)
+        nice_ticks = sorted(selected_ticks)
+    elif not nice_ticks:
+        nice_ticks = np.geomspace(low, high, num=max_ticks).tolist()
+
+    unique_ticks = []
+    seen_labels = set()
+    for tick in nice_ticks:
+        label = format(tick, ",.0f")
+        if label not in seen_labels:
+            unique_ticks.append(float(tick))
+            seen_labels.add(label)
+    return unique_ticks
+
+
 def build_apec_map_data(scenario_results, indicator, year):
     """Return one row per APEC economy for the selected indicator and year."""
     spec = MAP_INDICATORS[indicator]
     rows = scenario_results[
         (scenario_results["variable"] == spec["variable"])
         & (scenario_results["year"] == year)
-    ].dropna(subset=["value"])
+    ]
+    values = _valid_map_values(rows["value"], spec["scale"]) * spec["factor"]
+    rows = rows.loc[values.index]
     data = pd.DataFrame({
         "economy_code": rows["economy_code"].to_numpy(),
         "Economy": rows["economy"].to_numpy(),
-        "value": rows["value"].to_numpy() * spec["factor"],
+        "value": values.to_numpy(),
     })
     data["id"] = data["economy_code"].map(APEC_MAP_IDS)
     data["Indicator"] = f"{indicator} ({spec['unit']})"
@@ -403,9 +955,10 @@ def build_apec_map_data(scenario_results, indicator, year):
 def render_apec_map(scenario_results, indicator, year):
     """Draw a muted world basemap with the APEC economies shaded by value."""
     spec = MAP_INDICATORS[indicator]
-    series = scenario_results[
+    raw_series = scenario_results[
         scenario_results["variable"] == spec["variable"]
-    ]["value"].dropna() * spec["factor"]
+    ]["value"]
+    series = _valid_map_values(raw_series, spec["scale"]) * spec["factor"]
     map_data = build_apec_map_data(scenario_results, indicator, year)
     if series.empty or map_data.empty:
         st.info("No values are available for this indicator and year.")
@@ -413,18 +966,32 @@ def render_apec_map(scenario_results, indicator, year):
 
     # Fixed range across all years so colours stay comparable when the year changes.
     low = 0.0 if spec["scale"] == "sqrt" else float(series.min())
+    high = float(series.max())
+    if spec["scale"] == "log" and low == high:
+        padding = np.sqrt(10)
+        low /= padding
+        high *= padding
+    color_scale = alt.Scale(
+        type=spec["scale"],
+        domain=[low, high],
+        scheme=MAP_SEQUENTIAL_SCHEME,
+    )
+    legend_options = {
+        "orient": "bottom",
+        "direction": "horizontal",
+        "format": ",.0f",
+        "gradientLength": 240 if spec["scale"] == "log" else 320,
+        "titleLimit": 400,
+    }
+    if spec["scale"] == "log":
+        legend_options["values"] = _log_legend_values(low, high)
+        legend_options["labelOverlap"] = False
+    legend = alt.Legend(**legend_options)
     color = alt.Color(
         "value:Q",
         title=f"{indicator} ({spec['unit']})",
-        scale=alt.Scale(
-            type=spec["scale"],
-            domain=[low, float(series.max())],
-            scheme=MAP_SEQUENTIAL_SCHEME,
-        ),
-        legend=alt.Legend(
-            orient="bottom", direction="horizontal", format=",.0f",
-            gradientLength=320, titleLimit=400,
-        ),
+        scale=color_scale,
+        legend=legend,
     )
     tooltip = [
         alt.Tooltip("Economy:N", title="Economy"),
@@ -441,7 +1008,7 @@ def render_apec_map(scenario_results, indicator, year):
         fill=MAP_LAND_COLOR, stroke=MAP_LAND_COLOR, strokeWidth=0.5
     ).transform_filter("datum.id !== '010'")
     economies = alt.Chart(world).mark_geoshape(
-        stroke="white", strokeWidth=0.3
+        stroke=MAP_APEC_BORDER_COLOR, strokeWidth=0.5
     ).transform_lookup(
         lookup="id",
         from_=alt.LookupData(map_data, "id", ["Economy", "Indicator", "Year", "Value", "value"]),
@@ -454,10 +1021,15 @@ def render_apec_map(scenario_results, indicator, year):
         markers["latitude"] = markers["economy_code"].map(lambda c: APEC_MAP_MARKERS[c][1])
         layers.append(
             alt.Chart(markers).mark_circle(
-                size=110, stroke="white", strokeWidth=0.8
+                size=110, stroke=MAP_APEC_BORDER_COLOR, strokeWidth=0.8
             ).encode(
                 longitude="longitude:Q", latitude="latitude:Q",
-                color=alt.Color("value:Q", legend=None), tooltip=tooltip,
+                color=alt.Color(
+                    "value:Q",
+                    title=f"{indicator} ({spec['unit']})",
+                    scale=color_scale,
+                    legend=legend,
+                ), tooltip=tooltip,
             )
         )
 
@@ -533,26 +1105,29 @@ def load_uploaded_deep_dive_parameters():
 
 # --- sidebar: data + parameters --------------------------------------------
 
+data_input_error = None
+
 with st.sidebar:
     has_data = "df_wide" in st.session_state
 
     with st.expander("⚙️ Data & Configuration", expanded=not has_data):
         st.caption(
-            "Upload a wide CSV (one row per economy-year). Required columns: `economy` or `economy_code`, `year`, and: "
-            "`population_1jan`, `Real GDP PPP 2021 USD`, `output_to_kstock`, `delta`, `Gross national savings`. "
-            "To use population scenarios, also include `population_1jan_low`, `population_1jan_medium`, "
-            "and `population_1jan_high`. Population values are in thousands. The loaded "
-            "`population_1jan` supplies Default and is not replaced for uploads. "
-            "For uploads, optional GDP projections after the normal source cutoff must be finite, positive, "
-            "and continuous annually through the final supplied year (from 2026 for non-CT, or 2032 for CT; "
-            "IMF remains the source for CT through 2031); model calculation resumes in the next year. "
-            "Repository GDP overrides apply only when using the bundled sample. "
-            "An optional `population_1jan_custom` path enables Custom for an economy when "
-            "it has finite, positive values in every model year where Medium has a value."
+            "Upload a wide-format model input CSV, or use the bundled sample. "
+            "The summary below reflects the active dataset."
         )
 
         st.markdown("**📁 1. Model Input Data**")
-        uploaded = st.file_uploader("Upload Model Input Data CSV", type=["csv"], help="Upload the input dataset for all 21 APEC economies, with historical model inputs and population projections (Low, Medium, and High). The file should follow the required format. Download the sample file for reference.")
+        uploaded = st.file_uploader(
+            "Upload Model Input Data CSV",
+            type=["csv"],
+            help=(
+                "Include one row per economy and year from 1990 through 2060, "
+                "with the required model inputs. Economy Deep Dive accepts a "
+                "subset of APEC economies; Population Scenarios, Economy "
+                "Comparison, APEC Overview, and Combined Results & Export "
+                "require all 21. Download the sample file for reference."
+            ),
+        )
 
         use_sample = st.button("Use Pipeline Sample Data", use_container_width=True, type="primary" if not has_data else "secondary")
         st.download_button(
@@ -564,9 +1139,19 @@ with st.sidebar:
         )
 
         if uploaded is not None:
-            st.session_state["df_wide"] = pd.read_csv(uploaded)
-            st.session_state["data_label"] = uploaded.name
-            st.session_state["data_source"] = "uploaded"
+            try:
+                uploaded_data = pd.read_csv(uploaded, keep_default_na=False)
+            except (
+                pd.errors.EmptyDataError,
+                pd.errors.ParserError,
+                UnicodeDecodeError,
+                ValueError,
+            ) as exc:
+                data_input_error = f"Could not read uploaded model input: {exc}"
+            else:
+                st.session_state["df_wide"] = uploaded_data
+                st.session_state["data_label"] = uploaded.name
+                st.session_state["data_source"] = "uploaded"
         elif use_sample:
             st.session_state["df_wide"] = load_bundled_sample()
             st.session_state["data_label"] = "pipeline sample data (21 APEC economies)"
@@ -585,8 +1170,20 @@ with st.sidebar:
             ),
         )
         if params_file is not None:
-            st.session_state["params"] = parse_params_csv(pd.read_csv(params_file))
-            st.success("Custom parameters loaded")
+            try:
+                uploaded_params = parse_params_csv(
+                    pd.read_csv(params_file, keep_default_na=False)
+                )
+            except (
+                pd.errors.EmptyDataError,
+                pd.errors.ParserError,
+                UnicodeDecodeError,
+                ValueError,
+            ) as exc:
+                st.error(f"Custom parameters were not applied: {exc}")
+            else:
+                st.session_state["params"] = uploaded_params
+                st.success("Custom parameters loaded for all 21 APEC economies")
         st.download_button(
             "Download Parameter Template CSV",
             sample_params_csv().to_csv(index=False).encode(),
@@ -599,49 +1196,83 @@ with st.sidebar:
 
         # --- data status ------------------------------------------------------
 
-        if "df_wide" in st.session_state:
+        df = pd.DataFrame(columns=["economy_code"])
+        if data_input_error is None and "df_wide" in st.session_state:
             df_wide = st.session_state["df_wide"]
             ok, message = validate(df_wide)
             if not ok:
-                st.error(message)
-                st.stop()
-            st.success(f"✓ Loaded {st.session_state.get('data_label', 'data')}")
-            df = wide_to_long(df_wide)
-        else:
+                data_input_error = message
+            else:
+                try:
+                    validate_wide_model_input(df_wide)
+                    df = wide_to_long(df_wide)
+                except ValueError as exc:
+                    data_input_error = str(exc)
+        elif data_input_error is None:
+            data_input_error = (
+                "No model dataset is loaded. Upload a wide CSV or select "
+                "the bundled sample."
+            )
             st.info("👈 Upload a wide CSV or click **Use Pipeline Sample Data** to begin.")
-            st.stop()
+        if data_input_error is not None:
+            df = pd.DataFrame(columns=["economy_code"])
 
     use_repository_gdp_overrides = (
-        st.session_state.get("data_source") == "bundled"
+        data_input_error is None
+        and st.session_state.get("data_source") == "bundled"
     )
 
-    st.caption(
-        f"**Economies:** {df['economy_code'].nunique()} | "
-        f"**Years:** {df['year'].min()}–{df['year'].max()} | "
-        f"**Rows:** {len(df):,}"
-    )
-    st.caption(
-        f"**Model Horizon:** {HISTORY_START_YEAR}–{FINAL_YEAR}\n\n"
-        f"**Jump-off Years:**\n"
-        f"- Non-CT Economies (WDI): {LAST_WDI_YEAR}\n"
-        f"- 18_CT (IMF): {LAST_IMF_YEAR}"
-    )
+    if data_input_error is not None:
+        st.caption("**Data loaded:** No valid model dataset")
+    elif use_repository_gdp_overrides:
+        st.caption("**Data loaded:** Bundled sample")
+        st.caption("**Population:** Prepared default historical and projection series")
+        st.caption(
+            "**GDP data and projections:**\n"
+            f"- 20 APEC economies: World Bank WDI data through {LAST_WDI_YEAR}; "
+            f"model-generated projections generally begin in {LAST_WDI_YEAR + 1}.\n"
+            f"- Chinese Taipei: IMF WEO data through {LAST_IMF_YEAR}; "
+            f"model-generated projections generally begin in {LAST_IMF_YEAR + 1}.\n"
+            "Additional researcher-provided GDP projections may extend the period "
+            "before model-generated projections begin."
+        )
+    else:
+        data_label = st.session_state.get("data_label", "uploaded dataset")
+        st.caption(f"**Data loaded:** Uploaded dataset — {data_label}")
+        st.caption(
+            "**Population:** Uses the population values provided in the uploaded dataset"
+        )
+        st.caption(
+            "**GDP data and projections:** Uses uploaded values. "
+            "Model-generated projections begin after "
+            "the available GDP data for each economy."
+        )
+
+    if data_input_error is None:
+        st.caption(f"**Economies:** {df['economy_code'].nunique()}")
+    st.caption(f"**Model horizon:** {HISTORY_START_YEAR}–{FINAL_YEAR}")
 
 # --- run model --------------------------------------------------------------
 
 params = st.session_state.get("params") or load_gdp_model_parameters("gdp_model_parameters.csv")
-results, inputs, errors = cached_run(
-    df, params, use_repository_gdp_overrides=use_repository_gdp_overrides
-)
+if data_input_error is not None:
+    results, inputs, errors = pd.DataFrame(), {}, []
+else:
+    try:
+        results, inputs, errors = cached_run(
+            df, params, use_repository_gdp_overrides=use_repository_gdp_overrides
+        )
+    except ValueError as exc:
+        data_input_error = f"Model calculation could not continue: {exc}"
+        results, inputs, errors = pd.DataFrame(), {}, []
+
+if data_input_error is not None:
+    st.error(data_input_error)
 
 if errors:
     with st.expander(f"⚠️ {len(errors)} economy/ies had warnings or issues - show details"):
         for code, err in errors:
             st.write(f"**{code}**: {err}")
-
-if results.empty:
-    st.error("No results produced. Please check your uploaded dataset format.")
-    st.stop()
 
 # --- tabs -------------------------------------------------------------------
 
@@ -651,6 +1282,7 @@ VIEW_COMPARE = "📈 Economy Comparison"
 VIEW_OVERVIEW = "🌏 APEC Overview"
 VIEW_DATA = "📋 Combined Results & Export"
 VIEW_DOCS = "📖 Model Methodology"
+APEC_WIDE_VIEWS = {VIEW_POPULATION, VIEW_COMPARE, VIEW_OVERVIEW, VIEW_DATA}
 
 view_labels = [VIEW_POPULATION, VIEW_DETAIL, VIEW_COMPARE, VIEW_OVERVIEW, VIEW_DATA, VIEW_DOCS]
 tab_population, tab_detail, tab_compare, tab_overview, tab_data, tab_docs = st.tabs(
@@ -667,22 +1299,41 @@ tabs_by_view = dict(zip(
 ))
 active_view = st.session_state["active_view"]
 active_tab = tabs_by_view[active_view]
+apec_ready, apec_status_message = _apec_results_status(
+    results,
+    errors,
+    df["economy_code"].astype(str).unique(),
+)
 
 with active_tab:
+    if data_input_error is not None and active_view != VIEW_DOCS:
+        st.stop()
+    if results.empty and active_view != VIEW_DOCS:
+        st.error("No results produced. Please check your uploaded dataset format.")
+        st.stop()
+    if active_view in APEC_WIDE_VIEWS and not apec_ready:
+        st.warning(
+            "This tab requires complete results for all 21 APEC economies. "
+            + apec_status_message
+            + " Economy Deep Dive remains available for the economies in the loaded dataset."
+        )
+        st.stop()
+
     # --- TAB 1: Economy Comparison -----------------------------------------
     if active_view == VIEW_COMPARE:
         st.subheader("Multi-Economy Projections Comparison")
 
         all_codes = sorted(results["economy_code"].unique())
-        col_sel1, col_sel2 = st.columns([3, 1])
-        with col_sel1:
+        with st.sidebar:
+            st.divider()
+            st.markdown("### 📈 Economy Comparison")
             selected_codes = st.multiselect(
                 "Select Economies to display",
                 options=all_codes,
                 default=all_codes[:6] if len(all_codes) >= 6 else all_codes,
+                key="comparison_economies",
                 help="Choose which economies to include in the comparison chart.",
             )
-        with col_sel2:
             metric_choice = st.selectbox(
                 "Select Variable",
                 options=[
@@ -690,14 +1341,16 @@ with active_tab:
                     ("gdp_growth", "Annual Real GDP Growth Rate (%)"),
                     ("GDP_per_capita", "GDP Per Capita (2021 USD PPP)"),
                     ("population", "Population (Thousands)"),
-                    ("k_stock", "Capital Stock (Millions 2021 USD)"),
-                    ("lab_efficiency", "Labour Efficiency (E)"),
                 ],
                 format_func=lambda x: x[1],
+                key="comparison_variable",
             )
 
         var_key, var_title = metric_choice
 
+        chart_df = None
+        indexed_data = None
+        invalid_codes = []
         if selected_codes:
             sub_comp = results[
                 (results["variable"] == var_key)
@@ -705,25 +1358,170 @@ with active_tab:
             ]
             if not sub_comp.empty:
                 chart_df = sub_comp.pivot(index="year", columns="economy_code", values="value").sort_index()
-                render_interactive_line_chart(
-                    chart_df,
-                    var_title,
-                    series_title="Economy",
-                    series_order=selected_codes,
-                    series_colors=[ECONOMY_COLORS[code] for code in selected_codes],
-                )
-                st.caption(f"{var_title} ({HISTORY_START_YEAR}–{FINAL_YEAR})")
-
-                # Benchmark year summary table
-                benchmark_years = [y for y in [1990, 2025, 2030, 2040, 2050, FINAL_YEAR] if y in chart_df.index]
-                if benchmark_years:
-                    st.markdown("##### Benchmark Year Values")
-                    bench_table = chart_df.loc[benchmark_years].T
-                    st.dataframe(
-                        bench_table.style.format("{:,.2f}" if var_key in ["gdp_growth", "lab_efficiency"] else "{:,.0f}"),
-                        use_container_width=True,
+                if var_key in INDEXED_COMPARISON_TITLES:
+                    indexed_data, invalid_codes = _indexed_comparison_data(
+                        chart_df, selected_codes
                     )
-        else:
+
+        mode_key = f"comparison_display_mode_{var_key}"
+        mode_disabled = (
+            var_key not in INDEXED_COMPARISON_TITLES
+            or chart_df is None
+            or bool(invalid_codes)
+        )
+        if mode_disabled and st.session_state.get(mode_key, "Absolute") != "Absolute":
+            st.session_state[mode_key] = "Absolute"
+        with st.sidebar:
+            display_mode = st.radio(
+                "Display Mode",
+                options=["Absolute", INDEXED_MODE],
+                key=mode_key,
+                horizontal=True,
+                disabled=mode_disabled,
+            )
+
+        if invalid_codes:
+            st.warning(
+                "Indexed mode is unavailable because the 2025 baseline "
+                "is missing, non-finite, zero, or negative for: "
+                f"{', '.join(invalid_codes)}."
+            )
+
+        if chart_df is not None:
+            chart_data = chart_df
+            chart_title = var_title
+            chart_y_title = var_title
+            chart_caption = f"{var_title} ({HISTORY_START_YEAR}–{FINAL_YEAR})"
+            if (
+                var_key in INDEXED_COMPARISON_TITLES
+                and display_mode == INDEXED_MODE
+            ):
+                chart_data = indexed_data
+                chart_title = INDEXED_COMPARISON_TITLES[var_key]
+                chart_y_title = "Index (2025 = 100)"
+                chart_caption = (
+                    f"{var_title} indexed to each economy's 2025 value "
+                    f"(= 100) ({HISTORY_START_YEAR}–{FINAL_YEAR}). "
+                    "The benchmark-year table continues to show actual "
+                    "values in original units."
+                )
+
+            render_interactive_line_chart(
+                chart_data,
+                chart_y_title,
+                series_title="Economy",
+                series_order=selected_codes,
+                series_colors=[ECONOMY_COLORS[code] for code in selected_codes],
+                chart_title=chart_title,
+            )
+            st.caption(chart_caption)
+
+            # Benchmark year summary table
+            benchmark_years = [y for y in [1990, 2025, 2030, 2040, 2050, FINAL_YEAR] if y in chart_df.index]
+            if benchmark_years:
+                st.markdown("##### Benchmark Year Values")
+                bench_table = chart_df.loc[benchmark_years].T
+                bench_table.columns = [str(year) for year in bench_table.columns]
+                cagr_column = "CAGR (2025–2060)"
+                bench_table[cagr_column] = _comparison_cagr_values(
+                    chart_df, bench_table.index.tolist(), var_key
+                )
+                benchmark_formatters = {
+                    str(year): "{:,.2f}" if var_key == "gdp_growth" else "{:,.0f}"
+                    for year in benchmark_years
+                }
+                st.dataframe(
+                    bench_table.style.format(benchmark_formatters),
+                    use_container_width=True,
+                )
+
+            st.markdown("##### Ranking Changes (2025–2060)")
+            st.caption(
+                "Rankings compare each selected economy's relative position based on "
+                "the selected indicator in 2025 and 2060. Positive movement indicates "
+                "a rise in relative ranking among the selected economies, not "
+                "necessarily faster growth or a larger absolute change in the indicator."
+            )
+            economy_names = (
+                results.loc[
+                    results["economy_code"].isin(selected_codes),
+                    ["economy_code", "economy"],
+                ]
+                .drop_duplicates("economy_code")
+                .set_index("economy_code")["economy"]
+                .to_dict()
+            )
+            ranking_rows = _comparison_endpoint_ranks(
+                chart_df, selected_codes, var_key
+            )
+            ranking_rows["economy_name"] = [
+                str(economy_names.get(code, code)) for code in ranking_rows.index
+            ]
+            ranking_rows = ranking_rows.sort_values(
+                [f"rank_{CAGR_END_YEAR}", "economy_name"],
+                na_position="last",
+                kind="stable",
+            )
+
+            rank_columns = st.columns([3, 1, 0.5, 1, 1.8])
+            for column, heading in zip(
+                rank_columns,
+                ["Economy", "2025 rank", "→", "2060 rank", "Movement"],
+            ):
+                with column:
+                    st.caption(heading)
+
+            for _, row in ranking_rows.iterrows():
+                economy_col, start_col, arrow_col, end_col, movement_col = st.columns(
+                    [3, 1, 0.5, 1, 1.8]
+                )
+                with economy_col:
+                    st.text(row["economy_name"])
+                with start_col:
+                    start_rank = row[f"rank_{CAGR_START_YEAR}"]
+                    st.markdown(
+                        f"**#{int(start_rank)}**"
+                        if pd.notna(start_rank)
+                        else "—"
+                    )
+                with arrow_col:
+                    st.markdown("→")
+                with end_col:
+                    end_rank = row[f"rank_{CAGR_END_YEAR}"]
+                    if pd.isna(end_rank):
+                        end_rank_label = "—"
+                    elif end_rank <= 3:
+                        highlight_color = {
+                            1: "orange",
+                            2: "blue",
+                            3: "gray",
+                        }[int(end_rank)]
+                        end_rank_label = (
+                            f":{highlight_color}[**#{int(end_rank)}**]"
+                        )
+                    else:
+                        end_rank_label = f"**#{int(end_rank)}**"
+                    st.markdown(end_rank_label)
+                with movement_col:
+                    movement = row["movement"]
+                    if pd.isna(movement):
+                        movement_label = ":gray[—]"
+                    elif movement > 0:
+                        positions = int(movement)
+                        suffix = "position" if positions == 1 else "positions"
+                        movement_label = (
+                            f":green[↑ Up {positions} {suffix}]"
+                        )
+                    elif movement < 0:
+                        positions = abs(int(movement))
+                        suffix = "position" if positions == 1 else "positions"
+                        movement_label = (
+                            f":red[↓ Down {positions} {suffix}]"
+                        )
+                    else:
+                        movement_label = ":gray[→ No change]"
+                    st.markdown(movement_label)
+        if not selected_codes:
             st.warning("Please select at least one economy to compare.")
 
     # --- TAB 4: APEC Overview ----------------------------------------------
@@ -774,6 +1572,12 @@ with active_tab:
             population_scenarios = pd.DataFrame()
 
         if not population_scenarios.empty:
+            coverage_error = _population_scenario_coverage_error(df_wide)
+            if coverage_error:
+                st.error(
+                    "APEC population scenarios are unavailable. " + coverage_error
+                )
+                st.stop()
             scenario_order = available_population_scenarios(df_wide)
             custom_codes, incomplete_custom_codes = custom_population_status(df_wide)
             all_population_codes = sorted(population_scenarios["economy_code"].unique())
@@ -792,8 +1596,11 @@ with active_tab:
             if st.session_state.get("population_scenario_selected") not in scenario_choice:
                 st.session_state.pop("population_scenario_selected", None)
 
-            control_view, control_economies, control_scenarios = st.columns([1, 2, 1])
-            with control_view:
+            year_min = int(population_scenarios["year"].min())
+            year_max = int(population_scenarios["year"].max())
+            with st.sidebar:
+                st.divider()
+                st.markdown("### 👥 Population Scenarios")
                 population_view = st.radio(
                     "View",
                     ["Total", "By Economy"],
@@ -801,7 +1608,6 @@ with active_tab:
                     key="population_view",
                     horizontal=True,
                 )
-            with control_economies:
                 selected_population_label = st.selectbox(
                     "Economy",
                     population_labels,
@@ -810,7 +1616,7 @@ with active_tab:
                     disabled=population_view == "Total",
                     help="Choose one economy for the economy-level view.",
                 )
-            with control_scenarios:
+            with st.sidebar:
                 selected_scenario = st.selectbox(
                     "Scenarios",
                     scenario_choice,
@@ -818,6 +1624,27 @@ with active_tab:
                     key="population_scenario_selected",
                     help="Choose Default, High, Low, Medium, Custom (if provided), or All scenarios.",
                 )
+
+                year_from, year_to = st.columns(2)
+                with year_from:
+                    population_year_from = st.number_input(
+                        "From",
+                        min_value=year_min,
+                        max_value=year_max,
+                        value=year_min,
+                        step=1,
+                        key="population_year_from_1990",
+                    )
+                with year_to:
+                    population_year_to = st.number_input(
+                        "To",
+                        min_value=year_min,
+                        max_value=year_max,
+                        value=year_max,
+                        step=1,
+                        key="population_year_to_final",
+                    )
+
             selected_scenarios = scenario_order if selected_scenario == "All" else [selected_scenario]
             if incomplete_custom_codes:
                 st.warning(
@@ -833,28 +1660,6 @@ with active_tab:
                 st.info(
                     "Custom is not shown in the total because it does not cover all economies in the loaded data. "
                     "Use the By Economy view."
-                )
-
-            year_min = int(population_scenarios["year"].min())
-            year_max = int(population_scenarios["year"].max())
-            year_from, year_to = st.columns(2)
-            with year_from:
-                population_year_from = st.number_input(
-                    "From",
-                    min_value=year_min,
-                    max_value=year_max,
-                    value=year_min,
-                    step=1,
-                    key="population_year_from_1990",
-                )
-            with year_to:
-                population_year_to = st.number_input(
-                    "To",
-                    min_value=year_min,
-                    max_value=year_max,
-                    value=year_max,
-                    step=1,
-                    key="population_year_to_final",
                 )
 
             if not selected_scenarios:
@@ -910,11 +1715,13 @@ with active_tab:
             if population_view == "Total":
                 chart_data = selected_total
                 st.markdown("#### Total APEC Population Paths")
-                st.caption("Total population across economies represented in the loaded data for each selected scenario.")
+                st.caption(
+                    "Aggregate population across the economies under the selected "
+                    "population scenarios."
+                )
             else:
                 chart_data = common_population_chart
                 st.markdown("#### Population Paths by Economy")
-                st.caption("The selected economy is shown for each selected scenario.")
             population_long = chart_data.reset_index().melt(
                 id_vars="year", var_name="series", value_name="value"
             ).dropna(subset=["value"])
@@ -974,16 +1781,19 @@ with active_tab:
                 st.altair_chart(population_chart, use_container_width=True)
             with download_col:
                 render_chart_download_button(population_chart, "apec_population_paths.png")
-            population_caption = (
-                "Default uses population_1jan from the loaded data. In the prepared bundled sample, "
-                "Low, Medium and High share configured history through 2024 and use UN DESA projections from 2025. "
-                "Refresh the sample after changing the population configuration."
+            if population_view == "Total":
+                caption_economy_code = None
+            else:
+                caption_economy_code = population_label_to_code[
+                    selected_population_label
+                ]
+            population_caption = _population_paths_caption(
+                is_bundled=st.session_state.get("data_source") == "bundled",
+                population_view=population_view,
+                economy_code=caption_economy_code,
+                economy_codes=selected_population_codes,
+                custom_codes=custom_codes,
             )
-            if CUSTOM_SCENARIO in scenario_order:
-                population_caption += (
-                    " Custom uses the separate population_1jan_custom column and is not a UN DESA variant. "
-                    "Available for: " + ", ".join(custom_codes) + "."
-                )
             st.caption(population_caption)
             st.download_button(
                 "⬇️ Download population data",
@@ -995,7 +1805,7 @@ with active_tab:
 
             st.markdown(f"#### Real GDP Population Sensitivity ({HISTORY_START_YEAR}–{FINAL_YEAR})")
             st.caption(
-                "GDP projections are recalculated from the population paths and other inputs in the currently loaded wide CSV."
+                "GDP projections reflect the selected population scenario and other model inputs."
             )
             try:
                 population_gdp_scenarios, sensitivity_errors = (
@@ -1014,10 +1824,29 @@ with active_tab:
                         f"{scenario}/{code}: {message}"
                         for scenario, code, message in sensitivity_errors[:5]
                     )
-                    st.warning(
+                    st.error(
+                        f"Population sensitivity is unavailable because "
                         f"{len(sensitivity_errors)} economy/scenario run(s) failed. "
                         f"Examples: {error_examples}"
                     )
+                    st.stop()
+                scenario_coverage_error = _population_gdp_scenario_coverage_error(
+                    population_gdp_scenarios, df_wide
+                )
+                if scenario_coverage_error:
+                    st.error(
+                        "APEC population sensitivity is unavailable. "
+                        + scenario_coverage_error
+                    )
+                    st.stop()
+                gdp_economy_codes = sorted(
+                    population_gdp_scenarios["economy_code"].astype(str).unique()
+                )
+                override_end_years = _gdp_projection_override_end_years(
+                    df_wide,
+                    gdp_economy_codes,
+                    use_repository_gdp_overrides,
+                )
                 population_gdp_view = population_gdp_scenarios[
                     population_gdp_scenarios["year"].between(
                         population_year_from, population_year_to
@@ -1033,7 +1862,10 @@ with active_tab:
                     gdp_chart_data = gdp_chart_data[
                         [scenario for scenario in scenario_order if scenario in selected_scenarios]
                     ]
-                    st.caption("Total real GDP across economies represented in the loaded data under each selected population scenario.")
+                    st.caption(
+                        "Total real GDP across the economies represented in the loaded "
+                        "data under each selected population scenario."
+                    )
                 else:
                     population_gdp_view = population_gdp_view[
                         population_gdp_view["economy_code"].isin(selected_population_codes)
@@ -1057,7 +1889,9 @@ with active_tab:
                         f"{economy} — {scenario}"
                         for economy, scenario in gdp_chart_data.columns
                     ]
-                    st.caption("Real GDP paths for each selected economy and population scenario.")
+                    st.caption(
+                        "Real GDP paths for the selected economy under each population scenario."
+                    )
                 gdp_series_order = chart_series_order(list(gdp_chart_data.columns))
                 gdp_plot = gdp_chart_data.reset_index().melt(
                     id_vars="year", var_name="series", value_name="value"
@@ -1112,25 +1946,25 @@ with active_tab:
                     st.altair_chart(gdp_chart, use_container_width=True)
                 with download_col:
                     render_chart_download_button(gdp_chart, "apec_gdp_population_sensitivity.png")
-                if population_view == "Total":
-                    st.caption(
-                        "Real GDP (Millions 2021 USD PPP). The prepared sample uses WDI historical GDP "
-                        "through 2025 for non-CT economies and IMF GDP through 2031 for CT. "
-                        "Population-sensitivity GDP projections begin in 2026 and 2032 respectively; "
-                        "uploaded historical inputs come from the loaded CSV."
+                selected_gdp_code = (
+                    None
+                    if population_view == "Total"
+                    else selected_population_codes[0]
+                )
+                caption_economy_codes = (
+                    gdp_economy_codes
+                    if population_view == "Total"
+                    else selected_population_codes
+                )
+                st.caption(
+                    _gdp_sensitivity_bottom_caption(
+                        is_bundled=use_repository_gdp_overrides,
+                        population_view=population_view,
+                        economy_code=selected_gdp_code,
+                        economy_codes=caption_economy_codes,
+                        override_end_years=override_end_years,
                     )
-                else:
-                    selected_gdp_code = selected_population_codes[0]
-                    selected_gdp_source = "IMF WEO" if selected_gdp_code == "18_CT" else "World Bank WDI"
-                    selected_gdp_jump_off = (
-                        LAST_IMF_YEAR if selected_gdp_code == "18_CT" else LAST_WDI_YEAR
-                    )
-                    st.caption(
-                        f"Real GDP (Millions 2021 USD PPP). The GDP jump-off year is {selected_gdp_jump_off}; "
-                        f"population-sensitivity GDP projections begin in {selected_gdp_jump_off + 1}. "
-                        f"The prepared sample uses {selected_gdp_source} historical GDP; uploaded "
-                        "historical inputs come from the loaded CSV."
-                    )
+                )
                 st.download_button(
                     "⬇️ Download GDP sensitivity data",
                     population_gdp_view.to_csv(index=False).encode(),
@@ -1144,6 +1978,11 @@ with active_tab:
     # --- TAB 2: Economy Deep Dive ----------------------------------------------
     if active_view == VIEW_DETAIL:
         st.subheader("Economy Deep Dive")
+        included_economies = sorted(df["economy_code"].astype(str).unique())
+        st.caption(
+            f"Loaded dataset includes {len(included_economies)} of 21 APEC "
+            "economies. This deep dive is limited to the economies included."
+        )
         st.caption(
             "Refine the GDP projection by modifying key macroeconomic parameters, including savings rates, "
             "depreciation rates, and labour efficiency growth. Compare the resulting projections against the "
@@ -1446,7 +2285,18 @@ with active_tab:
                     (gdp_line + gdp_selectors + gdp_points + gdp_hover_rule).properties(height=360),
                     use_container_width=True,
                 )
-                st.caption(f"Real GDP (Millions 2021 USD PPP). Jump-off from {source_name} occurs at year {jump_off}.")
+                override_end_years = _gdp_projection_override_end_years(
+                    df_wide,
+                    [sel_code],
+                    use_repository_gdp_overrides,
+                )
+                st.caption(
+                    _deep_dive_gdp_caption(
+                        use_repository_gdp_overrides,
+                        sel_code,
+                        override_end_years,
+                    )
+                )
 
             # Population path used by the current model run
             st.markdown("#### Population Projection")
@@ -1547,6 +2397,11 @@ with active_tab:
     # --- TAB 3: Combined Results & Export ---------------------------------------
     if active_view == VIEW_DATA:
         st.subheader("Data Export & Full Results Table")
+        st.markdown("#### Full Model Results")
+        st.caption(
+            "Inspect comprehensive model outputs. Long format has one row per "
+            "economy, year, and variable; wide format places variables in columns."
+        )
 
         # Filter controls
         f_c1, f_c2 = st.columns(2)
@@ -1588,6 +2443,25 @@ with active_tab:
                 use_container_width=True,
             )
 
+        st.divider()
+        st.markdown("#### LEAP Modelling Input")
+        st.caption(
+            "Download the prepared macroeconomic projections in the format "
+            "required by the LEAP modelling team."
+        )
+        try:
+            leap_results = build_leap_input_export(results)
+        except ValueError as exc:
+            st.error(f"LEAP input download unavailable: {exc}")
+        else:
+            st.download_button(
+                "⬇️ Download LEAP Input CSV",
+                leap_results.to_csv(index=False).encode("utf-8"),
+                file_name="apec_21_economies_leap_data.csv",
+                mime="text/csv",
+                use_container_width=True,
+            )
+
     # --- TAB 4: Model Methodology ----------------------------------------------
     if active_view == VIEW_DOCS:
         st.subheader("APERC Solow-Swan Macro Model Methodology")
@@ -1612,11 +2486,18 @@ Where:
 ### Jump-off Architecture (10th Outlook)
 
 1. **Penn World Table (PWT 11.0):** Provides historical output-to-capital ratio ($Y/K$) and depreciation rate ($\delta$) through **2023**.
-2. **Historical Anchor Hand-off:**
-   - **World Bank WDI:** Historical observed GDP and savings data through **2025** for 20 APEC economies.
-   - **IMF WEO:** Historical observed GDP and projections through **2031** for Chinese Taipei (`18_CT`).
-3. **Labour Efficiency & Rate Convergence:**
-   - Labour efficiency growth is computed over a rolling window and guided towards the long-term target corridor $[low\_eff, high\_eff]$ at step rate $change\_eff$.
-   - Savings and depreciation rates transition dynamically toward policy corridors $[low\_sav, high\_sav]$ and $[low\_delta, high\_delta]$.
-4. **Horizon:** 1990 historical start through **2060** projection end.
+2. **Population Data and Scenarios:**
+   - **Historical population** (through **2024**)**:** Sourced from EGEDA or custom historical data provided by researcher.
+   - **Population projection** (from **2025**)**:** Sourced from UN DESA Medium, Low or High projection datasets, or custom projections provided by researcher.
+   - **Default population:** Combines the historical and projection sources selected by the researcher for each economy.
+   - **Sensitivity scenarios:** Low, Medium and High population scenarios use the selected historical source and their corresponding UN DESA projections. An optional Custom scenario is available where valid custom population data are provided.
+3. **GDP Historical Data and Projection Anchors:**  
+   - **World Bank WDI:** Provides historical GDP data through **2025** for 20 APEC member economies, excluding Chinese Taipei.
+   - **IMF WEO:** Provides GDP data and projections through **2031** for Chinese Taipei (`18_CT`).
+   - **Special cases:** Where available, researcher-supplied partial GDP projections are incorporated before the model's own GDP calculations begin.
+   - **Model calculation start:** GDP projections generated by the model begin immediately after the final year of available historical or researcher-supplied GDP data. In the absence of partial projections, calculations start in **2026** for the 20 economies and **2032** for Chinese Taipei.
+4. **Labour Efficiency & Rate Convergence:**
+   - Labour efficiency growth is calculated over a rolling look-back window and guided towards the long-term target corridor $[low\_eff, high\_eff]$ at the adjustment rate $change\_eff$.
+   - Savings and depreciation rates transition dynamically towards their respective parameter corridors $[low\_sav, high\_sav]$ and $[low\_delta, high\_delta]$.
+5. **Horizon:** Historical data begin in 1990, with the main model projection horizon extending through 2060.
 """)

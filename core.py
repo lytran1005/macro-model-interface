@@ -39,7 +39,12 @@ from model import (  # noqa: E402
     LABEL_RESEARCHER,
     LABEL_9TH,
 )
-from config_loaders import load_economies, economy_code_map, load_gdp_model_parameters  # noqa: E402
+from config_loaders import (  # noqa: E402
+    load_economies,
+    economy_code_map,
+    load_default_population_scenarios,
+    load_gdp_model_parameters,
+)
 from population import load_default_population  # noqa: E402
 
 # Raw variables in the uploaded CSV, with a short description. Everything else
@@ -80,6 +85,17 @@ UNITS = {
     "real_GDP_9th": "Millions (2021 USD PPP)",
 }
 
+LEAP_EXPORT_START_YEAR = 2022
+LEAP_EXPORT_END_YEAR = 2060
+LEAP_EXPORT_VARIABLES = ("population", "real_GDP")
+LEAP_EXPORT_COLUMNS = [
+    "economy_code",
+    "economy",
+    "variable",
+    "units",
+    "Data_2022_2060_round2",
+]
+
 POPULATION_SCENARIO_FILES = {
     "Low": "undesa_pop_to2100_low.csv",
     "Medium": "undesa_pop_to2100_med.csv",
@@ -100,6 +116,363 @@ def _with_economy_code(df_wide):
     frame = df_wide.copy()
     if "economy_code" not in frame.columns:
         frame["economy_code"] = frame["economy"].map(economy_code_map())
+    return frame
+
+
+def _validated_wide_identifiers(df):
+    required = {"year"}
+    missing = required - set(df.columns)
+    if "economy" not in df.columns and "economy_code" not in df.columns:
+        missing.add("economy or economy_code")
+    if missing:
+        raise ValueError(
+            "Model input is missing required identifier columns: "
+            + ", ".join(sorted(missing))
+        )
+
+    frame = df.copy()
+    economies = load_economies()
+    code_to_name = dict(
+        zip(economies["economy_code"].astype(str), economies["economy"].astype(str))
+    )
+    name_to_code = {name: code for code, name in code_to_name.items()}
+
+    if "economy_code" in frame.columns:
+        frame["economy_code"] = frame["economy_code"].astype("string").str.strip()
+    else:
+        frame["economy"] = frame["economy"].astype("string").str.strip()
+        frame["economy_code"] = frame["economy"].map(name_to_code)
+
+    if "economy" in frame.columns:
+        frame["economy"] = frame["economy"].astype("string").str.strip()
+    else:
+        frame["economy"] = frame["economy_code"].map(code_to_name)
+
+    unknown_codes = sorted(
+        set(frame["economy_code"].dropna().astype(str)) - set(code_to_name)
+    )
+    blank_codes = frame["economy_code"].isna() | frame["economy_code"].eq("")
+    if unknown_codes or blank_codes.any():
+        problems = []
+        if unknown_codes:
+            problems.append("unknown economy codes: " + ", ".join(unknown_codes))
+        if blank_codes.any():
+            problems.append("blank or unrecognised economy identifiers")
+        raise ValueError("Model input has " + "; ".join(problems) + ".")
+
+    expected_names = frame["economy_code"].map(code_to_name)
+    name_mismatch = frame["economy"].isna() | frame["economy"].ne(expected_names)
+    if name_mismatch.any():
+        bad = frame.loc[name_mismatch, ["economy_code", "economy"]].drop_duplicates()
+        examples = ", ".join(
+            f"{row.economy_code} ({row.economy})"
+            for row in bad.itertuples(index=False)
+        )
+        raise ValueError(
+            "Economy names must match their APEC economy codes: " + examples + "."
+        )
+
+    years = pd.to_numeric(frame["year"], errors="coerce")
+    invalid_year = years.isna() | years.mod(1).ne(0)
+    if invalid_year.any():
+        raise ValueError("Model input years must be integer values.")
+    frame["year"] = years.astype(int)
+    outside_horizon = ~frame["year"].between(HISTORY_START_YEAR, FINAL_YEAR)
+    if outside_horizon.any():
+        bad_years = sorted(frame.loc[outside_horizon, "year"].unique())
+        raise ValueError(
+            f"Model input years must be between {HISTORY_START_YEAR} and "
+            f"{FINAL_YEAR}; found {bad_years[:5]}."
+        )
+
+    duplicate_rows = frame.duplicated(["economy_code", "year"], keep=False)
+    if duplicate_rows.any():
+        examples = frame.loc[
+            duplicate_rows, ["economy_code", "year"]
+        ].drop_duplicates()
+        details = ", ".join(
+            f"{row.economy_code} {row.year}"
+            for row in examples.itertuples(index=False)
+        )
+        raise ValueError(
+            "Model input contains duplicate economy/year rows: " + details + "."
+        )
+
+    expected_years = set(range(HISTORY_START_YEAR, FINAL_YEAR + 1))
+    coverage_errors = []
+    for code, group in frame.groupby("economy_code", sort=True):
+        missing_years = sorted(expected_years - set(group["year"]))
+        if missing_years:
+            preview = ", ".join(map(str, missing_years[:8]))
+            suffix = "…" if len(missing_years) > 8 else ""
+            coverage_errors.append(f"{code} is missing years {preview}{suffix}")
+    if coverage_errors:
+        raise ValueError(
+            "Each included economy must have one row for every year from "
+            f"{HISTORY_START_YEAR} through {FINAL_YEAR}. "
+            + "; ".join(coverage_errors[:5])
+        )
+
+    return frame
+
+
+def _numeric_values(series):
+    blank = series.isna()
+    if series.dtype == object or pd.api.types.is_string_dtype(series.dtype):
+        blank = blank | series.astype("string").str.strip().eq("").fillna(False)
+    numeric = pd.to_numeric(series.mask(blank), errors="coerce")
+    invalid_text = ~blank & numeric.isna()
+    non_finite = numeric.notna() & ~np.isfinite(numeric.astype(float))
+    return numeric, blank, invalid_text, non_finite
+
+
+def _format_value_errors(frame, column, mask, requirement):
+    errors = []
+    for row in frame.loc[mask, ["economy_code", "year", column]].head(8).itertuples(
+        index=False, name=None
+    ):
+        code, year, value = row
+        errors.append(f"{code} {year} {column}={value!r} ({requirement})")
+    return errors
+
+
+def validate_wide_model_input(df):
+    """Validate wide model data before conversion or calculation."""
+    missing_columns = sorted(set(CRITICAL_VARIABLES) - set(df.columns))
+    if missing_columns:
+        raise ValueError(
+            "Model input is missing required columns: " + ", ".join(missing_columns)
+        )
+    frame = _validated_wide_identifiers(df)
+    problems = []
+
+    numeric_columns = [
+        column
+        for column in (
+            WIDE_VARIABLE_COLUMNS
+            + list(POPULATION_SCENARIO_COLUMNS.values())
+            + [CUSTOM_POPULATION_COLUMN, "9th Outlook"]
+        )
+        if column in frame.columns
+    ]
+    numeric = {}
+    for column in numeric_columns:
+        values, blank, invalid_text, non_finite = _numeric_values(frame[column])
+        numeric[column] = (values, blank)
+        if invalid_text.any():
+            problems.extend(
+                _format_value_errors(
+                    frame, column, invalid_text, "must be numeric or blank"
+                )
+            )
+        if non_finite.any():
+            problems.extend(
+                _format_value_errors(
+                    frame, column, non_finite, "must be finite"
+                )
+            )
+
+    positive_columns = {
+        "population_1jan",
+        "population_1jan_low",
+        "population_1jan_medium",
+        "population_1jan_high",
+        "population_1jan_custom",
+        "Real GDP PPP 2021 USD",
+        "9th Outlook",
+    }
+    for column in positive_columns.intersection(numeric):
+        values, blank = numeric[column]
+        invalid = values.notna() & values.le(0)
+        if column == "population_1jan":
+            invalid |= blank
+        if invalid.any():
+            requirement = "must be finite and positive"
+            if column == "population_1jan":
+                requirement = "is required and must be finite and positive"
+            problems.extend(
+                _format_value_errors(frame, column, invalid, requirement)
+            )
+
+    ratio_column = "output_to_kstock"
+    ratio_values, ratio_blank, ratio_text, ratio_non_finite = _numeric_values(
+        frame[ratio_column]
+    )
+    ratio_years = frame["year"].between(HISTORY_START_YEAR, LAST_PWT_YEAR)
+    invalid_ratio = ratio_years & (
+        ratio_blank | ratio_text | ratio_non_finite | ratio_values.le(0)
+    )
+    if invalid_ratio.any():
+        problems.extend(
+            _format_value_errors(
+                frame,
+                ratio_column,
+                invalid_ratio,
+                f"must be finite and positive through {LAST_PWT_YEAR}",
+            )
+        )
+    for code, group in frame.groupby("economy_code", sort=True):
+        cutoff = jump_off_year_for_economy(str(code))
+        historical = group["year"].le(cutoff)
+        gdp_values, gdp_blank = numeric["Real GDP PPP 2021 USD"]
+        missing_gdp = historical & gdp_blank
+        if missing_gdp.any():
+            problems.extend(
+                _format_value_errors(
+                    group,
+                    "Real GDP PPP 2021 USD",
+                    missing_gdp.loc[group.index],
+                    f"is required through the model handoff year {cutoff}",
+                )
+            )
+
+    if problems:
+        raise ValueError("Invalid model input: " + "; ".join(problems[:12]))
+
+
+def validate_long_model_input(df):
+    """Validate long model data supplied directly to the calculation pipeline."""
+    required = {"economy_code", "economy", "year", "variable", "value"}
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(
+            "Model input is missing required columns: " + ", ".join(sorted(missing))
+        )
+
+    identifiers = df[["economy_code", "economy", "year"]].drop_duplicates()
+    identifiers = _validated_wide_identifiers(identifiers)
+    frame = df.copy()
+    frame["economy_code"] = frame["economy_code"].astype("string").str.strip()
+    frame["economy"] = frame["economy"].astype("string").str.strip()
+    frame["year"] = pd.to_numeric(frame["year"], errors="coerce").astype(int)
+    duplicate_values = frame.duplicated(
+        ["economy_code", "year", "variable"], keep=False
+    )
+    if duplicate_values.any():
+        bad = frame.loc[
+            duplicate_values, ["economy_code", "year", "variable"]
+        ].drop_duplicates()
+        details = ", ".join(
+            f"{row.economy_code} {row.year} {row.variable}"
+            for row in bad.itertuples(index=False)
+        )
+        raise ValueError(
+            "Model input contains duplicate economy/year/variable observations: "
+            + details
+            + "."
+        )
+
+    required_variables = set(CRITICAL_VARIABLES)
+    missing_variables = required_variables - set(frame["variable"].unique())
+    if missing_variables:
+        raise ValueError(
+            "Model input is missing required variables: "
+            + ", ".join(sorted(missing_variables))
+        )
+
+    expected_years = set(range(HISTORY_START_YEAR, FINAL_YEAR + 1))
+    problems = []
+    for variable, group in frame.groupby("variable", sort=False):
+        values, blank, invalid_text, non_finite = _numeric_values(group["value"])
+        invalid = invalid_text | non_finite
+        if invalid.any():
+            bad = group.loc[invalid, ["economy_code", "year", "value"]]
+            problems.extend(
+                f"{row.economy_code} {row.year} {variable}={row.value!r} "
+                "must be finite numeric data"
+                for row in bad.head(8).itertuples(index=False)
+            )
+        if variable in {GDP_VARIABLE, "9th Outlook"}:
+            non_positive = values.notna() & values.le(0)
+            if non_positive.any():
+                bad = group.loc[
+                    non_positive, ["economy_code", "year", "value"]
+                ]
+                problems.extend(
+                    f"{row.economy_code} {row.year} {variable}={row.value!r} "
+                    "must be positive"
+                    for row in bad.head(8).itertuples(index=False)
+                )
+
+    for code, group in frame.groupby("economy_code", sort=True):
+        years = set(group["year"])
+        missing_years = sorted(expected_years - years)
+        if missing_years:
+            preview = ", ".join(map(str, missing_years[:8]))
+            problems.append(f"{code} is missing years {preview}")
+
+        for variable in CRITICAL_VARIABLES:
+            variable_rows = group[group["variable"] == variable]
+            missing_variable_years = sorted(
+                expected_years - set(variable_rows["year"])
+            )
+            if missing_variable_years:
+                preview = ", ".join(map(str, missing_variable_years[:8]))
+                problems.append(
+                    f"{code} {variable} is missing observations in years {preview}"
+                )
+
+        population = group[group["variable"] == "population_1jan"]
+        pop_values, pop_blank, _, _ = _numeric_values(population["value"])
+        invalid_population = pop_blank | pop_values.isna() | pop_values.le(0)
+        if invalid_population.any():
+            problems.extend(
+                f"{row.economy_code} {row.year} population_1jan must be finite "
+                "and positive"
+                for row in population.loc[
+                    invalid_population, ["economy_code", "year"]
+                ].head(8).itertuples(index=False)
+            )
+
+        cutoff = jump_off_year_for_economy(str(code))
+        gdp = group[
+            (group["variable"] == GDP_VARIABLE) & (group["year"] <= cutoff)
+        ]
+        gdp_values, gdp_blank, _, _ = _numeric_values(gdp["value"])
+        invalid_gdp = gdp_blank | gdp_values.isna() | gdp_values.le(0)
+        if invalid_gdp.any():
+            problems.extend(
+                f"{row.economy_code} {row.year} {GDP_VARIABLE} is required and "
+                "must be finite and positive"
+                for row in gdp.loc[
+                    invalid_gdp, ["economy_code", "year"]
+                ].head(8).itertuples(index=False)
+            )
+        gdp_years = set(gdp["year"])
+        missing_gdp_years = sorted(set(range(HISTORY_START_YEAR, cutoff + 1)) - gdp_years)
+        if missing_gdp_years:
+            problems.append(
+                f"{code} {GDP_VARIABLE} is missing years "
+                + ", ".join(map(str, missing_gdp_years[:8]))
+            )
+
+        ratio = group[
+            (group["variable"] == "output_to_kstock")
+            & group["year"].between(HISTORY_START_YEAR, LAST_PWT_YEAR)
+        ]
+        ratio_values, ratio_blank, _, _ = _numeric_values(ratio["value"])
+        invalid_ratio = ratio_blank | ratio_values.isna() | ratio_values.le(0)
+        if invalid_ratio.any():
+            problems.extend(
+                f"{row.economy_code} {row.year} output_to_kstock must be finite "
+                "and positive"
+                for row in ratio.loc[
+                    invalid_ratio, ["economy_code", "year"]
+                ].head(8).itertuples(index=False)
+            )
+        missing_ratio = sorted(
+            set(range(HISTORY_START_YEAR, LAST_PWT_YEAR + 1)) - set(ratio["year"])
+        )
+        if missing_ratio:
+            problems.append(
+                f"{code} output_to_kstock is missing years "
+                + ", ".join(map(str, missing_ratio[:8]))
+            )
+
+    if problems:
+        raise ValueError("Invalid model input: " + "; ".join(problems[:12]))
+    frame["year"] = pd.to_numeric(frame["year"], errors="raise").astype(int)
+    frame["value"] = _numeric_values(frame["value"])[0]
     return frame
 
 
@@ -294,11 +667,16 @@ def ensure_percent(df):
     """Add a percent column (per economy, per variable) if the upload lacks one."""
     if "percent" in df.columns:
         return df
-    df = df.copy()
+    df = df.copy().reset_index(drop=True)
     grp = df[df["variable"].isin(["Labour efficiency", "Capital stock"])].copy()
+    grp = grp.sort_values(
+        ["economy_code", "variable", "year"], kind="stable"
+    )
     df["percent"] = np.nan
-    df.loc[grp.index, "percent"] = grp.groupby(["economy_code", "variable"])["value"]\
-        .pct_change(fill_method=None).values
+    percent = grp.groupby(
+        ["economy_code", "variable"], sort=False
+    )["value"].pct_change(fill_method=None)
+    df.loc[grp.index, "percent"] = percent.to_numpy()
     return df
 
 
@@ -315,7 +693,7 @@ def build_input_table(df):
     }
     frames = []
     for code in sorted(df["economy_code"].unique()):
-        sub = df[df["economy_code"] == code]
+        sub = df[df["economy_code"] == code].sort_values("year", kind="stable")
         if sub.empty:
             continue
         economy = sub["economy"].iloc[0]
@@ -547,27 +925,7 @@ def wide_to_long(df):
     Variable columns are named as in WIDE_VARIABLE_COLUMNS; an optional
     '9th Outlook' column is carried through for chart comparison.
     """
-    df = df.copy()
-
-    if "year" not in df.columns:
-        raise ValueError("upload must have a 'year' column")
-    if "economy" not in df.columns and "economy_code" not in df.columns:
-        raise ValueError("upload must have an 'economy' or 'economy_code' column")
-
-    name_to_code = economy_code_map()
-    code_to_name = {v: k for k, v in name_to_code.items()}
-
-    if "economy_code" not in df.columns:
-        df["economy_code"] = df["economy"].map(name_to_code)
-    if "economy" not in df.columns:
-        df["economy"] = df["economy_code"].map(code_to_name)
-
-    if df["economy_code"].isna().any():
-        unknown = df.loc[df["economy_code"].isna(), "economy"].unique()[:5]
-        raise ValueError(
-            "economies not recognised: "
-            + ", ".join(map(str, unknown))
-            + ". Names/codes must match config/economies.csv.")
+    df = _validated_wide_identifiers(df)
 
     value_cols = [c for c in WIDE_VARIABLE_COLUMNS if c in df.columns]
     if "9th Outlook" in df.columns:
@@ -575,7 +933,9 @@ def wide_to_long(df):
 
     long = df.melt(id_vars=["economy_code", "economy", "year"],
                    value_vars=value_cols, var_name="variable", value_name="value")
-    return long[["economy_code", "economy", "variable", "year", "value"]]
+    return long[
+        ["economy_code", "economy", "variable", "year", "value"]
+    ].reset_index(drop=True)
 
 
 def derive_capital_stock(df, codes):
@@ -629,7 +989,7 @@ def derive_labour_efficiency(df, capital_df, codes, alpha_by_code):
         capital = capital_df[capital_df["economy_code"] == code][["year", "value"]]\
             .rename(columns={"value": "K"}).set_index("year")
 
-        eqn = pd.concat([output, labour, capital], axis=1).dropna()
+        eqn = pd.concat([output, labour, capital], axis=1).sort_index().dropna()
         cutoff = jump_off_year_for_economy(code)
         eqn = eqn.loc[HISTORY_START_YEAR:cutoff]
         if eqn.empty:
@@ -660,7 +1020,7 @@ def run_analysis(
       inputs       : the model input pieces (for inspection in the UI)
       errors       : list of (economy_code, message) for economies that failed
     """
-    df = df.copy()
+    df = validate_long_model_input(df)
     source_codes = sorted(df["economy_code"].dropna().astype(str).unique())
     repository_overrides = (
         load_repository_gdp_overrides() if use_repository_gdp_overrides else None
@@ -729,8 +1089,43 @@ def run_analysis(
         except Exception as exc:  # noqa: BLE001 - surface any per-economy failure in the UI
             errors.append((code, str(exc)))
 
-    results_long = postprocess(pd.concat(combined, ignore_index=True)) if combined else pd.DataFrame()
+    results_long = (
+        postprocess(pd.concat(combined, ignore_index=True))
+        if combined
+        else pd.DataFrame()
+    )
+    if not results_long.empty:
+        _validate_model_result_values(results_long)
     return results_long, inputs, errors
+
+
+def _validate_model_result_values(results):
+    """Prevent invalid population or GDP results from reaching the interface."""
+    for variable in ("population", "real_GDP"):
+        series = results[results["variable"] == variable]
+        values, blank, invalid_text, non_finite = _numeric_values(series["value"])
+        invalid = blank | invalid_text | non_finite | values.le(0)
+        if invalid.any():
+            bad = series.loc[invalid, ["economy_code", "year", "value"]].head(8)
+            details = ", ".join(
+                f"{row.economy_code} {row.year} {variable}={row.value!r}"
+                for row in bad.itertuples(index=False)
+            )
+            raise ValueError(
+                f"Model results contain missing, non-finite, or non-positive "
+                f"{variable} values: {details}."
+            )
+
+        for code, group in series.groupby("economy_code", sort=True):
+            years = set(pd.to_numeric(group["year"], errors="coerce").dropna().astype(int))
+            expected = set(range(HISTORY_START_YEAR, FINAL_YEAR + 1))
+            missing = sorted(expected - years)
+            if missing:
+                raise ValueError(
+                    f"Model results for {code} {variable} are missing years "
+                    + ", ".join(map(str, missing[:8]))
+                    + "."
+                )
 
 
 def postprocess(combined):
@@ -798,36 +1193,161 @@ def postprocess(combined):
     return long.sort_values(["economy_code", "variable", "year"]).reset_index(drop=True)
 
 
-def parse_params_csv(df):
-    """Parse user parameters while keeping pipeline cap_compare fixed."""
-    params = {}
-    configured = load_gdp_model_parameters("gdp_model_parameters.csv")
-    for _, row in df.iterrows():
-        code = row["economy_code"]
-        kwargs = row.drop(
-            labels=["economy_code", "notes", "cap_compare"], errors="ignore"
-        ).to_dict()
-        kwargs["lab_eff_periods"] = int(kwargs["lab_eff_periods"])
-        kwargs["cap_compare"] = configured.get(code, {}).get("cap_compare", 0.05)
-        params[code] = kwargs
-    return params
+def _format_leap_year_ranges(years):
+    years = sorted(set(years))
+    if not years:
+        return ""
+
+    ranges = []
+    start = previous = years[0]
+    for year in years[1:]:
+        if year == previous + 1:
+            previous = year
+            continue
+        ranges.append((start, previous))
+        start = previous = year
+    ranges.append((start, previous))
+    return ", ".join(
+        str(start) if start == end else f"{start}–{end}"
+        for start, end in ranges
+    )
 
 
-def parse_uploaded_economy_params(df, economy_code):
-    """Validate an app-exported parameter CSV and return one economy's settings."""
-    parameter_columns = [
-        "lab_eff_periods",
-        "high_eff",
-        "low_eff",
-        "change_eff",
-        "high_sav",
-        "low_sav",
-        "change_sav",
-        "high_delta",
-        "low_delta",
-        "change_del",
-        "alpha",
-    ]
+def build_leap_input_export(results):
+    """Format complete active model results for the LEAP import template."""
+    required_columns = {"economy_code", "year", "variable", "value"}
+    missing_columns = required_columns - set(results.columns)
+    if missing_columns:
+        raise ValueError(
+            "Model results are missing columns required for LEAP export: "
+            + ", ".join(sorted(missing_columns))
+        )
+
+    if results.empty:
+        raise ValueError("No model results are available for LEAP export.")
+
+    economies = load_economies()[["economy_code", "economy"]].copy()
+    economies["economy_code"] = economies["economy_code"].astype(str)
+    economies = economies.sort_values("economy_code", kind="stable")
+    expected_codes = set(economies["economy_code"])
+    expected_years = list(
+        range(LEAP_EXPORT_START_YEAR, LEAP_EXPORT_END_YEAR + 1)
+    )
+
+    source = results.copy()
+    source["economy_code"] = source["economy_code"].astype("string")
+    source["year"] = pd.to_numeric(source["year"], errors="coerce")
+    source["value"] = pd.to_numeric(source["value"], errors="coerce")
+    source = source.loc[
+        source["variable"].isin(LEAP_EXPORT_VARIABLES)
+        & source["year"].isin(expected_years)
+    ].copy()
+    source["year"] = source["year"].astype(int)
+
+    available_codes = set(source["economy_code"].dropna().astype(str))
+    missing_codes = sorted(expected_codes - available_codes)
+    unexpected_codes = sorted(available_codes - expected_codes)
+    problems = []
+    if missing_codes:
+        problems.append("missing economies: " + ", ".join(missing_codes))
+    if unexpected_codes:
+        problems.append("unexpected economies: " + ", ".join(unexpected_codes))
+
+    key_columns = ["economy_code", "variable", "year"]
+    duplicate_rows = source.loc[
+        source.duplicated(key_columns, keep=False), key_columns
+    ].drop_duplicates()
+    if not duplicate_rows.empty:
+        duplicate_details = [
+            f"{row.economy_code} {row.variable} {int(row.year)}"
+            for row in duplicate_rows.itertuples(index=False)
+        ]
+        problems.append("duplicate series entries: " + ", ".join(duplicate_details))
+
+    for economy_code in sorted(expected_codes - set(missing_codes)):
+        for variable in LEAP_EXPORT_VARIABLES:
+            series = source.loc[
+                source["economy_code"].eq(economy_code)
+                & source["variable"].eq(variable)
+            ]
+            present_years = set(series["year"])
+            missing_years = sorted(set(expected_years) - present_years)
+            if missing_years:
+                problems.append(
+                    f"{economy_code} {variable} missing years "
+                    f"{_format_leap_year_ranges(missing_years)}"
+                )
+            invalid_years = sorted(
+                series.loc[~np.isfinite(series["value"]), "year"].unique()
+            )
+            if invalid_years:
+                problems.append(
+                    f"{economy_code} {variable} has non-finite values in years "
+                    f"{_format_leap_year_ranges(invalid_years)}"
+                )
+            non_positive_years = sorted(
+                series.loc[series["value"].le(0), "year"].unique()
+            )
+            if non_positive_years:
+                problems.append(
+                    f"{economy_code} {variable} has non-positive values in years "
+                    f"{_format_leap_year_ranges(non_positive_years)}"
+                )
+
+    if problems:
+        raise ValueError(
+            "LEAP export requires all 21 APEC economies to have finite, positive "
+            "population and real_GDP values for every year from 2022 through 2060. "
+            + "; ".join(problems)
+        )
+
+    records = []
+    for economy in economies.itertuples(index=False):
+        for variable in LEAP_EXPORT_VARIABLES:
+            values = (
+                source.loc[
+                    source["economy_code"].eq(economy.economy_code)
+                    & source["variable"].eq(variable)
+                ]
+                .set_index("year")["value"]
+                .reindex(expected_years)
+            )
+            series_values = ", ".join(
+                item
+                for year, value in values.items()
+                for item in (str(year), f"{value:.2f}")
+            )
+            records.append(
+                {
+                    "economy_code": economy.economy_code,
+                    "economy": economy.economy,
+                    "variable": variable,
+                    "units": UNITS[variable],
+                    "Data_2022_2060_round2": f"Data({series_values})",
+                }
+            )
+
+    return pd.DataFrame.from_records(records, columns=LEAP_EXPORT_COLUMNS)
+
+
+PARAMETER_COLUMNS = [
+    "lab_eff_periods",
+    "high_eff",
+    "low_eff",
+    "change_eff",
+    "high_sav",
+    "low_sav",
+    "change_sav",
+    "high_delta",
+    "low_delta",
+    "change_del",
+    "alpha",
+]
+
+
+def _validate_uploaded_parameter_rows(df):
+    """Validate supplied parameter rows without deciding their coverage policy."""
+    parameter_columns = PARAMETER_COLUMNS
     required_columns = ["economy_code", *parameter_columns]
     missing_columns = [
         column for column in required_columns if column not in df.columns
@@ -863,39 +1383,84 @@ def parse_uploaded_economy_params(df, economy_code):
 
     for column in parameter_columns:
         uploaded[column] = pd.to_numeric(uploaded[column], errors="coerce")
-        if uploaded[column].isna().any() or not np.isfinite(uploaded[column]).all():
+        for index in uploaded.index[
+            uploaded[column].isna()
+            | ~np.isfinite(uploaded[column].fillna(0).to_numpy(dtype=float))
+        ]:
+            code = uploaded.loc[index, "economy_code"]
             raise ValueError(
-                f"Parameter CSV column '{column}' must contain finite numeric values."
+                f"{code} parameter '{column}' must contain a finite numeric value."
             )
 
-    if (
-        (uploaded["lab_eff_periods"] < 1).any()
-        or (uploaded["lab_eff_periods"] > 10).any()
-        or (uploaded["lab_eff_periods"] % 1 != 0).any()
-    ):
-        raise ValueError("'lab_eff_periods' must be an integer from 1 to 10.")
-    for low, high, label, minimum, maximum in [
-        ("low_eff", "high_eff", "efficiency", 0.005, 0.1),
-        ("low_sav", "high_sav", "savings", 0.15, 0.5),
-        ("low_delta", "high_delta", "depreciation", 0.03, 0.07),
-    ]:
+    for row in uploaded.itertuples(index=False):
+        code = row.economy_code
         if (
-            (uploaded[low] < minimum).any()
-            or (uploaded[high] > maximum).any()
-            or (uploaded[low] > uploaded[high]).any()
+            row.lab_eff_periods < 1
+            or row.lab_eff_periods > 10
+            or row.lab_eff_periods % 1 != 0
         ):
             raise ValueError(
-                f"The {label} corridor must be ordered and within "
-                f"{minimum * 100:g}%–{maximum * 100:g}%."
+                f"{code} parameter 'lab_eff_periods' must be an integer from 1 to 10."
             )
-    for column in ["change_eff", "change_sav", "change_del"]:
-        if (uploaded[column] < 0).any():
-            raise ValueError(f"'{column}' cannot be negative.")
-    if (
-        (uploaded["alpha"] < 0.3).any()
-        or (uploaded["alpha"] > 0.5).any()
-    ):
-        raise ValueError("'alpha' must be between 0.3 and 0.5.")
+        for low, high, label, minimum, maximum in [
+            ("low_eff", "high_eff", "efficiency", 0.005, 0.1),
+            ("low_sav", "high_sav", "savings", 0.15, 0.5),
+            ("low_delta", "high_delta", "depreciation", 0.03, 0.07),
+        ]:
+            low_value = getattr(row, low)
+            high_value = getattr(row, high)
+            if (
+                low_value < minimum
+                or high_value > maximum
+                or low_value > high_value
+            ):
+                raise ValueError(
+                    f"{code} {label} corridor ('{low}'/'{high}') must be ordered "
+                    f"and within {minimum * 100:g}%–{maximum * 100:g}%."
+                )
+        for column in ["change_eff", "change_sav", "change_del"]:
+            if getattr(row, column) < 0:
+                raise ValueError(f"{code} parameter '{column}' cannot be negative.")
+        if row.alpha < 0.3 or row.alpha > 0.5:
+            raise ValueError(f"{code} parameter 'alpha' must be between 0.3 and 0.5.")
+
+    return uploaded, configured
+
+
+def parse_params_csv(df):
+    """Parse a complete global parameter file using each economy's settings."""
+    uploaded, configured = _validate_uploaded_parameter_rows(df)
+    expected_codes = set(configured)
+    uploaded_codes = set(uploaded["economy_code"])
+    missing_codes = sorted(expected_codes - uploaded_codes)
+    if missing_codes:
+        raise ValueError(
+            "Global parameter CSV must contain exactly one row for each of the "
+            "21 APEC economies. Missing economy codes: "
+            + ", ".join(missing_codes)
+            + "."
+        )
+    if len(uploaded) != len(expected_codes):
+        raise ValueError(
+            "Global parameter CSV must contain exactly one row for each of the "
+            "21 APEC economies."
+        )
+
+    params = {}
+    for _, row in uploaded.iterrows():
+        code = row["economy_code"]
+        kwargs = row.drop(
+            labels=["economy_code", "notes", "cap_compare"], errors="ignore"
+        ).to_dict()
+        kwargs["lab_eff_periods"] = int(kwargs["lab_eff_periods"])
+        kwargs["cap_compare"] = configured[code]["cap_compare"]
+        params[code] = kwargs
+    return params
+
+
+def parse_uploaded_economy_params(df, economy_code):
+    """Validate an app-exported parameter CSV and return one economy's settings."""
+    uploaded, configured = _validate_uploaded_parameter_rows(df)
 
     selected = uploaded[uploaded["economy_code"] == economy_code]
     if selected.empty:
