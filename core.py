@@ -479,31 +479,28 @@ def validate_long_model_input(df):
 def custom_population_status(df_wide):
     """Return (complete, incomplete) economy codes for the optional custom column.
 
-    A complete economy has at least one finite, positive custom value and one
-    for every 1990–2060 row where the Medium column is numeric. If Medium is
-    absent, numeric-year rows within the horizon are the reference. Economies
-    with no valid custom values are ignored; partial paths are incomplete.
+    A complete economy has one finite, positive custom value for each year
+    from 1990 through 2060. Economies with no valid custom values are ignored;
+    partial paths are incomplete.
     """
     if CUSTOM_POPULATION_COLUMN not in df_wide.columns:
         return [], []
     frame = _with_economy_code(df_wide)
     frame["year"] = pd.to_numeric(frame["year"], errors="coerce")
     custom = pd.to_numeric(frame[CUSTOM_POPULATION_COLUMN], errors="coerce")
-    valid_custom = custom.notna() & np.isfinite(custom) & (custom > 0)
-    reference_column = POPULATION_SCENARIO_COLUMNS["Medium"]
-    reference = (
-        pd.to_numeric(frame[reference_column], errors="coerce")
-        if reference_column in frame.columns
-        else frame["year"].where(frame["year"].notna())
-    )
+    frame["_valid_custom"] = custom.notna() & np.isfinite(custom) & (custom > 0)
     in_horizon = frame["year"].between(HISTORY_START_YEAR, FINAL_YEAR)
+    expected_years = set(range(HISTORY_START_YEAR, FINAL_YEAR + 1))
     complete, incomplete = [], []
     for code, group in frame[in_horizon].groupby("economy_code"):
-        provided = valid_custom.loc[group.index]
+        provided = group["_valid_custom"]
         if not provided.any():
             continue
-        needed = reference.loc[group.index].notna()
-        if (needed & ~provided).any():
+        if (
+            set(group["year"]) != expected_years
+            or group["year"].duplicated().any()
+            or not provided.all()
+        ):
             incomplete.append(code)
         else:
             complete.append(code)
@@ -819,7 +816,8 @@ def _validated_gdp_projection_rows(rows, economy_code, cutoff, source):
     if rows.empty:
         return pd.DataFrame(columns=columns)
 
-    provided = rows[rows["value"].notna()].copy()
+    _, blank, _, _ = _numeric_values(rows["value"])
+    provided = rows[~blank].copy()
     if provided.empty:
         return pd.DataFrame(columns=columns)
 

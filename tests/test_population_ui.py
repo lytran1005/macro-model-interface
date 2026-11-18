@@ -227,8 +227,148 @@ class PopulationUITests(unittest.TestCase):
             )
         )
 
+    def test_uploaded_custom_population_and_invalid_gdp_across_views(self):
+        data = pd.read_csv(ROOT / "sample_wide_input.csv")
+        australia = data["economy_code"].eq("01_AUS")
+        data["population_1jan_custom"] = float("nan")
+        data.loc[australia, "population_1jan_custom"] = data.loc[
+            australia, "population_1jan"
+        ]
+        future = australia & data["year"].ge(2026)
+        data.loc[future, "population_1jan_custom"] *= 1.1
+        app = self.app_with_view("👥 Population Scenarios")
+        self.file_uploader(app, "Upload Model Input Data CSV").set_value(
+            ("custom.csv", data.to_csv(index=False).encode(), "text/csv")
+        )
+        app.session_state["population_view"] = "By Economy"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertFalse(app.warning, [item.value for item in app.warning])
+        self.assertEqual(len(app.get("vega_lite_chart")), 2)
+        next(item for item in app.selectbox if item.label == "Scenarios").set_value(
+            "Custom"
+        ).run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertFalse(app.warning, [item.value for item in app.warning])
+
+        uploaded = app.session_state["df_wide"]
+        custom, errors = core.run_uploaded_population_scenario(
+            uploaded, "Custom", core.load_gdp_model_parameters(), economy="01_AUS"
+        )
+        self.assertEqual(errors, [])
+        custom_gdp = custom.loc[
+            custom["variable"].eq("real_GDP") & custom["year"].eq(2060), "value"
+        ].iloc[0]
+        custom_population = data.loc[future & data["year"].eq(2060), "population_1jan_custom"].iloc[0]
+        population_chart = self.chart_values(app)
+        plotted_population = population_chart.loc[
+            population_chart["year"].eq(2060), "value"
+        ].iloc[0]
+        self.assertAlmostEqual(plotted_population, custom_population)
+        gdp_chart = app.get("vega_lite_chart")[1]
+        gdp_data = pa.ipc.open_stream(gdp_chart.proto.datasets[0].data.data).read_all().to_pandas()
+        self.assertAlmostEqual(
+            gdp_data.loc[gdp_data["year"].eq(2060), "value"].iloc[0], custom_gdp
+        )
+
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        next(item for item in app.radio if item.label == "Population Scenario").set_value(
+            "Custom"
+        )
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        deep_gdp = self.chart_values(app)
+        self.assertAlmostEqual(
+            deep_gdp.loc[deep_gdp["year"].eq(2060), "value"].iloc[0], custom_gdp
+        )
+
+        default, _, errors = core.run_analysis(
+            core.wide_to_long(uploaded), core.load_gdp_model_parameters()
+        )
+        self.assertEqual(errors, [])
+        default_gdp = default.loc[
+            default["economy_code"].eq("01_AUS")
+            & default["variable"].eq("real_GDP")
+            & default["year"].eq(2060), "value"
+        ].iloc[0]
+        app.session_state["active_view"] = "📈 Economy Comparison"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        chart = self.chart_values(app)
+        self.assertAlmostEqual(
+            chart.loc[chart["year"].eq(2060) & chart["series"].eq("01_AUS"), "plot_value"].iloc[0],
+            default_gdp,
+        )
+        app.session_state["active_view"] = "🌏 APEC Overview"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertTrue(app.get("vega_lite_chart"))
+        map_data = self.apec_map_data(app)
+        default_population = default.loc[
+            default["economy_code"].eq("01_AUS")
+            & default["variable"].eq("population")
+            & default["year"].eq(2025), "value"
+        ].iloc[0]
+        self.assertAlmostEqual(
+            map_data.loc[map_data["economy_code"].eq("01_AUS"), "value"].iloc[0],
+            default_population / 1000,
+        )
+        app.session_state["active_view"] = "📋 Combined Results & Export"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        table = app.dataframe[0].value
+        self.assertAlmostEqual(
+            table.loc[
+                table["economy_code"].eq("01_AUS") & table["year"].eq(2060)
+                & table["variable"].eq("real_GDP"), "value"
+            ].iloc[0], default_gdp,
+        )
+
+        data.loc[australia & data["year"].eq(2026), "Real GDP PPP 2021 USD"] = 0
+        self.file_uploader(app, "Upload Model Input Data CSV").set_value(
+            ("invalid-gdp.csv", data.to_csv(index=False).encode(), "text/csv")
+        )
+        for view in [
+            "👥 Population Scenarios", "🔍 Economy Deep Dive",
+            "📈 Economy Comparison", "🌏 APEC Overview",
+            "📋 Combined Results & Export",
+        ]:
+            with self.subTest(view=view):
+                app.session_state["active_view"] = view
+                app.run(timeout=120)
+                self.assertFalse(app.exception, [item.value for item in app.exception])
+                self.assertTrue(any("01_AUS 2026" in item.value for item in app.error))
+                self.assertEqual(app.get("vega_lite_chart"), [])
+                self.assertEqual(app.dataframe, [])
+                self.assertNotIn(
+                    "⬇️ Download Combined Results (Long Format CSV)",
+                    {item.label for item in app.get("download_button")},
+                )
+
+        data.loc[australia & data["year"].eq(2026), "Real GDP PPP 2021 USD"] = 1_800_000
+        data.loc[australia & data["year"].eq(2028), "Real GDP PPP 2021 USD"] = 1_900_000
+        self.file_uploader(app, "Upload Model Input Data CSV").set_value(
+            ("gapped-gdp.csv", data.to_csv(index=False).encode(), "text/csv")
+        )
+        app.session_state["active_view"] = "👥 Population Scenarios"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertTrue(any("continuous annual values" in item.value for item in app.markdown))
+        self.assertTrue(any("complete results" in item.value for item in app.warning))
+        self.assertEqual(app.get("vega_lite_chart"), [])
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        economy = next(item for item in app.selectbox if item.label == "Choose Economy")
+        self.assertNotIn("01_AUS", economy.options)
+        self.assertTrue(any("continuous annual values" in item.value for item in app.markdown))
+
     def test_global_parameter_csv_upload_errors_and_valid_upload(self):
         app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=120).run()
+        self.assertNotIn("params", app.session_state)
         invalid_files = [
             ("empty-parameters.csv", b"", "No columns to parse"),
             (
@@ -248,11 +388,14 @@ class PopulationUITests(unittest.TestCase):
                 )
                 self.assertTrue(
                     any(
-                        "Custom parameters were not applied" in item.value
+                        "Invalid CSV uploaded. The application has reverted to "
+                        "backend default parameters. Please check the file and upload "
+                        "a valid CSV to apply custom global parameters." in item.value
                         and expected_message in item.value
                         for item in app.error
                     )
                 )
+                self.assertNotIn("params", app.session_state)
 
         valid_parameters = (
             ROOT / "config" / "gdp_model_parameters.csv"
@@ -265,6 +408,188 @@ class PopulationUITests(unittest.TestCase):
             any("Custom parameters loaded for all 21" in item.value
                 for item in app.success)
         )
+        self.assertEqual(app.session_state["params"], core.load_gdp_model_parameters())
+        self.file_uploader(app, "Upload Custom Parameters CSV").set_value(None).run(timeout=120)
+        self.assertNotIn("params", app.session_state)
+
+    def test_deep_dive_reset_restores_backend_defaults(self):
+        sample = pd.read_csv(ROOT / "sample_wide_input.csv")
+        app = self.app_with_view(
+            "🔍 Economy Deep Dive",
+            sample[sample["economy_code"].eq("01_AUS")].copy(),
+        )
+        defaults = core.load_gdp_model_parameters()["01_AUS"]
+
+        alpha = app.number_input(key="deep_dive_01_AUS_alpha_bounded")
+        alpha.set_value(0.45)
+        next(item for item in app.button if item.label == "Run Model").click().run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"]["alpha"], 0.45
+        )
+
+        app.button(key="deep_dive_reset_params_01_AUS").click().run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"], defaults
+        )
+        self.assertEqual(
+            app.number_input(key="deep_dive_01_AUS_alpha_bounded").value,
+            defaults["alpha"],
+        )
+        self.assertNotIn("params", app.session_state)
+
+    def test_deep_dive_reset_uses_global_upload_before_initialization(self):
+        sample = pd.read_csv(ROOT / "sample_wide_input.csv")
+        app = self.app_with_view(
+            "📖 Model Methodology",
+            sample[sample["economy_code"].eq("01_AUS")].copy(),
+        )
+        uploaded = pd.read_csv(ROOT / "config" / "gdp_model_parameters.csv")
+        uploaded.loc[uploaded["economy_code"].eq("01_AUS"), "alpha"] = 0.35
+        self.file_uploader(app, "Upload Custom Parameters CSV").set_value(
+            ("global.csv", uploaded.to_csv(index=False).encode(), "text/csv")
+        ).run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        baseline = {
+            code: values.copy()
+            for code, values in app.session_state["params"].items()
+        }
+        self.assertEqual(len(baseline), 21)
+
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"], baseline["01_AUS"]
+        )
+        app.number_input(key="deep_dive_01_AUS_alpha_bounded").set_value(0.45)
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        next(item for item in app.button if item.label == "Run Model").click().run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"]["alpha"], 0.45
+        )
+        self.assertEqual(app.session_state["params"], baseline)
+
+        app.session_state["active_view"] = "🔍 Economy Deep Dive"
+        app.button(key="deep_dive_reset_params_01_AUS").click().run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"], baseline["01_AUS"]
+        )
+        self.assertEqual(app.number_input(key="deep_dive_01_AUS_alpha_bounded").value, 0.35)
+        self.assertEqual(app.session_state["params"], baseline)
+
+    def test_deep_dive_reset_uses_latest_valid_global_upload_per_economy(self):
+        sample = pd.read_csv(ROOT / "sample_wide_input.csv")
+        app = self.app_with_view(
+            "🔍 Economy Deep Dive",
+            sample[sample["economy_code"].isin(["01_AUS", "03_CDA"])].copy(),
+        )
+        app.number_input(key="deep_dive_01_AUS_alpha_bounded").set_value(0.45)
+        next(item for item in app.button if item.label == "Run Model").click().run(timeout=120)
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"]["alpha"], 0.45
+        )
+
+        template = pd.read_csv(ROOT / "config" / "gdp_model_parameters.csv")
+        for filename, aus_alpha, cda_alpha in [
+            ("global-a.csv", 0.35, 0.45),
+            ("global-b.csv", 0.3, 0.5),
+        ]:
+            uploaded = template.copy()
+            uploaded.loc[uploaded["economy_code"].eq("01_AUS"), "alpha"] = aus_alpha
+            uploaded.loc[uploaded["economy_code"].eq("03_CDA"), "alpha"] = cda_alpha
+            self.file_uploader(app, "Upload Custom Parameters CSV").set_value(
+                (filename, uploaded.to_csv(index=False).encode(), "text/csv")
+            ).run(timeout=120)
+            self.assertFalse(app.exception, [item.value for item in app.exception])
+            self.assertEqual(app.session_state["params"]["01_AUS"]["alpha"], aus_alpha)
+            self.assertEqual(
+                app.session_state["deep_dive_applied_params_01_AUS"]["alpha"], 0.45
+            )
+            if filename == "global-a.csv":
+                first_baseline = {
+                    code: values.copy()
+                    for code, values in app.session_state["params"].items()
+                }
+                app.button(key="deep_dive_reset_params_01_AUS").click().run(timeout=120)
+                self.assertFalse(app.exception, [item.value for item in app.exception])
+                self.assertEqual(
+                    app.session_state["deep_dive_applied_params_01_AUS"],
+                    first_baseline["01_AUS"],
+                )
+                self.assertEqual(app.session_state["params"], first_baseline)
+                app.number_input(key="deep_dive_01_AUS_alpha_bounded").set_value(0.45)
+                next(item for item in app.button if item.label == "Run Model").click().run(timeout=120)
+                self.assertEqual(
+                    app.session_state["deep_dive_applied_params_01_AUS"]["alpha"], 0.45
+                )
+
+        baseline = {
+            code: values.copy()
+            for code, values in app.session_state["params"].items()
+        }
+        self.file_uploader(app, "Upload Custom Parameters CSV").set_value(
+            ("invalid.csv", b"economy_code,alpha\n01_AUS,0.4\n", "text/csv")
+        ).run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertTrue(
+            any(
+                "Invalid CSV uploaded. The application has reverted to "
+                "backend default parameters. Please check the file and upload "
+                "a valid CSV to apply custom global parameters." in item.value
+                for item in app.error
+            )
+        )
+        self.assertNotIn("params", app.session_state)
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"]["alpha"], 0.45
+        )
+        self.assertEqual(app.number_input(key="deep_dive_01_AUS_alpha_bounded").value, 0.45)
+
+        app.button(key="deep_dive_reset_params_01_AUS").click().run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        defaults = core.load_gdp_model_parameters()
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"], defaults["01_AUS"]
+        )
+        self.assertEqual(app.number_input(key="deep_dive_01_AUS_alpha_bounded").value, 0.4)
+        self.assertNotIn("params", app.session_state)
+
+        self.file_uploader(app, "Upload Custom Parameters CSV").set_value(
+            ("global-retry.csv", uploaded.to_csv(index=False).encode(), "text/csv")
+        ).run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertEqual(app.session_state["params"], baseline)
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"], defaults["01_AUS"]
+        )
+        app.button(key="deep_dive_reset_params_01_AUS").click().run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_01_AUS"], baseline["01_AUS"]
+        )
+        self.assertEqual(app.number_input(key="deep_dive_01_AUS_alpha_bounded").value, 0.3)
+        self.assertEqual(app.session_state["params"], baseline)
+
+        next(item for item in app.selectbox if item.label == "Choose Economy").set_value(
+            "03_CDA"
+        ).run(timeout=120)
+        app.number_input(key="deep_dive_03_CDA_alpha_bounded").set_value(0.35)
+        next(item for item in app.button if item.label == "Run Model").click().run(timeout=120)
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_03_CDA"]["alpha"], 0.35
+        )
+        self.assertEqual(app.session_state["params"], baseline)
+        app.button(key="deep_dive_reset_params_03_CDA").click().run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertEqual(
+            app.session_state["deep_dive_applied_params_03_CDA"], baseline["03_CDA"]
+        )
+        self.assertEqual(app.number_input(key="deep_dive_03_CDA_alpha_bounded").value, 0.5)
+        self.assertEqual(app.session_state["params"], baseline)
 
     def test_deep_dive_parameter_csv_upload_errors_and_valid_upload(self):
         sample = pd.read_csv(ROOT / "sample_wide_input.csv")
@@ -503,7 +828,7 @@ class PopulationUITests(unittest.TestCase):
                 app.exception, [element.value for element in app.exception]
             )
             self.assertIn(
-                "APERC Solow-Swan Macro Model Methodology",
+                "APERC Solow-Swan Macroeconomic Model Methodology",
                 {element.value for element in app.subheader},
             )
             self.assertEqual(app.get("vega_lite_chart"), [])
@@ -547,7 +872,7 @@ class PopulationUITests(unittest.TestCase):
     def test_methodology_is_accessible_without_data_or_valid_input(self):
         app = self.app_with_view("📖 Model Methodology")
         self.assertIn(
-            "APERC Solow-Swan Macro Model Methodology",
+            "APERC Solow-Swan Macroeconomic Model Methodology",
             {element.value for element in app.subheader},
         )
         self.assertTrue(
@@ -574,7 +899,7 @@ class PopulationUITests(unittest.TestCase):
                 for item in invalid_methodology.error)
         )
         self.assertIn(
-            "APERC Solow-Swan Macro Model Methodology",
+            "APERC Solow-Swan Macroeconomic Model Methodology",
             {element.value for element in invalid_methodology.subheader},
         )
         self.assertEqual(invalid_methodology.get("vega_lite_chart"), [])
@@ -590,7 +915,7 @@ class PopulationUITests(unittest.TestCase):
         partial = partial[partial["economy_code"].eq("01_AUS")].copy()
         partial_methodology = self.app_with_view("📖 Model Methodology", partial)
         self.assertIn(
-            "APERC Solow-Swan Macro Model Methodology",
+            "APERC Solow-Swan Macroeconomic Model Methodology",
             {element.value for element in partial_methodology.subheader},
         )
         self.assertFalse(
@@ -1277,6 +1602,70 @@ class PopulationUITests(unittest.TestCase):
         radio = next(element for element in app.radio if element.label == "Population Scenario")
         self.assertIn("Custom", radio.options)
 
+    def test_deep_dive_hides_custom_when_medium_and_custom_are_blank(self):
+        data = pd.read_csv(ROOT / "sample_wide_input.csv")
+        data = data[data["economy_code"].eq("01_AUS")].copy()
+        data["population_1jan_custom"] = data["population_1jan"]
+        app = self.app_with_view("🔍 Economy Deep Dive", data)
+        radio = next(item for item in app.radio if item.label == "Population Scenario")
+        radio.set_value("Custom").run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+
+        loaded = app.session_state["df_wide"]
+        missing = loaded["year"].eq(2040)
+        loaded.loc[missing, ["population_1jan_medium", "population_1jan_custom"]] = None
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        radio = next(item for item in app.radio if item.label == "Population Scenario")
+        self.assertNotIn("Custom", radio.options)
+        self.assertEqual(radio.value, "Default")
+        self.assertFalse(app.error, [item.value for item in app.error])
+
+        loaded.loc[missing, "population_1jan_custom"] = loaded.loc[
+            missing, "population_1jan"
+        ]
+        app.run(timeout=120)
+        radio = next(item for item in app.radio if item.label == "Population Scenario")
+        self.assertIn("Custom", radio.options)
+        radio.set_value("Custom").run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        self.assertFalse(app.error, [item.value for item in app.error])
+
+    def test_population_scenario_options_follow_selected_economy(self):
+        data = pd.read_csv(ROOT / "sample_wide_input.csv")
+        data["population_1jan_custom"] = float("nan")
+        included = data["economy_code"].isin(["01_AUS", "04_CHL"])
+        data.loc[included, "population_1jan_custom"] = data.loc[
+            included, "population_1jan"
+        ]
+        data.loc[
+            data["economy_code"].eq("04_CHL") & data["year"].eq(2040),
+            "population_1jan_custom",
+        ] = float("nan")
+        app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=120)
+        app.session_state["df_wide"] = data
+        app.session_state["data_source"] = "uploaded"
+        app.session_state["active_view"] = "👥 Population Scenarios"
+        app.session_state["population_view"] = "By Economy"
+        app.run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        scenario = next(item for item in app.selectbox if item.label == "Scenarios")
+        self.assertIn("Custom", scenario.options)
+        scenario.set_value("Custom").run(timeout=120)
+
+        economy = next(item for item in app.selectbox if item.label == "Economy")
+        economy.set_value("Chile (04_CHL)").run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        scenario = next(item for item in app.selectbox if item.label == "Scenarios")
+        self.assertNotIn("Custom", scenario.options)
+        self.assertEqual(scenario.value, "All")
+
+        economy = next(item for item in app.selectbox if item.label == "Economy")
+        economy.set_value("Australia (01_AUS)").run(timeout=120)
+        self.assertFalse(app.exception, [item.value for item in app.exception])
+        scenario = next(item for item in app.selectbox if item.label == "Scenarios")
+        self.assertIn("Custom", scenario.options)
+
     def test_population_caption_is_concise_for_uploaded_data(self):
         app = self.app_with_population(
             "👥 Population Scenarios",
@@ -1423,6 +1812,8 @@ class PopulationUITests(unittest.TestCase):
         self.assertTrue(
             any("Custom is not shown in the total" in item.value for item in app.info)
         )
+        scenario = next(item for item in app.selectbox if item.label == "Scenarios")
+        self.assertNotIn("Custom", scenario.options)
         caption = next(
             element.value
             for element in app.caption
@@ -1434,6 +1825,8 @@ class PopulationUITests(unittest.TestCase):
             "df_wide"
         ]["population_1jan"]
         app.run(timeout=120)
+        scenario = next(item for item in app.selectbox if item.label == "Scenarios")
+        self.assertIn("Custom", scenario.options)
         caption = next(
             element.value
             for element in app.caption

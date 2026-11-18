@@ -1180,10 +1180,17 @@ with st.sidebar:
                 UnicodeDecodeError,
                 ValueError,
             ) as exc:
-                st.error(f"Custom parameters were not applied: {exc}")
+                st.session_state.pop("params", None)
+                st.error(
+                    "Invalid CSV uploaded. The application has reverted to backend "
+                    "default parameters. Please check the file and upload a valid CSV "
+                    f"to apply custom global parameters.\n\nDetails: {exc}"
+                )
             else:
                 st.session_state["params"] = uploaded_params
                 st.success("Custom parameters loaded for all 21 APEC economies")
+        else:
+            st.session_state.pop("params", None)
         st.download_button(
             "Download Parameter Template CSV",
             sample_params_csv().to_csv(index=False).encode(),
@@ -1593,13 +1600,6 @@ with active_tab:
                 for code in all_population_codes
             ]
             population_label_to_code = dict(zip(population_labels, all_population_codes))
-            scenario_choice = [DEFAULT_SCENARIO, "High", "Low", "Medium"]
-            if CUSTOM_SCENARIO in scenario_order:
-                scenario_choice.append(CUSTOM_SCENARIO)
-            scenario_choice.append("All")
-            if st.session_state.get("population_scenario_selected") not in scenario_choice:
-                st.session_state.pop("population_scenario_selected", None)
-
             year_min = int(population_scenarios["year"].min())
             year_max = int(population_scenarios["year"].max())
             with st.sidebar:
@@ -1620,6 +1620,22 @@ with active_tab:
                     disabled=population_view == "Total",
                     help="Choose one economy for the economy-level view.",
                 )
+            scenario_choice = [DEFAULT_SCENARIO, "High", "Low", "Medium"]
+            if CUSTOM_SCENARIO in scenario_order and (
+                (
+                    population_view == "Total"
+                    and set(custom_codes) == set(all_population_codes)
+                )
+                or (
+                    population_view == "By Economy"
+                    and population_label_to_code[selected_population_label] in custom_codes
+                )
+            ):
+                scenario_choice.append(CUSTOM_SCENARIO)
+            scenario_choice.append("All")
+            if st.session_state.get("population_scenario_selected") not in scenario_choice:
+                st.session_state.pop("population_scenario_selected", None)
+
             with st.sidebar:
                 selected_scenario = st.selectbox(
                     "Scenarios",
@@ -1649,7 +1665,11 @@ with active_tab:
                         key="population_year_to_final",
                     )
 
-            selected_scenarios = scenario_order if selected_scenario == "All" else [selected_scenario]
+            selected_scenarios = (
+                [scenario for scenario in scenario_order if scenario in scenario_choice]
+                if selected_scenario == "All"
+                else [selected_scenario]
+            )
             if incomplete_custom_codes:
                 st.warning(
                     "Custom population ignored for economies with missing or invalid values: "
@@ -1657,10 +1677,10 @@ with active_tab:
                 )
             if (
                 population_view == "Total"
-                and CUSTOM_SCENARIO in selected_scenarios
+                and selected_scenario == "All"
+                and CUSTOM_SCENARIO in scenario_order
                 and set(custom_codes) != set(all_population_codes)
             ):
-                selected_scenarios = [s for s in selected_scenarios if s != CUSTOM_SCENARIO]
                 st.info(
                     "Custom is not shown in the total because it does not cover all economies in the loaded data. "
                     "Use the By Economy view."
@@ -2034,16 +2054,13 @@ with active_tab:
             with st.expander("Model Parameters", expanded=True):
                 widget_key = lambda parameter: f"deep_dive_{sel_code}_{parameter}"
                 if st.button(
-                    "↻ Reset to Preloaded Defaults",
+                    "↻ Reset to Active Global Parameters",
                     key=f"deep_dive_reset_params_{sel_code}",
-                    help="Restore this economy's values from config/gdp_model_parameters.csv and apply them immediately.",
+                    help="Restore this economy's active global parameters and apply them immediately.",
                     use_container_width=True,
                 ):
-                    configured_params = load_gdp_model_parameters(
-                        "gdp_model_parameters.csv"
-                    )[sel_code]
-                    st.session_state[applied_params_key] = configured_params.copy()
-                    set_deep_dive_parameter_widgets(sel_code, configured_params)
+                    st.session_state[applied_params_key] = econ_params.copy()
+                    set_deep_dive_parameter_widgets(sel_code, econ_params)
 
                 with st.form(
                     f"deep_dive_parameter_form_{sel_code}",
@@ -2468,7 +2485,7 @@ with active_tab:
 
     # --- TAB 4: Model Methodology ----------------------------------------------
     if active_view == VIEW_DOCS:
-        st.subheader("APERC Solow-Swan Macro Model Methodology")
+        st.subheader("APERC Solow-Swan Macroeconomic Model Methodology")
         st.markdown(r"""
 ### Model Formulation
 
@@ -2478,36 +2495,39 @@ $$Y(t) = K(t)^\alpha \cdot \big(E(t) \cdot L(t)\big)^{1-\alpha}$$
 
 Where:
 - $Y(t)$: Real GDP in millions of 2021 USD (PPP).
-- $K(t)$: Capital stock, accumulated via $K(t) = K(t-1) \cdot (1 - \delta(t)) + s(t) \cdot Y(t-1)$.
-- $E(t)$: Labour efficiency (technology factor).
+- $K(t)$: Capital stock.
+- $E(t)$: Labour efficiency.
 - $L(t)$: Labour supply represented by total population (thousands).
 - $\alpha$: Capital share parameter (default $0.4$).
-- $s(t)$: Gross national savings rate (% of GDP / 100).
-- $\delta(t)$: Capital depreciation rate.
+
+Capital stock evolves through investment and depreciation:
+
+$$K(t) = K(t-1) \cdot \big(1 - \delta(t)\big) + s(t) \cdot Y(t-1)$$
+
+Here, $s(t)$ is the gross national savings rate and $\delta(t)$ is the depreciation rate.
 
 ---
 
-### Jump-off Architecture (10th Outlook)
+### Historical Data and Model Inputs
 
-1. **Penn World Table (PWT 11.0):** Provides the historical output-to-capital ratio ($Y/K$) and depreciation rate ($\delta$) through **2023**.
-   - The app derives historical capital stock as $K = GDP / (Y/K)$; it does not use a PWT capital-stock series directly. The latest available ratio is carried forward through the historical GDP source cutoff (2025 for non-Chinese Taipei economies and 2031 for Chinese Taipei).
-   - The 2023 PWT depreciation value is carried forward through that cutoff. Capital and depreciation then evolve during model years, including years with supplied GDP overrides; overrides may delay the GDP output handoff but do not extend the historical carry-forward.
-2. **Population Data and Scenarios:**
-   - **Historical population** (through **2024**)**:** Sourced from EGEDA or custom historical data provided by researcher.
-   - **Population projection** (from **2025**)**:** Sourced from UN DESA Medium, Low or High projection datasets, or custom projections provided by researcher.
-   - **Default population:** Combines the historical and projection sources selected by the researcher for each economy.
-   - **Sensitivity scenarios:** Low, Medium and High population scenarios use the selected historical source and their corresponding UN DESA projections. An optional Custom scenario is available where valid custom population data are provided.
-3. **GDP Historical Data and Projection Anchors:**  
-   - **World Bank WDI:** Provides historical GDP data through **2025** for 20 APEC member economies, excluding Chinese Taipei.
-   - **IMF WEO:** Provides GDP data and projections through **2031** for Chinese Taipei (`18_CT`).
-   - **Special cases:** Where available, researcher-supplied partial GDP projections are incorporated before the model's own GDP calculations begin.
-   - **Model calculation start:** GDP projections generated by the model begin immediately after the final year of available historical or researcher-supplied GDP data. In the absence of partial projections, calculations start in **2026** for the 20 economies and **2032** for Chinese Taipei.
-4. **Gross National Savings:**
-   - The bundled sample uses WDI only for the 20 economies other than Chinese Taipei, through 2025. Chinese Taipei uses IMF only: historical observations through 2030 and its 2031 jump-off value. WDI gaps are not filled with IMF observations.
-   - The accepted 45 historical gaps remain blank: Brunei Darussalam (1990-2000), Hong Kong, China (1990-1997), Japan (1990-1995), New Zealand (1990-1999), Russia (1990-1993), and Viet Nam (1990-1995). These are not missing projected savings values or model execution blockers; the full list is also in `config/gdp_model_parameters.md`.
-5. **Labour Efficiency & Rate Convergence:**
-   - Labour efficiency growth is calculated over a rolling look-back window and guided towards the long-term target corridor $[low\_eff, high\_eff]$ at the adjustment rate $change\_eff$.
-   - Savings and depreciation rates transition dynamically towards their respective parameter corridors $[low\_sav, high\_sav]$ and $[low\_delta, high\_delta]$.
-6. **Capital-Growth Guardrail:** For non-zero prior-year capital growth, the model compares the ratio of raw current growth to prior applied growth against the band $[1-c, 1+c]$, where $c$ is `cap_compare`. Below the band it applies $g_{prior}(1-c)$; above it applies $g_{prior}(1+c)$; inside it retains raw growth. Comparing the ratio preserves the intended behavior for negative prior growth. At exact-zero prior growth, raw growth passes through for that year and the guardrail resumes once prior growth is non-zero. `cap_compare = 0` is a zero-width band, not a disabled guardrail; configured values must be finite and in $[0,1)$.
-7. **Horizon:** Historical data begin in 1990, with the main model projection horizon extending through 2060.
+The bundled sample uses the following main data sources. User-uploaded datasets
+use the values supplied in the CSV; the app does not identify their underlying sources.
+
+- **GDP:** Historical GDP data are sourced from the World Bank's World Development Indicators (WDI) for 20 APEC member economies and the IMF World Economic Outlook (WEO) for Chinese Taipei. Where available, researcher-provided GDP projections are incorporated before the model generates its own projections.
+- **Population:** Historical population comes from EGEDA or researcher-provided data. Projections use UN DESA Medium, Low or High scenarios, or researcher-provided custom projections.
+- **Capital and depreciation:** Historical capital stock is derived using GDP and the historical output-to-capital ratio from Penn World Table (PWT 11.0). Capital stock and depreciation are subsequently updated in the model.
+- **Gross national savings:** Historical savings rates provide the starting values for projections. Projected savings rates gradually adjust towards economy-specific target ranges and are used to determine investment in the capital accumulation process.
+
+### Model Projections
+
+- **Labour efficiency:** Projected growth is based on recent historical trends and economy-specific target ranges.
+- **Savings:** The savings rate adjusts towards its configured target range over time.
+- **Depreciation:** The depreciation rate adjusts towards its configured target range over time.
+- **Population:** Alternative population scenarios allow users to examine how different demographic trajectories affect GDP projections.
+
+Model-generated GDP projections begin after the final year of historical or researcher-provided GDP data.
+
+### Projection Horizon
+
+Historical data begin in 1990, and the main model projection horizon extends through 2060.
 """)

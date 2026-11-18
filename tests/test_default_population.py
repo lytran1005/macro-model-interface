@@ -227,6 +227,49 @@ class DefaultModelIntegrationTests(unittest.TestCase):
         wide.loc[wide.index[0], "population_1jan_custom"] = 0
         self.assertNotIn("Custom", core.available_population_scenarios(wide))
 
+    def test_custom_eligibility_does_not_depend_on_medium_coverage(self):
+        wide = pd.read_csv(ROOT / "sample_wide_input.csv")
+        wide = wide[wide["economy_code"].isin(["01_AUS", "04_CHL"])].copy()
+        wide["population_1jan_custom"] = wide["population_1jan"]
+        missing = wide["economy_code"].eq("04_CHL") & wide["year"].eq(2040)
+        wide.loc[missing, ["population_1jan_medium", "population_1jan_custom"]] = None
+        core.validate_wide_model_input(wide)
+
+        self.assertEqual(
+            core.custom_population_status(wide), (["01_AUS"], ["04_CHL"])
+        )
+        paths = core.population_scenarios_from_wide(wide)
+        self.assertEqual(
+            set(paths.loc[paths["scenario"].eq("Custom"), "economy_code"]),
+            {"01_AUS"},
+        )
+        result, errors = core.run_uploaded_population_scenario(
+            wide, "Custom", core.load_gdp_model_parameters()
+        )
+        self.assertEqual(errors, [])
+        self.assertEqual(set(result["economy_code"]), {"01_AUS"})
+
+        wide.loc[missing, "population_1jan_custom"] = wide.loc[
+            missing, "population_1jan"
+        ]
+        self.assertEqual(
+            core.custom_population_status(wide), (["01_AUS", "04_CHL"], [])
+        )
+        result, errors = core.run_uploaded_population_scenario(
+            wide, "Custom", core.load_gdp_model_parameters(), economy="04_CHL"
+        )
+        self.assertEqual(errors, [])
+        self.assertEqual(set(result["economy_code"]), {"04_CHL"})
+
+    def test_custom_eligibility_requires_each_year_once(self):
+        wide = pd.read_csv(ROOT / "sample_wide_input.csv")
+        wide = wide[wide["economy_code"] == "01_AUS"].copy()
+        wide["population_1jan_custom"] = wide["population_1jan"]
+        missing = wide[wide["year"].ne(2040)]
+        self.assertEqual(core.custom_population_status(missing), ([], ["01_AUS"]))
+        duplicate = pd.concat([wide, wide[wide["year"].eq(2040)]], ignore_index=True)
+        self.assertEqual(core.custom_population_status(duplicate), ([], ["01_AUS"]))
+
 
 if __name__ == "__main__":
     unittest.main()

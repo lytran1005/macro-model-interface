@@ -1,3 +1,4 @@
+import io
 import sys
 import unittest
 from pathlib import Path
@@ -131,6 +132,112 @@ class GdpProjectionOverrideTests(unittest.TestCase):
         wide = pd.concat([wide, duplicated], ignore_index=True)
         with self.assertRaisesRegex(ValueError, "duplicate"):
             core.run_analysis(core.wide_to_long(wide), self.params)
+
+    def test_uploaded_blank_gdp_and_custom_population_scenarios(self):
+        wide = self.sample[self.sample["economy_code"].isin(["01_AUS", "04_CHL"])].copy()
+        wide["population_1jan_custom"] = ""
+        australia = wide["economy_code"].eq("01_AUS")
+        wide.loc[australia, "population_1jan_custom"] = (
+            wide.loc[australia, "population_1jan"].astype(str)
+        )
+        future_australia = australia & wide["year"].ge(2026)
+        wide.loc[future_australia, "population_1jan_custom"] = (
+            wide.loc[future_australia, "population_1jan"].mul(1.1).astype(str)
+        )
+        wide = pd.read_csv(io.StringIO(wide.to_csv(index=False)), keep_default_na=False)
+        australia = wide["economy_code"].eq("01_AUS")
+        core.validate_wide_model_input(wide)
+        self.assertEqual(core.custom_population_status(wide), (["01_AUS"], []))
+        paths = core.population_scenarios_from_wide(wide)
+        custom = paths[paths["scenario"].eq("Custom")]
+        self.assertEqual(set(custom["economy_code"]), {"01_AUS"})
+        expected = wide[wide["economy_code"].eq("01_AUS")].set_index("year")
+        pd.testing.assert_series_equal(
+            custom.set_index("year")["value"].sort_index(),
+            pd.to_numeric(expected["population_1jan_custom"]).sort_index(),
+            check_names=False,
+        )
+
+        for overrides in ({}, {2026: 1_800_000.0, 2027: 1_850_000.0}):
+            with self.subTest(overrides=overrides):
+                data = wide.copy()
+                for year, value in overrides.items():
+                    data.loc[australia & data["year"].eq(year), self.gdp_column] = str(value)
+                long = core.wide_to_long(data)
+                extracted = core.uploaded_gdp_projection_overrides(long, "01_AUS")
+                self.assertEqual(extracted["year"].tolist(), list(overrides))
+                self.assertEqual(extracted["value"].tolist(), list(overrides.values()))
+                standard, _, errors = core.run_analysis(long, self.params)
+                self.assertEqual(errors, [])
+                default, errors = core.run_uploaded_population_scenario(
+                    data, "Default", self.params, economy="01_AUS"
+                )
+                self.assertEqual(errors, [])
+                custom_result, errors = core.run_uploaded_population_scenario(
+                    data, "Custom", self.params, economy="01_AUS"
+                )
+                self.assertEqual(errors, [])
+                pd.testing.assert_frame_equal(
+                    default.reset_index(drop=True),
+                    standard[standard["economy_code"].eq("01_AUS")].reset_index(drop=True),
+                )
+                actual_population = custom_result[
+                    custom_result["variable"].eq("population")
+                ].set_index("year")["value"]
+                pd.testing.assert_series_equal(
+                    actual_population.sort_index(),
+                    pd.to_numeric(expected["population_1jan_custom"]).sort_index(),
+                    check_names=False,
+                )
+                explicit = data[australia].copy()
+                explicit["population_1jan"] = pd.to_numeric(explicit["population_1jan_custom"])
+                explicit_result, _, errors = core.run_analysis(
+                    core.wide_to_long(explicit), self.params
+                )
+                self.assertEqual(errors, [])
+                pd.testing.assert_frame_equal(custom_result, explicit_result)
+                for year, value in overrides.items():
+                    self.assertAlmostEqual(self.real_gdp_at(custom_result, "01_AUS", year), value)
+                self.assertNotAlmostEqual(
+                    self.real_gdp_at(custom_result, "01_AUS", 2060),
+                    self.real_gdp_at(default, "01_AUS", 2060),
+                )
+                sensitivity, errors = core.run_uploaded_population_gdp_scenarios(data, self.params)
+                self.assertEqual(errors, [])
+                for scenario, result in [("Default", default), ("Custom", custom_result)]:
+                    value = sensitivity.loc[
+                        sensitivity["economy_code"].eq("01_AUS")
+                        & sensitivity["scenario"].eq(scenario)
+                        & sensitivity["year"].eq(2060), "value"
+                    ].iloc[0]
+                    self.assertAlmostEqual(value, self.real_gdp_at(result, "01_AUS", 2060))
+
+    def test_blank_custom_and_invalid_uploaded_gdp_values(self):
+        wide = self.economy_input("01_AUS")
+        wide["population_1jan_custom"] = ""
+        wide = pd.read_csv(io.StringIO(wide.to_csv(index=False)), keep_default_na=False)
+        self.assertEqual(core.custom_population_status(wide), ([], []))
+        core.validate_wide_model_input(wide)
+        wide["population_1jan_custom"] = wide["population_1jan"].astype(str)
+        wide.loc[wide["year"].eq(2040), "population_1jan_custom"] = " "
+        core.validate_wide_model_input(wide)
+        self.assertEqual(core.custom_population_status(wide), ([], ["01_AUS"]))
+        with self.assertRaisesRegex(ValueError, "No economy has a complete custom"):
+            core.run_uploaded_population_scenario(wide, "Custom", self.params)
+        for value in ["bad", "0", "-1", "inf"]:
+            with self.subTest(value=value):
+                data = wide.copy()
+                data.loc[data["year"].eq(2026), self.gdp_column] = value
+                with self.assertRaises(ValueError):
+                    core.validate_wide_model_input(data)
+                with self.assertRaisesRegex(ValueError, "finite and positive"):
+                    core.uploaded_gdp_projection_overrides(core.wide_to_long(data), "01_AUS")
+        data = wide.copy()
+        data.loc[data["year"].eq(2026), self.gdp_column] = "1800000"
+        data.loc[data["year"].eq(2027), self.gdp_column] = " "
+        data.loc[data["year"].eq(2028), self.gdp_column] = "1900000"
+        with self.assertRaisesRegex(ValueError, "continuous annual"):
+            core.uploaded_gdp_projection_overrides(core.wide_to_long(data), "01_AUS")
 
 
 if __name__ == "__main__":

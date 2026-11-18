@@ -90,19 +90,20 @@ Default path's history or projection. It does not populate or enable the
 separate `population_1jan_custom` comparison scenario.
 
 The optional Custom scenario is determined from the `population_1jan_custom`
-column in the loaded wide CSV. An economy is eligible when it has at least one
-finite, positive custom value and a finite, positive custom value for every
-1990–2060 row where `population_1jan_medium` has a numeric value. If the
-Medium column is absent, numeric-year rows in the model horizon are used as
-the reference. Economies with no valid custom values are ignored; incomplete
-paths are reported and not offered for those economies.
+column in the loaded wide CSV. An economy is eligible when it has exactly one
+finite, positive custom value for every year from 1990 through 2060,
+independently of the Medium path. Economies with entirely blank custom values
+have no Custom scenario; partially blank paths are not offered. Supplied
+non-numeric, non-finite, or non-positive custom values are rejected during
+wide-input validation.
 
-The Population Scenarios tab offers Custom when at least one economy has an
-eligible path; its APEC total includes Custom only when every economy in the
-loaded population data is eligible. Economy Deep Dive offers Custom only for
-an eligible selected economy. When refreshing the bundled sample, existing
-`population_1jan_custom` values are preserved by economy and year; the
-configured Custom source workbook is not copied into that scenario column.
+The Population Scenarios tab offers Custom in its By Economy view only for an
+eligible selected economy; its APEC total includes Custom only when every
+economy in the loaded population data is eligible, and does not offer it
+otherwise. Economy Deep Dive also offers Custom only for an eligible selected
+economy. When refreshing the bundled sample, existing `population_1jan_custom`
+values are preserved by economy and year; the configured Custom source workbook
+is not copied into that scenario column.
 
 ## Updating the configuration
 
